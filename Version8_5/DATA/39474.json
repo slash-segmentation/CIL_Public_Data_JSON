@@ -1,0 +1,106 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39474.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39474.jpg",
+                "Size": 149942
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39474.zip",
+                "Size": 212998
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39474_orig.jpg",
+                "Size": 212860
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {"free_text": "stoma"},
+            "BIOLOGICALPROCESS": {
+                "onto_name": "respiratory gaseous exchange",
+                "onto_id": "GO:0007585"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Tanacetum parthenium",
+                "onto_id": "NCBITaxon:127999"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0008354 Feverfew stoma.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 786
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {"free_text": "colorized"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "parenchymal cell",
+                    "onto_id": "CL:0000668"
+                },
+                {
+                    "onto_name": "epidermal cell",
+                    "onto_id": "CL:0000362"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Colorized scanning electron micrograph of a Feverfew (Tanacetum parthenium) stoma. Measuring 20 microns, a stoma (plural stomata) is a pore, found in the leaf and stem epidermis that is used for gas exchange. The pore is bordered by a pair of specialized parenchyma cells known as guard cells that are responsible for regulating the size of the opening. Carbon dioxide and oxygen enters the plant through these pores and used in photosynthesis and respiration. Oxygen produced by photosynthesis exits through these same openings. Water vapor is also released into the atmosphere through these pores in a process called transpiration."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Annie Cavanagh"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

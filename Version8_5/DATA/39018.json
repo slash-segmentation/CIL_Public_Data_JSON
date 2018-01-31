@@ -1,0 +1,106 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39018.zip",
+                "Size": 156037
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39018.jpg",
+                "Size": 135602
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39018_orig.jpg",
+                "Size": 155899
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39018.tif",
+                "Size": 900000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "modes of light microscopy",
+                "onto_id": "FBbi:00000345"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "protection"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in amount of elastic light scattering",
+                "onto_id": "FBbi:00000600"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Cucumis sativus",
+                "onto_id": "NCBITaxon:3659"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of photons",
+                "onto_id": "FBbi:00000587"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image was taken at low power using a digital light microscope imaged with no preparation, fresh and without a coverslip.  \nB0007820 Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 514
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": [
+                {
+                    "onto_name": "plant cell",
+                    "onto_id": "CL:0000610"
+                },
+                {"free_text": "cucumber peel"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Light micrograph showing the detail on cucumber skin. Cucumbers are a source of vitamin C and often eaten raw and uncooked. They can also be pickled to increase shelf life, but this process removes much of the vitamin C."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Daniel J. Geduld"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

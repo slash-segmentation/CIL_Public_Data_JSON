@@ -1,0 +1,99 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40623.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40623.jpg",
+                "Size": 77405
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40623.zip",
+                "Size": 54708
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "40623_orig.jpg",
+                "Size": 54570
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {"free_text": "fixed in carbon tape"},
+                {"free_text": "platinum coated"}
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {"free_text": "starch"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Musa",
+                "onto_id": "NCBITaxon:4640"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected on FEI Quanta Family SEM at a magnification of 5,000x, with a horizontal field width of 59.7 μm, and a voltage of 2 kV.  A SE Spot detector, a 2.0 nA and a working distance of10.2 mm were used to collect the image."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 670
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 617
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron micrograph of banana starch fixed in carbon tape and platinum coated."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "FEI Life Sciences Images",
+                    "Href": "http://www.fei.com/resources/image-gallery/Banana-Starch-2131.aspx"
+                }],
+                "Contributors": ["Liz Dagostino"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

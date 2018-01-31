@@ -1,0 +1,124 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11801.zip",
+                "Size": 6914176
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11801.flv",
+                "Size": 266912
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11801.jpg",
+                "Size": 21629
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "9355",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nucleus",
+                "onto_id": "GO:0005634"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "anatomical structure morphogenesis",
+                    "onto_id": "GO:0009653"
+                },
+                {
+                    "onto_name": "convergent extension",
+                    "onto_id": "GO:0060026"
+                },
+                {
+                    "onto_name": "cell migration involved in gastrulation",
+                    "onto_id": "GO:0042074"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "compartmentalization of stain or label",
+                "onto_id": "FBbi:00000604"
+            },
+            "ZEBRAFISH_ANATOMY": [{
+                "onto_name": "Gastrula:75%-epiboly",
+                "onto_id": "ZFS:0000020"
+            }],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Danio rerio",
+                "onto_id": "NCBITaxon:7955"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 336
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Timelapse of dorsal yolk syncytial layer (YSL) nuclear movements during zebrafish gastrulation. A marginal band of YSL nuclei undergo epiboly toward the vegetal pole while internal-YSL (I-YSL) nuclei move away from the margin and toward the animal pole. Starting about mid-gastrulation (70% epiboly), YSL nuclei begin converging toward the dorsal midline and extending along the anteior/posterior  axis.  Video made available by Mark Cooper through Zebrafish - The Living Laboratory."},
+            "CELLTYPE": {"free_text": "yolk syncytial layer cell"},
+            "ATTRIBUTION": {
+                "OTHER": [
+                    "Zebrafish - The Living Laboratory",
+                    "Dev Dyn 222611\u2013 624 (2001)"
+                ],
+                "URLs": [{
+                    "Label": "Fishscope",
+                    "Href": "http://depts.washington.edu/fishscop/index.html"
+                }],
+                "Contributors": [
+                    "Leonard D'Amico",
+                    "Mark S. Cooper"
+                ],
+                "PUBMED": ["11748830"]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "ZFA:ZFS:0000020"},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

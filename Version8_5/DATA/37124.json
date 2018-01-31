@@ -1,0 +1,92 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "37124.tif",
+                "Size": 60000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "37124.jpg",
+                "Size": 5536937
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "37124.zip",
+                "Size": 59900092
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus",
+                "onto_id": "NCBITaxon:10114"
+            },
+            "TECHNICALDETAILS": {"free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original magnification X88,000."},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "GROUP_ID": "11078",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 6000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4991
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of capillary rat intestine fenestrated endothelium. One of Dr. Palade's long standing interests concerned the structure and function of capillaries. He and his many colleagues identiified a varitey of types of capillary endothelium (fenestrated, continuous) and determined the role of caveolae in transporting macromolecules across endothelial cells. Collaborators included: Nicolae and Maya Simeonescu and Romaine Bruns\nImage made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "capillary endothelial cell",
+                    "onto_id": "CL:0002144"
+                },
+                {
+                    "onto_name": "fenestrated cell",
+                    "onto_id": "CL:0000666"
+                }
+            ],
+            "ATTRIBUTION": {
+                "DATE": ["02/01/1962"],
+                "URLs": [{
+                    "Label": "George E. Palade EM Slide Collection",
+                    "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeCapBA"
+                }],
+                "Contributors": ["George E. Palade"]
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

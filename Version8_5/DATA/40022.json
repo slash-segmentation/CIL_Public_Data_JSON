@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40022.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40022.jpg",
+                "Size": 49949
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "dendrite",
+                    "onto_id": "GO:0030425"
+                },
+                {
+                    "onto_name": "axon",
+                    "onto_id": "GO:0030424"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "TECHNICALDETAILS": {"free_text": "Tissue was prepared from a 6 month adult male mouse strain, C57BL/129SvJ. Tissue sections, 100µm, were generated using a vibratome. The entire through series of images were gathered using a Bio-Rad Radiance 2000 with a 40X 0.75 NA."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "intracellular filling",
+                    "onto_id": "FBbi:00000088"
+                },
+                {
+                    "onto_name": "lucifer yellow",
+                    "onto_id": "FBbi:00000057"
+                }
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "CNS neuron (sensu Vertebrata)",
+                "onto_id": "CL:0000117"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Z projection through a through-focus series of a medium spiny neuron of the neostriatum from a dopamine transporter knock out mouse, injected with Lucifer Yellow and then photoconverted.   This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database, where the reconstruction of the entire cell can also be found."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 3693",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3693"
+                }],
+                "Contributors": ["Diana Price"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

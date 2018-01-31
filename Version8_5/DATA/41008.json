@@ -1,0 +1,95 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41008.tif",
+                "Size": 52400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41008.jpg",
+                "Size": 3462170
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41008.zip",
+                "Size": 13590945
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "41008_orig.jpg",
+                "Size": 13590807
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Tribulus",
+                "onto_id": "NCBITaxon:66647"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "IMAGINGMODE": [
+                {"free_text": "epi-illumination"},
+                {
+                    "onto_name": "modes of light microscopy",
+                    "onto_id": "FBbi:00000345"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4589
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "axial projection"},
+            "IMAGEDESCRIPTION": {"free_text": "Primordium (bud) of the weedy flower Tribulus sp. at its final stages of development. More than 100 z-stacks were combined to produce the final image, which was captured using epiillumination.  Fifth Prize, 2010 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["University of Tabriz, Department of Horticultural Sciences, Tabriz, Iran"],
+                "URLs": [{
+                    "Label": "2010 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2010/5.html"
+                }],
+                "Contributors": [
+                    "M. Reza Dadpour",
+                    "2010 Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "BIOLOGICALPROCESS": {"free_text": "bud primordium development"},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in intrinsic optical density",
+                "onto_id": "FBbi:00000602"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

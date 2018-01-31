@@ -1,0 +1,120 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11844.flv",
+                "Size": 656458
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11844.jpg",
+                "Size": 48310
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11844.zip",
+                "Size": 6889600
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "4105",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "actin cytoskeleton",
+                "onto_id": "GO:0015629"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "actin polymerization or depolymerization",
+                "onto_id": "GO:0008154"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "Pt K1 (NBL-3)",
+                "onto_id": "MCC:0000388"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Potorous tridactylus",
+                "onto_id": "NCBITaxon:9310"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": {"free_text": "activated Rac"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 475,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.131
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 450,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.131
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "X-Rhodamine",
+                "onto_id": "FBbi:00000584"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Actin dynamics in a Rac1(Q61L)-expressing PtK1 cell. Fast retrograde flow occurs in the lamellipodium and slow retrograde flow in the lamellum. The cell was microinjected with X-rhodamine-conjugated actin and observed by spinning disk confocal microscopy. Fluorescent speckle time-lapse series were acquired on a spinning disk confocal microscope with a 100/1.4 NA Plan Apo objective lens.   Images were taken every 5 s and are played back at 15 frames/s. For still images, see Fig. 5B of associated manuscript (J Cell Biol, 161:845-851, 2003)."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol, 161:845-851, 2003"],
+                "Contributors": [
+                    "Torsten Wittmann",
+                    "Gary M. Bokoch",
+                    "Clare M. Waterman-Storer"
+                ],
+                "PUBMED": ["12796474"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

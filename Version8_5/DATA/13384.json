@@ -1,0 +1,118 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13384.tif",
+                "Size": 333900000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13384.zip",
+                "Size": 333809938
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13384.jpg",
+                "Size": 302695
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "7282",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nuclear chromatin",
+                "onto_id": "GO:0000790"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "tumorigenesis"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "CELLLINE": {"free_text": "MCF-10A.B2"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 53,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.3
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Fluorescein (FITC)",
+                    "onto_id": "FBbi:00000451"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "Rhodamine",
+                    "onto_id": "FBbi:00000452"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "FISH detection of PTEN and VEGF gene loci in MCF-10.B2 cells during mammary epithelial differentiation and early mammary tumorigenesis. \nPTEN  (red) and VEGF (green)were detected in paraformaldehyde fixed MCF10A.B2 cells grown for 20 days under 3D growth conditions. DAPI (blue) delineates nuclei.  A representative acinus structure is shown. The z-series was recorded with a Zeiss LSM 510 META confocal microscope with a 63x 1.4 NA objective lens and zoom level 3. Optical sections imaged totaled approximately 15-20 microns in thickness.\nSee Fig 2 in Meaburn and Misteli, 2008 J Cell Biol 180:39-50."},
+            "CELLTYPE": {"free_text": "mammary epithelia (MEC)"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Meaburn KJ, Misteli T 2008 J Cell Biol 180:39-50"],
+                "Contributors": [
+                    "Karen Meaburn",
+                    "Tom Misteli"
+                ],
+                "PUBMED": ["18195100"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

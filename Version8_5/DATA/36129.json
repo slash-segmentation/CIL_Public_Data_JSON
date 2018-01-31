@@ -1,0 +1,136 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36129.jpg",
+                "Size": 1837978
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36129.zip",
+                "Size": 16557810
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36129.tif",
+                "Size": 16600000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "10667",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "myofibril",
+                    "onto_id": "GO:0030016"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "sarcoplasmic reticulum",
+                    "onto_id": "GO:0016529"
+                },
+                {
+                    "onto_name": "T-tubule",
+                    "onto_id": "GO:0030315"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "skeletal muscle contraction",
+                    "onto_id": "GO:0003009"
+                },
+                {
+                    "onto_name": "mitochondrial proton-transporting ATP synthase complex assembly",
+                    "onto_id": "GO:0033615"
+                },
+                {
+                    "onto_name": "sequestering of calcium ion",
+                    "onto_id": "GO:0051208"
+                },
+                {
+                    "onto_name": "membrane depolarization",
+                    "onto_id": "GO:0051899"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "damselfly"},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2500
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3304
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": {"free_text": "digitized negative film"},
+            "CELLTYPE": {
+                "onto_name": "flight muscle cell",
+                "onto_id": "CL:0000196"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Longitudinal and cross sections showing ribbon like myofibrils regularly alternating with layers of mitochondria and SR/T tubules.  Dyads are located in a grove of the mitochondrial surface.  Negatives aere scanned on nikon 8000 at 4000dpi/6.3 micron scan step size, then reduced in size 4X for upload, for an effective pixel size of 25 micron.\n\nTechnical details:\nHeads and tail removed, thorax bisected and immersed in 3% glutaraldehyde buffered in 0.1 M cacodylate buffer (pH7.2). Stored at 4C for several days. Muscle dissected out. Rinsed 3Xin buffer, postfixed in 2% PsO4 in buffer, for 1.5 hrs; rinsed 3 times in water, en-block stained in saturated aqueous uranyl acetate, embedded in Spurr.  Thin sections stained in uranyl acetate and lead and examined in a Philips 410 Microscope.\n\nReference for the image:\nLoesser, K.E., Castellani, L. and Franzini-Armstrong, C. Disposition of junctional feet in muscles of invertebrates. J. Muscle Research Cell Motility 13:161-173, 199"},
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {"Contributors": [
+                "Clara Franzini-Armstrong",
+                "Kathryn Loesser"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,72 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40169.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40169.jpg",
+                "Size": 89452
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Single tilt tomograms were obtained using a JEOL4000EX, and spanned -60 to 60° at 2° intervals. Magnification, 40,000X, accelerating voltage, 400.0 KeV."},
+            "IMAGINGMODE": {"onto_id": "FBbi:00000623"},
+            "CELLULARCOMPONENT": {
+                "onto_name": "mitochondrion",
+                "onto_id": "GO:0005739"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "eye photoreceptor cell",
+                "onto_id": "CL:0000287"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single tilt image (zero degree tilt) of a mitochondrion from a retinal rod photoreceptor of a female mouse (C57BL/6) from a 0.3 um section. This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information see: Perkins, G.A., Ellisman, M.H. and Fox, D.A. Three-dimensional analysis of mouse rod and cone mitochondrial cristae architecture: bioenergetic and functional implications. Mol Vis. 2003 Mar 11;9:60-73."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 54",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?mpid=54&event=displayAll"
+                }],
+                "Contributors": ["Don Fox"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,127 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "807.jpg",
+                "Size": 149832
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "807.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "807.zip",
+                "Size": 1336526
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                }
+            ],
+            "GROUP_ID": "7928",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "excitatory synapse",
+                    "onto_id": "GO:0060076"
+                },
+                {
+                    "onto_name": "synapse part",
+                    "onto_id": "GO:0044456"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "calcium-dependent cell-cell adhesion",
+                    "onto_id": "GO:0016339"
+                },
+                {
+                    "onto_name": "regulation of synapse structure and activity",
+                    "onto_id": "GO:0050803"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus",
+                "onto_id": "NCBITaxon:10114"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1280,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.113
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.113
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "primary antibody plus labeled secondary antibody",
+                "onto_id": "FBbi:00000156"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "During hippocampal neuron development in vitro, N-cadherin becomes selectively localized to excitatory synapses. This image shows immunolocalization of N-cadherin.  Other images in this image group show this staining is colocalized at synapses that are also immunopositive for the presynaptic glutamate transporters V-glut 1 and 2 and for the postsynaptic NMDA receptor. \n\nIndividual fluorescent images were acquired using a Nikon Diaphot 300 with a 60X objective. Preparation was fixed in 4% paraformaldehyde and permeabilized with .01% TritonX-100."},
+            "CELLTYPE": {
+                "onto_name": "multipolar neuron",
+                "onto_id": "CL:0000104"
+            },
+            "ATTRIBUTION": {"Contributors": [
+                "Tonya Anderson",
+                "Deanna Benson"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

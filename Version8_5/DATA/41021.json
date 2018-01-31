@@ -1,0 +1,93 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41021.tif",
+                "Size": 34300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41021.jpg",
+                "Size": 1548470
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41021.zip",
+                "Size": 2786902
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "41021_orig.jpg",
+                "Size": 2786764
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "bright-field microscopy",
+                "onto_id": "FBbi:00000243"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "stinging"},
+            "RELATIONTOINTACTCELL": {"free_text": "whole mounted"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in intrinsic optical density",
+                "onto_id": "FBbi:00000602"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Physalia physalis",
+                "onto_id": "NCBITaxon:168775"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3900
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2925
+                }}
+            ],
+            "CELLTYPE": {"free_text": "nematocyst"},
+            "IMAGEDESCRIPTION": {"free_text": "Tentacle of Portuguese Man o' War, Physalia physalis imaged with a stereomicroscope at 30x. Notorious for its painful, powerful sting, the Portuguese Man o' War has a gas filled floating chamber that supports the tentacles, which bear nematocytes (stinging cells). Shown are the pink batteries of stinging cells and a delicate muscular band responsible for the high contractibility of the tentacles.  2009 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["University of São Paulo, São Paulo, Brazil"],
+                "URLs": [{
+                    "Label": "2009 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2009/6.html"
+                }],
+                "Contributors": [
+                    "Alvaro Migotto",
+                    "2009 Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

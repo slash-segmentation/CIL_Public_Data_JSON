@@ -1,0 +1,115 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "44101.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "44101.jpg",
+                "Size": 31565
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "44101.zip",
+                "Size": 62321
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "44101_orig.jpg",
+                "Size": 62183
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "mitochondrion",
+                "onto_id": "GO:0005739"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "oxidative damage"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Cultures of living primary striatal neurons isolated from embryonic HD150Kl mice were stained for mitochondria using two fluorescent probes and imaged using a Zeiss LSM 710 confocal laser scanning confocal microscope.  Probes were MitoTracker Deep Red excited at 633 nm and the antioxidant XJB-5-131 conjugated to BIODYP and excited at 488 nm. DNA was labeled with DAPI (blue). Images were acquired with Zen Zeiss) and analyzed with FIJI. \nFor further details see Xun et al. 2012 Targeting of XJB-5-131 to mitochondria suppresses oxidative DNA damage and motor decline in a mouse model of Huntington's disease. Cell Biol. Rep. 2:1137-1142."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 704
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 373
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {"free_text": "BIODIPY"},
+                {
+                    "onto_name": "probe for mitochondria",
+                    "onto_id": "FBbi:00000411"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                }
+            ],
+            "CELLTYPE": {"free_text": "primary striatal neuron"},
+            "IMAGEDESCRIPTION": {"free_text": "Shown is a confocal microscopy image of a living isolated mouse neuron stained for DNA (nucleus, blue)and  mitochondria (mitotracker, red, and the synthetic antioxidant XJB-5-131 labeled with BIODIPY-labeled (green).  The image is from experiments examining oxidative damage and mitochondrial dysfunction in relation to aging and age-related neurodegenerative diseases including Huntington's disease.  See: Xun et al. 2012 Targeting of XJB-5-131 to mitochondria suppresses oxidative DNA damage and motor decline in a mouse model of Huntington's disease. Cell Biol. Rep. 2:1137-1142."},
+            "PATHOLOGICALPROCESS": {"onto_id": "DOID:DOID:12858"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "NIGMS Biomedical Beat",
+                    "Href": "http://publications.nigms.nih.gov/biobeat/"
+                }],
+                "Contributors": [
+                    "Cynthia McMurray",
+                    "Eugenia Trushina"
+                ]
+            },
+            "HUMAN_DISEASE": [{
+                "onto_name": "Huntington's disease",
+                "onto_id": "DOID:12858"
+            }],
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

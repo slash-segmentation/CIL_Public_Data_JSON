@@ -1,0 +1,138 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "503.zip",
+                "Size": 22903452
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "503.jpg",
+                "Size": 4919277
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "503.tif",
+                "Size": 22800000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "cryofixed tissue",
+                    "onto_id": "FBbi:00000013"
+                },
+                {"free_text": "freeze substitution"},
+                {
+                    "onto_name": "tissue in plastic embedment",
+                    "onto_id": "FBbi:00000016"
+                }
+            ],
+            "GROUP_ID": "10230",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "male germ cell nucleus",
+                "onto_id": "GO:0001673"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "reproduction",
+                    "onto_id": "GO:0000003"
+                },
+                {
+                    "onto_name": "nucleus organization",
+                    "onto_id": "GO:0006997"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "intrinsic mass distribution",
+                    "onto_id": "FBbi:00000607"
+                },
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Patiria miniata",
+                "onto_id": "NCBITaxon:46514"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "MOLECULARFUNCTION": {
+                "onto_name": "structural constituent of chromatin",
+                "onto_id": "GO:0030527"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4046,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.2
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2804,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.2
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Echinoderm sperm nuclei are unusual in that chromatin fibers are clearly seen, allowing their diameter to be accurately determined. Here, sperm from the starfish P. miniata were treated to remove the outer membrane, cryo-fixed by plunging into liquid ethane, freeze-substituted in acetone and low-temperature embedded in Lowicryl K11M. Thin sections were stained with uranyl acetate, and examined  using a FEI CM10 TEM operated at 100KV. This image shows a somewhat swollen nucleus that has separated from other cell components containing clearly defined chromatin fibers."},
+            "CELLTYPE": {
+                "onto_name": "sperm",
+                "onto_id": "CL:0000019"
+            },
+            "ATTRIBUTION": {
+                "Contributors": ["Chris Woodcock"],
+                "PUBMED": ["8138565"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,130 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39053.zip",
+                "Size": 123585
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39053.tif",
+                "Size": 1000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39053.jpg",
+                "Size": 98256
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39053_orig.jpg",
+                "Size": 123447
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nucleus",
+                "onto_id": "GO:0005634"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "stem cell maintenance",
+                "onto_id": "GO:0019827"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "MOUSE_GROSS_ANATOMY": [
+                {
+                    "onto_name": "TS25,colon",
+                    "onto_id": "EMAP:10783"
+                },
+                {"free_text": "colonic crypt"}
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007616 Mouse colon.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 526
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": [
+                {
+                    "onto_name": "stem cell",
+                    "onto_id": "CL:0000034"
+                },
+                {
+                    "onto_name": "goblet cell",
+                    "onto_id": "CL:0000160"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "This fluorescent micrograph shows stem cells labeled with green fluorescent protein (GFP) located at the base of the colonic crypt in a section of mouse colon. The stem cells are surrounded by numerous goblet cells that secrete mucous (stained in red). Other cells of the colon are observed using DAPI staining, which highlights the cell nucleus in blue."},
+            "ATTRIBUTION": {
+                "OTHER": ["University of Dundee"],
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Paul Appleton"]
+            },
+            "SPECIESTAXASPECIFIC": [
+                {"onto_id": "EMAP:EMAP:10783"},
+                {"onto_id": "EMAP:colonic crypt"}
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

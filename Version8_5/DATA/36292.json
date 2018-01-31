@@ -1,0 +1,124 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "36292.flv",
+                "Size": 1236656
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36292.jpg",
+                "Size": 26349
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36292.zip",
+                "Size": 128479360
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": [
+                {"free_text": "Bessel Sheet Microscpy"},
+                {"free_text": "Two-Photon Microscopy"},
+                {"free_text": "sCMOS camera"}
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "nuclear chromosome",
+                "onto_id": "GO:0000228"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                {
+                    "onto_name": "mitotic anaphase",
+                    "onto_id": "GO:0000090"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "LLC-PK1",
+                "onto_id": "MCC:0000286"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Sus scrofa domestica",
+                "onto_id": "NCBITaxon:9825"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Scanned Bessel beams can be used to generate thin light sheets that, unlike Gaussian beams, can be decoupled from their longitudinal extent. This video is from a manuscript that describes the use of scanned Bessel beams of higher NA to create light sheets sufficiently thin to achieve isotropic 3D resolution and improve the expenditure of the photon budget to the point at which hundreds of 3D image stacks comprising tens of thousands of frames can be acquired from single living cells at rates of nearly 200 frames/sec.  \n\nDeconvolution of all images was performed in Amira version 5.3 (Visage Imaging) using an iterative maximum-likehood image restoration algorithm. Owing to the good agreement observed between the experimental and theoretical PSFs in all cases, the appropriate noise-free theoretical PSF, resampled to match the voxel size of the data, was used as the kernel for deconvolution. Typically, convergence to better than 2% was obtained in 12\u201315 iterations.  Maximum intensity projections and volume renderings were performed using the ProjectionView and Voltex functions in Amira."},
+            "DIMENSION": [
+                {"Space": {"axis": "X"}},
+                {"Space": {"axis": "Y"}},
+                {"Space": {"axis": "Z"}}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EmeraldFP",
+                "onto_id": "FBbi:00000471"
+            },
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "maximum likelihood deconvolution",
+                    "onto_id": "FBbi:00000361"
+                },
+                {"free_text": "maximum intensity projection"},
+                {"free_text": "volume rendering"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Chromosome dynamics in a dividing LLC-PK1 cell. Images were collected with a Bessel Beam Microscope using two photon excitation.  This form of microscopy provides extraordinary 4D resolution of the separation of chromosomes during division.  This video corresponds to the left panel of CIL 34146, which shows views parallel and perpendicular to the mitotic plane.  It also corresponds to Figure 5 and Supplementary Video 7 in Nat Methods. 2011 May;8(5):417-23. Epub 2011 Mar 4.  The video is an deconvolved, maximum projection, volume rendering of slices that were collected in a 33 x 33 x 30 um3 image volume with 116 x 116 x 150 nm3 voxel sizes.  The video has variable frame rates:  frames 1-15 every 21 sec, frames 16-115 every 1.05 sec, frames 116-170 every 2 sec, frames 171-201 every 21 sec."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "article",
+                    "Href": "http://www.nature.com/nmeth/journal/v8/n5/full/nmeth.1586.html"
+                }],
+                "PUBLISHED": ["Nat Methods. 2011 May;8(5):417-23. Epub 2011 Mar 4."],
+                "Contributors": [
+                    "Thomas A Planchon",
+                    "Liang Gao",
+                    "Daniel E Milkie",
+                    "Michael W Davidson",
+                    "James A Galbraith",
+                    "Catherine G Galbraith",
+                    "Eric Betzig"
+                ],
+                "PUBMED": ["21378978"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

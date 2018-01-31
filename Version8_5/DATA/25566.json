@@ -1,0 +1,139 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25566.jpg",
+                "Size": 122674
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25566.zip",
+                "Size": 1986688
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "25566.flv",
+                "Size": 651121
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "unfixed tissue",
+                "onto_id": "FBbi:00000014"
+            },
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "sporulation",
+                "onto_id": "GO:0043934"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Bacillus subtilis",
+                "onto_id": "NCBITaxon:1423"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                }
+            ],
+            "TECHNICALDETAILS": {"free_text": "Microscope slide with live cells in media was incubated in a temperature-controlled Cube and Box incubation system (Life Imaging Services) automated microscope (Zeiss 200M) at 30°C. Images were obtained with a CoolSNAP HQ (Princeton Instruments) at a magnification of either 63X or 100X.  Metamorph microscope control software (Universal Imaging) was used. Phase-contrast and fluorescent images were recorded every 5 min for the first 122 frames and every 12 min for the remainder of the time lapse. To prevent phototoxicity, the excitation light (480-520 nm for 2 s) was limited to 5% of the output of a 100-W Hg-vapor lamp by neutral density filters. Emission wavelengths were 505-565 nm (filters from Chroma)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 984
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 488
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "17",
+                    "value": 720.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "CELLTYPE": {
+                "onto_name": "prokaryotic cell",
+                "onto_id": "CL:0000520"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Bacillus subtilis growing in culture.  On the left, we see all the cells in a colony.  On the right, we see only the cells in normal growth phase because these cells express a green fluorescent protein.  After the normal exponential growth phase, there is a \"diauxic shift\" when growth slows and many of the cells sporulate.\nThis image corresponds to supplemental movie 3 from PNAS 105(11), 4393-4398, 2008."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Figure as published",
+                    "Href": "http://www.pnas.org/content/suppl/2008/03/10/0700463105.DC1#M3"
+                }],
+                "PUBLISHED": ["PNAS 105(11), 4393-4398, 2008."],
+                "Contributors": [
+                    "Jan-Willem Veening",
+                    "Eric J. Stewart",
+                    "Thomas W. Berngruber",
+                    "Francois Taddei",
+                    "Oscar P. Kuipers",
+                    "Leendert W. Hamoen"
+                ],
+                "PUBMED": ["18326026"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

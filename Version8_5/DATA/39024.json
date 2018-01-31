@@ -1,0 +1,129 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39024.jpg",
+                "Size": 63144
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39024_orig.jpg",
+                "Size": 74717
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39024.tif",
+                "Size": 1100000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39024.zip",
+                "Size": 74855
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {"free_text": "PARD3"},
+            "BIOLOGICALPROCESS": {
+                "onto_name": "gene expression",
+                "onto_id": "GO:0010467"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "ZEBRAFISH_ANATOMY": [
+                {
+                    "onto_name": "neuroepithelial cell",
+                    "onto_id": "ZFA:0009306"
+                },
+                {
+                    "onto_name": "forebrain ventricle",
+                    "onto_id": "ZFA:0001259"
+                },
+                {
+                    "onto_name": "yolk",
+                    "onto_id": "ZFA:0000084"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Danio rerio",
+                "onto_id": "NCBITaxon:7955"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007774 Dorsal view of an early zebrafish embryo Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 599
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Confocal micrograph of a transgenic zebrafish embryo at 24 hours post-fertilization, showing expression of the fusion protein PARD3_GFP. PARD proteins, which were first identified in C. elegans, are essential for asymmetric cell division and polarized growth. In this image the embryo is viewed from the back (dorsally) sitting on top of a big yolk sac that provides nutrients for its development. GFP expression is seen in the surface of the neuroepithelium and thus highlights the ventricle of the brain, as well as in epithelial cells of the skin recovering the yolk."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": [
+                    "Monica Folgueira",
+                    "Steve Wilson"
+                ]
+            },
+            "SPECIESTAXASPECIFIC": [
+                {"onto_id": "ZFA:ZFA:0009306"},
+                {"onto_id": "ZFA:ZFA:0001259"},
+                {"onto_id": "ZFA:ZFA:0000084"}
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

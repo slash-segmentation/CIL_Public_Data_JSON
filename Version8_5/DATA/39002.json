@@ -1,0 +1,112 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39002_orig.jpg",
+                "Size": 143676
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39002.zip",
+                "Size": 143814
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39002.jpg",
+                "Size": 81816
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39002.tif",
+                "Size": 1300000
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "modes of light microscopy",
+                "onto_id": "FBbi:00000345"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "neurofilament",
+                    "onto_id": "GO:0005883"
+                },
+                {"free_text": "cadherin 7 mRNA"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cell-cell adhesion",
+                "onto_id": "GO:0016337"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Gallus gallus",
+                "onto_id": "NCBITaxon:9031"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0001902 Neural tube showing axons & Cad-7 staining.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 700
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": [
+                {
+                    "onto_name": "commisural neuron",
+                    "onto_id": "CL:0000678"
+                },
+                {
+                    "onto_name": "motor neuron",
+                    "onto_id": "CL:0000100"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Transverse section through the neural tube of an early stage chick embryo. The brown stain shows the neurofilament in the axons of the commisural neurons (running down the sides of the neural tube) and of the motor neurons projecting from the ventral parts of the tube. The blue stain shows the location of the cadherin 7 mRNA in the neural crest migrating down alongside the neural tube and in an intense band across the centre of the neural tube. Cadherin 7 is a transmembrane protein that affects cell-cell adherance."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Jonathan Stonehouse"]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": ":neural tube"},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

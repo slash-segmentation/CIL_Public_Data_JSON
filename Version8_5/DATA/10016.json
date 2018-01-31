@@ -1,0 +1,130 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "10016.tif",
+                "Size": 300000
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "10016_orig.jpg",
+                "Size": 87654
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10016.zip",
+                "Size": 87792
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10016.jpg",
+                "Size": 21773
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                }
+            ],
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                }
+            ],
+            "CELLLINE": {
+                "onto_name": "NIH/3T3",
+                "onto_id": "MCC:0000362"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                },
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            },
+            "CELLTYPE": [
+                {
+                    "onto_name": "early embryonic cell",
+                    "onto_id": "CL:0000007"
+                },
+                {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "NIH 3T3 cell (mouse embryonic fibroblast line)\nstained for Actin (green) and DNA (blue).\n\nPLoS Biology February 2009|Volume 7|Issue 2| e1000038 \n\nActive-Site Inhibitors of mTOR Target Rapamycin-Resistant Outputs of mTORC1 and mTORC2 \n\nMorris E. Feldman, Beth Apsel, Aino Uotila, Robbie Loewith, Zachary A. Knight, Davide Ruggero, Kevan M. Shokat"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.plosbiology.org/article/info:doi/10.1371/journal.pbio.1000038"}],
+                "PUBLISHED": ["Feldman ME, Apsel B, Uotila A, Loewith R, Knight ZA, et al. (2009) Active-Site Inhibitors of mTOR Target Rapamycin-Resistant Outputs of mTORC1 and mTORC2. PLoS Biol 7(2): e1000038. doi:10.1371/journal.pbio.1000038"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "wide-field detection",
+                "onto_id": "FBbi:00000306"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

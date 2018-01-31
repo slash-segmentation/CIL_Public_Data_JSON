@@ -1,0 +1,98 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41624.tif",
+                "Size": 35500000
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "41624_orig.jpg",
+                "Size": 9851009
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41624.jpg",
+                "Size": 2959713
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41624.zip",
+                "Size": 9851147
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Radiolaria"},
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                {"free_text": "extended depth of field"}
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3840
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3072
+                }}
+            ],
+            "CELLULARCOMPONENT": [
+                {"free_text": "skeleton"},
+                {
+                    "onto_name": "extracellular region",
+                    "onto_id": "GO:0005576"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Brightfield image using an depth of fieldd showing the skeleton of a radiolarian, a single-cell protozoan with an intricate mineral skeleton.  Radiolarian skeletons typically have a central capsule dividing the cell into inner and outer portions, called endoplasm and ectoplasm.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["Berne, Switzerland"],
+                "URLs": [{
+                    "Label": "2011 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm25.html"
+                }],
+                "Contributors": [
+                    "Christopher B. Jackson",
+                    "2011 Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "BIOLOGICALPROCESS": {"free_text": "cytoplasmic organization"},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in intrinsic optical density",
+                "onto_id": "FBbi:00000602"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

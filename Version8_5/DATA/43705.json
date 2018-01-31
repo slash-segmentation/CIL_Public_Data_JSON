@@ -1,0 +1,92 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "43705.jpg",
+                "Size": 115396
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "43705.flv",
+                "Size": 7323215
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "43705.zip",
+                "Size": 452317312
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {"free_text": "digital Holographic microscopy"},
+            "BIOLOGICALPROCESS": {
+                "onto_name": "execution phase of apoptosis",
+                "onto_id": "GO:0097194"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "phase contrast microscopy",
+                "onto_id": "FBbi:00000247"
+            },
+            "CELLLINE": {"free_text": "DU145"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {"free_text": "phase shift of the laser light passing through the cell"},
+            "TECHNICALDETAILS": {"free_text": "The human prostate cells were grown on Ibidi [Tm], 1-well µ-slides, (Ibidi GmbH, Martinsried, Germany) on a 37 °C heating plate (Ibidi).\nImages were recorded for over 61 hours with one image taken every 4 minutes. The video speed is 8 images per second and the images were artificially colored (Holostudio). \nThe scale bar shows image size and the color bar represent specimen thickness.\n\nContacts for additional details:\nPhase Holographic Imaging AB (PHIAB), Scheelevägen 22, 223 63 Lund, Sweden; \nBirgit Janicke\nPhone: +46 (0)46 38 60 80, \n+46 (0)07 5131681\nBirgit.Janicke@phiab.se\nwww.phiab.se"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1052
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 684
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "915",
+                    "value": 240.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {"free_text": "Phase contrast holographic imaging"},
+            "PROCESSINGHISTORY": {"free_text": "Hstudio software (Phase Holographic Imaging AB)"},
+            "IMAGEDESCRIPTION": {"free_text": "A time-lapse series using digital holographic microscopy presented as a movie.  The movie shows living human prostate cancer cells (DU 145) induced to undergo of apoptosis following treatment with etoposide. The images were created by Phase Holographic Imaging AB (PHIAB), Lund, Sweden."},
+            "CELLTYPE": {"free_text": "prostate cancer"},
+            "DATAQUALIFICATION": {"free_text": "ANIMATIONS"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Phase Holographic Imaging",
+                    "Href": "http://www.phiab.se"
+                }],
+                "Contributors": ["Birgit Janicke"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

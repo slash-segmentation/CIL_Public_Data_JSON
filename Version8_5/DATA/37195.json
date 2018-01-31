@@ -1,0 +1,90 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "37195.tif",
+                "Size": 62900000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "37195.jpg",
+                "Size": 6380861
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "37195.zip",
+                "Size": 62779854
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "osmium tetroxide fixed tissue",
+                "onto_id": "FBbi:00000012"
+            },
+            "GROUP_ID": "10000",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "mitochondrion",
+                "onto_id": "GO:0005739"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Neurospora",
+                "onto_id": "NCBITaxon:5140"
+            },
+            "TECHNICALDETAILS": {"free_text": "References:\nPalade, G.E. 1952.  J. Exp. Med. 95:285-298.\nPalade, G.E. 1952. Anat. Rec. 114:427-451.\nSabatini, D.D, K. Bensch and R.J. Barrnett. 1963. J. Cell. Bio. 17:19-58. \nOriginal 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original magnification X64,000."},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 6000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 5231
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "negative staining",
+                "onto_id": "FBbi:00000399"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of a negatively stained mitochondria from the fungi Neurospora. The use of osmium tetroxide as a fixative for electron microscopy was first described by Dr. Palade at the Rockefeller. Another major advance in fixation for electron microscopy was done at Yale by David Sabatini who described the use of glutaraldehyde which not only preserved ultrastructure, but enzymatic activities which opened up the possibility of EM localization of enzymatic function in cells.  Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."},
+            "ATTRIBUTION": {
+                "DATE": ["07/07/1961"],
+                "URLs": [{
+                    "Label": "George E. Palade EM slide collection",
+                    "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeMitoE"
+                }],
+                "Contributors": ["W. Stoeckenius"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

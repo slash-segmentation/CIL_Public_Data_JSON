@@ -1,0 +1,106 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "38941.zip",
+                "Size": 112623
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "38941.tif",
+                "Size": 700000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "38941.jpg",
+                "Size": 91392
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "38941_orig.jpg",
+                "Size": 112485
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "modes of light microscopy",
+                "onto_id": "FBbi:00000345"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "ascospore wall",
+                "onto_id": "GO:0005619"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "ascospore formation",
+                "onto_id": "GO:0030437"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in intrinsic optical density",
+                "onto_id": "FBbi:00000602"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Peziza",
+                "onto_id": "NCBITaxon:40593"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0006300 Ascospores in a Peziza.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 383
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "CELLTYPE": {
+                "onto_name": "ascospore",
+                "onto_id": "CL:0000607"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "A light micrograph of a thin slice through a cup fungus called Peziza. It grows on decaying wood and organic matter and reproduces itself by producing ascospores. This section shows the fungus' spore containers (asci) each with eight ascospores (shown in brown). As the spores mature, fluid builds up behind them; when the pressure gets too much the tops of the asci open and the spores are flung out into the air. They can cause allergy and irritation in humans including conditions such as dermatitis and hypersensitivity pneumonitis (a condition of the lungs)."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "wellcome images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Spike Walker"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

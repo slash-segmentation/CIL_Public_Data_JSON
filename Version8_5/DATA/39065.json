@@ -1,0 +1,131 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39065.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39065.jpg",
+                "Size": 133985
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39065.zip",
+                "Size": 249866
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39065_orig.jpg",
+                "Size": 249728
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "modes of light microscopy",
+                "onto_id": "FBbi:00000345"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell wall",
+                    "onto_id": "GO:0005618"
+                },
+                {
+                    "onto_name": "chromosome",
+                    "onto_id": "GO:0005694"
+                },
+                {
+                    "onto_name": "spindle",
+                    "onto_id": "GO:0005819"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "root meristem growth",
+                    "onto_id": "GO:0010449"
+                },
+                {
+                    "onto_name": "prophase",
+                    "onto_id": "GO:0051324"
+                },
+                {
+                    "onto_name": "interphase",
+                    "onto_id": "GO:0051325"
+                },
+                {
+                    "onto_name": "mitotic anaphase",
+                    "onto_id": "GO:0000090"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Allium cepa",
+                "onto_id": "NCBITaxon:4679"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007563 Mitosis in onion root cells. Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 543
+                }}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {"free_text": "root cell"},
+            "IMAGEDESCRIPTION": {"free_text": "This is a region of a (semithin) longitudinal section of onion root taken from the meristematic zone; this is the undifferentiated region of plant tissue from which new cells are formed. Therefore, it is a region of high cell division. The cells in this image are in various stages of mitosis. Mitosis is the process of cell duplication in which two daughter cells are produced from a single parent cell containing the same amount of DNA. The top layer of cells are all in interphase (the stage of DNA replication). The second layer down shows two cells (central) in prophase (DNA condenses into chromosomes and the mitotic spindle begins to form). The third row has a cell in early anaphase (chromosomes clearly attached to spindle and moving towards opposite poles) and two cells which have just divided and the daughter cells have not yet grown to their full size. The semithin section is so thin it has missed the nucleus in some of the cells, or has only cut through part of it so some look smaller in comparison to others."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "wellcome images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Spike Walker"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

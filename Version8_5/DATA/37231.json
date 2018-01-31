@@ -1,0 +1,123 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "37231.tif",
+                "Size": 58600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "37231.jpg",
+                "Size": 7049391
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "37231.zip",
+                "Size": 58556648
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "GROUP_ID": "10971",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "zymogen granule",
+                    "onto_id": "GO:0042588"
+                },
+                {
+                    "onto_name": "rough endoplasmic reticulum",
+                    "onto_id": "GO:0005791"
+                },
+                {
+                    "onto_name": "Golgi apparatus",
+                    "onto_id": "GO:0005794"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "organelle organization",
+                "onto_id": "GO:0006996"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Cavia porcellus",
+                "onto_id": "NCBITaxon:10141"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original Magnification: x43,000."},
+            "MOLECULARFUNCTION": {"free_text": "protein secretion"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 6000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4879
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "osmium tetroxide",
+                "onto_id": "FBbi:00000571"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Early transmission electron micrograph of thin section of acinar cell on guinea pig pancreas. Rough endoplasmic reticulum, Golgi vesicles and portion of a zymogen granule are seen.  Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "epithelial cell of pancreas",
+                    "onto_id": "CL:0000083"
+                },
+                {
+                    "onto_name": "acinar cell",
+                    "onto_id": "CL:0000622"
+                }
+            ],
+            "ATTRIBUTION": {
+                "DATE": ["05/16/1966"],
+                "URLs": [{
+                    "Label": "George E. Palade EM Slide Collection",
+                    "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladePanMorphBB"
+                }],
+                "Contributors": ["George E. Palade"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

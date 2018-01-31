@@ -1,0 +1,112 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "34899.tif",
+                "Size": 200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "34899.jpg",
+                "Size": 45680
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "34899.zip",
+                "Size": 320270
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "permeabilized tissue",
+                    "onto_id": "FBbi:00000093"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"free_text": "phalloidin"}
+            ],
+            "GROUP_ID": "9875",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "actin cytoskeleton",
+                "onto_id": "GO:0015629"
+            },
+            "BIOLOGICALPROCESS": [
+                {"free_text": "branching of actin filaments"},
+                {"free_text": "cytochalasin D treatment"},
+                {
+                    "onto_name": "actin filament organization",
+                    "onto_id": "GO:0007015"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "Procedures for detergent extraction, immunostaining, S1 decoration, light, and EM were described previously (Svitkina et al., 1995, 1996, 1997;Verkhovsky et al., 1995; Svitkina and Borisy, 1998)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 501
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 294
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {"free_text": "platinum replica"}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Improved visualization of actin filament branching in lamellipodia.  EM of keratocyte or fibroblast lamellipodial actin network after cytochalasin D treatment (0.2 μM for 30 min or 0.5 μM for 10 min).  Image corresponds to a panel in Figure 2b from J Cell Biol. 1999 May 31;145(5):1009-26.  All of the panels from Figure 2b are available as CIL 34894-34901."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol. 1999 May 31;145(5):1009-26."],
+                "Contributors": [
+                    "Tatyana M. Svitkina",
+                    "Gary G. Borisy"
+                ],
+                "PUBMED": ["10352018"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

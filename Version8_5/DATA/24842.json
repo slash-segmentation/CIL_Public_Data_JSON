@@ -1,0 +1,110 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "24842.jpg",
+                "Size": 195355
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "24842_orig.jpg",
+                "Size": 134626
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "24842.tif",
+                "Size": 1000000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "24842.zip",
+                "Size": 134764
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "critical_point dried specimen",
+                    "onto_id": "FBbi:00000581"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Hydra viridis",
+                "onto_id": "NCBITaxon:6082"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "secondary electron generation",
+                "onto_id": "FBbi:00000580"
+            },
+            "GROUP_ID": "6672",
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.12
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 943,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.12
+                    }
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron micrograph showing the tip of a Hydra viridis tentacle. A meshwork of triggered nematocyst cells is visible. When hooked cnidocytes on the surface of the tentacle come in contact with prey, they release a coiled nematocyst. Extension of the nematocyst thread allows the tentacle to latch onto the prey, and this signals the hypostome, or mouth, to open. Specimens were fixed in Aldehyde-osmium fixative 0.75% glutaraldehyde, 0.75% formaldehyde and 1.0% OsO4 prepared in 0.05M sodium cacodylate buffer. Fixative was buffered to pH 7.4-7.5. H. viridis were critical point dried and sputter coated with gold. Images were taken on a FEI Quanta 200 ESEM scanning electron micrograph. This sample was photographed as a montage at a magnification of 5662x and an accelerating voltage of 15kV with a 9.7mm working distance."},
+            "CELLTYPE": [
+                {"free_text": "cnidocyte"},
+                {"free_text": "nematocyst"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {"Contributors": [
+                "Marian Rice",
+                "Allison Miller"
+            ]},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

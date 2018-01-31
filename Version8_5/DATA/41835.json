@@ -1,0 +1,93 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41835.jpg",
+                "Size": 2085318
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41835.zip",
+                "Size": 3121768
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "41835_orig.jpg",
+                "Size": 3121630
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41835.tif",
+                "Size": 21300000
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "interference contrast",
+                "onto_id": "FBbi:00000330"
+            },
+            "CELLULARCOMPONENT": {"free_text": "valve"},
+            "BIOLOGICALPROCESS": {"free_text": "diatom valve organization"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Didymosphenia geminata"},
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3072
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2304
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {"free_text": "photoshop"},
+            "IMAGEDESCRIPTION": {"free_text": "Photomicrograph of arranged diatom valves from Didymosphenia geminata (Lyngbye) Schmidt collected alive in the Clark Fork River in Missoula, Montana, then cleaned and mounted by the photographer. This diatom has become infamous in the last decade for its invasive nature, now thought to be transported to rivers around the world on the felt soles of flyfishermen. It is referred to as \"Didymo\" or \"Rock snot\" and in life looks like a wet sheep's fleece attached to rocks on the river bottom. Once introduced, it can spread throughout a river drainage. The larger valves are approximately 150 x 45 microns. The image was captured using Carl Zeiss Jamin-Lebedeff transmitted light interference contrast with a 40x objective and paired condenser. Retouching with Photoshop CS4.  Honorable Mention, 2010 Olympus Bioscapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": [
+                    "Montana Diatoms",
+                    "Helena, Montana, USA"
+                ],
+                "URLs": [{
+                    "Label": "2010 Olympus Bioscapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2010/hm36.html"
+                }],
+                "Contributors": [
+                    "Stephen S. Nagy",
+                    "2010 Olympus Bioscapes Digital Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,142 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10105.zip",
+                "Size": 4138917
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "10105.tif",
+                "Size": 4200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10105.jpg",
+                "Size": 281721
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                }
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "clathrin coat of coated pit",
+                    "onto_id": "GO:0030132"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "focal adhesion",
+                    "onto_id": "GO:0005925"
+                },
+                {"free_text": "clathrin light chain a"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1344,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.027
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.027
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "microns",
+                    "value": "350, 488, 568"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "Alexa Fluor 568",
+                    "onto_id": "FBbi:00000442"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "PROCESSINGHISTORY": {"free_text": "3 color combine"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                {"free_text": "retinal pigmented epithelial cell"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Human retinal pigmented epithelial (RPE) cells labeled for clathrin-coated pits (green), focal adhesions (red) and nuclei (blue). RPE cells stabily expressing 'clathrin light chain a' tagged with EGFP (EGFP-LCa) were plated directly on glass coverslides. After 72 hrs, cells were fixed for 2 min in a 1:1 mixture of 2% paraformaldehyde/0.5% Triton X-100, followed by a 30 min fixation in 4% paraformaldehyde. Cells were then stained with mouse monoclonal antibodies to paxillin, detected with goat anti-mouse Alexa 568. Nuclei were stained with DAPI. Image was collected on an Olympus IX71 inverted microscope coupled to a Hamamatsu ORCA-ER digital camera using a 60x 1.42 NA Plan Apo N objective (Olympus). The exposure times were 200, 500 and 70 msec for the red, green and blue channel, respectively. A xenon-arc lamp (Lambda LS stand-alone illuminator; Sutter Instrument) was used with adequat filters (Chroma). Bar: 5µm"},
+            "ATTRIBUTION": {
+                "OTHER": ["The Scripps Research Institute"],
+                "Contributors": [
+                    "Marcel Mettlen",
+                    "Sandra L. Schmid"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

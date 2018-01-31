@@ -1,0 +1,109 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "42159.flv",
+                "Size": 1088946
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "42159.jpg",
+                "Size": 195041
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "42159.zip",
+                "Size": 8941696
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "13001",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "plasma membrane",
+                    "onto_id": "GO:0005886"
+                },
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                }
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "dissemination"},
+            "RELATIONTOINTACTCELL": {"free_text": "mammary organoid"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "MOUSE_GROSS_ANATOMY": [{"free_text": "mammary organoid"}],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "tdTomatoFP",
+                    "onto_id": "FBbi:00000518"
+                },
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {"free_text": "contrast adjusted"},
+                {"free_text": "confocal stack"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Time-lapse movie showing that disseminated P-cadherin null cells persist in the extracellular matrix and can proliferate  The cells are expressing td tomato as a membrane marker and eEGFP-actin using a keratin-14 promoter.  Images were collected every 20 minutes.  The image size is 350 x 350 microns.  This movie is part of a group of movies that include CIL 42151-42168."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "ATTRIBUTION": {
+                "OTHER": ["Andrew Ewald"],
+                "PUBLISHED": ["PNAS 2012 ; published ahead of print August 23, 2012"]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "EMAP:mammary organoid"},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

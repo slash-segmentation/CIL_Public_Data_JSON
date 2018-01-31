@@ -1,0 +1,86 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41402.jpg",
+                "Size": 1323818
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41402.tif",
+                "Size": 24600000
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium",
+                "onto_id": "NCBITaxon:5884"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3504
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2336
+                }}
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "contractile vacuole",
+                "onto_id": "GO:0000331"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Differential interference contrast image of a Paramecium (unicellular ciliate protozoa) surface. The image shows three water vacuoles contracting. Specimen observed at 100x.  Judges' Special Award for Technical Merit, 2010 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["Hyattsville, Maryland, USA"],
+                "URLs": [{
+                    "Label": "2010 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2010/tm1.html"
+                }],
+                "Contributors": [
+                    "Norman Shedlo",
+                    "2010 Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "contractile vacuole discharge",
+                "onto_id": "GO:0070177"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,74 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "47811.zip",
+                "Size": 1554559
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "47811.jpg",
+                "Size": 263520
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "47811.tif",
+                "Size": 3100000
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "TECHNICALDETAILS": {"free_text": "Phase contrast microscopy, immersion lens 100x."},
+            "IMAGINGMODE": {
+                "onto_name": "phase contrast microscopy",
+                "onto_id": "FBbi:00000247"
+            },
+            "MOLECULARFUNCTION": {
+                "onto_name": "catalase activity",
+                "onto_id": "GO:0004096"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "peroxisome",
+                "onto_id": "GO:0005777"
+            },
+            "CELLTYPE": [
+                {
+                    "onto_name": "duct epithelial cell",
+                    "onto_id": "CL:0000068"
+                },
+                {
+                    "onto_name": "goblet cell of epithelium of small intestine",
+                    "onto_id": "CL:1000316"
+                },
+                {
+                    "onto_name": "erythrocyte",
+                    "onto_id": "CL:0000232"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Human duodenal epithelium, at the level of the crypt. Fixation was performed in buffered formal-calcium. Peroxisomes are stained with DAB by their catalase activity at pH 10.5, postosmicated and embedded in epon. 2 µm plastic section.  Peroxisomes are the very small black granules located at the apical side of the elongated epithelial nuclei. A few rounded goblet cells are recognized. The brush border is faintly seen. In the subepithelial capillaries, 4 large structures are erythrocytes."},
+            "ATTRIBUTION": {"Contributors": [
+                "Frank Roels",
+                "Peter van der Spek",
+                "Marina Pauwels"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"}
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

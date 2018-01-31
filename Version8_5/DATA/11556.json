@@ -1,0 +1,159 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11556.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11556.jpg",
+                "Size": 423713
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11556.zip",
+                "Size": 1404234
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "9577",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "pericentriolar material",
+                    "onto_id": "GO:0000242"
+                },
+                {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                },
+                {
+                    "onto_name": "centriole",
+                    "onto_id": "GO:0005814"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "spermatogonial cell division",
+                "onto_id": "GO:0007284"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Gallus gallus",
+                "onto_id": "NCBITaxon:9031"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 920
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1292
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Figure 302 from Chapter 12 (Centrioles) by Don Fawcett. The centrioles replicate early in cell division and take up positions at either pole of the division figure. Concurrently with the condensation of the chromosomes and breakdown of the nuclear envelope, microtubules polymerize, extending from the chromosomes to the poles and from pole to pole, to form the mitotic spindle.\nIn the accompanying micrograph made before introduction of aldehyde fixatives, the microtubules have not been well preserved. The plane of section is a fortunate one, however, in that three of the centrioles are included. The second centriole at the lower pole is in a plane perpendicular to this section and is not seen. Because the two diplosomes usually differ in their orientation, all four centrioles are rarely, if ever, included in the same thin section. A copy of the chapter is available on the ASCB's BioEDUCATE website."},
+            "CELLTYPE": {
+                "onto_name": "spermatocyte",
+                "onto_id": "CL:0000017"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"}],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": [
+                    "Don W. Fawcett",
+                    "Toshio Nagano"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,104 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40178.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40178.jpg",
+                "Size": 101288
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {"onto_id": "FBbi:00000621"}
+            ],
+            "GROUP_ID": "12151",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "plasma membrane",
+                "onto_id": "GO:0005886"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "response to virus",
+                "onto_id": "GO:0009615"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "CELLLINE": {
+                "onto_name": "Vero",
+                "onto_id": "MCC:0000480"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Chlorocebus pygerythrus",
+                "onto_id": "NCBITaxon:60710"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "For ultrastructural morphological investigations, SARS-CoV-infected Vero E6 cells were pre-fixed (for biosafety reasons) overnight with 3% paraformaldehyde in 0.1M PHEM buffer (60 mM piperazide-1,4-bis[2-ethanesulfonic acid], 25 mM HEPES, 2 mM MgCl2, 10 mM EGTA) at various time points after infection. For cryo-fixation, cell monolayers adhered to Thermanox coverslips (Nunc, Denmark) were plunged into liquid ethane. Freeze substitution was performed at -90°C in an automated freeze-substitution system (Leica, Austria) using an FS medium consisting of 90% acetone and 10% water, containing 1% osmium tetroxide and 0.5 % uranyl acetate. After washing with pure acetone at RT, the samples were embedded in epoxy LX-12 resin. Thin sections were collected on 100 Mesh grids, 1.25% pioloform support film contrasted with uranyl acetate and lead hydroxide and subsequently viewed at 80 kV with a Philips CM-10 transmission electron microscope (Philips, The Netherlands)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single computed slice through a dual axis tilt electron tomographic reconstruction of double membrane vesicles in a freeze-substituted VeroE6 cultured cell infected with the SARS-CoV.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information, see: Knoops et al. SARS-coronavirus replication is supported by a reticulovesicular network of modified endoplasmic reticulum. PLoS Biol. 2008 6(9):e226. PMID: 18798692"},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 6021",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=6021"
+                }],
+                "Contributors": [
+                    "Kèvin Knoops",
+                    " Abraham J. Koster",
+                    " A. Mieke Mommaas",
+                    "Eric J. Snijder"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

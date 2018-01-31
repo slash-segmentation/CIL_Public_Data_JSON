@@ -1,0 +1,167 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13134.jpg",
+                "Size": 3996491
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13134.tif",
+                "Size": 12300000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13134.zip",
+                "Size": 24456818
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "4020",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cytoproct",
+                    "onto_id": "GO:0031911"
+                },
+                {
+                    "onto_name": "cell cortex",
+                    "onto_id": "GO:0005938"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {"free_text": "cell cortex organization"},
+                {
+                    "onto_name": "cytoplasm organization",
+                    "onto_id": "GO:0007028"
+                },
+                {"free_text": "cytoproct organization"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium multimicronucleatum",
+                "onto_id": "NCBITaxon:44030"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3072
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3976
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "The cytoproct ridge at higher magnification. The unique system of thick fibers extends from each side of the ridge toward the center of the ridge. These thickened fibers are not found in any other part of the cell\u2019s surface. Also extending from the ridge tip are single microtubules that extend down into the cytosol. These microtubules may make contact with the surface of the approaching vacuole\u2019s membrane and help to pull the vacuole membrane and the plasma membrane together to promote their fusion. The role of the thickened fibers is unclear, they may cross link to prevent the cytoproct from an untimely opening under stress. A few vesicles get trapped in the ridge. TEM taken on 6/1/84 by R. Allen with Zeiss 10A 80kV. Neg. 19,800X. Bar = 0.2µm. The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. An unprocessed, high resolution version of this image (CIL:12349) is in the library and available for quantitative analysis. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www5.pbrc.hawaii.edu/allen/"}],
+                "Contributors": ["Richard Allen (University of Hawaii)"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

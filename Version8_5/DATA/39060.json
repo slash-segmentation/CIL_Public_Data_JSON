@@ -1,0 +1,142 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39060.zip",
+                "Size": 172355
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39060.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39060.jpg",
+                "Size": 87282
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39060_orig.jpg",
+                "Size": 172217
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                {
+                    "onto_name": "permeabilized tissue",
+                    "onto_id": "FBbi:00000093"
+                }
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {
+                    "onto_name": "actin filament",
+                    "onto_id": "GO:0005884"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "microtubule cytoskeleton organization",
+                    "onto_id": "GO:0000226"
+                },
+                {
+                    "onto_name": "actin cytoskeleton organization",
+                    "onto_id": "GO:0030036"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007570 Osteoblasts.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 778
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "osteoblast",
+                "onto_id": "CL:0000062"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Confocal micrograph of osteoblast cells  labeled with Alexafluor 488 that stains alpha tubulin (green) and phalloidin marking the actin (purple) and DAPI highlighting the nucleus (yellow). Osteoblasts originate in bone marrow and contribute to the production of new bone. These cells build up the matrix of bone structure and as bone is continually being reabsorbed and regenerated these are very crucial cells. Osteoblasts make up bone and osteoclasts break it down."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Kevin MacKenzie"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

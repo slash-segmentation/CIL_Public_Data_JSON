@@ -1,0 +1,128 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "38818.tif",
+                "Size": 4400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "38818.jpg",
+                "Size": 135905
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "38818.zip",
+                "Size": 250531
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "After induction of COX-2, cultures were fixed with paraformaldehyde overnight, then immunostained with a mouse antibody to neuronal class III beta-tubulin followed by an Alexa 488-conjugated goat anti-mouse to identify neurons. COX-2 was imaged using Fluorocoxib A, a selected COX-2 inhibitor conjugated to carboxy-X-rhodamine (see http://cancerres.aacrjournals.org/content/70/9/3618.full). Preparations were counterstained with DAPI, and imaged with a Leica CMS microscope using a 40x 0.8 NA objective lens. Images were recorded with a Qimaging Qi CCD camera."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1392,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.24
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1040,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.24
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "Rhodamine",
+                    "onto_id": "FBbi:00000452"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                }
+            ],
+            "CELLTYPE": [
+                {"free_text": "dorsal root ganglion"},
+                {
+                    "onto_name": "neuron of the dorsal spinal cord",
+                    "onto_id": "CL:0002611"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Dorsal root ganglion cells from embryonic mice were cultured and stimulated to produce cyclooxygenase-2 (COX-2). Cultures were immuno-stained for neuron-associated tubulin (green), COX-2 (red) and DNA (blue). COX-2 is primarily expressed in neurons."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "NIGMS Biomedical Beat",
+                    "Href": "http://publications.nigms.nih.gov/biobeat/11-10-20/11-10-20-1.jpg "
+                }],
+                "PUBLISHED": [
+                    "NIGMS Biomedial Beat",
+                    "K C Duggan et al. 2011 (R)-Profens are substrate-selective inhibitors of endocannabinoid oxygenation by COX-2 Nat"
+                ],
+                "Contributors": [
+                    "Kelsey C Duggan",
+                    "Daniel J Hermanson",
+                    "Joel Musee",
+                    "Jeffery J Prusiakiewicz",
+                    "Jami L Scheib",
+                    "Bruce D Carter",
+                    "Surajit Banerjee",
+                    "J A Oates",
+                    "Lawrence J Marnett"
+                ],
+                "PUBMED": ["22053353"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

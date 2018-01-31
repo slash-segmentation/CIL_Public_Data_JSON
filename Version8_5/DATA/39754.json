@@ -1,0 +1,113 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39754.tif",
+                "Size": 8600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39754.jpg",
+                "Size": 792507
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {"free_text": "ethanol dehydration"},
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "10969",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "transport",
+                "onto_id": "GO:0006810"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Primary fixation included: 2.5 % glutaraldehyde, 2% formaldehyde in  0.1 M Na-phosphate buffer, pH 7.4. Post-fixed in 2% OSO4 in 0.1 M Na-phosphate buffer, pH 7.4. Stained en bloc in 1% uranyl acetate. The tissue was then dehydrated in a graded series of ethanol and infiltrated with Spurr\u2019s resin.  Thin sections of 70 nm were trimmed using a diamond knife and post-stained in uranyl acetate and lead citrate. This micrograph image was taken using a Phillips CM 100 transmission electron microscope at an accelerating voltage of 80kV."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1805
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1571
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "cardiac muscle cell",
+                "onto_id": "CL:0000746"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of mouse cardiac muscle.  Transport is visible in the ventricle across a space from one muscle cell to the adjacent muscle cell."},
+            "ATTRIBUTION": {
+                "OTHER": ["Mount Holyoke College"],
+                "Contributors": [
+                    "Dee Lauzon",
+                    "Sue Lancelle",
+                    "Marian Rice"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

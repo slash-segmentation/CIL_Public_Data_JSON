@@ -1,0 +1,99 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "37242.tif",
+                "Size": 3700000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "37242.jpg",
+                "Size": 702713
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "37242.zip",
+                "Size": 3633668
+            }
+        ],
+        "CORE": {
+            "GROUP_ID": "9996",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "endoplasmic reticulum",
+                "onto_id": "GO:0005783"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Gallus gallus",
+                "onto_id": "NCBITaxon:9031"
+            },
+            "TECHNICALDETAILS": {"free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi."},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1813
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Classic TEM. First description of the endoplasmic reticulum. Whole mount of unfixed, dried chick embryo fibroblast.  Embryonic chick cells were grown on a thin collodion film supported by a fine mesh copper grid. After the cells had grown and spread out thin processes, the preparation was air dried. They reasoned that the thin processes would allow electrons to penetrate in the electron microscope. The only microscope available to them was owned by the Interchemical Corp. and housed in the Empire State Building. Fullam was the technician. The electron microscope was a first generation RCA type B.  Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                {"free_text": "CEF (chicken embryo fibroblast"}
+            ],
+            "ATTRIBUTION": {
+                "DATE": ["12/12/1952"],
+                "URLs": [{
+                    "Label": "George E. Palade EM slide collection",
+                    "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeTechC"
+                }],
+                "PUBLISHED": ["J. Exp. Med. 81:233-246. 1945"],
+                "Contributors": [
+                    "Keith R. Porter",
+                    "Albert Claude",
+                    "Ernest F. Fullam"
+                ],
+                "PUBMED": ["19871454"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,96 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41652.tif",
+                "Size": 74200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41652.jpg",
+                "Size": 2217024
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41652.zip",
+                "Size": 74020684
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "darkfield illumination",
+                "onto_id": "FBbi:00000292"
+            },
+            "CELLULARCOMPONENT": {"free_text": "flower pod"},
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "seed maturation",
+                    "onto_id": "GO:0010431"
+                },
+                {
+                    "onto_name": "seed development",
+                    "onto_id": "GO:0048316"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in amount of elastic light scattering",
+                "onto_id": "FBbi:00000600"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Scorpius muricatus"},
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of photons",
+                "onto_id": "FBbi:00000587"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4967
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4967
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Detail of a pod of flowering legume Scorpius muricatus. \nStereomicroscopy, darkfield illumination.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["Hyskov,  Czech Republic"],
+                "URLs": [{
+                    "Label": "2011 Olympus BioScapes  Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm55.html"
+                }],
+                "Contributors": [
+                    "Viktor Sýkora",
+                    "2011 Olympus BioScapes  Digital Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

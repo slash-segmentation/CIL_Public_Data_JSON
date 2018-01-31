@@ -1,0 +1,117 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40249.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40249.jpg",
+                "Size": 65753
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "GROUP_ID": "12252",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "connexon complex",
+                "onto_id": "GO:0005922"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "gap junction assembly",
+                "onto_id": "GO:0016264"
+            },
+            "RELATIONTOINTACTCELL": [
+                {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "MDCK (NBL-2)",
+                "onto_id": "MCC:0000319"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Canis lupus familiaris",
+                "onto_id": "NCBITaxon:9615"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "MDCK cells stably expressing two internal 4C domains in the C-terminus (FLNCCPGCCME)-tagged Cx43 (Cx43-4C309/337) were labeled for 1 h at 37 degrees C with 180 nM FlAsH-EDT2/12.5 uM EDT in Hanks balanced salt saline (HBSS). Free and non-specifically bound FlAsH was removed by washing with 2,3-dimercapto-1-propanol (BAL, 500 uM, 20min at 37 degrees C in HBSS). Time-lapse imaging was conducted using an Olympus FluoView1000 confocal microscope equipped with a temperature controlled chamber (at 37 degrees C) and a 60X 1.42 NA objective. Medium: Opti-MEM supplemented with 5% FBS covered with a glass coverslip."},
+            "MOLECULARFUNCTION": {
+                "onto_name": "connexin binding",
+                "onto_id": "GO:0071253"
+            },
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A single frame from a time-lapse animation of FlAsH-labeled MDCK cells expressing Cx43-4C309/337 (green) showing their rearrangement and fate during and after mitosis.  In the time-lapse series, which can be accessed using the link provided to the Cell Centered Database, FlAsH fluorescence excitation z series along with a transmitted DIC image were recorded every 6 min for a total duration of about 5 h. 3D volume reconstructions from confocal image stacks over time are displayed at a rate of two frames per minute.  From Supplemental movie 2 from Boassa et al. (2010) Traffic. PMID 20716111."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 7796",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=7796"
+                }],
+                "Contributors": ["Daniela Boassa"],
+                "PUBMED": ["20716111"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

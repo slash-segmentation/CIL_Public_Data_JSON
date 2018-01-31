@@ -1,0 +1,113 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "758.jpg",
+                "Size": 2674840
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "758.tif",
+                "Size": 21700000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "758.zip",
+                "Size": 21837276
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"free_text": "Low temperature embedding"}
+            ],
+            "GROUP_ID": "8086",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nuclear chromatin",
+                "onto_id": "GO:0000790"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "fertilization",
+                "onto_id": "GO:0009566"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {"free_text": "electron energy scattering"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Patiria miniata",
+                "onto_id": "NCBITaxon:46514"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "modes of electron microscopy",
+                    "onto_id": "FBbi:00000256"
+                },
+                {
+                    "onto_name": "EELS imaging",
+                    "onto_id": "FBbi:00000381"
+                }
+            ],
+            "MOLECULARFUNCTION": {"free_text": "DNA packaging"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3854,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.67
+                    }
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2804,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.67
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {"free_text": "EELS imaging"},
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Phosphorus has a characteristic electron energy loss with an edge at 160 eV. The Zeiss 902 electron microscope permits images to be recorded at different energy losses which can be digitized and processed to yield a net phosphorus image.  For nuclear chromatin, phosphorus is primarily located in DNA, allowing its distribution in chromatin fibers to be mapped.\nStarfish sperm chromatin, which has clearly defined chromatin fibers was fixed, embedded in Lowicryl at low temperature, thin sections prepared and imaged unstained. \n The 4 grouped images were recorded  with a Zeiss 902 energy filtered TEM at 80KV using  5eV windows centered on  energy loss values of 170, 160, 118, and 104eV (this image)."},
+            "CELLTYPE": {
+                "onto_name": "sperm",
+                "onto_id": "CL:0000019"
+            },
+            "ATTRIBUTION": {"Contributors": [
+                "Rachel  Horowitz-Scherer",
+                "Chris Woodcock"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

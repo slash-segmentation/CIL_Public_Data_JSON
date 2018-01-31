@@ -1,0 +1,78 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "27147.jpg",
+                "Size": 40801
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "27147.tif",
+                "Size": 900000
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "unidentified plant",
+                "onto_id": "NCBITaxon:47299"
+            },
+            "TECHNICALDETAILS": {"free_text": "Pollen was imaged using an iMIC Andromeda Spinning Disk Confocal (TILL Photonics GmbH Objective: Olympus UPlanSApo 60X/NA1.35 CCD Camera: Imago QE (PCO).  Excitation, 561nm Laser, with the following filters: Laser CleanUp, FF01-446/523/600/677 (Semrock); Dichroic, zt405/490/561/640rpc (Chroma, custom-made design); and emission filter, FF01-390/482/563/640 (Semrock). The colors represent the z-position within the maximum intensity projection. All image processing was done using FIJI. After recording the z-stack (see accompanying raw data in this image group), every focal plane was colorized using the full rainbow, resulting in an RGB z-stack. The maximum intensity projection then produces a colorized max intensity projection. To access FIJI go to http://pacific.mpi-cbg.de/wiki/index.php/Fiji"},
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "GROUP_ID": "9156",
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 622,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.1075
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 455,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.1075
+                    }
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Autofluorescence from unidentified pollen (mixed pollen grain w.m.; Carolina, commercial sample), presented as a maximum intensity projection obtained from a color-coded Z-stack with 200 image planes. The colors represent the z-position within the maximum intensity projection."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "BIOLOGICALPROCESS": {
+                "onto_name": "reproduction",
+                "onto_id": "GO:0000003"
+            },
+            "ATTRIBUTION": {"Contributors": ["Sebastian Rhode, Till Photonics"]},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

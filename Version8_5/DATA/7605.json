@@ -1,0 +1,136 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "7605.jpg",
+                "Size": 4658265
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "7605.tif",
+                "Size": 58800000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "7605.zip",
+                "Size": 117490822
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "GROUP_ID": "10217",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "rough endoplasmic reticulum",
+                    "onto_id": "GO:0005791"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "cytosolic ribosome",
+                    "onto_id": "GO:0022626"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "biosynthetic process",
+                "onto_id": "GO:0009058"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus rattus",
+                "onto_id": "NCBITaxon:10117"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Small blocks of rat liver tissue were fixed in 2% glutaraldehyde in 0.1 M phosphate buffer, pH 7.4 for 3 hours at 0C and postfixed in 1% osmium tetroxide in the same buffer for 15 hours at 0C. The tissue was dehydrated and embedded in Epon. Sections were stained for 1 minute with uranyl acetate and with alkaline lead citrate for 5 minutes and finally examined in a Siemens Elmiskop I operated at 80 kv with a double condensor and 50µ apertures in the objective lens.\n\n3.25 X 4 inch lantern slide scanned at 1200 dpi in TIFF format, labeled in Photoshop then reduced to 600 dpi TIFF file (3500 x 2969 pixels) prior to conversion to JPEG2000 format. Original image created on September 23, 1965."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4800,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 42.33
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4072,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 42.33
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Morphology of the endoplasmic reticulum during a period of rapid cell differentiation. This micrograph shows two typical patterns of rough endoplasmic reticulum (RER) in developing liver from a one day old rat. Some RER is arranged in arrays of parallel flat cisternae (shown here in cross-section) and other RER (cisternae and/or tubules) encircles the mitochondria (Mt). The RER is defined by the presence of bound ribosomes (RiB). Many free ribosomes (RiF) are also seen in the cytoplasm between the parallel arrays of RER. \n\nIdentical unlabeled image available as CIL# 7603. Similar to micrographs published in Dallner G, Siekevitz P, Palade GE. J Cell Biol. 1966;30:73-96. Original image is in the Palade Collection, University of California, San Diego."},
+            "CELLTYPE": {
+                "onto_name": "hepatocyte",
+                "onto_id": "CL:0000182"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Dallner et al. 1966",
+                    "Href": "http://www.jcb.org/cgi/reprint/30/1/73.pdf"
+                }],
+                "Contributors": ["George E. Palade (University of California, San Diego)"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

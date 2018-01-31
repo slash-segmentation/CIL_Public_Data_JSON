@@ -1,0 +1,82 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11938.zip",
+                "Size": 5140608
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11938.flv",
+                "Size": 2237712
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11938.jpg",
+                "Size": 16117
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "Acid treatment"},
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {"free_text": "differences in fluorescence emission"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Taraxacum officinale",
+                "onto_id": "NCBITaxon:50225"
+            },
+            "PARAMETERIMAGED": {"free_text": "Autofluorescence"},
+            "TECHNICALDETAILS": {"free_text": "See: S Inoue and T Inoue (2002) Direct-view high speed confocal scanner: the CSU-10. Meth Cell Biol 70:87-127"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 720
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 480
+                }},
+                {"Space": {"axis": "Z"}}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {"free_text": "pollen grain"},
+            "IMAGEDESCRIPTION": {"free_text": "The movie shows several sequences illustrating the generation of 3D data using the CSU-10 confocal microscope to image the auto-fluorescence of acid treated pollen grains of Dandelion. The first sequence is a 'walk through' in the z direction with the raw images at left, and after unsharp masking on the left. The images in the stack were displaced sidewise sequentially, unsharp masked, summed to generate the views for different angles, and sequences of angular views shown.  In these latter sequences, it appears as though 3D images of pollen grains are rotating, providing insight on the complex structure."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["S. Inoue 2008 Collected Works of Shinya Inoue. World Scientific Publishing Company, Singapore, Hackensack, NJ, USA"],
+                "Contributors": [
+                    "Shinya Inoue",
+                    "Ted Inoue"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

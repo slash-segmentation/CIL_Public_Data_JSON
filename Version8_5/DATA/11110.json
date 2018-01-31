@@ -1,0 +1,115 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11110.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11110.jpg",
+                "Size": 302565
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11110.zip",
+                "Size": 1362492
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "critical_point dried specimen",
+                "onto_id": "FBbi:00000581"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Parophrys vetulus",
+                "onto_id": "NCBITaxon:172659"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "secondary electron generation",
+                "onto_id": "FBbi:00000580"
+            },
+            "GROUP_ID": "11228",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                {
+                    "onto_name": "external side of plasma membrane",
+                    "onto_id": "GO:0009897"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 908
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1292
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "epidermal cell",
+                "onto_id": "CL:0000362"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.  Scanning electron micrograph of the epidermal surface of the flatfish sole Parophrys detulus shows a labyrinth of surface ridges.  Image from Fahrenbach, W., Knutsen, D.D. (1975). J. Invest. Dermatol. 65:39-44, reprinted by permission from Macmillan Publishers Ltd as Figure 41 from Chapter 2 (Specializations Of The Free Surface) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D. A PDF copy of the accompanying chapter is available on the ASCB's BioEDUCATE website."},
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "plasma membrane organization",
+                    "onto_id": "GO:0007009"
+                },
+                {
+                    "onto_name": "cell projection organization",
+                    "onto_id": "GO:0030030"
+                }
+            ],
+            "ATTRIBUTION": {
+                "URLs": [
+                    {
+                        "Label": "Fawcett's \"The Cell, 2nd Ed.\"",
+                        "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                    },
+                    {
+                        "Label": "J. Invest. Dermatol. reprint",
+                        "Href": "http://www.nature.com/jid/journal/v65/n1/abs/5617225a.html"
+                    }
+                ],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": ["Wolf Fahrenbach"],
+                "PUBMED": ["PMID: 1151108"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

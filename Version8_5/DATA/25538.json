@@ -1,0 +1,201 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25538.zip",
+                "Size": 401536
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "25538.flv",
+                "Size": 560968
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25538.jpg",
+                "Size": 33494
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                }
+            ],
+            "GROUP_ID": "8529",
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {
+                    "onto_name": "integrin complex",
+                    "onto_id": "GO:0008305"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cardiac cell differentiation",
+                    "onto_id": "GO:0035051"
+                },
+                {
+                    "onto_name": "cardiac muscle cell differentiation",
+                    "onto_id": "GO:0055007"
+                },
+                {
+                    "onto_name": "cardioblast differentiation",
+                    "onto_id": "GO:0010002"
+                },
+                {
+                    "onto_name": "regulation of transcription, DNA-dependent",
+                    "onto_id": "GO:0006355"
+                },
+                {
+                    "onto_name": "embryonic heart tube development",
+                    "onto_id": "GO:0035050"
+                },
+                {
+                    "onto_name": "actin filament organization",
+                    "onto_id": "GO:0007015"
+                },
+                {
+                    "onto_name": "regulation of Rab GTPase activity",
+                    "onto_id": "GO:0032313"
+                },
+                {
+                    "onto_name": "regulation of Rho protein signal transduction",
+                    "onto_id": "GO:0035023"
+                },
+                {
+                    "onto_name": "cytoskeleton organization",
+                    "onto_id": "GO:0007010"
+                },
+                {
+                    "onto_name": "cell migration",
+                    "onto_id": "GO:0016477"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Stage 14 embryos were stained with primary antibodies: rabbit anti-Tim, guinea pig anti-Msp300. Species-specific secondary antibodies were conjugated to Alexa Fluor 488, Cy3 or Cy5. The double stained embryos were visualized using a Zeiss LSM 510 Meta confocal microscope. Images representing 0.5 mm optical sections were compiled and processed by Volocity software (Improvision)."},
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "sequence-specific DNA binding transcription factor activity",
+                    "onto_id": "GO:0003700"
+                },
+                {
+                    "onto_name": "cytoskeletal protein binding",
+                    "onto_id": "GO:0008092"
+                },
+                {
+                    "onto_name": "actin binding",
+                    "onto_id": "GO:0003779"
+                },
+                {
+                    "onto_name": "Rab GTPase activator activity",
+                    "onto_id": "GO:0005097"
+                },
+                {
+                    "onto_name": "Rho guanyl-nucleotide exchange factor activity",
+                    "onto_id": "GO:0005089"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 784
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 500.0
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "primary antibody plus labeled secondary antibody",
+                "onto_id": "FBbi:00000156"
+            },
+            "PROCESSINGHISTORY": {"free_text": "3D reconstruction"},
+            "IMAGEDESCRIPTION": {"free_text": "A 3D reconstruction of the cardiac outflow tract (OFT) region (horizontal and vertical rotation) from stage-14 wild-type embryo stained for Tinman (Tin; red) and Msp300 (green). Tin staining reveals the cardiac cells and, located ventrally to cardiac outflow muscles (COM), cvr cells (red cells without Msp300 staining). The two anterior cardioblasts coexpressing Tin and Msp300 (ACB cells) are seen associated with COM (refer to Fig. 1). Notice the position of ACBs linking the two COMs (frontal view) and located dorsally with respect to COM fibers (lateral view). Movie is SI Movie 2 in Proc Natl Acad Sci USA (2008) 105: 2475-2480. Movies from this publication include CIL# 25536, 25537, 25538, 25539, 25540, 25541."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cardioblast (sensu Arthropoda)",
+                    "onto_id": "CL:0000465"
+                },
+                {
+                    "onto_name": "pericardial cell",
+                    "onto_id": "CL:0000474"
+                },
+                {"free_text": "cardiac outflow muscle"},
+                {"free_text": "heart-anchoring cells"},
+                {"free_text": "cephalic vascular rudiment cells"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Proc Natl Acad Sci USA (2008) 105: 2475-2480."],
+                "Contributors": [
+                    "Monika Zmojdzian",
+                    "Jean Philippe Da Ponte",
+                    "Krzysztof Jagla"
+                ],
+                "PUBMED": ["18250318"]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": ":Drosophila development and anatomy"},
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {"free_text": "3D reconstruction"}
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

@@ -1,0 +1,111 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "7199.jpg",
+                "Size": 87144
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "7199.zip",
+                "Size": 329638012
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "7199.flv",
+                "Size": 20457780
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Mammalian Cell Animation"},
+            "IMAGINGMODE": {"free_text": "SEM animation"},
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "Golgi apparatus",
+                    "onto_id": "GO:0005794"
+                },
+                {
+                    "onto_name": "Golgi stack",
+                    "onto_id": "GO:0005795"
+                },
+                {
+                    "onto_name": "Golgi cis cisterna",
+                    "onto_id": "GO:0000137"
+                },
+                {
+                    "onto_name": "Golgi trans cisterna",
+                    "onto_id": "GO:0000138"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "endoplasmic reticulum membrane",
+                    "onto_id": "GO:0005789"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1280
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 720
+                }},
+                {"Space": {"axis": "Z"}}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "The Golgi Apparatus. In mammalian cells, the very complex architecture of the membrane system makes understanding the interrelationship of the different organelles within the cell difficult. Their dynamic relationship exists in four dimensions and is hard to capture at nanoscale resolutions. We present, here, an animation that takes the viewer inside a mammalian cell where one can see the nucleus and its characteristic envelope connected to the endoplasmic reticulum. We used transmission electron microscopy and tomography to generate a 3D volume of a portion of a Golgi ribbon imaged from a mammalian cell. A model of the Golgi apparatus is presented where the trans Golgi network peels off from the stack of cisternae while the CIS element is fed with a component arising from the ER exit site. This animation is the first project by the Biovisualization program at the NICHD. Computer science and animation students collaborated with researchers to produce this visualization. While the main focus was scientific accuracy, aesthetics were also considered. To convey the sense of scale, a progression is made, from actual confocal microscopy into an SEM style animation and then into non-photorealistic rendering of what can be seen at TEM level magnification. The software tools utilized for this project include Autodesk Maya, Adobe Photoshop and After Effects, Final Cut Studio, Mercury Amira and Imod. Title: Celldance 2008, 1st Place Public Outreach Video: The Golgi Apparatus"},
+            "ATTRIBUTION": {"Contributors": ["Rachid Sougrat, Tim Mrozek, Jeremy Swan, Jennifer Lippincott-Schwartz"]},
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "Golgi organization",
+                    "onto_id": "GO:0007030"
+                },
+                {
+                    "onto_name": "intra-Golgi vesicle-mediated transport",
+                    "onto_id": "GO:0006891"
+                },
+                {
+                    "onto_name": "ER to Golgi vesicle-mediated transport",
+                    "onto_id": "GO:0006888"
+                }
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "RELATIONTOINTACTCELL": [
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                {"free_text": "whole mounted cell"},
+                {"free_text": "animation"}
+            ],
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {"free_text": "TEM tomography"},
+                {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

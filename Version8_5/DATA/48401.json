@@ -1,0 +1,111 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "48401.tif",
+                "Size": 500000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "48401.jpg",
+                "Size": 25905
+            }
+        ],
+        "CORE": {
+            "GROUP_ID": "18103",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "dendritic spine",
+                    "onto_id": "GO:0043197"
+                },
+                {
+                    "onto_name": "dendrite",
+                    "onto_id": "GO:0030425"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "The tomogram was generated using an JEOL4000 IVEM. Single tilt images spanned -60 to 60° in 2° increments. Magnification, 3000X; accelerating voltage, 400KeV."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1440,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.119
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1782,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.119
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 233,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.5
+                    }
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "CNS neuron (sensu Vertebrata)",
+                "onto_id": "CL:0000117"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Tomographic reconstruction of a dendrite and associated dendritic spines from a medium spiny neuron from the mouse nucleus accumens. This image is a maximum intensity projection of a segment of dendrite in a 2 um section. The cell was filled by intracellular injection of Lucifer Yellow dye and photooxidized. This reconstructed image has been downsampled from the raw data image, which can be accessed using the link provided to the Cell Centered Database."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 1",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?mpid=1&event=displaySum"
+                }],
+                "Contributors": [
+                    "Maryann Martone",
+                    "Eric Bushong"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

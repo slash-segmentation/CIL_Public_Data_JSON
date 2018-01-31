@@ -1,0 +1,168 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "23610.flv",
+                "Size": 323914
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "23610.jpg",
+                "Size": 3979
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "23610.zip",
+                "Size": 520320
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "9244",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "time lapse microscopy",
+                    "onto_id": "FBbi:00000249"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "spindle pole body",
+                    "onto_id": "GO:0005816"
+                },
+                {
+                    "onto_name": "cytoplasmic microtubule",
+                    "onto_id": "GO:0005881"
+                },
+                {
+                    "onto_name": "outer plaque of spindle pole body",
+                    "onto_id": "GO:0005824"
+                },
+                {
+                    "onto_name": "gamma-tubulin small complex, spindle pole body",
+                    "onto_id": "GO:0000928"
+                },
+                {
+                    "onto_name": "inner plaque of spindle pole body",
+                    "onto_id": "GO:0005822"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "microtubule-based movement",
+                    "onto_id": "GO:0007018"
+                },
+                {
+                    "onto_name": "mitotic spindle organization",
+                    "onto_id": "GO:0007052"
+                },
+                {
+                    "onto_name": "microtubule cytoskeleton organization",
+                    "onto_id": "GO:0000226"
+                },
+                {
+                    "onto_name": "microtubule nucleation",
+                    "onto_id": "GO:0007020"
+                },
+                {
+                    "onto_name": "cell division",
+                    "onto_id": "GO:0051301"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {"free_text": "cnm67delta"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Saccharomyces cerevisiae S288c",
+                "onto_id": "NCBITaxon:559292"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "S. cerevisiae (MATa SPC97-tdimer2::KanR cnm67delta::TRP1 ura3-52 lys2-801 leu2-delta1::GFP-TUB1::LEU2 his3-delta200 trp1-delta63) were grown to midlog phase and mounted on agarose pads for microscopy. Images were collected on an Olympus IX70 inverted fluorescence microscope with a 100 N.A. 1.35 oil objective lens and a CoolSNAP HQ camera (Roper Scientific), using QED software (Media Cybernetics). Timelapse images were captured at 5-s intervals."},
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "GTPase activity",
+                    "onto_id": "GO:0003924"
+                },
+                {
+                    "onto_name": "structural constituent of cytoskeleton",
+                    "onto_id": "GO:0005200"
+                }
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "DsRed2FP",
+                    "onto_id": "FBbi:00000510"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 279
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 74
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "61",
+                    "value": 5.0
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Free microtubule sliding in cnm67delta mutant cells expressing GFP-Tubulin (GFP-TUB1; left panel, green in right panel merge) and RFP-Spc97 (a component of the gamma-tubulin complex, marks the minus end; middle panel, red in right panel merge). Movie plays at 50x real time and is movie S9 in Proc Natl Acad Sci. 2009. 106: 5147-5152."},
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Proc Natl Acad Sci. 2009. 106: 5147-5152."],
+                "Contributors": [
+                    "Jeffrey K. Moore",
+                    "David Sept",
+                    "John A. Cooper"
+                ],
+                "PUBMED": ["19279216"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

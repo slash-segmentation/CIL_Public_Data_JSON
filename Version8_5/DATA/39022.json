@@ -1,0 +1,145 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39022.jpg",
+                "Size": 141402
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39022_orig.jpg",
+                "Size": 227244
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39022.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39022.zip",
+                "Size": 227382
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "neuron projection",
+                "onto_id": "GO:0043005"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "optic nerve structural organization",
+                    "onto_id": "GO:0021633"
+                },
+                {
+                    "onto_name": "optic nerve maturation",
+                    "onto_id": "GO:0021632"
+                },
+                {
+                    "onto_name": "retina layer formation",
+                    "onto_id": "GO:0010842"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "ZEBRAFISH_ANATOMY": [
+                {
+                    "onto_name": "retinal ganglion cell layer",
+                    "onto_id": "ZFA:0000024"
+                },
+                {
+                    "onto_name": "retinal photoreceptor layer",
+                    "onto_id": "ZFA:0000143"
+                },
+                {
+                    "onto_name": "optic chiasm",
+                    "onto_id": "ZFA:0000556"
+                },
+                {
+                    "onto_name": "eye",
+                    "onto_id": "ZFA:0000107"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Danio rerio",
+                "onto_id": "NCBITaxon:7955"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007779 Connections in the visual system.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 787
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "primary antibody plus labeled secondary antibody",
+                "onto_id": "FBbi:00000156"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": [
+                {
+                    "onto_name": "glial cell",
+                    "onto_id": "CL:0000125"
+                },
+                {
+                    "onto_name": "neuron",
+                    "onto_id": "CL:0000540"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Confocal micrograph showing the connections of the visual system in a four-day-old zebrafish embryo. Staining of the neurons, glia and optic nerve illustrate the connections between the retina and the brain. The retina is a multi-layered structure of retinal neurons that processes light information in the eye. The ganglion cell layer is closest to the bulb of the eye moving out towards the layer that contains the light sensitive cells - the rods and cones - towards the back of the retina. Both the retinal ganglion cell layers and photoreceptor cell layers are shown in cyan. The glial cells are shown in purple. The optic nerve (cyan) transmits information from the eye to the brain. The point at which the optic nerves meet is known as the optic chiasm."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": [
+                    "Kara Cerveny",
+                    "Steve Wilson"
+                ]
+            },
+            "SPECIESTAXASPECIFIC": [
+                {"onto_id": "ZFA:ZFA:0000024"},
+                {"onto_id": "ZFA:ZFA:0000143"},
+                {"onto_id": "ZFA:ZFA:0000556"},
+                {"onto_id": "ZFA:ZFA:0000107"}
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,88 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39988.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39988.jpg",
+                "Size": 34510
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Felis catus",
+                "onto_id": "NCBITaxon:9685"
+            },
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "IMAGINGMODE": {"onto_id": "FBbi:00000623"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "mitochondrion",
+                "onto_id": "GO:0005739"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "CNS neuron (sensu Vertebrata)",
+                "onto_id": "CL:0000117"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Computed slice through a tomographic reconstruction of the mitochondrial adherens complex in the Calyx of Held of an adult cat. For additional information, see: Perkins GA, Tjong J, Brown JM, Poquiz PH, Scott RT, Kolson DR, Ellisman MH, Spirou GA. The micro-architecture of mitochondria at active zones: electron tomography reveals novel anchoring scaffolds and cristae structured for high-rate metabolism. J Neurosci. (2010) 30(3):1015-26. PMID: 20089910. This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 3487",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3487"
+                }],
+                "Contributors": [
+                    "Guy Perkins",
+                    "George Spirou"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

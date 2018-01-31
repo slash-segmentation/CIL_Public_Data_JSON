@@ -1,0 +1,79 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "37288.zip",
+                "Size": 64495782
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "37288.jpg",
+                "Size": 6874505
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "37288.tif",
+                "Size": 64600000
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Actinobacillus pleuropneumoniae",
+                "onto_id": "NCBITaxon:715"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi.\n\nRelated citation:  White, D.C., G. Leidy, J.D. Jamieson and R.E.Shope. P, J. Exp. Med. 120:1-12, 1964."},
+            "GROUP_ID": "9569",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 6000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 5374
+                }}
+            ],
+            "CELLTYPE": {"free_text": "bacteria"},
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of bacteria hemophilus pleuropneumoniae. Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."},
+            "ATTRIBUTION": {
+                "DATE": ["11/22/1964"],
+                "URLs": [{
+                    "Label": "George E. Palade EM Slide Collection",
+                    "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeBacB"
+                }],
+                "Contributors": ["James D. Jamieson"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,100 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "12627.tif",
+                "Size": 1500000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "12627.zip",
+                "Size": 483574
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "12627.jpg",
+                "Size": 32813
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {"free_text": "vasa"},
+            "BIOLOGICALPROCESS": {
+                "onto_name": "oocyte maturation",
+                "onto_id": "GO:0001556"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "Ovary",
+                "onto_id": "FMA:7209"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 600
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Fluorescent image of a mouse ovary labeled with an antibody to vasa (involved in oocyte differentiation and polarity) which is localized in the oocytes within the ovary. The sample was fixed in paraformaldehyde for subsequent immunolabeling with an antibody to vasa and a secondly antibody conjugated to Alexa 488. The image was captured with a 4MP RGB/gray SPOT digital camera mounted on a Leica MZII Pursuit fluorescent stereoscopic microscope."},
+            "ATTRIBUTION": {"Contributors": ["Prue Talbot"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,185 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "10004.tif",
+                "Size": 11300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10004.jpg",
+                "Size": 2624469
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10004.zip",
+                "Size": 22318170
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "3403",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell cortex",
+                    "onto_id": "GO:0005938"
+                },
+                {
+                    "onto_name": "cortical microtubule cytoskeleton",
+                    "onto_id": "GO:0030981"
+                },
+                {"free_text": "extrusomes"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cortical cytoskeleton organization",
+                    "onto_id": "GO:0030865"
+                },
+                {
+                    "onto_name": "cortical microtubule organization",
+                    "onto_id": "GO:0043622"
+                },
+                {
+                    "onto_name": "plasma membrane organization",
+                    "onto_id": "GO:0007009"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "CELLLINE": {"free_text": "Carolina Biological Supply Company, NC, U.S.A."},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Didinium nasutum",
+                "onto_id": "NCBITaxon:5997"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "structural molecule activity",
+                    "onto_id": "GO:0005198"
+                },
+                {
+                    "onto_name": "structural constituent of cytoskeleton",
+                    "onto_id": "GO:0005200"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3773
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2981
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative digitized for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "An image of the pellicle of Didinium, in cross section of a non-dividing cell, has a plasma membrane with a distinct glycocalyx on its external surface and a flattened alveolar sac system. Under the alveoli are one or two or more ribbons of microtubules in ridges between the more corrugated mucocyst docking sites. Mitochondria with tubular cristae lie under the epiplasm in the ribosome filled cytosol. TEM taken on 2/18/69 by R. Allen with Philips 300 operating at 60kV. Neg. 20,500X. Bar = 0.5µm. The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. A raw, unprocessed, high resolution version of this image (CIL:9927) is in the library and available for quantitative analysis. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www5.pbrc.hawaii.edu/allen/"}],
+                "Contributors": ["Richard Allen"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

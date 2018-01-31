@@ -1,0 +1,117 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "40269.flv",
+                "Size": 384898
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40269.zip",
+                "Size": 21577856
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40269.jpg",
+                "Size": 45975
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "10946",
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "microtubule cytoskeleton",
+                "onto_id": "GO:0015630"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                {
+                    "onto_name": "mitotic metaphase",
+                    "onto_id": "GO:0000089"
+                },
+                {
+                    "onto_name": "microtubule cytoskeleton organization",
+                    "onto_id": "GO:0000226"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "LLC-PK1",
+                "onto_id": "MCC:0000286"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Sus scrofa domestica",
+                "onto_id": "NCBITaxon:9825"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Cells were imaged using a Nikon Eclipse TE300 microscope with 100x phase NA 1.4 objective lens and spinning disk confocal head (Perkin Elmer) and images captured with a MicroMax cooled CCD camera.\nImages were captured every 2 sec and are displayed at 7.5 frames/sec. \nSee also:N Rusan and P Wadsworth 2005. Centrosome fragments and microtubules are transported asymmetrically away from division plane in mitosis.J Cell Biol 168:21-28."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 510
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 423
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "value": 2.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Time lapse movie of a porcine kidney LLCPK1 cell stably expressing EGFP-alpha tubulin. The movie shows microtubule behavior from early prophase through metaphase."},
+            "CELLTYPE": {
+                "onto_name": "kidney epithelial cell",
+                "onto_id": "CL:0002518"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {"Contributors": [
+                "Nasser Rusan",
+                "Patricia Wadsworth"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

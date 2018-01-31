@@ -1,0 +1,119 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11954.jpg",
+                "Size": 48983
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11954.flv",
+                "Size": 5138204
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11954.zip",
+                "Size": 65175680
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "polarization microscopy",
+                    "onto_id": "FBbi:00000248"
+                },
+                {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "spindle",
+                    "onto_id": "GO:0005819"
+                },
+                {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                }
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "meiosis"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "form birefringence",
+                    "onto_id": "FBbi:00000593"
+                },
+                {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Chaetopterus sp. 1 Woods Hole MA",
+                "onto_id": "NCBITaxon:6380"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "retardance",
+                    "onto_id": "FBbi:00000313"
+                },
+                {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                }
+            ],
+            "TECHNICALDETAILS": {"free_text": "The observations were made with polarizing and phase contrast optics using the hydrostatice pressure chamber developed by E.D. Salmon (Cold Spring Harbor Symp Quant Biol 3:1329-1342. \nSee also: S Inoue et al. 1975.Functional organization of mitotic microtubules. Biophys J 15:725-744."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 720
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 480
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "The movie shows the effect of pressure on the spindle of the Chaetopteris egg. 100 Atm. of pressure induces depolymerization of spindle microtubules leading to the loss of birefringence in this polarizing microscopy study. As the spindle loses its birefringence and slowly shrinks, the chromosomes are pulled to the  cell surface.   When the pressure is returned to 1 Atm., the spindle microtubules reassemble and push the chromosomes away from the cell surface.  The movie shows several rounds of pressure increases and decreases in which the birefingence of the spindle is clearly seen with polarizing optics. The last sequence shows the same cycle using phase contrast where the spindle is not so clearly seen."},
+            "CELLTYPE": {"free_text": "oocyte"},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["S. Inoue 2008 Collected Works of Shinya Inoue. World Scientific Publishing Company, Singapore, Hackensack, NJ, USA"],
+                "Contributors": [
+                    "Shinya Inoue",
+                    "Edward Salmon"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

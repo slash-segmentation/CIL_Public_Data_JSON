@@ -1,0 +1,117 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "26291.zip",
+                "Size": 7499904
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "26291.jpg",
+                "Size": 123948
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "26291.flv",
+                "Size": 2432237
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {"free_text": "high pressure freezing"},
+                {"free_text": "freeze substitution"}
+            ],
+            "GROUP_ID": "7297",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {"free_text": "tilt series"},
+                {"free_text": "tomogram"}
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "endoplasmic reticulum",
+                    "onto_id": "GO:0005783"
+                },
+                {
+                    "onto_name": "Golgi apparatus",
+                    "onto_id": "GO:0005794"
+                },
+                {"free_text": "vesicles"}
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "ER domain distribution during inheritence"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "CELLLINE": {"free_text": "BY4742"},
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Saccharomyces cerevisiae"},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 3.5
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 3.5
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": [
+                {"free_text": "surface rendering"},
+                {"free_text": "volume rendering"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Endoplasmic reticulum (ER) domains in 3D in a wild type S. cerevisiae cell (wt = BY4742) with a 383-nm bud. Domains are color coded as follows:  Golgi (purple), and vesicles (30 nm is shown in pink, and 60 nm is shown in white), cecER and tubER (yellow and green), and pmaER alone (blue).  Haploid  cells were high pressure frozen and then freeze substituted with 0.1% uranyl acetate and 0.25% glutaraldehyde in anhydrous acetone, embedded in Lowicryl, and an 80-nm serial thin sections and 200-nm serial semithick sections were cut with an ultramicrotome.   Dual-axis tilt series were collected from the samples from +/-60° with 1° increments at 300 kV using SerialEM (Mastronarde, 1997) at 300 kV using a field emission gun (Tecnai 30; FEI).  Tilt series were recorded at a magnification of 23,000× using SerialEM (Mastronarde, 2005). After 2x binning on the recording 4098 x 4098\u2013pixel charge-coupled device camera (Megascan 795; Gatan, Inc.), this magnification creates a 2000 x 2000\u2013pixel image with a pixel size of 1.02 nm on the specimen. The nominal resolution in our tomograms was ~4 nm, based upon section thickness, number of tilts, tilt increments, and tilt angle range (Crowther relation; Koster et al., 1997).  The IMOD package (Kremer et al., 1996) and its newest viewer, 3DMOD 4.0.11, were used to construct individual tomograms. Videos were made in 3DMOD and assembled in QuickTime Pro 7.   Bar is 200 nm.   Video relates to Figure 2 and Video 2 of J Cell Biol 2011 193:333-346."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol 2011 193:333-346"],
+                "Contributors": [
+                    "Matt West",
+                    "Nesia Zurek",
+                    "Andreas Hoenger",
+                    "Gia K. Voeltz"
+                ],
+                "PUBMED": ["21502358"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "portrayed image",
+                "onto_id": "FBbi:00000266"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

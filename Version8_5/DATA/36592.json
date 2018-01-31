@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36592.tif",
+                "Size": 663400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36592.jpg",
+                "Size": 73999
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36592.zip",
+                "Size": 662428943
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "9703",
+            "IMAGINGMODE": {
+                "onto_name": "bright-field microscopy",
+                "onto_id": "FBbi:00000243"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell",
+                "onto_id": "GO:0005623"
+            },
+            "XENOPUS_ANATOMY": [{
+                "onto_name": "embryo",
+                "onto_id": "XAO:0000113"
+            }],
+            "BIOLOGICALPROCESS": {"free_text": "cytochalasin D tratment"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in intrinsic optical density",
+                "onto_id": "FBbi:00000602"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Xenopus laevis",
+                "onto_id": "NCBITaxon:8355"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "Images were collected with a dissecting microscope."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 936
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 641
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Time series of images of fertilized Xenopus laevis embryos with their vitellin membrane removed.  Embryos were incubated plus/minus the actin depolymerizer cytochalsin B."},
+            "CELLTYPE": {"free_text": "fertilized embryo"},
+            "ATTRIBUTION": {"Contributors": [
+                "Martin Wuehr",
+                "Timothy Mitchison"
+            ]},
+            "SPECIESTAXASPECIFIC": {"onto_id": "XAO:XAO:0000113"},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

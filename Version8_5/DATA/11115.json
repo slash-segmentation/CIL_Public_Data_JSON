@@ -1,0 +1,118 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11115.jpg",
+                "Size": 400745
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11115.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11115.zip",
+                "Size": 1438816
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "critical_point dried specimen",
+                "onto_id": "FBbi:00000581"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Entosphenus tridentatus",
+                "onto_id": "NCBITaxon:7751"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "secondary electron generation",
+                "onto_id": "FBbi:00000580"
+            },
+            "GROUP_ID": "11228",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                {
+                    "onto_name": "external side of plasma membrane",
+                    "onto_id": "GO:0009897"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 927
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1277
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "epidermal cell",
+                "onto_id": "CL:0000362"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron micrograph of the epidermal surface of lamprey larvae.  A row of microvilli outline the polygonal borders between cells, while short microvilli cover the external surface in a reticular network.  Image from Fahrenbach, W. (1975) J. Invest. Dermatol. 65:39-44, reprinted with permission as Figure 43 from Chapter 2 (Specializations of the Free Surface) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.   A PDF copy of the accompanying chapter is available on the ASCB\u2019s BioEDUCATE website."},
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "plasma membrane organization",
+                    "onto_id": "GO:0007009"
+                },
+                {
+                    "onto_name": "cell projection organization",
+                    "onto_id": "GO:0030030"
+                }
+            ],
+            "ATTRIBUTION": {
+                "URLs": [
+                    {
+                        "Label": "Fawcett's \"The Cell, 2nd Ed.\"",
+                        "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                    },
+                    {
+                        "Label": "Fahrenbach & Knutson, J. Invest. Dermatol. 1975",
+                        "Href": "http://www.nature.com/jid/journal/v65/n1/abs/5617225a.html"
+                    }
+                ],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": [
+                    "Wolf Fahrenbach",
+                    "D. D. Knutson"
+                ],
+                "PUBMED": ["PMID: 1151108"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

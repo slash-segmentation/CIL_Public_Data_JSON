@@ -1,0 +1,132 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "27224.tif",
+                "Size": 6100000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "27224.jpg",
+                "Size": 989201
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "27224.zip",
+                "Size": 6046634
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {"free_text": "dehydrated in ethanol"},
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "9597",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "fibrillar collagen",
+                    "onto_id": "GO:0005583"
+                },
+                {"free_text": "stratum contractum"},
+                {"free_text": "dermis"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "extracellular matrix organization",
+                "onto_id": "GO:0030198"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Fundulus heteroclitus",
+                "onto_id": "NCBITaxon:8078"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Fundulus heteroclitus scales were chemically fixed with 2.5% glutaraldehyde, 2% formaldehyde in 0.1M cacodylate buffer (pH 7.3), then post-fixed in 4% osmium tetroxide and stained en bloc in 1% uranyl acetate. The scales were then dehydrated in a graded series of ethanol and infiltrated with Spurr\u2019s resin. Thin sections of 70 nm were trimmed using a diamond knife and post-stained in uranyl acetate and lead citrate. This micrograph was imaged using a Phillips CM 100 transmission electron microscope at an accelerating voltage of 80 kV."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1689,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.59
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1781,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.59
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Collagen fibrils in the basal plate of Fundulus heteroclitus scales. The basal plate is made of thick collagen fibrils about 100 nm in diameter, which are organized into a plywood-like structure. Note the changing orientation of the collagen fibrils at every layer of fibrils. During formation of this plywood-like organization, collagen fibrils are synthesized in a direction that is approximately perpendicular to the preceding ply. These well-defined layers of collagen constitute the stratum compactum of the dermis of Fundulus heteroclitus."},
+            "CELLTYPE": {"free_text": "scale"},
+            "ATTRIBUTION": {"Contributors": [
+                "Wai Yan Lam",
+                "Marian Rice"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

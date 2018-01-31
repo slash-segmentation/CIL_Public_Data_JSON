@@ -1,0 +1,137 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13148.jpg",
+                "Size": 4925243
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13148.tif",
+                "Size": 31800000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13148.zip",
+                "Size": 35222118
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                }
+            ],
+            "GROUP_ID": "6682",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "rough endoplasmic reticulum",
+                    "onto_id": "GO:0005791"
+                },
+                {
+                    "onto_name": "smooth endoplasmic reticulum",
+                    "onto_id": "GO:0005790"
+                },
+                {
+                    "onto_name": "Golgi apparatus",
+                    "onto_id": "GO:0005794"
+                },
+                {
+                    "onto_name": "vesicle",
+                    "onto_id": "GO:0031982"
+                },
+                {
+                    "onto_name": "plasma membrane",
+                    "onto_id": "GO:0005886"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "Golgi organization",
+                    "onto_id": "GO:0007030"
+                },
+                {
+                    "onto_name": "endoplasmic reticulum organization",
+                    "onto_id": "GO:0007029"
+                },
+                {
+                    "onto_name": "vesicle organization",
+                    "onto_id": "GO:0016050"
+                },
+                {
+                    "onto_name": "plasma membrane organization",
+                    "onto_id": "GO:0007009"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Micrasterias denticulata",
+                "onto_id": "NCBITaxon:407018"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3481,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 10.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4552,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 10.0
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "IMAGEDESCRIPTION": {"free_text": "Low-power micrograph illustrating the general preservation of the cytoplasm in a Micrasterias\ncell stabilized by ultrarapid freezing.  The large, sheetlike membranes of the rough endoplasmic reticulum (RER) stand out against the other, small organelles. Note the relationship of the RER membrane to the Golgi complex. Mitochondria, smooth endoplasmic reticulum, large vesicles, small vesicles, and plasma membrane.\n\nTechnical details:\nCultures of Micrasterias denticulata were obtained from the Algal Culture Collection, University of Indiana (Cat. No . LB558) . Cells were grown in Waris medium MS at 18°C on a 15/9-h, fight-dark cycle.  For each experiment, cells about halfway through the dark cycle were placed in fresh medium in continuous light. This treatment stimulated many cells to divide ~25 h later.  Healthy, growing cells were then selected with a dissecting microscope and placed in a separate Petri dish containing growth medium buffered with 2 mM 2(N-morpholino)-ethane sulfonic acid adjusted to pH 6.0.  Cells at the desired stage of development were then placed in another dish containing 1% glutaraldehyde in buffered medium and fixed for 20 min. Gold double-replica supports (Balzers High Vacuum Corp ., Santa Ana, Calif.) were coated with a thin layer of yeast paste.  Fixed cells were placed on one support and the second support was placed on top.  This \"sandwich\" was plunged into liquid propane near its melting point and stored in liquid nitrogen.  Cells were ultrarapidly frozen using a propane-jet device of the type described by Miiller et al (see reference).  Samples were prepared as described above, with the following exceptions: cells were frozen directly in growth medium, without prior fixation; the gold supports used had been hollowed out, leaving a metal thickness of 127 micron and the propane-jet device was used.  Samples were fractured and replicated using a Balzers double-replica device in a Balzers BA 360 freeze-etch unit.  Fracturing was done at -110°C.  The yeast paste allowed recovery of large, intact replicas; these were cleaned in commercial bleach and 70% sulfuric acid at 60°C.  Replicas were examined in a JEOL EM 100C at 2,000X magnification.\n\nImage reference: PMID: 7364870.\nRibosome binding sites visualized on freeze-fractured membranes of the rough endoplasmic reticulum.  Giddings TH Jr, Staehelin LA.   J Cell Biol. 1980 Apr;85(1):147-52."},
+            "ATTRIBUTION": {"Contributors": ["Thomas Giddings"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

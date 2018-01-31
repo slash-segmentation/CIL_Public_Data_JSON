@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40627.tif",
+                "Size": 6200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40627.jpg",
+                "Size": 351316
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "GROUP_ID": "11240",
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "detection of mechanical stimulus involved in sensory perception of sound",
+                    "onto_id": "GO:0050910"
+                },
+                {
+                    "onto_name": "sensory perception of sound",
+                    "onto_id": "GO:0007605"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rana catesbeiana",
+                "onto_id": "NCBITaxon:8400"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1258
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1614
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "auditory hair cell",
+                "onto_id": "CL:0000202"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single frog sacculus hair bundle imaged with field-emission scanning electron microscope."},
+            "ATTRIBUTION": {
+                "OTHER": ["OHRC Oregon Health"],
+                "Contributors": ["Peter Gillespie"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

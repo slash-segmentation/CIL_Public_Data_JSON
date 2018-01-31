@@ -1,0 +1,122 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11993.jpg",
+                "Size": 12231
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11993.zip",
+                "Size": 6246528
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11993.flv",
+                "Size": 7730326
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "3733",
+            "IMAGINGMODE": {"free_text": "TIRF"},
+            "CELLULARCOMPONENT": {"free_text": "myosin regulatory light chain"},
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "mitotic anaphase",
+                    "onto_id": "GO:0000090"
+                },
+                {
+                    "onto_name": "mitotic metaphase",
+                    "onto_id": "GO:0000089"
+                },
+                {"free_text": "kinesin 5 knockdown"},
+                {"free_text": "BubR1 knockdown"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {"free_text": "S2"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 268,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.037
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 242,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.037
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "value": 3.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "TIRF time lapse of myosin-GFP in a cell with a symmetric monopolar spindle from metaphase to anaphase (cell was depleted of Klp61F [kinesin-5] and BubR1 by RNAi). At anaphase, myosin-GFP concentrates at the cell perimeter and becomes depleted from the central regions of the adhered cortex. Slowly, myosin breaks symmetry and ultimately relocalizes to the middle. This video corresponds to the image in Fig. 6 and video 10 from J Cell Bio 186:727-738, 2009.\nTotal internal reflection microscopy was performed using a microscope (Perfect-focus TE2000; Nikon) with a 100×, 1.45 NA objective (Nikon) and illumination from either a 488-nm argon laser (100 mW) or a 491-nm solid-state laser (100 mW) and a 561-nm solid-state laser (50 mW). For dual-color TIRF microscopy, we used a triplepass dichroic filter (z491/561/633rpc) and changed the emission filter (ET525/50 or ET595/50; both from Chroma Technology Corp.) with a filter wheel placed before the camera. In some cases, an excitation notch filter was used in the filter cube (NF01-405/488/561/635; Semrock, Inc.). Images were typically captured every 2-3 s with a 50-200ms exposure with an EM charge-coupled device camera (iXon; Andor Technology). The microscope was controlled and images were acquired using open source MicroManager software (http://www.micro-manager.org)."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Bio 186:727-738, 2009"],
+                "Contributors": [
+                    "Ronald D. Vale",
+                    "James A. Spudich",
+                    "Eric R. Griffis"
+                ],
+                "PUBMED": ["19720876"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

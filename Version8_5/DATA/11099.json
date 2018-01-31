@@ -1,0 +1,106 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11099.jpg",
+                "Size": 346280
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11099.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11099.zip",
+                "Size": 1129748
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "critical_point dried specimen",
+                "onto_id": "FBbi:00000581"
+            },
+            "GROUP_ID": "11228",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "microvillus",
+                "onto_id": "GO:0005902"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "immune system process",
+                "onto_id": "GO:0002376"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "secondary electron generation",
+                "onto_id": "FBbi:00000580"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 918
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1252
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "macrophage",
+                    "onto_id": "CL:0000235"
+                },
+                {
+                    "onto_name": "lymphocyte",
+                    "onto_id": "CL:0000542"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Cells from peritoneal cavity exudate of the mouse, exposed to sodium azide at 22°C for 22 minutes. The macrophage in the field of view has extended long microvilli, showing a rapid response to changes in metabolic and environmental conditions. Image by Emma Shelton, Figure 35 from Chapter 2 (Specializations of the Free Surface) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.   A PDF copy of the accompanying chapter is available on the ASCB\u2019s BioEDUCATE website."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Fawcett's \"The Cell, 2nd Ed.\"",
+                    "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                }],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": ["Emma Shelton"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

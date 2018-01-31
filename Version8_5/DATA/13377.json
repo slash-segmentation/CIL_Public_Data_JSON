@@ -1,0 +1,137 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13377.jpg",
+                "Size": 28979
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13377.tif",
+                "Size": 22800000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13377.zip",
+                "Size": 22768488
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "GROUP_ID": "11195",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "chromosome, centromeric region",
+                    "onto_id": "GO:0000775"
+                },
+                {"free_text": "DNA"},
+                {"free_text": "HEC1"},
+                {"free_text": "MCAK"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "mitosis",
+                "onto_id": "GO:0007067"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "HeLa S3",
+                "onto_id": "MCC:0000220"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Antibodies were rabbit anti-HEC1 (green) antibody (Abcam) used at 1:1,000.  and sheep anti-MCAK (red) (Andrews et al., 2004) used at 1 μg/ml, and DNA (blue).    Fluorescently labeled secondary antibodies were all obtained from Jackson ImmunoResearch Laboratories.  Corresponds to Fig 5B in JCB vol. 179 no. 2 187-197."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 355,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0629
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 381,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0629
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 28,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.2
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "primary antibody plus labeled secondary antibody",
+                "onto_id": "FBbi:00000156"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "constrained iterative deconvolution",
+                "onto_id": "FBbi:00000360"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "z-focal series through Hela cell in metaphase illustrating  MCAK localization in Bod-1siRNA cells.  Cells were transfected with control (this image) or Bod1 (CIL: 13378) siRNA. After 72 h, cells were treated with monastrol for 3 h and released into media containing MG132 for 1 h before fixing. Cells were stained for total mitotic centromere-associated kinesin (MCAK)  population.  MCAK localizes to the inner centromere in its phosphorylated form but concentrates at kinetochores in its dephosphorylated state."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Journal of Cell Biology",
+                    "Href": "http://jcb.rupress.org/content/179/2/187.long"
+                }],
+                "PUBLISHED": ["JCB vol. 179 no. 2 187-197"],
+                "Contributors": [
+                    "Iain M. Porter",
+                    "Sarah E. McClelland",
+                    "Guennadi A. Khoudoli",
+                    "Christopher J. Hunter",
+                    "Jens S. Andersen",
+                    "Andrew D. McAinsh",
+                    "J. Julian Blow",
+                    "Jason R. Swedlow"
+                ],
+                "PUBMED": ["17938248"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

@@ -1,0 +1,114 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "38905_orig.jpg",
+                "Size": 77296
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "38905.tif",
+                "Size": 1000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "38905.jpg",
+                "Size": 67345
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "38905.zip",
+                "Size": 77434
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "male germ cell nucleus",
+                    "onto_id": "GO:0001673"
+                }
+            ],
+            "HUMAN_DEV_ANATOMY": [{"free_text": "seminiferous tubule"}],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "spermatogenesis",
+                "onto_id": "GO:0007283"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0006849.   Seminiferous tubule .  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 548
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {"free_text": "mitotracker"}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "volume rendering"},
+            "CELLTYPE": {
+                "onto_name": "sperm",
+                "onto_id": "CL:0000019"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Cross section through a seminiferous tubule showing the developing sperm with their tails pointing into the lumen of the tubule. The nuclei are stained blue with DAPI and mitochondria red with mitotracker. Sperm have a large number of mitochondria to power their swim towards the egg. The image has been volume rendered using Imaris."},
+            "ATTRIBUTION": {
+                "OTHER": ["MRC NIMR"],
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "EHDAA:seminiferous tubule"},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

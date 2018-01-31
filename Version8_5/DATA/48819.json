@@ -1,0 +1,81 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "To determine the origin (local vs. circulating) of tumor associated fibroblasts, a parabiotic pair of mice was created where only one mouse expressed EGFP under the control of the type I collagen alpha-1 promoter (COL-EGFP), and the other mouse expressed DsRed ubiquitously. On each mouse of the parabiotic pair, MC57-Cerulean cancer cells were injected on the distal flank. This folder contains images from the tumor grown in the DsRed mouse, freshly explanted and analyzed ex vivo. The blue channel shows cancer cells, the red channel shows DsRed cells, the green channel shows COL-EGFP+ fibroblasts (absent in the DsRed mouse tumor). Image name: 120513 parab dsred tumor flank.lif - 1  Project: 20389"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Mice were euthanized and tumors were freshly explanted. 1-2 mm thick sections were cut at different depths and kept in PBS during the imaging session. Fluorescent confocal microscopy was done using a Leica SP5 II TCS tandem scanner 2-photon spectral confocal microscope with XY motorized stage, using a 25X\/NA 0.95 water lens from Leica."
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "Cancer"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "free_text": "MC57-Cerulean"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Mus musculus",
+                        "onto_id": "NCBITaxon:10090"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "confocal microscopy",
+                        "onto_id": "FBbi:00000251"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Ainhoa Arina"
+                    ]
+                },
+                "GROUP_ID": "18508"
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image\/tif",
+                    "File_path": "48819.tif",
+                    "Size": 800000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "image\/jpeg; charset=utf-8",
+                    "File_path": "48819.jpg",
+                    "Size": 39166,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "application\/zip",
+                    "File_path": "48819.zip",
+                    "Size": 693450,
+                    "File_type": "Zip"
+                },
+                {
+                    "Mime_type": "image\/tiff",
+                    "File_path": "48819_orig.tif",
+                    "Size": 693312,
+                    "File_type": "OME_tif"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": false,
+            "Still_image": true
+        }
+    }
+}

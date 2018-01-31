@@ -1,0 +1,119 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "22707.jpg",
+                "Size": 14660
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "22707.flv",
+                "Size": 287349
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "22707.zip",
+                "Size": 2789504
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "in vitro reconstitution"},
+            "GROUP_ID": "7961",
+            "IMAGINGMODE": {"free_text": "TIRF"},
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {
+                    "onto_name": "microtubule plus end",
+                    "onto_id": "GO:0035371"
+                },
+                {"free_text": "EB-1"},
+                {"free_text": "CLIP-170(H2)"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "microtubule polymerization or depolymerization",
+                "onto_id": "GO:0031109"
+            },
+            "RELATIONTOINTACTCELL": {"free_text": "cell free"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 365,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.05
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 417,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.05
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "49",
+                    "value": 2.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Rhodamine",
+                    "onto_id": "FBbi:00000452"
+                },
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "TIP activity of CLIP-170(H2)\u2013GFP (a carboxyl truncation of the plus end microtubule tracking protein CLIP-170) in the presence of EB1 protein (a plus end microtubule tracking protein). The movie shows pseudocolored overlaid images of rhodamine-labeled microtubules (red) and GFP-tagged CLIP-170(H2) protein (green). In the presence of unlabeled EB1, CLIP-170(H2)\u2013GFP specifically localizes to growing microtubule plus-ends and is lost during microtubule shortening phases. (Scale bar, 2 micron.)\n\nMicrotubule dynamics were visualized at 22 °C using a TIRF microscope ﬁtted on an inverted microscope (Nikon TE-2000U).  Images were captured with a backilluminated electron-multiplying CCD camera (Cascade-512B, Photometrics) using time-lapse capture at 2-sec intervals for 2-color microscopy.  Movie corresponds to Video S3 from Proc Natl Acad Sci U S A. 2009 Jan 13;106(2):492-7. Epub 2009 Jan 6."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Proc Natl Acad Sci U S A. 2009 Jan 13;106(2):492-7. Epub 2009 Jan 6."],
+                "Contributors": [
+                    "Ram Dixit",
+                    "Brian Barnet",
+                    "Jacob E. Lazaru",
+                    "Mariko Tokit",
+                    "Yale E. Goldman",
+                    "Erika L. F. Holzbaur"
+                ],
+                "PUBMED": ["18227130"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

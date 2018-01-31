@@ -1,0 +1,118 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25701.jpg",
+                "Size": 16005
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25701.zip",
+                "Size": 2084992
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "25701.flv",
+                "Size": 170414
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "in vitro protein assembly"},
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {"free_text": "TIRF"}
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {"free_text": "EB1"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "microtubule plus end",
+                "onto_id": "GO:0035371"
+            },
+            "RELATIONTOINTACTCELL": {"free_text": "motility reconstituted in vitro"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 290,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.148
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 200,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.148
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "14",
+                    "value": 0.02
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "Rhodamine",
+                    "onto_id": "FBbi:00000452"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "IMAGEDESCRIPTION": {"free_text": "Time-lapse TIRF visualization of GFP-tagged EB1 showed bright foci of EB1-GFP moving away from microtubule seeds locations corresponding to the growing microtubule ends, confirming that EB1-GFP is capable of tip-tracking growing microtubule ends without the need of any protein binding partners. Tip-tracking was observed at both the plus and minus ends of growing microtubules, but no end localization was seen for microtubules that were not growing. Bright EB1-GFP foci were not observed at the microtubule ends during periods of microtubule depolymerization. The above findings confirm previous results that the tip-tracking of EB1 relies on the process of microtubule growth.  Images were taken at 5 second intervals. Microtubules were (red, imaged by EPI fluorescence) with 24 µM unlabeled tubulin, 50 nM EB1-GFP (green, imaged by TIRF) in Imaging Buffer (see Methods in corresponding paper) with additional 60 mM KCl.  Video-playback is 50× times real time. Area size is 45 µmx31 µm.  Video corresponds to supplemental video 1 in PLoS One. 2009 Oct 23;4(10):e7585."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["PLoS One. 2009 Oct 23;4(10):e7585."],
+                "Contributors": [
+                    "Marija Zanic",
+                    "Jeffrey H. Stear",
+                    "Anthony A. Hyman",
+                    "Jonathon Howard"
+                ],
+                "PUBMED": ["19851462"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

@@ -1,0 +1,170 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "34616.jpg",
+                "Size": 3762494
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "34616.zip",
+                "Size": 20657046
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "34616.tif",
+                "Size": 10400000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "tissue in vitreous ice embedment",
+                    "onto_id": "FBbi:00000089"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                {"free_text": "monoclonal antibody"}
+            ],
+            "GROUP_ID": "8252",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "micronucleus",
+                    "onto_id": "GO:0031040"
+                },
+                {
+                    "onto_name": "autophagic vacuole",
+                    "onto_id": "GO:0005776"
+                },
+                {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "micronucleus organization",
+                    "onto_id": "GO:0032125"
+                },
+                {
+                    "onto_name": "autophagy",
+                    "onto_id": "GO:0006914"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "intrinsic mass distribution",
+                    "onto_id": "FBbi:00000607"
+                },
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Tetrahymena pyriformis",
+                "onto_id": "NCBITaxon:5908"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3045
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3393
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "gold",
+                    "onto_id": "FBbi:00000202"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Most wild type Tetrahymena have a macronucleus and a micronucleus. The micronucleus, seen here, is essentially nonfunctional during interphase. Its function is to replicate and pass a complete copy of the genome to each daughter cell and to give rise to a new macronucleus following sexual reproduction. Many laboratory strains, unlike strain W which is shown here, have lost their micronucleus and seem to be able to live indefinitely without a micronucleus, however, they can no longer undergo meiosis and sexual reproduction. TEM taken on 4/8/65 by R. Allen with RCA EMU3F operating at 50kV. Neg. 9,100X. Bar = 0.5µm. The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. An unprocessed, high resolution version of this image (CIL:34534) is in the library and available for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {"Contributors": ["Richard Allen (University of Hawaii)"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

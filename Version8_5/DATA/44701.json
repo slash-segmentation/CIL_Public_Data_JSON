@@ -1,0 +1,115 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "44701.jpg",
+                "Size": 142432
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "44701.tif",
+                "Size": 1100000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cytoskeleton",
+                "onto_id": "GO:0005856"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cell adhesion",
+                "onto_id": "GO:0007155"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                }
+            ],
+            "CELLLINE": {"free_text": "IMR90"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "IMR90 cells in culture were treated with a cytoskeleton stabilizing buffer, extracted briefly with 0.5% Triton X-100, fixed with 4% paraformaldehyde, and immunostained stained for vinculin using a secondary antibody conjugated with Alexa 488 (green).  The actin cytoskeleton was stained with phalloidin conjugated with Alexa 555 (magenta). Nuclei were counterstained with DAPI (blue). Preparations were observed using a Nikon E400 fluorescence microscope with 20x PLANAPO objective lens, and recorded with a SPOT CCD camera.\nFor further details, see A Singh et al. 2013 Adhesion strength-based, label-free isolation of human pluripotent stem cells. Nat Meth 10:438-444 and associated Supplementary Material."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 600
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 600
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Alexa Fluor 555",
+                    "onto_id": "FBbi:00000443"
+                },
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Immunofluorescence image of human IMR90 lung fibroblasts stained for vinculin (green) and filamentous actin (magenta).  Nuclei are stained blue.  This image of untreated fibroblasts comes from a study of the changes in adhesion that accompany treatment to induce stem cells  and can be used in hiPSC purification. See also Singh et al. 2013 Nat Meth 10:438-444.  The image appeared in the May 2013 issue of the NIGMS Biomedical Beat which features noteworthy NIGMS-supported research."},
+            "CELLTYPE": {
+                "onto_name": "fibroblast of lung",
+                "onto_id": "CL:0002553"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "NIGMS Biomedical Beat",
+                    "Href": "http://publications.nigms.nih.gov/biobeat/"
+                }],
+                "Contributors": [
+                    "Andres J Garcia",
+                    "Ankur Singh"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

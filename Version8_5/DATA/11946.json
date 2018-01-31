@@ -1,0 +1,94 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11946.zip",
+                "Size": 5050496
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11946.flv",
+                "Size": 1839279
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11946.jpg",
+                "Size": 23136
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "polarization microscopy",
+                "onto_id": "FBbi:00000248"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "fertilization",
+                "onto_id": "GO:0009566"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "form birefringence",
+                "onto_id": "FBbi:00000593"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Arbacia punctulata",
+                "onto_id": "NCBITaxon:7641"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "retardance",
+                "onto_id": "FBbi:00000313"
+            },
+            "TECHNICALDETAILS": {"free_text": "See:S Inoue et al. 2001. Centrifuge polarizing microscope II. Sample biological applications. J Microsc 201:357-367."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 720
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 480
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "CELLTYPE": {
+                "onto_name": "oocyte",
+                "onto_id": "CL:0000023"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "The movie shows two sequences that begin with an unfertilized Arbacia (sea urchin) egg in which the contents have been stratified using the centrifuge polarizing microscope (CPM) developed by S. Inoue. The main feature seen with the polarizing microscope is the appearance of a negatively birefringent layer of stacked membranes. Sperm are then introduced. A few seconds after sperm entry, this birefringence disappears as stacked membranes fragment.  The egg also becomes lighter and rises."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["S. Inoue 2008 Collected Works of Shinya Inoue. World Scientific Publishing Company, Singapore, Hackensack, NJ, USA"],
+                "Contributors": ["Shinya Inoue"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

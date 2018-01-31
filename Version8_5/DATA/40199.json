@@ -1,0 +1,128 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40199.tif",
+                "Size": 600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40199.jpg",
+                "Size": 28980
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "GROUP_ID": "16706",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "intermediate filament",
+                    "onto_id": "GO:0005882"
+                },
+                {
+                    "onto_name": "gap junction",
+                    "onto_id": "GO:0005921"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "vibratome-sectioned tissue",
+                "onto_id": "FBbi:00000030"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Mouse brains were perfused with 4% paraformaldehyde, and sections at 50 µm on a vibratome.  Tissue was immunostained using the Rabbit Cx43 antibody (Sigma) 1:600; Guinea pig GFAP antibody (discontinued) 1:600; and Chicken Panx1 antibody (4515) 1:250, 72hour incubation at 4C. Secondary antibodies used were donkey-anti-rabbit Al647; donkey-anti-Guinea pig-RRX; and donkey-anti-chicken-FITC, 2.5hours incubation at room temperature.  Individual images were gathered using an Olympus Fluoview 1000, with an Olympus PlanApo 60X oil, 1.42 NA."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 355
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "X-Rhodamine",
+                    "onto_id": "FBbi:00000584"
+                },
+                {
+                    "onto_name": "Alexa Fluor 647",
+                    "onto_id": "FBbi:00000447"
+                }
+            ],
+            "CELLTYPE": [
+                {
+                    "onto_name": "CNS neuron (sensu Vertebrata)",
+                    "onto_id": "CL:0000117"
+                },
+                {
+                    "onto_name": "astrocyte of the hippocampus",
+                    "onto_id": "CL:0002604"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Wide field mosaic of mouse hippocampus immunolabeled for the hemichannel pore protein pannexin 1 (shown here in green), the astrocytic intermediate filament GFAP (colorized blue) and the gap junction protein connexin 43 (colorized red).  The section was also counterstained with DAPI (not shown).  176 tiles (16x11 frames) were digitally stitched together to generate a 3D mosaic montage.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 6674",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=6674"
+                }],
+                "Contributors": [
+                    "Angela Cone",
+                    "Gina Sosinsky",
+                    "Maryann Martone"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

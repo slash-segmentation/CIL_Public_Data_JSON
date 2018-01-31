@@ -1,0 +1,137 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35280.tif",
+                "Size": 300000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35280.zip",
+                "Size": 262620
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35280.jpg",
+                "Size": 48162
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "GROUP_ID": "8536",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule organizing center",
+                    "onto_id": "GO:0005815"
+                },
+                {
+                    "onto_name": "cytoplasmic microtubule",
+                    "onto_id": "GO:0005881"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "interphase",
+                "onto_id": "GO:0051325"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "MOUSE_GROSS_ANATOMY": [{
+                "onto_name": "TS25,liver",
+                "onto_id": "EMAP:10869"
+            }],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus rattus",
+                "onto_id": "NCBITaxon:10117"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image was collected with 1 60X, 63X, or 100X oil immersion objective with a numerical aperture of 1.25 such that each pixel size was 0.23 X 0.23 um.  The image was collected as part of a Z series with step size of 0.53 um.  A Photometrics cooled CCD camera based on the KAF1400 chip was used."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.232
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.232
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Rhodamine",
+                    "onto_id": "FBbi:00000452"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "3D-deconvolution",
+                "onto_id": "FBbi:00000357"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Primary rat hepatocytes in culture fixed and stained for beta-tubulin.  The microtubules form a network throughout the cytoplasm.  In this image they are seen originating from a brighter and denser region adjacent to the cell nucleus.\n\nThis is a single optical section a few microns up from the substrate collected by widefield fluorescence microscopy with a Photometrics camera with a KAF1400 chip.  The imaging was performed at a microscopy course at Woods Hole Oceanographic Institute in October 1993 and deconvolved on VayTec software running on a Macintosh computer.  At the time, deconvolution was new and novel for use by biologists."},
+            "CELLTYPE": {
+                "onto_name": "hepatocyte",
+                "onto_id": "CL:0000182"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements"},
+            "ATTRIBUTION": {
+                "DATE": ["10/1993"],
+                "Contributors": [
+                    "Michael Cammer",
+                    "Phyllis Novikoff"
+                ]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "EMAP:EMAP:10869"},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

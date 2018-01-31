@@ -1,0 +1,110 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "700.zip",
+                "Size": 9273340
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "700.tif",
+                "Size": 9100000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "700.jpg",
+                "Size": 2188626
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "glutaraldehyde fixed tissue",
+                "onto_id": "FBbi:00000011"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nuclear chromatin",
+                "onto_id": "GO:0000790"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "chromatin assembly",
+                    "onto_id": "GO:0031497"
+                },
+                {
+                    "onto_name": "chromosome organization",
+                    "onto_id": "GO:0051276"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Necturus maculosus",
+                "onto_id": "NCBITaxon:42757"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Chromatin fibers were isolated from N. maculosus erythrocyte nuclei using mild micrococcal nuclease digestion, fixed briefly with glutaraldehyde, applied to thin carbon films, negatively stained with aurothioglucose and observed at 80Kv using a CM10 TEM. \n  See Woodcock CL et al. 1991. Ultrastructure of chromatin. I. Negative staining of isolated fibers. J Cell Sci. 99:99-106."},
+            "MOLECULARFUNCTION": {"free_text": "DNA packaging"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2334,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.67
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1932,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.67
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "other negative stain",
+                "onto_id": "FBbi:00000577"
+            },
+            "PROCESSINGHISTORY": {"free_text": "raw unprocessed data"},
+            "IMAGEDESCRIPTION": {"free_text": "X-ray scattering shows that the nucleated erythrocytes of the amphibian Necturus maculosus (Mud Puppy) contain more ordered chromatin than most nuclei. Here, fibers isolated from these nuclei have been negatively stained with aurothioglucose and imaged by TEM. ~30 nm chromatin fibers are seen, some exhibiting short regions with apparent structural order."},
+            "CELLTYPE": {
+                "onto_name": "nucleate erythrocyte",
+                "onto_id": "CL:0000562"
+            },
+            "ATTRIBUTION": {"Contributors": [" Chris Woodcock"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

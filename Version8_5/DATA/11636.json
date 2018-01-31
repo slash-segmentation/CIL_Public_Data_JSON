@@ -1,0 +1,175 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11636.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11636.jpg",
+                "Size": 424671
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11636.zip",
+                "Size": 1408646
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "9787",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cilium",
+                    "onto_id": "GO:0005929"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "epithelial cilium movement",
+                    "onto_id": "GO:0003351"
+                },
+                {
+                    "onto_name": "cilium axoneme assembly",
+                    "onto_id": "GO:0035083"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus sp.",
+                "onto_id": "NCBITaxon:10118"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 960
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1292
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Figures 323 & 324 from Chapter 13 (Cilia and Flagella) of 'The Cell' by Don W. Fawcett M.D. The outer segments of the rods and cones of the vertebrate retina and many photoreceptors of invertebrates begin their differentiation as single cilia with a typical basal body and doublet microtubules forming a more or less complete axoneme. In their subsequent development, membranous discs containing the visual pigment accumulate within the confines of the ciliary membrane and become closely packed in parallel array to constitute the outer segment of the photoreceptor cell. Vestiges of the axonemal microtubules (at arrows) persist along one side of the outer segment which is connected to the inner segment by the proximal portion of the shaft of the original cilium. A copy of the chapter is available on the ASCB's BioEDUCATE website."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "retinal cone cell",
+                    "onto_id": "CL:0000573"
+                },
+                {
+                    "onto_name": "retinal rod cell",
+                    "onto_id": "CL:0000604"
+                }
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"}],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": [
+                    "Don W. Fawcett",
+                    "T. Kuwabara"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,111 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40983.jpg",
+                "Size": 129586
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40983.zip",
+                "Size": 11411584
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "40983.flv",
+                "Size": 2337292
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "polarization microscopy",
+                "onto_id": "FBbi:00000248"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                },
+                {
+                    "onto_name": "spindle",
+                    "onto_id": "GO:0005819"
+                }
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "meiotic metaphase"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "intrinsic birefringence",
+                "onto_id": "FBbi:00000594"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Nephrotoma suturalis"},
+            "PARAMETERIMAGED": {
+                "onto_name": "UV/visible/IR photons",
+                "onto_id": "FBbi:00000378"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 603
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 503
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "15",
+                    "value": 2100.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {"free_text": "relative retadation measurement"},
+            "PROCESSINGHISTORY": {"free_text": "colorized"},
+            "IMAGEDESCRIPTION": {"free_text": "This movie shows a Crane fly Nephrotoma suturalis sperm cell at metaphase of meiosis. Images were captured every 15 seconds for 35 minutes of cell division using polarized light microscopy.  Eighth Prize, 2011 Olympus BioScapes Digital Imaging Competition®."},
+            "CELLTYPE": {
+                "onto_name": "sperm",
+                "onto_id": "CL:0000019"
+            },
+            "ATTRIBUTION": {
+                "OTHER": [
+                    "State University of NY at Buffalo,",
+                    "Marine Biological Laboratory, Woods Hole, MA, USA"
+                ],
+                "URLs": [{
+                    "Label": "2011 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/gallery/2011/8.html"
+                }],
+                "Contributors": [
+                    "James LaFountain",
+                    "Rudolf Oldenbourg",
+                    "2011 Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

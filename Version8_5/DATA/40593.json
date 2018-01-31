@@ -1,0 +1,110 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "40593_orig.jpg",
+                "Size": 100095
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40593.zip",
+                "Size": 100233
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40593.jpg",
+                "Size": 143013
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40593.tif",
+                "Size": 1300000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"free_text": "ethanol dehydration"}
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "antibiotic resistance"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Staphylococcus aureus",
+                "onto_id": "NCBITaxon:1280"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "Specimen was fixed with glutaraldehyde and dehydrated through an ethanol series. It was coated with 5nm gold-palladium and imaged at ultra high resolution (semi-immersion optics). \nThe image was collected on a FEI Nova NanoSEM Family with the following imaging parameters: Magnification: 18,501 x, Horizontal Field Width: 16.1 microns, Vacuum: High vacuum (approx 10 e-06 Torr), Voltage: 5kV, Detector: TLD, Spot: 1.5 nA, and Working Distance: 4.3 mm"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 670
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 617
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "gold",
+                    "onto_id": "FBbi:00000202"
+                },
+                {"free_text": "palladium"}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "colorized"},
+            "IMAGEDESCRIPTION": {"free_text": "Colorized scanning electron micrograph of methicillin resistant staphylococcus aureus (MRSA) bacteria on the surface of a wound dressing."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "FEI Life Sciences Images",
+                    "Href": "http://www.fei.com/resources/image-gallery/MRSA-2729.aspx"
+                }],
+                "Contributors": ["Paul Gunning"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

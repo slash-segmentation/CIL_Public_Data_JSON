@@ -1,0 +1,175 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13156.jpg",
+                "Size": 1164263
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13156.tif",
+                "Size": 4800000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13156.zip",
+                "Size": 9563022
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "3966",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell cortex",
+                    "onto_id": "GO:0005938"
+                },
+                {
+                    "onto_name": "microtubule basal body",
+                    "onto_id": "GO:0005932"
+                },
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {"free_text": "kinetodesmal fibers"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cortical cytoskeleton organization",
+                    "onto_id": "GO:0030865"
+                },
+                {
+                    "onto_name": "microtubule basal body organization",
+                    "onto_id": "GO:0032053"
+                },
+                {"free_text": "fiber organization"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium multimicronucleatum",
+                "onto_id": "NCBITaxon:44030"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2400
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1986
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A tangential section of basal body pair (dikinetid) showing a connecting fiber  linking the BBs as well as attachments to a kinetodesmal fiber, to postciliary microtubules, and to transverse microtubules. TEM taken on 2/21/69 by R. Allen with Philips 300 operating at 60kV. Neg. 47,100. Bar = 0.1µm. The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. An unprocessed, high resolution version of this image (CIL:12067) is in the library and available for quantitative analysis. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www5.pbrc.hawaii.edu/allen/"}],
+                "Contributors": ["Richard Allen (University of Hawaii)"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

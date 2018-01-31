@@ -1,0 +1,124 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39088_orig.jpg",
+                "Size": 211170
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39088.zip",
+                "Size": 211308
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39088.jpg",
+                "Size": 127973
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39088.tif",
+                "Size": 1300000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "liver trabeculae organization"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "MOUSE_GROSS_ANATOMY": [
+                {
+                    "onto_name": "TS25,liver",
+                    "onto_id": "EMAP:10869"
+                },
+                {"free_text": "liver sinusoids"},
+                {"free_text": "liver canaliculi"}
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007363 Mouse liver with blood cells.  Wellcome Image Award winner 2009.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 744
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {"free_text": "colorized"},
+            "IMAGEDESCRIPTION": {"free_text": "This scanning electron micrograph shows the internal structure of liver tissue from an adult mouse. The sinusoids (vascular channels lined with endothelial cells) can be seen as pink structures running through the tissue. These contain red blood cells  and Kupffer cells (specialized macrophages of the liver). Hepatocytes, shown in brown, are arranged in plates surrounding the sinusoids. Bile is secreted into the canaliculi, shown as green channels. These are dilated intercellular spaces between adjacent hepatocytes and bile flows through them en route to the small intestine."},
+            "CELLTYPE": [
+                {"free_text": "red blood cell"},
+                {
+                    "onto_name": "Kupffer cell",
+                    "onto_id": "CL:0000091"
+                },
+                {
+                    "onto_name": "hepatocyte",
+                    "onto_id": "CL:0000182"
+                }
+            ],
+            "ATTRIBUTION": {
+                "OTHER": ["EM Unit, UCL Medical School, Royal Free Campus"],
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }]
+            },
+            "SPECIESTAXASPECIFIC": [
+                {"onto_id": "EMAP:EMAP:10869"},
+                {"onto_id": "EMAP:liver sinusoids"},
+                {"onto_id": "EMAP:liver canaliculi"}
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,125 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11991.zip",
+                "Size": 9769088
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11991.flv",
+                "Size": 3228363
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11991.jpg",
+                "Size": 23602
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "3733",
+            "IMAGINGMODE": {"free_text": "TIRF"},
+            "CELLULARCOMPONENT": [
+                {"free_text": "EB1"},
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "microtubule polymerization",
+                "onto_id": "GO:0046785"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {"free_text": "S2"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 360
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 322
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "value": 8.0
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "488, 561"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "microtubule polymerization",
+                    "onto_id": "GO:0046785"
+                },
+                {
+                    "onto_name": "mCherryFP",
+                    "onto_id": "FBbi:00000525"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                {"free_text": "color combine"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "TIRF time-lapse imaging of EB1-GFP (green) and mCherry-tubulin (red). EB1-GFP is seen on microtubule tips that grow to the cortex but does not accumulate on stable microtubule bundles at the equator, in contrast to kinesin-6 .  Corresponds to video 8 from J Cell Bio 186:727-738, 2009.\nTotal internal reflection microscopy was performed using a microscope (Perfect-focus TE2000; Nikon) with a 100×, 1.45 NA objective (Nikon) and illumination from either a 488-nm argon laser (100 mW) or a 491-nm solid-state laser (100 mW) and a 561-nm solid-state laser (50 mW). For dual-color TIRF microscopy, we used a triplepass dichroic filter (z491/561/633rpc) and changed the emission filter (ET525/50 or ET595/50; both from Chroma Technology Corp.) with a filter wheel placed before the camera. In some cases, an excitation notch filter was used in the filter cube (NF01-405/488/561/635; Semrock, Inc.). Images were typically captured every 2-3 s with a 50-200 ms exposure with an EM charge-coupled device camera (iXon; Andor Technology). The microscope was controlled and images were acquired using open source MicroManager software (http://www.micro-manager.org)."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Bio 186:727-738, 2009"],
+                "Contributors": [
+                    "Ronald D. Vale",
+                    "James A. Spudich",
+                    "Eric R. Griffis"
+                ],
+                "PUBMED": ["19720876"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

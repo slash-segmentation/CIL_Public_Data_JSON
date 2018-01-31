@@ -1,0 +1,173 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40558.tif",
+                "Size": 53900000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40558.jpg",
+                "Size": 9266251
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40558.zip",
+                "Size": 53851686
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "11136",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "food vacuole",
+                    "onto_id": "GO:0020020"
+                },
+                {
+                    "onto_name": "phagocytic vesicle",
+                    "onto_id": "GO:0045335"
+                },
+                {"free_text": "phagoacidosome"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "digestive system process",
+                "onto_id": "GO:0022600"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium multimicronucleatum",
+                "onto_id": "NCBITaxon:44030"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "To label membranes inside the cell we used very lightly fixed cells (0.25% glutaraldehyde) that were then rapidly frozen in liquid nitrogen and sectioned later at -100oC. These frozen sections were picked up on drops of methylcellulose and transferred to a Formvar-supported grid. The sections were immunogold labeled (15nm gold) to show the location of the specific antigen inside the cell as well as on the cell surface. Microtome sections prepared at approximately 75nm thickness. The raw negative was scanned with an Epson Perfection V750 Pro and this high resolution image is best used for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 5021,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.25
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 5362,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.25
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "At the same time that the acidosomes fuse with the phagosome, the DV-I membrane, that originated from the discoidal vesicles, is transformed into tubules that are removed from the phagosome. By this process the DV-I is transformed from a phagosome into a phagoacidosome (DV-II), a process of apparently \u201ctotal\u201d membrane replacement. (For discussion see Allen et al., J. Cell Sci. 108:1263-1274, 1995). The mAb to antigen Q2 specifically labels the tubules that are being removed from the DV-I. TEM taken on 9/18/93 by R. Allen with Zeiss 10A TEM. Neg. 12,000X. Part published in J. Cell Sci. 108:1263-1274, 1995. Adapted with permission."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Sci. 1995 Mar;108 ( Pt 3):1263-74."],
+                "Contributors": ["Richard Allen (University of Hawaii)"],
+                "PUBMED": ["7622609"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

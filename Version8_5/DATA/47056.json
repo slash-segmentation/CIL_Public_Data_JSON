@@ -1,0 +1,119 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "47056_orig.jpg",
+                "Size": 20412
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "47056.tif",
+                "Size": 600000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "47056.zip",
+                "Size": 20550
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "47056.jpg",
+                "Size": 28580
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus castaneus",
+                "onto_id": "NCBITaxon:10091"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "GROUP_ID": "16854",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.36
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.36
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "fluorescent labels",
+                    "onto_id": "FBbi:00000455"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Glioblastoma multiforme (GBM) is the most common and aggressive malignant primary brain tumor in humans. Here we show that gliomas can originate from differentiated cells in the central nervous system (CNS), including cortical neurons. Transduction by oncogenic lentiviral vectors of neural stem cells (NSCs), astrocytes, or even mature neurons in the brains of mice can give rise to malignant gliomas. All the tumors, irrespective of the site of lentiviral vector injection (the initiating population), shared common features of high expression of stem or progenitor markers and low expression of differentiation markers. Microarray analysis revealed that tumors of astrocytic and neuronal origin match the mesenchymal GBM subtype. We propose that most differentiated cells in the CNS upon defined genetic alterations undergo dedifferentiation to generate a NSC or progenitor state to initiate and maintain the tumor progression, as well as to give rise to the heterogeneous populations observed in malignant gliomas."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 8042",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?mpid=8042&event=displaySum"
+                }],
+                "Contributors": [
+                    "Inder Verma",
+                    "Dinorah Friedmann-Morvinski",
+                    "Eric Bushong",
+                    "Mark Ellisman"
+                ]
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "vibratome-sectioned tissue",
+                "onto_id": "FBbi:00000030"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                }
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

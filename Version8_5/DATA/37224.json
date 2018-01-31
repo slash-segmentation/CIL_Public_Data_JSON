@@ -1,0 +1,103 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "37224.zip",
+                "Size": 66116062
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "37224.jpg",
+                "Size": 4672235
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "37224.tif",
+                "Size": 66200000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "GROUP_ID": "11327",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "neuromuscular junction",
+                "onto_id": "GO:0031594"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "skeletal muscle contraction",
+                "onto_id": "GO:0003009"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original magnification x33,500."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 6000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 5509
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "osmium tetroxide",
+                "onto_id": "FBbi:00000571"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "neuron",
+                "onto_id": "CL:0000540"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of nerve cells at the thigh muscle motor end plate.  The motor end plate is the highly-excitable region of muscle fiber plasma membrane responsible for initiation of action potentials across the muscles surface and ultimately causing the muscle to contract. \n  Note that this very early (1953) micrograph is primarily of historical interest since it pre-dates glutaraldehye fixation which was introduced in the early 60's and is considered essential for adequate nerve tissue preservation. Examples of nerve tissue micrographs prepared in 1965 are CIL:37218, CIL:37219 and CIL:37220. \n  Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."},
+            "ATTRIBUTION": {
+                "DATE": ["12/17/1953"],
+                "URLs": [{
+                    "Label": "George E. Palade EM Slide Collection",
+                    "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeNerF"
+                }],
+                "Contributors": ["Sanford Palay"]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": ":motor end plate"},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

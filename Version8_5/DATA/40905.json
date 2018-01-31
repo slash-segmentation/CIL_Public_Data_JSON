@@ -1,0 +1,150 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40905.tif",
+                "Size": 44300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40905.jpg",
+                "Size": 2268774
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                {"free_text": "Parducz fixative"},
+                {
+                    "onto_name": "lyophilized specimen",
+                    "onto_id": "FBbi:00000583"
+                },
+                {"free_text": "Au/Pd metal sputter-coat"}
+            ],
+            "GROUP_ID": "11663",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cilium",
+                    "onto_id": "GO:0005929"
+                },
+                {"free_text": "caudal cilia"},
+                {
+                    "onto_name": "coated pit",
+                    "onto_id": "GO:0005905"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cortical cytoskeleton organization",
+                "onto_id": "GO:0030865"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "detection of electrons",
+                "onto_id": "FBbi:00000375"
+            },
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "uncultured scuticociliate",
+                    "onto_id": "NCBITaxon:300671"
+                },
+                {"free_text": "Conchophthirus curtus"}
+            ],
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary electron generation",
+                    "onto_id": "FBbi:00000580"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3999,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.9
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3682,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.9
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {"free_text": "Deciliation"},
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Conchophthirus was deciliated by calcium ion shock followed by shearing through a micropipette. This revealed the location of the deciliated basal bodies and the cell's surface architecture. In this image of the  left side  thigmotactic ciliature is revealed at the suture line. Also note that, when zoomed in, in this preparation the clathrin coated pits, which are normally an invagination into the cytoplasm have everted following the deciliation procedure, to form a small evagination anterior to the stubb of each deciliated basal body. For more information see: Antipa, G. A. and Small, E. B. 1971. A redescription of Conchophthirus curtus Engelmann, 1862 (Protozoa, Ciliatea). J. Protozool. 18:491-503. This micrograph was taken in 1968 by G. Antipa on a Cambridge Mark IIA operating at 20kV. The negative magnification is 4420X. The raw film was scanned with an Epson Perfection V750 Pro. This image is available for quantitative analysis."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {"Contributors": ["Gregory Antipa (San Francisco State University)"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

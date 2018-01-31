@@ -1,0 +1,109 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40263.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40263.jpg",
+                "Size": 46980
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell body",
+                    "onto_id": "GO:0044297"
+                },
+                {
+                    "onto_name": "neuronal cell body",
+                    "onto_id": "GO:0043025"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "The animal was perfused transcardially (2% paraformaldehyde/2.5% glutaraldehyde). Seven 300 um thick coronal vibratome sections were cut. The vibratome sections were post-fixed and stained with 1% osmium tetroxide/1.5% potassium ferrocyanide followed by 1% uranyl acetate, dehydrated with a graded ethanol series, and embedded in resin (TAAB 812 Epon, Canemco). Serial thin (<50 nm) sections were cut on a Leica U6 ultramicrotome, picked up on pioloform-coated slot grids, and then post-stained with uranyl acetate and lead citrate.  Serial sections were imaged with a JEOL 1200EX, magnification, 2000.0 X, accelerating voltage, 120.0 kv, and compiled into a composite image."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 453
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "pyramidal cell",
+                    "onto_id": "CL:0000598"
+                },
+                {
+                    "onto_name": "stellate cell",
+                    "onto_id": "CL:0000122"
+                },
+                {
+                    "onto_name": "astrocyte of the cerebral cortex",
+                    "onto_id": "CL:0002605"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Serial electron micrograph series through layers 1-4 of the primary visual cortex of the adult mouse.  Reconstruction encompasses 450 X 350 X 52 um volume of tissue and contains ~ 1500 cell bodies.  This same area of tissue was functionally characterized for orientation and direction selectivity using two photon calcium imaging.  The reconstruction is also available at: \nhttp://openconnectomeproject.org/Bock11/  \n\nFor more information see: Bock DD, Lee WC, Kerlin AM, Andermann ML, Hood G, Wetzel AW, Yurgenson S, Soucy ER, Kim HS, Reid RC. Network anatomy and in vivo physiology of visual cortical neurons. Nature. 2011 Mar 10;471(7337):177-82. PMID: 21390124.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 8448",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=8448"
+                }],
+                "Contributors": ["R. Clay Reid"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

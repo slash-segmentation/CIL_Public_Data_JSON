@@ -1,0 +1,141 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "25861.flv",
+                "Size": 496202
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25861.zip",
+                "Size": 3047552
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25861.jpg",
+                "Size": 78247
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "fixed tissue"},
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "external side of plasma membrane",
+                    "onto_id": "GO:0009897"
+                },
+                {
+                    "onto_name": "integral to membrane",
+                    "onto_id": "GO:0016021"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cell adhesion",
+                    "onto_id": "GO:0007155"
+                },
+                {
+                    "onto_name": "B cell receptor signaling pathway",
+                    "onto_id": "GO:0050853"
+                },
+                {
+                    "onto_name": "T cell receptor signaling pathway",
+                    "onto_id": "GO:0050852"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "The aorta was dissected from E10.5-E11.5 embryos and incubated with PE-conjugated anti-PECAM-1 (clone MEC 13.3; BD Biosciences, Franklin Lakes, NJ) and APC-conjugated anti-CD45 (clone 30-F11; BD Biosciences) monoclonal antibodies, mounted and imaged on an inverted confocal microscope (DM IRE2: Leica)."},
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "protein binding",
+                    "onto_id": "GO:0005515"
+                },
+                {
+                    "onto_name": "protein tyrosine phosphatase activity",
+                    "onto_id": "GO:0004725"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1027
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 892
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 150,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 1.0
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {"free_text": "R-phycoerythrin (PE)"},
+                {"free_text": "Allophycocyanin (APC)"}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Movie shows restricted distribution of PECAM-1[high] CD45+ cells to the luminal surface of the aortic endothelium from an E11.5 mouse embryo. PECAM-1[high] cells are in red, CD45+ cells are in green and the PECAM-1[high] CD45+ cells, defined as hematopoietic stem cells, can be seen in yellow. PECAM-1[high] CD45+ cells are scattered on the floor of the luminal surface, but not in subendothelial mesenchymal layers. Z-stack through whole-mount preparation of ventral aorta (150 images captured at 1.0 micron optical intervals) can be turned to allow clear observation of PECAM-1[high] CD45+ cells. Movie is Supporting Information Movie 1 and images from Z-stack are included in Fig 4 from Taoudi et al."},
+            "CELLTYPE": {
+                "onto_name": "hematopoietic stem cell",
+                "onto_id": "CL:0000037"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Proc Natl Acad Sci. 2007. 104: 9399-9403."],
+                "Contributors": [
+                    "Samir Taoudi",
+                    "Alexander Medvinsky"
+                ],
+                "PUBMED": ["17517650"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

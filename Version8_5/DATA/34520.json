@@ -1,0 +1,117 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "34520.flv",
+                "Size": 2448094
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "34520.jpg",
+                "Size": 8724
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "34520.zip",
+                "Size": 1839232
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "GROUP_ID": "8217",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                {"free_text": "force microscopy"}
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "type IV pilus",
+                "onto_id": "GO:0044096"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "retraction force"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Neisseria gonorrhoeae",
+                "onto_id": "NCBITaxon:485"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "All optical microscope images were obtained on conventional inverted microscopes (either Olympus IX 71 or Zeiss Axiovert 100)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 249
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 190
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "2000",
+                    "value": 0.033
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "This video shows a typical N. gonorrhoeae microcolony interacting with the tips of our micropillar force sensing device. The video is speeded 10 times (×10) and the pilars are 3 micron apart center to center.  A pulling force exerted on a pillar, such as that imposed by an attached pilus fiber, causes a displacement of the pillar tip.  The displacement can be correlated to the force applied on the pillar after proper calibrations.  Video corresponds to Video 1 from PLoS Biol. 2008 Apr 15;6(4):e87."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "motile cell",
+                    "onto_id": "CL:0000219"
+                },
+                {"free_text": "bacteria"}
+            ],
+            "ATTRIBUTION": {
+                "PUBLISHED": ["PLoS Biol. 2008 Apr 15;6(4):e87."],
+                "Contributors": [
+                    "Nicolas Biais",
+                    "Benoît Ladoux",
+                    "Dustin Higashi",
+                    "Magdalene So",
+                    "Michael Sheetz"
+                ],
+                "PUBMED": ["18416602"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

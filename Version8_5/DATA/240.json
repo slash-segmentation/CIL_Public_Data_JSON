@@ -1,0 +1,96 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "240.zip",
+                "Size": 737719
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "240.jpg",
+                "Size": 507005
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "240.tif",
+                "Size": 3700000
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "240_orig.jpg",
+                "Size": 737589
+            }
+        ],
+        "CORE": {
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1200
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "IMAGEDESCRIPTION": {"free_text": "Two interphase cells with immunofluorescence labeling of actin filaments (purple), microtubules (yellow), and nuclei (green). This image won first place in the Nikon 2003 Small World photo competition."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "NIGMS Image Gallery",
+                    "Href": "http://images.nigms.nih.gov/index.cfm?event=viewDetail&imageID=2428"
+                }],
+                "Contributors": ["Torsten Wittmann"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

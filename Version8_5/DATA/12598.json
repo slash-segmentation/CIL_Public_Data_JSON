@@ -1,0 +1,131 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "12598.jpg",
+                "Size": 812149
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "12598.tif",
+                "Size": 5000000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "12598.zip",
+                "Size": 4952526
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {"free_text": "lead citrate"},
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "3704",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "stress fiber",
+                    "onto_id": "GO:0001725"
+                },
+                {
+                    "onto_name": "focal adhesion",
+                    "onto_id": "GO:0005925"
+                }
+            ],
+            "RELATIONTOINTACTCELL": [
+                {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "CELLLINE": {"free_text": "MDCK"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Canis lupus familiaris",
+                "onto_id": "NCBITaxon:9615"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0035
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0035
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Parallel stress fibers on the ventral face of an MDCK cell, just inside the plasma membrane. This transmission electron micrograph of a flat-embedded MDCK cell was taken 60-70nm from the interface between the cell and the coverslip on which it was grown and fixed. The cells were cultured on Thermanox® coverslips, then chemically fixed with glutaraldehyde and osmium tetroxide before being stained en bloc with uranyl acetate. The cells were infiltrated with Spurr's® resin, placed under a vacuum for fifteen minutes, and then polymerized at 70° C. The coverslips were peeled away from the hardened resin wafers, which were then cut and thin-sectioned with a diamond knife. The 65 nm sections were placed on grids and post-stained with uranyl acetate and lead citrate. They were imaged using a Phillips CM 100 transmission electron microscope at an accelerating voltage of 80kV. Dark spots at somewhat regular intervals along the stress fibers are likely to be focal adhesion sites. Scale bar = 1µm."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {
+                "OTHER": ["Mount Holyoke College"],
+                "Contributors": [
+                    "Anna Baccei",
+                    "Susan Lancelle"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

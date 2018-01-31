@@ -1,0 +1,123 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "188.jpg",
+                "Size": 63273
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "188.tif",
+                "Size": 2900000
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "188_orig.jpg",
+                "Size": 149754
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "188.zip",
+                "Size": 149884
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nucleus",
+                "onto_id": "GO:0005634"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "regulation of gene expression, epigenetic",
+                    "onto_id": "GO:0040029"
+                },
+                {
+                    "onto_name": "nucleus organization",
+                    "onto_id": "GO:0006997"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Arabidopsis thaliana",
+                "onto_id": "NCBITaxon:3702"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "See K. Earley et al. 2006 Erasure of histone acetylation by Arabidopsis HDA6 mediates large-scale gene silencing in nucleolar dominance. Genes Dev. 20:1283-1293."},
+            "MOLECULARFUNCTION": {
+                "onto_name": "histone deacetylase activity",
+                "onto_id": "GO:0004407"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 965
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 965
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Tetramethyl rhodamine (TRITC)",
+                    "onto_id": "FBbi:00000454"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "The image shows a nucleus isolated from Arabidopsis thaliana immunostained for the HDA6  histone deacetylase (red). DNA is stained blue.  HDA6 concentrates in the nucleolus (top center), where ribosomal RNA genes reside."},
+            "CELLTYPE": {"free_text": "root"},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "NIGMS Biomedical Beat",
+                    "Href": "http://publications.nigms.nih.gov/biobeat/06-06-20/"
+                }],
+                "Contributors": [
+                    "Olga Pontes",
+                    "Craig Pikaard"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

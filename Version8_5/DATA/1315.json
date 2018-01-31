@@ -1,0 +1,130 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "1315.zip",
+                "Size": 19047095
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "1315.jpg",
+                "Size": 57089
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "1315.tif",
+                "Size": 16100000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "euchromatin",
+                    "onto_id": "GO:0000791"
+                },
+                {
+                    "onto_name": "nuclear chromatin",
+                    "onto_id": "GO:0000790"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "nucleus organization",
+                    "onto_id": "GO:0006997"
+                },
+                {
+                    "onto_name": "chromatin organization",
+                    "onto_id": "GO:0006325"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Images  were obtained using a Zeiss 510 Meta confocal microscope with excitation at 488 nm and emission between 505 nm and 530 nm. An initial scan of the cell was followed by the bleaching of a 2 um diameter spot of euchromatin, and 60 successive images recorded at 5 s intervals to measure fluorescence recovery due to MeCP2 mobility."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.04
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.04
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "61",
+                    "value": 5.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "fluorescent proteins derived from Aequorea victoria",
+                "onto_id": "FBbi:00000420"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "The intracellular mobility of MeCP2 (a methylated DNA-binding protein) followed in a mouse fibroblast stably expressing GFP-MeCP2 through a time series of images captured by confocal microscopy after bleaching a 2 micrometer circular area of euchromatin (center, right). Fluorescence recovery after photobleaching (FRAP) is rapid, indicating that MeCP2 in euchromatin is highly mobile."},
+            "CELLTYPE": {
+                "onto_name": "fibroblast",
+                "onto_id": "CL:0000057"
+            },
+            "ATTRIBUTION": {"Contributors": [
+                "rajarshi ghosh",
+                ",/chris woodcock"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": true,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

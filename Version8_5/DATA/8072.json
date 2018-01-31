@@ -1,0 +1,125 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "8072.jpg",
+                "Size": 26726
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "8072.zip",
+                "Size": 4513916
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "8072.flv",
+                "Size": 4527664
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "time lapse microscopy",
+                    "onto_id": "FBbi:00000249"
+                },
+                {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                },
+                {
+                    "onto_name": "plasma membrane",
+                    "onto_id": "GO:0005886"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cytokinesis after mitosis",
+                    "onto_id": "GO:0000281"
+                },
+                {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "CELLLINE": {"free_text": "PtK1"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Potorous tridactylus tridactylus",
+                "onto_id": "NCBITaxon:223565"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "Original image dimensions: 0.109 microns/pixel; 69.76 microns X 52.32 microns. \n\nOriginal resource provided by Alexey Khodjakov. Work conducted at Wadworth Center for Laboratories and Research, New York State Department of Health, Albany, NY.\n\nDigitization Process: Recompressed with H.264 codec, automatic keyframes selected, and data rate reduced (restricted to 768 kbs optimized for streaming), music suppressed in Quicktime Pro. New file size:5.64 Mb; Duration: 00:01:00.06; Dimensions: 320 x 240; FPS: 15 ; Data rate: 786.15 kbs; Codec: H.264; Software required: Apple Quicktime 7 player: Original video created March 2000.Original resource: received from authors as avi file; tiff files were created for each time point; File size: 20.1 Mb; Duration: 00:01:00.06; Dimensions: 320 x 240 pixels; FPS: 15; Data rate: 2.8 Mbs; Codec: Apple Cinepak."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 320
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 240
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "900",
+                    "value": 15.0
+                }}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Dance of the Chromosomes. The movie captures the entire course of mitosis in a PtK1 (Potorus tridactylis kidney) cell from prophase through the formation of two daughter cells. This is a time-lapse movie in which the time intervals are different during different stages of mitosis (10 to 30 seconds). A time stamp is shown in the top-left corner of each frame."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                {"free_text": "kidney epithelial cell"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {"Contributors": [
+                "Alexey Khodjakov",
+                "Irina Tikhonenko"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

@@ -1,0 +1,111 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "38805.tif",
+                "Size": 900000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "38805.jpg",
+                "Size": 88286
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "38805.zip",
+                "Size": 108838
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "38805_orig.jpg",
+                "Size": 108700
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "plasma membrane",
+                    "onto_id": "GO:0005886"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "gene expression",
+                "onto_id": "GO:0010467"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific nucleic acid sequence",
+                "onto_id": "FBbi:00000596"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Arabidopsis thaliana",
+                "onto_id": "NCBITaxon:3702"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007807  Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 470
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Confocal micrograph showing the expression of different fluorescent proteins in the stem of a thale cress seedling (Arabidopsis thaliana) used to study in vivo gene expression. Arabidopsis was the first plant to have its entire genome sequenced and is an important model for studying plant biology. These genetically modified plants have fluorescent proteins associated with different gene promoters. In these plants, when a promoter switches a gene on, a corresponding fluorescent protein is produced, allowing expression of these genes to be viewed. In this image green fluorescence (GFP) shows the expression of the gene under investigation and the red fluorescence corresponds to the expression of a known gene and thus acts as a reference. Cells that are yellow express both genes. A third fluorescent protein is attached to the plasma membrane to show the outline of each cell. Small red cells that don't have the gene active and do not express GFP are precursors of stomata."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": [
+                    "Fernan Federici",
+                    "Jim Haseloff"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

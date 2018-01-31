@@ -1,0 +1,116 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39008.jpg",
+                "Size": 56784
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39008.zip",
+                "Size": 101222
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39008_orig.jpg",
+                "Size": 101084
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39008.tif",
+                "Size": 1400000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "dendrite",
+                    "onto_id": "GO:0030425"
+                },
+                {
+                    "onto_name": "neuronal cell body",
+                    "onto_id": "GO:0043025"
+                },
+                {
+                    "onto_name": "dendritic branch",
+                    "onto_id": "GO:0044307"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "dendrite morphogenesis",
+                    "onto_id": "GO:0048813"
+                },
+                {"free_text": "microinjection"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "compartmentalization of stain or label",
+                "onto_id": "FBbi:00000604"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0000061 Injection of retinal cell Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 559
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "lucifer yellow",
+                "onto_id": "FBbi:00000057"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {"free_text": "retinal neuron"},
+            "IMAGEDESCRIPTION": {"free_text": "This fluorescent micrograph shows a microelectrode penetrating the cell body of a neurone in the retina of a living eye. The electrode is injecting a fluorescent dye (lucifer yellow) into the cell, filling its branch-like dendrites which form connections with other nerve cells."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["David Becker"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

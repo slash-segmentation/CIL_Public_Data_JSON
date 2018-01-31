@@ -1,0 +1,130 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "16220.zip",
+                "Size": 3844202
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "16220.jpg",
+                "Size": 537580
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "16220.tif",
+                "Size": 9700000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "ethanol fixed tissue",
+                    "onto_id": "FBbi:00000006"
+                },
+                {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                }
+            ],
+            "GROUP_ID": "8227",
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "tight junction",
+                "onto_id": "GO:0005923"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "tight junction assembly",
+                "onto_id": "GO:0070830"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "MDCK-II",
+                "onto_id": "MCC:0000321"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Canis lupus familiaris",
+                "onto_id": "NCBITaxon:9615"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "MDCK-II tet off cells were plated on glass coverslips at a low density (1.0 x 10[4] cells/ml) and incubated in the presence or absence of doxycyclin for 10 d before processing. Cells were fixed for 30 min in ethanol on ice, permeabilized in 0.2% Triton X-100 and incubated in anti-myc antibody and rat anti-ZO1 hybridoma supernatant (R40.76) followed by Cy3-conjugated donkey anti-rat secondary antibody and Cy2 or Cy5-conjugated secondary antibody specific for anti-myc. Cells were mounted in Mowiol with 1.0% n-propyl gallate. Confocal images were acquired on a Zeiss LSM510 Meta using a 100x Plan Apo lens (Thornwood, NY). Confocal Stacks (E,F,G,H,M,N) and image projections were generated with Zeiss LSM Image Browser version 3.2. Contrast adjustment and montages were generated using Adobe Photoshop (version 6.0; San Jose, CA). Figure 7 in Mol Biol Cell (2006). 18:721-731."},
+            "MOLECULARFUNCTION": {
+                "onto_name": "protein binding",
+                "onto_id": "GO:0005515"
+            },
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Cy3",
+                    "onto_id": "FBbi:00000449"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "c-MYC peptide tag",
+                    "onto_id": "FBbi:00000086"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {"axis": "X"}},
+                {"Space": {"axis": "Y"}}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "montage",
+                "onto_id": "FBbi:00000261"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "ZO-1 polypeptides lacking the unique-6 (U6) motif are concentrated within disorganized strands on the lateral surface of MDCK cells. MDCK II cells transfected with deltaU6 (A\u2013F) or ZNG (aa1-806) ( (G\u2013H) were plated on filter inserts and grown in the presence (A\u2013C) or absence (D\u2013F and G\u2013H) of doxycycline for 10 d.  The ectopic strands were not present in uninduced cells (A-C). Cell were then fixed and stained with an antibody against c-myc (A, D, and G) and a sera specific for the endogenous ZO-1 (B, E, and H). The images shown are projections of 5.0 µm confocal stacks that have been rotated by 48°. Bar, 10 µm."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.molbiolcell.org/cgi/reprint/18/3/721"}],
+                "PUBLISHED": ["Mol Biol Cell (2006). 18:721-731."],
+                "Contributors": [
+                    "Alan S. Fanning",
+                    "Brent P. Little",
+                    "Christopher Rahner",
+                    "Darkhan Utepbergenov",
+                    "Zenta Walther",
+                    "James M. Anderson"
+                ],
+                "PUBMED": ["17182847"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,96 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41808.jpg",
+                "Size": 399991
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41808.tif",
+                "Size": 24500000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41808.zip",
+                "Size": 2863207
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell wall",
+                    "onto_id": "GO:0005618"
+                },
+                {"free_text": "cell wall striae"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cytokinesis by binary fission",
+                "onto_id": "GO:0043093"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Closterium costatum"},
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2273
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3577
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Differential interference contrast image of Closterium costatum, a unicellar desmid. Every binary fission creates a cross line on the cell wall. The single cross line seen here indicates that this cell has only undergone its ﬁrst binary fission after developing from a zygote. Honorable Mention, 2010 Olympus BioScapes Digital Imaging Competition®"},
+            "ATTRIBUTION": {
+                "OTHER": ["Kiel, Germany"],
+                "URLs": [{
+                    "Label": "2010 Olympus BioScapes Digital Imaging  Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2010/hm1.html"
+                }],
+                "Contributors": [
+                    "Wolfgang Bettighofer",
+                    "2010 Olympus BioScapes Digital Imaging  Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

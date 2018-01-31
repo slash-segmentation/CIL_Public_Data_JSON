@@ -1,0 +1,114 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36476.tif",
+                "Size": 17500000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36476.jpg",
+                "Size": 1874338
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36476.zip",
+                "Size": 17586263
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "methanol fixed tissue",
+                "onto_id": "FBbi:00000007"
+            },
+            "GROUP_ID": "9248",
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {"free_text": "DNA"}
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "first cell cycle"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Xenopus laevis",
+                "onto_id": "NCBITaxon:8355"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Images collected on a Zeiss LSM 710 confocal with a 10X 0.3 NA objective using 561 and 633 laser lines."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2592,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.48
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2592,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.48
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "labeled primary antibody",
+                "onto_id": "FBbi:00000130"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "This image is part of a large data set of Xenopus laevis eggs imaged at various times post fertilization (the first number of the file name corresponds minutes, eg 30_2 is 30 min post fertilization). The embryos are stained for alpha-tubulin (green) using a directly labeled B-5-1-2 antibody and DNA (red)."},
+            "CELLTYPE": {"free_text": "fertilized egg"},
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {"Contributors": [
+                "Martin Wuehr",
+                "Timothy Mitchison"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

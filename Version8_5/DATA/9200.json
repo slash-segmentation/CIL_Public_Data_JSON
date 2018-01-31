@@ -1,0 +1,130 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "9200.zip",
+                "Size": 5789861
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "9200.tif",
+                "Size": 5800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "9200.jpg",
+                "Size": 20031
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "unfixed tissue",
+                "onto_id": "FBbi:00000014"
+            },
+            "GROUP_ID": "7926",
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "Golgi apparatus",
+                    "onto_id": "GO:0005794"
+                },
+                {
+                    "onto_name": "endoplasmic reticulum",
+                    "onto_id": "GO:0005783"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "ER to Golgi vesicle-mediated transport",
+                "onto_id": "GO:0006888"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "HeLa",
+                "onto_id": "MCC:0000219"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.11
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.11
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 8,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 1.0
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Sialyl Transferase-EGFP transfected HeLa cells demonstrating the redistribution of the Golgi Apparatus to the Endoplasmic Reticulum upon treatment with Brefeldin A (BFA). \nImages were collected as a 4D time series (z-stack over time).  z-stacks of 48 individual timepoints are included in this collection of files as well as the movie SiEGFP_BFA.avi, which is the maximum projection of the z-stacks at the individual time points.\n\nBFA was added according to the following protocol:\nTimepoint1: Before addition of BFA 0seconds (8 Z-slices at 1 um apart)\nTimepoint2: After addition of BFA 130seconds (8 Z-slices at 1 um apart) \nTimepoint3: 238 seconds (11 Z-slices at 1 um apart) \nTimepoint3 thru Timepoint48: Images captured every 5 seconds (11 Z-slices at 1 um apart at each time point) \n\nImages were collected on a Carl Zeiss spinning disk confocal with a 63X 1.4 NA objective with 250 ms exposures at 5 s intervals."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "permanent cell line cell",
+                    "onto_id": "CL:0000002"
+                },
+                {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                }
+            ],
+            "ATTRIBUTION": {"Contributors": ["Prabuddha Sengupta"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": true,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

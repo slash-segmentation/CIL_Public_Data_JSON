@@ -1,0 +1,163 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36735.tif",
+                "Size": 6900000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36735.jpg",
+                "Size": 1583860
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36735.zip",
+                "Size": 13751714
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {"free_text": "food vacuole"},
+                {
+                    "onto_name": "lysosome",
+                    "onto_id": "GO:0005764"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "response to drug",
+                    "onto_id": "GO:0042493"
+                },
+                {
+                    "onto_name": "digestive system process",
+                    "onto_id": "GO:0022600"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium multimicronucleatum",
+                "onto_id": "NCBITaxon:44030"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2287
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3000
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Cytochalasin B blocks DV release from cytopharynx. In this micrograph a very large nascent vacuole has been retained at the cytopharynx of this cell that had been exposed to cytochalasin B. Many acidosomes are docked at the membrane of this vacuole. Some acidosomes contain HRP reaction product and some are free of HRP. The cell had been exposed to HRP and cytochalasin B for 10 minutes during which no new DV-I had been released. During this exposure to CB, some discoidal vesicles continue to move to the cytopharynx and fuse, acidosomes continue to move to the nascent phagosome and dock, and endosome and carrier vesicle formation continues and they continue to fuse with acidosomes. CB has done two things, it has prevented normal phagosome release from the cytopharynx and it has also inhibited acidosome fusion with the phagosomes (Allen and Fok, J. Cell Biol. 97:566-570, 1983) once they form. For this study cells were exposed to 0.3mM of CB for 10-20 min. The lack of acidosome fusion with the few phagosomes that do pinch off during CB exposure was supported by the fact that the phagosomes became only mildly acid. TEM taken on 8/29/84 by R. Allen with Hitachi HU11A operating at 75kV. Neg. 1,610X. Bar = 2µm."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {"Contributors": ["Richard Allen (University of Hawaii)"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

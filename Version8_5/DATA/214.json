@@ -1,0 +1,90 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "214.jpg",
+                "Size": 972877
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "214.tif",
+                "Size": 21600000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "214.zip",
+                "Size": 21567326
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "synaptic vesicle",
+                "onto_id": "GO:0008021"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "neuron-neuron synaptic transmission",
+                "onto_id": "GO:0007270"
+            },
+            "RELATIONTOINTACTCELL": {"free_text": "fractured cell"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "secondary_electron imaging",
+                "onto_id": "FBbi:00000372"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2395
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "PROCESSINGHISTORY": {"free_text": "colorized image"},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "neuron",
+                "onto_id": "CL:0000540"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "A colorized scanning electron microscope picture of a nerve ending that has been broken open to reveal the synaptic vesicles (orange and blue) beneath the cell membrane."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "NIGMS \"Inside the Cell\" booklet",
+                    "Href": "http://publications.nigms.nih.gov/insidethecell/chapter3.html"
+                }],
+                "Contributors": ["Tina Carvalho"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

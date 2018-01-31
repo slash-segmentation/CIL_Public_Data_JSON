@@ -1,0 +1,171 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "21993.jpg",
+                "Size": 4455539
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "21993.tif",
+                "Size": 63100000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "21993.zip",
+                "Size": 65486138
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                {"free_text": "Parducz fixative"},
+                {
+                    "onto_name": "lyophilized specimen",
+                    "onto_id": "FBbi:00000583"
+                },
+                {"free_text": "Au/Pd metal sputter-coat"}
+            ],
+            "GROUP_ID": "11753",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "oral apparatus",
+                    "onto_id": "GO:0031912"
+                },
+                {
+                    "onto_name": "phagocytic cup",
+                    "onto_id": "GO:0001891"
+                },
+                {
+                    "onto_name": "cell cortex",
+                    "onto_id": "GO:0005938"
+                },
+                {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "phagocytosis",
+                    "onto_id": "GO:0006909"
+                },
+                {
+                    "onto_name": "phagocytosis, engulfment",
+                    "onto_id": "GO:0006911"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "detection of electrons",
+                "onto_id": "FBbi:00000375"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "Didinium nasutum",
+                    "onto_id": "NCBITaxon:5997"
+                },
+                {
+                    "onto_name": "Paramecium sp.",
+                    "onto_id": "NCBITaxon:5887"
+                }
+            ],
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary electron generation",
+                    "onto_id": "FBbi:00000580"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 5521,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 31.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 5702,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 31.0
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "IMAGEDESCRIPTION": {"free_text": "Didinium captures Paramecium. A moment after initial contact when toxicysts enter Paramecium. The strand of toxicysts can be seen between the two organisms, and Didinium will use the anchored toxicysts to reel in Paramecium to the awaiting proboscis which is opening to accept its prey. Also showing metachronous waves of cilia within the two characteristic ciliary girdles of Didinium nasutum; the waves on Paramecium may be paralyzed due to the effects of the attached toxicysts. This micrograph was taken in 1968 by G. Antipa on a Cambridge Mark IIA operating at 20kV. The negative magnification is 460X. Further details are available at Wessenberg, H. and Antipa, G. 1970. Capture and ingestion of Paramecium by Didinium nasutum. J. Protozool. 17:250-270."},
+            "ATTRIBUTION": {"Contributors": ["Gregory Antipa (San Francisco State University)"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

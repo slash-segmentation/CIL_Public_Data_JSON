@@ -1,0 +1,127 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "15806.flv",
+                "Size": 642010
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "15806.jpg",
+                "Size": 63700
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "15806.zip",
+                "Size": 4653184
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "unfixed tissue",
+                "onto_id": "FBbi:00000014"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {
+                    "onto_name": "spindle",
+                    "onto_id": "GO:0005819"
+                },
+                {
+                    "onto_name": "astral microtubule",
+                    "onto_id": "GO:0000235"
+                },
+                {"free_text": "ensconsin"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "mitotic anaphase",
+                    "onto_id": "GO:0000090"
+                },
+                {
+                    "onto_name": "mitotic telophase",
+                    "onto_id": "GO:0000093"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "Embryo",
+                "onto_id": "FMA:69068"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Dendraster excentricus",
+                "onto_id": "NCBITaxon:273752"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 480,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.137
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 480,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.137
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "179",
+                    "value": 3.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "mCherryFP",
+                "onto_id": "FBbi:00000525"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Microtubules in sand dollar embryos expressing three tandem Cherry fluorophores fused to the ensconsin microtubule-binding domain (EMTB-3C).  Video demonstrates microtubule dynamics during process of mitosis.  Embryos were imaged with a laser scanning confocal microscope (Radiance 2000; Bio-Rad Laboratories) mounted on a compound microscope (E800; Nikon) using a 40× 1.3 NA Plan-Fluor oil lens. Room temperature was maintained at 14\u201317°C"},
+            "ATTRIBUTION": {"Contributors": ["George Von Dassow"]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

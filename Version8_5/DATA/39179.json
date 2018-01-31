@@ -1,0 +1,178 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39179.jpg",
+                "Size": 6820592
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39179.zip",
+                "Size": 49104774
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39179.tif",
+                "Size": 49200000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "oral apparatus",
+                    "onto_id": "GO:0031912"
+                },
+                {
+                    "onto_name": "cytoplasmic microtubule",
+                    "onto_id": "GO:0005881"
+                },
+                {"free_text": "carrier vesicles"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "oral apparatus organization",
+                    "onto_id": "GO:0032122"
+                },
+                {
+                    "onto_name": "phagocytosis",
+                    "onto_id": "GO:0006909"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium caudatum",
+                "onto_id": "NCBITaxon:5885"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. The raw negative was scanned with an Epson Perfection V750 Pro and this high resolution image is best used for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4702,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.2
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 5221,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.2
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Carrier vesicles are around 100nm in diameter. They can carpet the cytopharyngeal ribbons with a layer of vesicles, several vesicles wide, as shown in this micrograph. As seen here the ribbons come to lie close to the source of many of these carrier vesicles that arise from early endosomes under the quadrulus. TEM taken on 5/16/73 by R. Allen with Hitachi HU11A TEM. Neg. 12,750X."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {"Contributors": ["Richard Allen (University of Hawaii)"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

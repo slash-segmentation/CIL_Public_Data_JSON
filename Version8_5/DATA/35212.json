@@ -1,0 +1,136 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35212.zip",
+                "Size": 802219078
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35212.jpg",
+                "Size": 195571
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35212.tif",
+                "Size": 803100000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "8539",
+            "IMAGINGMODE": {
+                "onto_name": "phase contrast microscopy",
+                "onto_id": "FBbi:00000247"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "ruffle",
+                "onto_id": "GO:0001726"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cell motility",
+                    "onto_id": "GO:0048870"
+                },
+                {
+                    "onto_name": "cytokinesis",
+                    "onto_id": "GO:0000910"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in amount of elastic light scattering",
+                "onto_id": "FBbi:00000600"
+            },
+            "CELLLINE": {"free_text": "MEF"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of photons",
+                "onto_id": "FBbi:00000587"
+            },
+            "TECHNICALDETAILS": {"free_text": "These data were collected as research which led to the published article Cell Physiol Biochem 2010;25:279-292.  Microscopy was performed with a 10X planapo phase contrast objective on an Olympus IX 70 microscope with a SensicamHQ cooled CCD camera and a heated stage insert set to 37 degrees C.  Cells were grown and serum starved for 48 h in a coverslip bottom MatTek dish. Small amounts of PDGF-AA were continuously ejected from the micropipette  to create a gradient in the vicinity of growth-arrested wt MEFs. Cell movement was monitored with time lapse video microscopy, taking images at 30 second intervals.  A Femtojet Micromanipulator 5171 (Eppendorf-Brinkman Instruments) and a pump (model Femtojet; Eppendorf) were used to control the position of the micropipette and the pressure\nrequired for the chemoattractant flow. Femptotip II micropipettes were positioned within 1 μm\nof the cover slip and pressure set at 30 to 45 hPa.  Spatial scale is approximate.\nImaging performed at the Image Analysis Facility of the Albert Einstein College of Medicine."},
+            "MOLECULARFUNCTION": {
+                "onto_name": "receptor signaling protein tyrosine kinase activity",
+                "onto_id": "GO:0004716"
+            },
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1280,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.33
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.33
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "306",
+                    "value": 30.0
+                }}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Time lapse movie of mouse embryonic fibroblasts in culture imaged at 30 second intervals by phase contrast microscopy.  A micropipette is positioned near the cells to deliver either a growth factor or control buffer.  In this sequence PBS buffer is added and the cells move independently of the addition.  Also of note, a cell can be seen dividing in the lower left."},
+            "CELLTYPE": {
+                "onto_name": "fibroblast",
+                "onto_id": "CL:0000057"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Journal Article",
+                    "Href": "http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2924811/"
+                }],
+                "PUBLISHED": [" Cell Physiol Biochem 2010;25:279-292"],
+                "Contributors": [
+                    "Søren T. Christensen",
+                    "Linda Schneider",
+                    "Michael Cammer"
+                ],
+                "PUBMED": ["20110689"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

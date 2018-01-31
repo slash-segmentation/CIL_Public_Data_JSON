@@ -1,0 +1,142 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "13399.flv",
+                "Size": 874747
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13399.jpg",
+                "Size": 82600
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13399.zip",
+                "Size": 12759168
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "6184",
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {"free_text": "ensconsin"},
+                {
+                    "onto_name": "astral microtubule",
+                    "onto_id": "GO:0000235"
+                },
+                {
+                    "onto_name": "cell cortex",
+                    "onto_id": "GO:0005938"
+                },
+                {
+                    "onto_name": "cleavage furrow",
+                    "onto_id": "GO:0032154"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "mitotic anaphase",
+                    "onto_id": "GO:0000090"
+                },
+                {
+                    "onto_name": "cytokinesis after mitosis",
+                    "onto_id": "GO:0000281"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "Embryo",
+                "onto_id": "FMA:69068"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Dendraster excentricus",
+                "onto_id": "NCBITaxon:273752"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.248
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.248
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "250",
+                    "value": 4.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Microtubules in sand dollar embryo expressing three tandem GFPs fused to the ensconsin microtubule-binding domain (EMTB-3G; Faire et al., 1999).  Eight-cell sand dollar embryo; single microtubules grow as far as the cell surface in all directions (equatorially in the 01:56 frame, tropically in the 01:08 frame, and toward the pole in the 03:32 frame). Astral microtubules reach the polar cortex most densely in anaphase (08:48) but also reach the equator before furrowing (frame 10:48).  Embryos were imaged with a laser scanning confocal microscope (Radiance 2000; Bio-Rad Laboratories) mounted on a compound microscope (E800; Nikon) using a 40× 1.3 NA Plan-Fluor oil lens. Room temperature was maintained at 14\u201317°C, which is tolerated well. Video corresponds to Fig 1C and third segment in Video 1 from J Cell Biol. 2009 Dec 14;187(6):831-45."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol. 2009 Dec 14;187(6):831-45."],
+                "Contributors": [
+                    "George von Dassow",
+                    "Koen J.C. Verbrugghe",
+                    "Ann L. Miller",
+                    "Jenny R. Sider",
+                    "William M. Bement"
+                ],
+                "PUBMED": ["20008563"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

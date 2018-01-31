@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39728.tif",
+                "Size": 200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39728.jpg",
+                "Size": 31862
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39728.zip",
+                "Size": 183054
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "glutaraldehyde fixed tissue",
+                "onto_id": "FBbi:00000011"
+            },
+            "GROUP_ID": "10719",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {"free_text": "chromatin"},
+                {
+                    "onto_name": "nucleosome",
+                    "onto_id": "GO:0000786"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "DNA packaging",
+                    "onto_id": "GO:0006323"
+                },
+                {
+                    "onto_name": "chromatin organization",
+                    "onto_id": "GO:0006325"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "TECHNICALDETAILS": {"free_text": "Reconstitutes were fixed in the appropriate salt environment, applied to thin carbon films, air dried, and shadowed with Pt using electron bean evaporation (Balzers BA 080 vacuum evaporator.  Grids were examined in a FEI Tecnai 12 TEM at 100KV with a LaB6 filament and tilted darkfield optics, and recorded using a TVIPS 2k CCD camera.\nSee also: S A  Grigoryev et al. 2009 Evidence for heteromorphic chromatin fibers from analysis of nucleosome interactions. Proc Natl Acad Sci USA 106:13317-13322."},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 435
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 140
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "TEM images of reconstituted chromatin prepared from 12-mer tandem repeats of a strong nuclear positioning sequence and purified histones. Samples were fixed with glutaraldehyde, applied to carbon films, and shadowed with Pt.  (A, B) samples without linker histone H5 fixed in 5 mM NaCl; (C) Sample with H5, fixed in 150 mM NaCl; (D) sample with H5, fixed in 1 mM MgCl2.\nSee Fig 1 in: S A  Grigoryev et al. 2009 Evidence for heteromorphic chromatin fibers from analysis of nucleosome interactions. Proc Natl Acad Sci USA 106:13317-13322"},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Proceedings National Academy of Sciences USA",
+                    "Href": "http://www.pnas.org/content/106/32/13317.long"
+                }],
+                "PUBLISHED": ["S A  Grigoryev et al. 2009 Evidence for heteromorphic chromatin fibers from analysis of nucleosome interactions. Proc Natl Acad Sci USA 106:13317-13322"],
+                "PUBMED": ["19651606"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {"free_text": "CCD"}
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

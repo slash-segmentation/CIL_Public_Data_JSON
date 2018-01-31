@@ -1,0 +1,106 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "32091.jpg",
+                "Size": 40567
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "32091.zip",
+                "Size": 805614
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "32091.tif",
+                "Size": 800000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "8215",
+            "IMAGINGMODE": {"free_text": "plate reader"},
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {"free_text": "beta arrestin"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cellular localization",
+                "onto_id": "GO:0051641"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                {"free_text": "distribution of DNA"}
+            ],
+            "CELLLINE": {
+                "onto_name": "U-2 OS",
+                "onto_id": "MCC:0000468"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "The images constitute one row of a 348 well plate. The dose curve consists of 11 dose points and one control. Each concentration is duplicated in adjacent wells. Each well has three fields."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "This image set is of Transfluor assay where an orphan GPCR (G-protein coupled receptor) is stably integrated into a beta-arrestin GFP (green) expressing U2OS cell line also showing nucleus (red). After one hour incubation with a compound, the cells were quenched with fixative (formaldehyde) and the plate was read on Cellomics ArrayScan HCS Reader using the GPCR Bioapplication. Negative results are a more uniform distribution of GFP throughout the cytoplasm and positive results are a peri-nuclear localization.\nRecommended attribution:  \"We used the SBS Roche Transfluor image set provided by Ilya Ravkin and available from the Broad Bioimage Benchmark Collection (www.broad.mit.edu/bbbc).\"\nAnalysis of the data set can be downloaded from http://www.broadinstitute.org/bbbc/sbs_roche_transfluor.html"},
+            "CELLTYPE": {"free_text": "osteocarcenoma"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.broadinstitute.org/bbbc/sbs_roche_transfluor.html"}],
+                "Contributors": ["Ilya Ravkin"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

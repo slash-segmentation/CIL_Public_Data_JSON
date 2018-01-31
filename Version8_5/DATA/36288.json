@@ -1,0 +1,154 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36288.tif",
+                "Size": 10700000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36288.jpg",
+                "Size": 2889575
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36288.zip",
+                "Size": 21176550
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "freeze_fracture/freeze_etch",
+                "onto_id": "FBbi:00000419"
+            },
+            "GROUP_ID": "10449",
+            "IMAGINGMODE": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "plasma membrane",
+                    "onto_id": "GO:0005886"
+                },
+                {
+                    "onto_name": "pellicle",
+                    "onto_id": "GO:0020039"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "plasma membrane organization",
+                "onto_id": "GO:0007009"
+            },
+            "RELATIONTOINTACTCELL": [
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                {
+                    "onto_name": "isolated subcellular component",
+                    "onto_id": "FBbi:00000579"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Vorticella microstoma",
+                "onto_id": "NCBITaxon:77619"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                {
+                    "onto_name": "elevation",
+                    "onto_id": "FBbi:00000320"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2896
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3678
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print of negative scanned for Photoshop"}
+            ],
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "This freeze fracture view of the pellicle of V. microstoma near the aboral end of the zooid shows the region where the width of each circumferential alveolus is narrower and thus the strings of fractured pits are closer together. In this case the E-fracture face of the outer alveolar membrane is shown which has fewer IMPs than the P-face of the outer alveolar membrane as seen in the previous figure. Here the connections are indentations rather than fractured necks. In a few areas the P-fracture face of the plasma membrane is viewed where it was pinched into the folds between rings that surround the cell. The plasma membrane, like a similar view in figure 23, demonstrates the large number of prominent IMPs on this face of the plasma membrane. large arrow, direction of shadowing of freeze fracture replica. EM taken on 11/11/75 by R. Allen with JEM 100B operating at 80kV. Neg. 21,578X. Bar = 0.20µm. A print of the negative was scanned and processed in Photoshop. This image is best used for qualitative analysis. There is a high resolution version of this image in the library (CIL:39326) which is available for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {"Contributors": ["Richard Allen (University of Hawaii)"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

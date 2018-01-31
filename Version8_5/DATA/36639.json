@@ -1,0 +1,170 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36639.jpg",
+                "Size": 1685770
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36639.tif",
+                "Size": 7400000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36639.zip",
+                "Size": 14578286
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "freeze_fracture/freeze_etch",
+                "onto_id": "FBbi:00000419"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "peroxisome",
+                    "onto_id": "GO:0005777"
+                },
+                {
+                    "onto_name": "smooth endoplasmic reticulum",
+                    "onto_id": "GO:0005790"
+                },
+                {
+                    "onto_name": "microtubule associated complex",
+                    "onto_id": "GO:0005875"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cytoplasm organization",
+                    "onto_id": "GO:0007028"
+                },
+                {
+                    "onto_name": "organelle organization",
+                    "onto_id": "GO:0006996"
+                }
+            ],
+            "RELATIONTOINTACTCELL": [
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                {
+                    "onto_name": "isolated subcellular component",
+                    "onto_id": "FBbi:00000579"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium multimicronucleatum",
+                "onto_id": "NCBITaxon:44030"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                {
+                    "onto_name": "elevation",
+                    "onto_id": "FBbi:00000320"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2442
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3000
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print of negative scanned for Photoshop"}
+            ],
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "In quick-freeze deep-etch micrographs it is not easy to distinguish peroxisomes from surrounding organelles. The organelle at the top of this micrograph may be a peroxisome based on its finely granular content. Also the elongated vesicle showing a porous E-fracture face in the middle may also be a peroxisome. Several mitochondria and the porous E-face of the smooth spongiome of the Contractile Vacuole Ccomplex (associated with a microtubular ribbon) are present. TEM taken on 6/22/88 by C. Schroeder with Zeiss 10A operating at 80kV. Neg. 15,900X. Bar = 0.25µm."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {"Contributors": [
+                "Richard Allen (University of Hawaii)",
+                "C. Schroeder"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

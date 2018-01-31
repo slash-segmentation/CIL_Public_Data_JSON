@@ -1,0 +1,179 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "8848.zip",
+                "Size": 2700964
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "8848.jpg",
+                "Size": 49432
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "8848.tif",
+                "Size": 2700000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "crosslinking-fixative fixed tissue",
+                    "onto_id": "FBbi:00000008"
+                },
+                {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                }
+            ],
+            "GROUP_ID": "7787",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell",
+                    "onto_id": "GO:0005623"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "extracellular matrix part",
+                    "onto_id": "GO:0044420"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "localization",
+                    "onto_id": "GO:0051179"
+                },
+                {
+                    "onto_name": "cellular localization",
+                    "onto_id": "GO:0051641"
+                },
+                {
+                    "onto_name": "cell adhesion",
+                    "onto_id": "GO:0007155"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                }
+            ],
+            "CELLLINE": {
+                "onto_name": "NIH/3T3",
+                "onto_id": "MCC:0000362"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                },
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 650,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 1.34
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 515,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 1.34
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "TexasRed",
+                    "onto_id": "FBbi:00000453"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "This is part of a triplicate data set of non-overlapping fields of NIH 3T3 fibroblasts cultured on polystyrene.  Each set is indicated by the well number.  Each image contains 4 images of each field as a time series.  The first image is the phase contrast image.  The second image channel is Tenascin-C promoter driven destabilized EGFP reporter vector.  The third image is Texas Red C2-maleimide (to stain cell body), and the fourth image is Dapi (to stain nuclei).   \n\nImages were collected on a Zeiss Axiovert 100. The samples were viewed with a Zeiss A-plan 10x Ph1 0.25 NA objective and recorded with a CoolSnapFX camera using 2 x 2 binning. The filters were as follows: 1.) A custom dichroic multipass beam splitter optimized for imaging DAPI, EGFP and TxRed (part# BS51019+400dclp, Chroma Technology, VT); 2.) DAPI excitation filter-360/40 nm; 3.) DAPI emission filter-460/50 nm; 4.) EGFP excitation filter-470/40 nm; 5.) EGFP emission filter-525/50 nm; 6.) TxRed excitation filter-568/24 nm; 7.) TxRed emission filter-630/60 nm. Autofocus on the TxRed color channel was performed at each location before the series of images were collected.\n\nProtocol: The cells were seeded on TCPS dishes at ~1000 cells/well during a passage cycle. The test cultures were incubated overnight before being rinsed with PBS and then fixed with 300 uM m-maleimidobenzoyl-N-hydroxysuccinimidyl ester (MBS) in microtubule stabilizing buffer (MTSB) composed of 4% (w/v) polyethylene glycol (PEG) 8000, 100 mM 1,4-piperazinediethanesulfonic acid (PIPES),10 mM ethylene glycol-bis(2-aminoethylether)-N,N,N\u2019,N\u2019-tetraacetic acid (EGTA), pH 6.9 for at least 16h at RT. The fixative was removed and solution of 0.05% Triton X100 in PBS containing 10 ng/mL of Tx Red C2-maleimide and 2 ng/mL DAPI for 2h. The staining solution was removed, cells were rinsed with PBS/3% BSA, and 0.05% sodium azide and PBS. A 50% glycerol/10 mM Tris, pH 8.0 containing 2ng/mL DAPI and 0.9g/l 1,4-diazobicyclo[2,2,2]octane (DABCO) as an antifade reagent was then added to each well for imaging purposes. The bottom of the wells were wiped with 70% ethanol wipe and then a dry wipe before imaging.\n\nPurpose: The purpose of the dataset was to measure the distribution of EGFP fluorescence intensities within individual cells in the population. Using the image sets collected, a plugin for ImageJ was used to perform the following image analysis tasks. 1.) The Txred images (which is a general purpose cell body stain) were segmented by manual thresholding. 2.) The resulting mask was used to define cell ROIs on the DAPI and EGFP images. 3.) The number of nuclei in each ROI is determined from the DAPI image and the integrated intensity of the EGFP signal in the cell is determined from ROI in the EGFP image. 4.) A local background intensity around each cell in the EGFP image is determined by dilating the ROI by 3 pixels and determining the pixel intensities in only the 3 pixel dilation area. When this data is placed in a spread sheet, you can use the results to identify cell clusters (i.e. have more than 1 nuclei), debris or partial cell (i.e. no nuclei), poor EGFP/cell measurements (i.e. high background intensity). The spreadsheet can be used to measure the distribution of EGFP cell intensities within a population of cells. The phase images were collected as quality control and validation data. The phase images provide a human validation mechanism if there are questions about the staining and/or fluorescence detection in an image.\n\nReferences: 1. Langenbach, K.J., Elliott, J.T., Tona, A., and Plant, A.L. (2006) Evaluating the correlation between fibroblast morphology and promoter activity on thin films of extracellular matrix proteins. BMC-Biotechnology 6(1):14. 2.Elliott, J.T., Halter, M., Woodward, J.T., Langenbach, K.J., Tona, A., Plant, A.L. (2008) Evaluating the performance of fibrillar collagen films formed at polystyrene surfaces as cell culture substrates. Biointerphases. 3(2):19-28."},
+            "CELLTYPE": {
+                "onto_name": "permanent cell line cell",
+                "onto_id": "CL:0000002"
+            },
+            "ATTRIBUTION": {
+                "OTHER": ["NIST, Gaithersburg, MD 20899"],
+                "Contributors": ["John Elliot"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": true,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

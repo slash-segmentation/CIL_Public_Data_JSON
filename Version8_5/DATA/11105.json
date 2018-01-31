@@ -1,0 +1,96 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11105.jpg",
+                "Size": 255004
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11105.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11105.zip",
+                "Size": 1096080
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "critical_point dried specimen",
+                "onto_id": "FBbi:00000581"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "secondary electron generation",
+                "onto_id": "FBbi:00000580"
+            },
+            "GROUP_ID": "11228",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 920
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1252
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "mast cell",
+                "onto_id": "CL:0000097"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron micrograph of the surface of a peritoneal mast cell from mouse shows undulating folds, and few microvilli.  The membrane folds could be misinterpreted for microvilli if analyzed in thin sections using a transmission electron microscope.  Image by Emma Shelton, Figure 37 from Chapter 2 (Specializations Of The Free Surface) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D. A PDF copy of the accompanying chapter is available on the ASCB's BioEDUCATE website."},
+            "BIOLOGICALPROCESS": {
+                "onto_name": "plasma membrane organization",
+                "onto_id": "GO:0007009"
+            },
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Fawcett's \"The Cell, 2nd Ed.\"",
+                    "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                }],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": ["Emma Shelton"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

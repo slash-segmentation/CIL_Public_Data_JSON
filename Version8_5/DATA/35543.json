@@ -1,0 +1,102 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35543.tif",
+                "Size": 40700000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35543.zip",
+                "Size": 40583590
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35543.jpg",
+                "Size": 0
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "coagulating-fixative fixed tissue",
+                "onto_id": "FBbi:00000003"
+            },
+            "GROUP_ID": "8713",
+            "IMAGINGMODE": {"onto_id": "FBbi:00000622"},
+            "CELLULARCOMPONENT": {
+                "onto_name": "nuclear chromosome",
+                "onto_id": "GO:0000228"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "mitosis",
+                "onto_id": "GO:0007067"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "CELLLINE": {"free_text": "CHO"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Cricetulus griseus",
+                "onto_id": "NCBITaxon:10029"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Metaphase-arrested cells were fixed with 3:1 ethanol:acetic acid, transferred to 50% acetic acid, and passed though a syringe to break cells. Drops of sample were placed on formvar coated grids, stained with uranly acetate, and critical point dried. Grids were observed with the Wisconsin HVEM at 1 MeV. See Ris (1981) Stereoscopic electron microscopy of chromosomes. Meth Cell Biol 22:77-96; Ris (1978) Preparation of chromatin and chromosomes for electron microscopy. Meth. Cell Biol 18:229-246."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 5728,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.5
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3542,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.5
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "CHO cells were arrested in metaphase with colcemid, swollen in 75mM KCl, fixed, disrupted, and observed using High Voltage EM. This image was recorded with a specimen tilt angle of 54 degrees. Grouped with it is an image of the same area at a tilt angle of 46 degrees, providing an oblique stereo view of chromosome organization."},
+            "CELLTYPE": {"free_text": "ovary"},
+            "ATTRIBUTION": {"Contributors": ["Hans Ris"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

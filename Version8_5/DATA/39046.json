@@ -1,0 +1,94 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39046.jpg",
+                "Size": 107828
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39046_orig.jpg",
+                "Size": 201532
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39046.zip",
+                "Size": 201670
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39046.tif",
+                "Size": 1300000
+            }
+        ],
+        "CORE": {
+            "GROUP_ID": "11377",
+            "IMAGINGMODE": {
+                "onto_name": "modes of light microscopy",
+                "onto_id": "FBbi:00000345"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "bacteria colonization"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in amount of elastic light scattering",
+                "onto_id": "FBbi:00000600"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Aggregatibacter actinomycetemcomitans",
+                "onto_id": "NCBITaxon:714"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007676 Colonies of A. actinomycetemcomitans.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 734
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {"free_text": "colorized"},
+            "CELLTYPE": {"free_text": "Gram-negative bacteria"},
+            "IMAGEDESCRIPTION": {"free_text": "Colorized light micrograph of Aggregatibacter actinomycetemcomitans colonies. A. actinomycetemcomitans is a Gram-negative bacteria commonly found to cause infections of the oral cavity and often isolated from the periodontal pocket. The peridontium refers to the soft tissue that surrounds and supports to tooth.  Related images available as CIL:39042, 39044, and 39045."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Derren Ready"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

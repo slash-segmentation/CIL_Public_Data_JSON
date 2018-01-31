@@ -1,0 +1,124 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35585.tif",
+                "Size": 3800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35585.jpg",
+                "Size": 180406
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35585.zip",
+                "Size": 3747087
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "8704",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "kinetochore",
+                "onto_id": "GO:0000776"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "mitosis",
+                "onto_id": "GO:0007067"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                }
+            ],
+            "CELLLINE": {
+                "onto_name": "HeLa",
+                "onto_id": "MCC:0000219"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Metaphase arrested cells were formaldehyde fixed, permeabilized with Triton X-100, immunostained, and z-stack images obtained at 0.2 micron intervals with a Zeiss Axiovert 200M microscope and 63x 1.4 NA objective lens."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1764
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 708
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                "onto_id": "FBbi:00000056"
+            },
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "3D-deconvolution",
+                    "onto_id": "FBbi:00000357"
+                },
+                {"free_text": "pseudocolor applied to merge"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Cultured HeLa cells were arrested in metaphase using nocodazole, immunostained for Bub1, INCENP, or CREST and Myc, and counter stained with DAPI. The montage illustrates the effect of RNAi depletion of INCENP. Images shown are maximum Z projections of convolved widefield images."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                {"free_text": "cervical carcinoma"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Qi et al. 2006 Mol Biol Cell 17:3705-3716"],
+                "Contributors": [
+                    "Wii Qi",
+                    "Zhanyun Tang",
+                    "Hongtao Yu"
+                ],
+                "PUBMED": ["16760428"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

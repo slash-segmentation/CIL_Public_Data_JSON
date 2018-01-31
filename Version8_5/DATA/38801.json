@@ -1,0 +1,92 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "38801.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "38801.jpg",
+                "Size": 172871
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "38801.zip",
+                "Size": 206123
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "38801_orig.jpg",
+                "Size": 205985
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "CELLULARCOMPONENT": {"free_text": "crochets"},
+            "BIOLOGICALPROCESS": {
+                "onto_name": "locomotory behavior",
+                "onto_id": "GO:0007626"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Lepidoptera",
+                "onto_id": "NCBITaxon:7088"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007742  2011 Wellcome Image Award winner Light microscopy May 2010 Collection: Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 792
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "CELLTYPE": {"free_text": "proleg"},
+            "IMAGEDESCRIPTION": {"free_text": "Photomicrograph of the base of a silkworm caterpillar's proleg. Prolegs are short, stubby auxiliary structures found on the underside of the abdomen of most larval forms of insects of the order Lepidoptera (that include most moths and butterflies). Each proleg has a circle of hooks (or crochets), seen here in yellow and orange. The hooks assist in grip and locomotion, enabling caterpillars to climb up vertical surfaces. Caterpillars can have up to five pairs of prolegs. Prolegs can also help caterpillars crawl through narrow spaces or push through soil. Caterpillars have three pairs of true, jointed legs that remain in their adult moth form, whereas the prolegs disappear. The brilliant colours seen in this image were created using a technique called differential interference contrast (DIC) illumination."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Spike Walker"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

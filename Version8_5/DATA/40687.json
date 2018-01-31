@@ -1,0 +1,121 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40687.tif",
+                "Size": 42300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40687.jpg",
+                "Size": 6772487
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40687.zip",
+                "Size": 42220638
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                {
+                    "onto_name": "critical_point dried specimen",
+                    "onto_id": "FBbi:00000581"
+                }
+            ],
+            "GROUP_ID": "11983",
+            "IMAGINGMODE": {"onto_id": "FBbi:00000622"},
+            "CELLULARCOMPONENT": {
+                "onto_name": "nuclear chromosome",
+                "onto_id": "GO:0000228"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "chromosome organization",
+                    "onto_id": "GO:0051276"
+                },
+                {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                {
+                    "onto_name": "mitotic metaphase",
+                    "onto_id": "GO:0000089"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "CELLLINE": {"free_text": "A9"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Cells in metaphase were exposed to 75 mM KCl, spread on water, picked up on grids, stained with uranyl acetate and critical point dried.\nSee also:\nH. Ris 1981 Stereoscopic electron microscopy of chromosomes. Meth Cell Biol 22:77-96\nH. Ris 1978 Preparation of chromatin and chromosomes for electron microscopy. Meth Cell Biol 18:220-246."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4025,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.5
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 5244,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.5
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "High voltage (1MeV) transmission electron microscopy image of an isolated metaphase chromatid pair from a mouse A9 fibroblast, showing the fiber-like structure."},
+            "CELLTYPE": {
+                "onto_name": "fibroblast",
+                "onto_id": "CL:0000057"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "DATE": ["04/22/1978"],
+                "Contributors": ["Hans Ris"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

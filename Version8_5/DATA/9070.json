@@ -1,0 +1,134 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "9070.tif",
+                "Size": 16900000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "9070.zip",
+                "Size": 18378416
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "9070.jpg",
+                "Size": 75279
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "3974",
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {"free_text": "phosphatidylserine synthase 1"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "mitochondrion organization",
+                "onto_id": "GO:0007005"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": [
+                {"free_text": "NRK"},
+                {
+                    "onto_name": "Kidney",
+                    "onto_id": "FMA:7203"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus",
+                "onto_id": "NCBITaxon:10114"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.07
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.07
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "488, 543"
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "value": 5.9
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "mRFP1",
+                    "onto_id": "FBbi:00000527"
+                },
+                {
+                    "onto_name": "ECFP",
+                    "onto_id": "FBbi:00000081"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                {"free_text": "color combine"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "NRK cells expressing a mitochondria marker, mito-RFP (red), and PSS1-CFP (green), phosphatidylserine synthase 1.  A single 6 micron confocal slice was imaged on a  Zeiss LSM 510 every 5.9 sec with the follow parameters:  Green: Ex: 458 nm laser, Em: Long Pass 475nm, Red: 543 nm laser, Em: Long pass 560 nm)."},
+            "CELLTYPE": {
+                "onto_name": "fibroblast",
+                "onto_id": "CL:0000057"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {"Contributors": ["Kasturi Mitra"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": true,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,151 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36617.tif",
+                "Size": 6000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36617.jpg",
+                "Size": 2125762
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36617.zip",
+                "Size": 12166706
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "freeze_fracture/freeze_etch",
+                "onto_id": "FBbi:00000419"
+            },
+            "GROUP_ID": "10420",
+            "IMAGINGMODE": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell cortex",
+                "onto_id": "GO:0005938"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cortical cytoskeleton organization",
+                "onto_id": "GO:0030865"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "RELATIONTOINTACTCELL": [
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                {
+                    "onto_name": "isolated subcellular component",
+                    "onto_id": "FBbi:00000579"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium multimicronucleatum",
+                "onto_id": "NCBITaxon:44030"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                {
+                    "onto_name": "elevation",
+                    "onto_id": "FBbi:00000320"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2160
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2760
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print of negative scanned for Photoshop"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Quick-freeze deep-etch of granulo-fibrillar material at the crests of the ridges. This material is composed of thinner and shorter filaments that, like the striated bands, appear to bind to the membrane. The fracture plane also exposed the cell\u2019s exterior. TEM taken on 6/4/91 by C. Schroeder with Zeiss 10A operating at 80kV. Neg. 19,800X. Bar = 0.25µm. There is a high resolution version of this image in the library (CIL:39321) which is available for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "ATTRIBUTION": {"Contributors": [
+                "Richard Allen (University of Hawaii)",
+                "C. Schroeder"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

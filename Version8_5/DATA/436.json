@@ -1,0 +1,141 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "436.jpg",
+                "Size": 3392515
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "436.tif",
+                "Size": 14100000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "436.zip",
+                "Size": 14244004
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "unfixed tissue",
+                    "onto_id": "FBbi:00000014"
+                },
+                {
+                    "onto_name": "cryofixed tissue",
+                    "onto_id": "FBbi:00000013"
+                }
+            ],
+            "GROUP_ID": "11232",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "male germ cell nucleus",
+                    "onto_id": "GO:0001673"
+                },
+                {
+                    "onto_name": "chromatin",
+                    "onto_id": "GO:0000785"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "reproduction",
+                    "onto_id": "GO:0000003"
+                },
+                {
+                    "onto_name": "nucleus organization",
+                    "onto_id": "GO:0006997"
+                },
+                {
+                    "onto_name": "chromatin organization",
+                    "onto_id": "GO:0006325"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "intrinsic mass distribution",
+                    "onto_id": "FBbi:00000607"
+                },
+                {
+                    "onto_name": "defocus phase contrast",
+                    "onto_id": "FBbi:00000325"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Patiria miniata",
+                "onto_id": "NCBITaxon:46514"
+            },
+            "TECHNICALDETAILS": {"free_text": "Whole sperm from the starfish P. miniata were cryo-fixed by plunging into liquid ethane, thin cryosections prepared, and examined in the frozen hydrated state using a Philips CM12 TEM operated at 80KV. Low dose images were recorded on SO-163 film.\nSee also: Woodcock CL 1994 Chromatin fibers observed in situ in frozen hydrated sections. Native fiber diameter is not correlated with nucleosome repeat length. J Cell Biol 125:11-9."},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3195,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.71
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2196,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.71
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "sperm",
+                "onto_id": "CL:0000019"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of unstained cryo-section of a sperm cell of the starfish Patiria miniata.  Echinoderm sperm nuclei are unusual in that chromatin fibers are clearly seen, allowing their diameter to be accurately determined.\n  Cryosections of frozen material are typically of low contrast and show defects such as knife marks and compression. In this image, the nucleus at upper right has partly torn away from the rest of the cell. Despite these defects, individual chromatin fibers are clearly visible."},
+            "ATTRIBUTION": {"Contributors": ["Chris Woodcock"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

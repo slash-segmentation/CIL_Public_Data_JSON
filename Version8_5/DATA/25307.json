@@ -1,0 +1,114 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25307.jpg",
+                "Size": 23615
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25307.zip",
+                "Size": 7667840
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "25307.flv",
+                "Size": 274721
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "spindle",
+                "onto_id": "GO:0005819"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "mitosis",
+                "onto_id": "GO:0007067"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "CELLLINE": {"free_text": "S2"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 400,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.065
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 400,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.065
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "44",
+                    "value": 60.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "Green fluorescent proteins from Aequorea",
+                "onto_id": "FBbi:00000437"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Movie showing kinetochore alignment during mitosis in Drosophila S2 cells expressing GFP-Ndc80 to label kinetochores. One pair of chromatids becomes detached from the spindle, and anaphase is delayed until the pair is recaptured. \nImages were recorded at 60 sec intervals using a spinning disc confocal microscope on a Nikon TE-200 stand with a 100x 1.4 NA Plan APO DIC objective lens and recorded with a Hamamatsu Orca-ER CCD. See Maresca and Salmon, 2009 J Cell Biol 184:373-281."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Maresca and Salmon, 2009 J Cell Biol 184:373-281"],
+                "Contributors": [
+                    "Thomas Maresca",
+                    "Edward Salmon"
+                ],
+                "PUBMED": ["19193623"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

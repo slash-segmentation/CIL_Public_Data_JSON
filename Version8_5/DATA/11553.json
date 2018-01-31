@@ -1,0 +1,173 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11553.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11553.zip",
+                "Size": 1416450
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11553.jpg",
+                "Size": 363192
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "9577",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "centriole",
+                    "onto_id": "GO:0005814"
+                },
+                {"free_text": "intercellular space"},
+                {
+                    "onto_name": "microvillus",
+                    "onto_id": "GO:0005902"
+                },
+                {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cytoplasm organization",
+                    "onto_id": "GO:0007028"
+                },
+                {
+                    "onto_name": "intercellular bridge organization",
+                    "onto_id": "GO:0043063"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Gallus gallus",
+                "onto_id": "NCBITaxon:9031"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 928
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1292
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Figure 301 from Chapter 12 (Centrioles) of 'The Cell' by Don W. Fawcett M.D. Centrioles are usually positioned so that their long axes form a right angle. Their perpendicular orientation is maintained even though they may be half a micrometer or more apart and have no visible structural elements connecting them. The nature of the long-range forces or organization of the centrosomal cytoplasm that are responsible for this relationship are unknown. Departures from the usual orthogonal arrangement are occasionally encountered in normal cells and are reported to be common in malignant tumors. A copy of the chapter is available on the ASCB's BioEDUCATE website."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                {"free_text": "embryonic intestinal epithelial"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"}],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": [
+                    "Don W. Fawcett",
+                    "Sergei Sorokin"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

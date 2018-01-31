@@ -1,0 +1,102 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40968.jpg",
+                "Size": 106406
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40968.tif",
+                "Size": 3200000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "unfixed tissue",
+                "onto_id": "FBbi:00000014"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "plasma membrane",
+                    "onto_id": "GO:0005886"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                }
+            ],
+            "HUMAN_DEV_ANATOMY": [{
+                "onto_name": "bladder",
+                "onto_id": "EHDAA:9328"
+            }],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "nucleus localization",
+                "onto_id": "GO:0051647"
+            },
+            "RELATIONTOINTACTCELL": {"free_text": "isolated from human urine sample"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1022
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "acridine orange",
+                    "onto_id": "FBbi:00000051"
+                },
+                {"free_text": "CellMask Deep Red (Invitrogen)"}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Fluorescent micrograph of epithelial cells from the bladder wall.  The cells were isolated immediately after collection of a urine specimen and are not fixed.  The image was taken using a standard epi-fluorescent microscope."},
+            "ATTRIBUTION": {"Contributors": ["Arjan Tibbe"]},
+            "SPECIESTAXASPECIFIC": {"onto_id": "EHDAA:EHDAA:9328"},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

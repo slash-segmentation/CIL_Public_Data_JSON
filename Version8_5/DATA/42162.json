@@ -1,0 +1,95 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "42162.zip",
+                "Size": 12861568
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "42162.jpg",
+                "Size": 99482
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "42162.flv",
+                "Size": 2557681
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "13001",
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "BIOLOGICALPROCESS": [
+                {"free_text": "dissemination"},
+                {"free_text": "collective invasion"}
+            ],
+            "RELATIONTOINTACTCELL": {"free_text": "multi-cellular tumor fragment"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 720
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 480
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {"free_text": "contrast adjustment"},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Time-lapse movie of a human tumor fragment grown in Matrigel that was freed and reembedded in Matrigel.   Images collected every 15 minutes and bar is 50 microns.  CIL 42162 (this movie) - CIL 42165 are related movies that show human tumor growth fragments grown in different matrices, freed, and then reembedded.   This movie is part of a group of movies that include CIL 42151-42168."},
+            "ATTRIBUTION": {
+                "OTHER": ["Andrew Ewald"],
+                "PUBLISHED": ["PNAS 2012 ; published ahead of print August 23, 2012"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

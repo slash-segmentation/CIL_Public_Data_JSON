@@ -1,0 +1,119 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "18451.jpg",
+                "Size": 2426376
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "18451.tif",
+                "Size": 16500000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "18451.zip",
+                "Size": 16437370
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                }
+            ],
+            "GROUP_ID": "9319",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "myofibril",
+                    "onto_id": "GO:0030016"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "sarcoplasmic reticulum",
+                    "onto_id": "GO:0016529"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "skeletal muscle contraction",
+                    "onto_id": "GO:0003009"
+                },
+                {
+                    "onto_name": "sequestering of calcium ion",
+                    "onto_id": "GO:0051208"
+                },
+                {
+                    "onto_name": "mitochondrial proton-transporting ATP synthase complex assembly",
+                    "onto_id": "GO:0033615"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "unembedded tissue",
+                "onto_id": "FBbi:00000023"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "damselfly"},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2500
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3280
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "PROCESSINGHISTORY": {"free_text": "digitized negative film"},
+            "CELLTYPE": {
+                "onto_name": "flight muscle cell",
+                "onto_id": "CL:0000196"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Most images show fractures through the outer membrane of mitochondria and SR/T tubules of dyads nestled in long grooves of the mitochondrial surface.  All leaflets of the membranes appear in the images.  This image is part of the group image CFA00512.  TEM magnifications is not available for this image.  The negative film was scanned at LBL then reduced in size for upload.  Scan step size is 6.3 micron, then reduced in size 4X for upload, for an effective pixel size of 25 micron. Technical details: Heads and tail removed, thorax bisected and immersed in 3% glutaraldehyde buffered in 0.1 M cacodylate buffer. pH 7.2. stored at 4C for several days.  Muscle dissected out. Infiltrated in 30% glycerol in water.  Frozen in liquid nitrogen cooled Freon, fractured in Balzers 400 Freeze-fracture, shadowed with platinum at 45o angle.  Replicas were cleaned with Clorox (to remove tissue and with either sulfuric acid or NaOH to try removing the tracheolae.  Replicas examined in a Philips 410 Microscope.  Reference for these images: \nTakekura, H. and Franzini-Armstrong C. The structure of Ca2+ release units in arthropod body muscle indicates an indirect mechanism for excitation-contraction coupling. Biophys. J. 83, 83, 2742-2753, 2002."},
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {"Contributors": ["Clara Franzini-Armstrong"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,142 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "12297.jpg",
+                "Size": 18909
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "12297.zip",
+                "Size": 17936512
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "12297.flv",
+                "Size": 429370
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "3420",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                {"free_text": "fluorescent speckle microscopy"}
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {
+                    "onto_name": "microtubule cytoskeleton",
+                    "onto_id": "GO:0015630"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "actin filament polymerization",
+                    "onto_id": "GO:0030041"
+                },
+                {
+                    "onto_name": "microtubule cytoskeleton organization",
+                    "onto_id": "GO:0000226"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Taricha granulosa",
+                "onto_id": "NCBITaxon:8321"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 130,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.077
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 285,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.077
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "15 min 10sec",
+                    "value": 10.0
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "488, 568"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "X-Rhodamine",
+                    "onto_id": "FBbi:00000584"
+                },
+                {
+                    "onto_name": "Cy2",
+                    "onto_id": "FBbi:00000448"
+                }
+            ],
+            "PROCESSINGHISTORY": {"free_text": "background subtraction, 3X3 low pass filter, unsharp mask"},
+            "IMAGEDESCRIPTION": {"free_text": "The retrograde flow of microtubules oriented perpendicular to the leading edge in the lamellipodium is coupled to the movement of immediately adjacent lamellum f-actin speckles.  Primary cultures of newt (Taricha granulosa) lung epithelial cells weremicroinjected with X-rhodamine actin and Cy2 tubulin in coinjection.  \nDual-wavelength time-lapse FSM was performed on a spinning disk confocal microscope system. Light from a 50-mW Krypton-Argon ion laser (Melles Griot, OmniChrome) was delivered by a single-mode fiber optic (Point Source) to a Yokogawa spinning disk confocal scan-head (Ultra-View; PerkinElmer) on an inverted microscope (TE300 Quantum; Nikon). Excitation wavelength was selected by a filter-wheel apparatus (Sutter Instruments Co.) containing excitation filters for 488 and 568 nm (Chroma) and an opaque disk used as an excitation shutter. Emission was selected by multiple bandpass dichromatic mirror and emission filter (Chroma). Images were collected by a 100x 1.4NA Plan-Apo DIC objective lens (Nikon) and captured with an Orca 2 camera (Hamamatsu). Microscope functions were controlled by MetaMorph software (Universal Imaging). One set of sequential images of the specimen using 488 nm light for Cy2 tubulin and 568 nm light for X-rhodamine f-actin was collected in the ventral focal plane at 10s intervals for 30\u201360 min. Images were processed as follows: (1) background subtraction; (2) 3 x3 low pass filter; (3) unsharp mask filter; (4) color coding MT images green and f-actin images red; and (5) color combining into 24-bit RGB images. Video corresponds to Fig 3A and video 4 in  J Cell Biol, 158:31-37, 2002"},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell of lung",
+                "onto_id": "CL:0000082"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol, 158:31-37, 2002"],
+                "Contributors": [
+                    "Wendy C. Salmon",
+                    "Michael C. Adams",
+                    "Clare M. Waterman-Storer"
+                ],
+                "PUBMED": ["12105180"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

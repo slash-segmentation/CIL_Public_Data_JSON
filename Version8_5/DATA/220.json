@@ -1,0 +1,96 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "220.tif",
+                "Size": 1100000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "220.zip",
+                "Size": 110587
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "220_orig.jpg",
+                "Size": 110457
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "220.jpg",
+                "Size": 103158
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "See: J. Hu et al.(2009) Allele-specific silencing of mutant huntintin and ataxin-3 genes by targeting expanded CAG repeats in mRNAs. Nat Biotechnol 27:478-484."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 688
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "neuron",
+                "onto_id": "CL:0000540"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Molecules designed to block the expanded CAG repeats characteristic of Huntington's disease  fluoresce blue in these cultured cells and  prevent the expression of the mutant proteins that cause the disease."},
+            "PATHOLOGICALPROCESS": {"onto_id": "DOID:DOID:12858"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "NIGMS Biomedical Beat",
+                    "Href": "http://publications.nigms.nih.gov/biobeat/09-06-18/09-06-18-2.jpg"
+                }],
+                "Contributors": [
+                    "Jiaxin Hu",
+                    "David Dodd",
+                    "Robert Hudson"
+                ]
+            },
+            "HUMAN_DISEASE": [{
+                "onto_name": "Huntington's disease",
+                "onto_id": "DOID:12858"
+            }],
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

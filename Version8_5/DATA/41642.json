@@ -1,0 +1,97 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41642.zip",
+                "Size": 9752590
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41642.tif",
+                "Size": 9800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41642.jpg",
+                "Size": 1524029
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Tilia",
+                "onto_id": "NCBITaxon:64580"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1800
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Fluorescent micrograph of a Tilia tree taken at 10X. Honorable Mention, 2011 Olympus BioScapes Digital \nImaging Competition®."},
+            "PLANT_GROWTH": [
+                {"free_text": "pith"},
+                {"free_text": "epidermis"},
+                {"free_text": "phloem"},
+                {"free_text": "endodermis"},
+                {"free_text": "xylem"},
+                {"free_text": "cambium"}
+            ],
+            "ATTRIBUTION": {
+                "OTHER": ["Fountain Hills, Arizona, USA"],
+                "URLs": [{
+                    "Label": "2011 Olympus BioScapes Digital  Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm45.html"
+                }],
+                "Contributors": [
+                    "Nathan Pallace",
+                    "2011 Olympus BioScapes Digital  Imaging Competition®"
+                ]
+            },
+            "BIOLOGICALPROCESS": {"free_text": "plant stem organization"},
+            "SPECIESTAXASPECIFIC": [
+                {"onto_id": "PO:pith"},
+                {"onto_id": "PO:epidermis"},
+                {"onto_id": "PO:phloem"},
+                {"onto_id": "PO:endodermis"},
+                {"onto_id": "PO:xylem"},
+                {"onto_id": "PO:cambium"}
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

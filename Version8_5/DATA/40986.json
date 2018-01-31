@@ -1,0 +1,111 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "40986.flv",
+                "Size": 6897951
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40986.jpg",
+                "Size": 100653
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40986.zip",
+                "Size": 316326016
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "phase contrast microscopy",
+                "onto_id": "FBbi:00000247"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "contractile vacuole",
+                    "onto_id": "GO:0000331"
+                },
+                {
+                    "onto_name": "cell wall",
+                    "onto_id": "GO:0005618"
+                },
+                {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                }
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "regulation of water pressure"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in amount of elastic light scattering",
+                "onto_id": "FBbi:00000600"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium",
+                "onto_id": "NCBITaxon:5884"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of photons",
+                "onto_id": "FBbi:00000587"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 720
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 480
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Phase contrast movie demonstrating how paramecia contractile vacuoles regulate water pressure within the protozoan's body. Water enters through the cell wall by osmosis and then passes through the cytoplasm to the vacuole's canals. When filled, the vacuole expels the water from the cell's body.  This movie won Fourth Prize, 2011 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["Carrollton, TX"],
+                "URLs": [{
+                    "Label": "2011 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/4.html"
+                }],
+                "Contributors": [
+                    "Edwin Lee",
+                    "2011 Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

@@ -1,0 +1,137 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39977.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39977.jpg",
+                "Size": 38438
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "11391",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "thylakoid",
+                    "onto_id": "GO:0009579"
+                },
+                {
+                    "onto_name": "chloroplast",
+                    "onto_id": "GO:0009507"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "photosynthetic electron transport chain",
+                    "onto_id": "GO:0009767"
+                },
+                {
+                    "onto_name": "thylakoid membrane organization",
+                    "onto_id": "GO:0010027"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Phaeocystis antarctica",
+                "onto_id": "NCBITaxon:33657"
+            },
+            "TECHNICALDETAILS": {"free_text": "Culture conditions.  Cultures of colonial P. antarctica (CCMP 1374) were grown semi-continuously for 5-8 generations in f/2 medium (Guillard and Ryther 1962) under continuous blue light at 4°C at irradiances of 14 and 259 µmol quanta m-2 s-1.\n\nSpecific growth rate.  Specific growth rate was estimated by a linear regression of loge transformed daily determinations of in vivo fluorescence intensity (n=2) measured with a Turner Model 10 fluorometer.  \n\nSample preparation for electron microscopy.  P. antarctica colonies were fixed on ice with a 2% glutaraldehyde and 1.3% osmium tetroxide solution for 30 minutes and rinsed in distilled water.  Cells were dehydrated through a series of ethanol: water washes (25:75, 50:50, 75:25, 95:5), three 100% ethanol washes and finally through three washes of 100% acetone.  Cells were pelleted and fixed in an Epon resin.  The fixation process lends itself to a breakup of the colonial matrix and we were able to examine P. antarctica individual colonial cells using electron tomography.  Embedded samples were cut on a Reichert-Jung Ultracut E microtome, transferred to 50/50 mesh copper clam grids, and stained with uranyl acetate and lead citrate.  After staining, 20 nm colloidal gold particles (Sigma-Aldrich Chemicals, St. Louis, MO) were added to both sides of the grid to serve as fiducial markers for aligning tilted images.  Individual colonial cells were observed at low magnification at 80kV on a JEOL 100CX to determine specimen quality and to select suitable samples. \n\nIntermediate voltage electron microscopy.  Sections of 0.25 (high light condition) and 0.75 µm (low light condition) in thickness were cut, post-stained with uranyl acetate and lead citrate and examined at 400 kV on a JEOL 4000 intermediate voltage electron microscope.  Tilt series consisting of 61 images (-60° to 60° at 2° tilt increments) were collected at either 12-15,000 magnification (low light condition) or 20-30,000 magnification (high light condition).  Images were collected on film (Kodak 4489 electron image film) or on a Slow-Scan Cooled CCD camera (Fan et al. 2000).  Sections were pre-irradiated before each tilt series in order to limit anisotropic specimen thinning during specimen examination (Luther 1992).  The illumination was held constant using parallel electron beam conditions and the image was maximized for each exposure.  A computer-controlled goniometer was used to accurately tilt the specimen.  For tilt series acquired on film, digitization was accomplished using a Photometrics 1024 x 1024 Cooled CCD camera containing a 19-µm2 pixel with sampling sizes of ~50-85 µm pixel-1.\n\nSingle-axis tilt series tomographic reconstruction methodology.  Tilted images were aligned with each other by use of a set of common fiducial marks consisting of 20 nm colloidal gold beads.  Reconstruction methods follow that those of Perkins et al. (1997).  The common fiducial marks on each image of the tilt series were aligned using the program XFIDO.  Alignment of the tilt series was initially calculated using a least-squares algorithm through the z-direction of the tilt series using the program SAXALIGN.  After initial alignment, volumes were computed using either a standard r-weighted simple back projection algorithm or a Globus enabled parallelized version of this algorithm that considerably speeded up these computations (Smallen et al. 2000).\nThe 3D reconstruction is viewed and analyzed with ANALYZE AVW (Biomedical Imaging Resource, Mayo Clinic, http://www.mayo.edu/bir/Software/Analyze/Analyze.html).  Individual thylakoids, pyrenoids, and chloroplast membranes were traced on the electron tomographic reconstruction using the program XVOXTRACE.  The resolution of the organelles was estimated to be ~10 nm (based on detectability of features and pixel sampling criteria).  All computations and graphics were performed on either Silicon Graphics or Sun workstations."},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "cationic colloidal gold",
+                    "onto_id": "FBbi:00000053"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single computed slice through a tomographic reconstruction of a blue green algae (phaeocystis antarctica) showing the thylakoid membranes and other internal structures.  Dark speckles represent locations of colloidal gold that was placed on the surface to aid in tilt series alignment. This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information, see: Moisan, T., Ellisman, M. H., Buitenhuys, C.W., Sosinsky, G. E., (2006) Differences in Chloroplast Ultrastructure of Phaeocystis antarctica in High and Low Light Conditions, Marine Biology, 149 (6) 1281-1290."},
+            "CELLTYPE": {"free_text": "algae"},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 3409",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3409"
+                }],
+                "Contributors": [
+                    "Tiffany Moisan",
+                    "Gina Sosinsky",
+                    "Casey Buitenhuys",
+                    "Mark Ellisman"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {"onto_id": "FBbi:00000623"}
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

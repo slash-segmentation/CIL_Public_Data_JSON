@@ -1,0 +1,77 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "27872.tif",
+                "Size": 5500000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "27872.zip",
+                "Size": 5415551
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "27872.jpg",
+                "Size": 151495
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "first image computer simulation"},
+            "GROUP_ID": "7821",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell",
+                "onto_id": "GO:0005623"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 950
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 950
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "second image segmentation of simulated image"},
+            "IMAGEDESCRIPTION": {"free_text": "One of the principal challenges in counting or segmenting nuclei is dealing with clustered nuclei. To help assess algorithms' performance in this regard, this synthetic image set consists of five subsets with increasing degree of clustering.  Five subsets of 20 images each are provided.  Each image contains 300 objects, but the objects overlap and cluster with overlap probability ranging from 0.0 to 0.6, and can be found with CIL 27833, 27853, 28754, 28734, and 28714, respectively. This image set has 0.15 probability overlap.  The images were generated with the SIMCEP (http://www.cs.tut.fi/sgn/csb/simcep/tool.html) simulating platform for fluorescent cell population images (Lehmussola et al., IEEE T. Med. Imaging, 2007 and Lehmussola et al., P. IEEE, 2008).  Ground truth for foreground/background segmentation are available as binary images as the second image in the tiff image stack.  \nRecommended citation  \"We used the Synthetic 1 image set (Ruusuvuori et al., in Proc. of the 16th European Signal Processing Conference (EUSIPCO-2008), 2008), available from the Broad Bioimage Benchmark Collection (www.broad.mit.edu/bbbc).\""},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.broadinstitute.org/bbbc/synthetic_1.html"}],
+                "Contributors": ["Pekka Ruusuvuori"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "ITEMTYPE": [
+                {
+                    "onto_name": "portrayed image",
+                    "onto_id": "FBbi:00000266"
+                },
+                {
+                    "onto_name": "computational methods",
+                    "onto_id": "FBbi:00000323"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

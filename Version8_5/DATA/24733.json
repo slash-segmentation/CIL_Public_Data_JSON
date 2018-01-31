@@ -1,0 +1,144 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "24733.tif",
+                "Size": 600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "24733.jpg",
+                "Size": 139776
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "24733.zip",
+                "Size": 564114
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "tissue in plastic embedment",
+                    "onto_id": "FBbi:00000016"
+                }
+            ],
+            "GROUP_ID": "11204",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleolus",
+                    "onto_id": "GO:0005730"
+                },
+                {
+                    "onto_name": "chromatin",
+                    "onto_id": "GO:0000785"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "ribosome biogenesis",
+                    "onto_id": "GO:0042254"
+                },
+                {
+                    "onto_name": "nucleus organization",
+                    "onto_id": "GO:0006997"
+                },
+                {
+                    "onto_name": "RNA metabolic process",
+                    "onto_id": "GO:0016070"
+                },
+                {
+                    "onto_name": "nucleolus organization",
+                    "onto_id": "GO:0007000"
+                },
+                {
+                    "onto_name": "chromatin organization",
+                    "onto_id": "GO:0006325"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "inelastic scattering",
+                "onto_id": "FBbi:00000309"
+            },
+            "CELLLINE": {"free_text": "SK-N-SH"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Net phosphorus distribution computed from images taken with energy losses of 155 eV and 155 eV bracketing the phosphorus 'edge', and corresponding nitrogen distribution  computed from images taken at 385 eV and 415 eV. See Fig 7D in Politz et al., 2005 Mol Biol Cell 16:3401-3410."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 435
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 432
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {"free_text": "Electron energy loss"},
+            "PROCESSINGHISTORY": [
+                {"free_text": "multipanel montage"},
+                {"free_text": "false color"},
+                {"free_text": "computed image"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Thin section showing nucleolus of a Human neuroblastoma SK-N-SH cell imaged with a FEI Tecnai 20 energy filtered electron microscope at 200 KV and a 20 eV energy window. Overlay of net phosphorus distribution (yellow) and nitrogen minus phosphorus (blue). PML, PML body; FC, fibrillar component of nucleolus; DFC, dense fibrillar component of nucleolus; GC, granular component of nucleolus."},
+            "CELLTYPE": {"free_text": "neuroblastoma"},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "OTHER": [
+                    "Ilvin Polena",
+                    "Ian Trask",
+                    "David Bazett-Jones",
+                    "Thoru Pederson"
+                ],
+                "URLs": [{
+                    "Label": "Molecular Biology of the Cell",
+                    "Href": "http://www.molbiolcell.org/content/16/7/3401.long"
+                }],
+                "PUBLISHED": ["Politz et al., 2005 Mol Biol Cell 16:3401-3410"],
+                "Contributors": ["Joan Politz"],
+                "PUBMED": ["15857956"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

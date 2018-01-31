@@ -1,0 +1,102 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40580.zip",
+                "Size": 82590
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40580.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40580.jpg",
+                "Size": 117703
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "40580_orig.jpg",
+                "Size": 82452
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "unfixed tissue",
+                "onto_id": "FBbi:00000014"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {"free_text": "stomata"},
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "respiratory gaseous exchange",
+                    "onto_id": "GO:0007585"
+                },
+                {
+                    "onto_name": "regulation of water loss via skin",
+                    "onto_id": "GO:0033561"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Lamiaceae",
+                "onto_id": "NCBITaxon:4136"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected on an FEI instrument: Quanta Family using Magnification: 800x, Horizontal Field Width: 320um, Vacuum: 79Pa, Voltage: 2.0 kV, Detector: LFD, Spot: 3.5 nA, and Working Distance: 6.1mm."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 670
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 617
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "colorized"},
+            "CELLTYPE": {
+                "onto_name": "epidermal cell",
+                "onto_id": "CL:0000362"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Colorized Scanning electron micrograph of an unfixed mint leaf showing stomata pores."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "FEI Life Science Images",
+                    "Href": "http://www.fei.com/resources/image-gallery/Stomata-2420.aspx"
+                }],
+                "Contributors": ["David McCarthy"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

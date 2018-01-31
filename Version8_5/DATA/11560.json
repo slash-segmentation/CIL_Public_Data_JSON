@@ -1,0 +1,169 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11560.jpg",
+                "Size": 439025
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11560.zip",
+                "Size": 1244062
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11560.tif",
+                "Size": 1200000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "9577",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "centriole",
+                    "onto_id": "GO:0005814"
+                },
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {"free_text": "centriole organization"},
+                {
+                    "onto_name": "cytoplasmic microtubule organization",
+                    "onto_id": "GO:0031122"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "unknown eukaryote"},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 887
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1272
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Figs. 305 & 306 from Don Fawcett's Chapter 12: Centrioles show a cross section though centrioles. The radially symmetrical periodic structures were intensified by rotating and averaging the images. The cross section of a centriole at the upper left has been intensified by summation of fractional exposures through nine steps of rotation to produce the image at the upper right. This accentuates the hub-and-spokes pattern of densities in the interior of the centriole.  The cross section of a centriole stained with tannic acid in the lower figure shows the protofilaments of the triplets in negative image. Like other microtubules, the wall of subunit, which is the innermost ring of the triplets, a has 13 tubulin protofilaments, while the outer two rings each have 10. Although the dimensions of the hub are similar to those of a microtubule, no protofilaments are detectable in its wall.  Please see CID 11558 for further description."},
+            "CELLTYPE": {
+                "onto_name": "eukaryotic cell",
+                "onto_id": "CL:0000255"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [
+                    {
+                        "Label": "Fawcett <i>The Cell<\/i>",
+                        "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                    },
+                    {
+                        "Label": "Chapter 12 PDF",
+                        "Href": "http://www.ascb.org/bioeducate/images/FawcettTheCellPDFs/FawcettTheCellChapter12.pdf"
+                    }
+                ],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": [
+                    "Don W. Fawcett",
+                    "Etienne de Harven",
+                    "Vitauts Kalnins"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

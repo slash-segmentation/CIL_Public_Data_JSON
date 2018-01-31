@@ -1,0 +1,192 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "9699.zip",
+                "Size": 14520734
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "9699.tif",
+                "Size": 7300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "9699.jpg",
+                "Size": 1442654
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "3272",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "contractile vacuole",
+                    "onto_id": "GO:0000331"
+                },
+                {
+                    "onto_name": "smooth endoplasmic reticulum membrane",
+                    "onto_id": "GO:0030868"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "mitochondrial outer membrane",
+                    "onto_id": "GO:0005741"
+                },
+                {
+                    "onto_name": "mitochondrial inner membrane",
+                    "onto_id": "GO:0005743"
+                },
+                {"free_text": "tubular cristae"},
+                {"free_text": "cortical membranes"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cellular water homeostasis",
+                    "onto_id": "GO:0009992"
+                },
+                {
+                    "onto_name": "long-chain fatty acid metabolic process",
+                    "onto_id": "GO:0001676"
+                },
+                {
+                    "onto_name": "oxidative phosphorylation",
+                    "onto_id": "GO:0006119"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "CELLLINE": {"free_text": "Cambridge Culture Collection, Cambridge, England, catalog # LB1656/1"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Coleps hirtus",
+                "onto_id": "NCBITaxon:60000"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "water transmembrane transporter activity",
+                    "onto_id": "GO:0005372"
+                },
+                {
+                    "onto_name": "water channel activity",
+                    "onto_id": "GO:0015250"
+                },
+                {"free_text": "mitochondrial structure"}
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2410
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "The contractile vacuole of Coleps hirtus. The filled CV is continuous with tubules of the smooth spongiome. The tubular nature of mitochondrial cristae is particularly evident in this micrograph. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. TEM taken on 3/2/69 by R. Allen with Philips 300. Neg. 16,000X. Bar = 0.5µm. A print of the negative was scanned and processed in Photoshop. This image is best used for qualitative analysis. A high resolution image (CIL:9252) is available for quantitative analysis.\n\nAdditional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements"},
+            "ATTRIBUTION": {"Contributors": ["Richard Allen"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

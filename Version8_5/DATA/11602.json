@@ -1,0 +1,163 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11602.tif",
+                "Size": 900000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11602.jpg",
+                "Size": 347832
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11602.zip",
+                "Size": 1002670
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "9577",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "centriole",
+                    "onto_id": "GO:0005814"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "spermatid development",
+                "onto_id": "GO:0007286"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Cricetulus griseus",
+                "onto_id": "NCBITaxon:10029"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 910
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 930
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Figs. 315 from Don Fawcett's Chapter 12 (Centrioles). The dense material that forms the capitulum and the cross-striated columns of the connecting piece in spermatozoa is formed in intimate association with the proximal and distal centrioles, respectively. These versatile organelles are believed to play a dominant role in the organization of these components of the spermatozoon. The cross-striated columns of the connecting piece are probably homologous to the cross-striated rootlets that often extend downward from the basal bodies into the cytoplasm of ciliated epithelial cells.\nTraditionally the basal bodies were regarded as kinetic centers responsible for initiating the beat of cilia and flagella. This interpretation is no longer tenable. It has been shown that sperm tail movements continue after laser microbeam destruction of the centriolar region. Moreover, electron microscopic studies of spermatogenesis have shown that the distal centriole which initiates development of the flagellum later disintegrates and is no longer present in the mature spermatozoon. The juxtanuclear centriole usually persists, occupying a niche just beneath the capitulum that attaches the tail to the sperm head. In some species, however, this centriole also disintegrates during sperm maturation. Thus centrioles are essential for development of cilia and flagella but are not required to initiate and maintain their beat. Observe in the accompanying micrograph that no distal centriole can be identified at the base of the axoneme. A copy of the chapter is available on the ASCB's BioEDUCATE website."},
+            "CELLTYPE": {
+                "onto_name": "sperm",
+                "onto_id": "CL:0000019"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"}],
+                "PUBLISHED": [
+                    "ISBN 0721635849",
+                    "Anat. Rec. 165:153-184, 1969"
+                ],
+                "Contributors": [
+                    "Don W. Fawcett",
+                    "D. M. Phillips"
+                ],
+                "PUBMED": ["5387815"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

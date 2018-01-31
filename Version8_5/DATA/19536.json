@@ -1,0 +1,165 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "19536.tif",
+                "Size": 64300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "19536.jpg",
+                "Size": 3254179
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "19536.zip",
+                "Size": 64235942
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                {"free_text": "Parducz fixative"},
+                {
+                    "onto_name": "lyophilized specimen",
+                    "onto_id": "FBbi:00000583"
+                },
+                {"free_text": "Au/Pd metal sputter-coat"}
+            ],
+            "GROUP_ID": "11091",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "oral apparatus",
+                    "onto_id": "GO:0031912"
+                },
+                {
+                    "onto_name": "cell cortex",
+                    "onto_id": "GO:0005938"
+                },
+                {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                {
+                    "onto_name": "motile cilium",
+                    "onto_id": "GO:0031514"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "oral apparatus organization",
+                    "onto_id": "GO:0032122"
+                },
+                {
+                    "onto_name": "cilium movement",
+                    "onto_id": "GO:0003341"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "detection of electrons",
+                "onto_id": "FBbi:00000375"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Didinium nasutum",
+                "onto_id": "NCBITaxon:5997"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary electron generation",
+                    "onto_id": "FBbi:00000580"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 5956,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 17.9
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 5392,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 17.9
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Apical oral view of Didinium. Showing the proboscis containing extrusive organelles to demobilize and eventually engulph it's prey. Metachronous waves of cilia in the anterior girdle of the two characteristic ciliary girdles of Didinium nasutum. To see a higher magnification view of the proboscis, see CIL:xyz. An aboral view is also grouped with this image. This micrograph was taken in 1968 by G. Antipa on a Cambridge Mark IIA operating at 20kV. The negative magnification is 945X. The raw film was scanned with an Epson Perfection V750 Pro. This image is available for qualitative analysis. Further details are available at Wessenberg, H. and Antipa, G. 1970. Capture and ingestion of Paramecium by Didinium nasutum. J. Protozool. 17:250-270."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {"Contributors": ["Gregory Antipa (San Francisco State University)"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

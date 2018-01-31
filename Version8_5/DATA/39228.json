@@ -1,0 +1,99 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "39228.flv",
+                "Size": 7439812
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39228.zip",
+                "Size": 29409408
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39228.jpg",
+                "Size": 32511
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "10170",
+            "IMAGINGMODE": {
+                "onto_name": "phase contrast microscopy",
+                "onto_id": "FBbi:00000247"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nuclear chromosome",
+                "onto_id": "GO:0000228"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "spermatogenesis",
+                "onto_id": "GO:0007283"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in amount of elastic light scattering",
+                "onto_id": "FBbi:00000600"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Psophus stridulus",
+                "onto_id": "NCBITaxon:433472"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of photons",
+                "onto_id": "FBbi:00000587"
+            },
+            "TECHNICALDETAILS": {"free_text": "The movie was originally recorded on 35mm film, and later transferred to CD format.  The text at the beginning of the movie translates approximately as follows:\n\nMeiosis  division II, metaphase (ca. 4-5 hr) and anaphase (ca. 1 hr).\n\nSee also:\nMichel, K. (1941): Die Darstellung von Chromosomen mittels des Phasenkontrturwissenschaften 29, 61-62 \nMichel, K. (1958): Die Reifeteilungen (Meiose) bei der Spermatogenese der Schnarrheuschrecke (Psophus stridulus l.) Institut für den Wissenschaftlichen Film, Göttingen"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 720
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "CELLTYPE": {
+                "onto_name": "spermatocyte",
+                "onto_id": "CL:0000017"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Time lapse movie of meiosis II in spermatocytes of the Locust Psophus stridulus showing two sequences that include metaphase and anaphase.\n  This is a historic movie made in the early 40s by Kurt Michel of the Zeiss company in Jena using Zernike's newly invented phase contrast microscope. \nDespite its early date, the movie and the others in the group remain some of the clearest examples of chromosome behavior during meiosis."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {"Contributors": [
+                "Kurt Michel",
+                "Heinz Gundlach"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

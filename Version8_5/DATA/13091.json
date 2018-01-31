@@ -1,0 +1,127 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13091.zip",
+                "Size": 4504730
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13091.tif",
+                "Size": 4500000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13091.jpg",
+                "Size": 2246826
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "critical_point dried specimen",
+                "onto_id": "FBbi:00000581"
+            },
+            "GROUP_ID": "11228",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microvillus",
+                    "onto_id": "GO:0005902"
+                },
+                {
+                    "onto_name": "plasma membrane",
+                    "onto_id": "GO:0005886"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "immune system process",
+                    "onto_id": "GO:0002376"
+                },
+                {
+                    "onto_name": "cell projection organization",
+                    "onto_id": "GO:0030030"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "secondary electron generation",
+                "onto_id": "FBbi:00000580"
+            },
+            "TECHNICALDETAILS": {"free_text": "Scanning electron micrograph."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 918
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1252
+                }}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "macrophage",
+                    "onto_id": "CL:0000235"
+                },
+                {
+                    "onto_name": "lymphocyte",
+                    "onto_id": "CL:0000542"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "This image shows two different types of white blood cells from a mouse which are essential for mammalian immune response to protect from infection.  The larger cell is a macrophage and the smaller two are leukocytes such as t-cells. Here, the cell types differ in surface texture (or morphology); the macrophage has surface folds and dense microvilli, whereas the surface of the lymphocytes is comparatively smooth with sparse microvilli.  Both cell types respond to neighboring cells by extending longer microvilli (arrows). The folds and microvilli protrude due to f-actin networks under the cell membrane.  Image courtesy of Emma Shelton and Jan Orenstein appears as Figure 34 from Chapter 2 (Specializations Of The Free Surface) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D. A PDF copy of the accompanying chapter is available on the ASCB's BioEDUCATE website."},
+            "PATHOLOGICALPROCESS": {"onto_id": "IDO:IDO:0000012"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Fawcett's \"The Cell, 2nd Ed.\"",
+                    "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                }],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": [
+                    "Emma Shelton",
+                    "Jan Orenstein"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

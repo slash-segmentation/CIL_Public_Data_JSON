@@ -1,0 +1,102 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35285.jpg",
+                "Size": 18625
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35285.tif",
+                "Size": 400000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35285.zip",
+                "Size": 345028
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "cryofixed tissue",
+                    "onto_id": "FBbi:00000013"
+                },
+                {"onto_id": "FBbi:00000621"}
+            ],
+            "GROUP_ID": "8805",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "actin cytoskeleton",
+                "onto_id": "GO:0015629"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "pollen tube growth",
+                "onto_id": "GO:0009860"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Lilium formosanum",
+                "onto_id": "NCBITaxon:63788"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Germinated lily pollen on agar loops was plunge frozen, freeze substituted, labeled with an anti-actin mouse monoclonal antibody followed by Cy-3 goat anti-mouse and imaged with a Zeiss 510 meta confocal microscope using a 63x 1.4 NA objective lens. The image shown is a projection of z-slices. See Lovy-Wheeler et al. 2005, Planta 221:95-104."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 532
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 216
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "Cy3",
+                "onto_id": "FBbi:00000449"
+            },
+            "PROCESSINGHISTORY": {"free_text": "projection of confocal slices"},
+            "IMAGEDESCRIPTION": {"free_text": "Freeze substituted Lilium pollen tube immunolabeled for filamentous actin and imaged using laser scanning confocal microscopy. Shown is a projection of z-slices revealing the dense sub-apical actin fringe. Other images in the group reveal the distributions of other cytoskeletal elements and membranous components."},
+            "CELLTYPE": {"free_text": "pollen tube"},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements"},
+            "ATTRIBUTION": {"Contributors": [
+                "Alenka Lovy-Wheeler",
+                "Kathleen L Wilsen",
+                "Tobias I Baskin",
+                "Peter K Hepler"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "photomultiplier tube (PMT)",
+                "onto_id": "FBbi:00000295"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

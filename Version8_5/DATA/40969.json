@@ -1,0 +1,97 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40969.tif",
+                "Size": 16700000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40969.jpg",
+                "Size": 1025467
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "motile cilium",
+                    "onto_id": "GO:0031514"
+                },
+                {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "feeding behavior",
+                "onto_id": "GO:0007631"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Floscularia ringens"},
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2822
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1963
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Differential interference contrast image of a rotifer (Floscularia ringens) feeding. Its rapidly beating cilia (hair-like structures) bring water that contains food to the rotifer. When their cilia beat, the \"wheel animacules\" first described by Leeuwenhoek (ca.1702) look like two wheels spinning on top. They live in reddish-brown tubes made of \nspherical \"bricks.\"  This image won First Prize, 2011 Olympus  BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["Issaquah, WA, USA"],
+                "URLs": [{
+                    "Label": "2011 Olympus  BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/1.html"
+                }],
+                "Contributors": [
+                    "Charles Krebs",
+                    "2011 Olympus  BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

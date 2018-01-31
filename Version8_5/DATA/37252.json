@@ -1,0 +1,133 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "37252.jpg",
+                "Size": 6606039
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "37252.tif",
+                "Size": 56400000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "37252.zip",
+                "Size": 56334868
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in plastic embedment",
+                    "onto_id": "FBbi:00000016"
+                }
+            ],
+            "GROUP_ID": "11393",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "chloroplast",
+                    "onto_id": "GO:0009507"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "flagellum",
+                    "onto_id": "GO:0019861"
+                },
+                {
+                    "onto_name": "endoplasmic reticulum",
+                    "onto_id": "GO:0005783"
+                },
+                {
+                    "onto_name": "Golgi stack",
+                    "onto_id": "GO:0005795"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {"free_text": "pyrenoid"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "organelle organization",
+                "onto_id": "GO:0006996"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Chlamydomonas reinhardtii",
+                "onto_id": "NCBITaxon:3055"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image corresponds to figure 2 in J Cell Biol. 1967 Dec;35(3):521-52.  Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine.\nOriginal 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original magnification 8,400."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 6000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4694
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "An electron micrograph showing a central longitudinal section of the unicellular green alga Chlamydomonas reinhardtii (y-1 yellow mutant) grown in  the  light. The single cup shaped chloroplast with pyrenoid (storage granule) surrounds the central nucleus and other organelles.  Osmiophilic  globules  and  a  few  starch  granules are  scattered  among  the  thylakoid membranes.  The pyrenoid appears as a large,  finely granular  mass of  polygonal  profile surrounded  by  discontinuous  shell  of  starch  plates  and penetrated  by  a  system  of  tubules. Surrounded by the chloroplast are the nucleus,  dictyosomes (Golgi bodies) and their  associated  vacuoles,  and  endoplasmic  reticulum cisternae  of transitional  type.  Mitochondria are concentrated  at the anterior  pole  of  the cell  and  between  the  chloroplast  and the  cell  membrane.  A  contractile  vacuole and a  flagellum are also visible."},
+            "ATTRIBUTION": {
+                "DATE": ["02/06/1967"],
+                "URLs": [{
+                    "Label": "George E. Palade EM Slide Collection",
+                    "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeUniBC"
+                }],
+                "PUBLISHED": ["J Cell Biol. 1967 Dec;35(3):521-52."],
+                "Contributors": ["I. Ohad"],
+                "PUBMED": ["6064364"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

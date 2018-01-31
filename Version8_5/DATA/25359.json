@@ -1,0 +1,107 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25359.zip",
+                "Size": 569472
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25359.jpg",
+                "Size": 18149
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "25359.flv",
+                "Size": 290922
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "6802",
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell",
+                "onto_id": "GO:0005623"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "cell extrusion"},
+            "RELATIONTOINTACTCELL": {"free_text": "monolayer"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "CELLLINE": {"free_text": "MDCK"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Canis lupus familiaris",
+                "onto_id": "NCBITaxon:9615"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 240
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 186
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "43",
+                    "value": 600.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Reorganization of cells around a site of cell extrusion monitored live by time-lapse differential interference contrast microscopy.  The process of extrusion began at hour 1 of observation and continued for 40 min.  Monolayer was imaged on a Zeiss Axiovert 200M microscope using a 40× dry differential interference contrast microscopy (DIC) objective. Images were collected by a charge-coupled device camera (CoolSNAP-HQ, Photometrics, Tucson, AZ) and stored digitally every 10 min. Image corresponds to Fig 4 and Video 1 in PLoS Pathog. 2006 Jan;2(1):e3. Epub 2006 Jan 27."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "ATTRIBUTION": {
+                "PUBLISHED": ["PLoS Pathog. 2006 Jan;2(1):e3. Epub 2006 Jan 27"],
+                "Contributors": [
+                    "M Pentecost",
+                    "G Otto",
+                    "JA Theriot",
+                    "MR Amieva"
+                ],
+                "PUBMED": ["16446782"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

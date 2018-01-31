@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "221.jpg",
+                "Size": 127219
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "221.zip",
+                "Size": 763386
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "221.tif",
+                "Size": 800000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "critical_point dried specimen",
+                "onto_id": "FBbi:00000581"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "gas transport",
+                "onto_id": "GO:0015669"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "secondary electron generation",
+                    "onto_id": "FBbi:00000580"
+                },
+                {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                }
+            ],
+            "TECHNICALDETAILS": {"free_text": "The scanning electron microscope scans the specimen with a finely focused electron beam and records the number of electrons emitted at each point in the scan as a grey level in the image, with low levels corresponding to few emitted electrons and high levels corresponding to many emitted.  Specimens are usually coated with a thin layer of metal to improve conductivity and increase the efficiency of secondary electron emission."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 899
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 843
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "erythrocyte",
+                "onto_id": "CL:0000232"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Red blood cells (erythrocytes). This image of human red blood cells obtained by scanning electron microscopy, revealing their characteristic biconcave shape."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements"},
+            "ATTRIBUTION": {"Contributors": ["Tina Carvalho"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

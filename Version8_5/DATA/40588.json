@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40588.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40588.jpg",
+                "Size": 152634
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40588.zip",
+                "Size": 106832
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "40588_orig.jpg",
+                "Size": 106694
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                {"free_text": "spicule"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {"free_text": "structural support"},
+                {"free_text": "deter predator"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Porifera",
+                "onto_id": "NCBITaxon:6040"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "secondary electron generation",
+                "onto_id": "FBbi:00000580"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected on FEI instrument: Nova NanoSEM Family using Magnification: 2,000x Horizontal Field Width: 149 μm Voltage: 2 kV Detector: vcd Spot: 2 nA Working Distance: 6.3mm"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 670
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 617
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "This colorized scanning electron micrograph shows uncoated sponge spicules from a South African sponge. Spicules provide structural support and deter predators.  The image was taken with the VcD (backscatter) detector, using beam decelleration"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "FEI Life Science Images",
+                    "Href": "http://www.fei.com/resources/image-gallery/Sponge-Spicule-2480.aspx"
+                }],
+                "Contributors": ["Miranda Waldron"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

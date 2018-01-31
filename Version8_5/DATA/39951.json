@@ -1,0 +1,97 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39951.tif",
+                "Size": 1000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39951.jpg",
+                "Size": 40340
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus norvegicus",
+                "onto_id": "NCBITaxon:10116"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Specimen was imaged using a BioRad MRC 1024 Confocal, using a 63X NA 1.4 objective and 488 laser line."},
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 564
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 564
+                }}
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "dendritic spine",
+                    "onto_id": "GO:0043197"
+                },
+                {
+                    "onto_name": "dendrite",
+                    "onto_id": "GO:0030425"
+                }
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "CNS neuron (sensu Vertebrata)",
+                    "onto_id": "CL:0000117"
+                },
+                {
+                    "onto_name": "Purkinje cell",
+                    "onto_id": "CL:0000121"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A portion of dendrite and associated spines from a Purkinje neuron of the rat cerebellum.  This image is a maximum intensity projection through a computationally deblurred transmitted light series of optical sections.  The through focus series was taken from a 2 um section prepared for electron microscopy."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 15",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=15"
+                }],
+                "Contributors": [
+                    "Maryann Martone",
+                    "Naoko Yamada",
+                    "Gordun Arbuthnott",
+                    "Cali Ingham",
+                    "Stephen Young"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

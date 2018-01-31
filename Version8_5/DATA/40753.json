@@ -1,0 +1,110 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40753.tif",
+                "Size": 1700000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40753.jpg",
+                "Size": 132185
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "11683",
+            "IMAGINGMODE": {"free_text": "total internal reflection (TIRF)"},
+            "CELLULARCOMPONENT": [
+                {"free_text": "P-75"},
+                {"free_text": "Galectin-3"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "protein targeting",
+                "onto_id": "GO:0006605"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "MDCK-II",
+                "onto_id": "MCC:0000321"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Canis lupus familiaris",
+                "onto_id": "NCBITaxon:9615"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Cells were grown for 5 days prior to imaging with apical TIRF microscopy.  Image collected using a True MultiColor Laser TIRF Leica AM TIRF MC.  See http://www.leica-microsystems.com/science-lab/protein-transport-processes-at-the-apical-membrane-of-polarized-epithelial-cells-applications-for-tirf-microscopy/ for additional details."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 738
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 738
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "DsRed",
+                    "onto_id": "FBbi:00000085"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Total internal reflection (TIRF) micrograph of MDCK cells stably transfected with the apical membrane protein P75-GFP (green) and with its sorting receptor Galectin-3-dsRed (red) in close proximity or inside the apical plasma membrane."},
+            "CELLTYPE": {
+                "onto_name": "kidney cell",
+                "onto_id": "CL:1000497"
+            },
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Leica applications for TIRF microscopy",
+                    "Href": "http://www.leica-microsystems.com/science-lab/protein-transport-processes-at-the-apical-membrane-of-polarized-epithelial-cells-applications-for-tirf-microscopy/"
+                }],
+                "Contributors": [
+                    "Christoph Greb",
+                    "Ralf Jacob",
+                    "Anja Schué"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

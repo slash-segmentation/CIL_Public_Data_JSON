@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "8101.flv",
+                "Size": 2026933
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "8101.zip",
+                "Size": 4325500
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "8101.jpg",
+                "Size": 37057
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nucleus",
+                "onto_id": "GO:0005634"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "mitotic nuclear envelope disassembly",
+                    "onto_id": "GO:0007077"
+                },
+                {
+                    "onto_name": "mitotic nuclear envelope reassembly",
+                    "onto_id": "GO:0007084"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": {
+                "onto_name": "nuclear import",
+                "onto_id": "GO:0051170"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 542
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "value": 33.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "TagGFP",
+                "onto_id": "FBbi:00000503"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "IMAGEDESCRIPTION": {"free_text": "This Drosophila melanogaster early embryo (cycles 10-12) was injected with a fluorescent protein containing a nuclear localization signal (GFP-NLS). Proteins that contain a NLS are recognized by importins and are imported into nuclei.  In this  biological sample, importation of GFP-NLS into nuclei creates the appearance of discrete bright \"stars\" against a black background. Upon nuclear membrane breakdown, proteins containing the NLS dissipate, giving rise to brightness over the field of view. In the next mitotic cycle, they are imported again into  nuclei when the nuclear envelope reforms.  This movie, called \"50 Stars-50 Years\", was tied for second place in the 2010 Celldance Contest. \n\nTime lapse 4D spinning disk confocal microscopy images were acquired every 8 seconds and are played at 6 frames/second. The images were acquired with a Nikon microscope (a X40 objective) and a Perkin-Elmer laser spinning disk. The program used to capture,  pseudocolor, and process the images was Metamorph."},
+            "ATTRIBUTION": {"Contributors": ["Rosalind Silverman-Gavrila"]},
+            "SPECIESTAXASPECIFIC": {"onto_id": ":Drosophila melanogaster embryo (cycles 10-12)"},
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

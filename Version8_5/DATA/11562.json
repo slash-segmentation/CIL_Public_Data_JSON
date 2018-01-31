@@ -1,0 +1,166 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11562.jpg",
+                "Size": 394355
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11562.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11562.zip",
+                "Size": 1369944
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "9577",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "centriole",
+                    "onto_id": "GO:0005814"
+                },
+                {
+                    "onto_name": "pericentriolar material",
+                    "onto_id": "GO:0000242"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "centriole replication",
+                    "onto_id": "GO:0007099"
+                },
+                {
+                    "onto_name": "spindle organization",
+                    "onto_id": "GO:0007051"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "CELLLINE": {"free_text": "PtK2"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Potorous tridactylus",
+                "onto_id": "NCBITaxon:9310"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 896
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1284
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Figs. 307 & 308 from Don Fawcett's Chapter 12 (Centrioles). In interphase cells, microtubules commonly radiate from the centrosome, and in dividing cells the microtubules of the mitotic spindle converge toward a diplosome at either pole of the division figure. The accompanying micrographs of dividing cells show numerous microtubules radiating from the immediate vicinity of a centriole. Such images have led to the assumption that the centrioles serve as nucleation sites for microtubule assembly. However, detailed studies of this region suggest that the microtubules do not actually contact the centrioles but end in a specialized pericentriolar zone of cytoplasmic matrix and are often associated with small dense bodies called centriolar satellites (indicated by arrows).\nLaser microbeam irradiation of acridine orange-treated living cells results in a disorganization of the pericentriolar material but causes no detectable alteration of the centrioles. This treatment disturbs formation of interpolar microtubules and interferes with anaphase movement of chromosomes. It is concluded that although centrioles may not be directly involved as sites of nucleation of microtubules, they may nevertheless contribute indirectly to spindle mechanics as agents of synthesis or organization of the pericentriolar material. A copy of the chapter is available on the ASCB's BioEDUCATE website."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"}],
+                "PUBLISHED": [
+                    "ISBN 0721635849",
+                    " J. Cell Biol. 72:351-367, 1977"
+                ],
+                "Contributors": [
+                    "Don W. Fawcett",
+                    "M. W. Berns"
+                ],
+                "PUBMED": ["556728"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

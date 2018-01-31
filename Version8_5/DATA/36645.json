@@ -1,0 +1,170 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36645.jpg",
+                "Size": 1922628
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36645.tif",
+                "Size": 8500000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36645.zip",
+                "Size": 16947926
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "micronucleus",
+                    "onto_id": "GO:0031040"
+                },
+                {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "micronucleus organization",
+                    "onto_id": "GO:0032125"
+                },
+                {
+                    "onto_name": "cytoplasm organization",
+                    "onto_id": "GO:0007028"
+                },
+                {
+                    "onto_name": "nucleus organization",
+                    "onto_id": "GO:0006997"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium multimicronucleatum",
+                "onto_id": "NCBITaxon:44030"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2819
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3000
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Like other ciliates P. multimicronucleatum has two morphologically and functionally different nuclei. Shown here is the tiny micronucleus, of which there are four, during interphase of this cell. This nucleus has the task of dividing the nuclear genome between the two daughter cells during mitosis and in forming the two haploid pronuclei one of which will be exchanged with a partner cell during conjugation. However, during interphase this nucleus is not involved in forming ribosomes or messenger RNA so it does not control the metabolic processes of the cell. This micronucleus, much smaller than in other paramecia such as P. caudatum, has a central condensed mass of chromatin surrounded by a less dense nucleoplasm. This is known as a vesicular type of micronucleus. There is a typical nuclear envelope with numerous pores. This micronucleus was from a cell in day 5 of a culture age study where cells are in mid-log phase of growth. The cell is presumably undergoing rapid metabolism. TEM taken on 5/29/78 by R. Allen with Hitachi HU11A operating at 75kV. Neg. 12,250X. Bar = 0.5µm."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {"Contributors": ["Richard Allen (University of Hawaii)"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,93 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "37261.tif",
+                "Size": 63100000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "37261.jpg",
+                "Size": 6725943
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "37261.zip",
+                "Size": 62986120
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {"free_text": "n-butyl methacrylate embedded tissue"}
+            ],
+            "GROUP_ID": "11079",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "zymogen granule",
+                "onto_id": "GO:0042588"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Bos taurus",
+                "onto_id": "NCBITaxon:9913"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original magnification x2,000."},
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "lead salt",
+                "onto_id": "FBbi:00000570"
+            },
+            "PROCESSINGHISTORY": {"free_text": "scanned negative"},
+            "IMAGEDESCRIPTION": {"free_text": "Zymogen granule fraction Calf.  This study demonstrated directly that the enzyme and proenzyme composition of proteins in pancreatic juice collected from an indwelling catheter in the bovine pancreatic duct correlated exactly with the protein composition obtained from lysed purified bovine zymogen granules. Subsequent studies showed that pancreatic digestive enzymes and proenzymes were secreted from the pancreas in parallel. In other words, each granule must contain, on average, the same composition of secretory proteins. This hypothesis was later directly tested by immuno-EM localization of trypsinogen and other secretory proteins in all zymogen granules in the bovine pancreas.\nImage made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."},
+            "ATTRIBUTION": {
+                "DATE": ["11/22/1962"],
+                "URLs": [{
+                    "Label": "George E. Palade EM Slide Collection",
+                    "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeZGBhttp://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeZGB"
+                }],
+                "PUBLISHED": ["JCB. 238:2054-2070, 1963"],
+                "Contributors": [
+                    "George E. Palade",
+                    "L. J. Greene"
+                ],
+                "PUBMED": ["13950163"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

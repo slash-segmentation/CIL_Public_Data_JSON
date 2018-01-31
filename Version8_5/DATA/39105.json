@@ -1,0 +1,118 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39105.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39105_orig.jpg",
+                "Size": 239950
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39105.zip",
+                "Size": 240088
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39105.jpg",
+                "Size": 139082
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {"free_text": "stomata"},
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "respiratory gaseous exchange",
+                    "onto_id": "GO:0007585"
+                },
+                {
+                    "onto_name": "response to fungus",
+                    "onto_id": "GO:0009620"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "Phragmidium tuberculatum",
+                    "onto_id": "NCBITaxon:198671"
+                },
+                {
+                    "onto_name": "Rosa",
+                    "onto_id": "NCBITaxon:3764"
+                }
+            ],
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007248 Rust on rose leaf.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 786
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {"free_text": "colorized"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "epidermal cell",
+                    "onto_id": "CL:0000362"
+                },
+                {
+                    "onto_name": "fungal spore",
+                    "onto_id": "CL:0002369"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Colorized scanning electron micrograph of rust on a rose leaf.  Rose rust is a disease specific to roses and is caused by the parasitic fungus Phragmidium tuberculatum and some other closely related species. This disease occurs during spring and persists until the leaves fall. This images shows rose rust and tiny pores in the leaf (called stomata) visible on the surface of the leaf.  Stomata are essential for plant gas exchange. The main group of spores from the fungus is 200uM"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Annie Cavanagh"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

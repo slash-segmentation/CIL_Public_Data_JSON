@@ -1,0 +1,89 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41038.jpg",
+                "Size": 101185
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41038.tif",
+                "Size": 400000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41038.zip",
+                "Size": 109217
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "leaf attachment"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Alcea rosea",
+                "onto_id": "NCBITaxon:65557"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "FEI instrument used: XL SEM Family with  Magnification: 200x, Horizontal Field Width: 100 μm, Voltage: 25 kV, Detector: BSE, Spot: 6 nA, and Working Distance: 10.1 mm."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 670
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 541
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron micrograph of a petiole from an Alcea Roseais (hollyhock).  A petiole is the stalk attaching the leaf blade to the stem."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "FEI Life Science Images",
+                    "Href": "http://www.fei.com/resources/image-gallery/alcea-archosauria-1844.aspx"
+                }],
+                "Contributors": ["Alcea Rosea"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

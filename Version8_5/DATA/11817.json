@@ -1,0 +1,103 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11817.flv",
+                "Size": 693945
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11817.jpg",
+                "Size": 47955
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11817.zip",
+                "Size": 7393408
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "9355",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nucleus",
+                "onto_id": "GO:0005634"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "anatomical structure morphogenesis",
+                "onto_id": "GO:0009653"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Danio rerio",
+                "onto_id": "NCBITaxon:7955"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 311
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }},
+                {"Space": {"axis": "Z"}}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "4D data set of yolk syncytial layer nuclear movements. Movie shows z-series stacks sequentially through time. Numbers label individual nuclei so they can be tracked in 3D space at each time point.  Video made available by Mark Cooper through Zebrafish - The Living Laboratory."},
+            "CELLTYPE": {"free_text": "yolk syncytial layer cell"},
+            "ATTRIBUTION": {
+                "OTHER": ["Zebrafish - The Living Laboratory"],
+                "URLs": [{
+                    "Label": "Fishscope",
+                    "Href": "http://depts.washington.edu/fishscop/index.html"
+                }],
+                "Contributors": ["Leonard D'Amico"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

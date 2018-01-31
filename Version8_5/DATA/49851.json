@@ -1,0 +1,175 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "These color images show the three-dimensional morphology of an M5 melanopsin retinal ganglion cell from an <i>ex-vivo<\/i> isolated flat-mount mouse retina preparation. This retinal neuron was visually identified and targeted for patch clamp electrophysiological recordings based on somatic EGFP fluorescence expression the Opn4<span style=\"vertical-align: super; position: relative; font-size: 0.6em;\">cre\/+<\/span>;Z\/EG<span style=\"vertical-align: super; position: relative; font-size: 0.6em;\">+\/-<\/span> mouse line as previously described (Ecker et al., 2010, Neuron).  Lucifer yellow dye (green) was dialyzed into the cell by passive diffusion from the recording pipette to reveal dendritic morphology of the M5 cell."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "A whole, intact retina was isolated from an excised mouse eye and dissected away from the retinal pigment epithelium; the retina was flat mounted with the ganglion-cell side up onto a glass chamber and superfused with Ames\u2019 medium during ex-vivo patch clamp electrophysiological experiments as previously described (see Estevez et al., 2012, J. Neuroscience).   The recording pipette of the cell contained Lucifer yellow dye which was dialyzed into the cell over the course of a 30 minute recording. At the end of the recording, the tissue was fixed with 4% paraformaldehyde in 0.1M phosphate buffered saline (PBS) for 45 minutes at room temperature.  The tissue was washed 3 x 15 minutes in PBS, incubated for 2 hours in blocking solution (2% Triton X-100 and 5% donkey serum in PBS at 4&#8451;) at room temperature and incubated with rabbit anti-lucifer yellow (1:500; Life Technologies, Carlsbad, CA) for 2 nights at 4&#8451;.  Then the tissue was rinsed 6 x 10 minutes in PBS and counterstained with donkey anti-rabbit alexa 488 (1:200; Life Technologies, Carlsbad, CA 1: 200) for two hours at room temperature.  The immunostained retina was washed 3 x 15 minutes in PBS, mounted on a glass slide and coverslipped using Prolong Gold mouting medium (Life Technologies, Carlsbad, CA). \n\nImages were acquired with a Zeiss LSM 510 Meta laser scanning microscope with a plan-apochromat 20x\/0.8 objective.  The dye was excited with a 488 nm laser at 5%; emission was detected through a 505-550 band pass filter and imaged at 12-bits.  The image stack consisted of a 450 &#181;m x 450 &#181;m window through 14 stacks at 0.5 &#181;m (total of 7 &#181;m in z-depth) through the ganglion cell layer and ON-sublayer of the inner plexiform layer of the retina."
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "Intrinsic photosensitivity conferred by melanopsin photopigment"
+                    },
+                    {
+                        "free_text": "Color opponent inputs (ultraviolet ON response, green OFF response) from outer retina photoreceptors"
+                    },
+                    {
+                        "free_text": "Radiate, highly branched dendrites that stratify within the ON layer of inner plexiform layer of the retina and receive inputs from type 6-9 bipolar cells"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "multipolar neuron",
+                        "onto_id": "CL:0000104"
+                    },
+                    {
+                        "free_text": "M5 melanopsin retinal ganglion cell"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cytoskeleton",
+                        "onto_id": "GO:0005856"
+                    },
+                    {
+                        "onto_name": "axon",
+                        "onto_id": "GO:0030424"
+                    },
+                    {
+                        "onto_name": "dendrite",
+                        "onto_id": "GO:0030425"
+                    },
+                    {
+                        "free_text": "soma"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Mus musculus",
+                        "onto_id": "NCBITaxon:10090"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "free_text": "Confocal laser scanning fluorescence microscopy"
+                    }
+                ],
+                "PARAMETERIMAGED": [
+                    {
+                        "free_text": "Fluorescence Emission from Alexa Fluor 488 dye"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "free_text": "Cell is imaged within an isolated intact retina (<i>ex vivo<\/i>)"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "free_text": "distribution of dye"
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "free_text": "Intracellular dye counterstained with a primary antibody plus labeled secondary antibody."
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Maureen Stabio",
+                        "Jordan Renna"
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Pixel_size": {
+                                "value": "0.439",
+                                "unit": "microns"
+                            },
+                            "Image_size": "1024"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Pixel_size": {
+                                "value": "0.439",
+                                "unit": "microns"
+                            },
+                            "Image_size": "1024"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Pixel_size": {
+                                "value": "0.439",
+                                "unit": "microns"
+                            },
+                            "Image_size": "1024"
+                        }
+                    }
+                ]
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image\/tif",
+                    "File_path": "49851.tif",
+                    "Size": 126000000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "image\/jpeg; charset=utf-8",
+                    "File_path": "49851.jpg",
+                    "Size": 44548,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "application\/zip",
+                    "File_path": "49851.zip",
+                    "Size": 125837677,
+                    "File_type": "Zip"
+                },
+                {
+                    "Mime_type": "image\/tiff",
+                    "File_path": "49851_orig.tif",
+                    "Size": 125837539,
+                    "File_type": "OME_tif"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": true,
+            "Video": false,
+            "Still_image": false
+        }
+    }
+}

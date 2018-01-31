@@ -1,0 +1,113 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35415.jpg",
+                "Size": 26271
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35415.zip",
+                "Size": 1728640
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "35415.flv",
+                "Size": 2074116
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "8579",
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell",
+                "onto_id": "GO:0005623"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "midbrain-hindbrain boundary morphogenesis",
+                "onto_id": "GO:0021555"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "compartmentalization of stain or label",
+                "onto_id": "FBbi:00000604"
+            },
+            "ZEBRAFISH_ANATOMY": [{
+                "onto_name": "midbrain hindbrain boundary",
+                "onto_id": "ZFA:0000042"
+            }],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Danio rerio",
+                "onto_id": "NCBITaxon:7955"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Start: 18 h (18 ss)      End: older than 26 h      Time: 10.5 h \nObjective: 20x oil immersion with electronic zoom. \nTemperature: room temperature (22 C)"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 521
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 371
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {"free_text": "bodipy ceramide"},
+                {
+                    "onto_name": "fluorescent dextran fill",
+                    "onto_id": "FBbi:00000404"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Zebrafish midbrain hindbrain morphogenesis as seen with bodipy-ceramide and fluorescent dextran labeling.  Video made available by Mark Cooper through Zebrafish - The Living Laboratory."},
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {
+                "OTHER": [
+                    "Max Planck Institute for Molecular Cell Biology and Genetics , Dresden, Germany",
+                    "Zebrafish - The Living Laboratory"
+                ],
+                "Contributors": [
+                    "Tobias Langenberg",
+                    "Michael Brand"
+                ]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "ZFA:ZFA:0000042"},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

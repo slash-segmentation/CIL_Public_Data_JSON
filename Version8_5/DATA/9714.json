@@ -1,0 +1,192 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "9714.zip",
+                "Size": 14986494
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "9714.tif",
+                "Size": 7400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "9714.jpg",
+                "Size": 1195913
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "10163",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "macronucleus",
+                    "onto_id": "GO:0031039"
+                },
+                {
+                    "onto_name": "nuclear pore",
+                    "onto_id": "GO:0005643"
+                },
+                {
+                    "onto_name": "heterochromatin",
+                    "onto_id": "GO:0000792"
+                },
+                {
+                    "onto_name": "nucleolus",
+                    "onto_id": "GO:0005730"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "macronucleus organization",
+                    "onto_id": "GO:0032124"
+                },
+                {
+                    "onto_name": "nuclear pore organization",
+                    "onto_id": "GO:0006999"
+                },
+                {
+                    "onto_name": "chromatin organization",
+                    "onto_id": "GO:0006325"
+                },
+                {
+                    "onto_name": "chromosome organization",
+                    "onto_id": "GO:0051276"
+                }
+            ],
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "CELLLINE": {"free_text": "Cambridge Culture Collection, Cambridge, England, catalog # LB1656/1"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Coleps hirtus",
+                "onto_id": "NCBITaxon:60000"
+            },
+            "TECHNICALDETAILS": {"free_text": "The material was prepared by standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. TEM taken on 5/23/69 by R. Allen with Philips 300 operating at 60kV. Neg. 7,650X.  The raw film was scanned with a Nikon Coolscan 9000ED. This high resolution image is suitable for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "structural constituent of chromatin",
+                    "onto_id": "GO:0030527"
+                },
+                {
+                    "onto_name": "structural constituent of nuclear pore",
+                    "onto_id": "GO:0017056"
+                }
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2432
+                }}
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "CELLTYPE": [
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements"},
+            "IMAGEDESCRIPTION": {"free_text": "High resolution image of the macronucleus of Coleps hirtus. Heterochromatin and nucleoli are seen as smaller and larger stained bodies, respectively, in the macronucleus. Many nuclear pores exist in the nuclear envelope."},
+            "ATTRIBUTION": {"Contributors": ["Richard Allen"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

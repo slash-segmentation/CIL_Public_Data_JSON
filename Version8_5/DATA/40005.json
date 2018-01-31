@@ -1,0 +1,107 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40005.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40005.jpg",
+                "Size": 60115
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "IMAGINGMODE": {"onto_id": "FBbi:00000623"},
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "T-tubule",
+                    "onto_id": "GO:0030315"
+                },
+                {
+                    "onto_name": "sarcomere",
+                    "onto_id": "GO:0030017"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "intercalated disc",
+                    "onto_id": "GO:0014704"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Tissue was fixed with 2% paraformaldehyde and 2% glutaraldehyde in 0.15M sodium cacodylate, blocked into small pieces, post-fixed for 1-3 hours, washed 3x10min in 0.15M sodium cacodylate, then incubated in: 0.8% potassium ferrocyanide and 2% osmium tetroxide in 0.15M sodium cacodylate overnight at room temperature.  Following another set of washes 2 hours-overnight in 0.15M sodium cacodylate tissue was stained en bloc with 1% uranyl acetate 30min, followed by a brief wash in DDH2O and standard dehydration and embedding.  Images were gathered using a JEOL 4000, magnification of 15000.0, accelerating voltage, 400.0 kV."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "regular cardiac myocyte",
+                "onto_id": "CL:0002098"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single computed slice from a tomographic reconstruction of a 500 nm section through the middle free wall of a cardiac myocyte from the left ventricle of an adult mouse (6-8 months of age), stained with potassium ferrocyanide to increase the contrast of membrane systems.  For more information see: Hayashi, T., Martone, M. E., Yu, Z., Thor, A., Doi, M., Holst, M., Ellisman, M. H. and Hoshijima, M., Three-dimensional electron microscopy reveals new details of membrane systems for calcium signaling in the heart. J. Cell Science, 2009 Apr 1;122(Pt 7):1005-13. PMID: 19295127.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 3603",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3603"
+                }],
+                "Contributors": [
+                    "Masahiko Hoshijima",
+                    " Takeharu Hayashi"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

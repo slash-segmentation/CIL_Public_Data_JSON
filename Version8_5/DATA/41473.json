@@ -1,0 +1,79 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41473.tif",
+                "Size": 11100000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41473.jpg",
+                "Size": 1616315
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "bleach"},
+            "IMAGINGMODE": {
+                "onto_name": "secondary_electron imaging",
+                "onto_id": "FBbi:00000372"
+            },
+            "CELLULARCOMPONENT": {"free_text": "calcium skeleton"},
+            "BIOLOGICALPROCESS": {"free_text": "skeleton organization"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "coral"},
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1920
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1920
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {"free_text": "polyp"},
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron micrograph of  the calcium skeleton of coral polyp. The sample was cleaned with bleach solution, dried and carbon coated prior to imaging.  The image was collected  using a secondary electron detector on the scanning electron microscope, which was operated at 10kV. The original magnification of the image was 100X."},
+            "ATTRIBUTION": {
+                "OTHER": ["University of South Florida Department of Integrative Biology Microscopy Core Lab"],
+                "Contributors": ["Edward Haller"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

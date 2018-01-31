@@ -1,0 +1,167 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "24068.flv",
+                "Size": 409182
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "24068.zip",
+                "Size": 10600576
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "24068.jpg",
+                "Size": 51365
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "11504",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "FRAP",
+                    "onto_id": "FBbi:00000366"
+                },
+                {
+                    "onto_name": "time lapse microscopy",
+                    "onto_id": "FBbi:00000249"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "adherens junction",
+                    "onto_id": "GO:0005912"
+                },
+                {
+                    "onto_name": "catenin complex",
+                    "onto_id": "GO:0016342"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cell-cell adhesion",
+                    "onto_id": "GO:0016337"
+                },
+                {
+                    "onto_name": "homophilic cell adhesion",
+                    "onto_id": "GO:0007156"
+                },
+                {
+                    "onto_name": "protein homooligomerization",
+                    "onto_id": "GO:0051260"
+                },
+                {
+                    "onto_name": "endocytosis",
+                    "onto_id": "GO:0006897"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "MCF7",
+                "onto_id": "MCC:0000307"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "MCF7 E-cadherin-GFP cells were observed 3 days after seeding on glass coverslips, and ≈12\u201324 h after confluency, in DMEM\u2013FCS supplemented with 10 mM Hepes, in a 37 °C observation chamber (POCmini-chamber-system, Tempcontrol 37\u20132 Digital PeCon), on an IX71 inverted microscope (Olympus) with a high numerical aperture objective (63× oil-immersion, NA = 1.25, PlanNeofluar, Zeiss). Two-photon photobleaching was performed with a femto-second laser tuned at 878 nm, pumped by a 10W CW 532 nm laser (Mira 900 and Verdi; Coherent). The position of the beam was controlled by VM500 galvanometric mirrors (GSI Lumonics) and the photobleaching duration by a shutter LS200 (NnmLaser), driven by MetaMorph. The measured excitation Point-Spread Function (PSF) is an ellipsoid with a 0.5-μm diameter in the focal plane and a 1.5-μm extension along the optical axis. Fluorescence recovery was spatially resolved under 1-photon excitation by fast 3D wide field videomicroscopy, using a DG-4 monochromator set at 480 nm (Sutter), a Coolsnap HQ CCD camera (Roper Scientific), and a PiFoc piezo-driven objective actuator (Physik Instrumente). The FRAP experiment was performed as follows. One point in a junction was photobleached for 200 ms with a 30 mW average power excitation intensity as measured at the objective back pupil. A stack of 12 images with a 0.3-μm vertical spacing were acquired before (CIL# 24069) and after (CIL# 24070) photobleaching. This is the FRAP time-lapse video, with a time interval of 7.3 s. All three movies are from supporting information for Proc Natl Acad Sci. (209) 106: 7010-7015."},
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "beta-catenin binding",
+                    "onto_id": "GO:0008013"
+                },
+                {
+                    "onto_name": "gamma-catenin binding",
+                    "onto_id": "GO:0045295"
+                }
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 425
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 270
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "33",
+                    "value": 7.3
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "annotated with arrows"},
+            "IMAGEDESCRIPTION": {"free_text": "E-cadherin local dynamics were studied in mature junctions, that is, junctions engaged in adhesion for many hours, in which cadherin expression level is stable. After stable transfection with E-cadherin-GFP, E-cadherin dynamics were studied by 2-photon single-particle tracking and fluorescence recovery after photobleaching (FRAP) combined with 3D wide-field fluorescence microscopy, which allowed the recovery process to be analyzed from series of image stacks in the entire 3D region surrounding the photobleached volume. Image analysis of fluorescence recovery indicates that most E-cadherin did not diffuse in the membrane along mature junctions, but followed a first order turn-over process that was rate-limited by endocytosis. This is the time-lapse video of a FRAP experiment on MCF7 cell junctions expressing E-cadherin-GFP. Also available are the z-stacks (0.3 µm) of images before (CIL# 24069) and immediately following photobleaching (CIL# 24070). Photobleached regions are indicated by arrows. Scale bar: 10 µm."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                {"free_text": "mammary gland"},
+                {"free_text": "invasive breast ductal carcinoma"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "PNAS April 28, 2009 vol. 106 no. 17 7010-7015",
+                    "Href": "http://intl.pnas.org/content/106/17/7010.full"
+                }],
+                "PUBLISHED": ["Proc Natl Acad Sci. (209) 106: 7010-7015."],
+                "Contributors": [
+                    "Simon de Beco",
+                    "Charles Gueudry",
+                    "Francois Amblard",
+                    "Sylvie Coscoy"
+                ],
+                "PUBMED": ["19372377"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

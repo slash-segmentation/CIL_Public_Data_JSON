@@ -1,0 +1,169 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "9929.tif",
+                "Size": 33400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "9929.jpg",
+                "Size": 7298839
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "9929.zip",
+                "Size": 37038034
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "3411",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "rough endoplasmic reticulum",
+                    "onto_id": "GO:0005791"
+                },
+                {
+                    "onto_name": "lipid particle",
+                    "onto_id": "GO:0005811"
+                },
+                {"free_text": "extrusome"},
+                {"free_text": "toxicyst"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "organelle organization",
+                    "onto_id": "GO:0006996"
+                },
+                {
+                    "onto_name": "regulation of organelle organization",
+                    "onto_id": "GO:0033043"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "CELLLINE": {"free_text": "Carolina Biological Supply Company, NC, U.S.A."},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Didinium nasutum",
+                "onto_id": "NCBITaxon:5997"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "MOLECULARFUNCTION": {"free_text": "development of organelle"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4657,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3578,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.0
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                {"free_text": "raw unprocessed image"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A high resolution image of toxicysts in the cytoplasm of cross sectioned non-dividing Didinium. Toxicysts (extrusomes) are multilayered cylinders that are discharged from the cytopharynx region during capture of prey such as Paramecium. Lipid is stored as large non-membrane enclosed dense bodies in the cytosol. TEM taken on 2/18/69 by R. Allen with Philips 300. Neg. 20,500X. The raw film was scanned with an Epson Perfection V750 Pro. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "ATTRIBUTION": {"Contributors": ["Richard Allen"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

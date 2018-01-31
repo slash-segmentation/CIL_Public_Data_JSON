@@ -1,0 +1,104 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "47051_orig.jpg",
+                "Size": 55338
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "47051.jpg",
+                "Size": 74758
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "47051.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "47051.zip",
+                "Size": 55476
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "TECHNICALDETAILS": {"free_text": "Specimen was imaged using a Olympus DSU Confocal Microscope with the Olympus 20x 1.4 NA objective."},
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "GROUP_ID": "17001",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell body",
+                "onto_id": "GO:0044297"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 14000,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.39
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 14000,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.39
+                    }
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "The purpose of this study was to investigate the progression of changes in retinal ganglion cells and optic nerve glia in neurofibromatosis-1 (NF1) genetically-engineered mice with optic glioma. RGC were counted in whole retina preparations using high-resolution, mosaic confocal microscopy following their delineation by retrograde FluoroGold labeling. Then, we found reduced RGC numbers in Nf1+/GFAPCKO mice, supporting a model in which the combination of optic nerve Nf1 heterozygosity and glial cell Nf1 loss results in disrupted axonal-glial relationships, subsequently culminating in the degeneration of optic nerve axons and loss of their parent RGC neurons."},
+            "CELLTYPE": {
+                "onto_name": "retinal ganglion cell",
+                "onto_id": "CL:0000740"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "OTHER": [
+                    "Eric Bushong",
+                    "Mark Ellisman",
+                    "Da-Yong Lee"
+                ],
+                "URLs": [{
+                    "Label": "CCDB 7755",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?mpid=7755&count=y&event=displaySum"
+                }],
+                "Contributors": [
+                    "Keun-Young Kim",
+                    "David Gutmann"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

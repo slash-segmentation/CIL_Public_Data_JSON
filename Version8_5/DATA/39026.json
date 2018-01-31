@@ -1,0 +1,157 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39026.tif",
+                "Size": 1000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39026.jpg",
+                "Size": 77659
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39026.zip",
+                "Size": 94230
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39026_orig.jpg",
+                "Size": 94092
+            }
+        ],
+        "CORE": {
+            "GROUP_ID": "13402",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {
+                    "onto_name": "synaptic vesicle",
+                    "onto_id": "GO:0008021"
+                },
+                {
+                    "onto_name": "axon",
+                    "onto_id": "GO:0030424"
+                },
+                {"free_text": "neuropil"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "neuron projection development",
+                "onto_id": "GO:0031175"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                }
+            ],
+            "ZEBRAFISH_ANATOMY": [
+                {
+                    "onto_name": "brain",
+                    "onto_id": "ZFA:0000008"
+                },
+                {
+                    "onto_name": "telencephalon",
+                    "onto_id": "ZFA:0000079"
+                },
+                {
+                    "onto_name": "diencephalon",
+                    "onto_id": "ZFA:0000101"
+                },
+                {
+                    "onto_name": "optic tectum",
+                    "onto_id": "ZFA:0000445"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Danio rerio",
+                "onto_id": "NCBITaxon:7955"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007771 Dorsal view of a zebrafish brain. Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 550
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "neuron",
+                "onto_id": "CL:0000540"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Confocal micrograph of the anterior region of the developing zebrafish brain (consisting of the telencephalon, part of diencephalon and the optic tectum). Some of the neurons (shown in green) express the green fluorescent protein (GFP) under the control of specific gene expression. Axons, tracts and neuropils have been labeled using antibodies that mark tubulin (in red) and synaptic vesicles (in blue). Tubulin is important for microtubule formation and cell structure, whereas synaptic vesicles are important for neuronal signaling.  CIL 39025 is the dorsal view."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": [
+                    "Monica Folgueira",
+                    "Steve Wilson"
+                ]
+            },
+            "SPECIESTAXASPECIFIC": [
+                {"onto_id": "ZFA:ZFA:0000008"},
+                {"onto_id": "ZFA:ZFA:0000079"},
+                {"onto_id": "ZFA:ZFA:0000101"},
+                {"onto_id": "ZFA:ZFA:0000445"}
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

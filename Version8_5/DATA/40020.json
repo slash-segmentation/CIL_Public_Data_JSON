@@ -1,0 +1,105 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40020.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40020.jpg",
+                "Size": 106967
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"onto_id": "FBbi:00000621"}
+            ],
+            "IMAGINGMODE": {"onto_id": "FBbi:00000623"},
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "synapse",
+                    "onto_id": "GO:0045202"
+                },
+                {
+                    "onto_name": "dendritic spine",
+                    "onto_id": "GO:0043197"
+                },
+                {
+                    "onto_name": "presynaptic active zone",
+                    "onto_id": "GO:0048786"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus norvegicus",
+                "onto_id": "NCBITaxon:10116"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "1.  Fixation:  A 21 day old rat was perfused with a solution of 2% of paraformaldehyde/2.5% of glutaraldehyde in 0.15 M cacodylate buffer according to the protocol described in (Giepmans, 2005 see original publication for details).  Brain was taken out and post-fixed in same fixative for 2 hrs at 4¿C.  For brain tissue, 100mm thick sections were kept in the fixative solution until HPF. \n\n2.  High Pressure Freezing:  Brain sections were cut with 1.8 mm tissue puncher. This step ensures that the proper size of brain tissue will fit into the shallow side of a 100 mm-deep well in the type A HPF brass planchette.  For peripheral nerve tissue, the nerves were carefully trimmed to a proper length in order to fit into the type A freezing hats. Trimmed brain or nerve tissue was loaded into the planchettes and the well was filled with 1-hexadecene. The planchette was then covered with the flat side of brass type B planchette, quickly loaded into a freezing holder and frozen with the Bal-Tec HPM 010. \n \nFreeze-substitution procedure: After freezing, the planchette sandwiches were separated under liquid nitrogen and the specimen/type A hats were placed into cryo-vials and stored under liquid nitrogen or subsequently placed into the freeze substitution device. The first substitution media was a solution of filled with freshly made 0.1% tannic acid (EM grade, from Polysciences Inc., Warrington, Pennsylvania) in acetone (EM grade from Fullam Inc., Latham, New York).  After 24 hours, samples were then washed three times in cold acetone over a 2 hour period.  The solution was changed to 2% osmium tetroxide in acetone for 48 hrs.  The temperature was slowly raised to 20 deg C.  The specimens were rinsed three times at room temperature for 10 minutes in acetone. Tissues were removed from the planchettes after the last wash step. The total time for this procedure is 113 hrs.\n\nInfiltration and embedding:  Infiltration was conducted over 3 days followed by embedding in Durcupan ACM resin (Electron Microscopy Science Inc., Hatfield, PA).  Samples were infiltrated in 30% Durcupan in acetone for 4 hours and 50% Durcupan overnight.  The next day, the specimens were placed into 70% Durcupan for 4 hours, 90% over 2 hours and were placed in 100% Durcupan for overnight incubation.  After two incubations in fresh 100% Durcupan, the sample was then polymerized at 60deg C for 2 days."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "Purkinje cell",
+                "onto_id": "CL:0000121"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single computed slice through a tomographic reconstruction of a spine synapse from the molecular layer of the cerebellar cortex from tissue that was prepared from a combination of chemical fixation and high pressure freezing.  The contrast was adjusted and the image downsampled to 8 bits from the submitted data for display purposes."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 3684",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3684"
+                }],
+                "Contributors": [
+                    "Mark Ellisman",
+                    " Gina Sosinsky",
+                    " Ying Jones"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

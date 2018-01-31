@@ -1,0 +1,109 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "732.zip",
+                "Size": 8111696
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "732.tif",
+                "Size": 6900000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "732.jpg",
+                "Size": 8363
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "Golgi apparatus",
+                "onto_id": "GO:0005794"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "Golgi organization",
+                "onto_id": "GO:0007030"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "CELLLINE": {
+                "onto_name": "COS-7",
+                "onto_id": "MCC:0000112"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Chlorocebus sabaeus",
+                "onto_id": "NCBITaxon:60711"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0952
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0952
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 26,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.5
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "UV/visible/IR photons",
+                "onto_id": "FBbi:00000378"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "COS 7 cell expressing Organelle LightsTM Golgi-GFP (Invitrogen)consisting of the human Golgi-resident enzyme N-acetylgalactosaminyltransferase 2.  Images were collected with a 63X1.4 NA Plan-Apochromat oil objective on a Zeiss LSM510 META (Carl\nZeiss, Thornwood, NY) using 488 nm excitation, HFT 488 dichroic, and LP505 emission filter.  Image size is 512 x 512, pixel size is 0.1 µm\nx 0.1 µm and pixel time was set to 1.6 µsec.  Detector pinhole was setto collect 26 ~0.5 µm slices at 0.5 µm intervals."},
+            "ATTRIBUTION": {"Contributors": ["George H. Patterson"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

@@ -1,0 +1,122 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "350.zip",
+                "Size": 3419622
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "350.tif",
+                "Size": 3500000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "350.jpg",
+                "Size": 495435
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                }
+            ],
+            "GROUP_ID": "2306",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "dystroglycan complex",
+                "onto_id": "GO:0016011"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "plasma membrane organization",
+                "onto_id": "GO:0007009"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "MOLECULARFUNCTION": {
+                "onto_name": "structural molecule activity",
+                "onto_id": "GO:0005198"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1696,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.32
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2016,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 2.32
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "detection of electrons",
+                "onto_id": "FBbi:00000375"
+            },
+            "PROCESSINGHISTORY": {"free_text": "unprocessed raw data"},
+            "IMAGEDESCRIPTION": {"free_text": "Thin section electron microscopy of gastrocnemius (skeletal) muscle from a wild type mouse.  Section was stained with warm uranyl acetate stain.\n\nSample was viewed with a Hitachi 7600 electron microscope (accelerating voltage 80 KV) and imaged with an AMT digital camera.   Image taken at 40,000X magnification.\n\nThis image is part of a set of wild type gastrocnemius muscle images that served as controls for the study of the delta-sarcoglycan knockout mouse.  Both the set of wild-type and delta-sarcoglycan knockout mouse images are part of The CELL:  an image library.\n\nReference:  Nat Med. 2008 Apr;14(4):442-7.  \nGenetic and pharmacologic inhibition of mitochondrial-dependent necrosis attenuates muscular dystrophy.\nMillay DP, Sargent MA, Osinska H, Baines CP, Barton ER, Vuagniaux G, Sweeney HL, Robbins J, Molkentin JD  (tissue preparation described in Fewell JG, et al. A treadmill exercise regimen for identifying cardiovascular phenotypes in transgenic mice. Am J Physiol. 1997;273:H1595\u2013H1605)"},
+            "CELLTYPE": {
+                "onto_name": "skeletal muscle cell",
+                "onto_id": "CL:0000188"
+            },
+            "ATTRIBUTION": {
+                "Contributors": ["Hanna Osinska"],
+                "PUBMED": ["18345011"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

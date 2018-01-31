@@ -1,0 +1,134 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "9060.jpg",
+                "Size": 60531
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "9060.zip",
+                "Size": 13590652
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "9060.flv",
+                "Size": 1224481
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "3782",
+            "IMAGINGMODE": {
+                "onto_name": "polarization microscopy",
+                "onto_id": "FBbi:00000248"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cytoskeleton",
+                    "onto_id": "GO:0005856"
+                },
+                {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                },
+                {
+                    "onto_name": "spindle",
+                    "onto_id": "GO:0005819"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "male meiosis chromosome segregation",
+                    "onto_id": "GO:0007060"
+                },
+                {
+                    "onto_name": "spindle assembly involved in male meiosis",
+                    "onto_id": "GO:0007053"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "intrinsic birefringence",
+                "onto_id": "FBbi:00000594"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Nephrotoma suturalis"},
+            "PARAMETERIMAGED": {
+                "onto_name": "UV/visible/IR photons",
+                "onto_id": "FBbi:00000378"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 500,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 87.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 500,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 87.0
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "153",
+                    "value": 120.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {"free_text": "Processed image based on 5 recorded images"},
+            "PROCESSINGHISTORY": {"free_text": "5-frame algorithm"},
+            "IMAGEDESCRIPTION": {"free_text": "The events of meiosis I and II in a living insect spermatocyte beginning with the breakdown of the nuclear envelope at diakinesis through  to the completion of cytokinesis. Testes from the Crane fly Nephrotoma suturalis were observed with time-lapse polarization using a Nikon Microphot SA, equipped for liquid crystal polarized light microscopy (LC-PolScope, CRi, Woburn Massachusetts) 60x/1.4 PlanApo oil immersion objective, 1.4 NA oil imm. condenser, with 1.5x zoom lens. Image acquisition and processing Camera: Images captured every 2 min over 5 hr 18 min by a QImaging Retiga EXi CCD camera. Raw images were processed using a 5-frame algorithm (Shribak and Oldenbourg, 2003). Movie images represent computed retardance as gray values ranging from 0 nm retardance (black) to 2 nm retardance or higher (white)."},
+            "CELLTYPE": {
+                "onto_name": "spermatocyte",
+                "onto_id": "CL:0000017"
+            },
+            "ATTRIBUTION": {
+                "Contributors": [
+                    "Rudolf Oldenbourg",
+                    "James R. LaFountain"
+                ],
+                "PUBMED": [
+                    "15385630",
+                    "12790452"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                },
+                {"free_text": "Processed image based on 5 recorded images"}
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

@@ -1,0 +1,126 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39041.zip",
+                "Size": 218669
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39041_orig.jpg",
+                "Size": 218531
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39041.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39041.jpg",
+                "Size": 119852
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "bright-field microscopy",
+                "onto_id": "FBbi:00000243"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {"free_text": "elementary bodies"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "pathogenesis",
+                "onto_id": "GO:0009405"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "Macaca mulatta",
+                    "onto_id": "NCBITaxon:9544"
+                },
+                {
+                    "onto_name": "Chlamydia trachomatis",
+                    "onto_id": "NCBITaxon:813"
+                }
+            ],
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007737 Chlamydia infected culture.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 553
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "giemsa",
+                "onto_id": "FBbi:00000040"
+            },
+            "CELLTYPE": {
+                "onto_name": "kidney cell",
+                "onto_id": "CL:1000497"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Photomicrograph of Chlamydia grown in culture. The sample was taken from rhesus monkey kidney cells and stained with giemsa. The cell nuclei appear red and the infective 'elementary bodies' of the Chlamydia, which develop in 'blisters' in the cells, fluoresce green. Chlamydia is a very common sexually-transmitted pathogen, which is caused by a bacterium, Chlamydia trachomatis. It can cause pelvic inflamatory disease (PID) in women (but is 'silent' in the majority of patients of both sexes). It can also cause blindness."},
+            "PATHOLOGICALPROCESS": [
+                {"onto_id": "DOID:DOID:11263"},
+                {"onto_id": "DOID:DOID:1003"}
+            ],
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Spike Walker"]
+            },
+            "HUMAN_DISEASE": [
+                {"onto_id": "DOID:11263"},
+                {
+                    "onto_name": "pelvic inflammatory disease",
+                    "onto_id": "DOID:1003"
+                }
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

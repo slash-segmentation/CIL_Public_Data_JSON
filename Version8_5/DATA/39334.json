@@ -1,0 +1,110 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39334.tif",
+                "Size": 700000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39334.jpg",
+                "Size": 141622
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39334.zip",
+                "Size": 606408
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {"free_text": "DNA"},
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "DNA replication",
+                    "onto_id": "GO:0006260"
+                },
+                {
+                    "onto_name": "DNA metabolic process",
+                    "onto_id": "GO:0006259"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "CELLLINE": {"free_text": "TU291"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Physarum polycephalum",
+                "onto_id": "NCBITaxon:5791"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "See Fig 3A in: \nF Haugli et al. 1982 DNA replication in Physarum polycephalum: electron microscopic analysis patterns of DNA replication in the presence of cycloheximide. J Cell Biol 95:323-331."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 420
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1443
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "tungsten compound",
+                    "onto_id": "FBbi:00000575"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "montage",
+                "onto_id": "FBbi:00000261"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Nuclear DNA was prepared from synchronously replicating nuclei of Physarum polycephalum, mixed with cytochrome c and formamide, and spread on the surface of a hypophase consisting of 10 mM Tris, 1 mM EDTA and 10% formamide. The surface containing the DNA-cytochrome c complexes was picked up on carbon-formvar grids, stained with ethanolic phosphotungstic acid, and rotary shadowed with Pt/Pd prior to TEM examination. Arrows point to replication forks."},
+            "CELLTYPE": {"free_text": "plasmodium"},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["F Haugli et al. 1982 DNA replication in Physarum polycephalum: electron microscopic analysis patterns of DNA replication in the presence of cycloheximide. J Cell Biol 95:323-331."],
+                "Contributors": [
+                    "Finn Haugli",
+                    "Rolf Andreassen",
+                    "Steiner Funderud"
+                ],
+                "PUBMED": ["7142290"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

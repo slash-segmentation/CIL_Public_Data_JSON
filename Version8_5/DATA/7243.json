@@ -1,0 +1,153 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "7243.zip",
+                "Size": 2408106
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "7243.tif",
+                "Size": 2500000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "7243.jpg",
+                "Size": 22211
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "methanol fixed tissue",
+                "onto_id": "FBbi:00000007"
+            },
+            "GROUP_ID": "1455",
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {
+                    "onto_name": "kinesin complex",
+                    "onto_id": "GO:0005871"
+                },
+                {
+                    "onto_name": "midbody",
+                    "onto_id": "GO:0030496"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cytokinesis",
+                "onto_id": "GO:0000910"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "HeLa",
+                "onto_id": "MCC:0000219"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": {
+                "onto_name": "microtubule motor activity",
+                "onto_id": "GO:0003777"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 914,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.064
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 875,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.064
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "488"
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "568"
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "647"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "labeled primary antibody",
+                    "onto_id": "FBbi:00000130"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "Alexa Fluor 594",
+                    "onto_id": "FBbi:00000444"
+                },
+                {
+                    "onto_name": "Alexa Fluor 647",
+                    "onto_id": "FBbi:00000447"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "HeLa cells at last stage of cytokinesis were fixed and stained with microtubules (green), PRC1 (red), and KIF4A (blue). PRC1 and KIF4A colocalized on midbody in the center of intracellular bridge and a dark zone which cannot be accessed by antibodies was shown.\n\nCells were fixed with MeOH on ice for 3 min, and stained with primary antibodies against PRC1 (Protein regulator of cytokinesis 1), KIF4A (Chromosome-associated kinesin), and FITC-DM1a antibody against microtubules.  Secondary antibodies were Alexa 594 for PRC1, and Alexa 647 for KIF4A.   A single section was collected with a spinning disk microscope on a Nikon TE-2000 with a 1.3 NA 100X objective.  Images were collected with an OrCA ER CCD camera.\nLasers and filters:  Innova 70C Spectrum 3 watt Laser, 488 Laser/ATOF 525/50, 568 Laser/ATOF 605/52, and 647 Laser ATOF 700/75."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "ATTRIBUTION": {
+                "OTHER": ["Tim Mitchison Lab"],
+                "Contributors": ["Hu, Chi-Kuo"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

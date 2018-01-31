@@ -1,0 +1,152 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "14971.tif",
+                "Size": 8100000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "14971.jpg",
+                "Size": 292059
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "14971.zip",
+                "Size": 8171146
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "neuronal cell body",
+                    "onto_id": "GO:0043025"
+                },
+                {
+                    "onto_name": "axon",
+                    "onto_id": "GO:0030424"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cell communication by chemical coupling",
+                "onto_id": "GO:0010643"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "vibratome-sectioned tissue",
+                "onto_id": "FBbi:00000030"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "serotonin receptor activity",
+                    "onto_id": "GO:0004993"
+                },
+                {
+                    "onto_name": "cannabinoid receptor activity",
+                    "onto_id": "GO:0004949"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1300,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 2.03
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1030,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 2.03
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "Alexa Fluor 568",
+                    "onto_id": "FBbi:00000442"
+                },
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Distribution of interneurons expressing EGFP from the 5HT3 receptor promoter (Tg(Htr3a-EGFP)DH30Gsat, www.gensat.org) in the dorsal hippocampus colabelled for the CB1 cannabinoid receptor (red) and counterstained with DAPI (blue) to show the cell layers.  EGFP expression was amplified with chicken anti-GFP (Abcam, 1:2000); cell bodies and fibers are present throughout all layers of the hippocampus but enriched in the hilus and stratum lacunosum moleculare (see associated images).  CB1 immunoreactivity (L15 rabbit polyclonal 1:200, K. Mackie) is prominent in the terminals of basket cells synapsing in the pyramidal cell layer.  CB1 is also enriched in axons with distinct intensities in the inner and outer molecular layer of the dentate gyrus. CB immunoreactivity is also present in the stratum radiatum and stratum lacunosum moleculare. \n\nSection (40 um) was mounted with Fluoromount G and imaged with a 5X, 0.15 NA Achroplan objective on a Zeiss Axiovert microscope.  AF568 was excited at 562/40 nm and emission collected at 624/40 nm with Semrock filters and a single band dichroic (530-585 nm reflected, 601-800 nm transmitted). AF488 was excited at 482/35 nm and emission collected at 536/40 nm with Semrock filters and a single band dichroic (446-499 nm reflected, 513-735 nm transmitted). DAPI was excited at 350/50 nm and emission collected at 460/50 nm with a CLP400 dichroic (Chroma). Single images were captured for each channel using a Zeiss Axiocam MR CCD and pseudo-colored using Axiovision.  Linear background subtraction was used on the presented image.  See Davis and Puhl 2011 (Pubmed ID 21305052) for a detailed staining protocol.  This image is part of a series characterizing EGFP expression from the 5HT3 promoter throughout the brain."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "interneuron",
+                    "onto_id": "CL:0000099"
+                },
+                {
+                    "onto_name": "hippocampal granule cell",
+                    "onto_id": "CL:0001033"
+                },
+                {
+                    "onto_name": "pyramidal cell",
+                    "onto_id": "CL:0000598"
+                }
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {"Contributors": ["Margaret I. Davis"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

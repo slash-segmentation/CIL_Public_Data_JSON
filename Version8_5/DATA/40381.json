@@ -1,0 +1,115 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40381.zip",
+                "Size": 218500
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40381.tif",
+                "Size": 3300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40381.jpg",
+                "Size": 210086
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"free_text": "ethanol dehydration"},
+                {
+                    "onto_name": "critical_point dried specimen",
+                    "onto_id": "FBbi:00000581"
+                }
+            ],
+            "GROUP_ID": "11389",
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {"free_text": "trichome"},
+            "BIOLOGICALPROCESS": {
+                "onto_name": "epidermis morphogenesis",
+                "onto_id": "GO:0048730"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Solenostemon scutellarioides",
+                "onto_id": "NCBITaxon:4142"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected on a Zeiss DSM 962 SEM.  Complete specimen preparation protocol available at:\nhttp://remf.dartmouth.edu:8080/EM-Wiki/36"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1049
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron microscope image of the epidermal surface of a Solenostemon scutellarioidesi (coleus) stem. The image shows two trichomes (hair-like projections).  This image is part of a group on botanical stems (CIL:40378-40395)."},
+            "CELLTYPE": {
+                "onto_name": "epidermal cell",
+                "onto_id": "CL:0000362"
+            },
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Dartmouth College EM Facility",
+                    "Href": "http://remf.dartmouth.edu/images/botanicalStemSEM/"
+                }],
+                "Contributors": ["Louisa Howard"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

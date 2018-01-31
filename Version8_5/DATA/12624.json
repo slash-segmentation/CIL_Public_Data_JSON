@@ -1,0 +1,109 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "12624.tif",
+                "Size": 400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "12624.jpg",
+                "Size": 81171
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "12624.zip",
+                "Size": 300272
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "critical_point dried specimen",
+                    "onto_id": "FBbi:00000581"
+                }
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {"free_text": "zona pellucida"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mesocricetus auratus",
+                "onto_id": "NCBITaxon:10036"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 619,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.035
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 484,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.035
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "gold",
+                "onto_id": "FBbi:00000202"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "oocyte",
+                "onto_id": "CL:0000023"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Surface of the zona pellucida surrounding a hamster oocyte.  This scanning electron micrograph shows the zona pellicida around a hamster oocyte at high magnification. The zona pellicida has a complex weave and is comprised of three glycoproteins, ZP1, ZP2 and ZP3. The sample was fixed using glutaraldehyde and osmium tetroxide, dehydrated in ethanol, critically point dried, coated with gold, and examined in a Phillips XL30 FEG scanning electron microscope. Magnification: 5851x."},
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {"Contributors": ["Prue Talbot"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

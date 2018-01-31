@@ -1,0 +1,120 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35593.zip",
+                "Size": 2976399
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35593.jpg",
+                "Size": 98874
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35593.tif",
+                "Size": 3000000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "9892",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "spindle",
+                "onto_id": "GO:0005819"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "mitosis",
+                "onto_id": "GO:0007067"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Xenopus laevis laevis",
+                "onto_id": "NCBITaxon:443947"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Xenopus egg extracts were mixed with sperm chromatin, treated to induce spindle formation, antibodies added, and the preparations fixed with paraformaldehyde, and centrifuged onto cover slips through a glycerol cushion, and processed for immunofluorescence. z-stacks of images were recorded using a Zeiss Axioskop microscope with 63x !.4 NA objective lens. See Fig 3B in Orjalo et al. 2006 Mol Biol Cell 17:3806-3818."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 996
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 996
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                "onto_id": "FBbi:00000056"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Distribution of Nup133 (green) in a spindle assembled in vitro from Xenopus oocyte extracts showing localization in spindle and kinetochores. See Orjalo et al 2006. Mol Biol Cell 17:3806-3808."},
+            "CELLTYPE": {
+                "onto_name": "oocyte",
+                "onto_id": "CL:0000023"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Orjalo et al. 2006 The Nup107-160 nucleoporin complex is required for correct bipolar spindle assembly. Mol Biol Cell 17:3806-3818"],
+                "Contributors": [
+                    "Arturo Orjalo",
+                    "Alexei Arnaoutov",
+                    "Zhouxin Shen",
+                    "Yekaterina Boyarchuk",
+                    "Samantha Zeitlin",
+                    "Beatriz Fontoura",
+                    "Steven Briggs",
+                    "Mary Dasso",
+                    "Douglass Forbes"
+                ],
+                "PUBMED": ["16807356"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

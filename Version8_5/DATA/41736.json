@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41736.tif",
+                "Size": 1000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41736.jpg",
+                "Size": 212105
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41736.zip",
+                "Size": 420438
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "biofilm organization"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Bacillus subtilis",
+                "onto_id": "NCBITaxon:1423"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0008257.  2011 Collection: Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://images.wellcome.ac.uk/indexplus/page/Prices.html"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 583
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 550
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "TagRFP-T",
+                    "onto_id": "FBbi:00000517"
+                },
+                {"free_text": "sfGFP"},
+                {
+                    "onto_name": "mTagBFP",
+                    "onto_id": "FBbi:00000486"
+                },
+                {
+                    "onto_name": "mKate2FP",
+                    "onto_id": "FBbi:00000495"
+                },
+                {
+                    "onto_name": "mOrange2FP",
+                    "onto_id": "FBbi:00000515"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A confocal micrograph showing Bacillus subtilis, a Gram-positive, rod-shaped bacterium that is commonly found in soil. Distinct lineages of bacteria expressing different fluorescent proteins were initially mixed randomly on a petri dish. As the bacteria grow, they organize themselves into reproducible patterns and shapes that can be predicted with mathematical models. This image is part of a synthetic biology project involved in designing artificial genetic circuits for pattern formation in bacterial colonies and plant tissues.  The horizontal field width of this image is 500 microns.  Wellcome Image Award 2012."},
+            "ATTRIBUTION": {"Contributors": [
+                "Fernan Federici",
+                "Jim Haseloff"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

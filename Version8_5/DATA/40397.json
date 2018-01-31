@@ -1,0 +1,105 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40397.tif",
+                "Size": 3600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40397.jpg",
+                "Size": 305698
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40397.zip",
+                "Size": 319709
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "glutaraldehyde fixed tissue",
+                "onto_id": "FBbi:00000011"
+            },
+            "GROUP_ID": "10929",
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "bacterial cell surface binding",
+                "onto_id": "GO:0051635"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Vibrio cholerae",
+                "onto_id": "NCBITaxon:666"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "Relevant reference:  T.J. Kirn, M.J. Lafferty, C.M.P Sandoe and R.K. Taylor, 2000, \"Delineation of pilin domains required for bacterial association into microcolonies and intestinal colonization\", Molecular Microbiology, Vol. 35(4):896-910\n\nComplete specimen preparation protocol available at http://remf.dartmouth.edu:8080/EM-Wiki\n\nImage collected on a Zeiss DSM 962 SEM"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1228
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 960
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "osmium tetroxide",
+                "onto_id": "FBbi:00000571"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron microscope image of Vibrio cholerae bacteria, which infect the digestive system.  This image is part of an image group that includes CIL:40395-40399."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Dartmouth College EM facility",
+                    "Href": "http://remf.dartmouth.edu/images/bacteriaSEM/"
+                }],
+                "Contributors": [
+                    "Ronald Taylor",
+                    "Tom Kirn",
+                    "Louisa Howard"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,143 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "23604.flv",
+                "Size": 803170
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "23604.jpg",
+                "Size": 12036
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "23604.zip",
+                "Size": 2408576
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "9244",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                {
+                    "onto_name": "time lapse microscopy",
+                    "onto_id": "FBbi:00000249"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "spindle pole body",
+                    "onto_id": "GO:0005816"
+                },
+                {
+                    "onto_name": "cytoplasmic microtubule",
+                    "onto_id": "GO:0005881"
+                },
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "microtubule-based movement",
+                    "onto_id": "GO:0007018"
+                },
+                {
+                    "onto_name": "karyogamy",
+                    "onto_id": "GO:0000741"
+                },
+                {
+                    "onto_name": "nuclear migration along microtubule",
+                    "onto_id": "GO:0030473"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {"free_text": "kar9delta"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Saccharomyces cerevisiae S288c",
+                "onto_id": "NCBITaxon:559292"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "S. cerevisiae (MATa kar9delta::hygB ura3-52 lys2-801 leu2-delta1::GFP-TUB1::LEU2 his3-delta200 trp1-delta63) expressing GFP-tubulin (GFP-TUB1) were arrested in hydroxyurea and mounted on agarose pads for microscopy. Images were captured on an Olympus Bmax-60F microscope equipped with a 1.35NA 100× UPlanApo objective, spinning disc Confocal Scanner Unit (CSU10), Picarro Cyan laser (488 nm), and a Stanford Photonics XR-Mega10 ICCD camera, by using QED software (Media Cybernetics). Image analysis was performed by using ImageJ. Timelapse images were captured at 10-s intervals for 15 min and each image in the movie represents a composite of 9 planes separated by 500 nm."},
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "GTPase activity",
+                    "onto_id": "GO:0003924"
+                },
+                {
+                    "onto_name": "structural constituent of cytoskeleton",
+                    "onto_id": "GO:0005200"
+                }
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 332
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 298
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "97",
+                    "value": 10.0
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "each frame is a composite of 9 planes"},
+            "IMAGEDESCRIPTION": {"free_text": "Spindle oscillation in kar9delta cells arrested in S phase. In wild-type cells, the spindle moves in both directions through the bud neck; these movements coincide with lateral sliding of a cytoplasmic microtubule along the cell cortex (in movie S1, CIL# 23599). In kar9delta cells, short preanaphase spindles oscillate across the bud neck, moving completely between the mother and bud. Movie plays at 50x real time and is Movie S3 in Proc Natl Acad Sci. 2009. 106: 5147-5152."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Proc Natl Acad Sci. 2009. 106: 5147-5152."],
+                "Contributors": [
+                    "Jeffrey K. Moore",
+                    "David Sept",
+                    "John A. Cooper"
+                ],
+                "PUBMED": ["19279216"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

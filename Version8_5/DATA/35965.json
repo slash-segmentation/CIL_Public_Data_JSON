@@ -1,0 +1,121 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35965.jpg",
+                "Size": 429607
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35965.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35965.zip",
+                "Size": 1144946
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "crosslinking-fixative fixed tissue",
+                    "onto_id": "FBbi:00000008"
+                },
+                {
+                    "onto_name": "tissue in plastic embedment",
+                    "onto_id": "FBbi:00000016"
+                }
+            ],
+            "GROUP_ID": "8851",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                }
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "microtubule-based flagellum",
+                "onto_id": "GO:0009434"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "fertilization",
+                "onto_id": "GO:0009566"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "Cecidomyiinae",
+                    "onto_id": "NCBITaxon:43793"
+                },
+                {
+                    "onto_name": "Lepidosaphes",
+                    "onto_id": "NCBITaxon:340506"
+                }
+            ],
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 886
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1258
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "osmium tetroxide",
+                "onto_id": "FBbi:00000571"
+            },
+            "CELLTYPE": {
+                "onto_name": "sperm",
+                "onto_id": "CL:0000019"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Figures 347 (upper) and 348 (lower) from Chapter 14 (Sperm Flagellum) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.  Sperm tail organization in some insects deviates from the organization observed in mammals.  Upper: A cross section of sperm tail of the cecidomyid fly, Diplolaboncus tumorificus shows only an outer dynein arm (arrows) emerging from doublets of microtubules.  Lower: Transverse sections through spermatozoa of the oyster shell scale insect, Lipidosaphes, shows singlet microtubules aranged in concentric rings around a central core.  Upper micrograph courtesy for Romao Dallai; lower from Phillips, Spermiogenesis, Academic Press, New York, 1974. A PDF copy of the accompanying chapter is available on the ASCB\u2019s BioEDUCATE website."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"}],
+                "PUBLISHED": ["ISBN 0721635849"],
+                "Contributors": [
+                    "Don W. Fawcett",
+                    "Romano Dallai",
+                    "David Phillips"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

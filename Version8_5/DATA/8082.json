@@ -1,0 +1,98 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "8082.flv",
+                "Size": 2111397
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "8082.jpg",
+                "Size": 7784
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "8082.zip",
+                "Size": 3915900
+            }
+        ],
+        "CORE": {
+            "MOLECULARFUNCTION": {
+                "onto_name": "kinesin binding",
+                "onto_id": "GO:0019894"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "kinesin complex",
+                    "onto_id": "GO:0005871"
+                },
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 320,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.118
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 240,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.118
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "12 frames/s",
+                    "value": 39.0
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "surface rendering"},
+            "IMAGEDESCRIPTION": {"free_text": "A Moving Kinesin Motor Protein\nThe two heads of the kinesin dimer work in a coordinated manner to move processively along the track. The coiled coil (gray) extends towards the top and leads up to the kinesin cargo. Each catalytic core (blue) is bound to a tubulin heterodimer (green, beta subunit; white, alpha subunit) along a microtubule protofilament (the cylindrical microtubule is composed of 13 protofilament tracks). To adopt this position, the neck linker points forward on the trailing head (orange; neck linker next to but not tightly docked to the core) and rearward on the leading head (red). ATP binding to the leading head will initiate neck linker docking. Neck linker docking is completed by the leading head (yellow), which throws the partner head forward by 160 angstroms (arrow) toward the next tubulin binding site. After a random diffusional search, the new leading head docks tightly onto the binding site, which completes the 80 angstrom motion of the attached cargo. Polymer binding also accelerates ADP release, and during this time, the trailing head hydrolyzes ATP to ADP-Pi. After ADP dissociates, an ATP binds to the leading head and the neck linker begins to zipper onto the core (partially docked neck indicated by the orange color). The trailing head, which has released its phosphate (Pi) and detached its neck linker (red) from the core, is in the process of being thrown forward.\n \nThe surface features of the motors and filaments were rendered by G Johnson (fiVth media: http://www.fiVth.com) using the programs MolView, Strata Studio Pro, and Cinema 4D. Protein Data Bank files used throughout the figures are as follows: human conventional kinesin [prestroke, red: 1BG2], and rat conventional kinesin [poststroke, yellow: 2KIN]. Width of tubulin beta subunit (in green) is approximately 40 angstroms.\tanimation; ATP; kinesin; microtubule; motor protein\t Movie 2 in: Vale RD, Milligan RA. The way things move: looking under the hood of molecular motors. Science [serial online]. 2000;288:88-95. Available [subscription required] at: http://www.sciencemag.org/cgi/reprint/288/5463/88.pdf\n\nOriginal resource provided by Ronald D Vale. Work conducted at Howard Hughes Medical Institute and University of California, San Francisco, CA (RV), Scripps Research Institute, La Jolla, CA (RM)."},
+            "ATTRIBUTION": {
+                "Contributors": [
+                    "Ronald D Vale",
+                    "Ronald A Milligan",
+                    "Graham Johnson"
+                ],
+                "PUBMED": ["PMID: 10753125"]
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "ATP catabolic process",
+                "onto_id": "GO:0006200"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "animation",
+                    "onto_id": "FBbi:00000267"
+                },
+                {
+                    "onto_name": "computer graphic",
+                    "onto_id": "FBbi:00000224"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

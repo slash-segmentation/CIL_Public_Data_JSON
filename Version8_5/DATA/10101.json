@@ -1,0 +1,117 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10101.jpg",
+                "Size": 268062
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "10101.tif",
+                "Size": 2300000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10101.zip",
+                "Size": 2203317
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "3106",
+            "IMAGINGMODE": {"free_text": "TIRF"},
+            "CELLULARCOMPONENT": [
+                {"free_text": "epsin"},
+                {"free_text": "clathrin light chain"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "ARPE-19",
+                "onto_id": "MCC:0000038"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1344,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 67.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 67.0
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "350, 488"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "mCherryFP",
+                    "onto_id": "FBbi:00000525"
+                },
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Cultured retinal pigment epithelial cell were stably transfected with mCherry-clathrin light chain and EGFP-epsin.  Live-cell time lapse images were collected on a Nikon TiE TIRF with a 100x1.49 NA objective  (~67nm/pixel) using 120 ms exposures.  This single dual color image part of an image series that contains the time lapse for the mCherry-clathrin light chain and the EGFP-epsin movies as separate files."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {"Contributors": [
+                "Allen Liu",
+                "Sandra L. Schmid"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

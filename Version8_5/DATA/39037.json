@@ -1,0 +1,95 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39037_orig.jpg",
+                "Size": 177467
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39037.jpg",
+                "Size": 96676
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39037.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39037.zip",
+                "Size": 177605
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {"free_text": "anoptral contrast"},
+            "CELLULARCOMPONENT": [
+                {"free_text": "cilia"},
+                {"free_text": "lorica"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in amount of elastic light scattering",
+                "onto_id": "FBbi:00000600"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Platyias quadricornis",
+                "onto_id": "NCBITaxon:360688"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of photons",
+                "onto_id": "FBbi:00000587"
+            },
+            "TECHNICALDETAILS": {"free_text": "Micrograph captured using a flash and anoptral contrast.  A description of anoptral contrast microscopy can be found at http://www.dtic.mil/dtic/tr/fulltext/u2/642068.pdf.\nB0007744 Platyias quadricornis.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 537
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "An anoptral contrast micrograph of a planktonic freshwater rotifer. The rotifer are microscopic but complex animals (mostly less than 1mm long) found in wet habitats. They are important members of the freshwater plankton of lakes. The sexes are separate but males are often rare or even unknown. They swim by means of tufts of cilia on the head and usually have a 'tail' called a foot, complete with two adhesive toes. Many are protected by an armoured lorica with spines (as here) into which they can retract."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "wellcome images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Spike Walker"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

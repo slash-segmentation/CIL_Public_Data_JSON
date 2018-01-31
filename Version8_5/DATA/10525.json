@@ -1,0 +1,153 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10525.jpg",
+                "Size": 20030
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "10525.flv",
+                "Size": 2397143
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10525.zip",
+                "Size": 6402176
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "5774",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "time lapse microscopy",
+                    "onto_id": "FBbi:00000249"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "inner membrane complex",
+                    "onto_id": "GO:0070258"
+                },
+                {
+                    "onto_name": "centriole",
+                    "onto_id": "GO:0005814"
+                },
+                {
+                    "onto_name": "spindle pole",
+                    "onto_id": "GO:0000922"
+                },
+                {
+                    "onto_name": "conoid",
+                    "onto_id": "GO:0020010"
+                },
+                {
+                    "onto_name": "basal part of cell",
+                    "onto_id": "GO:0045178"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "regulation of cell shape",
+                    "onto_id": "GO:0008360"
+                },
+                {
+                    "onto_name": "cytoskeleton organization",
+                    "onto_id": "GO:0007010"
+                },
+                {
+                    "onto_name": "cell division",
+                    "onto_id": "GO:0051301"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {"free_text": "Toxoplasma gondii RH stable cell line"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Toxoplasma gondii RH",
+                "onto_id": "NCBITaxon:383379"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 576
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 416
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "mRFP1",
+                    "onto_id": "FBbi:00000527"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "3D-deconvolution",
+                "onto_id": "FBbi:00000357"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Time-lapse of Toxoplasma gondii infection of human foreskin fibroblast cells. T. gondii stably express EGFP-tagged TgIMC1 and mRFP-tagged TgMORN1 (MORN domain containing protein). Formation of daughter cells is visible during time-lapse. Images acquired using API DeltaVision on a Olympus IX70 inverted microscope. Objective: Olympus 60X water immersion, 1.2 NA. Filters: EGFP, ex 450-490 em 500-540, mRFP, ex 555-592 em 600-665. Dichromatic mirror: Chroma 89021. Captured with CoolSnapHQ/ICX285. 3D stacks of images were collected at 0.6 μ increments in z, every 10 min. Maximum intensity projection of 3D deconvolved stacks at each timepoint were used to generate mpg movie. Corresponds to raw data: CIL# 10525. and 3D deconvolved data:  CIL# 10523 and projection of 3D deconvolved data: CIL# 10524. \n\nUnpublished image that is similar to images published in PMID: 16518471 and 20140195. See publications for other experimental details."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements"},
+            "PATHOLOGICALPROCESS": [
+                {"onto_id": "DOID:DOID:9965"},
+                {"onto_id": "IDO:IDO:0000038"}
+            ],
+            "ATTRIBUTION": {"Contributors": [
+                "John Murray (University of Pennsylvania)",
+                "Ke Hu (Indiana University, Bloomington)"
+            ]},
+            "HUMAN_DISEASE": [{
+                "onto_name": "toxoplasmosis",
+                "onto_id": "DOID:9965"
+            }],
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

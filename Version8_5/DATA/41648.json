@@ -1,0 +1,102 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41648.tif",
+                "Size": 2600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41648.jpg",
+                "Size": 205489
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41648.zip",
+                "Size": 930679
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "41648_orig.jpg",
+                "Size": 930541
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "actin cytoskeleton",
+                "onto_id": "GO:0015629"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "actin cytoskeleton organization",
+                "onto_id": "GO:0030036"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Hymenolepis microstoma",
+                "onto_id": "NCBITaxon:85433"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 933
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 904
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "phalloidin",
+                "onto_id": "FBbi:00000100"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Hymenolepis microstoma, a tapeworm parasite, showing anterior end. Phalloidin staining shows the suckers, pharynx and part of the body-wall musculature. Confocal microscopy.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["Zoological Museum, University Hamburg Hamburg, Germany"],
+                "URLs": [{
+                    "Label": "2011 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm51.html"
+                }],
+                "Contributors": [
+                    "Andreas Schmidt-Rhaesa",
+                    "2011 Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

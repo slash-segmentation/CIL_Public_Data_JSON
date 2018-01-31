@@ -1,0 +1,116 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40608.zip",
+                "Size": 196040
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40608.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40608.jpg",
+                "Size": 176250
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "40608_orig.jpg",
+                "Size": 195902
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                {
+                    "onto_name": "cilium",
+                    "onto_id": "GO:0005929"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "MOUSE_GROSS_ANATOMY": [{
+                "onto_name": "TS25,trachea",
+                "onto_id": "EMAP:11010"
+            }],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected on a FEI instrument: Quanta Family using the following parameters: Magnification: 5200x, Voltage: 10.0 kV, Detector: SE, Spot: 3.0 nA, and Working Distance: 10.50 mm."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 670
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 616
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {"free_text": "colorized"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "erythrocyte",
+                    "onto_id": "CL:0000232"
+                },
+                {
+                    "onto_name": "ciliated epithelial cell",
+                    "onto_id": "CL:0000067"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Colorized scanning electron micrograph of a mouse trachea and its red blood cells."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "FEI Life Science Images",
+                    "Href": "http://www.fei.com/resources/image-gallery/mouse-trachea-2278.aspx"
+                }],
+                "Contributors": ["Matthew Sharp"]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "EMAP:EMAP:11010"},
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

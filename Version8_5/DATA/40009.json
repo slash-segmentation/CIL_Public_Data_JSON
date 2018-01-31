@@ -1,0 +1,100 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40009.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40009.jpg",
+                "Size": 76032
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "IMAGINGMODE": {"onto_id": "FBbi:00000623"},
+            "CELLULARCOMPONENT": {
+                "onto_name": "synapse",
+                "onto_id": "GO:0045202"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Gallus gallus gallus",
+                "onto_id": "NCBITaxon:208526"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Embryonic day (E) 15 chicks or 2-year-old adult chickens were perfusion-fixed with 2% paraformaldehyde plus 2% glutaraldehyde in cacodylate buffer, pH 7.4. Ciliary ganglia were removed, transferred to fresh fixative, and incubated for 3 hr at room temperature. Adult ciliary ganglia were cut into 1 mm3 pieces. After being rinsed several times in 0.1 M sodium cacodylate buffer, pH 7.4, the tissue was treated for 30 min with 2% osmium tetroxide in 0.1 M sodium cacodylate and then counterstained with uranyl acetate. The ganglia were dehydrated in a series of ethanol solutions followed by two rinses in acetone, infiltrated with Durcupan ACM resin (Electron Microscopy Sciences, Fort Washington, PA), allowed to polymerize for 24 hr at 60° C, and then sectioned. For serial tomography a continuous series of 10 1-µm-thick sections was prepared to encompass a complete spine mat. For traditional thin section analysis 100-nm-thick sections were made."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "peripheral neuron",
+                "onto_id": "CL:0000111"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Computed slice through a tomographic reconstruction of the pre- and post-synaptic structures of the calycal synapse onto a chick ciliary ganglion neuron.  This slice was derived from the 3rd of 6 serial volumes comprising the entire reconstruction.  For more information, see: Shoop et al. Ultrastructure of a somatic spine mat for nicotinic signaling in neurons. J Neurosci. 2002 Feb 1;22(3):748-56. PMID: 11826104This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 3629",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3629"
+                }],
+                "Contributors": [
+                    "Rick Shoop",
+                    "Darwin Berg",
+                    "Mark Ellisman",
+                    "Naoko Yamada",
+                    "Ed Esquenazi"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

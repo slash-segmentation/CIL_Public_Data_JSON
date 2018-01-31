@@ -1,0 +1,97 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41640.jpg",
+                "Size": 3056233
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41640.tif",
+                "Size": 32300000
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "41640_orig.jpg",
+                "Size": 13095368
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41640.zip",
+                "Size": 13095506
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {"free_text": "chlorophyll"},
+            "BIOLOGICALPROCESS": {"free_text": "coral colony organization"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {"free_text": "autofluorescence"},
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "Montastraea annularis",
+                    "onto_id": "NCBITaxon:48500"
+                },
+                {"free_text": "symbiodinium"}
+            ],
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4072
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2636
+                }}
+            ],
+            "CELLTYPE": {"free_text": "polyps"},
+            "IMAGEDESCRIPTION": {"free_text": "Underwater image of live coral Montastraea annularis. Note polyp tissue (green) around the mouth and base of the tentacles and zooxanthellae or symbiodinium  (red fluorescence from chlorophyll) in the tissue between polyps. Tentacles also are visible. Fluorescence microscopy.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": [
+                    "2011 Olympus BioScapes Digital Imaging Competition®",
+                    "NOAA/NOS/NCCOS Center for Coastal Environmental Health & Biomolecular Research, Fort Johnson Marine Lab, Charleston, SC, USA"
+                ],
+                "URLs": [{
+                    "Label": "2011 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm43.html"
+                }],
+                "Contributors": ["James Nicholson"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,127 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40385.jpg",
+                "Size": 367873
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40385.zip",
+                "Size": 387415
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40385.tif",
+                "Size": 3300000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"free_text": "ethanol dehydration"},
+                {
+                    "onto_name": "critical_point dried specimen",
+                    "onto_id": "FBbi:00000581"
+                }
+            ],
+            "GROUP_ID": "11389",
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "starch grain",
+                    "onto_id": "GO:0043036"
+                },
+                {
+                    "onto_name": "chloroplast",
+                    "onto_id": "GO:0009507"
+                },
+                {
+                    "onto_name": "cell wall",
+                    "onto_id": "GO:0005618"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {"free_text": "plant stem organization"},
+                {
+                    "onto_name": "chloroplast localization",
+                    "onto_id": "GO:0019750"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Oryza sativa",
+                "onto_id": "NCBITaxon:4530"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected on a Zeiss DSM 962 SEM.  Complete specimen preparation protocol available at:\nhttp://remf.dartmouth.edu:8080/EM-Wiki/36"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1049
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron microscope image of longitudinal section of Oryza sativa (rice) stem. Image shows cuts through the vascular cells and cortex cells. Starch granules are visible inside the vascular cells and chloroplasts are visible inside the cortex cells. This image is part of a group on botanical stems (CIL:40378-40395)."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Dartmouth College EM Facility",
+                    "Href": "http://remf.dartmouth.edu/images/botanicalStemSEM/"
+                }],
+                "Contributors": ["Louisa Howard"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

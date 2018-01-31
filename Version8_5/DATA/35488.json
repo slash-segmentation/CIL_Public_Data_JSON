@@ -1,0 +1,110 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35488.tif",
+                "Size": 1500000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35488.jpg",
+                "Size": 0
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35488.zip",
+                "Size": 1422948
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "tissue in acrylic resin embedment",
+                "onto_id": "FBbi:00000017"
+            },
+            "GROUP_ID": "8687",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "reproduction",
+                    "onto_id": "GO:0000003"
+                },
+                {
+                    "onto_name": "apoptotic process",
+                    "onto_id": "GO:0006915"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Olea europaea",
+                "onto_id": "NCBITaxon:4146"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Sample embedded in Unicryl and stained with uranyl acetate. Image obtained by TEM."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1376,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.005
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1032,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.005
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Following unsuccessful pollination, cells from the Olive (Olea europaea L.) ovary start apoptosis."},
+            "CELLTYPE": {
+                "onto_name": "plant cell",
+                "onto_id": "CL:0000610"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {"Contributors": ["Cynthia G. Suárez"]},
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,97 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "45002.jpg",
+                "Size": 1619520
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "45002.tif",
+                "Size": 14800000
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Philodina roseola",
+                "onto_id": "NCBITaxon:96448"
+            },
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "retardance",
+                "onto_id": "FBbi:00000313"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "polarized light illumination",
+                "onto_id": "FBbi:00000350"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2560,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 400.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1920,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 240.0
+                    }
+                }}
+            ],
+            "CELLULARCOMPONENT": [
+                {"free_text": "ciliary ring"},
+                {
+                    "onto_name": "centrosomal corona",
+                    "onto_id": "GO:0031592"
+                },
+                {"free_text": "pharynx"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "This is a live image of the bdelloid rotifer Philodina roseola under 20x magnification. Bdelloid rotifers are microscopic freshwater invertebrates best known for their capacity to undergo frequent cycles of desiccation and rehydration, their long-term asexuality, which is manifested in the absence of males and meiosis, and the ability to capture foreign genetic material at levels unprecedented in metazoans. This image of an adult female emphasizes characteristic structures such as the ciliary ring, or corona, the pharynx with a mastax consisting of hard jaws (trophi), a set of circular and longitudinal muscles, bilateral ovaries with oocyte nuclei, and the parthenogenetically developing egg. The birefringence picture was taken with new video enhanced polychromatic polscope. An eye or camera can directly see the colored polarization image in real time through the ocular with brightness corresponding to retardance and color corresponding to the slow axis azimuth. Image size is 400x240µm."},
+            "CELLTYPE": {
+                "onto_name": "oocyte",
+                "onto_id": "CL:0000023"
+            },
+            "ATTRIBUTION": {
+                "OTHER": ["Marine Biological Laboratory, Woods Hole, MA"],
+                "Contributors": [
+                    "Michael Shribak",
+                    "Irina Arkhipova"
+                ]
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "organelle organization",
+                "onto_id": "GO:0006996"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "intrinsic birefringence",
+                "onto_id": "FBbi:00000594"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,105 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "41131_orig.jpg",
+                "Size": 850509
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41131.zip",
+                "Size": 850647
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41131.jpg",
+                "Size": 371020
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41131.tif",
+                "Size": 1300000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "GROUP_ID": "11769",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {"free_text": "phage head"},
+                {"free_text": "phage tail"},
+                {"free_text": "phage tail fibers"}
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "bacteriophage structure"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Enterobacteria phage T4",
+                "onto_id": "NCBITaxon:10665"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Images collected on a JEOL 1010 TEM.  Please refer to http://remf.dartmouth.edu:8080/EM-Wiki for details on specimen preparation."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1184
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron microscope image of T4Phage, a bacteriophage that infects Escherichia coli bacteria.  This image is part of an image group (CIL:41124-41131)."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Dartmouth EM Facility",
+                    "Href": "http://remf.dartmouth.edu/Microbiology_miscellaneous/"
+                }],
+                "Contributors": ["Louisa Howard"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

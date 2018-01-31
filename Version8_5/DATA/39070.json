@@ -1,0 +1,118 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39070.jpg",
+                "Size": 119500
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39070_orig.jpg",
+                "Size": 217372
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39070.zip",
+                "Size": 217510
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39070.tif",
+                "Size": 1400000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "bright-field microscopy",
+                "onto_id": "FBbi:00000243"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "microvillus",
+                    "onto_id": "GO:0005902"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "renal system process",
+                    "onto_id": "GO:0003014"
+                },
+                {
+                    "onto_name": "kidney morphogenesis",
+                    "onto_id": "GO:0060993"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007543 Kidney cortex.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 560
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "toluidine blue",
+                "onto_id": "FBbi:00000049"
+            },
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "This light micrograph shows a transverse section of a region of mouse kidney cortex stained with toluidine blue. The kidney is made up of two distinct tissue regions: the medulla and the cortex. The nephrons are the functional units of the kidney and produce urine; they span both the medulla and the cortex. The medulla is the inner most region and contains the part of the nephron called the loop of Henle that is involved in the reabsorbtion of water. The cortex is present around the outside of the medulla and contains regions of the nephron called the proximal and distal convoluted tubules and glomerulus. This is where blood is filtered and the balance of irons and nutrients is maintained. In this image, the top left hand corner shows about a quarter of a Bowman's capsule, with capillaries and sections of red blood cells. The right hand side shows a cross section of a proximal convoluted tubule (PCT). The epithelial cells that form its walls are full of mitochondria. The PCT is also fringed with microvilli extending in to the lumen of the tubule, which greatly increase the surface area for absorption."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["iSpike Walker"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

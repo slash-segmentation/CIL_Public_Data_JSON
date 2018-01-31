@@ -1,0 +1,105 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41313.tif",
+                "Size": 1600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41313.jpg",
+                "Size": 69965
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {"free_text": "total internal reflection microscopy (TIRF)"},
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "primary cilium",
+                    "onto_id": "GO:0072372"
+                },
+                {"free_text": "acetylated tubulin"},
+                {"free_text": "P-75"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                }
+            ],
+            "CELLLINE": {
+                "onto_name": "MDCK-II",
+                "onto_id": "MCC:0000321"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Canis lupus familiaris",
+                "onto_id": "NCBITaxon:9615"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Cells were grown for 5 days prior to imaging with apical TIRF microscopy.  Images were taken with a Leica AM TIRF MC. Penetration depth: 90 nmImage collected using a True MultiColor Laser TIRF Leica AM TIRF MC. See http://www.leica-microsystems.com/science-lab/protein-transport-processes-at-the-apical-membrane-of-polarized-epithelial-cells-applications-for-tirf-microscopy/ for additional details."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 709
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 708
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Total internal reflection (TIRF) micrograph of MDCK cells stably transfected with the apical membrane protein P75-GFP (green) and stained for acetylated tubulin of the primary cilium (red) by immunofluorescence."},
+            "ATTRIBUTION": {"Contributors": [
+                "Christoph Greb",
+                "Ralf Jacob",
+                "Anja Schu"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

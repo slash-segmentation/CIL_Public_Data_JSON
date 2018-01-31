@@ -1,0 +1,148 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "686.zip",
+                "Size": 23665028
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "686.jpg",
+                "Size": 4021603
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "686.tif",
+                "Size": 23500000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "tissue in plastic embedment",
+                    "onto_id": "FBbi:00000016"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                }
+            ],
+            "GROUP_ID": "11395",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "chloroplast",
+                    "onto_id": "GO:0009507"
+                },
+                {
+                    "onto_name": "etioplast",
+                    "onto_id": "GO:0009513"
+                },
+                {
+                    "onto_name": "plastid part",
+                    "onto_id": "GO:0044435"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "C4 photosynthesis",
+                    "onto_id": "GO:0009760"
+                },
+                {
+                    "onto_name": "plastid organization",
+                    "onto_id": "GO:0009657"
+                },
+                {
+                    "onto_name": "chloroplast organization",
+                    "onto_id": "GO:0009658"
+                },
+                {
+                    "onto_name": "etioplast organization",
+                    "onto_id": "GO:0009662"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Zea mays",
+                "onto_id": "NCBITaxon:4577"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Zea mays seeds were germinated in the dark, briefly exposed to light, and segments of coleoptile, excised, fixed with glutataldehyde, post-fixed with osmuim tetroxide, and embedded in epoxy resin.  Thin sections were cut, stained with uranyl acetate and lead citrate, and observed using a Philips 300 transmission EM.  Images were recorded on film."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4183,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.5
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2804,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.5
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": {"free_text": "raw unprocessed image"},
+            "IMAGEDESCRIPTION": {"free_text": "The plastids of plants germinated in the dark are termed etioplasts and possess quasi-crystalline structures termed prolammelar bodies that contain the phospholipid materials and chlorophyll precursors that are converted to green chloroplasts in response to light. The micrograph shows a corn (Zea mays) etioplast fixed after brief exposure to light. The prolamellar body has largely disappeared and thylakoid membranes are starting to form and stack."},
+            "CELLTYPE": {
+                "onto_name": "photosynthetic cell",
+                "onto_id": "CL:0000628"
+            },
+            "ATTRIBUTION": {"Contributors": ["Chris Woodcock"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

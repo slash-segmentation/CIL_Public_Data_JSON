@@ -1,0 +1,62 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "48501.jpg",
+                "Size": 398664
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "48501.tif",
+                "Size": 3500000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "48501.zip",
+                "Size": 1133646
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {"onto_id": "ATCC Catalog No: 23779"},
+            "TECHNICALDETAILS": {"free_text": "Equipment used: We used newly developed orientation-independent differential interference contrast (OI-DIC) technique (US Patent 7564618). The image was taken by Olympus BX-61 microscope equipped with 40x/0.75NA objective lens."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 206.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 143.0
+                    }
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "IMAGEDESCRIPTION": {"free_text": "Biological Context and Probe: Herpetosiphon aurantiacus is a filamentous non-phototrophic bacterium that exhibits gliding motility and is capable of predation on other bacteria. The picture brightness is linearly proportional to the dry mass distribution."},
+            "ATTRIBUTION": {"Contributors": [
+                "Michael Shribak",
+                "Irina Arkhipova"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {"free_text": "quantitative differential interference contrast microscopy"}
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

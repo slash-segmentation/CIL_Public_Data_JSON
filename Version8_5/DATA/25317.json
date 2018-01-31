@@ -1,0 +1,102 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25317.jpg",
+                "Size": 1860449
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25317.zip",
+                "Size": 14052472
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "25317.tif",
+                "Size": 14000000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {"free_text": "acetic acid treatment"}
+            ],
+            "GROUP_ID": "6821",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "polytene chromosome",
+                "onto_id": "GO:0005700"
+            },
+            "RELATIONTOINTACTCELL": {"free_text": "squashed preparation"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4030,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1727,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.0
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "fat body cell",
+                "onto_id": "CL:0000565"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Fat body cells from larvae of Drosophila melanogaster were dissected, fixed with formalin-acetic acid, and squashed on a glass slide. After freezing in liquid nitrogen, the cover slips removed, and the slide thawed and stained with 1% uranyl acetate, rinsed in 50% ethanol, dehydrated, transferred to amyl acetate, and covered with 2% parlodion in amyl acetate. Selected areas of the parlodion film, are transferred to formvar coated EM grids, and the parlodion removed by immersion in amyl acetate (see Ris H, 1981 Stereoscopic Electron Microscopy of Chromosomes, Meth Cell Biol 22:77-96). Grids were observed using the Madison High Voltage Electron Microscope at 1 MeV. \n\nImage shows a series of bands and interbands in a polytene chromosome. This image was taken with a tilt angle of 55 degrees. The accompanying grouped image, taken at 45 degrees forms a stereo pair, providing an oblique 3D view of the chromosome."},
+            "ATTRIBUTION": {"Contributors": ["Hans Ris"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

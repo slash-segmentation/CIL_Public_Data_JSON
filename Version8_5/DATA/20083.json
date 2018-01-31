@@ -1,0 +1,85 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "20083.zip",
+                "Size": 48515
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "20083.tif",
+                "Size": 2000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "20083.jpg",
+                "Size": 79225
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "5424",
+            "IMAGINGMODE": {
+                "onto_name": "camera lucida assisted graphic",
+                "onto_id": "FBbi:00000228"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "embryo development",
+                "onto_id": "GO:0009790"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {"free_text": "differences in absorption of light"},
+            "CELLLINE": {
+                "onto_name": "Embryo",
+                "onto_id": "FMA:69068"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Danio rerio",
+                "onto_id": "NCBITaxon:7955"
+            },
+            "PARAMETERIMAGED": {"free_text": "reflection of illumination"},
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "camera lucida assisted graphic",
+                "onto_id": "FBbi:00000228"
+            },
+            "PROCESSINGHISTORY": {"free_text": "scanned drawing"},
+            "IMAGEDESCRIPTION": {"free_text": "Camera lucida sketches of the zebrafish embryo at selected stages. This image is in the Gastrula period at the 10 hour bud stage. The animal pole is to the top for the early stages, and anterior is to the top later, except for the two animal polar (AP) views shown below their side view counterparts for germ-ring and shield gastrulas. Face views are shown during cleavage and blastula stages. After shield stage, the views are of the embryo's left side, but before the shield arises one cannot reliably ascertain which side is which. Pigmentation is omitted. Arrowheads indicate the early appearance of some key diagnostic features at the following stages: 1 k-cell: YSL nuclei. Dome: the doming yolk syncytium. Germ ring: germ ring. Shield: embryonic shield. 75%-epiboly: Brachet's cleft. 90%-epiboly: blastoderm margin closing over the yolk  plug. Bud: polster. 3-somite: third somite. 6-somite: eye primordium (upper arrow), Kupffer's vesicle (lower). 10-somite: otic placode. 21-somite: lens primordium. Prim-6: primordium of the posterior lateral line (on the dorsal side), hatching gland (on the yolk ball). Prim-16: heart. High-pec: pectoral fin bud. Composite image CIL: 20098 is a low resolution image with a  scale bar = 250 microns that shows the entire set of image.\nImages correspond to Fig 1 of Developmental Dynamics 203:253-310 (1995).  This material is reproduced with permission of John Wiley & Sons, Inc.  Copyright 1995 WILEY-LISS, INC."},
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Developmental Dynamics 203:253-310 (1995)"],
+                "Contributors": [
+                    "Charles B. Kimmel",
+                    "William W. Ballard",
+                    "Seth R. Kimmel",
+                    "Bonnie Ullmann",
+                    "Thomas F. Schilling"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "graphic illustration",
+                "onto_id": "FBbi:00000223"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

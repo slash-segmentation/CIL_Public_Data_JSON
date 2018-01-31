@@ -1,0 +1,162 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "31923.flv",
+                "Size": 387373
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "31923.zip",
+                "Size": 2662528
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "31923.jpg",
+                "Size": 30923
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "9275",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                },
+                {
+                    "onto_name": "time lapse microscopy",
+                    "onto_id": "FBbi:00000249"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "endocytic vesicle",
+                    "onto_id": "GO:0030139"
+                },
+                {
+                    "onto_name": "cytoskeleton",
+                    "onto_id": "GO:0005856"
+                },
+                {
+                    "onto_name": "actin cortical patch",
+                    "onto_id": "GO:0030479"
+                },
+                {
+                    "onto_name": "actin filament",
+                    "onto_id": "GO:0005884"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "receptor-mediated endocytosis",
+                    "onto_id": "GO:0006898"
+                },
+                {
+                    "onto_name": "actin cortical patch assembly",
+                    "onto_id": "GO:0000147"
+                },
+                {
+                    "onto_name": "actin filament bundle assembly",
+                    "onto_id": "GO:0051017"
+                },
+                {
+                    "onto_name": "formin-nucleated actin cable assembly",
+                    "onto_id": "GO:0070649"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Saccharomyces cerevisiae",
+                "onto_id": "NCBITaxon:4932"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "S. cerevisiae (Mata his3-Δ200 leu2-3, 112 ura3-52 bar1Δ::LEU2 bni1-12::URA3 bnr1Δ::KanMX6 ABP140-3GFP::HIS3) were grown to an OD600 of 0.2 in 1.25 ml of YPD, briefly centrifuged, and resuspended in 50 μl of synthetic media (SM) with 1% (wt/vol) BSA and 5 μM Alexa-α-factor. After incubation on ice for 2 h, cells were washed into ice-cold SM containing 1% BSA. Internalization was initiated by the addition of ice-cold SM containing 4% Glucose and amino acids and then transferring cells to a glass slide at room temperature. Simultaneous imaging of red and green fluorescence was performed by using an Olympus IX81 microscope equipped with a ×100/NA 1.45 (Olympus) objective, Orca-ER cooled CCD camera (Hamamatsu), and an image splitter (Dual-View; Optical Insights) that divided the red and green components of the images with a 565-nm dichroic mirror and passed the red component through a 630/50-nm filter and the green component through a 530/30-nm filter."},
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "actin binding",
+                    "onto_id": "GO:0003779"
+                },
+                {
+                    "onto_name": "actin filament binding",
+                    "onto_id": "GO:0051015"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 600
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 200
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "51",
+                    "value": 1.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Alexa Fluor 594",
+                    "onto_id": "FBbi:00000444"
+                },
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Localization of Alexa Fluor-594-α-factor-labeled endosomes (center; red in merge) and Abp140-3GFP (left; green in merge)  in bni1-12 bnr1Δ cell. Abp140p binds F-actin and localizes to actin patches and cables. The yeast formins Bni1p and Bnr1p promote actin cable assembly. To test how the loss of actin cables affects endosome motility, we expressed Abp140p-3GFP in bni1\u201312 bnr1Δ cells that display normal-looking actin cables at 20°C but that rapidly lose actin cables when switched to the nonpermissive temperature. The prominent Abp140-3GFP-labeled actin cables that normally align with the mother\u2013daughter axis disappeared at 37°C. Tracking and quantification of early endosome movements revealed that endosome velocity in this mutant is markedly decreased at 37°C, whereas the velocity at 20°C is similar to that in wild-type cells. Interval between frames is 1 s. Fig 3C and Movie 8 from Toshima et al."},
+            "DATAQUALIFICATION": {"free_text": "RAW;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Proc Natl Acad Sci. 2006. 103: 5793-5798."],
+                "Contributors": [
+                    "Junko Y. Toshima",
+                    "Jiro Toshima",
+                    "Marko Kaksonen",
+                    "Adam C. Martin",
+                    "David S. King",
+                    "David G. Drubin"
+                ],
+                "PUBMED": ["16574772"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

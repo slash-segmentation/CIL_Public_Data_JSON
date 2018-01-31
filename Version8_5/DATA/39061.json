@@ -1,0 +1,143 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39061.zip",
+                "Size": 105423
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39061.tif",
+                "Size": 1000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39061.jpg",
+                "Size": 103339
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39061_orig.jpg",
+                "Size": 105285
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                {
+                    "onto_name": "permeabilized tissue",
+                    "onto_id": "FBbi:00000093"
+                }
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "actin filament",
+                    "onto_id": "GO:0005884"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cytoskeleton organization",
+                    "onto_id": "GO:0007010"
+                },
+                {
+                    "onto_name": "mitochondrion organization",
+                    "onto_id": "GO:0007005"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Bos taurus",
+                "onto_id": "NCBITaxon:9913"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007569 Confocal micrograph 2009.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 550
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "CMX rosamine (Mitotracker Red)",
+                    "onto_id": "FBbi:00000054"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "This image shows a bovine pulmonary artery endothelial cell. The pulmonary artery is the large vessel that takes deoxygenated blood cells from the heart to the lungs. These cells have been stained with DAPI to highlight the nucleus (blue), MitoTracker Red CMXRos to stain mitochondria (red dots), and Alexafluor 488 phalloidin to label F-actin filaments in the cell that make up the cytoskeleton."},
+            "CELLTYPE": {
+                "onto_name": "blood vessel endothelial cell",
+                "onto_id": "CL:0000071"
+            },
+            "ATTRIBUTION": {
+                "OTHER": ["University of Aberdeen"],
+                "URLs": [{
+                    "Label": "wellcome images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["kevin MacKenzie"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

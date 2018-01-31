@@ -1,0 +1,91 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40256.tif",
+                "Size": 600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40256.jpg",
+                "Size": 57698
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"onto_id": "FBbi:00000621"}
+            ],
+            "GROUP_ID": "12254",
+            "IMAGINGMODE": {"onto_id": "FBbi:00000623"},
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "node of Ranvier",
+                    "onto_id": "GO:0033268"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus norvegicus",
+                "onto_id": "NCBITaxon:10116"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Chemical fixation with 2% paraformaldehyde and 2.5% glutaraldehyde via vascular perfusion in 0.15M cacodylate buffer (pH 7.4) at 37 degrees C followed by high pressure freezing and freeze substitution using a Bal Tec HPM010 high pressure freezer (from Perkins et al., J. Structural Biology 161, 469, 2008)."},
+            "DIMENSION": [
+                {"Space": {"axis": "X"}},
+                {"Space": {"axis": "X"}}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "peripheral neuron",
+                "onto_id": "CL:0000111"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single computed slice through a tomographic volume of mitochondria at the Node of Ranvier in rat peripheral nerve root.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information, see: Perkins et al. Mitochondrial configurations in peripheral nerve suggest differential ATP production. J. Struct. Biol. (2010), doi:10.1016/j.jsb.2010.06.017 http://www.ncbi.nlm.nih.gov/pubmed/20600951"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 8140",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=8140"
+                }],
+                "Contributors": [
+                    "Mark H. Ellisman",
+                    " Guy A. Perkins"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

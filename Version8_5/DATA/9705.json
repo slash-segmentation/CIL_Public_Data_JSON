@@ -1,0 +1,192 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "9705.tif",
+                "Size": 35600000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "9705.zip",
+                "Size": 37700886
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "9705.jpg",
+                "Size": 7711723
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "3756",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cilium axoneme",
+                    "onto_id": "GO:0035085"
+                },
+                {
+                    "onto_name": "axonemal microtubule",
+                    "onto_id": "GO:0005879"
+                },
+                {
+                    "onto_name": "axonemal dynein complex",
+                    "onto_id": "GO:0005858"
+                },
+                {"free_text": "adoral zone of membranelles"},
+                {
+                    "onto_name": "plasma membrane",
+                    "onto_id": "GO:0005886"
+                },
+                {"free_text": "alveolar membranes"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cilium movement",
+                    "onto_id": "GO:0003341"
+                },
+                {
+                    "onto_name": "ciliary or flagellar motility",
+                    "onto_id": "GO:0001539"
+                },
+                {
+                    "onto_name": "ciliary cell motility",
+                    "onto_id": "GO:0060285"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "CELLLINE": {"free_text": "Euplotes sp. from Carolina Biological Supply"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Euplotes sp.",
+                "onto_id": "NCBITaxon:178273"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "MOLECULARFUNCTION": {
+                "onto_name": "structural molecule activity",
+                "onto_id": "GO:0005198"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4894,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.78
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 6302,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.78
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A high resolution image of the cilia of a membranelle of the AZM (adoral zone of membranelles) have well defined doublets, singlets and dynein arms as well as spokes. Euplotes has a plasma membrane which covers a very flat and electron opaque alveolar sac. The alveolar sac membrane appears less opaque than the alveolar content. The septum between alveoli forms a slight bulge in the cell surface. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. TEM taken on 7/29/67 by R. Allen with Philips 200 operating at 60kV. Neg. 28,000X. The raw negative was scanned with an Epson Perfection V750 Pro. This image is best used for quantitative analysis. Additional information is available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {"Contributors": ["Richard Allen"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

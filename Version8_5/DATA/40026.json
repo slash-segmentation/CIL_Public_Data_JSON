@@ -1,0 +1,85 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40026.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40026.jpg",
+                "Size": 54658
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Caulobacter crescentus CB15",
+                "onto_id": "NCBITaxon:190650"
+            },
+            "PREPARATION": [
+                {
+                    "onto_name": "acrolein fixed tissue",
+                    "onto_id": "FBbi:00000005"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "TECHNICALDETAILS": {"free_text": "Caulobacteria were induced for 1 hour at 30 degrees C, labeled in M2G medium for 2 hours at 30 degrees C (in the presence of 1.8 micromolar ReAsH-EDT2) and photoconverted.\n\nSamples were fixed with 2.5% glutaraldehyde with 1% acrolein in 0.05M sodium cacodylate pH 7.4 with 3 mM CaCl2 and 1 % sucrose followed by conventional osmium tetroxide/potassium ferrocyanide post-fixation, dehydration and embedding, and sectioning at 4µm thickness.  A single tilt series of images were acquired using a JEOL 4000, from -60 to 60° at 2° increments, magnification, 40000.0."},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "IMAGINGMODE": {"onto_id": "FBbi:00000623"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A maximum intensity projection of a Caulobacter crescentus specimen at 0 degree tilt."},
+            "CELLTYPE": {
+                "onto_name": "prokaryotic cell",
+                "onto_id": "CL:0000520"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 3700",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3700"
+                }],
+                "Contributors": [
+                    "Lucy Shapiro",
+                    " Harley McAdams"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

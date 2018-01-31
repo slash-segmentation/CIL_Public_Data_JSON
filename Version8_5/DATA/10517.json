@@ -1,0 +1,106 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "10517.tif",
+                "Size": 27300000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10517.zip",
+                "Size": 27273841
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10517.jpg",
+                "Size": 116685
+            }
+        ],
+        "CORE": {
+            "GROUP_ID": "5577",
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "CELLLINE": {"free_text": "Toxoplasma gondii RH"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Toxoplasma gondii RH",
+                "onto_id": "NCBITaxon:383379"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.1083
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.1083
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 13,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.3
+                    }
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "IMAGEDESCRIPTION": {"free_text": "DIC z-series of extracellular Toxoplasma gondii. T. gondii tachyzoites (strain RH) were cultivated in human foreskin fibroblast cells and parasites were harvested soon after emerging from host cells. Images acquired using API DeltaVision on a Olympus IX70 inverted microscope. Objective: Olympus 60X water immersion, 1.2 NA. Captured with CoolSnapHQ/ICX285.\n\nUnpublished image that is similar to images published in PMID: 16518471. See publication for other experimental details."},
+            "PATHOLOGICALPROCESS": [
+                {"onto_id": "DOID:DOID:9965"},
+                {"onto_id": "IDO:IDO:0000038"}
+            ],
+            "ATTRIBUTION": {"Contributors": ["John Murray (University of Pennsylvania)"]},
+            "HUMAN_DISEASE": [{
+                "onto_name": "toxoplasmosis",
+                "onto_id": "DOID:9965"
+            }],
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

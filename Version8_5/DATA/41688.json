@@ -1,0 +1,136 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41688.tif",
+                "Size": 9200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41688.jpg",
+                "Size": 509450
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41688.zip",
+                "Size": 9187734
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                {
+                    "onto_name": "permeabilized tissue",
+                    "onto_id": "FBbi:00000093"
+                }
+            ],
+            "GROUP_ID": "12051",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "microtubule cytoskeleton",
+                    "onto_id": "GO:0015630"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "organelle organization",
+                    "onto_id": "GO:0006996"
+                },
+                {
+                    "onto_name": "cytoskeleton organization",
+                    "onto_id": "GO:0007010"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "CELLLINE": {
+                "onto_name": "U-2 OS",
+                "onto_id": "MCC:0000468"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "The use of data and images from this site in publications and presentations is permitted provided that the following conditions are met: The publication and/or presentation are solely for informational and non-commercial purposes. The source of the data and/or image is referred to this site (www.proteinatlas.org) and/or the above publication is cited."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1816
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1682
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "primary antibody plus labeled secondary antibody",
+                "onto_id": "FBbi:00000156"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single slice confocal images representing one optical slice of a cell stained for the Human Protein Atlas (HPA) antibody HPA026995 (shown in green). HPA026995is a polyclonal anti-POMP antibody that labels spots in the nuclei. The cells are also stained with reference markers in order to facilitate the annotation of the subcellular distribution of the protein targeted by the HPA antibody. The following probes/organelles are used as references; (i) DAPI for the nucleus (blue) and (ii) anti-tubulin antibody as internal control and marker of microtubules (red)."},
+            "CELLTYPE": {"free_text": "osteocarcinoma"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Human Protein Atlas",
+                    "Href": "http://www.proteinatlas.org/ENSG00000132963/subcellular"
+                }],
+                "PUBLISHED": ["Nat Biotechnol. 2010 28(12):1248-50."],
+                "Contributors": [
+                    "M Uhlen",
+                    "P Oksvold",
+                    "L Fagerberg",
+                    "E Lundberg",
+                    "K Jonasson",
+                    "M Forsberg",
+                    "M Zwahlen",
+                    "C Kampf",
+                    "K Wester",
+                    "S Hober",
+                    "H Wernerus",
+                    "L Björling",
+                    "F Ponten"
+                ],
+                "PUBMED": ["21139605"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

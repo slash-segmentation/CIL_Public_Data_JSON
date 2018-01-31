@@ -1,0 +1,85 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41456.zip",
+                "Size": 7541334
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41456.tif",
+                "Size": 21300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41456.jpg",
+                "Size": 1595566
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "interference contrast",
+                "onto_id": "FBbi:00000330"
+            },
+            "CELLULARCOMPONENT": {"free_text": "diatom valve"},
+            "BIOLOGICALPROCESS": {"free_text": "diatom valve organization"},
+            "RELATIONTOINTACTCELL": {"free_text": "tissue in styrax resin"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "diatom"},
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3072
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2304
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Fossil of an extinct diatom from Tertiary deposits in Dunkirk, Maryland. The diatom is approximately 80 microns in diameter.  The image is of a diatom valve (two valves and a girdle band compose a diatom frustule or shell).  The image was captured using Zeiss Jamin-Lebedeff Interference Contrast with a 40x objective. The image is of a diatom valve.  Digital image stacking was also used to provide a greater depth of focus than would be possible with a single exposure. It is a stack of three separate exposures processed through Helicon Focus, which extracts pixels in focus in each image and then outputs a composite.\nThird Prize, 2008 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["Helena, MT, USA"],
+                "URLs": [{
+                    "Label": "2008 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2008/3.html"
+                }],
+                "Contributors": [
+                    "Stephen S. Nagy",
+                    "2008 Olympus BioScapes Digital Imaging Competition®",
+                    "Montana Diatoms"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

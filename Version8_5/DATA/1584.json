@@ -1,0 +1,132 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "1584.zip",
+                "Size": 1070186
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "1584.tif",
+                "Size": 1100000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "1584.jpg",
+                "Size": 155450
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                }
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "striated muscle dense body",
+                    "onto_id": "GO:0055120"
+                },
+                {"free_text": "alpha-actinin"},
+                {"free_text": "Z-line component"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "striated muscle contraction",
+                    "onto_id": "GO:0006941"
+                },
+                {
+                    "onto_name": "cytoskeleton organization",
+                    "onto_id": "GO:0007010"
+                }
+            ],
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Gallus gallus gallus",
+                "onto_id": "NCBITaxon:208526"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "actin binding",
+                    "onto_id": "GO:0003779"
+                },
+                {"free_text": "actin cross-linking"}
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.067
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.067
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "Alexa Fluor 546",
+                "onto_id": "FBbi:00000441"
+            },
+            "CELLTYPE": [
+                {
+                    "onto_name": "early embryonic cell",
+                    "onto_id": "CL:0000007"
+                },
+                {
+                    "onto_name": "cardiac muscle cell",
+                    "onto_id": "CL:0000746"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Cultured chicken embryonic cardiomyocyte fixed and stained for alpha-actinin using a monoclonal antibody and Alexa-546 as a secondary fluorescent antibody. Imaged by widefield epifluorescence on a Zeiss Axioplan microscope with a 63x objective. Image taken with a Hamamatsu Orca-ER CCD camera. Scale bar is 6um."},
+            "ATTRIBUTION": {"Contributors": ["Caroline McKeown"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

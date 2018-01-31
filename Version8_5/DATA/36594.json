@@ -1,0 +1,131 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36594.tif",
+                "Size": 1217600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36594.jpg",
+                "Size": 934816
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36594.zip",
+                "Size": 1231258317
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {
+                    "onto_name": "spindle",
+                    "onto_id": "GO:0005819"
+                },
+                {
+                    "onto_name": "aster",
+                    "onto_id": "GO:0005818"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                {
+                    "onto_name": "cytokinesis after mitosis",
+                    "onto_id": "GO:0000281"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Danio rerio",
+                "onto_id": "NCBITaxon:7955"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Images were collected on a Zeiss LSM 710 with a 20X 1.0 NA objective."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2048,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.2595
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2048,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.2595
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 10,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 4.915
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "4D video of zebrafish embryo mitosis and cytokinesis.   This time lapse video of z-series images was taken of a zebrafish embryo expressing EMTB-3XGFP (a microtubule marker) taken shortly after fertilization."},
+            "CELLTYPE": {"free_text": "embryo"},
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {"Contributors": [
+                "Martin Wuehr",
+                "Timothy Mitchison"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": true,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

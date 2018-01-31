@@ -1,0 +1,103 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39040.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39040.jpg",
+                "Size": 104587
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39040.zip",
+                "Size": 200286
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39040_orig.jpg",
+                "Size": 200148
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "modes of light microscopy",
+                "onto_id": "FBbi:00000345"
+            },
+            "CELLULARCOMPONENT": [
+                {"free_text": "coenobium"},
+                {
+                    "onto_name": "flagellum",
+                    "onto_id": "GO:0019861"
+                },
+                {
+                    "onto_name": "chloroplast",
+                    "onto_id": "GO:0009507"
+                },
+                {"free_text": "eye spot"}
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "colonization of cells"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in intrinsic optical density",
+                "onto_id": "FBbi:00000602"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Volvox",
+                "onto_id": "NCBITaxon:3066"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0007738 Volvox.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 554
+                }}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Light micrograph of volvox.  Volvox are a relatively large (approximately 500 µm) green algae. They consist of hollow spherical colonies with up to 15,000 cells embedded in their gelatinous walls.  Each cell within the colony has a chloroplast, two flagella and a red 'eyespot'. The locomotory cells of volvox globator are rather irregularly spaced, with protoplasmic interconnections seen here connecting the cells. Smaller daughter colonies, sexual or asexual, may be seen swimming within the parent coenobium. Two parent coenobium can been seen as large slightly out of focus green masses in this image."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Spike Walker"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

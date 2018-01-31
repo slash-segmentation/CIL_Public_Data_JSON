@@ -1,0 +1,183 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "17442.jpg",
+                "Size": 2042074
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "17442.zip",
+                "Size": 11558742
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "17442.tif",
+                "Size": 5800000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "4846",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell cortex",
+                    "onto_id": "GO:0005938"
+                },
+                {
+                    "onto_name": "axoneme",
+                    "onto_id": "GO:0005930"
+                },
+                {
+                    "onto_name": "cortical cytoskeleton",
+                    "onto_id": "GO:0030863"
+                },
+                {
+                    "onto_name": "clathrin coat",
+                    "onto_id": "GO:0030118"
+                },
+                {"free_text": "cortical striated fiber"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cortical cytoskeleton organization",
+                    "onto_id": "GO:0030865"
+                },
+                {
+                    "onto_name": "plasma membrane organization",
+                    "onto_id": "GO:0007009"
+                },
+                {
+                    "onto_name": "clathrin coat assembly",
+                    "onto_id": "GO:0048268"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium multimicronucleatum",
+                "onto_id": "NCBITaxon:44030"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2700
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2142
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Print from negative scanned for Photoshop."}
+            ],
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "This EM features the striated bands that link the membranes under the surface depressions of the cortex. The bands insert into the epiplasm, and in this case, they separate to pass around the parasomal sacs  which lie to the right of a row of basal body/cilium complexes. The bands have relatively electron transparent zones next to the epiplasm that lie next to more opaque zones which are in turn separated by a central medium electron transparent zone. This differential banding suggests an overlap of filaments in the two more opaque zones, but there is no evidence of a muscle-like actomyosin system. These bands probably provide tension and keep the cortical ridges from flattening. If contractile they could account for the cell\u2019s ability to alter its shape when swimming through constricted regions. For details on the striated bands in Paramecium see Allen, J. Cell Biol. 49:1-20, 1971 and Allen, Aihara and Fok, J. Euk . Microbiol. 45:202-209, 1998. This image is adapted with permission from Fig. 14 in J. Cell Biol. 49:1-20, 1971. TEM taken on 12/18/68 by R. Allen with Philips 300 operating at 60kV. Neg. 16,000X. Bar = 0.5µm. The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. An unprocessed, high resolution version of this image (CIL:12071) is in the library and available for quantitative analysis. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J. Cell Biol. 49:1-20, 1971"],
+                "Contributors": ["Richard Allen (University of Hawaii)"],
+                "PUBMED": ["4102004"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

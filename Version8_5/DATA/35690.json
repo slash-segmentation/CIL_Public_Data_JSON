@@ -1,0 +1,152 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35690.tif",
+                "Size": 64100000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35690.jpg",
+                "Size": 33634
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35690.zip",
+                "Size": 64794582
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "10625",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {"free_text": "MAD2 protein"},
+                {
+                    "onto_name": "mitotic checkpoint complex",
+                    "onto_id": "GO:0033597"
+                },
+                {
+                    "onto_name": "nuclear pore",
+                    "onto_id": "GO:0005643"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "chromosome decondensation",
+                    "onto_id": "GO:0051312"
+                },
+                {
+                    "onto_name": "mitotic cell cycle G2/M transition decatenation checkpoint",
+                    "onto_id": "GO:0070683"
+                },
+                {
+                    "onto_name": "mitotic cell cycle spindle assembly checkpoint",
+                    "onto_id": "GO:0007094"
+                }
+            ],
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Saccharomyces cerevisiae",
+                "onto_id": "NCBITaxon:4932"
+            },
+            "TECHNICALDETAILS": {"free_text": "Time-lapse images were collected on a DeltaVision system (Olympus IX71) with 60x/1.42 NA objective at 5 minute intervals.  Please see the microscopy section in the referenced manuscript for details for image analysis."},
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 213.4
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 213.4
+                    }
+                }},
+                {"Time": {
+                    "unit": "microns",
+                    "frame": "61",
+                    "value": 300.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A time lapse experiment of Saccharomyces cerevisiae expressing GFP tagged MAD2.  \n\nMAD2 is a non-essential gene that encodes a component of the spindle checkpoint.  The spindle checkpoint delays the onset of anaphase in cells with defects in mitotic spindle assembly or in the attachment of chromosomes to the spindle microtubules.  The checkpoint works by inhibiting the activity of the anaphase promoting complex, thereby preventing the degradation of several cell cycle regulators.  Like other spindle checkpoint mutants, mad2 loss-of-function mutants are sensitive to benomyl and cannot delay cell division in response to spindle depolymerization.  Mad2p forms a tight complex with another spindle checkpoint protein, Mad1p, throughout the cell cycle.  Mad2p also forms a complex with Cdc20p, which activates the anaphase promoting complex, and Mad3p; the presence of Mad1p is required for the complex to form.  Bub1p, Bub3p, Mad1p, Mad2p, Mad3p, and the protein kinase Mps1p act in a branch of the spindle checkpoint pathway that may prevent premature chromosome disjunction.  A second branch involves Bub2p and Bfa1p, and may prevent cytokinesis prior to chromosome segregation.  Homologs of Mad2p act in the spindle checkpoint in Xenopus (Xmad2) and human (MAD2L1 and MAD2L2.  MAD2 was originally identified as the open reading frame YJL031C.  However, it is now known that MAD2 corresponds to the adjacent open reading frame YJL030W, while YJL031C encodes the geranylgeranyltransferase subunit Bet4p.\n\nThese phase, gfp images are part of an image group that ranges from CIL:35680-35699. Note that there are additional groups showing time series of other cell cycle regulation proteins by the same authors in the Library."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["PLoS One. 2011;6(10):e26272. Epub 2011 Oct 26."],
+                "Contributors": [
+                    "David Ball",
+                    "Jean Peccoud"
+                ],
+                "PUBMED": ["22046265"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": true,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

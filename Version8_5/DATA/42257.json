@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "42257.tif",
+                "Size": 3200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "42257.jpg",
+                "Size": 241962
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "12702",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "actin filament",
+                    "onto_id": "GO:0005884"
+                },
+                {"free_text": "MAP1B"},
+                {
+                    "onto_name": "neuron projection",
+                    "onto_id": "GO:0043005"
+                }
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "digestive tract innervation"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "primary antibody plus labeled secondary antibody",
+                "onto_id": "FBbi:00000156"
+            },
+            "CELLTYPE": [
+                {
+                    "onto_name": "muscle cell",
+                    "onto_id": "CL:0000187"
+                },
+                {
+                    "onto_name": "neuron",
+                    "onto_id": "CL:0000540"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Confocal micrograph showing the innervation of the posterior portion of the digestive tract of an adult Drosophila fly. The circular visceral muscles are labelled in red with phalloidin staining of actin. The main nerves are stained in green (with 22c10, a MAP1B antibody), and a subset of gut-innervating insulin-producing neurons is highlighted in green."},
+            "ATTRIBUTION": {
+                "OTHER": ["Department of Zoology, University of Cambridge. Downing Street, Cambridge, CB2 3EJ, United Kingdom"],
+                "Contributors": ["Irene Miguel-Aliaga"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

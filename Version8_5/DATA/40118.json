@@ -1,0 +1,107 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40118.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40118.jpg",
+                "Size": 144638
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "GROUP_ID": "12303",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "initiation of viral infection",
+                "onto_id": "GO:0019059"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                {
+                    "onto_name": "HTLV-1 subtype A",
+                    "onto_id": "NCBITaxon:402042"
+                }
+            ],
+            "TECHNICALDETAILS": {"free_text": "CD4+ T cells were isolated and cultured overnight to allow spontaneous expression of HTLV-1 proteins, and subsequently prepared for EM.  To detect HTLV-1 Gag matrix protein in infected cells the samples were labelled against HTLV-1 Gag p19 (Tanaka et al., 1986) using the DAB kit from Molecular Probes (Invitrogen Ltd, Paisley, UK ). After the PFA/glutaraldehyde fixation, the samples were incubated in PBS containing 1% BSA, 0.1% Triton X-100 and 2% H2O2, for 1 h at 37uC to block non-specific antibody binding and to quench the endogenous peroxidase activity of the cells. To detect the HTLV-1 complexes, the cells were incubated with 5 mg/ml of anti-Gag p19 (GIN7 mAb) [33] diluted in PBS 1% BSA, for 1 h at 37uC. Then the second antibody, anti-Mouse mAb conjugated to HRP (Invitrogen Ltd, Paisley, UK ), was added at a final dilution of 1 mg/ml, and incubated for 30 minutes at 37uC. The cells were washed three times with PBS containing 1% BSA between each step. For detailed methods of the preparation, refer to the CCDB link provided."},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A single computed slice through a tomographic reconstruction of a virological synapse formed between naturally HTLV-1 infected CD4+ T cells and autologous uninfected CD4+ target cells. HTLV-1 particles in the synaptic cleft were identified by immunolabeling using anti-Gag p19 labeling and peroxidase-DAB detection.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information see: Majorovits et al. (2008) Human T-Lymphotropic Virus-1 visualized at the virological synapse by electron tomography. PLoS ONE 3: e2251, doi:10.1371/journal.pone.0002251, PMID 18509526"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "mature CD4 single-positive thymocyte",
+                    "onto_id": "CL:0002436"
+                },
+                {
+                    "onto_name": "T cell",
+                    "onto_id": "CL:0000084"
+                }
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 3948",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3948"
+                }],
+                "Contributors": [
+                    "Endre Majorovits",
+                    "Charles Bangham",
+                    "Stephen Fuller",
+                    "Mohamed Nejmeddine"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

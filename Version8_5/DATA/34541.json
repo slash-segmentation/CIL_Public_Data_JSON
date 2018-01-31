@@ -1,0 +1,128 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "34541.jpg",
+                "Size": 875678
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "34541.zip",
+                "Size": 40774578
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "34541.tif",
+                "Size": 40900000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "axon",
+                    "onto_id": "GO:0030424"
+                },
+                {
+                    "onto_name": "growth cone membrane",
+                    "onto_id": "GO:0032584"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "neuron development",
+                "onto_id": "GO:0048666"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Cortical neurons were isolated and cultured from E17 embryo using a standard protocol as described in  Lehnardt et al.,Proc Natl Acad Sci U S A, 100 (14): 8514-9. At DIV3, neurons were treated with 100 ng/ml netrin for 30 minutes, fixed with 4% PFA, then stained with anti-phospho-FAK (Tyr397) (Upstate) antibody and Texas Red-X phalloidin (red). Images were digitally acquired using a fluorescence microscope (Nikon Eclipse 660) equipped with Spot cooled CCD camera (Diagnostic Instruments)."},
+            "MOLECULARFUNCTION": {
+                "onto_name": "netrin receptor activity",
+                "onto_id": "GO:0005042"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3396,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.027
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4000,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.027
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                },
+                {
+                    "onto_name": "TexasRed",
+                    "onto_id": "FBbi:00000453"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Exposure of a cortical neuron to netrin induces the phosphorylation of focal adhesion kinase (FAK) at Tyr397 along the axon and within the growth cone (gc). Insert shows the control neuron (without treatment). A day-in-vitro 3 (DIV3) cultured cortical neuron was exposed to 100 ng/ml netrin for 30 minutes, fixed with 4% paraformaldehyde (PFA), then immunostained with anti-phospho-FAK (Tyr397) antibody (green) and Texas Red-X phalloidin (red). Scale bars, 20 µm; insert, 50 µm."},
+            "CELLTYPE": {
+                "onto_name": "CNS neuron (sensu Vertebrata)",
+                "onto_id": "CL:0000117"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements"},
+            "ATTRIBUTION": {"Contributors": [
+                "Yinghua Ma",
+                "Timothy Vartanian"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,144 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "31201.flv",
+                "Size": 580259
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "31201.zip",
+                "Size": 3014784
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "31201.jpg",
+                "Size": 71858
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "7854",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                }
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "mitochondrion",
+                "onto_id": "GO:0005739"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "axonal transport"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                {"free_text": "membrane potential dye accumulation"}
+            ],
+            "CELLLINE": {"free_text": "dorsal root ganglion"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Gallus gallus",
+                "onto_id": "NCBITaxon:9031"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 675,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.33
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 450,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.33
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "61",
+                    "value": 10.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                {
+                    "onto_name": "CMX rosamine (Mitotracker Red)",
+                    "onto_id": "FBbi:00000054"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                {"free_text": "line profile"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Chicken DRG neurons were grown on coverslips coated with laminin/poly-L-ornithine for 2 d and stained with 0.1 µM MitoTracker red CMXRos. Images were acquired every 2 s. To reduce the size of the video, one frame for every 10 s is shown. In the video, both DIC and fluorescent images are shown. The growth cone is toward the right-hand side. The time elapsed is indicated in the top left hand corner. During the process of growth cone advance, docked mitochondria moved at a low velocity in the anterograde direction in a coherent manner. A kymograph of the movie is shown at the bottom of the screen. Time is on the y axis and distance is on the x axis. The moving bar on the right hand side of the kymograph marks the time position. This video illustrates how kymographs correspond to time-lapse movies of mitochondrial transport, Bar, 10 µm.  \n\nImages were acquired on a confocal system (FV300 FluoView; Olympus) on an IX70 microsocpe using  a 60×, 1.4 NA, PlanApo objective. Samples were illuminated with an argon/krypton Omnichrome 488/568/647 line laser set to standby mode, with the laser intensity set at 6%, the confocal aperture set at 5, and pixel dwell times of either 100 or 200 microsec; the light was further attenuated with neutral density filters (either 25 or 50%). Cells were observed in an enclosed flow chamber maintained at 37°C.  This video corresponds to Figure 1 and video 1 from J Cell Biol. 2006 May 8;173(3):373-81."},
+            "CELLTYPE": {
+                "onto_name": "neuron",
+                "onto_id": "CL:0000540"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol. 2006 May 8;173(3):373-81."],
+                "Contributors": [
+                    "Kyle E. Miller",
+                    "Michael P. Sheetz"
+                ],
+                "PUBMED": ["16682527"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {"free_text": "kymograph"}
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

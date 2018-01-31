@@ -1,0 +1,147 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "7440.jpg",
+                "Size": 167499
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "7440.tif",
+                "Size": 4400000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "7440.zip",
+                "Size": 4357598
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "focal adhesion",
+                    "onto_id": "GO:0005925"
+                },
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "regulation of focal adhesion assembly",
+                "onto_id": "GO:0051893"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {"free_text": "HUVEC"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": {
+                "onto_name": "phosphotyrosine binding",
+                "onto_id": "GO:0001784"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1392,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.107
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1040,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.107
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "488, 568"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "Alexa Fluor 568",
+                    "onto_id": "FBbi:00000442"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Human umbilical vein endothelial cells (HUVECS) labeled for focal adhesions (green) and F-actin (red).  HUVECs were plated on polyacrilamide gels  (1.5 Kpa) coated with 1.0 mg/ml fibronectin.  After 24 hrs cells were fixed in 3% paraformaldehyde and stained with mouse antibody to Phosphotyrosine (4G10) monoclonal antibody detected with goat anti-mouse Alexa 565 and Alexa 488 phalloidin to stain for F-actin.  \n\nImage was collected on a Nikon Eclipse with a cooled charge coupled device (CCD; Orca II; Hamamatsu Photonics) using a 60x 1.4 NA Plan Apo PH objective lens (Nikon).  The exposure time was 320 msec each channel. A xenon arc lamp was used with a  Semrock DA/FI/TR/Cy5-4x4M-B Sedat filter set."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "primary cell line cell",
+                    "onto_id": "CL:0000001"
+                },
+                {
+                    "onto_name": "endothelial cell",
+                    "onto_id": "CL:0000115"
+                }
+            ],
+            "ATTRIBUTION": {
+                "OTHER": ["NHLBI/NIH"],
+                "Contributors": [
+                    "Ana M. Pasapera",
+                    "Clare M. Waterman"
+                ],
+                "PUBMED": ["20308429"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

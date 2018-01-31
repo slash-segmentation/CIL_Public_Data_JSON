@@ -1,0 +1,84 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41559.tif",
+                "Size": 14900000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41559.zip",
+                "Size": 26228942
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41559.jpg",
+                "Size": 1561454
+            }
+        ],
+        "CORE": {
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "IMAGINGMODE": {
+                "onto_name": "bright-field microscopy",
+                "onto_id": "FBbi:00000243"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2064
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2392
+                }}
+            ],
+            "CELLTYPE": {
+                "onto_name": "osteoblast",
+                "onto_id": "CL:0000062"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Micrograph of developing bone (ossification) in a bird. The image was collected at 200x using brightfield illumination.\nHonorable Mention, 2011 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["Novus International, Inc., Chesterfield, MO, USA"],
+                "URLs": [{
+                    "Label": "2011 Olympus BioScapes Digital Imaging  Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm8.html"
+                }],
+                "Contributors": [
+                    "Julia Dibner",
+                    "2011 Olympus BioScapes Digital Imaging  Competition®"
+                ]
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "ossification",
+                "onto_id": "GO:0001503"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

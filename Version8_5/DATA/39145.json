@@ -1,0 +1,117 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39145.zip",
+                "Size": 1287426
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39145.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39145.jpg",
+                "Size": 93609
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "negative stain"},
+            "GROUP_ID": "9983",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "photosystem II",
+                    "onto_id": "GO:0009523"
+                },
+                {
+                    "onto_name": "photosystem I",
+                    "onto_id": "GO:0009522"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "photosynthesis, light harvesting",
+                "onto_id": "GO:0009765"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Prochloron sp.",
+                "onto_id": "NCBITaxon:1215"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Fractions isolated from thylakoids were negatively stained with 2% uranyl acetate and observed with a Philips CM100 transmission EM at a magnification of 51,500x, images recorded on film, and digitized using a Leafscan densitometer yielding a pixel size after binning of 0.388 nm. Sub-populations were identified and class averages obtained using IMAGIC-5. See Fig 5 in TS Bibby, J Nield, M Chen, AWD Larkum, J Barber 2003 Structure of a photosystem II supercomplex isolated from Prochloron didemni retaining its chlorophyll a/b light-harvesting system. Proc Natl Acad Sci USA 100:9050-9054."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 656,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.388
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 654,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.388
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "montage",
+                "onto_id": "FBbi:00000261"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Cells of the symbiotic prochlorophyte Prochloron didemni were separated from its ascidian partner, thylakoids isolated, treated to liberate chlorophyll-containing complexes, and negatively stained preparations observed by transmission EM. The image shows an averaged top view of a chlorophyll-photsystem II super complex with overlays illustrating the putative locations of the core dimer and surrounding CP43 proteins obtained from x-ray analysis data. Chlorophyll is shown in green. Other images in this group illustrate other aspects of the structure and the overview shown in CIL 39146 illustrates the range of particle types in the preparation."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["TS Bibby, J Nield, M Chen, AWD Larkum, J Barber 2003 Structure of a photosystem II supercomplex isolated from Prochloron didemni retaining its chlorophyll a/b light-harvesting system. Proc Natl Acad Sci USA 100:9050-9054"],
+                "Contributors": [
+                    "Thomas S. Bibby",
+                    "Jon Nield",
+                    "Min Chen",
+                    "Anthony W D Larkum",
+                    "James Barber"
+                ],
+                "PUBMED": ["12837938"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

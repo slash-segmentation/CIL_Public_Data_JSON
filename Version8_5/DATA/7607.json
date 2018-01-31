@@ -1,0 +1,129 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "7607.jpg",
+                "Size": 3570065
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "7607.tif",
+                "Size": 58000000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "7607.zip",
+                "Size": 115797318
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "10216",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "rough endoplasmic reticulum",
+                    "onto_id": "GO:0005791"
+                },
+                {
+                    "onto_name": "cytosolic ribosome",
+                    "onto_id": "GO:0022626"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "biosynthetic process",
+                "onto_id": "GO:0009058"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus rattus",
+                "onto_id": "NCBITaxon:10117"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Small blocks of rat pancreas were fixed in 4% osmium tetroxide in 0.1 M cacodylate buffer pH 7.4 for 2 hours. The tissue was dehydrated and stained with uranyl acetate en block to bring out membrane structure and embedded in Epon. Sections were stained for 1 minute with acidic uranyl acetate and alkaline lead citrate for 5 minutes.\n\n3.25 X 4 inch lantern slide scanned at 1200 dpi in TIFF format, labeled in Photoshop then reduced to 600 dpi TIFF file (3500 x 2969 pixels) prior to conversion to JPEG2000 format. Original image created on April 26, 1966."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4800,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 42.33
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4014,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 42.33
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "High magnification view of rough endoplasmic reticulum (RER) from rat pancreas showing RER and ribosomes, both bound (RiB) and free (RiF). Ribosomes were originally called Palade particles, as Palade was the first to describe them. This micrograph, although not the original micrograph showing ribosomes, reflects Palade's continued fascination with the ribosome that he discovered in 1955.\n\nIdentical unlabeled image available as CIL# 7606. Original report of Palade particles: Palade GE. A small particulate component of the cytoplasm. J Biophys Biochem Cytology [serial online, now J Cell Biol)]. 1955;1:59-68."},
+            "CELLTYPE": {"free_text": "pancreatic cell"},
+            "DATAQUALIFICATION": {"free_text": "RAW;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Palade GE. 1955.",
+                    "Href": "http://www.jcb.org/cgi/reprint/1/1/59.pdf"
+                }],
+                "Contributors": ["George E. Palade (University of California, San Diego)"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,94 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "48108.zip",
+                "Size": 5760292
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "48108.tif",
+                "Size": 5800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "48108.jpg",
+                "Size": 701293
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "dendrite",
+                    "onto_id": "GO:0030425"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "cytoskeleton",
+                    "onto_id": "GO:0005856"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus norvegicus",
+                "onto_id": "NCBITaxon:10116"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Differentiated rat neural stem cells were fixed andimmunostained β III-tubulin (monoclonal Tuj1 from Stem Cell Technologies), GFAP (from Stem Cell Technologies) and DAPI (from Life Technologies). Images were acquired with SPOT RT Slider CCD camera and SPOT Basic image capture software. Image generated with the Image J color combine function."},
+            "DIMENSION": [
+                {"Space": {"axis": "X"}},
+                {"Space": {"axis": "Y"}}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {"free_text": "Neural stem cells"},
+            "IMAGEDESCRIPTION": {"free_text": "Differentiated rat neural stem cells stained for β III-Tubulin (in green) to reveal neurons, GFAP (in red) to reveal glial cells, and DAPI (in blue) to label nuclei."},
+            "ATTRIBUTION": {"Contributors": ["Natalie Prigozhina"]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

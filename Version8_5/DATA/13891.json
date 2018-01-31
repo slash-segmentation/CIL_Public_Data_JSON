@@ -1,0 +1,221 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13891.zip",
+                "Size": 214681
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13891.tif",
+                "Size": 300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13891.jpg",
+                "Size": 4560
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "9034",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "spindle pole body",
+                    "onto_id": "GO:0005816"
+                },
+                {
+                    "onto_name": "cytoskeleton",
+                    "onto_id": "GO:0005856"
+                },
+                {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                },
+                {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                {
+                    "onto_name": "tubulin complex",
+                    "onto_id": "GO:0045298"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cell cycle",
+                    "onto_id": "GO:0007049"
+                },
+                {
+                    "onto_name": "regulation of exit from mitosis",
+                    "onto_id": "GO:0007096"
+                },
+                {
+                    "onto_name": "mitotic cell cycle spindle orientation checkpoint",
+                    "onto_id": "GO:0031578"
+                },
+                {
+                    "onto_name": "cell division",
+                    "onto_id": "GO:0051301"
+                },
+                {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                {
+                    "onto_name": "mitotic sister chromatid segregation",
+                    "onto_id": "GO:0000070"
+                },
+                {
+                    "onto_name": "microtubule-based process",
+                    "onto_id": "GO:0007017"
+                },
+                {
+                    "onto_name": "small GTPase mediated signal transduction",
+                    "onto_id": "GO:0007264"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                }
+            ],
+            "CELLLINE": {"free_text": "W303"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Saccharomyces cerevisiae",
+                "onto_id": "NCBITaxon:4932"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Cells (MATa tem1::KanMX ura3::eGFP-CNM67\u2013TEM1::URA3 bfa1::3HA-BFA1) grown in rich media with glucose were fixed for 15 min in 3.7% formaldehyde and 0.1 M potassium phosphate buffer, pH 6.4. Cells were then washed twice with 0.1 M potassium phosphate buffer, pH 6.4, and resuspended in 1.2 M sorbitol in 0.12 M K2HPO4/0.033 M citric acid, pH 5.9. Fixed cells were digested with 0.1 mg/ml zymolyase-100T (US Biological) and 1/10 volume of glusulase (PerkinElmer) at 30C for 15 min, washed once, and resuspended in 1.2 M sorbitol in 0.12 M K2HPO4/0.033 M citric acid, pH 5.9. Primary antibodies were anti-HA monoclonal antibody (HA.11; 1:500) and anti-tubulin (Abcam; 1:500). Secondary antibodies were: anti-mouse Cy3 (for HA) and anti-rat FITC (for tubulin). Cells were resuspended in DAPI (1 mg/ml). Imaging was performed at 25C using a Leica DM6000 microscope equipped with a 100x/1.40 NA oil immersion objective lens, A4, L5, and TX2 filters, and a digital CCD camera (DFC350, Leica). Pictures were processed with LAS AF (leica) and ImageJ software."},
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "GTPase activator activity",
+                    "onto_id": "GO:0005096"
+                },
+                {
+                    "onto_name": "GTP binding",
+                    "onto_id": "GO:0005525"
+                },
+                {
+                    "onto_name": "GTPase activity",
+                    "onto_id": "GO:0003924"
+                },
+                {
+                    "onto_name": "nucleotide binding",
+                    "onto_id": "GO:0000166"
+                },
+                {
+                    "onto_name": "structural constituent of cytoskeleton",
+                    "onto_id": "GO:0005200"
+                },
+                {
+                    "onto_name": "protein binding",
+                    "onto_id": "GO:0005515"
+                }
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "HA peptide tag",
+                    "onto_id": "FBbi:00000034"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "Cy3",
+                    "onto_id": "FBbi:00000449"
+                },
+                {
+                    "onto_name": "Fluorescein (FITC)",
+                    "onto_id": "FBbi:00000451"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 187,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0642
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 187,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0642
+                    }
+                }}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "3HA-Bfa1 (red) is now symmetrically localized to both spindle pole bodies (SPB) in cells with constitutive targeting of Tem1 to both SPBs in metaphase as determined by spindle morphology (tubulin, green) and nuclear morphology (DAPI, blue). Compare to control image CIL# 13890. Image is Fig 4C, bottom panels, in J Cell Biol. (2011) 192: 599-614. Images in Fig 4 include CIL# 13890, 13891, 13892, 13893."},
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://jcb-dataviewer.rupress.org/jcb/browse/4053/"}],
+                "PUBLISHED": ["J Cell Biol. (2011) 192: 599-614."],
+                "Contributors": [
+                    "Mauricio Valerio-Santiago",
+                    "Fernando Monje-Casas"
+                ],
+                "PUBMED": ["21321099"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

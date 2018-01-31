@@ -1,0 +1,117 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40140.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40140.jpg",
+                "Size": 75419
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "11956",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "synapse part",
+                    "onto_id": "GO:0044456"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "vibratome-sectioned tissue",
+                "onto_id": "FBbi:00000030"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Tissue came from either mice genetically engineered to overexpress a mutant form of human alpha synuclein (A53T) (mouse strain, C57BL/6-DBA/2; group ID, A53T15+), or wild type animals from the same strain, anesthetized with nembutal, and perfused with  4% paraformaldehyde. Tissue was sectioned on a vibratome at a thickness of 80µm and immunostained with the following antibodies: mouse monoclonal anti-alpha-SYN; BD Transduction Laboratories, secondary conjugated to Alexa 488; rabbit polyclonal anti-mGluR5, Chemicon Ab. 5675, secondary conjugated to Rhodamine Red X.  DAPI was dissolved in ProLong Mounting Medium and applied at the time of mounting. Section imaged using a Olympus Fluoview 1000, with a Olympus PlanApo 60X 1.4 NA objective."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "X-Rhodamine",
+                    "onto_id": "FBbi:00000584"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                }
+            ],
+            "CELLTYPE": {
+                "onto_name": "CNS neuron (sensu Vertebrata)",
+                "onto_id": "CL:0000117"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "The neostriatum of a non-transgenic mouse immunolabeled for mGluR5 (red), alpha synuclein (green) and counterstained with DAPI (blue) to reveal cell nuclei. This image has been downsampled from the raw data image, which can be accessed using the link provided to the Cell Centered Database. Other images in this group include transgenic mice engineered to overexpress a mutant form of human alpha synuclein (A53T), as well as examples from wild type specimens."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 4057",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=4057"
+                }],
+                "Contributors": [
+                    "D.L. Price",
+                    "E. Rockenstein",
+                    "M. Ellisman",
+                    "E. Masliah"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

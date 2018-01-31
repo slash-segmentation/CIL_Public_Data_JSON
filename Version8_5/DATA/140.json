@@ -1,0 +1,115 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "140.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "140.jpg",
+                "Size": 55262
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "140.zip",
+                "Size": 87604
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "140_orig.jpg",
+                "Size": 87474
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "in vitro assembly"},
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                }
+            ],
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                }
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                {
+                    "onto_name": "EYFP",
+                    "onto_id": "FBbi:00000084"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 670
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 567
+                }}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "montage",
+                "onto_id": "FBbi:00000261"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Images illustrate the ring-like localization of the bacterial tubulin analog FtsZ in artificial liposomes. Shown is a DIC micrograph of a synthetic liposome in which the addition of FtsZ has created constrictions (arrows) known as Z rings that mimic its proposed role in bacterial division. The lower fluorescence micrograph  reveals the concentration of FtsZ in the constrictions. \nSee Fig 4 in Osawa et al. 2008 Science 320:792-794."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://images.nigms.nih.gov/index.cfm?event=viewDetail&imageID=2456"}],
+                "PUBLISHED": ["M Osawa et al. 2008 Science 320:792-794"],
+                "Contributors": [
+                    "Masaki Osawa",
+                    "David Anderson",
+                    "Harold Erikson"
+                ],
+                "PUBMED": ["18420899"]
+            },
+            "BIOLOGICALPROCESS": {"free_text": "cell division"},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                }
+            ],
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

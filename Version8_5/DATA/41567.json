@@ -1,0 +1,104 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41567.zip",
+                "Size": 1526586
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41567.tif",
+                "Size": 1600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41567.jpg",
+                "Size": 133518
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "neuron projection",
+                "onto_id": "GO:0043005"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "superior colliculus development",
+                "onto_id": "GO:0061380"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "ZEBRAFISH_ANATOMY": [
+                {
+                    "onto_name": "optic tectum",
+                    "onto_id": "ZFA:0000445"
+                },
+                {
+                    "onto_name": "olfactory bulb",
+                    "onto_id": "ZFA:0000402"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Danio rerio",
+                "onto_id": "NCBITaxon:7955"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 758
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 662
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "axial projection"},
+            "CELLTYPE": {"free_text": "retinal axon"},
+            "IMAGEDESCRIPTION": {"free_text": "Eyes and optic tectum of five-day-old zebrafish larva that has a mutation causing retinal axons to project into the olfactory lobe.  This image was created from a 125-slice Z-stack that was collected using 20x magnification. Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition®."},
+            "SPECIESTAXASPECIFIC": [
+                {"onto_id": "ZFA:ZFA:0000445"},
+                {"onto_id": "ZFA:ZFA:0000402"}
+            ],
+            "ATTRIBUTION": {
+                "OTHER": ["Institute of Molecular Medicine Lisbon, Portugal"],
+                "URLs": [{
+                    "Label": "2011  Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm16.html"
+                }],
+                "Contributors": [
+                    "Rita Fior",
+                    "2011 Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

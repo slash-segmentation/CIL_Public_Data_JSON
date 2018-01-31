@@ -1,0 +1,137 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11043.jpg",
+                "Size": 522364
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11043.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11043.zip",
+                "Size": 1394082
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleolar chromatin",
+                    "onto_id": "GO:0030874"
+                },
+                {
+                    "onto_name": "chromatin",
+                    "onto_id": "GO:0000785"
+                },
+                {"free_text": "ribosomal RNA"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "nucleus organization",
+                    "onto_id": "GO:0006997"
+                },
+                {
+                    "onto_name": "RNA metabolic process",
+                    "onto_id": "GO:0016070"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "isolated subcellular component",
+                "onto_id": "FBbi:00000579"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Notophthalmus viridescens",
+                "onto_id": "NCBITaxon:8316"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Micrograph originally published in Miller & Beatty, Science 164:955-957, and reprinted with permission as Figure 144 from Chapter 4 (Nucleus) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.  A PDF copy of the accompanying chapter is available on the ASCB's BioEDUCATE website."},
+            "MOLECULARFUNCTION": {"free_text": "rRNA transcription"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 920
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1296
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "uranyl salt",
+                "onto_id": "FBbi:00000569"
+            },
+            "PROCESSINGHISTORY": {"free_text": "Image extracted from .pdf file of 'The Cell'"},
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of transcription of tandemly arranged ribosomal RNA genes. Amphibian oocyte nuclei contain numerous extra-chromosomal nucleoli, each of which contains a tandem array of genes encoding ribosomal RNA. Here, using the methods developed by O.L. Miller Jr. and colleagues, the extrachromosomal nucleoli from a newt oocyte have been dispersed in low salt, and centrifuged through a sucrose cushion containing formaldehyde on to a carbon coated grid and stained for TEM imaging. Active transcription is seen by the tree-like structures in which each branch represents a growing transcript.  Untranscribed spacer DNA is seen between each transcript."},
+            "CELLTYPE": {
+                "onto_name": "oocyte",
+                "onto_id": "CL:0000023"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "OTHER": ["B. R. Beatty"],
+                "URLs": [
+                    {
+                        "Label": "Fawcett's \"The Cell, 2nd Ed.\"",
+                        "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.htm"
+                    },
+                    {
+                        "Label": "Science Magazine",
+                        "Href": "http://www.sciencemag.org/content/164/3882/955.abstract"
+                    }
+                ],
+                "PUBLISHED": [
+                    "ISBN 0721635849",
+                    "from: Don W. Fawcett M.D  \u2018The Cell\u2019 2nd edition, W.B. Saunders  Chapter 4 (Nucleus)"
+                ],
+                "Contributors": [
+                    "Oscar L. Miller",
+                    "Don W Fawcett"
+                ],
+                "PUBMED": ["5813982"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

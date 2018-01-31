@@ -1,0 +1,57 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "46751.jpg",
+                "Size": 1015697
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "46751.tif",
+                "Size": 7400000
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus sp.",
+                "onto_id": "NCBITaxon:10118"
+            },
+            "TECHNICALDETAILS": {"free_text": "Peroxisomes are contrasted with DAB at pH 10.5 by their catalase activity, after fixation in buffered formal-calcium. Postfixation in Os04."},
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "peroxisome",
+                "onto_id": "GO:0005777"
+            },
+            "CELLTYPE": {
+                "onto_name": "parenchymal cell",
+                "onto_id": "CL:0000668"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Peroxisomes proliferating under treatment with nafenopin over 17 days. Reaction product differs between adjacent organelles giving evidence that their content (catalase) is not freely exchanged, as proposed by the reticulum hypothesis. High magnification shows that apposed peroxisomes are actually separated by their membranes. Bar = 0.1 µm."},
+            "ATTRIBUTION": {
+                "PUBLISHED": [" \"Peroxisomes. A personal account\". pp. 151. Copyright VUB-Press 1991."],
+                "Contributors": ["Frank Roels"]
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "peroxisome fission",
+                "onto_id": "GO:0016559"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"}
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,98 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "37131.tif",
+                "Size": 59600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "37131.jpg",
+                "Size": 6016019
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "37131.zip",
+                "Size": 59478414
+            }
+        ],
+        "CORE": {
+            "GROUP_ID": "11078",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "vesicle",
+                "onto_id": "GO:0031982"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "regulation of vascular permeability",
+                "onto_id": "GO:0043114"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus",
+                "onto_id": "NCBITaxon:10114"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi. Original magnification X62,000."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 6000
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4956
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "osmium tetroxide",
+                "onto_id": "FBbi:00000571"
+            },
+            "CELLTYPE": {
+                "onto_name": "capillary endothelial cell",
+                "onto_id": "CL:0002144"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of rat capillary diaphragm 2h post intravenous administration of ferritin. Ferritin is seen entering plasmalemmal vesicles and into the extracellular space.  Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."},
+            "ATTRIBUTION": {
+                "OTHER": ["10/24/1962"],
+                "URLs": [{
+                    "Label": "George E. Palade EM Slide Collection",
+                    "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeCapD"
+                }],
+                "Contributors": ["R. Burns"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

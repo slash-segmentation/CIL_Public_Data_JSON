@@ -1,0 +1,135 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "48009.zip",
+                "Size": 206512
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "48009.tif",
+                "Size": 700000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "48009.jpg",
+                "Size": 59518
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "48009_orig.jpg",
+                "Size": 206374
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                }
+            ],
+            "GROUP_ID": "17309",
+            "IMAGINGMODE": [
+                {"onto_id": "FBbi:00000622"},
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "dendritic spine",
+                    "onto_id": "GO:0043197"
+                },
+                {
+                    "onto_name": "dendrite",
+                    "onto_id": "GO:0030425"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Micer were C57BL/129SvJ.  Individual cells in fixed tissue were injected with Lucifer yellow and stored  in 4% paraformaldehyde at 4° C.  Fluorescence was photoconverted using DAB and a confocal laser light source.  After this process, tissue was washed thoroughly in PBS and processed for EM by osmication, dehydration, and embedding in epoxy resin.  For detailed methods, see the protocol provided in the CCDB.  The tomogram was generated using an Hitachi 3MeV UHVEM.  Single tilt images spanned -70 to 70° in 2° increments."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "intracellular filling",
+                "onto_id": "FBbi:00000088"
+            },
+            "CELLTYPE": {
+                "onto_name": "CNS neuron (sensu Vertebrata)",
+                "onto_id": "CL:0000117"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single computed slice through a tomographic reconstruction of a selectively-stained spiny dendrite.  This medium spiny neuron was contained in a thick section from the neostriatum of a dopamine transporter knock out mouse. The reconstructed image has been downsampled from the raw data image, which can be accessed using the link provided to the Cell Centered Database."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 32",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=32"
+                }],
+                "Contributors": [
+                    "Diana Price",
+                    "Aki Laakso",
+                    "Michele Cyr",
+                    "Maryann Martone",
+                    "Naoko Yamada",
+                    "Andrea Thor",
+                    "Monica Berlanga"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

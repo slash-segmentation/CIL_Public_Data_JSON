@@ -1,0 +1,145 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35729.jpg",
+                "Size": 34959
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35729.tif",
+                "Size": 64100000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35729.zip",
+                "Size": 64794637
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "11222",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                }
+            ],
+            "CELLULARCOMPONENT": {"free_text": "BUB2 protein"},
+            "BIOLOGICALPROCESS": [
+                {"free_text": "mitotic spindle orientation checkpoint"},
+                {
+                    "onto_name": "establishment of protein localization",
+                    "onto_id": "GO:0045184"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Saccharomyces cerevisiae",
+                "onto_id": "NCBITaxon:4932"
+            },
+            "TECHNICALDETAILS": {"free_text": "Images were acquired using a 60x 1.42 NA objective lens on a Delta Vision system equipped with a CoolSNAP_HQ2 / HQ2-ICX285.  Please read the microscopy section of the referenced paper for details before image analysis."},
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                }
+            ],
+            "MOLECULARFUNCTION": {
+                "onto_name": "GTPase activator activity",
+                "onto_id": "GO:0005096"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 213.4
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 213.4
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "61",
+                    "value": 300.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "IMAGEDESCRIPTION": {"free_text": "This is a time lapse image series of Saccharomyces cerevisiae expressing GFP tagged Bub2, a GTPase activator involves in mitotic cell cycle spindle orientation checkpoint and regulation of exit from mitosis.  These phase and GFP images are part of an image group containing CIL 35720-35739.  Note that there are additional groups of images of other cell cycle regulator proteins by the same authors available in the Library."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["PLoS One. 2011;6(10):e26272. Epub 2011 Oct 26."],
+                "Contributors": [
+                    "David Ball",
+                    "Jean Peccoud"
+                ],
+                "PUBMED": ["22046265"]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": ":525"},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": true,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

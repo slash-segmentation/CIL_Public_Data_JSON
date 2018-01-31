@@ -1,0 +1,100 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40625.zip",
+                "Size": 3612074
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40625.tif",
+                "Size": 13600000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40625.jpg",
+                "Size": 558966
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "unfixed tissue",
+                "onto_id": "FBbi:00000014"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                {
+                    "onto_name": "platelet dense granule",
+                    "onto_id": "GO:0042827"
+                },
+                {"free_text": "platelet delta granules"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected on an FEI Tecnai G2 Spirit transmission electron microscope."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2048
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2198
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "platelet",
+                "onto_id": "CL:0000233"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of unfixed whole mounted platelet upon an EM support film from platelet rich plasma.  The dense granules contain calcium rendering them electron opaque.  The \u201cdark\u201d granules are delta granules within the platelet cytoplasm (contain calcium, adenine nucleotides, serotonin and pryrophosphates), and the bright white circles likely represent a dilated open canalicular system."},
+            "ATTRIBUTION": {
+                "OTHER": ["Pathology Department, University of Toledo"],
+                "Contributors": ["William T. Gunning III"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

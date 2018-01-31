@@ -1,0 +1,107 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41309.zip",
+                "Size": 224045
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41309.jpg",
+                "Size": 213469
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41309.tif",
+                "Size": 3300000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {"free_text": "ethanol dehydration"}
+            ],
+            "GROUP_ID": "11825",
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {"free_text": "pollen coat"},
+            "PLANT_GROWTH": [{"free_text": "anther"}],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "pollen adhesion",
+                "onto_id": "GO:0009876"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Penta lanceolata"},
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected on a Zeiss DSM 962 SEM.  See detailed protocol at http://www.dartmouth.edu/~emlab/manuals/sempreps/index.html"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1049
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron micrograph showing Penta lanceolata unacetolyzed pollen. This is a higher magnification view of CIL 41306.  Compare this pollen to acetolyzed pollen images by the same contributor in the Library."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Dartmouth EM Facility",
+                    "Href": "http://remf.dartmouth.edu/images/botanicalAntherSEM/source/6.html"
+                }],
+                "Contributors": [
+                    "Louisa Howard",
+                    "Charles Daghlian"
+                ]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "PO:anther"},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

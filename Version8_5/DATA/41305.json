@@ -1,0 +1,107 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41305.jpg",
+                "Size": 220755
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41305.zip",
+                "Size": 232315
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41305.tif",
+                "Size": 2400000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {"free_text": "ethanol dehydration"}
+            ],
+            "GROUP_ID": "11825",
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {"free_text": "cell surface"},
+            "PLANT_GROWTH": [{"free_text": "anther"}],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "anther morphogenesis",
+                "onto_id": "GO:0048654"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Hibiscus schizopetalus"},
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected on a Zeiss DSM 962 SEM.  See detailed protocol at http://www.dartmouth.edu/~emlab/manuals/sempreps/index.html"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 749
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron microscope image of a Hibiscus schizopetalus anther (pollen bearing part of a flower).  A higher magnification view of a portion of this image is available as CIL 41304."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Dartmouth EM Facility",
+                    "Href": "http://remf.dartmouth.edu/images/botanicalAntherSEM/source/2.html"
+                }],
+                "Contributors": [
+                    "Louisa Howard",
+                    "Charles Daghlian"
+                ]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "PO:anther"},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

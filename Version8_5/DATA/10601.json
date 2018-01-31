@@ -1,0 +1,147 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "10601.tif",
+                "Size": 86200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10601.jpg",
+                "Size": 25682
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10601.zip",
+                "Size": 86049967
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "3667",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "microtubule cytoskeleton",
+                    "onto_id": "GO:0015630"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                }
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "promastigote form"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "permeabilized tissue",
+                "onto_id": "FBbi:00000093"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                }
+            ],
+            "CELLLINE": {"free_text": "WHO strain MNYC/BZ/62/M379"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Leishmania mexicana",
+                "onto_id": "NCBITaxon:5665"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 640,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0641
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 480,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0641
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.194
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "DAPI, FITC"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Fluorescein (FITC)",
+                    "onto_id": "FBbi:00000451"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Single Leishmania mexicana cell during late mitosis showing the dividing nucleus and kinetoplast (blue DAPI channel) and the sub-pellicular microtubule array and spindle microtubule arrangement (green KMX-1 channel). Promastigote form Leishmania mexicana (WHO strain MNYC/BZ/62/M379) were grown in M199 (10% FCS, pH 7.4, 28°C). Fixed with 2% paraformaldehyde. DNA labelled with 4',6-diamidino-2-phenylindole (DAPI) and tubulin lebelled with KMX-1 anti-beta tubulin monoclonal antibody (Birkett et al. 1985 FEBS Lett. Aug 5;187(2):211-8. PMID: 4018260). Z stack of 35 images with a z spacing of 0.194 um captured with a 100x/1.4 NA objective lens on a DM5500 B epifluorescence microscope (Leica) with an Orca cooled CCD camera (Hamamatsu).  Note there is also a phase channel image that is not currently displayed, but can be turned on in the detailed viewer."},
+            "CELLTYPE": {"free_text": "parasite"},
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {"Contributors": ["Richard Wheeler"]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

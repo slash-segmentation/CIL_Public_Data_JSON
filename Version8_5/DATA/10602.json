@@ -1,0 +1,144 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10602.zip",
+                "Size": 171465525
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10602.jpg",
+                "Size": 16556
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "10602.tif",
+                "Size": 171700000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "3667",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {"free_text": "parasite-containing vacuole"},
+            "BIOLOGICALPROCESS": [
+                {"free_text": "amastigote form Leishmania mexicana"},
+                {"free_text": "parasite entry into host cell forming a parasitophorous vacuole"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "permeabilized tissue",
+                "onto_id": "FBbi:00000093"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                }
+            ],
+            "CELLLINE": [
+                {"free_text": "WHO strain MNYC/BZ/62/M379"},
+                {
+                    "onto_name": "RAW264.7",
+                    "onto_id": "MCC:0000390"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "Leishmania mexicana",
+                    "onto_id": "NCBITaxon:5665"
+                },
+                {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                }
+            ],
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 640,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0641
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 480,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0641
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 93,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.194
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "dic, fluorescence"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "propidium iodide",
+                "onto_id": "FBbi:00000047"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Macrophage cell line cell infected with Leishmania mexicana. Five amastigotes can be seen within a single large parasitophorous vacuole in the macrophage. Raw 264.7 cells (a leukaemic mouse macrophage line) were infected with amastigote form Leishmania mexicana (WHO strain MNYC/BZ/62/M379) at an MOI of 10 and maintained in RPMI for 4 days. Cells were fixed with 2% paraformaldehyde, and DNA was labelled with propidium iodide following incubation with 50 ug/ml RNaseA for 30 min at room temperature. Z stack of 93 images with a z spacing of 0.194 um captured with a 100x/1.4 NA objective lens on a DM5500 B epifluorescence microscope (Leica) with an Orca cooled CCD camera (Hamamatsu).  Note there is a phase channel image that is not currently displayed, but can be turned on in the full viewer mode."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "macrophage",
+                    "onto_id": "CL:0000235"
+                },
+                {"free_text": "parasite"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {"Contributors": ["Richard Wheeler"]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

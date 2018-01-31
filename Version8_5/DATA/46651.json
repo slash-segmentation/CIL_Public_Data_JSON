@@ -1,0 +1,72 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "46651.tif",
+                "Size": 6500000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "46651.jpg",
+                "Size": 647222
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "TECHNICALDETAILS": {"free_text": "The cells were treated with prefixation in buffered formol+calcium, stained with diaminobenzindine at pH 10.5, and postfixed in Os+ferrocyanide."},
+            "MOLECULARFUNCTION": {
+                "onto_name": "catalase activity",
+                "onto_id": "GO:0004096"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "peroxisome",
+                    "onto_id": "GO:0005777"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "smooth endoplasmic reticulum",
+                    "onto_id": "GO:0005790"
+                }
+            ],
+            "CELLTYPE": {
+                "onto_name": "parenchymal cell",
+                "onto_id": "CL:0000668"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Peroxisomes in human parenchymal liver cell, contrasted for catalase activity. Reaction product typically differs between individual organelles.  Several mitochondria are seen, as well as many dark glycogen rosettes typical for hepatocytes, in between smooth endoplasmic reticulum cisternae, and segments of two lipid globules. Marker = 0.5 µm.\nTechnical:"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Frank Roels, 1991, \"Peroxisomes, a personal account\". 151 pp. VUB Press, Brussels."],
+                "Contributors": ["Frank Roels"],
+                "PUBMED": ["2918222"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

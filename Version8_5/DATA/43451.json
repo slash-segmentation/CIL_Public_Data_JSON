@@ -1,0 +1,92 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "43451.jpg",
+                "Size": 73619
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "43451.zip",
+                "Size": 110948480
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "43451.flv",
+                "Size": 2810241
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {"free_text": "digital holographic microscopy"},
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "asymmetric cell division",
+                "onto_id": "GO:0008356"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "CELLLINE": {"free_text": "JIMT-1"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {"free_text": "Phase shift of the laser light passing through the cell"},
+            "TECHNICALDETAILS": {"free_text": "The JIMT-1 cells were seeded on a Ibidi[TM] (Ibidi Gmbh Martinsried,Germany), one well slide and left to incubate for one day (5% CO2, 90% humidity, 37 degrees C).\nThe Ibidi slide was placed on a Ibidi heating plate, set to 37 degrees C, and onto the stage of the HoloMonitor M3 (Phase Holographic Imaging AB, Lund Sweden). \nOne image every 4th minute was captured for a total of 72h. \n \nThe Hstudio (Phase Holographic Imaging) software was used to color the images and to create an AVI movie of 8 frames/minute. No further processing was performed on the images."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1052
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 684
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "value": 4.0
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "Hstudio software (Phase Holographic Imaging AB)"},
+            "CELLTYPE": {"free_text": "carcinoma"},
+            "IMAGEDESCRIPTION": {"free_text": "Digital holographic microscopy video showing cell division of unlabeled JIMT-1 breast cancer cells. During the video, spanning over 72 hours, one cell divides into three daughter cells (seen on top of the cell cluster in the upper right portion of the image). One of the daughter cell dies, and two cells merge.  The\nheight of the cells is color coded by the vertical look up bar on the left of the image."},
+            "PATHOLOGICALPROCESS": {"onto_id": "DOID:breast cancer"},
+            "ATTRIBUTION": {
+                "OTHER": ["Lund, Sweden"],
+                "URLs": [{
+                    "Label": "Phase Holographic Imaging",
+                    "Href": "http://www.phiab.se"
+                }],
+                "Contributors": ["Birgit Janicke"]
+            },
+            "HUMAN_DISEASE": [{"free_text": "breast cancer"}],
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

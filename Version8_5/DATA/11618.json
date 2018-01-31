@@ -1,0 +1,174 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11618.zip",
+                "Size": 1325788
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "11618.tif",
+                "Size": 1200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11618.jpg",
+                "Size": 324671
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "critical_point dried specimen",
+                    "onto_id": "FBbi:00000581"
+                },
+                {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                }
+            ],
+            "GROUP_ID": "9787",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cilium",
+                    "onto_id": "GO:0005929"
+                },
+                {
+                    "onto_name": "microvillus",
+                    "onto_id": "GO:0005902"
+                }
+            ],
+            "HUMAN_DEV_ANATOMY": [{"free_text": "homo sapiens"}],
+            "BIOLOGICALPROCESS": [
+                {"free_text": "cilia organization"},
+                {
+                    "onto_name": "microvillus organization",
+                    "onto_id": "GO:0032528"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "coherent illumination",
+                    "onto_id": "FBbi:00000279"
+                },
+                {
+                    "onto_name": "secondary electron generation",
+                    "onto_id": "FBbi:00000580"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "secondary electron generation",
+                    "onto_id": "FBbi:00000580"
+                },
+                {
+                    "onto_name": "secondary_electron imaging",
+                    "onto_id": "FBbi:00000372"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 910
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1268
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "shadowing and plating",
+                "onto_id": "FBbi:00000398"
+            },
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "Scanned print from negative"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Figure 316 from Chapter 13 (Cilia and Flagella) of 'The Cell' by Don W. Fawcett M.D. The differences in size and shape of cilia and microvilli are well illustrated by scanning micrographs of the lumenal surface of the epithelium lining the mammalian oviduct. The tufts of cilia associated with individual ciliated cells project several microns above the convex apices of nonciliated cells covered with short microvilli. The number of ciliated cells in this epithelium is under hormonal control by estrogens. A copy of the chapter is available on the ASCB's BioEDUCATE website."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "ciliated epithelial cell",
+                    "onto_id": "CL:0000067"
+                },
+                {"free_text": "oviduct epithielial cell"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"}],
+                "PUBLISHED": [
+                    "Am. J. Anat. 138:269-275, 1973",
+                    "ISBN 0721635849"
+                ],
+                "Contributors": [
+                    "Don W. Fawcett",
+                    "Gaddum-Rosse",
+                    "Blandau",
+                    "Tiersch"
+                ]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "EHDAA:homo sapiens"},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

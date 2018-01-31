@@ -1,0 +1,91 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36812.zip",
+                "Size": 356480
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36812.jpg",
+                "Size": 11130
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "36812.flv",
+                "Size": 436073
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "in vitro assembly"},
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "microtubule",
+                "onto_id": "GO:0005874"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cilium movement",
+                "onto_id": "GO:0003341"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "The movie was recorded using Nikon Eclipse Ti epifluorescence microscope equipped with an Andor Clara CCD camera. See T. Sanchez et al. 2011. Cilia-like beating of active microtubule bundles. Science 333:456-459."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 234
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 234
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "Alexa Fluor 647",
+                "onto_id": "FBbi:00000447"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "IMAGEDESCRIPTION": {"free_text": "Isolated microtubules and kinesin spontaneously self-organize in vitro creating assemblies that resemble bundles of cilia that undergo synchronous beating. The major components are fluorescent taxol-stabilized tubulin, biotin-kinesin, and streptavidin. The movie shows tubulin trapped at the air-glass interface of an air bubble that has been confined in a 10-μm-thick chamber. The microtubules nucleate assemblies of active bundles perpendicular to the edge of the bubble, and provide important insights into the mechanism of synchronized ciliary beating observed in vivo."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "NIGMS BioMedical Beat",
+                    "Href": "http://publications.nigms.nih.gov/multimedia/video/cilia.html"
+                }],
+                "Contributors": [
+                    "Timothy Sanchez",
+                    "David Welch",
+                    "Daniela Nicastro",
+                    "Zvonimir Dogic"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "intensified CCD (ICCD)",
+                "onto_id": "FBbi:00000300"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

@@ -1,0 +1,126 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11932.zip",
+                "Size": 7938176
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11932.flv",
+                "Size": 786278
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11932.jpg",
+                "Size": 34464
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "3420",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                {"free_text": "fluorescent speckle microscopy"}
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "actin cytoskeleton",
+                "onto_id": "GO:0015629"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "actin filament polymerization",
+                    "onto_id": "GO:0030041"
+                },
+                {
+                    "onto_name": "actin filament depolymerization",
+                    "onto_id": "GO:0030042"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Taricha granulosa",
+                "onto_id": "NCBITaxon:8321"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 371,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.119
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 337,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.119
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "25min 34 s",
+                    "value": 10.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "X-Rhodamine",
+                "onto_id": "FBbi:00000584"
+            },
+            "PROCESSINGHISTORY": {"free_text": "background subtraction, 3X3 low pass filter, unsharp mask"},
+            "IMAGEDESCRIPTION": {"free_text": "Four general zones of f-actin movement are seen in primary cultures of newt lung epithelial cells microinjected with X-rhodamine actin.  At the leading edge and throughout the lamellipodium, f-actin speckles continuously appeared and moved towards the cell center.  As speckles approached the junction between the lamellipodium and lamellum they usually disappeared,  F-actin underwent slower retrograde flow in the lamellum, and F-actin generally moved forward in the cell body. Time-lapse FSM was performed on a spinning disk confocal microscope system. Light from a 50 mW Krypton-Argon ion laser (Melles Griot, OmniChrome) was delivered by a single-mode fiber optic (Point Source) to a Yokogawa spinning disk confocal scan-head (Ultra-View; PerkinElmer) on an inverted microscope (TE300 Quantum; Nikon).  Images were collected by a 100x 1.4NA Plan-Apo DIC objective lens (Nikon) and captured with an Orca 2 camera (Hamamatsu). Images were collected in the ventral focal plane at 10 s intervals.  Images were processed as follows: (1) background subtraction; (2) 3 x3 low pass filter; (3) unsharp mask filter. Corresponds to Fig 2E and video 2 in JCB , Volume 158, Number 1, July 8, 2002 31-37"},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell of lung",
+                "onto_id": "CL:0000082"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol, 158:31-37, 2002"],
+                "Contributors": [
+                    "Wendy C. Salmon",
+                    "Michael C. Adams",
+                    "Clare M. Waterman-Storer"
+                ],
+                "PUBMED": ["12105180"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

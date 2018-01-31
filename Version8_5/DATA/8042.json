@@ -1,0 +1,111 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "8042.zip",
+                "Size": 25910016
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "8042.tif",
+                "Size": 21800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "8042.jpg",
+                "Size": 25515
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "1515",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nuclear chromatin",
+                "onto_id": "GO:0000790"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {"free_text": "quantity of GFP-protein"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": {"free_text": "mobility of nuclear protein"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.07
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.07
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "83",
+                    "value": 2.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "Green fluorescent proteins from Anthozoa",
+                "onto_id": "FBbi:00000481"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Fluorescence recovery after photobleaching (FRAP)kinetics of MeCP2 were recorded using a mouse fibroblast cell line stably expressing MeCP2-GFP. Live cells were imaged using a Zeiss LSM 510 meta confocal microscope with fluorescence excitation at 488 nm and a 63x plan-apo oil lens. The image series has 3 pre-bleach shots, one immediately after bleaching a 1 micrometer diameter circle of pericentromeric heterochromatin, followed by 79 images at 2 sec intervals."},
+            "CELLTYPE": {"onto_id": "MC:BALB/c 3T3 fibroblast"},
+            "ATTRIBUTION": {
+                "Contributors": [
+                    "Ghosh, Rajarshi",
+                    "Woodcock, Chris"
+                ],
+                "PUBMED": [
+                    "20679481",
+                    "18334558"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": true,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

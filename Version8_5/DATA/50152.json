@@ -1,0 +1,136 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A longstanding limitation of imaging with serial block-face scanning electron microscopy is specimen surface charging. This charging is largely due to the difficulties in making biological specimens and the resins in which they are embedded sufficiently conductive. Local accumulation of charge on the specimen surface can result in poor image quality and distortions. Even minor charging can lead to misalignments between sequential images of the block-face due to image jitter. Typically, variable-pressure SEM is used to reduce specimen charging, but this results in a significant reduction to spatial resolution, signal-to-noise ratio and overall image quality. Here we show the development and application of a simple system that effectively mitigates specimen charging by using focal gas injection of nitrogen over the sample block-face during imaging. A standard gas injection valve is paired with a precisely positioned but retractable application nozzle, which is mechanically coupled to the reciprocating action of the serial block-face ultramicrotome. This system enables the application of nitrogen gas precisely over the block-face during imaging while allowing the specimen chamber to be maintained under high vacuum to maximise achievable SEM image resolution. The action of the ultramicrotome drives the nozzle retraction, automatically moving it away from the specimen area during the cutting cycle of the knife. The device described was added to a Gatan 3View system with minimal modifications, allowing high-resolution block-face imaging of even the most charge prone of epoxy-embedded biological samples."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Cultured cells and tissues were prepared as previously described using a combination of glutaraldehyde fixation, ferrocyanide reduced osmium tetroxide postfixation, thiocarbohydrazide and osmium tetroxide liganding, followed by en bloc uranyl acetate and lead aspartate staining (Deerinck et al., 2010; Williams et al., 2011; Ngo et al., 2016). Cultured cells were also stained for DNA using click-chemistry as previously described (Ngo et al., 2016). Briefly, HeLa cells were incubated overnight in media containing 10 micromolar 5-ethynyl-2\u2019-deoxyuridine (EdU, Life Technologies, Waltham, MA, USA) and the following day, copper-mediated click-chemistry (Click-iT Cell Reaction Kit, Invitrogen, Waltham, MA, USA) was used to attach dibromofluorescein-azide (1 micromolar) to the EdU incorporated into cellular DNA during replication, which was then used to photooxidise diaminobenzidine into a reaction product prior to treatment with osmium tetroxide (Ngo et al., 2016). Cultured cells were also prepared using a genetically targeted ascorbate peroxidase in order to stain the endomembrane system (Martell et al., 2012). Epoxy embedded samples were mounted to aluminium pins (Gatan) using either silver epoxy (Ted Pella, Redding CA) or cyanoacrylic adhesive, or mounted on a custom designed tip-tilt holder and sputter coated with a thin layer of Au\/Pd prior to block-face imaging. <p>\n\nHaLa cells with DAB-labeled DNA imaged at high-vacuum on SBEM using Focal Charge Compensation device to eliminate charging artifacts. No alignment was performed on mrc stack of images. Slice-by-Slice movie was generated with ImageJ."
+                },
+                "CELLTYPE": [
+                    {
+                        "free_text": "hela"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Homo sapiens",
+                        "onto_id": "NCBITaxon:9606"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "serial block face SEM (SBFSEM)",
+                        "onto_id": "FBbi:00000585"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "free_text": "osmium tetroxide"
+                    },
+                    {
+                        "free_text": "uranyl acetate"
+                    },
+                    {
+                        "free_text": "lead aspartate"
+                    },
+                    {
+                        "free_text": "diaminobenzidine"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Tom Deerinick",
+                        "Tristan Shone",
+                        "Eric Bushong",
+                        "Ranjan Ramachandra",
+                        "Steven Peltier",
+                        "Mark Ellisman"
+                    ],
+                    "URLs": [
+                        {
+                            "Href": "http:\/\/onlinelibrary.wiley.com\/doi\/10.1111\/jmi.12667\/full",
+                            "Label": "Journal of Microscopy"
+                        }
+                    ],
+                    "OTHER": [
+                        "project_20419"
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Pixel_size": {
+                                "value": "15",
+                                "unit": "nanometers"
+                            },
+                            "Image_size": "8000"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Pixel_size": {
+                                "value": "15",
+                                "unit": "nanometers"
+                            },
+                            "Image_size": "6000"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Pixel_size": {
+                                "value": "15",
+                                "unit": "nanometers"
+                            },
+                            "Image_size": "6000"
+                        }
+                    }
+                ],
+                "GROUP_ID": "20206"
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "video\/x-flv",
+                    "File_path": "50152.flv",
+                    "Size": 4219280,
+                    "File_type": "Flv"
+                },
+                {
+                    "Mime_type": "application\/zip",
+                    "File_path": "50152.zip",
+                    "Size": 44941440,
+                    "File_type": "Zip"
+                },
+                {
+                    "Mime_type": "image\/jpeg; charset=utf-8",
+                    "File_path": "50152.jpg",
+                    "Size": 293503,
+                    "File_type": "Jpeg"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": true,
+            "Still_image": false
+        }
+    }
+}

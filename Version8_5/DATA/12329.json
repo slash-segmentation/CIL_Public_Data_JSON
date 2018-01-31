@@ -1,0 +1,135 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "12329.zip",
+                "Size": 3172858
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "12329.tif",
+                "Size": 3200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "12329.jpg",
+                "Size": 139840
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {"free_text": "nuclear transport factor RanBP1"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "NIH/3T3",
+                "onto_id": "MCC:0000362"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.8
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.8
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "DAPI, FITC, CY3"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "Fluorescein (FITC)",
+                    "onto_id": "FBbi:00000451"
+                },
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                },
+                {
+                    "onto_name": "Cy3",
+                    "onto_id": "FBbi:00000449"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "PROCESSINGHISTORY": {"free_text": "color merge"},
+            "IMAGEDESCRIPTION": {"free_text": "NIH3T3 cells showing the localization of nuclear transport factor RanBP1 and F-actin in interphase cells.  Cells were fixed in formaldehyde and labeled with a primary antibody to RanBP1 and Cy3-conjugated secondary to (RanBP1), FITC-labelled phalloidin, and DAPI. Images were collected on a Zeiss LSM510 confocal using a scan speed 6, 8-line averaging and a 63X 1.4NA objective."},
+            "CELLTYPE": {
+                "onto_name": "fibroblast",
+                "onto_id": "CL:0000057"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW"},
+            "ATTRIBUTION": {"Contributors": [
+                "Hicham Mahboubi",
+                "Ursula Stochaj"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

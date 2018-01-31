@@ -1,0 +1,131 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "34908.tif",
+                "Size": 700000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "34908.jpg",
+                "Size": 60798
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "34908.zip",
+                "Size": 1389646
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "permeabilized tissue",
+                    "onto_id": "FBbi:00000093"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"free_text": "phalloidin"},
+                {
+                    "onto_name": "methanol fixed tissue",
+                    "onto_id": "FBbi:00000007"
+                }
+            ],
+            "GROUP_ID": "9875",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {
+                    "onto_name": "Arp2/3 protein complex",
+                    "onto_id": "GO:0005885"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {"free_text": "branching of actin filaments"},
+                {"free_text": "cytochalasin D treatment"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "Procedures for detergent extraction, immunostaining, S1 decoration, light, and EM were described previously (Svitkina et al., 1995, 1996, 1997;Verkhovsky et al., 1995; Svitkina and Borisy, 1998)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 475,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 3.15
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 471,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 3.15
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {"free_text": "platinum replica"},
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {"free_text": "immuno-gold"}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Localization of Arp2/3 complex at actin filament branching points. Xenopus keratocytes and fibroblasts were treated with CD (0.2 μM for 30 min or 0.5 μM for 10 min), extracted in the presence of phalloidin, fixed with glutaraldehyde, treated with 33% methanol, and immunostained with p21 antibody followed by 10-nm gold-conjugated secondary antibody. Image corresponds to a single panel from Figure 4 in J Cell Biol. 1999 May 31;145(5):1009-26.  All of the panels from Figure 4 are available as CIL:34902-34921."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol. 1999 May 31;145(5):1009-26."],
+                "Contributors": [
+                    "Tatyana M. Svitkina",
+                    "Gary G. Borisy"
+                ],
+                "PUBMED": ["10352018"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

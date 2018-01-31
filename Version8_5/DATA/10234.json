@@ -1,0 +1,168 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10234.jpg",
+                "Size": 104294
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "10234.tif",
+                "Size": 8100000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10234.zip",
+                "Size": 8039426
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                }
+            ],
+            "GROUP_ID": "7937",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "cytoskeleton",
+                    "onto_id": "GO:0005856"
+                },
+                {
+                    "onto_name": "microtubule cytoskeleton",
+                    "onto_id": "GO:0015630"
+                },
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {
+                    "onto_name": "axon",
+                    "onto_id": "GO:0030424"
+                },
+                {
+                    "onto_name": "dendrite",
+                    "onto_id": "GO:0030425"
+                },
+                {
+                    "onto_name": "dendritic growth cone",
+                    "onto_id": "GO:0044294"
+                },
+                {
+                    "onto_name": "axonal growth cone",
+                    "onto_id": "GO:0044295"
+                },
+                {
+                    "onto_name": "lamellipodium",
+                    "onto_id": "GO:0030027"
+                },
+                {
+                    "onto_name": "filopodium",
+                    "onto_id": "GO:0030175"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "developmental process",
+                    "onto_id": "GO:0032502"
+                },
+                {
+                    "onto_name": "dendrite development",
+                    "onto_id": "GO:0016358"
+                },
+                {
+                    "onto_name": "establishment or maintenance of cell polarity",
+                    "onto_id": "GO:0007163"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus",
+                "onto_id": "NCBITaxon:10114"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1300,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.167
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1030,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.167
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "This multi-layer image shows the spatial relationship between filamentous actin (red) and microtubule array (green) in cultured hippocampal neurons, grown for 5 days in vitro.  Actin staining (with rhodamine phalloidin) highlights the growing tips and filopodial extensions along axons and dendrites, while microtubule staining reveals the stable shafts of these processes.  Some nonneuronal cells may also appear in the field.  Neurons at 1, 3 and 5 days in vitro are represented in this image group.\n\nDetailed Methods: Embryonic rat hippocampal neurons were prepared as previously described (see Kaech and Banker, 2006, Nat Protoc).  Cells were prepared for fluorescent staining as previously described (Withers and Banker, 1998, in Culturing Nerve Cells, MIT Press).  Briefly, cells were fixed (4% formaldehyde, 4% sucrose in phosphate buffered saline, pH 7.4,  37°C, 15 minutes), permeabilized (0.25% Triton, 7 minutes) and immunostained for tubulin (monoclonal DM1A, Sigma, with Alexa 488 conjugated secondary, Molecular Probes, excitation, 494, emission, 519) and rhodamine-conjugated phalloidin (Molecular Probes, excitation, 540, emission, 565).  Fluorescent and phase images were acquired with a Leica DMRA microscope with a mercury arc lamp, a 40X lens (HCX PL Fluotar, NA 0.75), Leica GFP filter set (excitation, BP 470/40; dichromatic mirror, 500, suppression filter, BP 525/50); Leica N3 filter set (excitation, BP546/12; dichromatic mirror, 565, suppression filter, BP 600/40), Photometrics CoolSnap ES CCD camera and MetaMorph software."},
+            "CELLTYPE": {
+                "onto_name": "multipolar neuron",
+                "onto_id": "CL:0000104"
+            },
+            "ATTRIBUTION": {"Contributors": ["Dieter Brandner; Ginger Withers"]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,85 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "47297.tif",
+                "Size": 3200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "47297.jpg",
+                "Size": 275990
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "47297.zip",
+                "Size": 3150492
+            }
+        ],
+        "CORE": {
+            "GROUP_ID": "16611",
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "Occlusion of Microvasculature"},
+            "RELATIONTOINTACTCELL": {"free_text": "intact cells-in vivo imaging"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Staphylococcus aureus",
+                "onto_id": "NCBITaxon:1280"
+            },
+            "TECHNICALDETAILS": {"free_text": "Mice were anesthetized with ketamine/xylazine, and then subcutaneous tissue on a dorsal flap was exteriorized.  GFP staphylococcus aureus beads were inserted.  Antibodies were injected into the vasculature to label neutrophils (red) and endothelial cells (blue).  Blocking antibodies against the molecule Mac1 were administered after 2 hours of infection."},
+            "MOLECULARFUNCTION": {"free_text": "Administration of FITC Albumin to identify blood flow through capillaries"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 512.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 512.0
+                    }
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "Converted from volocity to .avi"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "neutrophil",
+                    "onto_id": "CL:0000775"
+                },
+                {
+                    "onto_name": "endothelial cell",
+                    "onto_id": "CL:0000115"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Visualization of neutrophil recruitment in capillaries proximal to agarose beads. (Figure 4 - Perfusion experiments)"},
+            "PATHOLOGICALPROCESS": {"free_text": ": Inflammation due to injection of Sterile agarose beads subcutaneously"},
+            "SPECIESTAXASPECIFIC": {"onto_id": ":mouse (C57 Black 6), Staphylococcus aureus"},
+            "ATTRIBUTION": {"Contributors": ["Mark Harding"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

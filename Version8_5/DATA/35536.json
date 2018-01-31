@@ -1,0 +1,134 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35536.tif",
+                "Size": 6400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35536.jpg",
+                "Size": 0
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35536.zip",
+                "Size": 6601998
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "unfixed tissue",
+                "onto_id": "FBbi:00000014"
+            },
+            "GROUP_ID": "8801",
+            "IMAGINGMODE": {
+                "onto_name": "multi-photon microscopy",
+                "onto_id": "FBbi:00000255"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "pollen wall",
+                    "onto_id": "GO:0043667"
+                },
+                {
+                    "onto_name": "exine",
+                    "onto_id": "GO:0043668"
+                },
+                {
+                    "onto_name": "intine",
+                    "onto_id": "GO:0043678"
+                },
+                {
+                    "onto_name": "sexine",
+                    "onto_id": "GO:0043673"
+                },
+                {
+                    "onto_name": "endexine",
+                    "onto_id": "GO:0043671"
+                }
+            ],
+            "PLANT_GROWTH": [{
+                "onto_name": "L mature pollen stage",
+                "onto_id": "PO:0001016"
+            }],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "pollination",
+                "onto_id": "GO:0009856"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "intrinsic mass distribution",
+                "onto_id": "FBbi:00000607"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Lilium longiflorum",
+                "onto_id": "NCBITaxon:4690"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Illumination provided by a SpectraPhysics-Newport MaiTai laser with DeepSee dispersion compensation providing pulses of approximately 100 fs duration at 80 MHz.  Wavelength set at 910 nm with emission at 465 to 50 nm.\nZeiss 710 multi-photon microscope with 63X N.A. 1.4 oil immersion objective.  Pollen was removed from the flower, put in a coverslip bottom chamber, covered with tissue culture grade mineral oil, and imaged within 12 hours."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.132
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1024,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.132
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Lilium longiflorum (Easter Lily) pollen.  This is a thin optical section through the center of the desiccated stage of the mature pollen showing autofluorescence or harmonic generation of intrinsic structures.  The brightest signal is from the outer layer, the exine and raised pilae."},
+            "CELLTYPE": {
+                "onto_name": "gamete",
+                "onto_id": "CL:0000300"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "DATE": ["06/2011"],
+                "Contributors": ["Michael Cammer"]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "PO:PO:0001016"},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

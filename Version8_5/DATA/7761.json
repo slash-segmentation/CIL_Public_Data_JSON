@@ -1,0 +1,128 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "7761.jpg",
+                "Size": 98374
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "7761.zip",
+                "Size": 20566140
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "7761.flv",
+                "Size": 3523827
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "CELLULARCOMPONENT": [
+                {"free_text": "murine lukemia virus"},
+                {"free_text": "Gag"},
+                {"free_text": "dynamin2"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "transmission of virus",
+                "onto_id": "GO:0019089"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": [
+                {
+                    "onto_name": "COS-1",
+                    "onto_id": "MCC:0000111"
+                },
+                {
+                    "onto_name": "Kidney",
+                    "onto_id": "FMA:7203"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Chlorocebus sabaeus",
+                "onto_id": "NCBITaxon:60711"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 456,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.167
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.167
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "240",
+                    "value": 134.0
+                }},
+                {"Wavelength": {
+                    "unit": "microns",
+                    "value": "CFP, YFP"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EYFP",
+                    "onto_id": "FBbi:00000084"
+                },
+                {
+                    "onto_name": "ECFP",
+                    "onto_id": "FBbi:00000081"
+                }
+            ],
+            "PROCESSINGHISTORY": {"free_text": "color combine"},
+            "IMAGEDESCRIPTION": {"free_text": "A COS-1 cell (RIGHT) generating murine lukemia virus (MLV) labeled with Gag-YFP (red) and expressing dynamin2-CFP (green) in contact with XC target cell (LEFT) expressing mCAT1-CFP (green).  MLV is transferred from infected dynamin-expressing Cos cells (green, to the right) to receptor expressing uninfected target cells (green, to the left). \nFour stages of retroviral transmission can be identified:\nFirst, the establishment of contact between the infected and uninfected cell.\nSecond, contact-induced virus assembly at the sites of cell-cell contact.\nThird, transmission of virus via filopodial bridges.\nFourth, downregulation of the cell-cell contact. \nRepeated rounds of establishment of contact, contact-induced virus assembly, and virus transmission are observed. \n\nImages were collected with a volocity spinning disc confocal microscope equipped with an environmental chamber (LIVE CELL; Pathology Devices) and a Nikon Perfect  Focus using a 60X 1.4NA objective. A z-stack of red and green images was taken every 134 s and merged into a single file to generate the Video. The image resolution is 0.166619 um/pixel. \n\nCelldance 2008, 3rd Place Video: Sequential Waves of Retroviral Transmission from Cell to Cell"},
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "Contributors": ["Jing Jin (Yale University School of Medicine)"],
+                "PUBMED": ["19662089"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

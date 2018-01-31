@@ -1,0 +1,174 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "812.tif",
+                "Size": 274200000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "812.zip",
+                "Size": 273643924
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "812.jpg",
+                "Size": 67082
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "4028",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "phagocytic vesicle",
+                    "onto_id": "GO:0045335"
+                },
+                {
+                    "onto_name": "food vacuole",
+                    "onto_id": "GO:0020020"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {"free_text": "ingestion"},
+                {"free_text": "egestion"},
+                {
+                    "onto_name": "digestion",
+                    "onto_id": "GO:0007586"
+                },
+                {
+                    "onto_name": "response to food",
+                    "onto_id": "GO:0032094"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                }
+            ],
+            "CELLLINE": {"free_text": "Dictyostelium discoideum strain AX2\u2013214"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Dictyostelium discoideum",
+                "onto_id": "NCBITaxon:44689"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 482
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 466
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "fluorescent protein tag",
+                    "onto_id": "FBbi:00000405"
+                },
+                {"free_text": "mRFP-LimEΔ - probe for actin filaments"},
+                {"free_text": "EGFP-PH-PLC-δ1 - binds (4,5)bisphosphate"}
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {"free_text": "NIH Image J"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "This time series stack shows an amoeba (Dictyostelium discoideum) trying very hard to ingest a yeast cell (Saccharomyces cerevisiae) that is slightly too large. (The yeast cell is a mutant with an elongated bud. See note 1.) The amoeba is expressing two fluorescent fusion proteins: GFP-PLCdelta2 (note 2), which binds to phosphatidylinositol 4,5-bisphophate and labels the plasma membrane, and mRFP-LimEdelta (note 3), which labels actin filaments. Actin filaments shape the phagocytic cup at its leading edge and ring it in dynamic bands as it extends deep in the cell. The yeast is too long, and eventually the amoeba gives up, as indicated by the disappearance of the actin filaments. The yeast is promptly expelled with remarkable speed and force, and the excess membrane is converted into ruffles. The motile amoeba contacts the yeast anew, spreads along its length until reaching the end, then tries again to engulf it, but with no better luck. The similarities between a cell spreading on a substratum and forming a phagocytic cup are evident. Methods: Living cells were imaged using a Zeiss LSM 510 laser scanning confocal microscope with standard components and a Zeiss Plan-Apochromat 63x 1.4 N.A. DIC objective. Simultaneous fluorescence images (confocal) and DIC images were recorded from a single focal plane. Scans were performed every 3.89 seconds using a scan zoom of 3.5. References to reagents: 1: S. cerevisiae DDY-1306 (Kozminski, K.G., Chen, A.J., Rodal, A.A., Drubin, D.G. Mol. Biol. Cell 11:339-54, 2000). 2: Green Fluorescent Protein fused to the pleckstrin homology domain of phospholipase C delta-1 (Sauffer, T.P., Ahn, S., and Meyer, T., Curr. Biol. 8:343-346, 1998). 3: Monomeric Red Fluorescent Protein fused to a fragment of Dictyostelium LimE (Fischer, M., Haase, I., Simmeth, E., Gerisch, G., and Muller-Taubenberger, A., FEBS Lett. 577:227-232, 2004). The video received an Honorable Mention in the 2009 Olympus Bioscapes International Digital Imaging Competition and also may be viewed here: http://www.olympusbioscapes.com/gallery/2009/. A movie version of this stack is available in this library at CIL:12654."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {
+                    "onto_name": "amoeboid cell",
+                    "onto_id": "CL:0000732"
+                }
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": [
+                    "Clarke M, Engel U, Giorgione J, Müller-Taubenberger A, Prassler J, Veltman D,  Gerisch G. Curvature recognition and force generation in phagocytosis. BMC Biol.  2010 Dec 29;8:154",
+                    "Gerisch G, Ecke M, Schroth-Diez B, Gerwig S, Engel U, Maddera L, Clarke M. Self-organizing actin waves as planar phagocytic cup structures. Cell Adh Migr. 2009 Oct-Dec;3(4):373-82"
+                ],
+                "Contributors": ["Margaret Clarke"],
+                "PUBMED": [
+                    "21190565",
+                    "19855162"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

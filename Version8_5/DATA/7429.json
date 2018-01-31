@@ -1,0 +1,151 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "7429.zip",
+                "Size": 758236
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "7429.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "7429.jpg",
+                "Size": 34964
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "saponin permeabilized",
+                    "onto_id": "FBbi:00000264"
+                }
+            ],
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                }
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "actin cytoskeleton",
+                "onto_id": "GO:0015629"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "actin filament polymerization",
+                "onto_id": "GO:0030041"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": {
+                "onto_name": "actin binding",
+                "onto_id": "GO:0003779"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 500,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.064
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 500,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.064
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "488"
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "561"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "X-Rhodamine",
+                    "onto_id": "FBbi:00000584"
+                },
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Image shows (actin polymerization at) free barbed ends and F-actin in the lamellipodium of a migrating primary murine embryonic fibroblast. \nCell has been mildly permeabilized using saponin during a 2min incubation in cytoskeleton buffer containing X-rhodamine labeled G-actin. Intracellular X-rhodamine actin polymerized into filaments at the very leading edge of the lamellipodium, resulting in the narrow red band along the tip of the lamelipodium. Lamellipodial F-actin was labeled with Alexa488-phalloidin using glutaraldehyde fixation subsequently to the X-rhodamine actin incubation. \nThe micrograph visualizes that the actin monomer incorporation into the lamellipodial actin filament structure is restricted to the front of the lamellipodium. This enables a directed extension of the branched actin network towards the plasmamembrane, which pushes the membrane forward thereby creating cell protrusion.\n\nWide field epifluorescence image taken on using a 100X 1.49 NA lens, Semrock DA/FI/TR/Cy5-4x4M-B Sedat filter set, and an Orca II with 500 ms exposure."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                {
+                    "onto_name": "primary cell line cell",
+                    "onto_id": "CL:0000001"
+                }
+            ],
+            "ATTRIBUTION": {
+                "OTHER": ["Laboratory of Cell and Tissue Morphodynamics"],
+                "Contributors": [
+                    "Ingo Thieverssen",
+                    "Clare M. Waterman"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

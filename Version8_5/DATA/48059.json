@@ -1,0 +1,84 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "48059.tif",
+                "Size": 200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "48059.jpg",
+                "Size": 17258
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "48059.zip",
+                "Size": 32925
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "48059_orig.jpg",
+                "Size": 32787
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Macaca mulatta",
+                "onto_id": "NCBITaxon:9544"
+            },
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {"free_text": "lead citrate"},
+                {"free_text": "uranyl acetate"}
+            ],
+            "GROUP_ID": "17502",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2800
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3276
+                }}
+            ],
+            "CELLTYPE": {
+                "onto_name": "kidney glomerular epithelial cell",
+                "onto_id": "CL:1000510"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph of segment of kidney cortex from a Rhesus monkey infused with 20% perfluorodecalin, 10% F68, 8 - 10 days after infusion at 50 cc/kg. Emulsion # 750519 <au 21 1975 - June 4 1975. Monkey weighed @3.5 kg. Image shows a glomerulus, phagocytosed perfluorodecalin emulsion particle footprints (edge pseudocolored in purple), podocyte processes, basement membrane, endothelial cells and podocytes with processes."},
+            "ATTRIBUTION": {"Contributors": ["Marian Miller"]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "CELLLINE": {
+                "onto_name": "Cortex of kidney",
+                "onto_id": "FMA:15581"
+            },
+            "ITEMTYPE": {
+                "onto_name": "X-ray micrograph",
+                "onto_id": "FBbi:00000260"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

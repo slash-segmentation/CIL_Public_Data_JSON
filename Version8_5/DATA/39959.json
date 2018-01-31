@@ -1,0 +1,110 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39959.tif",
+                "Size": 2100000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39959.jpg",
+                "Size": 267225
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "IMAGINGMODE": {"onto_id": "FBbi:00000623"},
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "actin filament",
+                    "onto_id": "GO:0005884"
+                },
+                {
+                    "onto_name": "dendritic spine",
+                    "onto_id": "GO:0043197"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cerebellar Purkinje cell layer structural organization",
+                "onto_id": "GO:0021693"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus norvegicus",
+                "onto_id": "NCBITaxon:10116"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "1) Tissue:  Five male Sprague Dawley adult rats were used in this study.  The committee on animal studies of UCSD following the NIH guidelines approved all of experimental procedures. Briefly, an intracardiac perfusion was performed under deep anesthesia (containing 50 mg/kg ketamine, 1mg/kg rhompun and 5 mg/kg acetopromazine in sterile saline) with normal rat Ringer's at 35C followed by fixative.  For light microscopic analyses, rats were perfused with 4% formaldehyde (made fresh from paraformaldehyde) in cacodylate buffer, pH 7.2. The brain was removed and fixed an additional 2 hr in the same solution at 4C.  For electron microscopic studies, a range of fixative strengths were employed containing 2 or 4 % formaldehyde and  0.5%-2.5% glutaraldehyde.  The tissue was postfixed for 2 hr in the same fixative. After removal of the brain from the skull, coronal or sagital sections through striatum, cerebellum and hippocampus were cut at a thickness of 50-80 um with a Vibrating Microtome (Leica, model VT 1000E). As a control, we also labeled cultured bovine aortic endothelial cells, fixed using the same conditions as above, which possess characteristic bundles of actin filaments called stress fibers.  Details about culturing methods are given in Deerinck et al. (1994).\n\n2) Electron microscopic analysis using photooxidation of eosin-phalloidin:  Vibratome sections were washed with 50 mM glycine-PBS containing 0.5% cold water fish gelatin to block nonspecific binding. Following 30 min of washing, the sections were incubated with agitation in a solution of 0.05% of eosin-phalloidin in 0.5% cold water fish gelatin/50mM glycine-PBS 2 hr. For light microscopy studies, phalloidin conjugated to rhodamine was also used  because of its superior fluorescent quantum yield.  As a negative control, the eosin-phalloidin was omitted. Fluorescent and transmitted light images were recorded using a Zeiss Axiovert inverted microscope with a laser scanning confocal attachment (MRC-1024; Bio-RAD Laboratories, Cambridge, MA) and a krypton/argon mixed gas laser. Images were collected digitally using either a 40X oil (n.a. =1.3) or 63X (n.a. =1.4) oil objective and transferred to a graphics program (Adobe Photoshop 5.0).\n\n3) Photooxidation: After additional washes in sodium cacodylate buffer, tissue sections labeled with eosin-phalloidin were mounted on glass-welled tissue culture dishes (Mat Tek Corp) pretreated with Cell Tak adhesive (Collaborative Research Inc).  Slices were fixed again for 2-5 min with 2% glutaraldehyde in 0.1 M cacodylate buffer, rinsed  in buffer for several minutes, and placed in 50mM glycine and potassium cyanide in cacodylate buffer for an additional 5 min to reduce nonspecific staining.  Photooxidation was performed on the Zeiss Axiovert described above, equipped with a 75W xenon arc light source.  Specimens were viewed with a 40X oil objective, n.a. 1.3.  Three areas were chosen for electron microscopic analysis: cerebellar molecular layer, dorsal striatum and hippocampal area CA1.  The appropriate areas were located with transmitted light and the pattern of fluorescent labeling was recorded using the confocal attachment at a low laser power setting.  The samples were immersed for ten minutes in a solution of 2.8 mM DAB in 0.1 M sodium cacodylate at 4C bubbled with pure O2, final pH 7.4, and then irradiated under conventional epifluorescence using a xenon lamp.  The DAB solution was changed every few minutes while the reaction proceeded.  Continuous observations were made during the photooxidation procedure using transmitted light. After 6-8 min., a brownish reaction product began to appear in place of the fluorescence. The process was stopped by halting the excitation (Deerinck et al., 1994). Following photooxidation, tissue sections were rinsed in 0.1M sodium cacodylate several times and incubated for 30 min with 1% osmium tetroxide in 0.1M sodium cacodylate, pH 7.4.  Some sections were fixed for 1 hr in 2.25% glutaraldehyde with 0.2% tannic acid added both in cacodylate buffer.  Osmication was done with 0.75 %  OsO4 in cacodylate buffer, pH 6, for 1 hr on ice.  Treatment with tannic acid and osmication at low pH is known to protect actin filaments from depolymerization during osmium fixation (Pollard and Maupin, 1982).  After several washes with ddH20, slices were dehydrated in an ascending ethanol series, infiltrated with Durcopan ACM resin and polymerized for 24 hr at 60C.  Thin sections (80-100 nm) and thick sections (0.5-1um) were cut with Reichert Ultracut E using glass knives.  Thin sections were examined using a JEOL 100CX electron microscope at 80-100 keV and thick sections were observed using a JEOL JEM-4000EX intermediate voltage microscope (IVEM) at 400 keV.  One set of thin sections was poststained with a combination of uranyl acetate and lead citrate, but most were examined without additional counterstain. Stereopairs were generated by tilting the specimen 5 degrees between micrographs."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 836
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 798
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                },
+                {
+                    "onto_name": "photoconvertible fluorescent proteins",
+                    "onto_id": "FBbi:00000537"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "A single slice through the middle of a tomographic reconstruction of Purkinje cell spines from rat cerebellum, labeled for F-actin by photoconvertable phalloidin.  For more information, see: Capani F; Martone ME; Deerinck TJ; Ellisman MH.Selective localization of high concentrations of F-actin in subpopulations of dendritic spines in rat central nervous system:a three-dimensional electron microscopic study.J Comp Neurol.2001 435(2):156-70.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "Purkinje cell",
+                "onto_id": "CL:0000121"
+            },
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 22",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=22"
+                }],
+                "Contributors": [
+                    "Francisco Capani",
+                    "Maryann Martone",
+                    "Mark Ellisman"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

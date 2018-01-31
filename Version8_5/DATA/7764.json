@@ -1,0 +1,140 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "7764.jpg",
+                "Size": 55757
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "7764.flv",
+                "Size": 12392297
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "7764.zip",
+                "Size": 47771772
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {"free_text": "tomography"}
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "Golgi apparatus",
+                    "onto_id": "GO:0005794"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "endoplasmic reticulum",
+                    "onto_id": "GO:0005783"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "spread of virus in host",
+                "onto_id": "GO:0046739"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "COS-7",
+                "onto_id": "MCC:0000112"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Chlorocebus sabaeus",
+                "onto_id": "NCBITaxon:60711"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 640
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 480
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "VenusFP",
+                "onto_id": "FBbi:00000477"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "animation",
+                "onto_id": "FBbi:00000267"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "An animation that takes the viewer inside a mammalian cell where one can see the nucleus and its characteristic envelope connected to the endoplasmic reticulum. The movie starts with a brief video clip showing the spread of Venus-VSVG throughout the cell.  COS 7 cell expressing a temperature sensitive version of the vesicular\nstomatitus virus glycoprotein G tagged with a monomeric version (contains A206K mutation of Venus (VSVGtsO45-Venus).  The cells were incubated at the non permissive temperature of 40°C overnight after transfection which led to misfolding and subsequent retention in the endoplasmic reticulum (ER).  This movie sequence begins ~10 minutes after shift to the permissive temperature of 32°C and followed at ~1 minute time intervals as the VSVGtsO45-Venus moves from the ER to the Golgi apparatus and to the plasma membrane.  Images were collected with a 25X 0.8 NA Plan-Fluar objective on a Zeiss LSM510 META (Carl Zeiss, Thornwood, NY) using 514 nm excitation, 458/514 dichroic, and BP535-590 IR emission filter.  Image size is 512 x 512, pixel size is 0.18 µm x 0.18 µm and pixel time was set to 1.6 µsec with 8 line averaging per image.  Detector pinhole was set to collect ~0.5 µm slices.The width of the nucleus is approximately 5 microns.  The video is followed by the animation, which used transmission electron microscopy and tomography to generate a 3D volume of a portion of a Golgi ribbon imaged from a mammalian cell. A model of the Golgi apparatus is presented where the trans Golgi network peels off from the stack of cisternae while the CIS element is fed with a component arising from the ER exit site. This animation is the first project by the Biovisualization program at the NICHD. Computer science and animation students collaborated with researchers to produce this visualization. While the main focus was scientific accuracy, aesthetics were also considered. To convey the sense of scale, a progression is made, from actual confocal microscopy into an SEM style animation and then into non-photorealistic rendering of what can be seen at TEM level magnification. The software tools utilized for this project include Autodesk Maya, Adobe Photoshop and After Effects, Final Cut Studio, Mercury Amira and Imod. Celldance 2008, 1st Place Public Outreach Video."},
+            "CELLTYPE": {
+                "onto_name": "epithelial cell",
+                "onto_id": "CL:0000066"
+            },
+            "ATTRIBUTION": {"Contributors": [
+                "Rachid Sougrat",
+                "Jeremy Swan",
+                "George H. Patterson",
+                "Jennifer Gillette",
+                "Edwin Fung",
+                "Tim Mrozek",
+                "Bryan Twomey",
+                "John Rouse",
+                "Nichole Jonas",
+                "Juan Bonifacino",
+                "Jennifer Lippincott-Schwartz"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "computer graphic",
+                    "onto_id": "FBbi:00000224"
+                },
+                {
+                    "onto_name": "animation",
+                    "onto_id": "FBbi:00000267"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

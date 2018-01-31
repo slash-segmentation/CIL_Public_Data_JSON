@@ -1,0 +1,115 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "46351.flv",
+                "Size": 287913
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "46351.zip",
+                "Size": 557184
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "46351.jpg",
+                "Size": 25233
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "17052",
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "BIOLOGICALPROCESS": [
+                {"free_text": "cell migration"},
+                {
+                    "onto_name": "wound healing, spreading of cells",
+                    "onto_id": "GO:0044319"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "CELLLINE": {"free_text": "DA3"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "DA3 cells expressing the fluorescent protein mCherry were grown to 90% confluence in wells of 2 cm diameter in DMEM supplemented with 10% heat-inactivated FCS (Gibco-BRL). A scratch was generated using a 200 µl tip, and the cells were incubated with 80 ng ml-1 Met-Hepatocyte Growth Factor/Scatter Factor (HGF/SF) and subjected to time lapse confocal laser scanning microscopy (CLSM-510, Zeiss, Germany) for approximately 26 hrs, with images taken at 14.5 min intervals. The position of each scratch was predefined, and a macro that repetitively positions the microscope on each point was executed. The acquired differential interference contrast (DIC) channel of the time-lapse sequence (shown here) was used for the multi-cellular analysis. These results are under review and a reference to full details will be given upon publication."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 242,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 80.0
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 391,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 80.0
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "value": 7.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Examples of single cells' dynamics within an advancing monolayer during a wound healing assay. Upon treatment with HGF/SF, cells close to the wound edge begin to accelerate and stretch, deforming to elongated morphology directed toward the wound edge, followed by enhanced directional migration. These changes propagate into deeper cells in the monolayer in what is referred to as \"backward propagating waves\". This zoomed-in video displays a small region to visualize how single cells respond to these waves."},
+            "CELLTYPE": {"free_text": "mammary adenocarcinoma"},
+            "ATTRIBUTION": {
+                "OTHER": ["Contact: assafzar@gmail.com"],
+                "URLs": [{
+                    "Label": "PLoS article",
+                    "Href": "http://www.ploscompbiol.org/article/info:doi/10.1371/journal.pcbi.1003747"
+                }],
+                "Contributors": ["Assaf Zaritsky"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

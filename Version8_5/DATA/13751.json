@@ -1,0 +1,157 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13751.jpg",
+                "Size": 29797
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13751.tif",
+                "Size": 600000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13751.zip",
+                "Size": 529116
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                }
+            ],
+            "GROUP_ID": "8382",
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                }
+            ],
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Fly ovaries were dissected and fixed as described previously (O\u2019Reilly et al., 2008). Primary antibody was anti-GFP. Secondary antibodies used were either FITC, Cy3, or Cy5 conjugated to species-specific secondary antibodies (Jackson ImmunoResearch Laboratories, Inc.). For nuclear staining, fixed ovaries were incubated for 15 min with Draq5 (Cell Signaling Technology). Samples were mounted in Vectashield mounting medium. Images were collected at room temperature (22C) using 40× (1.25 NA) or 63× (1.4 NA) oil immersion lenses (Leica) on an upright microscope (DM 5000; Leica) coupled to a confocal laser scanner (TCS SP5; Leica). LAS AF SP5 software (Leica) was used for data acquisition. Images representing individual channels of single confocal slices from the center of each germarium were exported as TIFF files, and images were converted to figures using Photoshop software (Adobe)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.2297
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.2297
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 1,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.2999
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "membrane-permeant probe",
+                    "onto_id": "FBbi:00000421"
+                },
+                {"free_text": "DRAQ5"},
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "germ line cell",
+                    "onto_id": "CL:0000039"
+                },
+                {
+                    "onto_name": "follicle cell",
+                    "onto_id": "CL:0000477"
+                },
+                {
+                    "onto_name": "germ line stem cell",
+                    "onto_id": "CL:0000014"
+                },
+                {
+                    "onto_name": "follicle stem cell",
+                    "onto_id": "CL:0000441"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Expression of UAS-tauGFP (the tau-GFP fusion protein binds microtubules; green) under control of babGal4 in wild-type Drosophila germaria. babGal4 is expressed at high levels in apical cells. Nuclei are in red. Image is Supplemental Figure S2A in J Cell Biol. 2010. 191: 943-952."},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://jcb-dataviewer.rupress.org/jcb/browse/3512"}],
+                "PUBLISHED": ["J Cell Biol. 2010. 191: 943-952."],
+                "Contributors": [
+                    "Tiffiney R. Hartman",
+                    "Daniel Zinshteyn",
+                    "Heather K. Schofield",
+                    "Emmanuelle Nicolas",
+                    "Ami Okada",
+                    "Alana M. O'Reilly"
+                ],
+                "PUBMED": ["21098113"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

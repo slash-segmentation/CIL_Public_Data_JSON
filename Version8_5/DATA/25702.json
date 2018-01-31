@@ -1,0 +1,114 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "25702.flv",
+                "Size": 370111
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25702.jpg",
+                "Size": 16690
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25702.zip",
+                "Size": 1773696
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "6803",
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "focal adhesion",
+                "onto_id": "GO:0005925"
+            },
+            "BIOLOGICALPROCESS": [
+                {"free_text": "tyrosine phosporylation"},
+                {"free_text": "FAK knocksown siRNA"}
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {"free_text": "MTLn3"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus",
+                "onto_id": "NCBITaxon:10114"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 326,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.24
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 324,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.24
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "60",
+                    "value": 60.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EYFP",
+                "onto_id": "FBbi:00000084"
+            },
+            "PROCESSINGHISTORY": {"free_text": "watershed filtering"},
+            "IMAGEDESCRIPTION": {"free_text": "MTLn3 cell cotransfected with FAK siRNA (target A) and two tandem Src SH2 phosphotyrosine-binding domains (YFP-dSH2), which specifically detects tyrosine phosphorylation at focal adhesions.  CIL:25703 is the corresponding control experiment.  Fluorescence imaging was performed using a 60×/1.40 oil objective on an inverted microscope (1X-70;Olympus) in a 37°C closed system as previously described. Glass-bottomed dishes  (35 mm) were coated with 10 µg/ml fibronectin for 1 h at 37°C. Cells  were plated in Ham\u2019s F12 containing 5% FBS and 20 mM Hepes, pH 7.2, and were allowed to adhere for 3 h. Fluorescent images were collected  using a cooled CCD camera (CoolSNAP FX; Hamamatsu Photonics) and captured into MetaVue every 1 min for 1 h. Time-lapse sequences from live  fluorescence imaging were first subjected to high-pass filtration based on the water algorithm (Zamir et al., 1999) to remove diffuse background fluorescence.  Movie corresponds to video 5 from J Cell Biol. 2009 Apr 20;185(2):357-70. Epub 2009 Apr 13."},
+            "CELLTYPE": {"free_text": "mammary adenocarcinoma"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol. 2009 Apr 20;185(2):357-70. Epub 2009 Apr 13."],
+                "Contributors": [
+                    "Keefe T. Chan",
+                    "Christa L. Cortesi",
+                    "Anna Huttenlocher"
+                ],
+                "PUBMED": ["19364917"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

@@ -1,0 +1,113 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40023.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40023.jpg",
+                "Size": 88664
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"onto_id": "FBbi:00000621"}
+            ],
+            "IMAGINGMODE": {"onto_id": "FBbi:00000623"},
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "node of Ranvier",
+                    "onto_id": "GO:0033268"
+                },
+                {
+                    "onto_name": "myelin sheath",
+                    "onto_id": "GO:0043209"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus norvegicus",
+                "onto_id": "NCBITaxon:10116"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "A 1 month old male rat was first anaesthetized by intraperitoneal injection of Nembutal (35 mg per kg body weight), and whole blood was flushed out with oxygenated rat Ringers solution at 37 °C followed by intracardial perfusion with an aldehyde mixture composed of 2 percent paraformaldehyde and 2.5 percent glutaraldehyde in 0.15 M cacodylate buffer (pH 7.4) at 37 °C. The spinal root was dissected out, immersed in the same fixative and transferred to the high-pressure freezing (HPF) unit. These samples were trimmed and blotted (to remove excess water) before placing in the carrier. Samples were loaded into the carriers of the Bal-Tec HPM010 HPF unit (Bal-Tec, Liechtenstein) and operated according to manufacturers instructions. Carriers with a depth of 0.2 mm were used with thin bundles of spinal root to provide uniform ultrastructural preservation. The inert liquid, hexadecene, was added to the carrier to fill in the well, excluding air from surrounding the sample.\n\nFreeze Substitution:  After the samples were high-pressure frozen, they were freeze-substituted in dry acetone containing 0.1 percent tannic acid for 24 h at  negative 90  degrees C in a Leica EMAFS freeze substitution unit (FSU, Leica Microsystems, Bannockburn, IL), then in acetone containing 2 percent OsO4 and 0.1 percent of uranyl acetate for the remaining time of the procedure. Both tannic acid and uranyl acetate were added not only to help stain the material but also to aid in membrane preservation. During this procedure, the water in the sample is completely extracted and replaced by the fixative, i.e., freeze-substituted. The temperature for substitution was maintained at minus 90 °C for 3 days to ensure that the biological structures were cryo-immobilized during this substitution. The temperature was raised gradually at a rate of 2  degrees C per hour to minus 60  degrees C and held there for 8 h because OsO4 does not start to cross-link until around minus 70  degrees C. The samples were then warmed to minus 20 degrees C at a rate of 5 degrees C per hour and held at this temperature for 12 h. The carriers were then taken from the FSU, the tissue removed from the carriers and quickly washed several times in dry acetone at room temperature (RT) to remove the OsO4 and uranyl acetate. Acetone above 70 percent can extract lipids at RT. Hence, the exposure time to it was minimized. The tissues were then incubated in a 50:50 mixture of acetone/Durcupan for 4 h at RT followed by 100 percent Durcupan resin of 24 h infiltration with three changes. Resin polymerization was accomplished in a vacuum oven at 65 to 70 degrees C for 48 h. The resin-embedded samples were removed from the oven and sections were cut using a Leica ultramicrotome. Sections were then stained 30 min in 2 percent aqueous uranyl acetate, followed by 15 min in lead salts. Fiducial cues consisting of 15 and 20 nm colloidal gold particles were deposited on opposite sides of the section.\n\nImages were acquired using a JEOL 4000, magnification, 20000.0, accelerating voltage, 400.0 kv."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "Schwann cell",
+                    "onto_id": "CL:0002573"
+                },
+                {
+                    "onto_name": "peripheral neuron",
+                    "onto_id": "CL:0000111"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Single computed slice through a tomographic reconstruction of a Node of Ranvier from rat peripheral nerve, prepared by a combination of chemical fixation, high pressure freezing and freeze substitution.  For more information see: Perkins GA, Sosinsky GE, Ghassemzadeh S, Perez A, Jones Y, Ellisman MH. (2008) Electron tomographic analysis of cytoskeletal cross-bridges in the paranodal region of the node of Ranvier in peripheral nerves. J Struct Biol. 2008 Mar;161(3):469-80. Epub 2007 Oct 22 PMID: 18096402. The complete reconstruction can be viewed in the Cell centered database, accession # 3696.\n\nThis image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 3696",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3696"
+                }],
+                "Contributors": [
+                    "Mark Ellisman",
+                    " Gina Sosinsky",
+                    " Guy Perkins"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

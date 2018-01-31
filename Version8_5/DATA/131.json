@@ -1,0 +1,175 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "131.jpg",
+                "Size": 44763
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "131.zip",
+                "Size": 11880975
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "131.tif",
+                "Size": 9000000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                }
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "growth cone",
+                    "onto_id": "GO:0030426"
+                },
+                {
+                    "onto_name": "filopodium",
+                    "onto_id": "GO:0030175"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cell adhesion mediated by integrin",
+                    "onto_id": "GO:0033627"
+                },
+                {
+                    "onto_name": "actin polymerization-dependent cell motility involved in migration of symbiont in host",
+                    "onto_id": "GO:0070359"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "detergent permeabilized",
+                "onto_id": "FBbi:00000262"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {
+                "onto_name": "NG108-15",
+                "onto_id": "MCC:0000361"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "mouse/rat NG108-15",
+                "onto_id": "NCBITaxon:129386"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "structural constituent of cytoskeleton",
+                    "onto_id": "GO:0005200"
+                },
+                {
+                    "onto_name": "extracellular matrix binding",
+                    "onto_id": "GO:0050840"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 540,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.07
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 500,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.07
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.55
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "488"
+                }},
+                {"Wavelength": {
+                    "unit": "nanometers",
+                    "value": "543"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "Alexa Fluor 555",
+                    "onto_id": "FBbi:00000443"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "non-linear methods",
+                "onto_id": "FBbi:00000355"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Cultured growth cone (NG108) labeled for F-actin with phalloidin (red) and conformationally activated beta1 integrin adhesion receptors with 9EG7 antibody (green).  The adhesion molecules at the tips of the growth cone filopodia are primed to bind the extracellular matrix.  These \"sticky fingers\" appear to search for sites to form adhesions that can be used to move the rest of the cell forward.  Collected on Zeiss LSM 510 with a 63X plan Apo 1.4 NA objective.  Pinholes adjusted around 1 Airy Unit to yield match volume according to wavelength.  488 actin image BP: 505-530, 532 activated integrin image: LP:560.\n\nImage format:  red/green maximum projection followed by actin z-series and activated beta1 integrin z series.  Related to Figure 4B in Science. 2007, 315(5814):992-5."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "glioma",
+                    "onto_id": "DOID:2627"
+                },
+                {
+                    "onto_name": "neuroblastoma",
+                    "onto_id": "DOID:769"
+                }
+            ],
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Science. 2007, 315(5814):992-5."],
+                "Contributors": [
+                    "Catherine Galbraith",
+                    "James Galbraith"
+                ],
+                "PUBMED": ["17303755"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": true,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

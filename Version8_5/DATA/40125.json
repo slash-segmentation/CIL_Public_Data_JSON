@@ -1,0 +1,121 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40125.tif",
+                "Size": 800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40125.jpg",
+                "Size": 66051
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                }
+            ],
+            "IMAGINGMODE": {
+                "onto_name": "multi-photon microscopy",
+                "onto_id": "FBbi:00000255"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "regulation of neurotransmitter uptake",
+                    "onto_id": "GO:0051580"
+                },
+                {
+                    "onto_name": "neurotransmitter receptor metabolic process",
+                    "onto_id": "GO:0045213"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "vibratome-sectioned tissue",
+                "onto_id": "FBbi:00000030"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Wildtype mouse (C57BL6/129SvJ from Duke University) was perfused with aldehyde fixatives (4% paraformaldehyde + 0.1% gluteraldehyde), sectioned on Vibratome (thickness, 80 µm), and rinsed in phosphate buffered saline (PBS,3 x 10min) and incubated in blocking buffer (PBS, 3% normal donkey serum, 1% fish skin gelatin, 0.3% Triton X-100, 1% bovine serum albumin).  Tissue sections incubated on shaker overnight, 4° C in primary antibodies diluted in blocking buffer as follows: anti-VMAT-2; Host = guinea pig; 1:500 (Oncogene,  catalog # 503-01-50);\nanti-DARPP-32; Host = mouse; 1:500 (BD Transduction Laboratories, catalog #611520).  Following 3 x 10' rinses, tissue was incubated for 2hr, RT, on a shaker in secondary antibodies diluted at 1:100 in working buffer (donkey-anti-mouse AF488 [Molecular Probes, Cat #A21202] and donkey-anti-guinea pig RRX [Jackson Immunoresearch Laboratories, Inc].  Following rinses in PBS, sections were mounted on slides with gelvatol.  Individual images were gathered using a BioRad RTS 2000 Multiphoton with a Nikon PlanApo objective (N.A. 1.45)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 512
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "X-Rhodamine",
+                    "onto_id": "FBbi:00000584"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Confocal image of dorsal lateral striatum from a wild type mouse, immunolabeled for the vesicular monoamine transporter VMAT2 (red) and the dopamine receptor associated phosphoprotein DARRP32 (green).  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "CNS neuron (sensu Vertebrata)",
+                "onto_id": "CL:0000117"
+            },
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 4003",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=4003"
+                }],
+                "Contributors": [
+                    "Diana Price",
+                    "Aki Laakso",
+                    "Maryann Martone",
+                    "Naoko Yamada",
+                    "Andrea Thor",
+                    "Monica Berlanga",
+                    "Michele Cyr"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

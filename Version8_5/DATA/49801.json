@@ -1,0 +1,138 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Multi-tilt EM tomogram of primary human small airway epithelial cell (SAEC) in interphase state. The tomogram refers to the SAEC in Figure 4 of the published manuscript: <a href= \"http:\/\/science.sciencemag.org\/content\/357\/6349\/eaag0025\" target=\"_blank\">http:\/\/science.sciencemag.org\/content\/357\/6349\/eaag0025<\/a>."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Primary human small airway epithelial cells in interphase state were fixed with 2.5% glutaraldehyde, 5 mM CaCl<sub>2<\/sub> in 0.1 M sodium cacodylate buffer (pH 7.4). Cells were stained with 10 &micro;M DRAQ5, and photo-oxidized at 620 \u00b1 30 nm for 8 minutes. Cells were post-fixed with 2% osmium tetroxide, 2 mM CaCl<sub>2<\/sub>, 1.5% potassium ferrocyanide in 0.15 M sodium cacodylate buffer (pH 7.4). Samples were ethanol dehydrated, embedded in Durcupan epoxy resin and sectioned to 250 nm thickness and mounted on copper slot grid. 5 nm and 10 nm colloidal gold particles were deposited on the grid as fiducial markers. 8-tilt EM tomography was collected on a 300 kV FEI Titan Krios using a 4K by 4K Gatan Ultrascan CCD camera at 1 degree increment for each tilt series from -60&deg; to +60&deg;. The entire set of EMT images was aligned and reconstructed using the Transform-based Tracking, Bundle adjustment, and Reconstruction (TXBR) package. The data has a voxel size of 1.28 nm."
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "Primary human small airway epithelial cells in interphase state"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "free_text": "Primary human small airway epithelial cells immortalized with telomerase"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "free_text": "8-tilt EM tomography"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    }
+                ],
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "electron density",
+                        "onto_id": "FBbi:00000315"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "free_text": "Glutaraldehyde fixed cells, photo-oxidation of DRAQ5 in the presence of DAB solution to induce DAB polymerization and subsequent staining with osmium tetroxide"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "free_text": "semi-thin section ~250 nm"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "free_text": "Osmium tetroxide staining of DAB polymers catalyzed by photo-oxidation of DRAQ5 stained cells in the presence of DAB solution"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Horng Ou",
+                        "Sebastien Phan",
+                        "Thomas Deerinck",
+                        "Andrea Thor",
+                        "Mark Ellisman",
+                        "Clodagh O\u2019Shea"
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Pixel_size": {
+                                "value": "1.28",
+                                "unit": "nanometers"
+                            },
+                            "Image_size": "942"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Pixel_size": {
+                                "value": "1.28 ",
+                                "unit": "nanometers"
+                            },
+                            "Image_size": "1108"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Pixel_size": {
+                                "value": "1.28 ",
+                                "unit": "nanometers"
+                            },
+                            "Image_size": "1108"
+                        }
+                    }
+                ],
+                "GROUP_ID": "19851"
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image\/tif",
+                    "File_path": "49801.tif",
+                    "Size": 126500000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "image\/jpeg; charset=utf-8",
+                    "File_path": "49801.jpg",
+                    "Size": 369158,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "application\/zip",
+                    "File_path": "49801.zip",
+                    "Size": 126310439,
+                    "File_type": "Zip"
+                },
+                {
+                    "Mime_type": "image\/tiff",
+                    "File_path": "49801_orig.tif",
+                    "Size": 126310301,
+                    "File_type": "OME_tif"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": true,
+            "Video": false,
+            "Still_image": false
+        }
+    }
+}

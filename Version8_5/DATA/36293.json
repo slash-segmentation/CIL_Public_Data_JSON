@@ -1,0 +1,121 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "36293.tif",
+                "Size": 31200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "36293.jpg",
+                "Size": 914229
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "36293.zip",
+                "Size": 3697305
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "36293_orig.jpg",
+                "Size": 3697167
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "p63-/- mice"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3666
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2850
+                }}
+            ],
+            "CELLTYPE": [
+                {"free_text": "squamous basal cells"},
+                {"free_text": "juctional squamous cells"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Embryonic cell precursors (green) of Barrett\u2019s esophagus at the junction between the stomach and esophagus (red). Barrett's esophagus arrises not from mutant cells in the esophagus but rather a small group of previously overlooked cells in all adults that can rapidly expand to cancer precursors when the normal esophagus is damaged by acid.  The red antibody is against keratin 6 expressed on junctional squamous cells, whereas the green antibody is to keratin 7 expressed in embryonic precursors of Barrett's that reside at the junction."},
+            "PATHOLOGICALPROCESS": {"onto_id": "DOID:DOID:9206"},
+            "ATTRIBUTION": {
+                "URLs": [
+                    {
+                        "Label": "Biomedical Beat",
+                        "Href": "http://publications.nigms.nih.gov/biobeat/11-07-21/"
+                    },
+                    {
+                        "Label": "Focus - Harvard Medical School",
+                        "Href": "http://www.focushms.com/features/new-insights-into-origin-of-deadly-cancer/"
+                    },
+                    {
+                        "Label": "ScienceDirect",
+                        "Href": "http://www.sciencedirect.com/science/article/pii/S0092867411005873"
+                    }
+                ],
+                "PUBLISHED": ["Cell. 2011 Jun 24;145(7):1023-35."],
+                "Contributors": [
+                    "Xia Wang",
+                    "Hong Ouyang",
+                    "Yusuke Yamamoto",
+                    "Pooja Ashok Kumar",
+                    "Tay Seok Wei",
+                    "Rania Dagher",
+                    "Matthew Vincent",
+                    "Xin Lu",
+                    "Andrew M. Bellizzi",
+                    "Khek Yu Ho",
+                    "Christopher P. Crum",
+                    "Wa Xian",
+                    "Frank McKeon"
+                ],
+                "PUBMED": ["21703447"]
+            },
+            "HUMAN_DISEASE": [{
+                "onto_name": "Barrett's esophagus",
+                "onto_id": "DOID:9206"
+            }],
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

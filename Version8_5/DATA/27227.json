@@ -1,0 +1,144 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "27227.tif",
+                "Size": 6200000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "27227.zip",
+                "Size": 6204418
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "27227.jpg",
+                "Size": 1192817
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {"free_text": "dehydrated in ethanol"},
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "9597",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "collagen",
+                    "onto_id": "GO:0005581"
+                },
+                {
+                    "onto_name": "basement membrane",
+                    "onto_id": "GO:0005604"
+                },
+                {"free_text": "mineral deposits"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cytoskeleton organization",
+                "onto_id": "GO:0007010"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Fundulus heteroclitus",
+                "onto_id": "NCBITaxon:8078"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Fundulus heteroclitus scales were chemically fixed with 2.5% glutaraldehyde, 2% formaldehyde in 0.1M cacodylate buffer (pH 7.3), then post-fixed in 4% osmium tetroxide and stained en bloc in 1% uranyl acetate. The scales were then dehydrated in a graded series of ethanol and infiltrated with Spurr\u2019s resin. Thin sections of 70 nm were trimmed using a diamond knife and post-stained in uranyl acetate and lead citrate. This micrograph was imaged using a Phillips CM 100 transmission electron microscope at an accelerating voltage of 80 kV."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1715,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 9.76
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1800,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 9.76
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Low magnification of the epidermal region of the Fundulus heteroclitus scale. The epidermis is separated from the collagen layers of the dermis by the basement membrane. The cells of the epidermis (top) are juxtaposed and well adhered to one another. The cells in the dermis, called fibroblasts, which synthesize extracellular matrix and collagen, are much more elongated and appear to be traveling through the collagen fibrils. Present in the epidermal cells are clusters of dark needle-like crystals that appear to be mineral deposits. It is important to note that the nuclear membranes of the fibroblasts appear to be dilated and lifted from the chromatin. This may have been an artifact of poor fixation."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "epidermal cell",
+                    "onto_id": "CL:0000362"
+                },
+                {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                }
+            ],
+            "ATTRIBUTION": {"Contributors": [
+                "Wai Yan Lam",
+                "Marian Rice"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

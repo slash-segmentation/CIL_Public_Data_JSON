@@ -1,0 +1,131 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25617.jpg",
+                "Size": 39254
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25617.zip",
+                "Size": 9121920
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "25617.flv",
+                "Size": 1190419
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "8555",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "time lapse microscopy",
+                    "onto_id": "FBbi:00000249"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "innate immune response",
+                    "onto_id": "GO:0045087"
+                },
+                {
+                    "onto_name": "wound healing",
+                    "onto_id": "GO:0042060"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Third-instar [w, Nrg-GFP;Pxn-Gal4, UAS-2xeYFP] larvae were wounded and mounted dorsal side up on a glass slide with the anterior and posterior ends of the larvae taped down to varying degrees to prevent locomotion and constrain body peristalsis. Larvae were imaged on a Leica MZ16FA fluorescent stereomicroscope using a Planapo 1.0× objective, and images were captured on a monochrome Leica DFC350FX digital camera. For time-lapse imaging, frames were captured every 2 or 5 min over a 2- to 4-h period. Images were obtained by using the Scope-Pro Advanced Acquisition plug-in, and image analysis was carried out with Image-Pro AMS ver. 5.1 Software (Media Cybernetics). The object-tracking tool was used to manually track specific blood cells in a time series. Velocities of tracked cells were calculated by using coordinates provided by the software."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 696
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 520
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "120",
+                    "value": 120.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EYFP",
+                "onto_id": "FBbi:00000084"
+            },
+            "CELLTYPE": [
+                {
+                    "onto_name": "hemocyte (sensu Nematoda and Protostomia)",
+                    "onto_id": "CL:0000387"
+                },
+                {
+                    "onto_name": "blood cell (sensu Nematoda and Protostomia)",
+                    "onto_id": "CL:0000390"
+                },
+                {
+                    "onto_name": "plasmatocyte",
+                    "onto_id": "CL:0000394"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Adhesive capture and dispersal of a cluster of blood cells at a Drosophila third-instar larval wound site. Time-lapse movie of blood cells visualized from the dorsal side of a Nrg-GFP;PxnYFP larva. A cluster of 100 blood cells docks at the wound site (area outlined in white in first and last frames). Afterward, the cluster gradually shears apart and some cells reattach at more posterior sites along the surface of the wound. Time between frames, 2 min. Total duration, 4 h. Fig. 3 B and B' were generated from individual frames of this movie. Movie is Movie S9 of Proc Natl Acad Sci (2008). 105: 10017-10022. Movies from this publication include CIL #s 25607, 25608, 25609, 25610, 25611, 25612, 25613, 25614, 25615, 25616, 25617."},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://intl.pnas.org/content/105/29/10017.full"}],
+                "PUBLISHED": ["Proc Natl Acad Sci (2008). 105: 10017-10022."],
+                "Contributors": [
+                    "Daniel T. Babcock",
+                    "Amanda R. Brock",
+                    "Greg S. Fish",
+                    "Yan Wang",
+                    "Laurent Perrin",
+                    "Mark A. Krasnow",
+                    "Michael J. Galko"
+                ],
+                "PUBMED": ["18632567"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

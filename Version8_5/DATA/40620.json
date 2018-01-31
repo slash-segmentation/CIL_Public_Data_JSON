@@ -1,0 +1,102 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40620.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40620.jpg",
+                "Size": 68923
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40620.zip",
+                "Size": 64875
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "40620_orig.jpg",
+                "Size": 64737
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cell surface",
+                "onto_id": "GO:0009986"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "detection of bacterium",
+                "onto_id": "GO:0016045"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Listeria",
+                "onto_id": "NCBITaxon:1637"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering",
+                "onto_id": "FBbi:00000310"
+            },
+            "TECHNICALDETAILS": {"free_text": "Image collected using a Quanta 200 3D from the FEI  Quanta DualBeam Family.  The magnification is 15,000x, the Vacuum was 2,03E-3 Pa, and the voltage was 5 kV,   An ETD Spot detector with a 2,5 nA  at a working distance of 10 mm was used to collect the data."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 670
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 617
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron micrograph of Listeria Bacteria.  Listeria cause listeriosis, a serious infection in humans induced by eating food contaminated with the bacteria.  This image was collected as part of an analysis of qualitative and quantitative changes in a sample containing bacteria,"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "FEI Life Sciences Images",
+                    "Href": "http://www.fei.com/resources/image-gallery/Bacteria-Listeria-1482.aspx"
+                }],
+                "Contributors": ["Natalia Shevlyagina"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

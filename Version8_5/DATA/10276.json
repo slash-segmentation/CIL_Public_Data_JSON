@@ -1,0 +1,125 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "10276.tif",
+                "Size": 1900000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "10276.jpg",
+                "Size": 143469
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "10276.zip",
+                "Size": 1878230
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {"free_text": "dynamin"},
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {"free_text": "dorsal membrane ruffle"}
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "platelet-derived growth factor receptor signaling pathway",
+                    "onto_id": "GO:0048008"
+                },
+                {
+                    "onto_name": "pinocytosis",
+                    "onto_id": "GO:0006907"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 801,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.059
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 770,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.059
+                    }
+                }},
+                {"Wavelength": {
+                    "unit": "microns",
+                    "value": "GFP, Rhodamine"
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                },
+                {
+                    "onto_name": "Rhodamine",
+                    "onto_id": "FBbi:00000452"
+                },
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                }
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {
+                "onto_name": "fibroblast",
+                "onto_id": "CL:0000057"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "After over-night serum starvation, mouse fibroblast expressing Dyn2-GFP were stimulated with 10ng/ml PDGF. After 5min, the cells were fixed and stained with rhodamine-phalloidin. PDGF-induced dorsal membrane ruffle was indicated by F-actin staining, and the enrichment of dynamin to the membrane ruffle was shown by their co-localization. Biological Source Mus musculus ES cell derived fibroblast PDGF-induced macropinocytosis PFA fixation Biological Context and Probe PDGF-induced dorsal membrane ruffle, Dyn2-GFP and rhodamine-phalloidin Equipment used Inverted Olympus IX-70 microscope with a 100×, 1.35 NA oil-immersion objective Magnification of image 1000x, scale bar indicates 5 um"},
+            "ATTRIBUTION": {"Contributors": [
+                "Ya-Wen Li",
+                "Sandra L. Schmid"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "copyright"},
+            "ITEMTYPE": {"free_text": "recorded image"}
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

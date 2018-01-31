@@ -1,0 +1,137 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "38936.zip",
+                "Size": 66311
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "38936.tif",
+                "Size": 1000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "38936.jpg",
+                "Size": 56720
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "38936_orig.jpg",
+                "Size": 66173
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {"free_text": "DNA"},
+                {"free_text": "comet tails"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "actin polymerization-dependent cell motility",
+                "onto_id": "GO:0070358"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "Shigella",
+                    "onto_id": "NCBITaxon:620"
+                },
+                {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                }
+            ],
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0006238 Shigella infection.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "MOLECULARFUNCTION": {"free_text": "bacterial invasion"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 550
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "propidium iodide",
+                    "onto_id": "FBbi:00000047"
+                },
+                {
+                    "onto_name": "phalloidin",
+                    "onto_id": "FBbi:00000100"
+                },
+                {
+                    "onto_name": "Fluorescein (FITC)",
+                    "onto_id": "FBbi:00000451"
+                }
+            ],
+            "CELLTYPE": {
+                "onto_name": "intestinal epithelial cell",
+                "onto_id": "CL:0002563"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Confocal micrograph showing Shigella bacteria (pink) invading the intestinal lining. The bacteria infects the cells by high-jacking the cell's internal actin skeleton (green) to facilitate its entry into the cell and spread into adjoining cells, using polymerizing actin comet tails as several can be seen doing here.  Shigella intestinal infection causes diarrhea and rapid dehydration typical of bacterial dysentery. FITC-labelled phalloidin highlights the actin of the cytoskeleton in green and propidium iodide (a DNA stain) was used to visualise bacteria in pink."},
+            "PATHOLOGICALPROCESS": [
+                {"onto_id": "DOID:DOID:12385"},
+                {"onto_id": "DOID:DOID:13250"}
+            ],
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["S. Schuller"]
+            },
+            "HUMAN_DISEASE": [
+                {
+                    "onto_name": "shigellosis",
+                    "onto_id": "DOID:12385"
+                },
+                {
+                    "onto_name": "diarrhea",
+                    "onto_id": "DOID:13250"
+                }
+            ],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

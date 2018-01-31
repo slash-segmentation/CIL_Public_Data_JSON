@@ -1,0 +1,92 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "11963.jpg",
+                "Size": 21595
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "11963.flv",
+                "Size": 1752293
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "11963.zip",
+                "Size": 14340224
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "Development"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Arbacia punctulata",
+                "onto_id": "NCBITaxon:7641"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "See: K Okazaki and S Inoue (1976). Crystal properties of the larval sea urchin spicule. Dev Growth Diff 18:413-434; S Inoue and T Inoue (1986) Computer-aided stereomicroscopic video reconstruction and serial display from high-resolution light microscope optical sections. Ann NY Acad Sci 483:392-404."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 720
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 480
+                }},
+                {"Space": {"axis": "Z"}}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "CELLTYPE": {
+                "onto_name": "embryonic cell",
+                "onto_id": "CL:0002321"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "The movie illustrates two approaches to understanding the 3D structure of complex objects, using the pluteus stage embryo of the sea urchin Arbacia punctulata. The first sequence is a through-focus DIC series presented as a 'walk through' in the z dimension. The second uses projections at different angles through a z-stack, with the results presented as a 'rocking' series in which the 3D structure becomes more readily apparent."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["S. Inoue 2008 Collected Works of Shinya Inoue. World Scientific Publishing Company, Singapore, Hackensack, NJ, USA"],
+                "Contributors": ["Shinya Inoue"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

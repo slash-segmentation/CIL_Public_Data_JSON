@@ -1,0 +1,92 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41738.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41738.jpg",
+                "Size": 124088
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41738.zip",
+                "Size": 159554
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "fibrillar collagen",
+                "onto_id": "GO:0005583"
+            },
+            "HUMAN_DEV_ANATOMY": [{
+                "onto_name": "knee",
+                "onto_id": "EHDAA:5159"
+            }],
+            "BIOLOGICALPROCESS": {"free_text": "connective tissue organization"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0008288.  2011 Collection: Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://images.wellcome.ac.uk/indexplus/page/Prices.html"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 729
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 550
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "colorized"},
+            "IMAGEDESCRIPTION": {"free_text": "Colorized scanning electron micrograph of collagen/connective tissue removed from a human knee during arthroscopic surgery.  The horizontal field width of the image is 16 microns.  Wellcome Image Award 2012."},
+            "SPECIESTAXASPECIFIC": {"onto_id": "EHDAA:EHDAA:5159"},
+            "ATTRIBUTION": {
+                "OTHER": ["London Research Institute, Cancer Center UK"],
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/indexplus/image/B0008288.html"
+                }],
+                "Contributors": ["Anne Weston"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

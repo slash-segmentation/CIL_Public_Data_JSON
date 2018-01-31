@@ -1,0 +1,159 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "12346.tif",
+                "Size": 47200000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "12346.jpg",
+                "Size": 4265195
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "12346.zip",
+                "Size": 47156370
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "freeze_fracture/freeze_etch",
+                "onto_id": "FBbi:00000419"
+            },
+            "GROUP_ID": "5812",
+            "IMAGINGMODE": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "plasma membrane",
+                "onto_id": "GO:0005886"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "plasma membrane organization",
+                "onto_id": "GO:0007009"
+            },
+            "RELATIONTOINTACTCELL": [
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                {
+                    "onto_name": "isolated subcellular component",
+                    "onto_id": "FBbi:00000579"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Paramecium multimicronucleatum",
+                "onto_id": "NCBITaxon:44030"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                {
+                    "onto_name": "elevation",
+                    "onto_id": "FBbi:00000320"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4660,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.18
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 5059,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 1.18
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "The plasma membrane of Paramecium multimicronucleatum seen in a freeze fracture replica. The two rows of IMPs can be seen on the P-face of the plasma membrane that connects the plasma membrane to the underlying margins of alveolar sacs. A gap 20nm wide composed of only the plasma membrane connects these two ribbons. The spent vacuole membrane will fuse with the membrane over this gap. Further interpretation of this image can be seen at Figure 4 of Chapter 7 at the link below. TEM taken on 6/3/75 by R. Allen with Hitachi HU11A operating at 75kV. Neg. 12,750X. The raw film was scanned with an Epson Perfection V750 Pro. This image is best used for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements"},
+            "ATTRIBUTION": {"URLs": [{"Href": "http://www5.pbrc.hawaii.edu/allen/"}]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

@@ -1,0 +1,134 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "34561.tif",
+                "Size": 6500000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "34561.jpg",
+                "Size": 1317819
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "34561.zip",
+                "Size": 13122626
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                }
+            ],
+            "GROUP_ID": "8583",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "myofibril",
+                    "onto_id": "GO:0030016"
+                },
+                {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                {
+                    "onto_name": "mitochondrial crista",
+                    "onto_id": "GO:0030061"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "flight",
+                "onto_id": "GO:0060361"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Tissue was dissected using a freeze-fracture technique, fixed in 2.5% glutaraldehyde in 0.1 M sodium cacadylate buffer, pH 7.4, post-fixed in 2% osmium tetroxide solution, stained in 1% uranyl acetate, and embeddeded in EMbed 812 resin. Sections were post-stained with 2% uranyl acetate and stained with Reynolds\u2019s Lead Citrate. Images were obtained using transmission electron microscopy techniques, employing a Phillips CM-100 transmission electron microscope. Images were taken on Kodak EM 4489 film, scanned with a Microtek ScanMaker i900, and post-processed using Adobe Photoshop CS4. This image was taken at a magnification of 11500x."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 1766,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 42.33
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1832,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 42.33
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": {"free_text": "digitized film"},
+            "IMAGEDESCRIPTION": {"free_text": "Drosophila melanogaster thoracic indirect flight muscle from a four week-old wild-type animal. A longitudinal section of myocyte is displayed. Sections of parallel myofibrils are visible between densely packed mitochondria."},
+            "CELLTYPE": {
+                "onto_name": "flight muscle cell",
+                "onto_id": "CL:0000196"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements"},
+            "ATTRIBUTION": {"Contributors": [
+                "Catherine Braine",
+                "Marian Rice"
+            ]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

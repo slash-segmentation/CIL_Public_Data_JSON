@@ -1,0 +1,99 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40297.tif",
+                "Size": 16000000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "40297.zip",
+                "Size": 3279141
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40297.jpg",
+                "Size": 1189299
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {"free_text": "acetolysis"},
+            "GROUP_ID": "10906",
+            "IMAGINGMODE": {
+                "onto_name": "scanning electron microscopy (SEM)",
+                "onto_id": "FBbi:00000257"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "pollen wall",
+                "onto_id": "GO:0043667"
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "pollen wall assembly",
+                "onto_id": "GO:0010208"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Lilium longiflorum",
+                "onto_id": "NCBITaxon:4690"
+            },
+            "TECHNICALDETAILS": {"free_text": "Complete specimen preparation protocol available at http://www.dartmouth.edu/~emlab/manuals/sempreps/pollen.html"},
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of electrons",
+                "onto_id": "FBbi:00000586"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 3232
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2570
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "gold",
+                "onto_id": "FBbi:00000202"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {"free_text": "pollen"},
+            "IMAGEDESCRIPTION": {"free_text": "Scanning electron micrograph of Lilium longiflorum (Trumpet Lily) pollen. These specimens have been acetolyzed to remove cytoplasm and pollenkit in order to reveal the intricate wall structure. This is part of a large image collection of scanning electron micrographs of pollen samples. Images of a particular species are grouped together. However, to find images and groups of images from other species, please search for the the name of the contributor, Louisa Howard."},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Dartmouth College EM Facility",
+                    "Href": "http://remf.dartmouth.edu/pollen/index.html"
+                }],
+                "Contributors": ["Louisa Howard"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

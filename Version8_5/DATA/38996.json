@@ -1,0 +1,123 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "38996.zip",
+                "Size": 246392
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "38996.tif",
+                "Size": 1400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "38996.jpg",
+                "Size": 178121
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "38996_orig.jpg",
+                "Size": 246254
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "chemically fixed tissue",
+                "onto_id": "FBbi:00000002"
+            },
+            "GROUP_ID": "11757",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "extracellular matrix",
+                    "onto_id": "GO:0031012"
+                },
+                {
+                    "onto_name": "collagen",
+                    "onto_id": "GO:0005581"
+                }
+            ],
+            "HUMAN_DEV_ANATOMY": [{"free_text": "trabecular meshwork"}],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "collagen fibril organization",
+                "onto_id": "GO:0030199"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "sectioned tissue",
+                "onto_id": "FBbi:00000026"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "B0001823 Degenerating collagen fibrils in glaucoma.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 774
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 576
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {"free_text": "cationic dye"}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Transmission electron micrograph showing collagen fibrils exhibiting focal swelling and loss of periodic cross banding in the trabecular meshwork of a person with glaucoma. The trabecular meshwork is the structure through which the aqueous humor in the anterior chamber drains into Schlemm's canal. The obstruction of this process may represent a mechanism by which the intraocullar pressure is raised in glaucoma. The proteoglycans that are normally attached to the collagen fibrils have become detached and are seen as small short filaments. The intact fibrils are approximately 120 nm in diameter."},
+            "PATHOLOGICALPROCESS": {"onto_id": "DOID:DOID:1686"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Wellcome Images",
+                    "Href": "http://images.wellcome.ac.uk/"
+                }],
+                "Contributors": ["Rob Young"]
+            },
+            "SPECIESTAXASPECIFIC": {"onto_id": "EHDAA:trabecular meshwork"},
+            "HUMAN_DISEASE": [{
+                "onto_name": "glaucoma",
+                "onto_id": "DOID:1686"
+            }],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

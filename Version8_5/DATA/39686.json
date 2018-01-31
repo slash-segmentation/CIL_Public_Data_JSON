@@ -1,0 +1,119 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39686.tif",
+                "Size": 400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39686.jpg",
+                "Size": 35223
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39686.zip",
+                "Size": 60067
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "39686_orig.jpg",
+                "Size": 59929
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {"free_text": "cell  membrane"}
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "regulaton of gut size"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {"free_text": "Drosophila melanogaster"},
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "Midguts were fixed with 8% formaldehyde for 20 min at room temperature, and immunolabeled with primary antibodies bPS integrin (cf.6g11) and disc large (4F3), and stained with DAPI. The tissue was examined using a Leica TCs confocal microscope with a 63x N.A. 1.4 objective lens. Images were contrast enhanced and stem cells pseudocolored. See also: L E O'Brien et al., (2011) Altered modes of stem cell division drive adaptive intestinal growth. Cell 147:603-614."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 400
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 307
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "Alexa Fluor 555",
+                    "onto_id": "FBbi:00000443"
+                }
+            ],
+            "CELLTYPE": [
+                {
+                    "onto_name": "intestinal epithelial cell",
+                    "onto_id": "CL:0002563"
+                },
+                {
+                    "onto_name": "stem cell",
+                    "onto_id": "CL:0000034"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Intestinal epithelium from the adult midgut of Drosophila melanogaster were immuno-stained for the cell periphery (integrin, red), nuclei (DAPI, blue) and stem cells (green). Nuclei are not seen in the tiny stem cells. The system was used to determine the role of intestinal stem cells in establishing the size of the gut in response to changes in food availability."},
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "NIGMS Biomedical Beat",
+                    "Href": "http://publications.nigms.nih.gov/biobeat/11-11-17/index.htm"
+                }],
+                "Contributors": [
+                    "Lucy O'Brien",
+                    "David Bilder"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

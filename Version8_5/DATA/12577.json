@@ -1,0 +1,107 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "12577.zip",
+                "Size": 3158144
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "12577.flv",
+                "Size": 1805143
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "12577.jpg",
+                "Size": 8135
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "phase contrast microscopy",
+                "onto_id": "FBbi:00000247"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "contraction wave"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in amount of elastic light scattering",
+                "onto_id": "FBbi:00000600"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Oryzias latipes",
+                "onto_id": "NCBITaxon:8090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering",
+                "onto_id": "FBbi:00000310"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 160,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 7.27
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 120,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 7.27
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "2.5 min",
+                    "value": 30.0
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "CELLTYPE": {"free_text": "embryo"},
+            "IMAGEDESCRIPTION": {"free_text": "A contraction wave circulating across a stage 18 medaka embryo over a 2.5-min interval (30 sec between each image). The embryo is ensheathed by a chorion which possesses numerous filamentous villi. The spherical objects in the image are oil droplets located within the embryo's yolk cell. Over a course of 2.4 hr, 55 contraction waves circulated across the embryo. The contraction waves had an average period of 2.7 midcontraction cycle. Note that during the contraction cycle, the oil droplets in the yolk cell have rotated approximately 10\" counterclockwise with respect to the stationary chorion.\nTime-lapse phase recordings of contracting embryos and explanted periderms were made using a Nikon Diaphot coupled to a Newvicon video camera\n(Hamamatsu Corp., Middlesex, NJ). Phase-contrast optics (10x/0.3 NA or 20x/0.4 NA objectives) and a halogen light source were used to record macroscopic movements of whole embryos or explants. All experiments were conducted at an ambient room temperature of approximately 22°C.\nRelated to image 1 in J Zoology 273:118-129 (1995)."},
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "depts.washington.edu/fishscop/"}],
+                "Contributors": [
+                    "Joanne Z. Simon",
+                    "Mark S. Cooper"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

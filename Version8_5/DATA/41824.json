@@ -1,0 +1,97 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41824.jpg",
+                "Size": 422272
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41824.tif",
+                "Size": 3300000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41824.zip",
+                "Size": 603886
+            }
+        ],
+        "CORE": {
+            "GROUP_ID": "12503",
+            "IMAGINGMODE": {
+                "onto_name": "confocal microscopy",
+                "onto_id": "FBbi:00000251"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "neuron projection",
+                "onto_id": "GO:0043005"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "sensory neuron organization"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2750
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 2341
+                }}
+            ],
+            "PROCESSINGHISTORY": {"free_text": "projection of confocal stacks"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "muscle cell",
+                    "onto_id": "CL:0000187"
+                },
+                {
+                    "onto_name": "sensory neuron",
+                    "onto_id": "CL:0000101"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Confocal image stacks of Drosophila (fruit fly) larva with labeled dendrite arborization sensory neurons and epidermal cells. Green is dendrites of sensory neurons on the body wall and red is attachment sites of body wall muscles. This image is also part of a composite image of multiple larvae available as CIL 41825.  Honorable Mention, 2010 Olympus BioScapes Digital Imaging Competition®."},
+            "ATTRIBUTION": {
+                "OTHER": ["University of California, San Francisco, CA,  USA"],
+                "URLs": [{
+                    "Label": "2010 Olympus BioScapes Digital  Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2010/hm18.html"
+                }],
+                "Contributors": [
+                    "Chun Han",
+                    "2010 Olympus BioScapes Digital  Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

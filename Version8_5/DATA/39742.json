@@ -1,0 +1,143 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39742.tif",
+                "Size": 1300000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39742.jpg",
+                "Size": 111088
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "39742.zip",
+                "Size": 1237062
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "cryofixed tissue",
+                    "onto_id": "FBbi:00000013"
+                },
+                {"onto_id": "FBbi:00000621"},
+                {
+                    "onto_name": "tissue in plastic embedment",
+                    "onto_id": "FBbi:00000016"
+                }
+            ],
+            "GROUP_ID": "10713",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "chromatin",
+                    "onto_id": "GO:0000785"
+                },
+                {
+                    "onto_name": "heterochromatin",
+                    "onto_id": "GO:0000792"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {"free_text": "photoreception"},
+                {
+                    "onto_name": "chromatin organization",
+                    "onto_id": "GO:0006325"
+                },
+                {
+                    "onto_name": "DNA packaging",
+                    "onto_id": "GO:0006323"
+                }
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "TECHNICALDETAILS": {"free_text": "Discs were punched from freshly dissected mouse retina, cryoprotectant added, the samples cryo-fixed using high pressure freezing using a Leica EMPACT2, freeze-substituted in acetone containing OsO4, and embedded in Epon. Sections were stained with uranyl acetate and lead citrate, and observed with a Tecnai F20 TEM, and tilt series recorded with a 2k CCD camera.\nSee also: C  Kizilyaprak et al. 2010. In Vivo Chromatin Organization of Mouse Rod Photoreceptors Correlates with Histone Modifications. PLOS one 5:e11039"},
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 694
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 594
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                }
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": {
+                "onto_name": "retinal rod cell",
+                "onto_id": "CL:0000604"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "TEM image of epon section of a freeze-substituted mouse retina illustrating the unusual distribution of heterochromatin in rod receptor nuclei where the compact heterochromatin is centrally located. C = cytoplasm, EC = euchromatin, HCc = central heterochromatin, HCp = nuclear envelope-associated heterochromatin, NM = nuclear envelope.\nSee Fig 1B in: C  Kizilyaprak et al. 2010. In Vivo Chromatin Organization of Mouse Rod Photoreceptors Correlates with Histone Modifications. PLOS one 5:e11039"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "PLOS one",
+                    "Href": "http://www.plosone.org/article/info%3Adoi%2F10.1371%2Fjournal.pone.0011039"
+                }],
+                "PUBLISHED": ["C  Kizilyaprak et al. 2010. In Vivo Chromatin Organization of Mouse Rod Photoreceptors Correlates with Histone Modifications. PLOS one 5:e11039"],
+                "Contributors": [
+                    "Caroline Kizilyaprak",
+                    "Danièle Spehner",
+                    "Didier Devys",
+                    "Patrick Schultz"
+                ],
+                "PUBMED": ["20543957"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

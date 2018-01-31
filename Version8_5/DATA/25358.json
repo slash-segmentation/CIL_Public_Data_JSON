@@ -1,0 +1,124 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "25358.zip",
+                "Size": 2220160
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "25358.jpg",
+                "Size": 22314
+            },
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "25358.flv",
+                "Size": 383680
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "point-localization methods",
+                    "onto_id": "FBbi:00000333"
+                },
+                {"free_text": "fPALM"}
+            ],
+            "CELLULARCOMPONENT": {
+                "onto_name": "plasma membrane",
+                "onto_id": "GO:0005886"
+            },
+            "BIOLOGICALPROCESS": {"free_text": "hemagglutin influenza transfection"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {"free_text": "HAb2"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Mus musculus",
+                "onto_id": "NCBITaxon:10090"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 434,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.25
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 344,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.25
+                    }
+                }},
+                {"Time": {
+                    "unit": "seconds",
+                    "frame": "51",
+                    "value": 0.19
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "PA-GFP",
+                "onto_id": "FBbi:00000544"
+            },
+            "PROCESSINGHISTORY": {"free_text": "single molecule localization"},
+            "IMAGEDESCRIPTION": {"free_text": "Example of build-up of FPALM image data from a live fibroblast cell expressing PA-GFP-HA. The data analysis routine identifies single molecules, localizes (green boxes) or rejects (yellow and red boxes) them, and builds up a map of plotted positions of molecules, weighted by the number of photons detected from each molecule. Red boxes indicate that the observed object within the box was not large or bright enough (too few pixels above a threshold) to decisively be a single molecule. Yellow boxes indicate that the object within the box was too large (too many pixels above a threshold) to be a single molecule. Frames are approximately 0.19 sec apart in real time. The full width of each window is 53.2 um, including a 5-pixel pad on either side of the actual image.  Video corresponds to Supplementary Video 2 from Proc Natl Acad Sci U S A. 2007 Oct 30;104(44):17370-5. Epub 2007 Oct 24.  See manuscript for details on fPALM imaging and single molecule localization techniques."},
+            "CELLTYPE": {
+                "onto_name": "fibroblast",
+                "onto_id": "CL:0000057"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["Proc Natl Acad Sci U S A. 2007 Oct 30;104(44):17370-5. Epub 2007 Oct 24"],
+                "Contributors": [
+                    "Samuel T. Hess",
+                    "Travis J. Gould",
+                    "Manasa V. Gudheti",
+                    "Sarah A. Maas",
+                    "Kevin D. Mills",
+                    "Joshua Zimmerberg"
+                ],
+                "PUBMED": ["17959773"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

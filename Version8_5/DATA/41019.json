@@ -1,0 +1,92 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41019.tif",
+                "Size": 9100000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41019.jpg",
+                "Size": 1027719
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41019.zip",
+                "Size": 8994390
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Haematococcus pluvialis",
+                "onto_id": "NCBITaxon:44745"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "elastic scattering of photons",
+                "onto_id": "FBbi:00000587"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "IMAGINGMODE": {
+                "onto_name": "phase contrast microscopy",
+                "onto_id": "FBbi:00000247"
+            },
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2022
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1482
+                }}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Phase contrast image of fresh water unicellular algae Haematococcus pluvialis colelcted at 100X. This species is well known for its high content of the strong antioxidant astaxanthin, which is important in aquaculture, various pharmaceuticals, and cosmetics.  Fourth Prize, 2009 Olympus BioScapes Digital Imaging Competition®"},
+            "ATTRIBUTION": {
+                "OTHER": ["Issaquah,WA, USA"],
+                "URLs": [{
+                    "Label": "2009 Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2009/4.html"
+                }],
+                "Contributors": [
+                    "Charles Krebs",
+                    "2009 Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "organelle organization",
+                "onto_id": "GO:0006996"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in amount of elastic light scattering",
+                "onto_id": "FBbi:00000600"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

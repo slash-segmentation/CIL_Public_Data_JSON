@@ -1,0 +1,105 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35292.tif",
+                "Size": 100000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35292.zip",
+                "Size": 49426
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35292.jpg",
+                "Size": 16335
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "GROUP_ID": "8805",
+            "IMAGINGMODE": {
+                "onto_name": "differential interference contrast microscopy",
+                "onto_id": "FBbi:00000245"
+            },
+            "CELLULARCOMPONENT": {"free_text": "cytoplasm"},
+            "BIOLOGICALPROCESS": {
+                "onto_name": "pollen tube growth",
+                "onto_id": "GO:0009860"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "boundaries between regions with different refractive index",
+                "onto_id": "FBbi:00000599"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Lilium formosanum",
+                "onto_id": "NCBITaxon:63788"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "Germinated lily pollen was imaged with DIC optics using a using a Nikon TE300 inverted microscope with a 40x NA1.3 DIC objective lens and recorded with a Quantix Cool Snap HQ CCD camera.\nSee Lovy-Wheeler et al. 2005, Planta 221:95-104; Lovy-Wheeler et al. 2007 Cell Motil Cytoskel 64:217-321; Lovy-Wheeler et al. 2006 Plant Cell 18:2182-2193; Cardenas et al. 2008 Plant Physiol 146:1611-1621."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 364
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 135
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "visualization of contiguous regions",
+                "onto_id": "FBbi:00000396"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Living Lilium pollen tube imaged with DIC optics.  Shown is the growing tip with the apical region devoid of cytoplasmic organelles. Other images in the group reveal the distributions of cytoskeletal elements and membranous components."},
+            "CELLTYPE": {"free_text": "pollen tube"},
+            "ATTRIBUTION": {
+                "OTHER": [
+                    "E.G. Allwood",
+                    "P.J. Hussey",
+                    "Juan Cardenas"
+                ],
+                "Contributors": [
+                    "Alenka Lovy-Wheeler",
+                    "Joseph Kunkel",
+                    "Tobias I Baskin",
+                    "Peter K Hepler"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

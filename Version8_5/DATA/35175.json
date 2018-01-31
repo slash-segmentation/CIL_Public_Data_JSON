@@ -1,0 +1,118 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "35175.zip",
+                "Size": 2626298
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "35175.jpg",
+                "Size": 14254
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "35175.tif",
+                "Size": 2700000
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "living tissue",
+                "onto_id": "FBbi:00000025"
+            },
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "cytoskeleton",
+                "onto_id": "GO:0005856"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "dispersed cells in vitro",
+                "onto_id": "FBbi:00000611"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "CELLLINE": {"free_text": "MTLn3"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus rattus",
+                "onto_id": "NCBITaxon:10117"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "TECHNICALDETAILS": {"free_text": "BioRad Radiance 2000 laser scanning confocal microscope with Kr/Ar laser for excitation of  GFP at 488 nm.  Nikon Eclipse with planapo 60X NA 1.4 phase 3 infinity corrected optics.   Imaged at room temperature at the Analytical Imaging Facility at the Albert Einstein College of Medicine."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 256,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.184
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 256,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.184
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 40,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.3
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": {
+                "onto_name": "EGFP",
+                "onto_id": "FBbi:00000082"
+            },
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Overexpression of and arp3-GFP fusion protein in MTLn3 cells, a metastatic rat breast carcinoma line.  This Z series sequence of cells in culture shows the protein throughout the cytoplasm and excluded from a few organelles and the nucleus. \n\nThis MTLn3 (rat mammary adenocarcinoma) cell line is advantageous for cancer studies because  the cells grow easily in tissue culture, invade artificial 3D matrices, and form tumors in live animal models."},
+            "CELLTYPE": {
+                "onto_name": "permanent cell line cell",
+                "onto_id": "CL:0000002"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "DATE": ["10/2000"],
+                "Contributors": [
+                    "Michael Cammer",
+                    "Maryse Bailly"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": {
+                "onto_name": "single-spot confocal microscopy",
+                "onto_id": "FBbi:00000252"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

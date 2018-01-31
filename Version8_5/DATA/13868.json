@@ -1,0 +1,209 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13868.zip",
+                "Size": 385600
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13868.tif",
+                "Size": 400000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13868.jpg",
+                "Size": 5226
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                {
+                    "onto_name": "ethanol fixed tissue",
+                    "onto_id": "FBbi:00000006"
+                }
+            ],
+            "GROUP_ID": "9034",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                },
+                {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "spindle pole body",
+                    "onto_id": "GO:0005816"
+                },
+                {
+                    "onto_name": "cytoskeleton",
+                    "onto_id": "GO:0005856"
+                },
+                {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                }
+            ],
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "cell cycle",
+                    "onto_id": "GO:0007049"
+                },
+                {
+                    "onto_name": "regulation of exit from mitosis",
+                    "onto_id": "GO:0007096"
+                },
+                {
+                    "onto_name": "mitotic cell cycle spindle orientation checkpoint",
+                    "onto_id": "GO:0031578"
+                },
+                {
+                    "onto_name": "cell division",
+                    "onto_id": "GO:0051301"
+                },
+                {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                {
+                    "onto_name": "small GTPase mediated signal transduction",
+                    "onto_id": "GO:0007264"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": [
+                {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                }
+            ],
+            "CELLLINE": {"free_text": "W303"},
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Saccharomyces cerevisiae",
+                "onto_id": "NCBITaxon:4932"
+            },
+            "PARAMETERIMAGED": [
+                {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                }
+            ],
+            "TECHNICALDETAILS": {"free_text": "Cells (MATa tem1::TEM1-yEGFP::SpHIS5 bfa1::BFA1-mCherry-kanMX6) were fixed in 2.5% formaldehyde for 10 min, washed twice, and resuspended in 0.1 M potassium phosphate buffer, pH 6.4. Cells were then fixed for 10 min in 80% ethanol and resuspended in 1 mg/ml DAPI. Imaging was performed at 25C using a Leica DM6000 microscope equipped with a 100x/1.40 NA oil immersion objective lens, A4, L5, and TX2 filters, and a digital CCD camera (DFC350, Leica). Pictures were processed with LAS AF (Leica) and ImageJ software."},
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "GTPase activator activity",
+                    "onto_id": "GO:0005096"
+                },
+                {
+                    "onto_name": "GTPase activity",
+                    "onto_id": "GO:0003924"
+                },
+                {
+                    "onto_name": "nucleotide binding",
+                    "onto_id": "GO:0000166"
+                },
+                {
+                    "onto_name": "protein binding",
+                    "onto_id": "GO:0005515"
+                }
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "mCherryFP",
+                    "onto_id": "FBbi:00000525"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 218,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0642
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 218,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.0642
+                    }
+                }}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "During late anaphase, Tem1 (green) localized to both spindle pole bodies (SPBs), but Bfa1 (red) was asymmetrically localized to the daughter SPB. DAPI (blue) and DIC (hidden) are also shown. Compare to metaphase image CIL# 13869. Image is Fig 6A, bottom panels, in J Cell Biol. (2011) 192: 599-614. Images in Fig 6 include CIL# 13869, 13868, 13871, 13870."},
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://jcb-dataviewer.rupress.org/jcb/browse/4053/"}],
+                "PUBLISHED": ["J Cell Biol. (2011) 192: 599-614."],
+                "Contributors": [
+                    "Mauricio Valerio-Santiago",
+                    "Fernando Monje-Casas"
+                ],
+                "PUBMED": ["21321099"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

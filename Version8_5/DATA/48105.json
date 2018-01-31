@@ -1,0 +1,92 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "48105.jpg",
+                "Size": 275002
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "48105.zip",
+                "Size": 5760292
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "48105.tif",
+                "Size": 5800000
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "intermediate filament",
+                    "onto_id": "GO:0005882"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                }
+            ],
+            "RELATIONTOINTACTCELL": [
+                {"free_text": "Dispersed cells cryopreserved"},
+                {"free_text": "revived and cultured in vitro"}
+            ],
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of epitope",
+                "onto_id": "FBbi:00000592"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Rattus norvegicus",
+                "onto_id": "NCBITaxon:10116"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence microscopy",
+                "onto_id": "FBbi:00000246"
+            },
+            "TECHNICALDETAILS": {"free_text": "Rat astrocytes were fixed and immunostained for GFAP (from Stem Cell Technologies), and DAPI (from Life Technologies). Images were acquired with a 40X (Plan Fluor, NA 0.75) lens, SPOT RT Slider CCD camera and SPOT Basic image capture software. Image generated with the Image J color combine function."},
+            "DIMENSION": [
+                {"Space": {"axis": "X"}},
+                {"Space": {"axis": "Y"}}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                }
+            ],
+            "CELLTYPE": {
+                "onto_name": "astrocyte",
+                "onto_id": "CL:0000127"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Cryopreserved rat astrocytes were revived and stained for GFAP (in red) to reveal cytoskeleton and DAPI (in blue) to label nuclei. GFAP mutations and intracellular accumulation have been proposed to play an important role in a rare genetic disorder, Alexander Disease."},
+            "ATTRIBUTION": {"Contributors": ["Natalie Prigozhina"]},
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "charge coupled device (CCD)",
+                "onto_id": "FBbi:00000294"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

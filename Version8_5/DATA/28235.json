@@ -1,0 +1,64 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "video/x-flv",
+                "File_type": "Flv",
+                "File_path": "28235.flv",
+                "Size": 11192885
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "28235.zip",
+                "Size": 352493696
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "28235.jpg",
+                "Size": 245582
+            }
+        ],
+        "CORE": {
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Escherichia coli",
+                "onto_id": "NCBITaxon:562"
+            },
+            "GROUP_ID": "7503",
+            "CELLULARCOMPONENT": {
+                "onto_name": "cytoplasm",
+                "onto_id": "GO:0005737"
+            },
+            "DATAQUALIFICATION": {"free_text": "ANIMATIONS"},
+            "IMAGEDESCRIPTION": {"free_text": "This simulation shows a dynamic molecular model of the bacterial cytoplasm, giving us a spectacular glimpse of the crowded conditions of the interior of a cell over a brief 15-microsecond time span.  The model includes 50 of the most abundant types of macromolecules reported in Escherichia coli, for a total concentration of 275g/L.\n\nThis \"steric energy\" simulation shows a model of macromolecular diffusion based on Brownian dynamics and steric interactions between the molecules.  This can be compared the the \"full energy\" model that also includes electrostatic and hydrophobic interactions."},
+            "ATTRIBUTION": {
+                "PUBLISHED": ["PLoS Comput Biol. 2010 Mar 5;6(3):e1000694."],
+                "Contributors": [
+                    "Sean McGuffee",
+                    "Adrian Elcock"
+                ],
+                "PUBMED": ["20221255"]
+            },
+            "BIOLOGICALPROCESS": {
+                "onto_name": "cellular localization",
+                "onto_id": "GO:0051641"
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "animation",
+                "onto_id": "FBbi:00000267"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": false,
+        "Video": true
+    }
+}}

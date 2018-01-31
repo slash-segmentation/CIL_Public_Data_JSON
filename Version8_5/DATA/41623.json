@@ -1,0 +1,101 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "41623.tif",
+                "Size": 9900000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "41623.jpg",
+                "Size": 470715
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "41623.zip",
+                "Size": 1640714
+            },
+            {
+                "Mime_type": "image/jpeg",
+                "File_type": "Jpeg",
+                "File_path": "41623_orig.jpg",
+                "Size": 1640576
+            }
+        ],
+        "CORE": {
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                {"free_text": "multi-focus image"}
+            ],
+            "CELLULARCOMPONENT": {"free_text": "sporangia"},
+            "PLANT_GROWTH": [{"free_text": "sorus"}],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "plant-type spore development",
+                "onto_id": "GO:0048236"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in intrinsic optical density",
+                "onto_id": "FBbi:00000602"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Asplenium trichomanes",
+                "onto_id": "NCBITaxon:78464"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "absorption of illumination",
+                "onto_id": "FBbi:00000308"
+            },
+            "TECHNICALDETAILS": {"free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2160
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1511
+                }}
+            ],
+            "CELLTYPE": {"free_text": "spore"},
+            "IMAGEDESCRIPTION": {"free_text": "A brightfield, multi-focus stack image of a sorus of Asplenium trichomanes (maidenhair spleenwort), a small fern.  A sorus is a cluster of sporangia, which produce and contain spores.  Honorable Mention, 2011 \nOlympus BioScapes Digital Imaging Competition®."},
+            "SPECIESTAXASPECIFIC": {"onto_id": "PO:sorus"},
+            "ATTRIBUTION": {
+                "OTHER": ["Duesseldorf, Germany"],
+                "URLs": [{
+                    "Label": "2011  Olympus BioScapes Digital Imaging Competition®",
+                    "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm23.html"
+                }],
+                "Contributors": [
+                    "Gerd Guenther",
+                    "2011  Olympus BioScapes Digital Imaging Competition®"
+                ]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_nd"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

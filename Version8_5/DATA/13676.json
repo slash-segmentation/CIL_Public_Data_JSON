@@ -1,0 +1,165 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "13676.zip",
+                "Size": 53937613
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "13676.tif",
+                "Size": 54000000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "13676.jpg",
+                "Size": 44308
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "formaldehyde fixed tissue",
+                "onto_id": "FBbi:00000010"
+            },
+            "GROUP_ID": "7399",
+            "IMAGINGMODE": {
+                "onto_name": "spinning disk confocal microscopy",
+                "onto_id": "FBbi:00000253"
+            },
+            "CELLULARCOMPONENT": {
+                "onto_name": "nucleus",
+                "onto_id": "GO:0005634"
+            },
+            "BIOLOGICALPROCESS": [
+                {
+                    "onto_name": "response to wounding",
+                    "onto_id": "GO:0009611"
+                },
+                {
+                    "onto_name": "JNK cascade",
+                    "onto_id": "GO:0007254"
+                },
+                {
+                    "onto_name": "negative regulation of JNK cascade",
+                    "onto_id": "GO:0046329"
+                },
+                {
+                    "onto_name": "central nervous system development",
+                    "onto_id": "GO:0007417"
+                },
+                {
+                    "onto_name": "negative regulation of mRNA 3'-end processing",
+                    "onto_id": "GO:0031441"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "whole mounted tissue",
+                "onto_id": "FBbi:00000024"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "distribution of a specific protein",
+                "onto_id": "FBbi:00000597"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Drosophila melanogaster",
+                "onto_id": "NCBITaxon:7227"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "fluorescence emission",
+                "onto_id": "FBbi:00000316"
+            },
+            "MOLECULARFUNCTION": [
+                {
+                    "onto_name": "JUN kinase phosphatase activity",
+                    "onto_id": "GO:0008579"
+                },
+                {
+                    "onto_name": "RNA binding",
+                    "onto_id": "GO:0003723"
+                }
+            ],
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 962,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.5869
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1000,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.5869
+                    }
+                }},
+                {"Space": {
+                    "axis": "Z",
+                    "Image_size": 14,
+                    "Pixel_size": {
+                        "unit": "microns",
+                        "value": 0.8
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {
+                    "onto_name": "beta-galactosidase",
+                    "onto_id": "FBbi:00000077"
+                },
+                {
+                    "onto_name": "Alexa Fluor 488",
+                    "onto_id": "FBbi:00000440"
+                },
+                {
+                    "onto_name": "Cy3",
+                    "onto_id": "FBbi:00000449"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "The JNK phosphatase puckered, whose expression can be reported via a lacZ enhancer trap, is expressed in very low levels in uninjured neurons; however, nerve crush induces a dramatic increase in puc-lacZ expression in injured motoneurons. This image stack shows puc-lacZ (green) and neuronal nuclei (red) in a third instar larva injured at site 2 (as defined in Fig 1C). Wandering third instar larvae were dissected in PBS and fixed in either 4% paraformaldehyde in PBS or Bouin\u2019s fixative for 15\u201330 min. Primary antibodies used were: rat anti-elaV (7E8A10, Developmental Studies Hybridoma Bank) and mouse anti-lacZ (40-1a, DSHB). Secondary antibodies were Alexa 488 anti-mouse and Cy3 anti-rat. Confocal images were collected at room temperature on a spinning-disk confocal system (PerkinElmer) consisting of a scanner (Nipkow CSU10; Yokogawa) and an electron microscopy charge-coupled device camera (C9100-50; Hamamatsu Photonics) mounted on an inverted microscope (Axio Observer; Carl Zeiss, Inc.) with 25× 0.8 NA multi and 40× 1.3 NA, 63× 1.5 NA, and 100× 1.46 NA oil objectives. Similar settings were used to collect all compared genotypes. All imaging and quantification were conducted with Volocity software (PerkinElmer). This image stack corresponds to Fig 1E2 in J Cell Biol. 2010. 191: 211-223. Images in Fig 1 include  CIL#s 13676, 13677, 13678, 13679."},
+            "CELLTYPE": {
+                "onto_name": "motor neuron",
+                "onto_id": "CL:0000100"
+            },
+            "DATAQUALIFICATION": {"free_text": "RAW;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "URLs": [{"Href": "http://jcb-dataviewer.rupress.org/jcb/browse/3004/"}],
+                "PUBLISHED": ["J Cell Biol. 2010. 191: 211-223."],
+                "Contributors": [
+                    "Xin Xiong",
+                    "Xin Wang",
+                    "Ronny Ewanek",
+                    "Pavan Bhat",
+                    "Aaron DiAntonio",
+                    "Catherine A. Collins"
+                ],
+                "PUBMED": ["20921142"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": false,
+        "Z_stack": true,
+        "Video": false
+    }
+}}

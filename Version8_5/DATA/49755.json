@@ -1,0 +1,149 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "High-resolution montage of a thin section of Healthy human skin, including part of the dermis and all epidermal layers. This image is a montage of 32 images and a series of 10 datasets as published: \n\nhttp:\/\/www.jidonline.org\/article\/S0022-202X(15)37322-X\/fulltext \n\nhttp:\/\/www.nanotomy.org\/OA\/Sokol2015JID\/index.html"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Two mm skin were fixed in 2% glutaraldehyde in 0.1 M sodium cacodylate buffer pH 7.4 washed in 0.1 M sodium cacodylate buffer and postfixed in 1% osmiumtetroxide and 1.5% potassiumferrocyanide. Samples were dehydrated, embedded in epon, and sectioned. Ultrathin sections (70 nm) were positioned on single slot holders A600 Nickel supported by Formvar and contrasted with 2% uranylacetate (methanol) followed by Reynolds lead citrate. Acquisition was performed using a Zeiss supra 55 EM (Oberkochen, Germany) with ATLAS software developed by Fibics (Ottawa, Ontario, Canada). Samples were recorded at 2.5 nm pixel size. Scans were stitched, and raw data sets were rendered as HTML files using ATLAS VE viewer software. data sets are orientated such that the epidermis\/superficial layers are facing up."
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "pemphigus foliaceus"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "free_text": "Nikolsky positive non-lesional skin"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    }
+                ],
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "electron density",
+                        "onto_id": "FBbi:00000315"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "free_text": "ultrathin section"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "free_text": "electron density"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Ena Sokol",
+                        "Duco Kramer",
+                        "Gilles Diercks",
+                        "Jeroen Kuipers",
+                        "Marcel Jonkman",
+                        "Hendri Pas",
+                        "Ben Giepmans"
+                    ],
+                    "URLs": [
+                        {
+                            "Href": "http:\/\/nanotomy.org\/",
+                            "Label": "nanotomy.org"
+                        },
+                        {
+                            "Href": "http:\/\/www.jidonline.org\/article\/S0022-202X(15)37322-X\/fulltext",
+                            "Label": "JID article"
+                        },
+                        {
+                            "Href": "http:\/\/www.nanotomy.org\/OA\/Sokol2015JID\/dataset3\/NPFskin.html",
+                            "Label": "Zeiss viewer"
+                        }
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Pixel_size": {
+                                "value": "87.040",
+                                "unit": "microns"
+                            },
+                            "Image_size": "218"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Pixel_size": {
+                                "value": "65.536",
+                                "unit": "microns"
+                            },
+                            "Image_size": "164"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Pixel_size": {
+                                "value": "65.536",
+                                "unit": "microns"
+                            },
+                            "Image_size": "164"
+                        }
+                    }
+                ],
+                "GROUP_ID": "19401"
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image\/tif",
+                    "File_path": "49755.tif",
+                    "Size": 3100000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "image\/jpeg; charset=utf-8",
+                    "File_path": "49755.jpg",
+                    "Size": 94391,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "application\/zip",
+                    "File_path": "49755.zip",
+                    "Size": 635900,
+                    "File_type": "Zip"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": false,
+            "Still_image": true
+        }
+    }
+}

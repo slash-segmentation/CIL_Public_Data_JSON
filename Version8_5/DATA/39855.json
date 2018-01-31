@@ -1,0 +1,35 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "39855.jpg",
+                "Size": 25905
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "39855.tif",
+                "Size": 500000
+            }
+        ],
+        "CORE": {
+            "ATTRIBUTION": {
+                "OTHER": ["P0000"],
+                "PUBMED": ["1234"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"}
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

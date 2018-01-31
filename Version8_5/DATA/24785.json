@@ -1,0 +1,125 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "24785.tif",
+                "Size": 14900000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "24785.jpg",
+                "Size": 2732504
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "24785.zip",
+                "Size": 14814362
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "permeabilized tissue",
+                    "onto_id": "FBbi:00000093"
+                },
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {"free_text": "polyethylene glycol"}
+            ],
+            "GROUP_ID": "9875",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "lamellipodium",
+                    "onto_id": "GO:0030027"
+                },
+                {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                {"free_text": "Xenopus ADF/cofilin"}
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "actin filament-based process",
+                "onto_id": "GO:0030029"
+            },
+            "RELATIONTOINTACTCELL": {"free_text": "dispersed cell  in vitro"},
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in deposition of metal shadow",
+                "onto_id": "FBbi:00000601"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Xenopus laevis",
+                "onto_id": "NCBITaxon:8355"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "optical path length gradient",
+                "onto_id": "FBbi:00000312"
+            },
+            "TECHNICALDETAILS": {"free_text": "Procedures for detergent extraction, immunostaining, S1 decoration, light, and EM were described previously (Svitkina et al., 1995, 1996, 1997;Verkhovsky et al., 1995; Svitkina and Borisy, 1998)."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2753
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 1878
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                {"free_text": "platinum replica"},
+                {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                {"free_text": "immuno gold"}
+            ],
+            "PROCESSINGHISTORY": {
+                "onto_name": "unprocessed raw data",
+                "onto_id": "FBbi:00000582"
+            },
+            "IMAGEDESCRIPTION": {"free_text": "Localization of XAC (Xenopus ADF/cofilin) in Xenopus fibroblasts. Immuno-EM with XAC antibody at high magnification.  Low magnification view is available at CIL 24784.  Nucleus and surrounding regions look bright because of high content of cellular proteins, which creates high electron density (brightness in inverted contrast). Immunogold-labeling in these central regions is very low.  Image corresponds to Figure 10i from J Cell Biol. 1999 May 31;145(5):1009-26."},
+            "CELLTYPE": {
+                "onto_name": "fibroblast",
+                "onto_id": "CL:0000057"
+            },
+            "ATTRIBUTION": {
+                "PUBLISHED": ["J Cell Biol. 1999 May 31;145(5):1009-26."],
+                "Contributors": [
+                    "Tatyana M. Svitkina",
+                    "Gary G. Borisy"
+                ],
+                "PUBMED": ["10352018"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

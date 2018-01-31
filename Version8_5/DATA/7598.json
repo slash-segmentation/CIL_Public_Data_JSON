@@ -1,0 +1,139 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "7598.jpg",
+                "Size": 4211578
+            },
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "7598.tif",
+                "Size": 60700000
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "7598.zip",
+                "Size": 121421670
+            }
+        ],
+        "CORE": {
+            "PREPARATION": {
+                "onto_name": "osmium tetroxide fixed tissue",
+                "onto_id": "FBbi:00000012"
+            },
+            "GROUP_ID": "9508",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "tight junction",
+                    "onto_id": "GO:0005923"
+                },
+                {
+                    "onto_name": "zonula adherens",
+                    "onto_id": "GO:0005915"
+                },
+                {
+                    "onto_name": "desmosome",
+                    "onto_id": "GO:0030057"
+                }
+            ],
+            "BIOLOGICALPROCESS": {
+                "onto_name": "canalicular bile acid transport",
+                "onto_id": "GO:0015722"
+            },
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "differences in adsorption or binding of stain",
+                "onto_id": "FBbi:00000598"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Cavia porcellus",
+                "onto_id": "NCBITaxon:10141"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Pieces of liver tissue were removed directly from anesthetized animals and immersed in a drop of fixative of 1% osmium tetroxide buffered at pH 7.6 with phosphate buffer. Tissue blocks were embedded in Epon. Sections were stained with uranyl acetate and lead hydroxide. Micrograph was taken at original magnification of 65,000 X with a Siemens Elmiskop I, operating at 60 or 80 kv, with a double condenser, and a 50 µ objective aperture. Digitization process: Lantern slide scanned at 1200 dpi in TIFF format, then reduced to 600 dpi TIFF file (3500 x 3067 pixels) prior to conversion to JPEG2000 format. Original resource provided as a 3.25 x 4 inch lantern slide by George E. Palade; original is in the Palade Collection, University of California, San Diego."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 4800,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.512
+                    }
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 4206,
+                    "Pixel_size": {
+                        "unit": "nanometers",
+                        "value": 0.512
+                    }
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                }
+            ],
+            "PROCESSINGHISTORY": {"free_text": "digitized lantern slide"},
+            "IMAGEDESCRIPTION": {"free_text": "This is a view of apical domains of two adjacent hepatocytes showing the junctional complexes that attach cells to one another. The canaliculus is defined by the cell membranes of two adjacent liver cells. At the level of the tight junctions (also known as zonula occludens) the intercellular spaces are sealed, thereby preventing leakage of bile from the canaliculus. Two adherens junctions (also known as zonula adherens) and two desmosomes are seen distal (relative to the canaliculus) to each tight junction. Glycogen particles are apparent in the cytoplasm of the liver cells. First description of tight junctions and the junctional complexes between epithelial cells from many tissues. Identical labeled image available as CIL# 7599. Image published as Figure 13 in Farquhar and Palade, 1963."},
+            "CELLTYPE": {
+                "onto_name": "hepatocyte",
+                "onto_id": "CL:0000182"
+            },
+            "DATAQUALIFICATION": {"free_text": "PROCESSED;spatialmeasurements;intensitiesquantitation"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "Farquhar and Palade. 1963",
+                    "Href": "http://www.jcb.org/cgi/reprint/17/2/375.pdf"
+                }],
+                "PUBLISHED": ["J Cell Biol 17: 375-412. 1963"],
+                "Contributors": ["George E. Palade"],
+                "PUBMED": ["13944428"]
+            },
+            "TERMSANDCONDITIONS": {"free_text": "attribution_nc_sa"},
+            "ITEMTYPE": {
+                "onto_name": "film",
+                "onto_id": "FBbi:00000303"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

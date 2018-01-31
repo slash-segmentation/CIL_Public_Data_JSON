@@ -1,0 +1,113 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "40190.tif",
+                "Size": 700000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "40190.jpg",
+                "Size": 41897
+            }
+        ],
+        "CORE": {
+            "GROUP_ID": "12031",
+            "IMAGINGMODE": {
+                "onto_name": "transmission electron microscopy (TEM)",
+                "onto_id": "FBbi:00000258"
+            },
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "neuronal cell body",
+                    "onto_id": "GO:0043025"
+                },
+                {
+                    "onto_name": "Golgi apparatus",
+                    "onto_id": "GO:0005794"
+                },
+                {
+                    "onto_name": "lipid particle",
+                    "onto_id": "GO:0005811"
+                },
+                {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                {
+                    "onto_name": "nucleolus",
+                    "onto_id": "GO:0005730"
+                },
+                {
+                    "onto_name": "plasma membrane",
+                    "onto_id": "GO:0005886"
+                }
+            ],
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "NCBIORGANISMALCLASSIFICATION": {
+                "onto_name": "Homo sapiens",
+                "onto_id": "NCBITaxon:9606"
+            },
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "TECHNICALDETAILS": {"free_text": "Single image from a serial section electron microscopic reconstruction of the cell body of a  cortical pyramidal neuron from a biopsy sample obtained from the cortex of a patient with Alzheimer's disease. The specimen was prepared from biopsy material obtained several decades ago. This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information, see: Ellisman et al. Neuronal fibrillar cytoskeleton and endomembrane system organization in Alzheimers disease, In Alteration of the Neuronal Cytoskeleton in Aging and Dementia, GP Perry (Ed,).pp, 61-73, Plenum Publ, Corp, New York, 1988."},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 393
+                }},
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 512
+                }}
+            ],
+            "DATAQUALIFICATION": {"free_text": "PROCESSED"},
+            "CELLTYPE": [
+                {
+                    "onto_name": "pyramidal cell",
+                    "onto_id": "CL:0000598"
+                },
+                {
+                    "onto_name": "neuron of cerebral cortex",
+                    "onto_id": "CL:0002609"
+                }
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "Single image from a serial section electron microscopic reconstruction of the cell body of a  cortical pyramidal neuron from a biopsy sample obtained from the cortex of a patient with Alzheimer's disease. The specimen was prepared from biopsy material obtained several decades ago. This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information, see: Ellisman et al. Neuronal fibrillar cytoskeleton and endomembrane system organization in Alzheimers disease, In Alteration of the Neuronal Cytoskeleton in Aging and Dementia, GP Perry (Ed,).pp, 61-73, Plenum Publ, Corp, New York, 1988."},
+            "PATHOLOGICALPROCESS": {"onto_id": "DOID:DOID:10652"},
+            "ATTRIBUTION": {
+                "URLs": [{
+                    "Label": "CCDB 6352",
+                    "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=6352"
+                }],
+                "Contributors": ["Mark Ellisman"]
+            },
+            "HUMAN_DISEASE": [{
+                "onto_name": "Alzheimer's disease",
+                "onto_id": "DOID:10652"
+            }],
+            "TERMSANDCONDITIONS": {"free_text": "attribution_cc_by"},
+            "ITEMTYPE": {
+                "onto_name": "recorded image",
+                "onto_id": "FBbi:00000265"
+            }
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}

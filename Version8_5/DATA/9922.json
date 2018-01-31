@@ -1,0 +1,161 @@
+{"CIL_CCDB": {
+    "Status": {
+        "Deleted": false,
+        "Is_public": true
+    },
+    "CIL": {
+        "Image_files": [
+            {
+                "Mime_type": "image/tif",
+                "File_type": "OME_tif",
+                "File_path": "9922.tif",
+                "Size": 10800000
+            },
+            {
+                "Mime_type": "image/jpeg; charset=utf-8",
+                "File_type": "Jpeg",
+                "File_path": "9922.jpg",
+                "Size": 2072160
+            },
+            {
+                "Mime_type": "application/zip",
+                "File_type": "Zip",
+                "File_path": "9922.zip",
+                "Size": 21628610
+            }
+        ],
+        "CORE": {
+            "PREPARATION": [
+                {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                {
+                    "onto_name": "tissue in epoxy resin embedment",
+                    "onto_id": "FBbi:00000018"
+                },
+                {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                }
+            ],
+            "GROUP_ID": "3591",
+            "IMAGINGMODE": [
+                {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            ],
+            "CELLULARCOMPONENT": [
+                {
+                    "onto_name": "oral apparatus",
+                    "onto_id": "GO:0031912"
+                },
+                {
+                    "onto_name": "contractile vacuole",
+                    "onto_id": "GO:0000331"
+                },
+                {
+                    "onto_name": "microtubule basal body",
+                    "onto_id": "GO:0005932"
+                }
+            ],
+            "BIOLOGICALPROCESS": {"free_text": "ingestion"},
+            "RELATIONTOINTACTCELL": {
+                "onto_name": "microtome-sectioned tissue",
+                "onto_id": "FBbi:00000029"
+            },
+            "SOURCEOFCONTRAST": {
+                "onto_name": "stain with broad specificity",
+                "onto_id": "FBbi:00000415"
+            },
+            "CELLLINE": {"free_text": "Cambridge Culture Collection, Cambridge, England, # LB1657/1"},
+            "NCBIORGANISMALCLASSIFICATION": [
+                {
+                    "onto_name": "Opercularia [NCBITaxon:168247]",
+                    "onto_id": "NCBITaxon:168247"
+                },
+                {"free_text": "Opercularia coarctata"}
+            ],
+            "PARAMETERIMAGED": {
+                "onto_name": "electron density",
+                "onto_id": "FBbi:00000315"
+            },
+            "MOLECULARFUNCTION": {"free_text": "intracellular organization"},
+            "DIMENSION": [
+                {"Space": {
+                    "axis": "X",
+                    "Image_size": 2968
+                }},
+                {"Space": {
+                    "axis": "Y",
+                    "Image_size": 3600
+                }}
+            ],
+            "VISUALIZATIONMETHODS": [
+                {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                }
+            ],
+            "PROCESSINGHISTORY": [
+                {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                },
+                {"free_text": "print of negative scanned for photoshop"}
+            ],
+            "IMAGEDESCRIPTION": {"free_text": "An overview of the peristome of Opercularia coarctata. The corrugated wall, the equivalent to the ribbed wall of Paramecium, contains tubular projections of alveoli and cross sections of two ribbons of microtubules, one of 2 microtubules and one of 4 microtubules. The ends of these ribbons, at their origins, are covered by a myoneme which, in turn, is accompanied by a layer of ER. The microtubules will extend along the wall of the peristome and some will pass beyond the cytostome to form the lamellae of the cytopharynx. Vesicles bind to the lamellae and provide membrane for the nascent food vacuole. Oral polykinetids, myoneme, endoplasmic reticulum, contractile vacuole, microtubular ribbons, pellicular pores, and Golgi complex can be seen. TEM taken on 6/10/69 by R. Allen with Philips 300 operating at 60kV. Neg. 14,800X. Bar = 0.5µm. A print of the negative was scanned and processed in Photoshop. This image is best used for qualitative analysis. A high resolution image (CIL:7335) is available for quantitative analysis. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."},
+            "CELLTYPE": [
+                {
+                    "onto_name": "cell by organism",
+                    "onto_id": "CL:0000004"
+                },
+                {
+                    "onto_name": "eukaryotic cell",
+                    "onto_id": "CL:0000255"
+                },
+                {"free_text": "Eukaryotic Protist"},
+                {"free_text": "Ciliated Protist"}
+            ],
+            "ATTRIBUTION": {"Contributors": ["Allen, Richard"]},
+            "TERMSANDCONDITIONS": {"free_text": "public_domain"},
+            "ITEMTYPE": [
+                {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                }
+            ]
+        }
+    },
+    "Data_type": {
+        "Time_series": false,
+        "Still_image": true,
+        "Z_stack": false,
+        "Video": false
+    }
+}}
