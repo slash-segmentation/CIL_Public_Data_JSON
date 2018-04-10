@@ -2,10 +2,10 @@
 This repository contains all CIL public annotation metadata in the JSON format.
 
 ##### The JSON Mapping file
-https://github.com/slash-segmentation/CIL_Public_Data_JSON/blob/master/Version8_5/MAPPING/mapping.json
+https://github.com/slash-segmentation/CIL_Public_Data_JSON/blob/master/Version8_6/MAPPING/mapping.json
 
 ##### The CIL annotation metadata
-https://github.com/slash-segmentation/CIL_Public_Data_JSON/tree/master/Version8_5/DATA
+https://github.com/slash-segmentation/CIL_Public_Data_JSON/tree/master/Version8_6/DATA/CIL_PUBLIC_DATA
 
 ##### How to download our data
 Let's take CIL_10725 as an example.
