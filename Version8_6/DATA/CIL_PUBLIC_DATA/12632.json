@@ -1,0 +1,119 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12632.zip",
+                    "Size": 462491
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12632.tif",
+                    "Size": 5800000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "12632_orig.jpg",
+                    "Size": 462353
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12632.jpg",
+                    "Size": 160869
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "zona pellucida"
+                    },
+                    {
+                        "onto_name": "glycoprotein network",
+                        "onto_id": "GO:0048222"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "CELLLINE": {
+                    "onto_name": "Ovary",
+                    "onto_id": "FMA:7209"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1600
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1200
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "deconvolved"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Mouse zona pellucida. This image shows a zona pellucida surrounding a mouse oocyte. The sample has been labeled with an antibody to ZP3, one of the three glycoproteins in the zona pellucida. The image reveals detailed structural features of the zona pellucida. The oocyte itself is not directly visible as it is surrounded by the zona. The oocyte was fixed using standard procedures for immunolabeling and imaged with a Nikon Eclipse inverted microscope. The image was deconvoluted using Nikon Elements software. The oocyte and zona are about 100 micrometers in diameter"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Sabrina Lin",
+                        "Prue Talbot"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12632",
+            "ARK": "ark:/b7295/w9cil12632",
+            "Title": "Sabrina Lin, Prue Talbot (2011) CIL:12632, Mus musculus. CIL. Dataset"
+        }
+    }
+}

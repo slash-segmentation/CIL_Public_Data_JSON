@@ -1,0 +1,184 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "7621.tif",
+                    "Size": 60600000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7621.zip",
+                    "Size": 121453674
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7621.jpg",
+                    "Size": 4759332
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                "GROUP_ID": "10228",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    },
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "zonula adherens",
+                        "onto_id": "GO:0005915"
+                    },
+                    {
+                        "onto_name": "occluding junction",
+                        "onto_id": "GO:0070160"
+                    },
+                    {
+                        "onto_name": "brush border membrane",
+                        "onto_id": "GO:0031526"
+                    },
+                    {
+                        "onto_name": "microvillus",
+                        "onto_id": "GO:0005902"
+                    },
+                    {
+                        "onto_name": "desmosome",
+                        "onto_id": "GO:0030057"
+                    },
+                    {
+                        "onto_name": "actin filament",
+                        "onto_id": "GO:0005884"
+                    },
+                    {
+                        "onto_name": "intermediate filament",
+                        "onto_id": "GO:0005882"
+                    },
+                    {
+                        "onto_name": "plasma membrane",
+                        "onto_id": "GO:0005886"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus rattus",
+                    "onto_id": "NCBITaxon:10117"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Fixative was injected into the intestinal lumen of a rat (3% osmium tetroxide buffered at pH 7.6 with acetate- veronal). Tissue may have also been fixed in potassium permanganate. Tissue blocks were embedded in Epon. Sections were stained with lead hydroxide. Micrograph was taken at original magnification of 96,000 X with a Siemens Elmiskop I, operating at 60 or 80 kv, with a double condenser, and a 50 \u00b5 objective aperture. Digitization process: conversion from a 1200 dpi tiff, 3820 x 3342 pixels. Original image created on January 5, 1962. Original resource provided as a 3.25 x 4 inch lantern slide. Research conducted at The Rockefeller Institute of Medical Research (New York, NY)."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4800,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 21.1667
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4199,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 21.1667
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "digitized lantern slide"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Junctional complex between two cells in the epithelium of the rat intestinal mucosa. The tight junction (also known as zonula occludens, ZO) located nearest to the lumen extends from arrow 1 to arrow 2. The elimination of the intercellular gap (approx 90 angstroms) is clearly visible, but the fusion line of the two apposed membranes cannot be clearly distinguished at this magnification. The adherens junction (also known as zonula adherens, ZA) extends from arrow 3 to arrow 4. A relatively wide intercellular space (approx 200 angstroms) is maintained throughout this junction. Extensive actin filament networks are seen along both sides of the junction (Actin) which are continuous with the terminal web (TW) into which the filamentous rootlets of the mircovilli penetrate. Dense material (DM) can be seen along parts of both sides of the junction. The limits of a desmosome are marked by arrows 5 and 6. Desmosomes are characterized by a wide intracellular space (approx 240 angstroms) bisected by an intermediate line (id). Bundles of intermediate filaments (if, diameter approx 80 angstroms) converge into a dense plaque (DP) on each side of the desmosome. The trilaminar structure of the cell membrane (CM) is clearly seen along the microvilli (MV), between the ZA and the desmosome and within the desmosome. First description of 1) tight junctions and 2) the junctional complexes between epithelial cells, consisting of tight junction, adherens junction and a desmosome. Identical unlabeled image available as CIL# 7620. Image published as Figure 1 in Farquhar and Palade, 1963."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "free_text": "intestinal epithelial cell"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Farquhar and Palade. 1963",
+                            "Href": "http://www.jcb.org/cgi/reprint/17/2/375.pdf"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol 17: 375-412. 1963"
+                    ],
+                    "Contributors": [
+                        "Marilyn G. Farquhar (University of California, San Diego, CA)",
+                        "George E. Palade (University of California, San Diego, CA)"
+                    ],
+                    "PUBMED": [
+                        "13944428"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7621",
+            "ARK": "ark:/b7295/w9cil7621",
+            "Title": "Marilyn G. Farquhar (University of California, San Diego, CA), George E. Palade (University of California, San Diego, CA) (2011) CIL:7621, Rattus rattus, epithelial cell, intestinal epithelial cell. CIL. Dataset"
+        }
+    }
+}

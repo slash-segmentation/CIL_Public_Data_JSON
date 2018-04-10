@@ -1,0 +1,140 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "11933.tif",
+                    "Size": 2200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11933.zip",
+                    "Size": 2527071
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11933.jpg",
+                    "Size": 57806
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "3130",
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "G1/S transition of mitotic cell cycle",
+                    "onto_id": "GO:0000082"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": [
+                    {
+                        "free_text": "NRK"
+                    },
+                    {
+                        "onto_name": "Kidney",
+                        "onto_id": "FMA:7203"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.093
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.093
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 8,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 1
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "mRFP1",
+                    "onto_id": "FBbi:00000527"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Rat NRK stably expressing RFP targeted to mitochondrial matrix imaged at the cell cycle stage G1-S transition. This image is a z-stack from a living cell collected on a Zeiss 510 LSM confocal using a 63X 1.4NA objective.  \nThere is a related z-series of a cell in M phase.  The stable mito-RFP expressing NRK cell line was prepared by Kasturi Mitra."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Brenda Kostelecky"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11933",
+            "ARK": "ark:/b7295/w9cil11933",
+            "Title": "Brenda Kostelecky (2011) CIL:11933, Rattus. CIL. Dataset"
+        }
+    }
+}

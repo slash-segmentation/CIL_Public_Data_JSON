@@ -1,0 +1,136 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35380.jpg",
+                    "Size": 4513776
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "35380.tif",
+                    "Size": 43000000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35380.zip",
+                    "Size": 42905538
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "coagulating-fixative fixed tissue",
+                        "onto_id": "FBbi:00000003"
+                    },
+                    {
+                        "onto_name": "critical_point dried specimen",
+                        "onto_id": "FBbi:00000581"
+                    }
+                ],
+                "GROUP_ID": "8649",
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000622"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "condensed chromosome",
+                    "onto_id": "GO:0000793"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "nuclear division",
+                    "onto_id": "GO:0000280"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "HeLa cells were metaphase-arrested by a 3hr treatment with colcemid, the cells mechanically broken by passage through a 22-gauge needle and exposed to hypotonic 75 mM KCl for 10 min. Samples were fixed with 3:1 methanol:acetic acid, squashed in 45% acetic acid, transferred to a formvar coated grid, critical point dried, and imaged with the Wisconsin HVEM at 1 MeV. See Ris (1978) Preparation of chromatin and chromosomes for electron microscopy. Meth Cell Biol 18:229-246; Ris (1981) Stereoscopic microscopy of chromosomes. Meth Cell Biol 22:77-96."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 5682,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 1.5
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3775,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 1.5
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Whole human female metaphase chromosome from metaphase arrested cell swollen in hypotonic medium and imaged at 1 MeV.  This image was taken with a specimen tilt of 45 degrees. Grouped with it is an image of the same area at 55 degrees tilt, providing an oblique stereo view of the chromosome."
+                },
+                "CELLTYPE": {
+                    "free_text": "cevical carcinoma"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Hans Ris"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35380",
+            "ARK": "ark:/b7295/w9cil35380",
+            "Title": "Hans Ris (2011) CIL:35380, Homo sapiens, cevical carcinoma. CIL. Dataset"
+        }
+    }
+}

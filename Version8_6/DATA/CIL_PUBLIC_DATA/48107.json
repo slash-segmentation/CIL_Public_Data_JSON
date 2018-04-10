@@ -1,0 +1,116 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "48107.zip",
+                    "Size": 5760292
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "48107.tif",
+                    "Size": 5800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "48107.jpg",
+                    "Size": 725116
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "dendrite",
+                        "onto_id": "GO:0030425"
+                    },
+                    {
+                        "onto_name": "cytoskeleton",
+                        "onto_id": "GO:0005856"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "Differentiation of neural stem cells into neural and glial cell lineages"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus norvegicus",
+                    "onto_id": "NCBITaxon:10116"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Differentiated rat neural stem cells were fixed andimmunostained \u03b2 III-tubulin (monoclonal Tuj1 from Stem Cell Technologies) and GFAP (from Stem Cell Technologies). Images were acquired with SPOT RT Slider CCD camera and SPOT Basic image capture software. Image generated with the Image J color combine function."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y"
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Differentiated rat neural stem cells stained for \u03b2 III-Tubulin (in blue) to reveal neurons and GFAP (in red) to reveal glial cells."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "free_text": "neural stem cell"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Natalie Prigozhina"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL48107",
+            "ARK": "ark:/b7295/w9cil48107",
+            "Title": "Natalie Prigozhina (2015) CIL:48107, Rattus norvegicus, neural stem cell. CIL. Dataset"
+        }
+    }
+}

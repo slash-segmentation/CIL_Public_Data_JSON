@@ -1,0 +1,216 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39177.zip",
+                    "Size": 61053934
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39177.jpg",
+                    "Size": 9304628
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39177.tif",
+                    "Size": 61200000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "10106",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "oral apparatus",
+                        "onto_id": "GO:0031912"
+                    },
+                    {
+                        "onto_name": "vacuolar proton-transporting V-type ATPase, V0 domain",
+                        "onto_id": "GO:0000220"
+                    },
+                    {
+                        "free_text": "cytopharynx"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "phagocytosis",
+                        "onto_id": "GO:0006909"
+                    },
+                    {
+                        "onto_name": "digestive system process",
+                        "onto_id": "GO:0022600"
+                    },
+                    {
+                        "onto_name": "digestion",
+                        "onto_id": "GO:0007586"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium caudatum",
+                    "onto_id": "NCBITaxon:5885"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. The raw negative was scanned with an Epson Perfection V750 Pro and this high resolution image is best used for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4832,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.94
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 6317,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.94
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The collapsed cytopharyngeal membrane extends from the open cytopharynx into the cytosol. This membrane is associated with many docked acidosomes, vesicles that contain V-type proton translocating ATPases and cause the acidification of the phagosome after they fuse with the phagosome. TEM taken on 11/4/68 by R. Allen with Philips 300 operating at 60kV. Neg.16,000X. Published in J. Cell Biol. 64:497-503, 1975. Adapted with permission."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Biol. 1975 Feb;64(2):497-503.",
+                        "1117032"
+                    ],
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39177",
+            "ARK": "ark:/b7295/w9cil39177",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:39177, Paramecium caudatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

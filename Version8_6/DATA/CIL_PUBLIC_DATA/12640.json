@@ -1,0 +1,210 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12640.tif",
+                    "Size": 28700000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12640.zip",
+                    "Size": 31813788
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12640.jpg",
+                    "Size": 4645196
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                "GROUP_ID": "7160",
+                "IMAGINGMODE": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cytoplasm",
+                        "onto_id": "GO:0005737"
+                    },
+                    {
+                        "onto_name": "endosome",
+                        "onto_id": "GO:0005768"
+                    },
+                    {
+                        "onto_name": "clathrin coat",
+                        "onto_id": "GO:0030118"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cytoplasm organization",
+                        "onto_id": "GO:0007028"
+                    },
+                    {
+                        "onto_name": "endosome organization",
+                        "onto_id": "GO:0007032"
+                    },
+                    {
+                        "onto_name": "clathrin coat assembly",
+                        "onto_id": "GO:0048268"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "isolated subcellular component",
+                        "onto_id": "FBbi:00000579"
+                    }
+                ],
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium multimicronucleatum",
+                    "onto_id": "NCBITaxon:44030"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "elastic scattering of electrons",
+                        "onto_id": "FBbi:00000586"
+                    },
+                    {
+                        "onto_name": "electron density",
+                        "onto_id": "FBbi:00000315"
+                    },
+                    {
+                        "onto_name": "elevation",
+                        "onto_id": "FBbi:00000320"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3690,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.63
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3878,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.63
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A high resolution image of a clump of at least seven small clathrin cages that are probably connected to an early endosome (below the fracture plane). The morphology of these cages shows a tighter packing than the larger clathrin cages at the parasomal sacs. TEM taken on 7/29/88 by C. Schroeder with Zeiss 10A operating at 80kV. Neg. 31,500X. The raw film was scanned with an Epson Perfection V750 Pro. This image is best used for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www5.pbrc.hawaii.edu/allen/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)",
+                        "C. Schroeder"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12640",
+            "ARK": "ark:/b7295/w9cil12640",
+            "Title": "Richard Allen (University of Hawaii), C. Schroeder (2011) CIL:12640, Paramecium multimicronucleatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

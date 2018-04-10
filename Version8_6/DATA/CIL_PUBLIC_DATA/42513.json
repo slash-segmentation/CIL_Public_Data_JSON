@@ -1,0 +1,145 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "42513.zip",
+                    "Size": 17402062
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "42513.jpg",
+                    "Size": 1274906
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "42513.tif",
+                    "Size": 17500000
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "spindle microtubule",
+                        "onto_id": "GO:0005876"
+                    },
+                    {
+                        "onto_name": "aster",
+                        "onto_id": "GO:0005818"
+                    },
+                    {
+                        "onto_name": "cytoplasmic chromosome",
+                        "onto_id": "GO:0000229"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    },
+                    {
+                        "onto_name": "mitotic anaphase",
+                        "onto_id": "GO:0000090"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "LLC-PK1",
+                    "onto_id": "MCC:0000286"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Sus scrofa domestica",
+                    "onto_id": "NCBITaxon:9825"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2640
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2195
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "deconvolution"
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Pig epithelial (LLC-PK1) cells undergoing mitosis.  Image shows microtubules (green) and chromosomes (purple) and was collected using a spinning disk confocal and deconvolution microscopy. Honorable Mention, 2005 Olympus BioScapes Competition."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Department of Biology, University of North Carolina at Chapel Hill Chapel Hill, NC, USA",
+                        "Department of Biology, University  of North Carolina, Chapel Hill, NC, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2005 Olympus BioScapes Competition",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2005/hm54.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Nasser Rusan",
+                        "2005 Olympus BioScapes Competition"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL42513",
+            "ARK": "ark:/b7295/w9cil42513",
+            "Title": "Nasser Rusan, 2005 Olympus BioScapes Competition (2012) CIL:42513, Sus scrofa domestica, epithelial cell. CIL. Dataset"
+        }
+    }
+}

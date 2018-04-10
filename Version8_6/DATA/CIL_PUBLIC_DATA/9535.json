@@ -1,0 +1,143 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "9535.tif",
+                    "Size": 40200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9535.jpg",
+                    "Size": 3797864
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9535.zip",
+                    "Size": 40121332
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "basement membrane",
+                    "onto_id": "GO:0005604"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "CELLLINE": {
+                    "onto_name": "Kidney",
+                    "onto_id": "FMA:7203"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4800,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.03
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4170,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.03
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Peripheral area of normal rat kidney. The capillary wall is composed of three distinct layers: the endothelium with its fenestra, the basement membrane (BM) which is a continuous layer 0.1 to 0.15 microns in thickness and the foot processes of the renal epithelium. In a number of places (arrows), a slit membrane can be seen bridging the narrow gap between foot processes. The vascular lumen contains a red blood cell and ferritin.\t  Image presented as a layered tiff with the first image the unlabeled image and the second image the labeled version.  Bar= 1.0 microns.\n\nDemonstration of the structure of the filtration barrier of the normal kidney.  Kidney was fixed by injection of 1% osmium tetroxide buffered in acetate-veronal, pH 7.5, into the renal parenchyma, the tissue was cut into small pieces and fixation was continued for 2 hours. Tissue blocks were embedded in Epon, sectioned and stained with lead hydroxide. Glomerular permeability investigated by electron microscopy. In: Siperstein MD, Colwell Sr. AR, Meyer K, eds. Small Blood Vessel Involvement in Diabetes Mellitus; Proceedings. Washington DC: American Institute of Biological Sciences; 1964:31-38.Pavenstadt H, Kriz W, Kretzler M. Cell biology of the glomerular podocyte. Physiol Rev [serial online]. 2003;83:253-307.  EM Annotator: Marilyn G Farquhar (University of California, San Diego, CA). EM Annotator: Kathryn E Howell (University of Colorado School of Medicine, Aurora, CO). Original resource provided by Marilyn G Farquhar. Original resource: lantern slide (3.25 x 4 inches)."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "endothelial cell",
+                        "onto_id": "CL:0000115"
+                    },
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "onto_name": "blood cell",
+                        "onto_id": "CL:0000081"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Marilyn G Farquhar"
+                    ],
+                    "PUBMED": [
+                        "12506131"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": true,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9535",
+            "ARK": "ark:/b7295/w9cil9535",
+            "Title": "Marilyn G Farquhar (2010) CIL:9535, Rattus, endothelial cell, epithelial cell, blood cell. CIL. Dataset"
+        }
+    }
+}

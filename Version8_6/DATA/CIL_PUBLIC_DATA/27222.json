@@ -1,0 +1,128 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "27222.tif",
+                    "Size": 1000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "27222.jpg",
+                    "Size": 42720
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "27222.zip",
+                    "Size": 960577
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "free_text": "dispersed cells"
+                },
+                "GROUP_ID": "7991",
+                "IMAGINGMODE": {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell",
+                    "onto_id": "GO:0005623"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "whole mounted cells"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in intrinsic optical density",
+                    "onto_id": "FBbi:00000602"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 600
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "threshold"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "blood cell",
+                        "onto_id": "CL:0000081"
+                    },
+                    {
+                        "free_text": "red blood cell"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This image set consists of five differential interference contrast (DIC) images of red bood cells (approximately 8 microns in diameter).  Each image in the set contains a DIC image and a thresholded image.  There are two options when using this data set to quantify an algorithm's effectiveness. The simplest method is simply to compute the percentage of pixels that your algorithm and the thresholded image have in common. However, a wide class of algorithms for handling DIC images do not explicity segment the image, but rather transform the image so that it can later be thresholded. These images were obtained from  http://www.broadinstitute.org/bbbc/human_rbc_dic.html\n\nDIC images attributed to Skerker, Rush, and Wiegand; the thresholded images attributed to Morgan."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.broadinstitute.org/bbbc/human_rbc_dic.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Jeffrey Skerker",
+                        "Meg Rush",
+                        "Roger Wiegand",
+                        "Tom Morgan"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "free_text": "threshold image"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL27222",
+            "ARK": "ark:/b7295/w9cil27222",
+            "Title": "Jeffrey Skerker, Meg Rush, Roger Wiegand, Tom Morgan (2011) CIL:27222, Homo sapiens, blood cell, red blood cell. CIL. Dataset"
+        }
+    }
+}

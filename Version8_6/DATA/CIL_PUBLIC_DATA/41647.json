@@ -1,0 +1,96 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41647.jpg",
+                    "Size": 230341
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41647.tif",
+                    "Size": 2100000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41647.zip",
+                    "Size": 2037678
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "Halammohydra schulzei"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 819
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 819
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of a Halammohydra schulzei, which is a hydra-type fresh-water cnidarian less than 1 millimeter long.  2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University Hamburg Hamburg, Germany"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus BioScapes Digital Imaging  Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm50.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Andreas Schmidt-Rhaesa",
+                        "2011 Olympus BioScapes Digital Imaging  Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41647",
+            "ARK": "ark:/b7295/w9cil41647",
+            "Title": "Andreas Schmidt-Rhaesa, 2011 Olympus BioScapes Digital Imaging  Competition\u00ae (2012) CIL:41647, Halammohydra schulzei. CIL. Dataset"
+        }
+    }
+}

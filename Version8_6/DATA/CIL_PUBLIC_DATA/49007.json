@@ -1,0 +1,95 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Light micrograph, alcian blue PAS staining of gastric mucosa from N 18 month mouse, 100 x."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Gender: male\n<br/>Age:  8 months\n<br/>Sub-species: wild type\n<br/>Organ: stomach\n<br/>Tissue: gastric mucosa, greater curvature\n<br/>Stain 1: PAS\n<br/>Stain 2: Alcian blue\n<br/>Embed: Paraffin\n<br/>Section: 5 microns"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Mus musculus",
+                        "onto_id": "NCBITaxon:10090"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "modes of light microscopy",
+                        "onto_id": "FBbi:00000345"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "free_text": "micrograph"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": "4800"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": "3700"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": "3700"
+                        }
+                    }
+                ]
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_path": "49007.tif",
+                    "Size": 54400000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_path": "49007.jpg",
+                    "Size": 3377817,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_path": "49007.zip",
+                    "Size": 54308578,
+                    "File_type": "Zip"
+                },
+                {
+                    "Mime_type": "image/tiff",
+                    "File_path": "49007_orig.tif",
+                    "Size": 54308440,
+                    "File_type": "OME_tif"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": false,
+            "Still_image": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL49007",
+            "ARK": "ark:/b7295/w9cil49007",
+            "Title": "CIL (2016) CIL:49007, Mus musculus. CIL. Dataset"
+        }
+    }
+}

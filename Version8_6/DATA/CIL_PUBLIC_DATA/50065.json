@@ -1,0 +1,126 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Chlamydia trachomatis is the most common cause of bacterial sexually transmitted infection. It produces an unusual intracellular infection: within a membrane-bound compartment called the chlamydial inclusion, the elementary body (EB) converts into the larger, metabolically-active reticulate body (RB). This RB replicates and then converts into an EB, which is the infectious form. We used quantitative three-dimensional electron microscopy to show that C. trachomatis RBs divide by binary fission and undergo a six-fold reduction in size as the population expands. Conversion only occurs after at least six rounds of replication, and correlates with smaller RB size. These results suggest that RBs only convert into EBs below a size threshold, reached by repeatedly dividing before doubling in size. Our findings support a model in which RB size controls the timing of RB-to-EB conversion without the need for an external signal."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "In this study, we used Serial Block-Face Scanning Electron Microscopy (SBEM) to provide a comprehensive quantitative analysis of the intracellular chlamydial infection over time. We performed SBEM on monolayers of <i>C. trachomatis</i>-infected HeLa cells. Stacks of consecutive 60-nm-thick sections were acquired and subsequently digitally aligned, which allowed individual bacteria to be observed and analyzed in multiple successive sections. We then combined all the EM sections computationally into a 3D reconstruction of the inclusion.\nOur analysis provided detailed quantitative information about the <i>C. trachomatis</i>\ninclusion and its developmental forms. <p>\n\n<b>Cell culture and Chlamydia infections</b><br/>\nHeLa cells (ATCC CCL-2) were grown in Advanced DMEM (4.5 g glucose/L)\n(Invitrogen) supplemented with 2% fetal bovine serum (FBS) (Hyclone/Thermo Fisher) and 2mM GlutaMAX-I (Invitrogen) in 5% CO2 at 37\u00b0C. Cell monolayers were infected with C. trachomatis serovar L2, strain L2/434/Bu (ATCC VR-902B) at a multiplicity of infection (MOI) of 3 in sucrose-phosphate-glutamic acid (SPG). Uninfected control experiments were performed as mock infections in SPG alone. Infections were carried out by centrifugation at 700xg in a Sorvall Legend Mach 1.6R centrifuge for 1 hour at room temperature. After centrifugation, the inoculum was replaced by fresh cell culture medium and monolayers were incubated at 37\u00b0C and 5% CO2. HeLa Cells and EBs were verified to be free of Mycoplasma contamination by PCR. <p>\n\n<b>Preparation of cells for serial block-face scanning EM (SBEM)</b><br/>\nChlamydia-infected monolayers were fixed in a solution of 2% paraformaldehyde\nand 2.5% glutaraldehyde in 0.1 M cacodylate buffer, pH 7.4 for 1 hour. Cells were stained for SBEM. Briefly, cells were washed 5X in cold 0.1 M cacodylate buffer then incubated in solution containing 1.5% potassium ferrocyanide and 2% osmium tetroxide supplemented with 2 mM calcium chloride in 0.1 M cacodylate buffer for 30 minutes on ice. After 5X 2-minute washes in doubled distilled water, cells were incubated in 1% thiocarbohydrazide for 10 minutes at room temperature. Following 5X 2-minute washes in double distilled water at room temperature, cells were placed in 2% osmium tetroxide in double distilled water for 10 minutes at room temperature. Cells were rinsed 5X 2 minutes with double distilled water at room temperature and subsequently incubated in 2% uranyl acetate at 4\u00b0C overnight. The next day, cells were washed 5X 2 minutes in double distilled water at room temperature and en bloc Walton's lead aspartate staining was performed for 10 minutes at 60\u00b0C. Following 5X 2-minute washes in double distilled water at room temperature, cells were dehydrated using a series of ice-cold graded ethanol solutions and then embedded in Durcupan ACM resin (Electron Microscopy Sciences). The resin was allowed to polymerize in a vacuum oven at 60\u00b0C for 48 hours. SBEM imaging was completed using a Gatan automated 3View system (Gatan Inc.) incorporated into a Zeiss Sigma or Merlin Compact Scanning Electron Microscope (Zeiss), and images were recorded at 60 nm cutting intervals. <p>\n<b>3D EM Segmentation and Analysis</b><br/>\nComplete three-dimensional reconstructions of Chlamydia inclusions were constructed and analyzed using the IMOD image processing software (University of Colorado, Boulder)."
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "HeLa-Chlamydia_28hpi"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "free_text": "Human HeLa"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "Chlamydia inclusion containing bacteria in different morphologic forms."
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Chlamydia trachomatis",
+                        "onto_id": "NCBITaxon:813"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "serial block face SEM (SBFSEM)",
+                        "onto_id": "FBbi:00000585"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Daniela Boassa",
+                        "Jennifer Lee",
+                        "Germ\u00e1n Enciso",
+                        "Christopher Chander",
+                        "Tracy Lou",
+                        "Sean Pairawan",
+                        "Melody Guo",
+                        "Frederic Wan",
+                        "Mark Ellisman",
+                        "Christine Su\u0308tterlin",
+                        "Ming Tan"
+                    ],
+                    "OTHER": [
+                        "project_20099"
+                    ]
+                },
+                "GROUP_ID": "20252"
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_path": "50065.tif",
+                    "Size": 5900000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_path": "50065.jpg",
+                    "Size": 2565310,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_path": "50065.zip",
+                    "Size": 5853492,
+                    "File_type": "Zip"
+                },
+                {
+                    "Mime_type": "image/tiff",
+                    "File_path": "50065_orig.tif",
+                    "Size": 5853354,
+                    "File_type": "OME_tif"
+                }
+            ],
+            "Alternative_image_files": [
+                {
+                    "File_path": "Download Downsampled Data",
+                    "File_type": "Mrc",
+                    "Mime_type": "application/mrc",
+                    "URL_postfix": "/ccdb/telescience/home/CCDB_DATA_USER.portal/CCDB_DATA_USER/acquisition/project_20099/microscopy_5228936/reconstruction/3view-Compact-5228936-final-bin5.mrc",
+                    "Size": "3315079357"
+                },
+                {
+                    "File_path": "Download Submitted Data",
+                    "File_type": "Mrc",
+                    "Mime_type": "application/mrc",
+                    "URL_postfix": "/ccdb/telescience/home/CCDB_DATA_USER.portal/CCDB_DATA_USER/acquisition/project_20099/microscopy_5228936/reconstruction/3view-Compact-5228936-final-bin1.mrc",
+                    "Size": "82767315157"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": true,
+            "Video": false,
+            "Still_image": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL50065",
+            "ARK": "ark:/b7295/w9cil50065",
+            "Title": "Daniela Boassa, Jennifer Lee, Germ\u00e1n Enciso, Christopher Chander, Tracy Lou, Sean Pairawan, Melody Guo, Frederic Wan, Mark Ellisman, Christine Su\u0308tterlin, Ming Tan (2017) CIL:50065, Chlamydia trachomatis, Human HeLa. CIL. Dataset"
+        }
+    }
+}

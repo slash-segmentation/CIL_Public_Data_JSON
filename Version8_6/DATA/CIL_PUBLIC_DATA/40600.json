@@ -1,0 +1,118 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "40600_orig.jpg",
+                    "Size": 77086
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "40600.zip",
+                    "Size": 77224
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40600.jpg",
+                    "Size": 109083
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40600.tif",
+                    "Size": 1300000
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "blood coagulation",
+                    "onto_id": "GO:0007596"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image collected on FEI instrument: Nova NanoSEM Family using the following parameters: Magnification: 1500x, Horizontal Field Width: 199 microns, Vacuum: Low vacuum, Voltage: 10 kV, Detector: LVD,  Spot: 3.0 nA, and Working Distance: 5.7 mm."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 670
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 635
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "CELLTYPE": {
+                    "onto_name": "erythrocyte",
+                    "onto_id": "CL:0000232"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Colorized scanning electron micrograph of partially dried red blood cells clotted on the cotton fibres of a gauze wound dressing. Image was collected at low vacuum to avoid charging of cotton fibres"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Science Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/Blood-Clot-2629.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Paul Gunning"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40600",
+            "ARK": "ark:/b7295/w9cil40600",
+            "Title": "Paul Gunning (2012) CIL:40600, erythrocyte. CIL. Dataset"
+        }
+    }
+}

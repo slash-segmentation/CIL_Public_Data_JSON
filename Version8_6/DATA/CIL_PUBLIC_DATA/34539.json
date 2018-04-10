@@ -1,0 +1,139 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "34539.jpg",
+                    "Size": 499197
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "34539.tif",
+                    "Size": 45000000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "34539.zip",
+                    "Size": 44896846
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "axon",
+                        "onto_id": "GO:0030424"
+                    },
+                    {
+                        "onto_name": "dendrite",
+                        "onto_id": "GO:0030425"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "neuron development",
+                        "onto_id": "GO:0048666"
+                    },
+                    {
+                        "onto_name": "establishment of cell polarity",
+                        "onto_id": "GO:0030010"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Cortical neurons were isolated and cultured from E17 embryo using a standard protocol as described in  Lehnardt et al.,Proc Natl Acad Sci U S A, 100 (14): 8514-9. Neurons were transfected with a plasmid encoding DsRed (BD Biosciences) at day-in-vitro (DIV) 3. Cells were fixed with 4% paraformaldehyde at DIV5, and images were digitally acquired using a fluorescence microscope (Nikon Eclipse 660) equipped with Spot cooled CCD camera (Diagnostic Instruments)."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3740,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.089
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4000,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.089
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "DsRed",
+                    "onto_id": "FBbi:00000085"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Cortical mouse neurons at 7 days in vitro 7 (DIV7) are well polarized with a single, long, branched axon and shorter dendrites arising from the cell body. The cortical neurons were cultured from E17 mouse embryo and tranfected with DsRed expression plasmid (BD Biosciences). Scale bar, 50 \u00b5m."
+                },
+                "CELLTYPE": {
+                    "onto_name": "CNS neuron (sensu Vertebrata)",
+                    "onto_id": "CL:0000117"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Yinghua Ma",
+                        "Timothy Vartanian"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL34539",
+            "ARK": "ark:/b7295/w9cil34539",
+            "Title": "Yinghua Ma, Timothy Vartanian (2011) CIL:34539, Mus musculus, CNS neuron (sensu Vertebrata). CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41725.tif",
+                    "Size": 23600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41725.jpg",
+                    "Size": 4712776
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41725.zip",
+                    "Size": 23547510
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "GROUP_ID": "12044",
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000622"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    },
+                    {
+                        "onto_name": "mitotic metaphase",
+                        "onto_id": "GO:0000089"
+                    },
+                    {
+                        "onto_name": "chromosome organization",
+                        "onto_id": "GO:0051276"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "CELLLINE": {
+                    "free_text": "CHO"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cricetulus griseus",
+                    "onto_id": "NCBITaxon:10029"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "CHO cells at metaphase were treated with 50% D2O, fixed with glutaraldehyde, embedded in epoxy resin and 0.5 micrometer 'thick' sections stained with uranyl acetate and lead citrate for HVEM observation at 1 MeV. See also: H. Ris 1981 Stereoscopic electron microscopy of chromosomes. Meth Cell Biol 22:77-96 H. Ris 1978 Preparation of chromatin and chromosomes for electron microscopy. Meth Cell Biol 18:220-246."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2780,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4234,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "High Voltage EM image of CHO metaphase chromosomes from a 'thick' section of metaphase-arrested cells treated with D20 to stabilize microtubules. This image was recorded with a specimen tilt of 55 degrees.  The accompanying grouped image had a tilt of 45 degrees to create a stereo pair providing an oblique 3D view of the chromosomes."
+                },
+                "CELLTYPE": {
+                    "free_text": "ovary"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "DATE": [
+                        "06/17/1977"
+                    ],
+                    "Contributors": [
+                        "Hans Ris"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41725",
+            "ARK": "ark:/b7295/w9cil41725",
+            "Title": "Hans Ris (2012) CIL:41725, Cricetulus griseus, ovary. CIL. Dataset"
+        }
+    }
+}

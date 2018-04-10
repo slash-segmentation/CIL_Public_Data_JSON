@@ -1,0 +1,111 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39752.tif",
+                    "Size": 1500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39752.jpg",
+                    "Size": 37887
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "free_text": "brian slices"
+                },
+                "GROUP_ID": "11970",
+                "IMAGINGMODE": {
+                    "onto_name": "two-photon laser scanning micrograph",
+                    "onto_id": "FBbi:00000254"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell projection",
+                    "onto_id": "GO:0042995"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "cerebellar cortex structural organization",
+                    "onto_id": "GO:0021698"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "mus musculus"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "For details on specimen preparation, please see: Palygin O, Lalo U, Verkhratsky A, Pankratov Y.  Cell Calcium. 2010 Oct;48(4):225-31 and Lalo U, Palygin O, North RA, Verkhratsky A, Pankratov Y.  Aging Cell. 2011 Jun;10(3):392-402. doi: 10.1111/j.1474-9726.2011.00682.x. Epub 2011 Mar 22."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 700
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 700
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "CELLTYPE": {
+                    "onto_name": "astrocyte",
+                    "onto_id": "CL:0000127"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Astrocyte cell from live slices taken from the cortex layer 2/3 of an 8 month old GFAP mouse.  In this mouse the enhanced green fluorescent protein (EGFP) under the control of the human glial fibrillary acidic protein (GFAP) promoter (line TgN(GFAP-EGFP)GFEC-FKi).  In the image, you can clearly see cell the body, astrocyte cloud and astrocyte projection on vascular tube crossing astrocyte cloud (left and up from cell body).  This image an individual z slice.  Another z slice is available as CIL 39753, and the projection of 30 slices is available as CIL 30751."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Department of Physiology The Medical College of Wisconsin"
+                    ],
+                    "Contributors": [
+                        "Oleg Palygin"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39752",
+            "ARK": "ark:/b7295/w9cil39752",
+            "Title": "Oleg Palygin (2012) CIL:39752, mus musculus, astrocyte. CIL. Dataset"
+        }
+    }
+}

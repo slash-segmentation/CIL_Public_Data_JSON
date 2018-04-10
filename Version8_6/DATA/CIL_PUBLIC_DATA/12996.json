@@ -1,0 +1,213 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12996.zip",
+                    "Size": 29252078
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12996.jpg",
+                    "Size": 5748823
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12996.tif",
+                    "Size": 26400000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "3952",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "contractile vacuolar membrane",
+                        "onto_id": "GO:0031164"
+                    },
+                    {
+                        "onto_name": "microtubule associated complex",
+                        "onto_id": "GO:0005875"
+                    },
+                    {
+                        "free_text": "membrane tubules"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "water transport",
+                        "onto_id": "GO:0006833"
+                    },
+                    {
+                        "onto_name": "microtubule-based process",
+                        "onto_id": "GO:0007017"
+                    },
+                    {
+                        "free_text": "membrane based process"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium multimicronucleatum",
+                    "onto_id": "NCBITaxon:44030"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3438,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.89
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3827,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.89
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A high resolution view of the tubulated CV membrane attached to ampullae 2, 3, 4 and 5 of the CVC. The tubules lie against the ribbon of microtubules as well as form a large mat lying inward (centrifically) from the ribbons. These tubular CV membranes are part of the smooth spongiome. TEM taken on 2/26/80 by R. Allen with Hitachi HU11A operating at 75kV. Neg. 22,500X.The raw film was scanned with an Epson Perfection V750 Pro. This image is best used for quantitative analysis. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www5.pbrc.hawaii.edu/allen/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12996",
+            "ARK": "ark:/b7295/w9cil12996",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:12996, Paramecium multimicronucleatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

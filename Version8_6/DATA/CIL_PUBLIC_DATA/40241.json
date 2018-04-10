@@ -1,0 +1,140 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40241.tif",
+                    "Size": 400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40241.jpg",
+                    "Size": 37396
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "GROUP_ID": "16704",
+                "IMAGINGMODE": {
+                    "onto_name": "multi-photon microscopy",
+                    "onto_id": "FBbi:00000255"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "vibratome-sectioned tissue",
+                    "onto_id": "FBbi:00000030"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus norvegicus",
+                    "onto_id": "NCBITaxon:10116"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Rat brain was perfused with 4% paraformaldehyde and sectionedrain section was immunolabeled for PMCA1a using CR1a antibody from Emanuel Strehler (1:2000).  Secondary antibody was conjugated to Alexa Fluor 568. Section was then counterstained with Hoescht 33342 (Invitrogen) to visualized all cell nuclei. The sections were coverslipped in Gelvatol.  Images were acquired using a BioRad RTS2000 with a Nikon 60X N.A. 1.4 oil-immersion objective.  46 x 19 maximum projection images were tiled together to generate this composite image."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 201
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 568",
+                        "onto_id": "FBbi:00000442"
+                    },
+                    {
+                        "onto_name": "Hoechst 33342",
+                        "onto_id": "FBbi:00000052"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "CNS neuron (sensu Vertebrata)",
+                        "onto_id": "CL:0000117"
+                    },
+                    {
+                        "onto_name": "hippocampal neuron",
+                        "onto_id": "CL:0002608"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Large scale mosaic of a parasagittal section of rat brain stained with an antibody against a plasma membrane calcium-dependent ATPase, PMCA1a (shown here in red),  and counter stained with Hoescht 33342 to reveal cell nuclei (shown here in green). This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information see: Kenyon et al.(2010) J Comp Neurol. 518(16):3169-83, PMID 20575074."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 7407",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=7407"
+                        }
+                    ],
+                    "Contributors": [
+                        "Alain Burette",
+                        "Emanuel E. Strehler",
+                        "Richard J. Weinberg",
+                        "Katherine A. Kenyon"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40241",
+            "ARK": "ark:/b7295/w9cil40241",
+            "Title": "Alain Burette, Emanuel E. Strehler, Richard J. Weinberg, Katherine A. Kenyon (2012) CIL:40241, Rattus norvegicus, CNS neuron (sensu Vertebrata), hippocampal neuron. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,184 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36693.jpg",
+                    "Size": 2300763
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36693.tif",
+                    "Size": 10600000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36693.zip",
+                    "Size": 21232994
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "oral apparatus",
+                        "onto_id": "GO:0031912"
+                    },
+                    {
+                        "onto_name": "microtubule basal body",
+                        "onto_id": "GO:0005932"
+                    },
+                    {
+                        "onto_name": "cilium",
+                        "onto_id": "GO:0005929"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "oral apparatus organization",
+                    "onto_id": "GO:0032122"
+                },
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "isolated subcellular component",
+                        "onto_id": "FBbi:00000579"
+                    }
+                ],
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium multimicronucleatum",
+                    "onto_id": "NCBITaxon:44030"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "elastic scattering of electrons",
+                        "onto_id": "FBbi:00000586"
+                    },
+                    {
+                        "onto_name": "electron density",
+                        "onto_id": "FBbi:00000315"
+                    },
+                    {
+                        "onto_name": "elevation",
+                        "onto_id": "FBbi:00000320"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3013
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3485
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print of negative scanned for Photoshop"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A more extensive freeze-fracture view of the membranelles on the left side of the buccal cavity. Fractures of eighty or more basal bodies can be counted in each of the dorsal three rows of the dorsal peniculus. The fracture plane jumps down into the cilia for most of the ventral peniculus and only a short segment of the quadrulus next to the cytopharynx is exposed in this fracture plane. The ventral peniculus ends where the quadrulus approaches the dorsal peniculus and the ventral row of the dorsal peniculus ends about eleven cilia posterior to this. Only the quadrulus extends to the end of the buccal cavity (not shown). TEM taken on 12/15/75 by R. Allen with Hitachi HU11A operating at 75kV. Neg. 3,000X. Bar = 2\u00b5m."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36693",
+            "ARK": "ark:/b7295/w9cil36693",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:36693, Paramecium multimicronucleatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of a rat type II cell, after inhalation of 300 ppm ethoxyethane, but pretty normal looking."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Gender: male<br/>\nSubspecies: Long evans hooded<br/>\nTissue: periperhal<br/>\nVoltage: 60kv<br/>\nStain 1: 1% omium tetroxide<br/>\nStain 2: lead citrate and uranyl acetate<br/>\nEmbed: EPON 812<br/>\nSection: 50-100<br/>\n"
+                },
+                "CELLTYPE": [
+                    {
+                        "free_text": "alveolar type II cell"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "lamellar bodies"
+                    },
+                    {
+                        "free_text": "mitochondria"
+                    },
+                    {
+                        "free_text": "RER"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "free_text": "cytoplasm"
+                    },
+                    {
+                        "free_text": "polysomes"
+                    },
+                    {
+                        "free_text": "golgi"
+                    },
+                    {
+                        "free_text": "microvilli"
+                    },
+                    {
+                        "onto_name": "chromatin",
+                        "onto_id": "GO:0000785"
+                    },
+                    {
+                        "free_text": "condensed chromatin"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Rattus norvegicus",
+                        "onto_id": "NCBITaxon:10116"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "free_text": "pseudocolored transmission electron micrograph"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "free_text": "Modified Karnovskys"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Marian Miller"
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": "2972"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": "3158"
+                        }
+                    }
+                ]
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_path": "50303.jpg",
+                    "Size": 2086576,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_path": "50303.tif",
+                    "Size": 47000000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_path": "50303.zip",
+                    "Size": 21160197,
+                    "File_type": "Zip"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": false,
+            "Still_image": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL50303",
+            "ARK": "ark:/b7295/w9cil50303",
+            "Title": "Marian Miller (2018) CIL:50303, Rattus norvegicus, alveolar type II cell. CIL. Dataset"
+        }
+    }
+}

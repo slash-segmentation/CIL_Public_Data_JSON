@@ -1,0 +1,120 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39035.zip",
+                    "Size": 215305
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39035.jpg",
+                    "Size": 137100
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39035.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39035_orig.jpg",
+                    "Size": 215167
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "17352",
+                "IMAGINGMODE": {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "frustule"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "unicellular algae organization"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "Aulacodiscus formosus"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007752 Diatom: Aulacodiscus formosus.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 565
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "CELLTYPE": {
+                    "free_text": "diatom"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A Nomarski differential interference microscopy image illustrating the frustule (silica cell wall) of a marine centric, Aulacodiscus formosus diatom (unicellular alga). Diatoms are photosynthesising algae that live in most aquatic environments, both fresh and salt water. They are non-motile and are restricted to shallow waters as they require sunlight for photosynthesis. A centric diatom is one that displays radial symmetry.  More diatom images are available as CIL:39032-39034."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Spike Walker"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39035",
+            "ARK": "ark:/b7295/w9cil39035",
+            "Title": "Spike Walker (2012) CIL:39035, Aulacodiscus formosus, diatom. CIL. Dataset"
+        }
+    }
+}

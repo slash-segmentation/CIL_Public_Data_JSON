@@ -1,0 +1,123 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41733.tif",
+                    "Size": 900000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41733.jpg",
+                    "Size": 157447
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41733.zip",
+                    "Size": 259288
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "PLANT_GROWTH": [
+                    {
+                        "onto_name": "leaf development stages",
+                        "onto_id": "PO:0001050"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "cellular architecture"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    },
+                    {
+                        "free_text": "oxidation"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Arabidopsis thaliana",
+                    "onto_id": "NCBITaxon:3702"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0008269.  2011 Collection: Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://images.wellcome.ac.uk/indexplus/page/Prices.html"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 533
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 550
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "propidium iodide",
+                    "onto_id": "FBbi:00000047"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph showing the tissue structures within the leaf of an Arabidopsis thaliana seedling. The sample was fixed and stained with propidium iodide, which labels DNA, and imaged four years later. Over time, oxidation of the stain differentiates the fluorescent properties in different parts of the tissue so that they can be excited with distinct wavelengths of light from a confocal microscope. The researchers are using these techniques to investigate cellular architecture in plants and gene activity. The horizontal field width of this image is 200 microns. Wellcome Image Award 2012."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/indexplus/image/B0008269.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Fernan Federici",
+                        "Jim Haseloff"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "PO:PO:0001050"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41733",
+            "ARK": "ark:/b7295/w9cil41733",
+            "Title": "Fernan Federici, Jim Haseloff (2012) CIL:41733, Arabidopsis thaliana. CIL. Dataset"
+        }
+    }
+}

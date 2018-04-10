@@ -1,0 +1,182 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11638.jpg",
+                    "Size": 373430
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "11638.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11638.zip",
+                    "Size": 1302250
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "9787",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "stereocilium",
+                    "onto_id": "GO:0032420"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "stereocilium organization"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Oryctolagus cuniculus",
+                    "onto_id": "NCBITaxon:9986"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 902
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1272
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Scanned print from negative"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Figure 325 from Chapter 13 (Cilia and Flagella) of 'The Cell' by Don W. Fawcett M.D. Histologists using the light microscope recognized a category of epithelial cell processes which had the appearance of cilia but showed no motility. These were called stereocilia to distinguish them from the motile form, or kinocilia. The stereocilia have a rather limited distribution, being found on the epididymal epithelium of mammals, and in certain sense organs, notably the organ of Corti, the crista ampullaris, maculautriculi, and macula sacculi of the mammalian inner ear; the lateral line organs of fish; and the sensilla of insects. Stereocilia in the mammalian epididymis are slender, flexible processes resembling unusually long microvilli, but they are more variable in their orientation and less closely packed than the microvilli of a brush border. They are assumed to be a device for amplifying the surface of this absorptive epithelium. A copy of the chapter is available on the ASCB's BioEDUCATE website."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "free_text": "of the testis"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "ISBN 0721635849"
+                    ],
+                    "Contributors": [
+                        "Don W. Fawcett",
+                        "Roy Jones"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11638",
+            "ARK": "ark:/b7295/w9cil11638",
+            "Title": "Don W. Fawcett, Roy Jones (2011) CIL:11638, Oryctolagus cuniculus, epithelial cell, of the testis. CIL. Dataset"
+        }
+    }
+}

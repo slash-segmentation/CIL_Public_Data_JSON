@@ -1,0 +1,190 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "1585.tif",
+                    "Size": 3200000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "1585_orig.jpg",
+                    "Size": 274872
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "1585.jpg",
+                    "Size": 229671
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "1585.zip",
+                    "Size": 275006
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "striated muscle thin filament",
+                        "onto_id": "GO:0005865"
+                    },
+                    {
+                        "onto_name": "actin cytoskeleton",
+                        "onto_id": "GO:0015629"
+                    },
+                    {
+                        "onto_name": "F-actin capping protein complex",
+                        "onto_id": "GO:0008290"
+                    },
+                    {
+                        "free_text": "Z-line components"
+                    },
+                    {
+                        "free_text": "tropomodulin"
+                    },
+                    {
+                        "free_text": "alpha-actinin"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "striated muscle contraction",
+                        "onto_id": "GO:0006941"
+                    },
+                    {
+                        "free_text": "striated muscle organization"
+                    },
+                    {
+                        "free_text": "striated muscle development"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "compartmentalization of stain or label",
+                        "onto_id": "FBbi:00000604"
+                    },
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "distribution of a specific nucleic acid sequence",
+                        "onto_id": "FBbi:00000596"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Gallus gallus gallus",
+                    "onto_id": "NCBITaxon:208526"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.067
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.067
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 546",
+                        "onto_id": "FBbi:00000441"
+                    },
+                    {
+                        "free_text": "Alexa Fluor 405"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "early embryonic cell",
+                        "onto_id": "CL:0000007"
+                    },
+                    {
+                        "onto_name": "cardiac muscle cell",
+                        "onto_id": "CL:0000746"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Cultured chicken embryonic cardiomyocyte transfected with GFP control vector in the nucleus, stained with alpha-actinin at the Z-lines in red and Tropomodulin1 (at the pointed ends of the actin filaments) in blue. Epifluorescence imaged on a Zeiss Axioplan microscope."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Caroline McKeown"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL1585",
+            "ARK": "ark:/b7295/w9cil1585",
+            "Title": "Caroline McKeown (2010) CIL:1585, Gallus gallus gallus, early embryonic cell, cardiac muscle cell. CIL. Dataset"
+        }
+    }
+}

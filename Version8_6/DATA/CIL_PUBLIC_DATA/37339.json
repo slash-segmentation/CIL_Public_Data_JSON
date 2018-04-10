@@ -1,0 +1,174 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37339.jpg",
+                    "Size": 4899
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "37339.tif",
+                    "Size": 300000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37339.zip",
+                    "Size": 226574
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    },
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    }
+                ],
+                "GROUP_ID": "9278",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "PML body",
+                        "onto_id": "GO:0016605"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_id": "GO:0090046"
+                    },
+                    {
+                        "onto_name": "response to virus",
+                        "onto_id": "GO:0009615"
+                    },
+                    {
+                        "onto_name": "apoptotic process",
+                        "onto_id": "GO:0006915"
+                    },
+                    {
+                        "onto_name": "tumor necrosis factor-mediated signaling pathway",
+                        "onto_id": "GO:0033209"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "compartmentalization of stain or label",
+                        "onto_id": "FBbi:00000604"
+                    },
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "NIH/3T3",
+                    "onto_id": "MCC:0000362"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Cells were rinsed in PBS once and fixed for 15 min in 2% formaldehyde in PBS, pH 7.4. After being washed in PBS for 10 min x3, cells were permeablized 5 min in PBS with 0.2% Triton X-100 and 1% normal goat serum. After being washed in PBS plus 1% goat serum for 10 min x3, the following primary antibody (PML36) were added for 1 h at RT. Cells were rinsed in PBS with 1% normal goat serum for 10 min x3, and secondary Texas Red anti-mouse antibodies were added for 1 h at RT. Cells were rinsed in PBS for 10 min x3 and were observed on a modified Zeiss Axiovert 200M microscope with a plan-neofluar \u00d740 objective. The microscope was fitted with dual excitation and emission filter wheels and a Photometrics Coolsnap-HQ camera."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 274,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.16
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 248,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.16
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "TexasRed",
+                        "onto_id": "FBbi:00000453"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "maximum projection"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Promyelocytic leukemia nuclear bodies (PML NBs) are dynamic nuclear organelles. They range from 0.1um to 1um in size and exist in most of mammalian cell types. The functions of PML NBs  are indicated by their association with a variety of component proteins that are involved in different cellular process. Here shows PML NBs labeled by monoclonal antibody (PML36) in 3T3 cells.   ."
+                },
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "IDO:IDO:0000096"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Yi-Chun Maria Chen"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37339",
+            "ARK": "ark:/b7295/w9cil37339",
+            "Title": "Yi-Chun Maria Chen (2011) CIL:37339, Mus musculus, fibroblast. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,101 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41818.tif",
+                    "Size": 1900000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41818.jpg",
+                    "Size": 108073
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41818.zip",
+                    "Size": 1828826
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Arabidopsis thaliana",
+                    "onto_id": "NCBITaxon:3702"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell wall",
+                    "onto_id": "GO:0005618"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 589
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1023
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of an Arabidopsis thaliana (thale cress) seedling. Honorable Mention, 2010 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University of Cambridge, Plant Science  Department, Cambridge, UK"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": " 2010 Olympus  BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2010/hm12.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Fern\u00e1n Federici",
+                        "2010 Olympus  BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41818",
+            "ARK": "ark:/b7295/w9cil41818",
+            "Title": "Fern\u00e1n Federici, 2010 Olympus  BioScapes Digital Imaging Competition\u00ae (2012) CIL:41818, Arabidopsis thaliana. CIL. Dataset"
+        }
+    }
+}

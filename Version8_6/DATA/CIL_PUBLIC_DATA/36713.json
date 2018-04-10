@@ -1,0 +1,193 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36713.jpg",
+                    "Size": 1030694
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36713.tif",
+                    "Size": 4700000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36713.zip",
+                    "Size": 9275146
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in vitreous ice embedment",
+                        "onto_id": "FBbi:00000089"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    },
+                    {
+                        "free_text": "monoclonal antibody"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "oral apparatus",
+                        "onto_id": "GO:0031912"
+                    },
+                    {
+                        "onto_name": "cortical microtubule cytoskeleton",
+                        "onto_id": "GO:0030981"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "microtubule cytoskeleton organization",
+                        "onto_id": "GO:0000226"
+                    },
+                    {
+                        "onto_name": "oral apparatus organization",
+                        "onto_id": "GO:0032122"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "intrinsic mass distribution",
+                        "onto_id": "FBbi:00000607"
+                    },
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium multimicronucleatum",
+                    "onto_id": "NCBITaxon:44030"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2130
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2178
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "gold",
+                        "onto_id": "FBbi:00000202"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print from negative scanned for Photoshop."
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The postoral fibers are also heavily labeled by anti-b-tubulin. The cell was lightly fixed, placed in metylcellulose and frozen in liquid nitrogen. Sections were produced at -100\u00b0C before thawing and treated with the b-tubulin antibody followed by immunogold labeled antibody to IgG. TEM taken on 2/25/94 by R. Allen with Zeiss 10A operating at 80kV. Neg. 9,780X. Bar = 0.5\u00b5m."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36713",
+            "ARK": "ark:/b7295/w9cil36713",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:36713, Paramecium multimicronucleatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

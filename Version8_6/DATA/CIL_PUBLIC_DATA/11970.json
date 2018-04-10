@@ -1,0 +1,114 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11970.zip",
+                    "Size": 30609536
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "11970.flv",
+                    "Size": 1715033
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11970.jpg",
+                    "Size": 61543
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "polarization microscopy",
+                    "onto_id": "FBbi:00000248"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "motlity"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "form birefringence",
+                    "onto_id": "FBbi:00000593"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "free_text": "Hypermastigote protozoan"
+                    },
+                    {
+                        "onto_name": "unidentified spirochete",
+                        "onto_id": "NCBITaxon:56767"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "retardance",
+                    "onto_id": "FBbi:00000313"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 704
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 480
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The movie shows the wave-like effect of compensated birefringence caused by rotating spirochetes attached to the surface of a hypermastigote protozoan. The image was obtained using a rectified polarizing microscope with compensator."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "S. Inoue 2008 Collected Works of Shinya Inoue. World Scientific Publishing Company, Singapore, Hackensack, NJ, USA"
+                    ],
+                    "Contributors": [
+                        "Shinya Inoue"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11970",
+            "ARK": "ark:/b7295/w9cil11970",
+            "Title": "Shinya Inoue (2011) CIL:11970, unidentified spirochete, Hypermastigote protozoan. CIL. Dataset"
+        }
+    }
+}

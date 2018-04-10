@@ -1,0 +1,198 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "6518.tif",
+                    "Size": 1500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "6518.jpg",
+                    "Size": 526678
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "6518.zip",
+                    "Size": 3061458
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "heat fixed tissue",
+                        "onto_id": "FBbi:00000609"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "GROUP_ID": "1769",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "synapse",
+                        "onto_id": "GO:0045202"
+                    },
+                    {
+                        "onto_name": "Ribbon synapse",
+                        "onto_id": "FMA:67107"
+                    },
+                    {
+                        "onto_name": "presynaptic membrane",
+                        "onto_id": "GO:0042734"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "retina layer formation",
+                        "onto_id": "GO:0010842"
+                    },
+                    {
+                        "onto_name": "synaptic transmission",
+                        "onto_id": "GO:0007268"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "ZEBRAFISH_ANATOMY": [
+                    {
+                        "onto_name": "retina",
+                        "onto_id": "ZFA:0000152"
+                    },
+                    {
+                        "onto_name": "retinal outer plexiform layer",
+                        "onto_id": "ZFA:0001330"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "Horizontal cell of retina",
+                    "onto_id": "FMA:67764"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1200,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 7
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1200,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 7
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    },
+                    {
+                        "onto_name": "copper salt",
+                        "onto_id": "FBbi:00000610"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This study of the zebrafish eye is a series of four images taken at increasing magnifications.  The first image is the SEM block face of the zebrafish eye.  This is followed by a second image that is a higher magnification TEM image of the plexiform layer and the outer nuclear layer of the zebrafish retina.  This image, the third image in the series, is a 15,000X TEM image of the bipolar and horizontal cells interdigitating in the OPL layer of the zebrafish retina. The fourth image in the series is a higher magnification (60,000X) of the dense synaptic bar and synaptic vesicles.  \n\nBipolar and horizontal cells (H) interdigitate in the outer plixiform layer (OPL) of the zebrafish retina. The presynaptic cone membrane contains an arciform density (arrowhead) and synaptic vesicles (V). Image collected on a JOEL 1230 at 80 kV using a Gatan 967 slow-scan, cooled CCD camera at 15,000X. 70 nm thick section. \n\nMicrowave processing, osmium tetroxoxide/osmid procedure for enhancing membranes, and copper lead en bloc staining.\nProcedure for specimen preparation available at http://www.stanford.edu/~redhair/JoAnn_Buchanan."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "Outer plexiform layer of retina",
+                        "onto_id": "FMA:58685"
+                    },
+                    {
+                        "onto_name": "Bipolar cell of retina",
+                        "onto_id": "FMA:67749"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.stanford.edu/~redhair/JoAnn_Buchanan/Zebrafish_Retina.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "JoAnn Buchanan (Stanford)"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "ZFA:ZFA:0000152"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFA:0001330"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL6518",
+            "ARK": "ark:/b7295/w9cil6518",
+            "Title": "JoAnn Buchanan (Stanford) (2010) CIL:6518, Danio rerio, Outer plexiform layer of retina, Bipolar cell of retina. CIL. Dataset"
+        }
+    }
+}

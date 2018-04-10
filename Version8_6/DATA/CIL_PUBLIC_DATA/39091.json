@@ -1,0 +1,137 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39091.jpg",
+                    "Size": 99737
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39091.tif",
+                    "Size": 1300000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39091_orig.jpg",
+                    "Size": 180837
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39091.zip",
+                    "Size": 180975
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "16904",
+                "IMAGINGMODE": {
+                    "onto_name": "modes of light microscopy",
+                    "onto_id": "FBbi:00000345"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "fibrillar collagen",
+                        "onto_id": "GO:0005583"
+                    },
+                    {
+                        "onto_name": "elastic fiber",
+                        "onto_id": "GO:0071953"
+                    }
+                ],
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "free_text": "carti"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "cartilage morphogenesis",
+                    "onto_id": "GO:0060536"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007334 Cartilage of the ear.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 521
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "chondrocyte",
+                    "onto_id": "CL:0000138"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Light micrograph of elastic cartilage of the ear. This type of cartilage is made from a protein called elastin and is formed from a network of elastic fibers and collagen. The fibers form bundles which give the structure flexibility. The elastic cartilage shown in this image is from the outer ear, however, this type of cartilage is also found in larynx and epiglottis.  A lower magnification view is available as CIL:39093."
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EHDAA:carti"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Kings College London"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Ivor Mason"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39091",
+            "ARK": "ark:/b7295/w9cil39091",
+            "Title": "Ivor Mason (2012) CIL:39091, chondrocyte. CIL. Dataset"
+        }
+    }
+}

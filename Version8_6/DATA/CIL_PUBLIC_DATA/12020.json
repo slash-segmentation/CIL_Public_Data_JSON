@@ -1,0 +1,167 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "12020.flv",
+                    "Size": 228194
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12020.zip",
+                    "Size": 368768
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12020.jpg",
+                    "Size": 11228
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "3563",
+                "IMAGINGMODE": {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "kinetochore",
+                        "onto_id": "GO:0000776"
+                    },
+                    {
+                        "onto_name": "spindle microtubule",
+                        "onto_id": "GO:0005876"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "attachment of spindle microtubules to kinetochore",
+                        "onto_id": "GO:0008608"
+                    },
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "Pt K1 (NBL-3)",
+                    "onto_id": "MCC:0000388"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Potorous tridactylus",
+                    "onto_id": "NCBITaxon:9310"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 260,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.128
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 198,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.128
+                            }
+                        }
+                    },
+                    {
+                        "Wavelength": {
+                            "unit": "nanometers",
+                            "value": "488,568"
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "value": 12
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "X-Rhodamine",
+                        "onto_id": "FBbi:00000584"
+                    },
+                    {
+                        "onto_name": "labeled primary antibody",
+                        "onto_id": "FBbi:00000130"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "color combine"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Mitotic PtK1 cell microinjected with X-rhodamine-labeled tubulin and Alexa 488-labeled CENP-F antibodies to fluorescently label kinetochore fibers (red) and kinetochores/spindle poles (green), respectively. The movie starts at anaphase onset, when sister chromatids separate and sister kinetochores move away from each other as their kinetochore fibers shorten (anaphase A). Almost simultaneously, the two spindle poles move away from each other leading to elongation of the mitotic spindle (anaphase B). The compacted DNA of the chromosome arms excludes the background fluorescence so that chromosome arms appear as dark rod-like structures and the movement of the sister chromatid arms away from each other during anaphase can also be followed. \n\nDigital images were collected with an Orca ER cooled CCD camera (Hamamatsu Photonics) coupled to a Yokogawa spinning disk confocal CS10 unit (Perkin Elmer Life Sciences Wallac), which was attached to a Nikon TE300 inverted microscope. Illumination was achieved via an Argon/Krypton laser and 488 nm and 568 nm filters in an excitation filter wheel (Sutter Instruments) through a 60 x 1.4 NA Plan-Apochromatic DIC objective lens. Nearly simultaneous fluorescence images were acquired at 488 and 568 nm. The movie is played at 10 frames per second. Elapsed time is shown in min:sec."
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Daniela Cimini",
+                        "Lisa A Cameron",
+                        "Edward D Salmon"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12020",
+            "ARK": "ark:/b7295/w9cil12020",
+            "Title": "Daniela Cimini, Lisa A Cameron, Edward D Salmon (2011) CIL:12020, Potorous tridactylus, epithelial cell. CIL. Dataset"
+        }
+    }
+}

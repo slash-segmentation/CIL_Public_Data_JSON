@@ -1,0 +1,110 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "42514.tif",
+                    "Size": 15800000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "42514.zip",
+                    "Size": 15770138
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "42514.jpg",
+                    "Size": 746235
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "free_text": "fluorescence emission"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2354
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2229
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "neuron projection",
+                    "onto_id": "GO:0043005"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "deconvolution"
+                },
+                "CELLTYPE": {
+                    "onto_name": "neuron",
+                    "onto_id": "CL:0000540"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Human spinal cord neurosphere (a culture system composed of free-floating clusters of neural stem cells)\ncaptured with widefield Illumination and deconvolution. Honorable Mention, 2005 Olympus BioScapes Competition."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Department of Anatomy and Histology, University of Sydney Sydney, Australia"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2005 Olympus  BioScapes Competition",
+                            "Href": "http://www.olympusbioscapes.com/gallery/2005/index.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Micheal Weible",
+                        "2005 Olympus  BioScapes Competition"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "neurosphere"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL42514",
+            "ARK": "ark:/b7295/w9cil42514",
+            "Title": "Micheal Weible, 2005 Olympus  BioScapes Competition (2012) CIL:42514, Homo sapiens, neuron. CIL. Dataset"
+        }
+    }
+}

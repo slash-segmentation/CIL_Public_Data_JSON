@@ -1,0 +1,121 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41063.tif",
+                    "Size": 24700000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41063.jpg",
+                    "Size": 929775
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Licmophora juergensii",
+                        "onto_id": "NCBITaxon:210598"
+                    },
+                    {
+                        "onto_name": "Rhodophyta",
+                        "onto_id": "NCBITaxon:2763"
+                    },
+                    {
+                        "onto_name": "Cocconeis",
+                        "onto_id": "NCBITaxon:216715"
+                    },
+                    {
+                        "onto_name": "Cyanobacteria",
+                        "onto_id": "NCBITaxon:1117"
+                    }
+                ],
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2484
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3307
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Living Licmophora juergensii on red alga (Rhodophyta), together with the diatom Cocconeis and filamentous cyanobacterial colonies. Licmophora cells can move to locate a place with suitable light exposure. They then produce a mucilaginous stalk for \ufb01xation on the substratum. This multi-layer image captured using differential interference contrast. The sample was collected from Bodden, the brackish waters lying between the isles of Hiddensee and Rugia (German Baltic Sea).  Fourth Prize, 2010 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Kiel, Germany",
+                        "2010 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2010 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2010/4.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Wolfgang Bettighofer"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41063",
+            "ARK": "ark:/b7295/w9cil41063",
+            "Title": "Wolfgang Bettighofer (2012) CIL:41063, Licmophora juergensii, Rhodophyta, Cocconeis, Cyanobacteria. CIL. Dataset"
+        }
+    }
+}

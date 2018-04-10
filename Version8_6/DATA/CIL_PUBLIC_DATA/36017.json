@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36017.jpg",
+                    "Size": 2276714
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36017.zip",
+                    "Size": 16643230
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36017.tif",
+                    "Size": 16700000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    }
+                ],
+                "GROUP_ID": "9085",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "myofibril",
+                        "onto_id": "GO:0030016"
+                    },
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "sarcoplasmic reticulum",
+                        "onto_id": "GO:0016529"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "skeletal muscle contraction",
+                        "onto_id": "GO:0003009"
+                    },
+                    {
+                        "onto_name": "sequestering of calcium ion",
+                        "onto_id": "GO:0051208"
+                    },
+                    {
+                        "onto_name": "mitochondrial proton-transporting ATP synthase complex assembly",
+                        "onto_id": "GO:0033615"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "unembedded tissue",
+                    "onto_id": "FBbi:00000023"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "damselfly"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Negatives scanned at LBL then reduced in size for upload TEM magnifications not currently available.  Scan step size is 6.3 micron, then reduced in size 4X for upload, for an effective pixel size of 25 micron.\n\nHeads and tail were removed, the thorax was bisected and immersed in 100 mM KCl, 10 mM EDTA, 10 Triton X for a few hrs, to depolarize and skin the fibers, then maintained at -20 C in 50% glycerol in the same solution for several weeks to induce rigor by eliminating ATP.  The muscle was gently homogenized in a waring blender in 0.9% NaCl.  The fibrils were deposited on glass and sequentially fixed in 0.1% glutaraldehyde in 0.1 M cacodylate buffer, rinsed in 100 mM ammonium acetate, treated with 1% uranyl acetate for 30 seconds, rinsed in 40% methanol and frozen in liquid nitrogen.  The fibrils were freeze dried at -90 C for 30 minutes and rotary shadowed with platinum either at 25C or 45C in a Balzer\u2019s 400 freeze fracture.  The glass was dissolved in hydrofluoric acid and the replicas were mounted on copper grids and examined in a Philips 410 Microscope."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2500
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3322
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "digitized negative film"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The image shows the surface of the ribbon-like myofibrils, with some remnants of the SR attached mostly at the Z lines.  The regular disposition of attached cross bridges is visible in many areas.  Most images of this group show fractures through the outer membrane of mitochondria and SR/T tubules of dyads nestled in long grooves of the mitochondrial surface.  All leaflets of the membranes appear in the images.  \n\nReferences for the image: \nLoesser, K.E. and Franzini-Armstrong, C. A simple method for freeze-drying of macromolecules and macromolecular complexes. J. Struct. Biol. 103: 48-56, 1990. Bard, F., Franzini-Armstrong, C. and Ip W. Rigor cross bridges are double headed in fast muscle from crayfish. J. Cell Biol. 105: 2225-2234, 1987."
+                },
+                "CELLTYPE": {
+                    "onto_name": "flight muscle cell",
+                    "onto_id": "CL:0000196"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Clara Franzini-Armstrong"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36017",
+            "ARK": "ark:/b7295/w9cil36017",
+            "Title": "Clara Franzini-Armstrong (2011) CIL:36017, damselfly, flight muscle cell. CIL. Dataset"
+        }
+    }
+}

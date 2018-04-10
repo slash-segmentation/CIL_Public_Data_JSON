@@ -1,0 +1,117 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41734.tif",
+                    "Size": 1000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41734.jpg",
+                    "Size": 89958
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41734.zip",
+                    "Size": 152236
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Gallus gallus",
+                    "onto_id": "NCBITaxon:9031"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0008295.  2011 Collection: Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://images.wellcome.ac.uk/indexplus/page/Prices.html"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 550
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 550
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "composite of two images"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This image of the vascular system of a chicken embryo taken two days after fertilization is a composite of two different images taken with an upright fluorescent dissecting scope.  The egg's shell was opened and fluorescent dextran was injected into the lower part of the vascular system.  The heart pumped the dye and revealed the entire vasculature used by the embryo to feed itself from the rich underlying yolk inside the egg. Wellcome Image Award 2012."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University of Cambridge"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/indexplus/image/B0008295.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Vincent Pasque"
+                    ]
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "vasculogenesis",
+                        "onto_id": "GO:0001570"
+                    },
+                    {
+                        "onto_name": "embryo development",
+                        "onto_id": "GO:0009790"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41734",
+            "ARK": "ark:/b7295/w9cil41734",
+            "Title": "Vincent Pasque (2012) CIL:41734, Gallus gallus. CIL. Dataset"
+        }
+    }
+}

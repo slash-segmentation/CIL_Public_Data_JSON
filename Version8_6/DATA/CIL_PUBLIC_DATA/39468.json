@@ -1,0 +1,143 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39468.tif",
+                    "Size": 400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39468.jpg",
+                    "Size": 44598
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39468.zip",
+                    "Size": 55182
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39468_orig.jpg",
+                    "Size": 55044
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "Pax 3/7 gene"
+                    },
+                    {
+                        "free_text": "eve transcriptional repressor"
+                    },
+                    {
+                        "free_text": "nucleus"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "gene expression",
+                    "onto_id": "GO:0010467"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila",
+                    "onto_id": "NCBITaxon:7215"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0008300 Drosophila embryo.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 223
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                        "onto_id": "FBbi:00000056"
+                    },
+                    {
+                        "onto_name": "horseradish peroxidase",
+                        "onto_id": "FBbi:00000138"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of a Drosophila embryo stained for Pax3/7 (cyan), eve, horse radish peroxidase (red) and counterstained with DAPI (blue).  Pax3/7 genes encode a class of transcription factors that play diverse developmental roles in most, if not all, metazoan taxa.  Eve (even skipped gene) has a primary role in segmentation."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University of Cambridge"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Vincent Pasque"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39468",
+            "ARK": "ark:/b7295/w9cil39468",
+            "Title": "Vincent Pasque (2012) CIL:39468, Drosophila. CIL. Dataset"
+        }
+    }
+}

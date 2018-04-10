@@ -1,0 +1,108 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40985.tif",
+                    "Size": 2300000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40985.jpg",
+                    "Size": 139801
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "40985.zip",
+                    "Size": 465292
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae Y9",
+                    "onto_id": "NCBITaxon:462209"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See: J Sun et al. (2012) Cdc6-induced conformational changes in ORC bound to origin DNA revealed by cryo-electron microscopy. Structure 20:534-544."
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "DNA"
+                    },
+                    {
+                        "free_text": "origin recognition complex (ORC)"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 862
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 858
+                        }
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Model of the yeast Origin Recognition Complex ORC)complexed with double stranded DNA incorporating a sequence that encodes the replication origin. The 3D structure of the complex with bound DNA was determined by single particle cryo-electron microscopy, and the surface envelope is shown here in grey. The locations of the ORC subunits are shown and superimposed molecular structures in yellow are models of the ORC AAA+ subunits (determined by x-ray crystallography for the related archaeal protein). The ORC is a six-protein machine with a slightly twisted half-ring conformation that is proposed to wrap around and bend approximately 70 base pairs of double stranded DNA (red and blue). When a replication initiator Cdc6 (green) joins ORC, the partial ring is now complete and ready to load another protein onto the DNA. The DNA is modeled into the determined ORC-Cdc6 protein structure. This last protein (not shown) is the enzyme that unwinds the double stranded DNA so each strand can be replicated."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "NIGMS Biomedical Beat",
+                            "Href": "http://publications.nigms.nih.gov/biobeat/#1"
+                        }
+                    ],
+                    "Contributors": [
+                        "Bruce Stillman",
+                        "Huilin Li",
+                        "Jingchuan Sun"
+                    ]
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "DNA metabolic process",
+                        "onto_id": "GO:0006259"
+                    },
+                    {
+                        "onto_name": "nucleus organization",
+                        "onto_id": "GO:0006997"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "computer graphic",
+                    "onto_id": "FBbi:00000224"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40985",
+            "ARK": "ark:/b7295/w9cil40985",
+            "Title": "Bruce Stillman, Huilin Li, Jingchuan Sun (2012) CIL:40985, Saccharomyces cerevisiae Y9. CIL. Dataset"
+        }
+    }
+}

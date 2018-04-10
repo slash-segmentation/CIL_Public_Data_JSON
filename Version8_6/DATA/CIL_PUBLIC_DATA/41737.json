@@ -1,0 +1,126 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41737.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41737.jpg",
+                    "Size": 153637
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41737.zip",
+                    "Size": 258546
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Micrasterias denticulata",
+                    "onto_id": "NCBITaxon:407018"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "2011 Collection: Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://images.wellcome.ac.uk/indexplus/page/Prices.html"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 787
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 550
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "semicell"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "free_text": "isthmus"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Differential interference contrast micrograph of a Micrasterias, a type of green alga called a desmid.   Each cell is constructed of two semicells which are mirror images of each other. The two semicells are joined by a narrow central bridge, or isthmus, containing the nucleus. Each semicell contains a single chloroplast. Micrasterias can reproduce asexually by binary fission (resulting in two separate cells, each of which has one of the parent's semicells and one new semicell). During this process, genetic material is duplicated and two new semicells grow between the original semicells. Micrasterias can also reproduce sexually through a process known as conjugation, which involves the transfer of genetic material between two cells.  Wellcome Image Award 2012."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/indexplus/image/B0008453.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Spike Walker"
+                    ]
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "chloroplast localization",
+                        "onto_id": "GO:0019750"
+                    },
+                    {
+                        "free_text": "binary fission"
+                    },
+                    {
+                        "onto_name": "conjugation",
+                        "onto_id": "GO:0000746"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41737",
+            "ARK": "ark:/b7295/w9cil41737",
+            "Title": "Spike Walker (2012) CIL:41737, Micrasterias denticulata. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,136 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "7405.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7405.jpg",
+                    "Size": 130763
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7405.zip",
+                    "Size": 785326
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "glutaraldehyde fixed tissue",
+                    "onto_id": "FBbi:00000011"
+                },
+                "GROUP_ID": "7760",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "microscopy",
+                        "onto_id": "FBbi:00000241"
+                    },
+                    {
+                        "onto_name": "atomic force microscopy",
+                        "onto_id": "FBbi:00000259"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "free_text": "nucleus"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "transcription regulation"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "isolated subcellular component",
+                    "onto_id": "FBbi:00000579"
+                },
+                "SOURCEOFCONTRAST": {
+                    "free_text": "specimen height"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "free_text": "specimen height"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_id": "GO:0016565"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.95
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.95
+                            }
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "Pixel value determine by specimen height"
+                },
+                "CELLTYPE": {
+                    "free_text": "neuron"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The protein MeCP2 binds to symmetrically methylated CpG dinucleotides and is thought to transmit the (generally) repressive signals encoded in DNA methylation patterns. Mutations in MeCP2 lead to Rett syndrome. Here, MeCP2-DNA complexes have been imaged by AFM (Digital Instruments Nanoscope) in air using human MeCP2 and an 828 bp DNA sequence containing several methylated CpGs. MeCP2, which appears as bright circles in AFM images, and volume measurements of the complexes suggest that MeCP2 monomers and dimers are present and that MeCP2 binds DNA cooperatively. Other images in the linked set show looped structures and large complexes containing multiple DNA strands and MeCP2 molecules. These configurations are likely promoted by the multiple independent DNA-binding domains of MeCP2."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:1206"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Shlyaktenko, Luda; Woodcock, Chris"
+                    ],
+                    "PUBMED": [
+                        "20679481"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "Rett syndrome",
+                        "onto_id": "DOID:1206"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7405",
+            "ARK": "ark:/b7295/w9cil7405",
+            "Title": "Shlyaktenko, Luda; Woodcock, Chris (2010) CIL:7405, Homo sapiens, neuron. CIL. Dataset"
+        }
+    }
+}

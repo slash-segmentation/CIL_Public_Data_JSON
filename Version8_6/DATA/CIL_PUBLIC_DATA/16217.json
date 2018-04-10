@@ -1,0 +1,161 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "16217.jpg",
+                    "Size": 1135725
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "16217.zip",
+                    "Size": 6960196
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "16217.tif",
+                    "Size": 27800000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "GROUP_ID": "8227",
+                "IMAGINGMODE": {
+                    "onto_name": "widefield illumination",
+                    "onto_id": "FBbi:00000277"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "tight junction",
+                    "onto_id": "GO:0005923"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "tight junction assembly",
+                    "onto_id": "GO:0070830"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "MDCK-II",
+                    "onto_id": "MCC:0000321"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Canis lupus familiaris",
+                    "onto_id": "NCBITaxon:9615"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "MDCK-II cells were plated on glass coverslips at a low density (1.0 x 10[4] cells/ml) and cultured for 2 d before processing or until cells had just reached confluence. Cells were fixed in 4% paraformaldehyde, permeabilized in 0.2% Triton X-100 and incubated in rat anti-ZO1 hybridoma supernatant (R40.76) followed by Cy3-conjugated donkey anti-rat secondary antibody. Cells were mounted in Mowiol with 1.0% n-propyl gallate. Wide-field images were acquired on a Nikon E800 microscope using 60x or 100x Plan Apo lenses and an Orca ER cooled CCD camera controlled with the Metamorph Imaging software package. Filter sets used include the Piston GFP Bandpass #41025 for acquisition of GFP images and the special green filter set #C4607 for Cy3 images. Figure 4 in Mol Biol Cell (2006). 18:721-731."
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "protein binding",
+                    "onto_id": "GO:0005515"
+                },
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Cy3",
+                        "onto_id": "FBbi:00000449"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y"
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The unique-6 (U6) motif of the MAGUK protein, ZO-1, inhibits tight junction localization of GFP fusion proteins containing the SH3-GUK module. Stable MDCK II cell lines expressing GFP fusion proteins encoding GFP alone (A and B), ZO1 FL (full-length ZO-1; C and D), U5-GUK (E and F), SH3-U5-GUK (G and H), SH3-U5-GUK containing a GUK domain mutation that inhibits hairpin formation (I and J), U6 (K and L), U5-GUK-U6 (M and N), and SH3-U5-GUK-U6 (O and P) were plated on glass coverslips and grown to confluence. Cells were fixed and stained with an antisera specific to the endogenous ZO-1. The distribution of the GFP fusion (green) and ZO-1 (red) were observed by wide-field microscopy. Bar, 10 \u00b5m."
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.molbiolcell.org/cgi/reprint/18/3/721"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "Mol Biol Cell (2006). 18:721-731."
+                    ],
+                    "Contributors": [
+                        "Alan S. Fanning",
+                        "Brent P. Little",
+                        "Christopher Rahner",
+                        "Darkhan Utepbergenov",
+                        "Zenta Walther",
+                        "James M. Anderson"
+                    ],
+                    "PUBMED": [
+                        "17182847"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL16217",
+            "ARK": "ark:/b7295/w9cil16217",
+            "Title": "Alan S. Fanning, Brent P. Little, Christopher Rahner, Darkhan Utepbergenov, Zenta Walther, James M. Anderson (2011) CIL:16217, Canis lupus familiaris, epithelial cell. CIL. Dataset"
+        }
+    }
+}

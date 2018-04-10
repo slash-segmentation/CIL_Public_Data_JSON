@@ -1,0 +1,122 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "42003.jpg",
+                    "Size": 28017
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "42003.tif",
+                    "Size": 700000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "42003.zip",
+                    "Size": 760734
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "blood circulation",
+                    "onto_id": "GO:0008015"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "isolated cells"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 466
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 490
+                        }
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "blood cell",
+                    "onto_id": "CL:0000081"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal image of sickle red blood cells. To learn more about how sickle cells can clog blood vessels, their flow is observed in a microfabricated device designed to mimic a capillary bed in vivo. The misshapen sicklecells become lodged and occlude the microchannels of the device. Ross Rounsevell and Wilbur Lam, Department of Bioengineering, University of California, Berkeley, USA. Honorable Mention, 2009 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:10923"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Department of  Bioengineering, University of California, Berkeley, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2009 Olympus BioScapes Digital Imaging  Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2009/hm52.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Ross Rounsevell",
+                        "Wilbur Lam",
+                        "2009 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "sickle cell anemia",
+                        "onto_id": "DOID:10923"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL42003",
+            "ARK": "ark:/b7295/w9cil42003",
+            "Title": "Ross Rounsevell, Wilbur Lam, 2009 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:42003, blood cell. CIL. Dataset"
+        }
+    }
+}

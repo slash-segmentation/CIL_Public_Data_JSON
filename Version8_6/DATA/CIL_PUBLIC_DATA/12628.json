@@ -1,0 +1,141 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12628.jpg",
+                    "Size": 554707
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12628.tif",
+                    "Size": 5800000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "12628_orig.jpg",
+                    "Size": 1961648
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12628.zip",
+                    "Size": 1961786
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell cortex",
+                        "onto_id": "GO:0005938"
+                    },
+                    {
+                        "onto_name": "microtubule cytoskeleton",
+                        "onto_id": "GO:0015630"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1600,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.345
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1200,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.345
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "deconvolution"
+                },
+                "CELLTYPE": {
+                    "onto_name": "oocyte",
+                    "onto_id": "CL:0000023"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Fluorescent image of a mouse oocyte labeled with an antibody to tubulin, which is shown localized in the cortex of the oocyte. The sample was fixed in paraformaldehyde for subsequent immunolabeling with an antibody to tubulin and a secondly antibody conjugated to Alexa 488, which labels the microtubules green. The oocyte was imaged using a Nikon Eclipse inverted microscope and the original image was deconvoluted using Nikon's Elements software."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Sabrina Lin",
+                        "Prue Talbot"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12628",
+            "ARK": "ark:/b7295/w9cil12628",
+            "Title": "Sabrina Lin, Prue Talbot (2011) CIL:12628, Mus musculus, oocyte. CIL. Dataset"
+        }
+    }
+}

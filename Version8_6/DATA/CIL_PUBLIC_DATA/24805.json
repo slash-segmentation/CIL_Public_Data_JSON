@@ -1,0 +1,155 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "24805.jpg",
+                    "Size": 2977645
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "24805.tif",
+                    "Size": 12600000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "24805.zip",
+                    "Size": 12549794
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "permeabilized tissue",
+                        "onto_id": "FBbi:00000093"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "free_text": "phalloidin"
+                    }
+                ],
+                "GROUP_ID": "9875",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "actin cytoskeleton",
+                        "onto_id": "GO:0015629"
+                    },
+                    {
+                        "onto_name": "lamellipodium",
+                        "onto_id": "GO:0030027"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "branching of actin filaments"
+                    },
+                    {
+                        "free_text": "latrunculin a treatment"
+                    },
+                    {
+                        "onto_name": "actin filament-based process",
+                        "onto_id": "GO:0030029"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Xenopus laevis",
+                    "onto_id": "NCBITaxon:8355"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Procedures for detergent extraction, immunostaining, S1 decoration, light, and EM were described previously (Svitkina et al., 1995, 1996, 1997;Verkhovsky et al., 1995; Svitkina and Borisy, 1998)."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2442
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1968
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "free_text": "platinum replica"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Differential response of lamellipodial actin network to latrunculin a (LA). Electron micrograph of a Xenopus fibroblast  lamellipodium treated with LA (0.25 \u03bcM for 10 min) reveals actin depletion from the lamellipodial rear. A similar image of an LA treated keratocyte is available as CIL 24804.   Image corresponds to Figure 7e from J Cell Biol. 1999 May 31;145(5):1009-26."
+                },
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Biol. 1999 May 31;145(5):1009-26."
+                    ],
+                    "Contributors": [
+                        "Tatyana M. Svitkina",
+                        "Gary G. Borisy"
+                    ],
+                    "PUBMED": [
+                        "10352018"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL24805",
+            "ARK": "ark:/b7295/w9cil24805",
+            "Title": "Tatyana M. Svitkina, Gary G. Borisy (2011) CIL:24805, Xenopus laevis, fibroblast. CIL. Dataset"
+        }
+    }
+}

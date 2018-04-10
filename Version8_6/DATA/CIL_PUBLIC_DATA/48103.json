@@ -1,0 +1,115 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "48103.zip",
+                    "Size": 5760292
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "48103.jpg",
+                    "Size": 651360
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "48103.tif",
+                    "Size": 5800000
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cytoskeleton",
+                        "onto_id": "GO:0005856"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "rabbit"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Rabbit skeletal muscle cells were fixed and immunostained for actin (from Santa Cruz), desmin (from Sigma), and DAPI (from Life Technologies). Images were acquired with a 40X (Plan Fluor, NA 0.75) lens, SPOT RT Slider CCD camera and SPOT Basic image capture software. Image generated with the Image J color combine function."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y"
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                        "onto_id": "FBbi:00000056"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "onto_name": "skeletal muscle cell",
+                    "onto_id": "CL:0000188"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Cryopreserved rabbit skeletal muscle cells were revived and stained for actin (in red), desmin (in green) to reveal the intermediate filament essential for the structural integrity and function of muscle, and DAPI (in blue) to label nuclei."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Natalie Prigozhina"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL48103",
+            "ARK": "ark:/b7295/w9cil48103",
+            "Title": "Natalie Prigozhina (2015) CIL:48103, rabbit, skeletal muscle cell. CIL. Dataset"
+        }
+    }
+}

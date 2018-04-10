@@ -1,0 +1,133 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38918.zip",
+                    "Size": 57559
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38918.jpg",
+                    "Size": 49410
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38918.tif",
+                    "Size": 900000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38918_orig.jpg",
+                    "Size": 57421
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "detection of mechanical stimulus involved in sensory perception of sound",
+                    "onto_id": "GO:0050910"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0005954 Nerves and hair cells in the organ of balance.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 476
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "vestibular hair cell",
+                        "onto_id": "CL:0000609"
+                    },
+                    {
+                        "onto_name": "neuron",
+                        "onto_id": "CL:0000540"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal image of a section through a region of the inner ear called the vestibular organ, which is part of a complex arrangement of tubes and chambers that work together to enable us to keep our balance. As our heads move, fluid flows over the hair bundles (red) pushing them backwards and forwards. The nerves (green) connected to the base of the hair cells then send messages to the brain. By interpreting these movements the brain enables us to make any compensating movements and so keep our balance. The cell nuclei are stained blue."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Dawn Davies"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38918",
+            "ARK": "ark:/b7295/w9cil38918",
+            "Title": "Dawn Davies (2011) CIL:38918, vestibular hair cell, neuron. CIL. Dataset"
+        }
+    }
+}

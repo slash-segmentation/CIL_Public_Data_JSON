@@ -1,0 +1,99 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7690.jpg",
+                    "Size": 23505
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7690.zip",
+                    "Size": 102506620
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "7690.flv",
+                    "Size": 26531989
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Coturnix japonica",
+                    "onto_id": "NCBITaxon:93934"
+                },
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "free_text": "magnetization"
+                    },
+                    {
+                        "free_text": "radio frequency"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "free_text": "microscopic magnetic resonance imaging (MRI)"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "volume rendering"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This movie displays an archetypal online digital atlas of the quail embryo based on microscopic magnetic resonance imaging. The atlas is composed of two modules: (1) images of fixed in ovo and ex ovo embryos E6 to E12 days and (2) a grossly annotated atlas of E6, E7, E8, and E9 quail with anatomical structures delineated. The average Coturnix egg that we used weighed approximately 10-11 g and measured approximately 33 by 27 mm\n \nMicroscopic MRI is a noninvasive method that permits soft tissues to be distinguished within optically opaque specimens. Microscopic MRI depends on the relaxation properties of excited hydrogen nuclei in water and lipids. When an embryo is placed in the 11.7-T static magnetic field, the hydrogen nuclei become polarized in the field. During a Microscopic MRI experiments, the application of radio frequency  and magnetic field gradient pulses allow three-dimensional image data to be collected directly from the intact specimen.\n\nThe following commercial software was used to generate this movie: Amira (Mercury Computer Systems, www.tgs.com) and VGStudio (Volume Graphics, www.volumegraphics.com). The following free software was also used: SHIVA (Synchronized Histological Image Viewing Architecture) and BrainSuite2 (www.loni.ucla.edu/Software/ and ImageJ (http://rsb.info.nih.gov/ij/). Raw image data were primarily used to delineate anatomy, however, three dimensional Gaussian filtering was used to aid in deciding certain structure boundaries (e.g., to identify the boundaries of the neck vertebrae in e08).   Surface models for each labeled anatomical structure were generated using Amira's Generalized Marching Cube algorithm. \n\nThe quail developmental atlas can be found at http://131.215.15.121/.  This site contains MR image volumes of quail embryos imaged between 5 and 10 days of incubation (e05-e10) at approximately 24 hour intervals"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Seth Ruffins",
+                        "Rusty Lansford"
+                    ],
+                    "PUBMED": [
+                        "17525824"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "avian anatomical development"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "SOURCEOFCONTRAST": {
+                    "free_text": "magnetic field"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "free_text": "rendered image"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7690",
+            "ARK": "ark:/b7295/w9cil7690",
+            "Title": "Seth Ruffins, Rusty Lansford (2010) CIL:7690, Coturnix japonica. CIL. Dataset"
+        }
+    }
+}

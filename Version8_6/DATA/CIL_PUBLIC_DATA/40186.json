@@ -1,0 +1,118 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40186.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40186.jpg",
+                    "Size": 107679
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    }
+                ],
+                "GROUP_ID": "12153",
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000623"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "connexon complex",
+                        "onto_id": "GO:0005922"
+                    },
+                    {
+                        "onto_name": "plasma membrane",
+                        "onto_id": "GO:0005886"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "ReAsH-labeled cells were fixed in 2% glutaraldehyde in 0.1 M sodium cacodylate, pH 7.4 at 4\u00b0C. After 20 min, the cells were rinsed in 0.1 M cacodylate pH 7.4 and incubated for 30-45 min with blocking buffer (10 mM KCN, 10 mM aminotriazole, 0.01% hydrogen peroxide/50 mM glycine in 0.1 M cacodylate pH 7.4). This buffer was then replaced with 1 mg/ml diaminobenzidine (DAB) in blocking buffer, and photoconversion was performed using intense illumination (75 W xenon arc lamp without neutral density filters) focused through the microscope objective. Rinsing and further preparation of the sample for transmission electron microscopy were performed as described in Gaietta et al. (2002). Sections were stained with uranyl acetate prior to acquisition of the tilt series."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Single computed slice through a tomographic reconstruction of a lamellar structure observed in HeLa cells transfected with mutant connexin 50, imaged using intermediate voltage electron microscopy, and labeled using the tetracysteine-ReHAsH system and fluorescence photoooxidation.  The concentric double membrane layers of the aggregate appear to form \"onion skin\" sheets that do not form a closed structure along the long axis. The differential staining between the outside and inside is most likely due to impeded diffusion of DAB into the interior of these accumulations.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information see: Lichtenstein et al. The cytoplasmic accumulations of the cataract-associated mutant, Connexin50P88S, are long-lived and form in the endoplasmic reticulum Exp Eye Res. 2009 Mar;88(3):600-9. PMID: 19073179"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 6347",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=6347"
+                        }
+                    ],
+                    "Contributors": [
+                        "Eric Beyer"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40186",
+            "ARK": "ark:/b7295/w9cil40186",
+            "Title": "Eric Beyer (2012) CIL:40186, Homo sapiens. CIL. Dataset"
+        }
+    }
+}

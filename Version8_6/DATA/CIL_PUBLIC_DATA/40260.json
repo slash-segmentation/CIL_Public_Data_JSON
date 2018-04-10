@@ -1,0 +1,127 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40260.tif",
+                    "Size": 700000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40260.jpg",
+                    "Size": 37184
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "serial block face SEM (SBFSEM)",
+                    "onto_id": "FBbi:00000585"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "neuronal cell body membrane",
+                        "onto_id": "GO:0032809"
+                    },
+                    {
+                        "onto_name": "dendrite",
+                        "onto_id": "GO:0030425"
+                    },
+                    {
+                        "onto_name": "axon",
+                        "onto_id": "GO:0030424"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "back-scattered_electron imaging",
+                    "onto_id": "FBbi:00000373"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Perfused with 4% PFA, 0.1% glut.  Postfixed 1 hour in same fix on ice.  Left hemisphere cut into 2 mm thick coronal slabs.  Tissue placed into 2.3% potassium dichromate / 0.4% OsO4 for 3 days at room temp.  Tissue blotted with filter paper and then placed in 0.7% silver nitrate in dark for 3 days.  Tissue was dehydrated, infiltrated and embedded in Durcupan in Beem capsules.\n\nSerial section images were gathered on an FEI Quanta 200 FEG SEM with Gatan 3 View microscope, magnification, 600.0 X, accelerating voltage, 2.0 kV."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 435
+                        }
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "onto_name": "pyramidal cell",
+                    "onto_id": "CL:0000598"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Maximum intensity projection of Golgi impregnated pyramidal neurons in the neocortex of an adult mouse, imaged via serial block-face scanning electron microscopy.  Contrast is reversed so that Golgi stain appears bright against the unstained background.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 8244",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=8244"
+                        }
+                    ],
+                    "Contributors": [
+                        "Mark Ellisman",
+                        " Stephen Larson"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40260",
+            "ARK": "ark:/b7295/w9cil40260",
+            "Title": "Mark Ellisman,  Stephen Larson (2012) CIL:40260, Mus musculus, pyramidal cell. CIL. Dataset"
+        }
+    }
+}

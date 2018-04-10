@@ -1,0 +1,150 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12818.jpg",
+                    "Size": 12878
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12818.zip",
+                    "Size": 184448
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "12818.flv",
+                    "Size": 208867
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "living tissue",
+                        "onto_id": "FBbi:00000025"
+                    },
+                    {
+                        "free_text": "microinjection"
+                    }
+                ],
+                "GROUP_ID": "8482",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "detection of calcium ion",
+                    "onto_id": "GO:0005513"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "ZEBRAFISH_ANATOMY": [
+                    {
+                        "onto_name": "blastoderm",
+                        "onto_id": "ZFA:0001176"
+                    }
+                ],
+                "CELLLINE": {
+                    "free_text": "embryo"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": {
+                    "free_text": "bioluminescence"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 2.5
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 2.5
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "value": 60
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "free_text": "f-aequorin"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "color coded photon counts"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A unidirectional calcium wave arising form the left side.  The wave originates from a hot spot on the left side of the blastoderm margin and intensifies while crossing the node region.  This sequence covers 270 sec of development at 100x real time. The movie represents a 60-sec integration window moving in 10-sec steps. Fertilized zebrafish eggs were collected within 5 min of spawning, enzymatically dechorionated, and injected with approximately 0.9 nl of a 1% solution of recombinant f-aequorin in 100 mM KCl, 5 mM Mops, and 50 \u03bcM EDTA. During imaging the embryos were maintained at 28\u00b0C in 30% Danieau's medium containing penicillin (0.5 mg/ml), streptomycin (5,000 units/ml; Sigma), and 0.5% methylcellulose. Imaging was performed on a Photon Imaging Microscope (Science Wares, Falmouth, MA) that used a photon-counting spatial detector with a resistive anode output (Photek, St. Albens-on-Sea, U.K.). Digitized detector output in the form of a stream of time-labeled eight-bit x--y coordinates (256 \u00d7 256 pixels) was used to construct time-lapse imaging sequences. The imaging system software allowed the original photon data stream to be analyzed according to any chosen integration time, with the resulting image frames maintaining accurate photon quantitation up to 256 photons per pixel.   These images are part of an image series within the Zebrafish--The Living Laboratory CD made available by Mark Cooper and described in Methods in Cell Biology Volume 77, 2004, Pages 439-457. This is a supplemental video in PNAS January 5, 1999 vol. 96: 157-161."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Hong Kong University of Science and Technology, Hong Kong, China",
+                        "Zebrafish -- The Living Laboratory",
+                        "Methods in Cell Biology Volume 77, 2004, Pages 439-457"
+                    ],
+                    "PUBLISHED": [
+                        "PNAS January 5, 1999 vol. 96: 157-161"
+                    ],
+                    "Contributors": [
+                        "Andy Miller",
+                        "Sarah Webb"
+                    ],
+                    "PUBMED": [
+                        "9874788"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "ZFA:ZFA:0001176"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12818",
+            "ARK": "ark:/b7295/w9cil12818",
+            "Title": "Andy Miller, Sarah Webb (2011) CIL:12818, Danio rerio. CIL. Dataset"
+        }
+    }
+}

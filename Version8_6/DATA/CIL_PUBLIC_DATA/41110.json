@@ -1,0 +1,141 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41110.jpg",
+                    "Size": 295947
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41110.tif",
+                    "Size": 2300000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "free_text": "picric acid fixation"
+                    },
+                    {
+                        "free_text": "ethanol dehydration"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "GROUP_ID": "11864",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "lipid particle",
+                        "onto_id": "GO:0005811"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "organelle organization",
+                    "onto_id": "GO:0006996"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cavia porcellus",
+                    "onto_id": "NCBITaxon:10141"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "This image was originally published as Figure 5 in Kukucka, Mark A. and Hara P. Misra. Andrologia 26(4):217-24 (1994), which has been published in final form at: http://onlinelibrary.wiley.com/doi/10.1111/j.1439-0272.1994.tb00791.x/abstract;jsessionid=2082D75B22193F4707988B0AFCE34D3C.d03t04"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 960
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 792
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "Leydig cell",
+                    "onto_id": "CL:0000178"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A transmission electron micrograph of Leydig cells isolated from guinea pig testes.  Note that the cluster of cells all show similar characteristics."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Andrologia 26(4):217-24 (1994"
+                    ],
+                    "Contributors": [
+                        "Mark A. Kukucka"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41110",
+            "ARK": "ark:/b7295/w9cil41110",
+            "Title": "Mark A. Kukucka (2012) CIL:41110, Cavia porcellus, Leydig cell. CIL. Dataset"
+        }
+    }
+}

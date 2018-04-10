@@ -1,0 +1,129 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38814.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38814.jpg",
+                    "Size": 120718
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38814.zip",
+                    "Size": 137517
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38814_orig.jpg",
+                    "Size": 137379
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0006629 2007 Collection: Medical Photographic Library Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 786
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "free_text": "visualization of cont"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "color enhanced"
+                },
+                "CELLTYPE": {
+                    "free_text": "prostate cancer cells"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A scanning electron color-enhanced image showing a clump of prostate cancer cells."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:10286"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Annie Cavanagh"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "prostate carcinoma",
+                        "onto_id": "DOID:10286"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38814",
+            "ARK": "ark:/b7295/w9cil38814",
+            "Title": "Annie Cavanagh (2011) CIL:38814, prostate cancer cells. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38676.tif",
+                    "Size": 7200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38676.jpg",
+                    "Size": 192994
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38676.zip",
+                    "Size": 7152458
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "9593",
+                "IMAGINGMODE": {
+                    "onto_name": "polarization microscopy",
+                    "onto_id": "FBbi:00000248"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "spindle",
+                    "onto_id": "GO:0005819"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "form birefringence",
+                    "onto_id": "FBbi:00000593"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Spirocodon saltatrix",
+                    "onto_id": "NCBITaxon:6093"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "retardance",
+                    "onto_id": "FBbi:00000313"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See: S. Inoue and K. Dan (1951) Birefringence of the dividing cell. J Morph 89:423-455."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2310
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1032
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Dividing egg of the jellyfish (Spirocodon saltatrix showing birefringent spindles. The arrow indicates the direction of the compensator slow axis. AS the cell is rotated 90 degrees with respect to the axis, the contrast of the spindles  change from dark to light."
+                },
+                "CELLTYPE": {
+                    "onto_name": "oocyte",
+                    "onto_id": "CL:0000023"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "S. Inoue 2008 Collected Works of Shinya Inoue. World Scientific Publishing Company, Singapore, Hackensack, NJ, USA"
+                    ],
+                    "Contributors": [
+                        "Shinya Inoue",
+                        "Katsuma Dan"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38676",
+            "ARK": "ark:/b7295/w9cil38676",
+            "Title": "Shinya Inoue, Katsuma Dan (2011) CIL:38676, Spirocodon saltatrix, oocyte. CIL. Dataset"
+        }
+    }
+}

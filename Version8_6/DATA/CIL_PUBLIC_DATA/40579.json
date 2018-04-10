@@ -1,0 +1,117 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "40579.zip",
+                    "Size": 87671
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40579.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40579.jpg",
+                    "Size": 127960
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "40579_orig.jpg",
+                    "Size": 87533
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "phage assembly",
+                    "onto_id": "GO:0042963"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "isolated subcellular component",
+                    "onto_id": "FBbi:00000579"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "T4 bacteriophage"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image collected on FEI instrument: Tecnai Family with Magnification: 50,000x and Voltage: 200 kV."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 670
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 668
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Colorized scanning electron micrograph of a T-4 bacteriophage incubated with a de novo-designed self assembling peptide fiber.  T-4 bacteriophage infects E. coli bacteria. Its tail fibres allow attachment to a host cell, and the T4\u2019s tail is hollow so that it can pass its nucleic acid to the cell it is infecting during attachment.  Small peptides, 28 amino acids long, self assemble to form the fibresin the image  ~80 nm wide and ~40 microns long. The T4 tail striation distance was used as a high-resolution calibrant to register the lateral striations of the fibre."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Science Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/Bacteriophage-2500.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Thom Sharp"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40579",
+            "ARK": "ark:/b7295/w9cil40579",
+            "Title": "Thom Sharp (2012) CIL:40579, T4 bacteriophage. CIL. Dataset"
+        }
+    }
+}

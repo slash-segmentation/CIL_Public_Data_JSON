@@ -1,0 +1,170 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "26537.zip",
+                    "Size": 792107
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "26537.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "26537.jpg",
+                    "Size": 96172
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "GROUP_ID": "8283",
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "lamellipodium",
+                        "onto_id": "GO:0030027"
+                    },
+                    {
+                        "onto_name": "myosin II complex",
+                        "onto_id": "GO:0016460"
+                    },
+                    {
+                        "onto_name": "actin filament",
+                        "onto_id": "GO:0005884"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "regulation of cell migration",
+                    "onto_id": "GO:0030334"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "NIH/3T3",
+                    "onto_id": "MCC:0000362"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Cells were cultured in DME (Invitrogen) supplemented with 10% fetal bovine serum and 100 U/ml penicillin/streptomycin (Invitrogen) at 37\u00b0C in a humidified 5% CO2 incubator. For transfections, cells in 60-mm-diameter dishes or on fibronectin-coated coverslips were incu- bated with a mixture of DNA and LipofectAMINE 2000 (Invitrogen) according to the manufacturer\u2019s instructions. In some experimental conditions, 16 h after replating onto fibronectin-coated coverslips, cells were treated with 50 ng/ml PDGF for 20 min.  Cells were fixed 24\u201348 h after transfection using 3.7% paraformaldehyde in PBS for 15 min, permeabilized using 0.2% Triton X-100 in PBS for 2 min, blocked with 2% BSA in PBS, and co-stained for MLC (green), betaPIX (red), and actin (blue). Images were captured by Zeiss LSM 710 confocal microscope with Plan-Apochromat 63X objective."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 546",
+                        "onto_id": "FBbi:00000441"
+                    },
+                    {
+                        "onto_name": "phalloidin",
+                        "onto_id": "FBbi:00000100"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "To study the molecular mechanism by which nonmuscle myosin II (MII) regulates protrusion and adhesion dynamics in migrating cells, NIH3T3 cells were transfected with myc-tagged myosin light chain (MLC, green) and co-stained for \u03b2PIX (a Rac1/Cdc42-specific GEF highly implicated in cell motility, red) and filamentous actin (blue). These findings help elucidate a functional link between MII and Rac1/Cdc42 GTPases, which may regulate protrusion/adhesion dynamics in migrating cells.  This image is original data file Fig. 7C \"PDGF-induced dissociation of the MII\u2013\u03b2PIX complex,\" in J. Cell Biol. 2010. Vol. 190(4):663\u2013674"
+                },
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/3112/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J. Cell Biol. 2010. Vol. 190(4):663\u2013674"
+                    ],
+                    "Contributors": [
+                        "Chan-Soo Lee",
+                        "Chang-Ki Choi",
+                        "Eun-Young Shin",
+                        "Martin Alexander Schwartz",
+                        "Eung-Gook Kim"
+                    ],
+                    "PUBMED": [
+                        "PMID:20713598"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL26537",
+            "ARK": "ark:/b7295/w9cil26537",
+            "Title": "Chan-Soo Lee, Chang-Ki Choi, Eun-Young Shin, Martin Alexander Schwartz, Eung-Gook Kim (2011) CIL:26537, Mus musculus, fibroblast. CIL. Dataset"
+        }
+    }
+}

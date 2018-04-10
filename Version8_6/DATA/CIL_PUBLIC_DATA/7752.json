@@ -1,0 +1,95 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "7752_orig.jpg",
+                    "Size": 1242502
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "7752.tif",
+                    "Size": 50600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7752.jpg",
+                    "Size": 586261
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7752.zip",
+                    "Size": 1242636
+                }
+            ],
+            "CORE": {
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "mitochondrial proton-transporting ATP synthase complex",
+                        "onto_id": "GO:0005753"
+                    },
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3503
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A model of the bovine mitochondrial ATP synthase at 32 Angstrom resolution as determined by electron cryomicroscopy of detergent solubilized single particles obtained from heart mitochondria. A rendered view of the experimental EM map is shown as a semi-transparent grey surface. The blue region corresponds with the F1-c10 subcomplex and the green region represents the peripheral stalk subcomplex including the peripheral domain of Fo. The scale bar represents 50 Angstroms (5 nm). \nFrom:  Rubinstein JL, Walker JE, Henderson R. Structure of the mitochondrial ATP synthase by electron cryomicroscopy. EMBO J. 2003;22:6182-92. merged from Fig. 4C and 5A. Available at: http://www.nature.com/emboj/journal/v22/n23/pdf/7595518a.pdf"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "J.L. Rubinstein; J.E. Walker, R. Henderson"
+                    ],
+                    "PUBMED": [
+                        "14633978"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "ATP biosynthetic process",
+                    "onto_id": "GO:0006754"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "color graphic",
+                    "onto_id": "FBbi:00000226"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7752",
+            "ARK": "ark:/b7295/w9cil7752",
+            "Title": "J.L. Rubinstein; J.E. Walker, R. Henderson (2011) CIL:7752. CIL. Dataset"
+        }
+    }
+}

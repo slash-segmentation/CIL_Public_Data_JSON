@@ -1,0 +1,162 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13368.jpg",
+                    "Size": 4878
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13368.zip",
+                    "Size": 8769507
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13368.tif",
+                    "Size": 8800000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "11195",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "chromosome, centromeric region",
+                        "onto_id": "GO:0000775"
+                    },
+                    {
+                        "free_text": "CENP-B"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "HeLa S3",
+                    "onto_id": "MCC:0000220"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "48 h after transfection, cells were split onto 40-mm-diameter glass coverslips (Bioptechs), cultured overnight, and transferred to CO2 independent media with supplements. Cells were maintained at 37\u00b0C using an FCS2 chamber in conjunction with an objective heater (Bioptechs). Images were acquired on a restoration microscope (DeltaVision Spectris; Applied Precision) with a 100\u00d7 1.35 NA objective and a cooled charge-coupled device camera (CoolSNAP HQ; Roper Scientific). SoftWorx software (Applied Precision) was used for image analysis. Datasets were deconvolved using the constrained iterative algorithm (Swedlow et al., 1997; Wallace et al., 2001) using SoftWorx software. Time courses were presented as maximum intensity projections of deconvolved three-dimentional datasets. Images were loaded into Photoshop (Adobe) or OMERO (http://openmicroscopy.org) and adjusted for display. Image is part of Fig 4B in JCB vol. 179 no. 2 187-197.  Image is part of Fig 4B in JCB vol. 179 no. 2 187-197."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 163,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.3312
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 194,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.3312
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 6,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 2.25
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "constrained iterative deconvolution",
+                    "onto_id": "FBbi:00000360"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "4D series of HeLa cells  cotransfected with CENP-B\u2013GFP  (centromeric protein B) and either control (this image) or Bod1 siRNA (CIL:13367).   Bod1 is a protein that associates wtih a large macromolecular complex and localizes with kinetochores and spindle poles during mitosis."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Journal of Cell Biology",
+                            "Href": "http://jcb.rupress.org/content/179/2/187.long"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "JCB vol. 179 no. 2 187-197"
+                    ],
+                    "Contributors": [
+                        "Iain M. Porter",
+                        "Sarah E. McClelland",
+                        "Guennadi A. Khoudoli",
+                        "Christopher J. Hunter",
+                        "Jens S. Andersen",
+                        "Andrew D. McAinsh",
+                        "J. Julian Blow",
+                        "Jason R. Swedlow"
+                    ],
+                    "PUBMED": [
+                        "17938248"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": true,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13368",
+            "ARK": "ark:/b7295/w9cil13368",
+            "Title": "Iain M. Porter, Sarah E. McClelland, Guennadi A. Khoudoli, Christopher J. Hunter, Jens S. Andersen, Andrew D. McAinsh, J. Julian Blow, Jason R. Swedlow (2011) CIL:13368, Homo sapiens. CIL. Dataset"
+        }
+    }
+}

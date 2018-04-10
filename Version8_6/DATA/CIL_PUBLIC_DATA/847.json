@@ -1,0 +1,168 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "847.jpg",
+                    "Size": 360763
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "847.tif",
+                    "Size": 4100000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "847.zip",
+                    "Size": 4022022
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "GROUP_ID": "7904",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "phase contrast microscopy",
+                        "onto_id": "FBbi:00000247"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "axon",
+                        "onto_id": "GO:0030424"
+                    },
+                    {
+                        "onto_name": "dendrite",
+                        "onto_id": "GO:0030425"
+                    },
+                    {
+                        "onto_name": "neuron spine",
+                        "onto_id": "GO:0044309"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cellular developmental process",
+                        "onto_id": "GO:0048869"
+                    },
+                    {
+                        "onto_name": "establishment or maintenance of cell polarity",
+                        "onto_id": "GO:0007163"
+                    },
+                    {
+                        "onto_name": "dendrite development",
+                        "onto_id": "GO:0016358"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "in-focus phase contrast",
+                    "onto_id": "FBbi:00000324"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "elastic scattering of photons",
+                        "onto_id": "FBbi:00000587"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1300,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.42
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1030,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.42
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "Cyan fluorescent proteins from Aequorea",
+                    "onto_id": "FBbi:00000436"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Neuron expressing soluble CFP at 14 days in vitro.  By this time point, cultured hippocampal neurons have developed a morphology typical of mature neurons with an extensive axonal arbor, a tapered and branched dendritic arbor, and synaptic connections.  The dendritic arbor is studded with spines, specialized structures commonly associated with excitatory synapses, and growth cones may be seen at the ends of axonal branches.  \n\nEmbryonic rat hippocampal neurons were prepared and transfected with soluble CFP (excitation, 439; emission, 476) at plating (Dotap, Roche) as previously described (Kaech and Banker, 2006, Nat Protoc), fixed for 15 minutes (4% formaldehyde, 4% sucrose in phosphate buffered saline, pH 7.4, warmed to 37\u00b0C, permeabilized with 0.25% Triton X-100 for 7 minutes, and rinsed with phosphate buffered saline at 14 days in vitro (Withers and Banker, 1998, in Culturing Nerve Cells, MIT Press).  Images were acquired with a Leica DMRXA microscope with a mercury arc lamp, a 16X PL Fluotar (0.5 NA) oil immersion lens, a Leica CFP filter cube, Princeton Instruments Micromax CCD camera and MetaMorph software.  This image shows a merged view of: A) CFP expression throughout the extent of a single expressing neuron in the field; B) identical field imaged with phase microscopy.  Image was generated with the MetaMorph overlay function, and the single plane fluorescence view is included in this image group."
+                },
+                "CELLTYPE": [
+                    {
+                        "free_text": "hippocampal neuron in vitro"
+                    },
+                    {
+                        "onto_name": "multipolar neuron",
+                        "onto_id": "CL:0000104"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Withers, Ginger"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL847",
+            "ARK": "ark:/b7295/w9cil847",
+            "Title": "Withers, Ginger (2010) CIL:847, Rattus, multipolar neuron, hippocampal neuron in vitro. CIL. Dataset"
+        }
+    }
+}

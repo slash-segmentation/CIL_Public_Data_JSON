@@ -1,0 +1,77 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9776.zip",
+                    "Size": 14942332
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "9776.flv",
+                    "Size": 3138217
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9776.jpg",
+                    "Size": 64214
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Bacteria",
+                    "onto_id": "NCBITaxon:2"
+                },
+                "GROUP_ID": "2270",
+                "MOLECULARFUNCTION": {
+                    "onto_name": "endoplasmic reticulum signal peptide binding",
+                    "onto_id": "GO:0030942"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "endoplasmic reticulum membrane",
+                    "onto_id": "GO:0005789"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Protein translocation is the process by which peptides are transported across a membrane bilayer. Translocation of proteins across the membrane of the endoplasmic reticulum (ER) is know to occur in one of two ways: cotranslationally, in which translocation is concurrent with peptide synthesis by the ribosome, or posttranslationally, in which the protein is first synthesized in the cytosol and later is transported into the ER. Both means of translocation are mediated by the same protein channel, known as Sec61 in eukaryotes and SecY in prokaryotes and archaea.\n\nIn prokaryotes, translated peptides are actively pushed through the SecY channel by a protein called SecA. SecA is composed of a nucleotide-binding domain (medium green), a polypeptide crosslinking domain (dark green), and helical wing and scaffold domains (light green).\n\nDuring translocation, a region of the helical scaffold domain forms a two-finger helix which inserts into the cytoplasmic side of the SecY channel, thereby pushing the translocating peptide through. A tyrosine found on the tip of the two-finger helix plays a critical role in translocation, and is thought to make direct contact with the translocating peptide.\n\nThe polypeptide crosslinking domain (PPXD) forms a clamp which is thought to open as the translocating peptide is being pushed into the SecY channel by the two-finger helix, and close as the two-finger helix resets to its \"up\" position.\n\nThe conformational changes of SecA are powered by its nuclease activity, with one ATP being hydrolyzed during each cycle.\n\nThe crystal structures used for this animation are: secA - 1M6N, 3DIN; secY - 1RHZ."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Janet Iwasa",
+                        "Tom Rapoport",
+                        "Jochen Zimmer"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "intracellular protein transmembrane transport",
+                    "onto_id": "GO:0065002"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "animation",
+                    "onto_id": "FBbi:00000267"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9776",
+            "ARK": "ark:/b7295/w9cil9776",
+            "Title": "Janet Iwasa, Tom Rapoport, Jochen Zimmer (2010) CIL:9776, Bacteria. CIL. Dataset"
+        }
+    }
+}

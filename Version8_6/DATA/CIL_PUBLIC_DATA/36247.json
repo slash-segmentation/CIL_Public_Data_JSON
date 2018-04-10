@@ -1,0 +1,217 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36247.tif",
+                    "Size": 8100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36247.jpg",
+                    "Size": 1354921
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36247.zip",
+                    "Size": 16233078
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "10364",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell",
+                        "onto_id": "GO:0005623"
+                    },
+                    {
+                        "onto_name": "food vacuole",
+                        "onto_id": "GO:0020020"
+                    },
+                    {
+                        "onto_name": "macronucleus",
+                        "onto_id": "GO:0031039"
+                    },
+                    {
+                        "free_text": "contractile stalk"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "digestive system process",
+                        "onto_id": "GO:0022600"
+                    },
+                    {
+                        "onto_name": "cytoplasm organization",
+                        "onto_id": "GO:0007028"
+                    },
+                    {
+                        "onto_name": "cortical cytoskeleton organization",
+                        "onto_id": "GO:0030865"
+                    },
+                    {
+                        "onto_name": "macronucleus organization",
+                        "onto_id": "GO:0032124"
+                    },
+                    {
+                        "free_text": "contractile stalk organization"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "CELLLINE": {
+                    "free_text": "Cambridge Culture Collection, Cambridge, England, # LB1690/1"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Vorticella convallaria",
+                    "onto_id": "NCBITaxon:60850"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2692
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2986
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print from negative scanned for Photoshop."
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "11 micrographs of views of a serially-sectioned contracted Vorticella convallaria cell that show the main features of this cell. This figure shows 5 food vacuoles and the edges of 2 more. The connection of the stalk with the cell body and the myonemes merging into the spasmoneme that passes into the contractile stalk are seen.  The aboral end of the elongated macronucleus now appears. TEM taken on 4/2/71 by R. Allen with Hitachi HU11A operating at 75kV. Neg. 2,150X. Bar = 2\u00b5m.  The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. There is a high resolution version of this image in the library (CIL:39406) which is available for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36247",
+            "ARK": "ark:/b7295/w9cil36247",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:36247, Vorticella convallaria, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

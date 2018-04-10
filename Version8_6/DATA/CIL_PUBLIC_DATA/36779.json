@@ -1,0 +1,197 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36779.jpg",
+                    "Size": 2066648
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36779.tif",
+                    "Size": 10900000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36779.zip",
+                    "Size": 21758806
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "10072",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "oral apparatus",
+                    "onto_id": "GO:0031912"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "phagocytosis",
+                        "onto_id": "GO:0006909"
+                    },
+                    {
+                        "onto_name": "digestion",
+                        "onto_id": "GO:0007586"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium caudatum",
+                    "onto_id": "NCBITaxon:5885"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. There is a high resolution version of this image in the library (CIL:39163) which is available for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "MOLECULARFUNCTION": {
+                    "free_text": "centrin"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3085
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3496
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print from negative scanned for Photoshop."
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The left edge of the cytopharynx is bordered by a complex architecture designed to transport a pool of flattened vesicles to this edge where they will fuse with the cytopharyngeal membrane to expand this membrane into a nascent phagosome. The buccal cavity itself has the normal pellicle composed of the plasma membrane and alveoli. Internal to this is a system of regularly shaped electron opaque nodes that are bound together by whispy filaments to form a reinforced border. This is part of the filamentous reticulum which is found to a greater or lesser extent underlying the alveolar system of the entire buccal cavity but not the cytopharynx itself. Arising from the nodes are the cytopharyngeal microtubular ribbons that are spaced at regular intervals. These ribbons, composed of about 12 microtubules each, curve into the cytosol over a bundle of filaments called the cytostomal cord which is an extension of the centrin-containing infraciliary lattice. Numerous discoidal vesicles are bound to one side of the microtubules. Associated with the cytosomal cord are regularly spaced tubular extensions of the alveolar sacs that are connected by short fibers to the cord. TEM taken on 3/30/73 by R. Allen with Hitachi HU11A operating at 75kV. Neg. 9,250X. Bar = 1\u00b5m. Published in part in J. Cell Biol. 1974. 63:904-22. Adapted with permission."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Biol. 1974 Dec;63(3):904-22.",
+                        "4373478"
+                    ],
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36779",
+            "ARK": "ark:/b7295/w9cil36779",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:36779, Paramecium caudatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

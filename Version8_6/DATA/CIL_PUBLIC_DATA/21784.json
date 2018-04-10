@@ -1,0 +1,117 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "21784.jpg",
+                    "Size": 27225
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "21784.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "21784.zip",
+                    "Size": 264456
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "8121",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "DNA"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "dsRNA mad2 treatement"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "free_text": "distribution of DNA"
+                },
+                "CELLLINE": {
+                    "free_text": "Kc167"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "Hoechst 33342",
+                    "onto_id": "FBbi:00000052"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "free_text": "epithelial"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Five different samples of Drosophila melanogaster Kc167 cells were stained with Hoechst 33342, a DNA stain. The last sample (labeled nodsRNA, CIL 21789) is of wild-type cells. Each of the other four samples (labeled 48, 340, Anillin, and mad2, CIL 21749, 21739, 21759, and 21773, respectively) has a different gene knocked down by RNAi.  This is the set that were treated with mad2 RNAi.  There are 10 images of each sample, for a total of 50 images. The images were acquired on a Zeiss Axiovert 200M microscope. A recommended use for these five image sets is to algorithmically compute the number of cells in each image.  A tab-delimited text file containing this information can be found at the URL indicated in the attribution box.  The recommended citation when using these images is:  \"We used the Drosophila Kc167 1 image set (Carpenter, et al., Genome Biology, 2006) available from the Broad Bioimage Benchmark Collection (www.broad.mit.edu/bbbc).\""
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.broadinstitute.org/bbbc/drosophila_kc167_1.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Anne Carpenter"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL21784",
+            "ARK": "ark:/b7295/w9cil21784",
+            "Title": "Anne Carpenter (2011) CIL:21784, Drosophila melanogaster, epithelial. CIL. Dataset"
+        }
+    }
+}

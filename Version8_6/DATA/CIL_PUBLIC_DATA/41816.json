@@ -1,0 +1,119 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41816.tif",
+                    "Size": 35500000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41816.zip",
+                    "Size": 14665876
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41816.jpg",
+                    "Size": 3089511
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "modes of light microscopy",
+                        "onto_id": "FBbi:00000345"
+                    },
+                    {
+                        "free_text": "stereo microscopy"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "free_text": "gills"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "spore production"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in intrinsic optical density",
+                    "onto_id": "FBbi:00000602"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "common tree mushroom"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3840
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3072
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The underside of a common tree mushroom captured using stereomicroscopy with 11 X magnification.  Honorable Mention, 2010 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Cleveland, OH, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2010 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2010/hm10.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Neil Egan",
+                        "2010 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41816",
+            "ARK": "ark:/b7295/w9cil41816",
+            "Title": "Neil Egan, 2010 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41816, common tree mushroom. CIL. Dataset"
+        }
+    }
+}

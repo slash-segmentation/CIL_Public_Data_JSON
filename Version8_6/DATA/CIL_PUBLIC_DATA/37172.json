@@ -1,0 +1,133 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "37172.tif",
+                    "Size": 57100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37172.jpg",
+                    "Size": 5839710
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37172.zip",
+                    "Size": 57056010
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "GROUP_ID": "10725",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "tight junction",
+                    "onto_id": "GO:0005923"
+                },
+                "XENOPUS_ANATOMY": [
+                    {
+                        "free_text": "distal tubule"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "tight junction assembly",
+                    "onto_id": "GO:0070830"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original Magnification: x90,000."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 6000
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4754
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "kidney cell",
+                    "onto_id": "CL:1000497"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of tight junction (zonula occludens) between adjacent plasma membranes in the distal kidney tubule. The darkly staining horizontal structure forms the junctional complex. Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."
+                },
+                "ATTRIBUTION": {
+                    "DATE": [
+                        "01/04/1963"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "George E. Palade EM Slide Collection",
+                            "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeJnF"
+                        }
+                    ],
+                    "Contributors": [
+                        "Marilyn G. Farquhar"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "XAO:distal tubule"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37172",
+            "ARK": "ark:/b7295/w9cil37172",
+            "Title": "Marilyn G. Farquhar (2012) CIL:37172, kidney cell. CIL. Dataset"
+        }
+    }
+}

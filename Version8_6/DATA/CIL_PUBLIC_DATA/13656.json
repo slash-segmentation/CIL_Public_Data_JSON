@@ -1,0 +1,213 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13656.zip",
+                    "Size": 4340435
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13656.tif",
+                    "Size": 4400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13656.jpg",
+                    "Size": 109211
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "GROUP_ID": "6874",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "Golgi apparatus",
+                        "onto_id": "GO:0005794"
+                    },
+                    {
+                        "onto_name": "integral to membrane",
+                        "onto_id": "GO:0016021"
+                    },
+                    {
+                        "onto_name": "Golgi membrane",
+                        "onto_id": "GO:0000139"
+                    },
+                    {
+                        "onto_name": "endoplasmic reticulum",
+                        "onto_id": "GO:0005783"
+                    },
+                    {
+                        "onto_name": "endoplasmic reticulum-Golgi intermediate compartment",
+                        "onto_id": "GO:0005793"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "protein N-linked glycosylation via asparagine",
+                        "onto_id": "GO:0018279"
+                    },
+                    {
+                        "onto_name": "carbohydrate metabolic process",
+                        "onto_id": "GO:0005975"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "compartmentalization of stain or label",
+                        "onto_id": "FBbi:00000604"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "alpha-1,3-mannosylglycoprotein 2-beta-N-acetylglucosaminyltransferase activity",
+                        "onto_id": "GO:0003827"
+                    },
+                    {
+                        "onto_name": "mannosyl-oligosaccharide 1,3-1,6-alpha-mannosidase activity",
+                        "onto_id": "GO:0004572"
+                    },
+                    {
+                        "onto_name": "zinc ion binding",
+                        "onto_id": "GO:0008270"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1388,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 169.333
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1040,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 169.333
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 568",
+                        "onto_id": "FBbi:00000442"
+                    },
+                    {
+                        "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                        "onto_id": "FBbi:00000056"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "HA peptide tag",
+                        "onto_id": "FBbi:00000034"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "HeLa cells transiently expressing GlcNAcT-1-HA-KDEL were fixed, immunolabeled for GlcNAcT-1-HA-KDEL (red) and endogenous alpha-mannosidase II (ManII, green), and examined by fluorescence microscopy. Endogenous ManII displayed different staining patterns, depending upon the level of expression of GlcNAcT-1-HA-KDEL. In this image, ManII is localized to the Golgi. Other images in Fig 6 show ManII localization to the ER (CIL# 13655), or cells in which ManII protein is lost completely (CIL# 13657). Transfected HeLa cells were fixed in 3% paraformaldehyde, blocked with 0.2% Triton X-100, 1% FBS, 0.5% BSA in PBS with Ca[2+] and Mg[2+], followed by incubation in primary antibodies (anti\u2013human ManII rabbit pAb and anti-HA mouse mAb, HA.11 (Covance)) and secondary antibodies (Alexa 568 and Alexa 488) and DAPI (blue) to stain nuclei. Cells were mounted using Fluoromount (SouthernBiotech). Immunofluorescent images were digitally acquired on an inverted microscope (Axiovert 200M; Carl Zeiss, Inc.) coupled to a 12-bit cooled charge-coupled device camera (AxioCam MRm Rev. 3; Carl Zeiss, Inc.) controlled by Axiovision software (AxioVs40, version 4.7.2.0; Carl Zeiss, Inc.), using a 100x/1.3 NA oil immersion objective (EC Plan-NeoFluar; Carl Zeiss, Inc.), and saved as tiff files (1388 \u00d7 1040, 8 bit). All pictures were treated identically using Adobe Photoshop to remove background and adjust contrast. This image corresponds to Figure 6D, middle panel (merge) in J Cell Biol. 190: 893-910, 2010. Images in Fig 6 include CIL#s 13655, 13656, 13657."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "free_text": "cervical carcinoma"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/2906/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. 190: 893-910. 2010."
+                    ],
+                    "Contributors": [
+                        "Hung-Hsiang Huang",
+                        "Pamela Stanley"
+                    ],
+                    "PUBMED": [
+                        "20805325"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13656",
+            "ARK": "ark:/b7295/w9cil13656",
+            "Title": "Hung-Hsiang Huang, Pamela Stanley (2011) CIL:13656, Homo sapiens, epithelial cell, cervical carcinoma. CIL. Dataset"
+        }
+    }
+}

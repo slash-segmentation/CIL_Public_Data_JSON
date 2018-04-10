@@ -1,0 +1,191 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11643.jpg",
+                    "Size": 513885
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "11643.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11643.zip",
+                    "Size": 1379724
+                }
+            ],
+            "CORE": {
+                "TELEOST_ANATOMY": [
+                    {
+                        "onto_id": "NCBITaxon:404419"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "9787",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "stereocilium",
+                    "onto_id": "GO:0032420"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "stereocilium organization"
+                    },
+                    {
+                        "onto_name": "auditory receptor cell stereocilium organization",
+                        "onto_id": "GO:0060088"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Carassius sp. U8MN",
+                    "onto_id": "NCBITaxon:404419"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 898
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1283
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print from negative scanned for Photoshop."
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Figure 327 from Chapter 13 (Cilia and Flagella) of 'The Cell' by Don W. Fawcett M.D. Longitudinal section of the apex of a hair cell from the saccular macula of the goldfish. The stereocilia are seen in longitudinal section, the sensory hairs are narrower at their base and contain a large number of parallel filaments that converge into a dense bundle in the narrow basal region of the hair and then diverge again as they continue into the cuticular plate in the apical cytoplasm. A copy of the chapter is available on the ASCB's BioEDUCATE website."
+                },
+                "CELLTYPE": {
+                    "free_text": "saccular macula"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "ISBN 0721635849"
+                    ],
+                    "Contributors": [
+                        "Don W. Fawcett",
+                        "Kogaku Saito",
+                        "Kiyoshi Hama"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "TAO:NCBITaxon:404419"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11643",
+            "ARK": "ark:/b7295/w9cil11643",
+            "Title": "Don W. Fawcett, Kogaku Saito, Kiyoshi Hama (2011) CIL:11643, Carassius sp. U8MN, saccular macula. CIL. Dataset"
+        }
+    }
+}

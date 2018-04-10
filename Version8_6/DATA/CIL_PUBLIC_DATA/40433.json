@@ -1,0 +1,134 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40433.tif",
+                    "Size": 6400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40433.jpg",
+                    "Size": 1831909
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    }
+                ],
+                "GROUP_ID": "11328",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "vacuole",
+                        "onto_id": "GO:0005773"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "organelle organization",
+                        "onto_id": "GO:0006996"
+                    },
+                    {
+                        "free_text": "sertraline treatment"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae",
+                    "onto_id": "NCBITaxon:4932"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "This group of images contains representative whole-cell images and high-magnification zooms of organelle structures of interest. All cells were grown in liquid rich media (YPD pH6.5) at 30C with aerated shaking, and cultures were sampled in mid-logarithmic phase. Treated cells were exposed to 60\u00b5M antidepressant sertraline (Zoloft\u00ae) for 45 minutes."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2416
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2644
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of a representative sertraline-treated sac1\u2206 mutant cell. SAC1 encodes a phosphatase that converts phosphatidylinositol 4-phosphate (PIP) to phosphatidylinositol (PI).  (8,000X).  An untreated image of the same mutant is available as CIL 40434."
+                },
+                "CELLTYPE": {
+                    "free_text": "sac1\u2206 mutant"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Princeton EM Core Facility"
+                    ],
+                    "Contributors": [
+                        "Ethan Perlstein",
+                        "Daniel Korostyshevsky"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40433",
+            "ARK": "ark:/b7295/w9cil40433",
+            "Title": "Ethan Perlstein, Daniel Korostyshevsky (2012) CIL:40433, Saccharomyces cerevisiae, sac1\u2206 mutant. CIL. Dataset"
+        }
+    }
+}

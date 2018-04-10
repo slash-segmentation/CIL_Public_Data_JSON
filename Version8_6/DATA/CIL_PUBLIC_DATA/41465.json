@@ -1,0 +1,141 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41465.jpg",
+                    "Size": 4863352
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41465.zip",
+                    "Size": 38628162
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41465.tif",
+                    "Size": 38700000
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "neuron projection",
+                        "onto_id": "GO:0043005"
+                    },
+                    {
+                        "onto_name": "neuronal cell body",
+                        "onto_id": "GO:0043025"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "MOUSE_GROSS_ANATOMY": [
+                    {
+                        "onto_name": "TS25,cerebellum",
+                        "onto_id": "EMAP:10376"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4000
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3216
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "CELLTYPE": [
+                    {
+                        "free_text": "purkinje neuron"
+                    },
+                    {
+                        "onto_name": "glial cell",
+                        "onto_id": "CL:0000125"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Photomicrograph of a midsaggital section showing the different components of the rat cerebellum, including Purkinje neurons in green, glia (non-neuronal cells) in red, and cell nuclei in blue.  This image is part of an ongoing effort to develop methods to enable the creation large-scale \ndigital atlases of the brain. Fifth Prize, 2007 Olympus BioScapes Digital Imaging."
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EMAP:EMAP:10376"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "National  Center for Microscopy and Imaging Research,  University of California, San Diego, CA, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2007 Olympus BioScapes Digital Imaging",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2007/5.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Thomas Deerinck",
+                        "2007 Olympus BioScapes Digital Imaging"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41465",
+            "ARK": "ark:/b7295/w9cil41465",
+            "Title": "Thomas Deerinck, 2007 Olympus BioScapes Digital Imaging (2012) CIL:41465, Rattus, glial cell, purkinje neuron. CIL. Dataset"
+        }
+    }
+}

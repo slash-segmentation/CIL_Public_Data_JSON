@@ -1,0 +1,132 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "10430.jpg",
+                    "Size": 1703387
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "10430.zip",
+                    "Size": 20497716
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "10430.tif",
+                    "Size": 20300000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "critical_point dried specimen",
+                        "onto_id": "FBbi:00000581"
+                    }
+                ],
+                "GROUP_ID": "2878",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "darkfield illumination",
+                        "onto_id": "FBbi:00000292"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nuclear chromatin",
+                    "onto_id": "GO:0000790"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "spread preparation"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Gallus gallus",
+                    "onto_id": "NCBITaxon:9031"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3696,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2742,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "erythrocyte",
+                    "onto_id": "CL:0000232"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Nucleated erythrocytes from chicken were spread on water, the dispersed chromatin picked up on carbon-formvar grids, fixed with paraformaldehye, critical point dried and shadowed with platinum.  Images were obtained with the Wisconsin high voltage TEM at 1MEV using darkfield illumination.  For this micrograph, the grid was tilted to 40 degrees. A similar micrograph tilted to 54 degrees providing a stereo pair with an oblique 3D view of the tangled and irregular chromatin fibers is grouped with this image. The combination of shadowing and darkfield illumination gives a quasi-negative stain effect revealing nucleosomes in some fibers."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Hans Ris"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL10430",
+            "ARK": "ark:/b7295/w9cil10430",
+            "Title": "Hans Ris (2010) CIL:10430, Gallus gallus, erythrocyte. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,172 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "7437.tif",
+                    "Size": 4400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7437.jpg",
+                    "Size": 250180
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7437.zip",
+                    "Size": 4354331
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "kinesin complex",
+                        "onto_id": "GO:0005871"
+                    },
+                    {
+                        "onto_name": "microtubule",
+                        "onto_id": "GO:0005874"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "protein localization to chromosome, centromeric region",
+                    "onto_id": "GO:0071459"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1392,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 105
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1040,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 105
+                            }
+                        }
+                    },
+                    {
+                        "Wavelength": {
+                            "unit": "nanometers",
+                            "value": "488"
+                        }
+                    },
+                    {
+                        "Wavelength": {
+                            "unit": "nanometers",
+                            "value": "561"
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 568",
+                        "onto_id": "FBbi:00000442"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Sub-confluent, interphase Human Umbilical Vein Endothelial Cells (HUVECs) transfected with GFP-WT-MCAK (Mitotic Centromere Associated Kinesin) and grown in culture for 8 hours.  Cells were fixed in PHEM buffer containing 4% paraformaldehyde,  0.05% gluteraldehyde, and 0.2% Triton X-100.  Cells were then labeled with mouse anti-tubulin detected by goat anti-mouse Alexa 568 antibody. \n\nCells were imaged on a spinning disk confocal microscope using a 60x 1.4 NA oil immersion objective lens on a Nikon Eclipse Ti equipped with Perfect Focus System and a Yokogawa CSU-X spinning disk confocal scan head equipped with a multi-bandpass dichromatic mirror (Semrock; Rochester, NY) and bandpass filters (Chroma; Rockingham, VT) in an electronic filterwheel for selection of GFP or Texas red emission.  Excitation light provided by a custom-built laser combiner module (modification of LMM-3, Spectral Applied Research; Richmond Hill, Ontario, Canada) containing 500mW solid state lasers (488 nm: Coherent; 561 nm: MPB Communications; Montreal, Quebec) that were shuttered with electronic shutters and attenuated and/or directed to a fiber-coupled output port with an AOTF (Neos Technologies, Melbourne, FL) and directed to the confocal scan-head via a single-mode optical fiber (Oz Optics, Ottawa, Ontario, Canada).  A Coolsnap HQ2  camera captured images with 200ms exposure @ 488nm and 400ms exposure @ 560nm."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "endothelial cell",
+                        "onto_id": "CL:0000115"
+                    },
+                    {
+                        "onto_name": "primary cell line cell",
+                        "onto_id": "CL:0000001"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Laboratory of Cell and Tissue Morphodynamics \t\t\t\tCell Biology and Physiology Center \t\t\t\tNational Heart, Lung, and Blood Institute \t\t\t\tNational Institutes of Health \t\t\t\tBuilding 50 South Drive \t\t\t\tRoom"
+                    ],
+                    "Contributors": [
+                        "Kenneth Myers",
+                        "Clare M. Waterman"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7437",
+            "ARK": "ark:/b7295/w9cil7437",
+            "Title": "Kenneth Myers, Clare M. Waterman (2010) CIL:7437, Homo sapiens, endothelial cell, primary cell line cell. CIL. Dataset"
+        }
+    }
+}

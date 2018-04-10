@@ -1,0 +1,141 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41000.jpg",
+                    "Size": 26350
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41000.tif",
+                    "Size": 300000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "GROUP_ID": "11683",
+                "IMAGINGMODE": {
+                    "free_text": "total internal reflection (TIRF)"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "P-75"
+                    },
+                    {
+                        "onto_name": "actin filament",
+                        "onto_id": "GO:0005884"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "protein targeting",
+                    "onto_id": "GO:0006605"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "MDCK-II",
+                    "onto_id": "MCC:0000321"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Canis lupus familiaris",
+                    "onto_id": "NCBITaxon:9615"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Cells were grown for 5 days prior to imaging with apical TIRF microscopy. Images were taken with a Leica AM TIRF MC. Penetration depth: 90 nm.  See http://www.leica-microsystems.com/science-lab/protein-transport-processes-at-the-apical-membrane-of-polarized-epithelial-cells-applications-for-tirf-microscopy/ for additional details."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 261
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 261
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "phalloidin",
+                        "onto_id": "FBbi:00000100"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "unprocessed"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Total internal reflection (TIRF) micrograph of MDCK cells stably transfected with the apical membrane protein P75-GFP (green) and Phalloidin staining of the actin cytoskeleton (red) in close proximity or inside the apical plasma membrane."
+                },
+                "CELLTYPE": {
+                    "onto_name": "kidney cell",
+                    "onto_id": "CL:1000497"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Leica applications for TIRF microscopy",
+                            "Href": "http://www.leica-microsystems.com/science-lab/protein-transport-processes-at-the-apical-membrane-of-polarized-epithelial-cells-applications-for-tirf-microscopy"
+                        }
+                    ],
+                    "Contributors": [
+                        "Christoph Greb",
+                        "Ralf Jacob",
+                        "Anja Schu\u00e9"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41000",
+            "ARK": "ark:/b7295/w9cil41000",
+            "Title": "Christoph Greb, Ralf Jacob, Anja Schu\u00e9 (2012) CIL:41000, Canis lupus familiaris, kidney cell. CIL. Dataset"
+        }
+    }
+}

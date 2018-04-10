@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "42451.zip",
+                    "Size": 4138226
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "42451.tif",
+                    "Size": 4200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "42451.jpg",
+                    "Size": 183351
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "Golgi apparatus",
+                        "onto_id": "GO:0005794"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "apoptosis"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Cells were fixed with formaldehyde, permeabilized using Triton X-100, and stained with anti-Bax antibody 6A7 which is specific to the active form (red) and Hoechst dye to stain nuclei (red).  Images were recorded on a Hamamatsu ORCA-ER digital camera mounted on a Leica DMIRE2 inverted microscope.\nSee also: \nDumitru R, Gama V, Fagan BM, Bower JJ, Swahari V, Pevny LH, Deshmukh M. 2012. Human embryonic stem cells have constitutively active Bax at the Golgi and are primed to undergo rapid apoptosis. Mol Cell. 46(5):573-83."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1344
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Hoechst 33258",
+                        "onto_id": "FBbi:00000417"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "embryonic stem cell",
+                    "onto_id": "CL:0002322"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Immunofluorescence image of Human Embryonic Stem cells stained with an antibody to the active form of Bax (red) and Hoechst (blue). The distribution of Bax, an apoptosis mediator indicates that it resides in the Golgi apparatus under these conditions."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "NIGMS Biomedical Beat",
+                            "Href": "http://publications.nigms.nih.gov/biobeat/12-06-21/index.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "M. Deshmukh",
+                        "R. Dimitru",
+                        "V. Gama",
+                        "B.M. Fagan",
+                        "J.J. Bower",
+                        "V. Swahari",
+                        "L.H. Pevney"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL42451",
+            "ARK": "ark:/b7295/w9cil42451",
+            "Title": "M. Deshmukh, R. Dimitru, V. Gama, B.M. Fagan, J.J. Bower, V. Swahari, L.H. Pevney (2012) CIL:42451, Homo sapiens, embryonic stem cell. CIL. Dataset"
+        }
+    }
+}

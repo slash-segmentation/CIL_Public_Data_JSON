@@ -1,0 +1,120 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40243.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40243.jpg",
+                    "Size": 119967
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000623"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell body",
+                    "onto_id": "GO:0044297"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "One month old C57 male black mouse was perfused with Ringer's solution for 2 minutes followed by 2% glutaraldehyde and 2% paraformaldehyde in 0.15M sodium cacodylate buffer, pH 7.4, at 35 degrees Celsius for 10 minutes. Tissue was removed and fixed on ice for 1-2 hours. During this time the tissue was further dissected.\n\nDissection was followed with washes (5x5 minutes in cold 0.15M sodium cacodylate buffer), and postfixation (1% OsO4 in 0.15M sodium cacodylate buffer on ice for 1 hour), another series of rinses in cold ddH2O 4x5 minutes then 2% uranyl acetate in ddH2O on ice for 2 hours.  After staining, tissue was rinsed, dehydrated and embedded in durcupan ACM resin using standard embedding procedures."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "onto_name": "astrocyte of the hippocampus",
+                    "onto_id": "CL:0002604"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Single computed slice through a serial tomogram consisting of 26 single tilt tomographic reconstructions of the soma of an astrocyte in stratum radiatum of hippocampal area CA1 of an adult mouse.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 7503",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=7503"
+                        }
+                    ],
+                    "Contributors": [
+                        "Mark Ellisman",
+                        " Stephen Larson"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40243",
+            "ARK": "ark:/b7295/w9cil40243",
+            "Title": "Mark Ellisman,  Stephen Larson (2012) CIL:40243, Mus musculus, astrocyte of the hippocampus. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,171 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41104.zip",
+                    "Size": 11972736
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "41104.flv",
+                    "Size": 1425798
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41104.jpg",
+                    "Size": 191630
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": [
+                    {
+                        "free_text": "Bessel Sheet Microscpy"
+                    },
+                    {
+                        "free_text": "Two-Photon Microscopy"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "plasma membrane",
+                        "onto_id": "GO:0005886"
+                    },
+                    {
+                        "onto_name": "ruffle membrane",
+                        "onto_id": "GO:0032587"
+                    },
+                    {
+                        "onto_name": "endocytic vesicle",
+                        "onto_id": "GO:0030139"
+                    },
+                    {
+                        "free_text": "c-Src"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "vesicle formation"
+                    },
+                    {
+                        "onto_name": "endocytosis",
+                        "onto_id": "GO:0006897"
+                    },
+                    {
+                        "onto_name": "vesicle organization",
+                        "onto_id": "GO:0016050"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "COS-7",
+                    "onto_id": "MCC:0000112"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Chlorocebus aethiops",
+                    "onto_id": "NCBITaxon:9534"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Scanned Bessel beams can be used to generate thin light sheets that, unlike Gaussian beams, can be decoupled from their longitudinal extent. This video is from a manuscript that describes the use of scanned Bessel beams of higher NA to create light sheets sufficiently thin to achieve isotropic 3D resolution and improve the expenditure of the photon budget to the point at which hundreds of 3D image stacks comprising tens of thousands of frames can be acquired from single living cells at rates of nearly 200 frames/sec."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y"
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EmeraldFP",
+                    "onto_id": "FBbi:00000471"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "maximum likelihood deconvolution",
+                        "onto_id": "FBbi:00000361"
+                    },
+                    {
+                        "free_text": "maximum intensity projection"
+                    },
+                    {
+                        "free_text": "volume rendering"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Dynamics of membrane ruffling (top) and intracellular vesicle motion (bottom) in a cSrc-transfected COS-7 cell.  Images were collected with a Bessel Beam Microscope using two photon excitation. This form of microscopy provides extraordinary 4D resolution, including the individual \"slices\" shown in the lower right hand panel. This video corresponds to Figure 4c and Supplementary Video 6 in Nat Methods. 2011 May;8(5):417-23. Epub 2011 Mar 4. The video is a deconvolved, maximum projection, volume rendering of slices that were collected in a 48 x 46 x 42 um3 image volume with 116 x 116 x 150 nm3 voxel sizes. The video has a frame rate of 37 msec, and a volume is collected every 10.2 sec."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Eric Betzig"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "article",
+                            "Href": "http://www.nature.com/nmeth/journal/v8/n5/full/nmeth.1586.html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "Nat Methods. 2011 May;8(5):417-23. Epub 2011 Mar 4."
+                    ],
+                    "Contributors": [
+                        "Thomas A Planchon",
+                        "Liang Gao",
+                        "Daniel E Milkie",
+                        "Michael W Davidson",
+                        "James A Galbraith",
+                        "Catherine G Galbraith"
+                    ],
+                    "PUBMED": [
+                        "21378978"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41104",
+            "ARK": "ark:/b7295/w9cil41104",
+            "Title": "Thomas A Planchon, Liang Gao, Daniel E Milkie, Michael W Davidson, James A Galbraith, Catherine G Galbraith (2012) CIL:41104, Chlorocebus aethiops. CIL. Dataset"
+        }
+    }
+}

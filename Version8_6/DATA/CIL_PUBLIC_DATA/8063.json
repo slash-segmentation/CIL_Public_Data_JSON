@@ -1,0 +1,107 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "8063.jpg",
+                    "Size": 77230
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "8063.zip",
+                    "Size": 2003068
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "8063.flv",
+                    "Size": 967109
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "GROUP_ID": "3124",
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "Golgi stack",
+                        "onto_id": "GO:0005795"
+                    },
+                    {
+                        "onto_name": "clathrin-coated vesicle",
+                        "onto_id": "GO:0030136"
+                    },
+                    {
+                        "onto_name": "Golgi trans cisterna",
+                        "onto_id": "GO:0000138"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 510
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "traced and modeled with IMOD"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "ANIMATIONS"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The Golgi stack is comprised of seven cisternae, but only the seventh (trans-most) cisterna displays clathrin coated budding profiles. Clathrin spikes are clearly seen on equatorial views of certain buds. When these buds are followed to their edges through the volume of the tomogram, the distinctive 'cage' of the clathrin triskelions comes into view. Clathrin coated vesicles form at the trans-most Golgi cisterna (overview)."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Mark S. Ladinsky",
+                        "Kathryn E. Howell"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "CELLLINE": {
+                    "free_text": "NRK"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "animation",
+                        "onto_id": "FBbi:00000267"
+                    },
+                    {
+                        "onto_name": "computer graphic",
+                        "onto_id": "FBbi:00000224"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL8063",
+            "ARK": "ark:/b7295/w9cil8063",
+            "Title": "Mark S. Ladinsky, Kathryn E. Howell (2011) CIL:8063, Rattus. CIL. Dataset"
+        }
+    }
+}

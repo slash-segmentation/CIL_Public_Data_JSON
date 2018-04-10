@@ -1,0 +1,133 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39011_orig.jpg",
+                    "Size": 203948
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39011.tif",
+                    "Size": 1300000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39011.jpg",
+                    "Size": 104007
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39011.zip",
+                    "Size": 204086
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "gap junction",
+                        "onto_id": "GO:0005921"
+                    },
+                    {
+                        "onto_name": "contractile fiber",
+                        "onto_id": "GO:0043292"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "muscle contraction",
+                    "onto_id": "GO:0006936"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Ascidiacea",
+                    "onto_id": "NCBITaxon:7713"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0000108 Sea squirt heart tube.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 701
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "muscle cell",
+                    "onto_id": "CL:0000187"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal image of a sea squirt heart.  The sea squirt heart is  a tube made of a single layer of muscle cells. The contractile elements are the long striations stained red and the nuclei are also red. The green spots indicate gap junctions between the cells, which facilitate the conduction of electrical impulses through the heart, thus coordinating its contraction."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "David Becker"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39011",
+            "ARK": "ark:/b7295/w9cil39011",
+            "Title": "David Becker (2012) CIL:39011, Ascidiacea, muscle cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,129 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41027.zip",
+                    "Size": 18286803
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41027.jpg",
+                    "Size": 3129341
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "41027_orig.jpg",
+                    "Size": 18286665
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41027.tif",
+                    "Size": 37700000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "polyps"
+                    },
+                    {
+                        "free_text": "corallites"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "coral morphogenesis"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "free_text": "autofluorescence"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Goniastrea",
+                    "onto_id": "NCBITaxon:242762"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4080
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3072
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "free_text": "near-violet LED illumination"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Live green brain coral (Goniastrea) under water. Most corals consist of many small polyps living together in a colony.  One full polyp in the center is shown with four surrounding polyps. Walled corallites (skeleton of a polyp) are purple.  All color is the natural autofluorescence of the coral with the exception of the purple, which is near-violet LED illumination that is used to highlight near- transparent tissue.  Fifth Prize, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "NOAA/NOS/NCCOS Center for Coastal Environmental Health & Biomolecular Research",
+                        "Fort Johnson Marine Lab, Charleston, SC, USA."
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus BioScapes Digital Imaging Competition\u00ae.",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/5.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "James Nicholson",
+                        "2011 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41027",
+            "ARK": "ark:/b7295/w9cil41027",
+            "Title": "James Nicholson, 2011 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41027, Goniastrea. CIL. Dataset"
+        }
+    }
+}

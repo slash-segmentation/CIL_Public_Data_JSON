@@ -1,0 +1,201 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11634.jpg",
+                    "Size": 327407
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "11634.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11634.zip",
+                    "Size": 948672
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "9787",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cilium",
+                        "onto_id": "GO:0005929"
+                    },
+                    {
+                        "onto_name": "axoneme",
+                        "onto_id": "GO:0005930"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "cytoplasm",
+                        "onto_id": "GO:0005737"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "stereocilium"
+                    },
+                    {
+                        "onto_name": "microtubule basal body organization",
+                        "onto_id": "GO:0032053"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus sp.",
+                    "onto_id": "NCBITaxon:10118"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 898
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1260
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print from negative scanned for Photoshop."
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Figure 322 from Chapter 13 (Cilia and Flagella) of 'The Cell' by Don W. Fawcett M.D. Cilia and flagella usually occur on motile cells or on the free surfaces of epithelia. However, a solitary cilium is a normal occurrence on the cells lining the intra- hepatic bile ducts, the intercalated ducts of the pancreas, the rete testis, and certain segments of the nephron. The functional significance of these processes is not evident, since it seems unlikely that their motility could do more than create local turbulence in the fluid contents of these excretory ducts. Such abortive cilia usually lack the central pair of microtubules and are proba- bly immotile. Because modified cilia are found in photoreceptors and in olfactory epithelia, it has been suggested that these solitary cilia might have a sensory function but there is no evidence to support this speculation. It seems probable that they are merely anomalous, rudimentary structures with no function. A copy of the chapter is available on the ASCB's BioEDUCATE website."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "mesenchymal cell",
+                        "onto_id": "CL:0000134"
+                    },
+                    {
+                        "free_text": "of the testis"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "ISBN 0721635849"
+                    ],
+                    "Contributors": [
+                        "Don W. Fawcett"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11634",
+            "ARK": "ark:/b7295/w9cil11634",
+            "Title": "Don W. Fawcett (2011) CIL:11634, Rattus sp., mesenchymal cell, of the testis. CIL. Dataset"
+        }
+    }
+}

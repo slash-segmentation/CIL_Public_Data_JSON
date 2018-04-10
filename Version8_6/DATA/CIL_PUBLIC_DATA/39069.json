@@ -1,0 +1,173 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39069.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39069_orig.jpg",
+                    "Size": 180012
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39069.zip",
+                    "Size": 180150
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39069.jpg",
+                    "Size": 107544
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "neuron projection",
+                        "onto_id": "GO:0043005"
+                    },
+                    {
+                        "onto_name": "myosin complex",
+                        "onto_id": "GO:0016459"
+                    },
+                    {
+                        "free_text": "Hb9 gene"
+                    },
+                    {
+                        "free_text": "myosin-32"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "neuron development",
+                        "onto_id": "GO:0048666"
+                    },
+                    {
+                        "free_text": "motor neuron growth"
+                    },
+                    {
+                        "onto_name": "muscle structure development",
+                        "onto_id": "GO:0061061"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    }
+                ],
+                "MOUSE_GROSS_ANATOMY": [
+                    {
+                        "onto_name": "TS15,forelimb bud",
+                        "onto_id": "EMAP:1070"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007552 Mouse forelimb motor neuron development 11.5 days post coitum.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 662
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph showing the development of motor neurons in the mouse forelimb at 11.5 days post coitum. The transgenic mice expresses a transgene of the Hb9 gene containing a genetic insert of the gene expressing green fluorescent protein (GFP). This transgenic insert allows  the growth of motor neurons to be tracked. GFP is expressed where ever Hb9 is expressed and can be visualized using fluorescent immunohistochemistry techniques. This method can be used to accurately the time the motor neurons enter the limb to the point when they have branched to innervate all the developing muscles. In this image the developing motor neurons are shown in green (anti-GFP) and the muscle (myosin-32) is shown in red."
+                },
+                "CELLTYPE": {
+                    "onto_name": "motor neuron",
+                    "onto_id": "CL:0000100"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Clinical Sciences Centre, MRC"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EMAP:EMAP:1070"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39069",
+            "ARK": "ark:/b7295/w9cil39069",
+            "Title": "CIL (2012) CIL:39069, Mus musculus, motor neuron. CIL. Dataset"
+        }
+    }
+}

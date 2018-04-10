@@ -1,0 +1,159 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39132.jpg",
+                    "Size": 110148
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39132.tif",
+                    "Size": 3600000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39132.zip",
+                    "Size": 3508804
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    }
+                ],
+                "GROUP_ID": "11383",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "chloroplast",
+                        "onto_id": "GO:0009507"
+                    },
+                    {
+                        "onto_name": "plastid thylakoid",
+                        "onto_id": "GO:0031976"
+                    },
+                    {
+                        "onto_name": "granal stacked thylakoid",
+                        "onto_id": "GO:0009515"
+                    },
+                    {
+                        "onto_name": "plastid part",
+                        "onto_id": "GO:0044435"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "photosynthesis"
+                    },
+                    {
+                        "onto_name": "plastid organization",
+                        "onto_id": "GO:0009657"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Arabidopsis thaliana",
+                    "onto_id": "NCBITaxon:3702"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See K Philippar. T Geiss, I Ilkavets, U Oster, S Schwenkert, J Meurer, J Soll 2007 Chloroplast biogenesis: The use of mutants to study the etioplast-chloroplast transition. Proc Natl Acad Sci USA 104:678-683."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1288
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 902
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission EM of cotyledons of wildtype Arabidopsis thaliana grown under a normal day/night light regime show the typical chloroplasts with thylakoid membranes organized as stacked grana and non-stacked stromal thylakoids. Other images in this group show the phenotype of the cep16 mutant."
+                },
+                "CELLTYPE": {
+                    "free_text": "leaf"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "K Philippar. T Geiss, I Ilkavets, U Oster, S Schwenkert, J Meurer, J Soll 2007 Chloroplast biogenesis: The use of mutants to study the etioplast-chloroplast transition. Proc Natl Acad Sci USA 104:678-683"
+                    ],
+                    "Contributors": [
+                        "Katrin Philippar",
+                        "Tina Geiss",
+                        "Iryna Ilkavets",
+                        "Serena Schwenkert",
+                        "Jorg Meurer",
+                        "Jurgen Soll",
+                        "Ulrika Oster"
+                    ],
+                    "PUBMED": [
+                        "17202255"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39132",
+            "ARK": "ark:/b7295/w9cil39132",
+            "Title": "Katrin Philippar, Tina Geiss, Iryna Ilkavets, Serena Schwenkert, Jorg Meurer, Jurgen Soll, Ulrika Oster (2011) CIL:39132, Arabidopsis thaliana, leaf. CIL. Dataset"
+        }
+    }
+}

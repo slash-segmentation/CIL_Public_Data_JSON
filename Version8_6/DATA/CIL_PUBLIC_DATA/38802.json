@@ -1,0 +1,131 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38802.tif",
+                    "Size": 1000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38802.jpg",
+                    "Size": 52019
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38802.zip",
+                    "Size": 63793
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38802_orig.jpg",
+                    "Size": 63655
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "neural retina development",
+                    "onto_id": "GO:0003407"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Due to the large size of the whole structure, this images was composed of multiple z stack images 'stitched' together to show the whole structure. One side was then reflected, to create the perfect symmetry of the whole retina that you see in the image. \n\nB0007750  Confocal micrograph Collection.  Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 554
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "image reflected"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "glial cell",
+                        "onto_id": "CL:0000125"
+                    },
+                    {
+                        "onto_name": "astrocyte",
+                        "onto_id": "CL:0000127"
+                    },
+                    {
+                        "free_text": "retinal cell"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This confocal micrograph shows the detailed structure of the retina from a one-month-old mouse. The retina is the photoreceptive organ of the eye. It is composed of layers of neuronal cells that capture and transmit the light information, converting it into electrical signals that the brain can interpret. Fluorescent markers have been used to highlight different classes of these cells within the retina. Green staining highlights glial cells, which act as neuronal supporting cells and produce myelin, the protective conductive layer that surrounds the axons of the neurons. The red fluorescently labelled protein marks astrocytes, star-shaped glial cells that provide nutrients to developing neurons and regulate neuronal activity. The blue fluorescence marks cell nuclei. This image was created as part of a study to examine the stress observed in the retina as a result of oxygen deprivation. These studies are helping scientists to understand why premature babies develop retinal disease when born too early. 2011 Wellcome Images Award winner."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Freya Mowat"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38802",
+            "ARK": "ark:/b7295/w9cil38802",
+            "Title": "Freya Mowat (2011) CIL:38802, Mus musculus, glial cell, astrocyte, retinal cell. CIL. Dataset"
+        }
+    }
+}

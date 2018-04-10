@@ -1,0 +1,146 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "132.zip",
+                    "Size": 10043023
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "132.tif",
+                    "Size": 7600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "132.jpg",
+                    "Size": 59137
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell leading edge",
+                        "onto_id": "GO:0031252"
+                    },
+                    {
+                        "onto_name": "focal adhesion",
+                        "onto_id": "GO:0005925"
+                    },
+                    {
+                        "onto_name": "cytoskeleton",
+                        "onto_id": "GO:0005856"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "regulation of actin cytoskeleton organization",
+                    "onto_id": "GO:0032956"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "NIH/3T3",
+                    "onto_id": "MCC:0000362"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "structural constituent of cytoskeleton",
+                    "onto_id": "GO:0005200"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 462,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.04
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 286,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.04
+                            }
+                        }
+                    },
+                    {}
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "non-linear methods",
+                    "onto_id": "FBbi:00000355"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "NIH 3T3 cell transfected with EGFP-VASP.  VASP is localized to the focal adhesions and is also present along the protruding leading edge.  VASP only hightlights the portions of the periphery that are advancing forward, giving VASP a non-uniform distribution along the leading edge.\n\nTime series taken as a single confocal slice using a Zeiss LSM 510 confocal with a 100X 1.3 NA objective, 488 nm excitation and a 505-530 BP emission filter."
+                },
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "ATTRIBUTION": {
+                    "DATE": [
+                        "02/07/2003"
+                    ],
+                    "Contributors": [
+                        "Catherine Galbraith,"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": true,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL132",
+            "ARK": "ark:/b7295/w9cil132",
+            "Title": "Catherine Galbraith, (2010) CIL:132, Mus musculus, fibroblast. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41566.zip",
+                    "Size": 3434850
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41566.tif",
+                    "Size": 3500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41566.jpg",
+                    "Size": 120284
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "hyphae"
+                    },
+                    {
+                        "free_text": "stigma hairs"
+                    },
+                    {
+                        "free_text": "sclerotium"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "fungal infection"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Claviceps",
+                        "onto_id": "NCBITaxon:5110"
+                    },
+                    {
+                        "onto_name": "Triticum aestivum",
+                        "onto_id": "NCBITaxon:4565"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 592
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "fungal cell",
+                    "onto_id": "CL:0000521"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This confocal micrograph shows wheat stigma (green) infected with Claviceps fungus (yellow).  The image was captured with a confocal microscope using a 40X objective.  A related image is available as CIL 38806.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:ergotism"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Department of Plant Sciences, University of Cambridge and The Bingham Laboratory, NIAB Cambridge, United Kingdom"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm14.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Fernan Federici",
+                        "Anna Gordon",
+                        "2011 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "free_text": "ergotism"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41566",
+            "ARK": "ark:/b7295/w9cil41566",
+            "Title": "Fernan Federici, Anna Gordon, 2011 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41566, Claviceps, Triticum aestivum, fungal cell. CIL. Dataset"
+        }
+    }
+}

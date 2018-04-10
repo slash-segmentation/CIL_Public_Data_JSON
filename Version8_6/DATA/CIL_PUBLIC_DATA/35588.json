@@ -1,0 +1,148 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35588.zip",
+                    "Size": 1896399
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35588.jpg",
+                    "Size": 103413
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "35588.tif",
+                    "Size": 2000000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "coagulating-fixative fixed tissue",
+                    "onto_id": "FBbi:00000003"
+                },
+                "GROUP_ID": "9892",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "spindle",
+                        "onto_id": "GO:0005819"
+                    },
+                    {
+                        "onto_name": "kinetochore",
+                        "onto_id": "GO:0000776"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Cultured HeLa cells were permeabilized, fixed with methanol at -20C for 10 min and processed for immunofluorescence microscopy and recorded using a Zeiss Axioskop microscope."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1386
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 456
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Distribution of Nup85 (a component of the Nup107-160 nucleoporin complex, red) and CENP-B (kinetochores, green) in dividing Hela cells.  See Fig 2B in Orjalo et al. 2006 Mol Biol Cell 17:3806-3818."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "free_text": "cervical carcinoma"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Orjalo et al. 2006 The Nup107-160 nucleoporin complex is required for correct bipolar spindle assembly. Mol Biol Cell 17:3806-3818"
+                    ],
+                    "Contributors": [
+                        "Arturo Orjalo",
+                        "Alexei Arnaoutov",
+                        "Zhouxin Shen",
+                        "Yekaterina Boyarchuk",
+                        "Samantha Zeitlin",
+                        "Beatriz Fontoura",
+                        "Steven Briggs",
+                        "Mary Dasso",
+                        "Douglass Forbes"
+                    ],
+                    "PUBMED": [
+                        "16807356"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35588",
+            "ARK": "ark:/b7295/w9cil35588",
+            "Title": "Arturo Orjalo, Alexei Arnaoutov, Zhouxin Shen, Yekaterina Boyarchuk, Samantha Zeitlin, Beatriz Fontoura, Steven Briggs, Mary Dasso, Douglass Forbes (2011) CIL:35588, Homo sapiens, epithelial cell, cervical carcinoma. CIL. Dataset"
+        }
+    }
+}

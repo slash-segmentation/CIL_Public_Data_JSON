@@ -1,0 +1,128 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Mitochondria are sequestered inside Rab5+ endosomes after FCCP treatment in WT and Atg5-/- MEFs. Wild-type (WT) and Atg5-/- mouse embryonic fibroblasts (MEFs) were transfected with GFP-Rab5, nanobody against GFP (VHH)-APEX2, HA-Parkin, and mPlum-mito-3 using Fugene 6. Cells were treated with DMSO or 25 uM FCCP for 4 hours and fixed with 2.5% gluteraldehyde. Cells were imaged by confocal microscopy and subsequently processed and imaged for transmission electron microscopy. Colocalizing puncta found by confocal microscopy, indicating mPlum-mito-3+ mitochondria within GFP-Rab5+ early endosomes, were correlated to their location in the electron micrographs. Tomograms were acquired of these locations, which morphological confirm the presence of mitochondria within single-membraned early endosomes."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "For the correlated light and electron microscopy, cells were plated on gridded MatTek dishes (MatTek Corporation) and transfected with GFP-Rab5, nanobody against GFP (VHH)-APEX272, HA-Parkin, and mPlum-mito-3 using Fugene6 (Promega Inc.) according to the manufacturer\u2019s instructions. Cells were treated with 25 \u00b5M FCCP or DMSO for 4 hours, then fixed in 2.5% glutaraldehyde in 0.1M cacodylate buffer pH 7.4 for 1 hour on ice, and imaged on a Leica SPE II (Leica) inverted confocal microscope. For VHH-APEX2, the DAB staining was performed as previously described25. Cells were post-fixed in 1% osmium tetroxide for 30 minutes on ice. After several washes in cold double distilled water, cells were dehydrated in a cold graded ethanol series (20%, 50%, 70%, 90%, 100%) 3 minutes each on ice, then washed in room temperature 100% ethanol, and embedded in Durcupan ACM resin (Electron Microscopy Sciences, Hatfield, PA ). Sections were cut using a diamond knife (Diatome) at a thickness between 200nm and 300nm for electron tomography and collected on LuxFilm grids (Luxel Corporation). Colloidal gold particles (5 and 10nm diameter) were deposited on each side of the sections to serve as fiducial markers. EM data were obtained using FEI Titan high base microscope operated at 300kV; micrographs were produced using a 4k x 4k Gatan CCD camera (US4000). For each section, montages of the cell of interest were acquired using the SerialEM software package. The set of 2D EM maps of the cell under scrutiny was correlated with the 3D light microscopy (LM) stack allowing a global registration of the two modalities. This enabled the EM tracking of puncta representing the colocalization of the Rab5-GFP and the mitochondrial signal in the LM volume. This was accomplished using an in-house software allowing side-by-side comparison of multiple views across different microscopy modalities, and establishing an optimal 3D registration. For tomography, double-tilt series were collected using the SerialEM package. For each series the sample was tilted from -60 to +60 degrees, every 0.5 degree. Tomograms were generated using iterative reconstruction procedure73. To analyze larger volumes consecutive sections were reconstructed serially. 3D reconstruction modeling was done with the IMOD tomography software package."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "embryonic cell",
+                        "onto_id": "CL:0002321"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "endosome",
+                        "onto_id": "GO:0005768"
+                    },
+                    {
+                        "free_text": "mitochondria"
+                    }
+                ],
+                "CELLLINE": [
+                    {
+                        "free_text": "CL:0000057"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Mus musculus",
+                        "onto_id": "NCBITaxon:10090"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "scanning electron microscopy (SEM)",
+                        "onto_id": "FBbi:00000257"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Babette Hammerling",
+                        "Rita Najor",
+                        "Melissa Cortez",
+                        "Sarah Shires",
+                        "Leonardo Leon",
+                        "Eileen Gonzalez",
+                        "Daniela Boassa",
+                        "S\u00e9bastien Phan",
+                        "Andrea Thor",
+                        "Rebecca Jimenez",
+                        "Hong Li",
+                        "Richard Kitsis",
+                        "Gerald Dorn",
+                        "Junichi Sadoshima",
+                        "Mark Ellisman",
+                        "Asa Gustafsson"
+                    ],
+                    "URLs": [
+                        {
+                            "Href": "https://www.ncbi.nlm.nih.gov/pubmed/28134239",
+                            "Label": "PubMed"
+                        }
+                    ],
+                    "OTHER": [
+                        "project_20381"
+                    ]
+                }
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_path": "49418.tif",
+                    "Size": 1600000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_path": "49418.jpg",
+                    "Size": 153979,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_path": "49418.zip",
+                    "Size": 294324,
+                    "File_type": "Zip"
+                }
+            ],
+            "Alternative_image_files": [
+                {
+                    "File_path": "Download Submitted Data",
+                    "File_type": "Gzip",
+                    "Mime_type": "application/gzip",
+                    "URL_postfix": "/ftp/data/telescience/home/CCDB_DATA_USER.portal/CCDB_DATA_USER/acquisition/project_20381/pid-20381-for_ccdb.tar.gz",
+                    "Size": "9653231831"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": true,
+            "Video": false,
+            "Still_image": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL49418",
+            "ARK": "ark:/b7295/w9cil49418",
+            "Title": "Babette Hammerling, Rita Najor, Melissa Cortez, Sarah Shires, Leonardo Leon, Eileen Gonzalez, Daniela Boassa, S\u00e9bastien Phan, Andrea Thor, Rebecca Jimenez, Hong Li, Richard Kitsis, Gerald Dorn, Junichi Sadoshima, Mark Ellisman, Asa Gustafsson (2016) CIL:49418, Mus musculus, embryonic cell. CIL. Dataset"
+        }
+    }
+}

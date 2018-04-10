@@ -1,0 +1,121 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41821.jpg",
+                    "Size": 2011234
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41821.tif",
+                    "Size": 43500000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "41821_orig.jpg",
+                    "Size": 9876245
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41821.zip",
+                    "Size": 9876383
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "dark-field microscopy",
+                    "onto_id": "FBbi:00000244"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "frustule"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "unicellular algae organization"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Bacillariophyta",
+                    "onto_id": "NCBITaxon:2836"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4655
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3104
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Darkfield illumination image of a diatom from a oamaru fossil. Honorable Mention, 2010 \nOlympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Trier, Rheinland-Pflaz, Germany"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2010  Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2010/hm15.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Frank Fox",
+                        "2010  Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41821",
+            "ARK": "ark:/b7295/w9cil41821",
+            "Title": "Frank Fox, 2010  Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41821, Bacillariophyta. CIL. Dataset"
+        }
+    }
+}

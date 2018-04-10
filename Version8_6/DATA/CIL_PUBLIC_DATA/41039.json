@@ -1,0 +1,118 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41039.jpg",
+                    "Size": 51227
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41039.tif",
+                    "Size": 1100000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41039.zip",
+                    "Size": 89090
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "coccoliths"
+                    },
+                    {
+                        "onto_name": "extracellular region",
+                        "onto_id": "GO:0005576"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "unclassified coccolithophorid CCMP300",
+                    "onto_id": "NCBITaxon:97496"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image collected on a FEI: Quanta Family Instrument using Magnification: 14269xv Horizontal Field Width: 20.9 micron, Vacuum: 10-4 mbar, Voltage: 10 kV, Detector: SE, Spot: 2.5 nA, and Working Distance: 10 mm."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 590
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 595
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph of a Coccolithophorid marine organism.  Coccolithophorids are a group of unicellular plant plankton, which surround themselves with minute and highly structured calcite plates, called coccoliths"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Science Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/coccolithophorid-1140.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Philippe Crassous"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41039",
+            "ARK": "ark:/b7295/w9cil41039",
+            "Title": "Philippe Crassous (2012) CIL:41039, unclassified coccolithophorid CCMP300. CIL. Dataset"
+        }
+    }
+}

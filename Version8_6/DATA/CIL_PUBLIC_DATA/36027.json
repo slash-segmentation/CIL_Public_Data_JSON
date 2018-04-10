@@ -1,0 +1,178 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36027.tif",
+                    "Size": 600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36027.jpg",
+                    "Size": 28753
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36027.zip",
+                    "Size": 582162
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "coagulating-fixative fixed tissue",
+                        "onto_id": "FBbi:00000003"
+                    }
+                ],
+                "GROUP_ID": "8919",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "confocal microscopy",
+                        "onto_id": "FBbi:00000251"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nuclear envelope",
+                    "onto_id": "GO:0005635"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "CELLLINE": [
+                    {
+                        "free_text": "AG11513"
+                    },
+                    {
+                        "free_text": "HGADFN003"
+                    },
+                    {
+                        "free_text": "AG09602B"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Cells were fixed in formaldehyde or cold methanol, processed for indirect immunofluorescence and images recorded using a Zeiss LSM510 confocal microscope."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 782
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 248
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Fluorescein (FITC)",
+                        "onto_id": "FBbi:00000451"
+                    },
+                    {
+                        "onto_name": "Rhodamine",
+                        "onto_id": "FBbi:00000452"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 568",
+                        "onto_id": "FBbi:00000442"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Shown is a fibroblast from a Hutchinson-Gilford Progeria syndrome patient which carries a truncation in the gene for lamin A (red, left image), a major component of the nuclear lamina. The distribution of lamin B is seen in the center image (green) and the merge at right.  This passage 26 cell shows marked nuclear envelope abnormalities especially in the distribution of lamin A. Other nuclear envelope abnormalities observed in HGPS cells are shown in other images in this group. See Fig 1 in R.G. Goldman et al. 2004 Proc Natl Acad Sci 101:8963-8968."
+                },
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "nuclear envelope",
+                            "Href": "http://www.ncbi.nlm.nih.gov/pubmed/15184648"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "R.D. Goldman et al. 2004. Proc Natl Acad Sci 101:8963-8968"
+                    ],
+                    "Contributors": [
+                        "RD Goldman",
+                        "DK Shumaker",
+                        "MR Erdos",
+                        "M Eriksson",
+                        "AE Goldman",
+                        "LB Gordon",
+                        "Y Gruenbaum",
+                        "S Khuon",
+                        "M Mendez",
+                        "R Varga",
+                        "FS Collins"
+                    ],
+                    "PUBMED": [
+                        "15184648"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36027",
+            "ARK": "ark:/b7295/w9cil36027",
+            "Title": "RD Goldman, DK Shumaker, MR Erdos, M Eriksson, AE Goldman, LB Gordon, Y Gruenbaum, S Khuon, M Mendez, R Varga, FS Collins (2011) CIL:36027, Homo sapiens, fibroblast. CIL. Dataset"
+        }
+    }
+}

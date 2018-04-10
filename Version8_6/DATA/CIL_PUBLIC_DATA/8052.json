@@ -1,0 +1,185 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "8052.flv",
+                    "Size": 762380
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "8052.zip",
+                    "Size": 1138812
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "8052.jpg",
+                    "Size": 7336
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "11197",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "time lapse microscopy",
+                        "onto_id": "FBbi:00000249"
+                    },
+                    {
+                        "onto_name": "widefield illumination",
+                        "onto_id": "FBbi:00000277"
+                    },
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "kinetochore",
+                        "onto_id": "GO:0000776"
+                    },
+                    {
+                        "onto_name": "spindle pole centrosome",
+                        "onto_id": "GO:0031616"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mitotic metaphase",
+                    "onto_id": "GO:0000089"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "This HeLa cell was analyzed by time-lapse microscopy 48 hours after DNA transfection and 30 hours after transfection with control siRNA (Ambion Negative Control #1). Prior to filming the cell was switched to CO2-independent media (Life Technologies). Cells were imaged with a Deltavision RT system (Applied Precision) equipped with a CCD camera, 60X 1.42 NA lens (Olympus) and a 37C environmental chamber (Applied Precision). Z-stacks containing five focal planes with 0.5 microns spacing were acquired at intervals of 2 seconds. Images were deconvolved and projected as a 2-D image stack using Softworx software (Applied Precision). The movie was cropped, bleach corrected, and contrast adjusted using Image J. Display rate is 25 frames per second. Original resource created on August 20, 2007.Original resource: 63.3 Mb Deltavision image stack."
+                },
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "attachment of spindle microtubules to chromosome",
+                        "onto_id": "GO:0051313"
+                    },
+                    {
+                        "onto_name": "mitotic spindle organization",
+                        "onto_id": "GO:0007052"
+                    },
+                    {
+                        "onto_name": "centromeric DNA binding",
+                        "onto_id": "GO:0019237"
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "VenusFP",
+                        "onto_id": "FBbi:00000477"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 230
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 244
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "225",
+                            "value": 2
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "3D-deconvolution",
+                    "onto_id": "FBbi:00000357"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Metaphase Kinetochore Dynamics: In this HeLa cell, which is expressing both a kinetochore marker (EGFP-CENP-B) and a centrosome marker (Venus-centrin), one can visualize the dynamic nature of kinetochore movements during metaphase. At this stage in mitosis, sister kinetochore pairs, seen as paired dots oriented parallel to the x-axis, are attached to opposite spindle poles, marked by the two pairs of venus centrin dots near the left and right edges of the movie (usually oriented perpendicular to the x-axis in this movie). Kinetochores in metaphase HeLa cells typically undergo oscillatory movements around the equator of the spindle with average oscillation amplitudes of 1.2 microns. The sister kinetochores display primarily coordinated movements but also move relative to each other, which can be seen as increases and decreases in the distance between the sisters. These movements are highly coordinated with the dynamics of microtubules attached to the kinetochores. Note that the centrin dots are approximately 12 microns apart at the start of the movie. This movie was part of a set that won first place in the 2007 ASCB Celldance contest."
+                },
+                "CELLTYPE": [
+                    {
+                        "free_text": "cervical cancer"
+                    },
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Dev Cell. Feb;14(2):252-62. (2008)"
+                    ],
+                    "Contributors": [
+                        "Jason Stumpff",
+                        "George von Dassow",
+                        "Michael Wagenbach",
+                        "Charles Asbury",
+                        "Linda Wordeman"
+                    ],
+                    "PUBMED": [
+                        "18267093"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL8052",
+            "ARK": "ark:/b7295/w9cil8052",
+            "Title": "Jason Stumpff, George von Dassow, Michael Wagenbach, Charles Asbury, Linda Wordeman (2011) CIL:8052, Homo sapiens, epithelial cell, cervical cancer. CIL. Dataset"
+        }
+    }
+}

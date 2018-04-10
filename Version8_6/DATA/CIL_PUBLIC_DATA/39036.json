@@ -1,0 +1,153 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39036_orig.jpg",
+                    "Size": 316149
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39036.jpg",
+                    "Size": 181572
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39036.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39036.zip",
+                    "Size": 316287
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "zona pellucida"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "ovarian follicle development",
+                    "onto_id": "GO:0001541"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "MOUSE_GROSS_ANATOMY": [
+                    {
+                        "onto_name": "TS25,ovary",
+                        "onto_id": "EMAP:10923"
+                    },
+                    {
+                        "free_text": "Graafian follicle"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007746 Mature Graafian follicle, mouse ovary.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 560
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "oocyte",
+                        "onto_id": "CL:0000023"
+                    },
+                    {
+                        "onto_name": "follicle cell",
+                        "onto_id": "CL:0000477"
+                    },
+                    {
+                        "onto_name": "egg",
+                        "onto_id": "CL:0000025"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A photomicrograph of a stained semi-thin section of mouse ovary, showing a maturing Graafian follicle. The ovary contains many follicles that contain immature oocytes (egg cells). The follicle is important to support maturation and also develops through a number of stages as the ooctye matures. This process of folliculogenesis includes; the immature dormant primordial follicle, primary follicle, secondary follicle and tertiary stage follicle before ovulation occurs. The tertiary stage follicle is also called an antral or Graafian follicle characterised by a large fluid filled space (or antrum). The Graafian follicle also contains a fully mature oocyte at its full size complete with zona pellucida. Scale = 1.1mm"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Spike Walker"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "EMAP:EMAP:10923"
+                    },
+                    {
+                        "onto_id": "EMAP:Graafian follicle"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39036",
+            "ARK": "ark:/b7295/w9cil39036",
+            "Title": "Spike Walker (2011) CIL:39036, Mus musculus, oocyte, follicle cell, egg. CIL. Dataset"
+        }
+    }
+}

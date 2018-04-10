@@ -1,0 +1,214 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39127.tif",
+                    "Size": 51300000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39127.jpg",
+                    "Size": 6469549
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39127.zip",
+                    "Size": 51175226
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in vitreous ice embedment",
+                        "onto_id": "FBbi:00000089"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    },
+                    {
+                        "free_text": "monoclonal antibody"
+                    }
+                ],
+                "GROUP_ID": "9928",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "coated pit",
+                        "onto_id": "GO:0005905"
+                    },
+                    {
+                        "onto_name": "cell cortex",
+                        "onto_id": "GO:0005938"
+                    },
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "glycogen granule",
+                        "onto_id": "GO:0042587"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cortical cytoskeleton organization",
+                        "onto_id": "GO:0030865"
+                    },
+                    {
+                        "onto_name": "cytoplasm organization",
+                        "onto_id": "GO:0007028"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "intrinsic mass distribution",
+                        "onto_id": "FBbi:00000607"
+                    },
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium caudatum",
+                    "onto_id": "NCBITaxon:5885"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. The raw negative was scanned with an Epson Perfection V750 Pro and this high resolution image is best used for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4329,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 5910,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "gold",
+                        "onto_id": "FBbi:00000202"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Ciliates such as Paramecium have specialized sites for endocytosis and exocytosis. Most of their surface is not available for internalization of membrane because of the underlying alveolar sac system. However to the right of each basal body or pair of basal bodies is an indentation of the plasma membrane called the parasomal sac. This penetrates through the septum and ends as a coated pit. This micrograph also illustrates the normal view of mitochondria in P. caudatum which are filled with tubular cristae. In cacodylate-buffered fixations the cytosol contains abundant electron-opaque glycogen storage granules which seem to be removed during collidine-buffered fixations. TEM taken on 5/28/69 by R. Allen with Philips 300 operating at 60kV. Neg. 14,800X."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39127",
+            "ARK": "ark:/b7295/w9cil39127",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:39127, Paramecium caudatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

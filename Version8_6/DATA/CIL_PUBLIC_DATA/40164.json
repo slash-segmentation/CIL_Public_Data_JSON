@@ -1,0 +1,115 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40164.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40164.jpg",
+                    "Size": 93663
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Tissue was obtained from a postnatal day 3 male mouse.  Images were obtained using a JEOL 4000 microscope.  Single tilt tomogram spanned -60 to 60\u00b0 at 2\u00b0 increments.  Magnification: 20000X, accelerating voltage: 400.0 KeV."
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "GROUP_ID": "12402",
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000623"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "node of Ranvier",
+                        "onto_id": "GO:0033268"
+                    },
+                    {
+                        "onto_name": "myelin sheath",
+                        "onto_id": "GO:0043209"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 611
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 611
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Single slice through a single tilt tomogram of the Node of Ranvier from mouse sciatic nerve. This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database.  For more information see: Sosinsky et al. (2005) Development of a model for microphysiological simulations: small nodes of ranvier from peripheral nerves of mice reconstructed by electron tomography. Neuroinformatics. 3(2):133-62. PMID: 15988042"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "peripheral neuron",
+                        "onto_id": "CL:0000111"
+                    },
+                    {
+                        "onto_name": "myelinating Schwann cell",
+                        "onto_id": "CL:0000218"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "regulation of action potential in neuron",
+                    "onto_id": "GO:0019228"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 48",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?mpid=48&event=displayAll"
+                        }
+                    ],
+                    "Contributors": [
+                        " Mark Ellisman",
+                        "Gina Sosinsky"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40164",
+            "ARK": "ark:/b7295/w9cil40164",
+            "Title": " Mark Ellisman, Gina Sosinsky (2012) CIL:40164, Mus musculus, peripheral neuron, myelinating Schwann cell. CIL. Dataset"
+        }
+    }
+}

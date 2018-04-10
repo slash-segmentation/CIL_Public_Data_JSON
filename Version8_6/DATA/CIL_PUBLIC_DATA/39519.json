@@ -1,0 +1,141 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39519.tif",
+                    "Size": 315500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39519.jpg",
+                    "Size": 45327
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "living tissue",
+                        "onto_id": "FBbi:00000025"
+                    },
+                    {
+                        "free_text": "microfulidic chamber"
+                    },
+                    {
+                        "free_text": "chemoattractant gradient"
+                    }
+                ],
+                "GROUP_ID": "10759",
+                "IMAGINGMODE": {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "neutrophil chemotaxis",
+                        "onto_id": "GO:0030593"
+                    },
+                    {
+                        "onto_name": "cell migration",
+                        "onto_id": "GO:0016477"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "More experimental details are available in the referenced manuscript."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 904
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 649
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "179",
+                            "value": 10
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Video replicating  some of the challenges neutrophils are likely to encounter along their way through tissues.  Neutrophils are the white blood cells and their main function is to protect us against infections. To accomplish their mission, neutrophils have to be able to move out of the blood stream and through the tissue, following chemical signals diffusing from the site of an injury or infection.  In this movie, human neutrophils move from 0 (bottom) to 100 % (up) chemoattractant concentration (100nM fMLP), through small channels. One can easily see that neutrophils can navigate without trouble around posts in the middle of these channels. Notice that neutrophils extend on both sides of the posts before the symmetry is broken and one side is favored. Also notice that most of the neutrophils resolve the challange without any delay of their migration. Channels have a cross section of 3 x 6 \u00b5m and are 160 \u00b5m long, time-lapse imaging was recorded with one frame every 10 seconds."
+                },
+                "CELLTYPE": {
+                    "onto_name": "neutrophil",
+                    "onto_id": "CL:0000775"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Integr Biol (Camb). 2010 Nov;2(11-12):639-47. Epub 2010 Aug 2."
+                    ],
+                    "Contributors": [
+                        "Daniel Irimia"
+                    ],
+                    "PUBMED": [
+                        "20676444"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": true,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39519",
+            "ARK": "ark:/b7295/w9cil39519",
+            "Title": "Daniel Irimia (2012) CIL:39519, Homo sapiens, neutrophil. CIL. Dataset"
+        }
+    }
+}

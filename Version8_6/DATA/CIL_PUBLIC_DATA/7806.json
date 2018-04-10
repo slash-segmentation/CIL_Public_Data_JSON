@@ -1,0 +1,133 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "7806.flv",
+                    "Size": 818468
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7806.zip",
+                    "Size": 1134716
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7806.jpg",
+                    "Size": 40059
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "saccharomyces cerevisiae"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "SWI-SNF structure was obtained from TEM images of  material negatively stained with uranyl acetate, single particle reconstruction techniques used to derive the 3D volume, which was then thresholded to provide a surface representation. Different angular views of the 3D surface were used to create the movie.\nSee: Smith CL et al. 2003 Structural analysis of the yeast SWI/SNF chromatin remodeling complex.\nNat Struct Biol.10:141-5."
+                },
+                "GROUP_ID": "10161",
+                "MOLECULARFUNCTION": [
+                    {
+                        "free_text": "transcriptional regulation"
+                    },
+                    {
+                        "free_text": "ATP-dependent chromatin remodeler"
+                    },
+                    {
+                        "onto_name": "chromatin binding",
+                        "onto_id": "GO:0003682"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "nucleosome remodeling complex"
+                    },
+                    {
+                        "onto_name": "SWI/SNF complex",
+                        "onto_id": "GO:0016514"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 720,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.1
+                            }
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "Animation based on 3D envelope"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This animation shows a nucleosome located in its putative binding site on the SWI-SNF remodeling complex from yeast.  The atomic structure of the DNA component of the nucleosome based on x-ray diffraction (red and green) is shown, together with the 3D envelope of SWI-SNF derived from cryo electron microscopy (gold). The location was inferred from crosslinking and other studies (see the PMID reference).  The animation shows rotation about an arbitrary horizontal axis. Rotation about the vertical axis is shown in the grouped animation."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Chris Woodcock",
+                        "Craig Peterson",
+                        "Rachel Horowitz-scherer"
+                    ]
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "nucleosome positioning",
+                        "onto_id": "GO:0016584"
+                    },
+                    {
+                        "onto_name": "chromatin remodeling",
+                        "onto_id": "GO:0006338"
+                    },
+                    {
+                        "onto_name": "chromosome organization",
+                        "onto_id": "GO:0051276"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "animation",
+                        "onto_id": "FBbi:00000267"
+                    },
+                    {
+                        "onto_name": "color graphic",
+                        "onto_id": "FBbi:00000226"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7806",
+            "ARK": "ark:/b7295/w9cil7806",
+            "Title": "Chris Woodcock, Craig Peterson, Rachel Horowitz-scherer (2010) CIL:7806, saccharomyces cerevisiae. CIL. Dataset"
+        }
+    }
+}

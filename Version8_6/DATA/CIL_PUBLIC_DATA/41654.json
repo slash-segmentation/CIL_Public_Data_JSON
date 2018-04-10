@@ -1,0 +1,112 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41654.zip",
+                    "Size": 4179706
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41654.tif",
+                    "Size": 4200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41654.jpg",
+                    "Size": 340122
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "Sedum sp"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1360
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Brightfield image of the epidermis of Sedum sp. (stonecrop), a genus of flowering plants with succulent leaves.  The image was taken at 125X.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "CELLTYPE": {
+                    "onto_name": "epidermal cell",
+                    "onto_id": "CL:0000362"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Wroclaw, Poland"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus BioScapes Digital  Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm57.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Magdalena Turzanska",
+                        "2011 Olympus BioScapes Digital  Imaging Competition\u00ae"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "epidermis morphogenesis",
+                    "onto_id": "GO:0048730"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in intrinsic optical density",
+                    "onto_id": "FBbi:00000602"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41654",
+            "ARK": "ark:/b7295/w9cil41654",
+            "Title": "Magdalena Turzanska, 2011 Olympus BioScapes Digital  Imaging Competition\u00ae (2012) CIL:41654, Sedum sp, epidermal cell. CIL. Dataset"
+        }
+    }
+}

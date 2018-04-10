@@ -1,0 +1,173 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "35895.tif",
+                    "Size": 64100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35895.jpg",
+                    "Size": 32200
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35895.zip",
+                    "Size": 64794564
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "10623",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "phase contrast microscopy",
+                        "onto_id": "FBbi:00000247"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "LTE1 protein"
+                    },
+                    {
+                        "onto_name": "cellular bud",
+                        "onto_id": "GO:0005933"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "mitotic cell cycle spindle orientation checkpoint",
+                        "onto_id": "GO:0031578"
+                    },
+                    {
+                        "onto_name": "regulation of exit from mitosis",
+                        "onto_id": "GO:0007096"
+                    },
+                    {
+                        "onto_name": "vesicle-mediated transport",
+                        "onto_id": "GO:0016192"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "differences in amount of elastic light scattering",
+                        "onto_id": "FBbi:00000600"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae",
+                    "onto_id": "NCBITaxon:4932"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Time-lapse images were collected on a DeltaVision system (Olympus IX71) with 60x/1.42 NA objective at 5 minute intervals.  Please see the microscopy section in the referenced manuscript for details for image analysis."
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "elastic scattering of photons",
+                        "onto_id": "FBbi:00000587"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 213.4
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 213.4
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "microns",
+                            "frame": "61",
+                            "value": 300
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "visualization of contiguous regions",
+                        "onto_id": "FBbi:00000396"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A time lapse experiment of Saccharomyces cerevisiae expressing GFP tagged Lte1.  \n\nLTE1 is essential for termination of M phase at low temperatures, along with TEM1, and CDC15, all part of the mitotic exit network which is an elaborate signaling system comprising at least eight essential genes: CDC5, CDC14, CDC15, DBF2, DBF20, LTE1, MOB1, and TEM1.  LTE1 was originally discovered as a locus essential for growth at 8 C, and was named for this trait as Low Temperature Essential 1.  It was later inferred from sequence similarities that LTE1 must code for a guanine nucleotide exchange factor.  Genetic evidence suggests that Lte1p activates the GTPase Tem1p which activates the protein kinase Cdc15p. Cdc15p then relieves the inhibition of the protein phosphatase Cdc14p by Net1p, thereby allowing exit from mitosis.  In a normal cell cycle, Bub2p bound to Tem1p restrains mitotic exit until the daughter-bound centrosome (with which both Bub2p and Tem1p preferentially associate) comes into contact with Lte1p in the bud, effectively coupling mitotic exit with nuclear segregation. Some evidence suggests that the spatial separation of Tem1p and Lte1p is a key mechanism for controlling the timing of mitotic exit.\n\n These phase, gfp images are part of an image group that ranges from CIL:35880-35899. Note that there are additional groups showing time series of other cell cycle regulation proteins by the same authors in the Library."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "PLoS One. 2011;6(10):e26272. Epub 2011 Oct 26."
+                    ],
+                    "Contributors": [
+                        "David Ball",
+                        "Jean Peccoud"
+                    ],
+                    "PUBMED": [
+                        "22046265"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": true,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35895",
+            "ARK": "ark:/b7295/w9cil35895",
+            "Title": "David Ball, Jean Peccoud (2011) CIL:35895, Saccharomyces cerevisiae. CIL. Dataset"
+        }
+    }
+}

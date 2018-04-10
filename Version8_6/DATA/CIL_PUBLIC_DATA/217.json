@@ -1,0 +1,102 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "217.jpg",
+                    "Size": 175475
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "217.zip",
+                    "Size": 489087
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "217_orig.jpg",
+                    "Size": 488957
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "217.tif",
+                    "Size": 3400000
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1500
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 741
+                        }
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "onto_name": "glial cell",
+                    "onto_id": "CL:0000125"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Nerve and glial cells in fruit fly embryo. Glial cells (stained green) in a fruit fly developing embryo have survived thanks to a signaling pathway initiated by neighboring nerve cells (stained red)."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Andreas Bergmann",
+                        "Herman Steller"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "embryo development",
+                    "onto_id": "GO:0009790"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL217",
+            "ARK": "ark:/b7295/w9cil217",
+            "Title": "Andreas Bergmann, Herman Steller (2011) CIL:217, Drosophila melanogaster, glial cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,134 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "42516.zip",
+                    "Size": 3933410
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "42516.tif",
+                    "Size": 4000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "42516.jpg",
+                    "Size": 446588
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "actin cytoskeleton",
+                        "onto_id": "GO:0015629"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    }
+                ],
+                "MOUSE_GROSS_ANATOMY": [
+                    {
+                        "onto_name": "TS25,gut",
+                        "onto_id": "EMAP:10651"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1280
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Fluorescence micrograph of the gut of transgenic GFP rat showing actin (red) and nuclei (blue).  Image taken with a 20X objective.  Honorable mention, 2004 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University of Pittsburgh School of Medicine, Center for Biologic Imaging Pittsburgh, PA, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2004 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2004/hm19.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Mark Ross",
+                        "2004 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EMAP:EMAP:10651"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL42516",
+            "ARK": "ark:/b7295/w9cil42516",
+            "Title": "Mark Ross, 2004 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:42516, Rattus. CIL. Dataset"
+        }
+    }
+}

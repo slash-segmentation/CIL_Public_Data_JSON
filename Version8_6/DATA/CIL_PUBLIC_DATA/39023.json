@@ -1,0 +1,143 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39023.jpg",
+                    "Size": 65828
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39023_orig.jpg",
+                    "Size": 76597
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39023.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39023.zip",
+                    "Size": 76735
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "neuronal cell body",
+                        "onto_id": "GO:0043025"
+                    },
+                    {
+                        "onto_name": "neuron projection",
+                        "onto_id": "GO:0043005"
+                    },
+                    {
+                        "free_text": "calretinin"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "reticulospinal neuron morphogenesis"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "ZEBRAFISH_ANATOMY": [
+                    {
+                        "onto_name": "hindbrain",
+                        "onto_id": "ZFA:0000029"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007775 Reticulospinal neuron.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 635
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "free_text": "reticulospinal neuron"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of a transverse section of the brain of a zebrafish embryo, at the level of the hindbrain. The brain section was stained using an antibody that marks a calcium binding protein (calretinin). The image shows a big reticulospinal neuron and its processes, surrounded by other smaller neurons. Reticulospinal neurons are specific neurons found in the brains of fish that are thought to be involved in coordinating swimming."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Steve Wilson"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "ZFA:ZFA:0000029"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39023",
+            "ARK": "ark:/b7295/w9cil39023",
+            "Title": "Steve Wilson (2012) CIL:39023, Danio rerio, reticulospinal neuron. CIL. Dataset"
+        }
+    }
+}

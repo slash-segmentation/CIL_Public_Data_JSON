@@ -1,0 +1,111 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "8062.zip",
+                    "Size": 2035836
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "8062.flv",
+                    "Size": 896471
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "8062.jpg",
+                    "Size": 56042
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "3124",
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "Golgi stack",
+                        "onto_id": "GO:0005795"
+                    },
+                    {
+                        "onto_name": "Golgi trans cisterna",
+                        "onto_id": "GO:0000138"
+                    },
+                    {
+                        "onto_name": "clathrin-coated vesicle",
+                        "onto_id": "GO:0030136"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 23.65
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 510,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 23.65
+                            }
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "traced and modeled with IMOD"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "ANIMATIONS"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Movie Focusing on the model of the two trans-most cisternae, C6 and C7. The penultimate trans-cisterna (C6-gold) is a tubular reticular cisterna, that extends tubules trans of the trans-most cisterna (C-7, red). The reticular network changes as one moves through the cell, reflecting traffic in and out of the cisterna. The tubules are coated at the tip but are never clathrin coated. The trans-most cisterna is a more solid cisterna and all tubules and vesicules budding from it are clathrin coated.\nMogelsvang S, Marsh BJ, Ladinsky MS, Howell KE. Predicting function from structure: 3D structure studies of the mammalian Golgi complex. Related to Fig 1 from Traffic. 2004;5:338-345."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Brad J. Marsh",
+                        "Kathryn E. Howell"
+                    ],
+                    "PUBMED": [
+                        "15086783"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "animation",
+                        "onto_id": "FBbi:00000267"
+                    },
+                    {
+                        "onto_name": "computer graphic",
+                        "onto_id": "FBbi:00000224"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL8062",
+            "ARK": "ark:/b7295/w9cil8062",
+            "Title": "Brad J. Marsh, Kathryn E. Howell (2011) CIL:8062. CIL. Dataset"
+        }
+    }
+}

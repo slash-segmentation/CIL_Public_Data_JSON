@@ -1,0 +1,120 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40651.tif",
+                    "Size": 700000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40651.jpg",
+                    "Size": 68501
+                }
+            ],
+            "CORE": {
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image collected on a FEI instrument: Quanta Family using Magnification: 140000x, Horizontal Field Width: 2.13 \u03bcm, Voltage: 5.00 kV, Detector: TLD, Spot: 2.0 nA, and Working Distance: 4.5 mm."
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 500
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 460
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "fibrillar collagen",
+                    "onto_id": "GO:0005583"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph of collagen fibrils, showing their characteristic 'D banding' morphology. These collagen fibrils are present in the joint capsule tissue that surrounds the knee."
+                },
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "onto_name": "knee",
+                        "onto_id": "EHDAA:5159"
+                    },
+                    {
+                        "onto_name": "knee joint primordium",
+                        "onto_id": "EHDAA:8467"
+                    }
+                ],
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "EHDAA:EHDAA:5159"
+                    },
+                    {
+                        "onto_id": "EHDAA:EHDAA:8467"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Smith & Nephew"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Science Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/knee-joint-capsule-7329.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Paul Gunning"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "limb joint morphogenesis",
+                    "onto_id": "GO:0036022"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40651",
+            "ARK": "ark:/b7295/w9cil40651",
+            "Title": "Paul Gunning (2012) CIL:40651. CIL. Dataset"
+        }
+    }
+}

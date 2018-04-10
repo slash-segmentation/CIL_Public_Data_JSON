@@ -1,0 +1,121 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39961.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39961.jpg",
+                    "Size": 28005
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus norvegicus",
+                    "onto_id": "NCBITaxon:10116"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "The tomogram was generated using an Hitachi 1MeV HVEM.  Single tilt images spanned -60 to 60\u00b0 in 2\u00b0 increments. Magnification, 10000.0 X; accelerating voltage, 1.0 MeV."
+                },
+                "IMAGINGMODE": [
+                    {
+                        "onto_id": "FBbi:00000622"
+                    },
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "dendritic spine",
+                        "onto_id": "GO:0043197"
+                    },
+                    {
+                        "onto_name": "dendrite",
+                        "onto_id": "GO:0030425"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "onto_name": "CNS neuron (sensu Vertebrata)",
+                    "onto_id": "CL:0000117"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Tomographic reconstruction of dendritic spines on a dendrite from a medium spiny neuron from the rat neostriatum.  This image is a maximum intensity projection of a segment of dendrite  in a 2 um section.  This reconstructed image has been downsampled from the raw data image, which can be accessed using the link provided to the Cell Centered Database."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 24",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=24"
+                        }
+                    ],
+                    "Contributors": [
+                        "Maryann Martone",
+                        "Naoko Yamada",
+                        "Gordun Arbuthnott",
+                        "Cali Ingham",
+                        "Stephen Young"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39961",
+            "ARK": "ark:/b7295/w9cil39961",
+            "Title": "Maryann Martone, Naoko Yamada, Gordun Arbuthnott, Cali Ingham, Stephen Young (2012) CIL:39961, Rattus norvegicus, CNS neuron (sensu Vertebrata). CIL. Dataset"
+        }
+    }
+}

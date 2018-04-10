@@ -1,0 +1,160 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "39304.flv",
+                    "Size": 990549
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39304.zip",
+                    "Size": 1286272
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39304.jpg",
+                    "Size": 26171
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "free_text": "microwave processing"
+                    },
+                    {
+                        "free_text": "acetone"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "GROUP_ID": "11652",
+                "IMAGINGMODE": {
+                    "onto_name": "serial block face SEM (SBFSEM)",
+                    "onto_id": "FBbi:00000585"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell-cell contact zone",
+                    "onto_id": "GO:0044291"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "cell-cell junction organization",
+                    "onto_id": "GO:0045216"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "MOUSE_GROSS_ANATOMY": [
+                    {
+                        "free_text": "mammary organoid"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Organoids embedded in resin were mounted onto an aluminum pin with a cyanoacrylate adhesive.  The pin, which takes the place of a normal SEM stub, was loaded into a sample holder for the Gatan 3View (Gatan Inc., Pleasanton, Ca).  Serial block face scanning electron microscopy was carried out as previously described (Denk and Horstmann, 2004).  Data was collected using an FEI Quanta 600 FEG SEM; serial images were 4k x 4k and acquired at 5 kV; z-dimension slices of 50 nm.  3D volume representations of the data were prepared using CHIMERA(Pettersen et al., 2004). CHIMERA was used to perform manual segmentation of membranes and to display the 3-dimensional volumes."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 50
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "free_text": "osmium-thiocarbohydrazide-osmium"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Serial block face scanning electron microscopy image series of a microlumen within the multilayered region of an FGF2 (fibroblast growth factor 2) induced mammary organoid in 3D Matrigel culture. Individual images are at 50 nm intervals. The field of view is 3.5 microns wide.  This image is part of an image series CIL:39301-39305."
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Sci. 2012 Feb 17. [Epub ahead of print]"
+                    ],
+                    "Contributors": [
+                        "Andrew Ewald"
+                    ],
+                    "PUBMED": [
+                        "22344263"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EMAP:mammary organoid"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39304",
+            "ARK": "ark:/b7295/w9cil39304",
+            "Title": "Andrew Ewald (2012) CIL:39304, Mus musculus, epithelial cell. CIL. Dataset"
+        }
+    }
+}

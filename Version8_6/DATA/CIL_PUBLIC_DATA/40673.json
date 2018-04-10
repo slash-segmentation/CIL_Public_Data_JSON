@@ -1,0 +1,126 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40673.jpg",
+                    "Size": 198495
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40673.tif",
+                    "Size": 1100000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    },
+                    {
+                        "onto_name": "chemically fixed tissue",
+                        "onto_id": "FBbi:00000002"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "free_text": "embedment medium removal"
+                    }
+                ],
+                "GROUP_ID": "11808",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "intermediate filament cytoskeleton",
+                    "onto_id": "GO:0045111"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "intermediate filament cytoskeleton organization",
+                    "onto_id": "GO:0045104"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mesocricetus auratus",
+                    "onto_id": "NCBITaxon:10036"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Sections were imaged with a Phillips CM300 transmission electron microscope.  See Capco DG, McGaughey RW. Dev Biol. 1986 Jun;115(2):446-58 for details on specimen processing."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 814
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 414
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "stereo pair"
+                },
+                "CELLTYPE": {
+                    "onto_name": "early embryonic cell",
+                    "onto_id": "CL:0000007"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Stereo pair of an embedment-free section of a detergent-extracted 8-cell embryo reveals the cytoskeletal interior in greater detail than is afforded in resin-embedded sections.  The specimen is viewed at an angle by selecting a stereo pair of -12 and 6 degrees (left to right), consequently the bottom left corner appears lower in the stereomicrograph.  At later stages of development the specialized intermediate filament network in mammalian eggs and embryos (i.e., the cytoskeletal whorls) become parallel bundles as they are preparing to disassemble into individual intermediate filaments.  Scale bar is 1.0 \u00b5m."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Arizona State University, Tempe, AZ"
+                    ],
+                    "Contributors": [
+                        "James J Faust",
+                        "David G. Capco"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40673",
+            "ARK": "ark:/b7295/w9cil40673",
+            "Title": "James J Faust, David G. Capco (2012) CIL:40673, Mesocricetus auratus, early embryonic cell. CIL. Dataset"
+        }
+    }
+}

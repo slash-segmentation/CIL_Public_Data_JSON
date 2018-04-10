@@ -1,0 +1,114 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38973.tif",
+                    "Size": 1000000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38973_orig.jpg",
+                    "Size": 50727
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38973.zip",
+                    "Size": 50865
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38973.jpg",
+                    "Size": 43018
+                }
+            ],
+            "CORE": {
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0002677 Mast cell releasing histamine granules.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 550
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "free_text": "histamine granules"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "CELLTYPE": {
+                    "onto_name": "mast cell",
+                    "onto_id": "CL:0000097"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of a stimulated mast cell that has just exploded releasing numerous histamine granules. The remains of the cell are seen towards the lower left, still containing a number of granules that have not escaped. This occurs during an allergic response leading to smooth muscle contraction and increased permeability of the blood vessels."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "K. Whitley",
+                        "D. Becker"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "histamine secretion",
+                    "onto_id": "GO:0001821"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38973",
+            "ARK": "ark:/b7295/w9cil38973",
+            "Title": "K. Whitley, D. Becker (2012) CIL:38973, mast cell. CIL. Dataset"
+        }
+    }
+}

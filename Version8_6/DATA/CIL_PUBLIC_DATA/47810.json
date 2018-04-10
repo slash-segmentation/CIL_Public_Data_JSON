@@ -1,0 +1,89 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "47810.zip",
+                    "Size": 1588053
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "47810.tif",
+                    "Size": 3100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "47810.jpg",
+                    "Size": 267734
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Bright field microscopy, immersion lens 100x"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "catalase activity",
+                    "onto_id": "GO:0004096"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "peroxisome",
+                    "onto_id": "GO:0005777"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "duct epithelial cell",
+                        "onto_id": "CL:0000068"
+                    },
+                    {
+                        "onto_name": "goblet cell",
+                        "onto_id": "CL:0000160"
+                    },
+                    {
+                        "onto_name": "erythrocyte",
+                        "onto_id": "CL:0000232"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Human duodenal epithelium, at the level of the crypt. Fixation was carried out inbuffered formal-calcium. Peroxisomes are stained with DAB by their catalase activity at pH 10.5, postosmicated and embedded in epon. 2 \u00b5m plastic section.) \n\nPeroxisomes are the very small brown granules located between the brush border and the elongated epithelial nuclei (unstained). A few rounded goblet cells are recognized. In the subepithelial capillaries, 5 large black structures are erythrocytes that reacted with DAB by the peroxidatic activity of hemoglobin."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Frank Roels",
+                        "Peter van der Spek",
+                        "Marina Pauwels"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL47810",
+            "ARK": "ark:/b7295/w9cil47810",
+            "Title": "Frank Roels, Peter van der Spek, Marina Pauwels (2014) CIL:47810, Homo sapiens, duct epithelial cell, goblet cell, erythrocyte. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,127 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "723.tif",
+                    "Size": 210000000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "723.zip",
+                    "Size": 214711263
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "723.jpg",
+                    "Size": 370163
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "endoplasmic reticulum",
+                    "onto_id": "GO:0005783"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "endoplasmic reticulum organization",
+                    "onto_id": "GO:0007029"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "UV/visible/IR photons",
+                    "onto_id": "FBbi:00000378"
+                },
+                "CELLLINE": {
+                    "onto_name": "COS-7",
+                    "onto_id": "MCC:0000112"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Chlorocebus sabaeus",
+                    "onto_id": "NCBITaxon:60711"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0714
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0714
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "100",
+                            "value": 4
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "COS 7 cell expressing Organelle LightsTM ER-GFP (Invitrogen) consiting of the signal sequence of the ER protein calreticulin and a KDEL\nretention sequence.  Images were collected with a 63X 1.4 NA Plan-Apochromat oil objective on a Zeiss LSM510 META (Carl Zeiss,Thornwood, NY) using 488 nm excitation, HFT 488 dichroic, and LP505 emission filter.  Image size is 1024 x 1024, pixel size is 0.07 \u00b5m x 0.07 \u00b5m and pixel time was set to 1.28 \u00b5sec.  Detector pinhole was set to collect  100 ~0.5 \u00b5m slices at ~4 sec intervals."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "George H. Patterson"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": true,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL723",
+            "ARK": "ark:/b7295/w9cil723",
+            "Title": "George H. Patterson (2010) CIL:723, Chlorocebus sabaeus. CIL. Dataset"
+        }
+    }
+}

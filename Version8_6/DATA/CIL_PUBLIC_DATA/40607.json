@@ -1,0 +1,118 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "40607.zip",
+                    "Size": 113885
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40607.tif",
+                    "Size": 1300000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40607.jpg",
+                    "Size": 115076
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "40607_orig.jpg",
+                    "Size": 113747
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Myxogastria",
+                    "onto_id": "NCBITaxon:33680"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "FEI instrument: Quanta Family Magnification: 30,000x Horizontal Field Width: 8.53 \u03bcm Voltage: 7 kV Detector: ETD Spot: 1.0 nA Working Distance: 15.1 mm"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 670
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 617
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph of a myxomycetes (a type of slime mold).  This image was collected as part of a study to assess the diversity of myxomycetes in the Atlantic Forest."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Science Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/myxomycete-1457.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "FRANCISCO RANGEL"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40607",
+            "ARK": "ark:/b7295/w9cil40607",
+            "Title": "FRANCISCO RANGEL (2012) CIL:40607, Myxogastria. CIL. Dataset"
+        }
+    }
+}

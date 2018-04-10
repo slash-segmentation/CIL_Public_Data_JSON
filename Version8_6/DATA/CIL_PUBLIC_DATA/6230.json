@@ -1,0 +1,159 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "6230.tif",
+                    "Size": 3200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "6230.zip",
+                    "Size": 1052238
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "6230.jpg",
+                    "Size": 393821
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "heat fixed tissue",
+                        "onto_id": "FBbi:00000609"
+                    }
+                ],
+                "GROUP_ID": "2887",
+                "CELLULARCOMPONENT": {
+                    "onto_name": "synapse",
+                    "onto_id": "GO:0045202"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "synapse organization",
+                    "onto_id": "GO:0050808"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "ZEBRAFISH_ANATOMY": [
+                    {
+                        "onto_name": "optic tectum",
+                        "onto_id": "ZFA:0000445"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.6
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.6
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    },
+                    {
+                        "onto_name": "copper salt",
+                        "onto_id": "FBbi:00000610"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "CNS neuron (sensu Vertebrata)",
+                    "onto_id": "CL:0000117"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This study on the zebrafish optic tectum is a series of four images with magnifications ranging from the SEM block face overview to of the zebrafish head to high magnification (80,000X) showing optic tectum synapse.\nThe first image is a bloc face SEM image at 200x of the epon embedded zebrafish head.  The second image is another block face SEM low magnification image of the tectum.  The third image is a 60,000X TEM image of a OTO fixation and copper lead en bloc staining of zebrafish optic tectum synapse.  This image, the fourth image in the series, is a 80,000X TEM image of a zebrafish optic tectum synapse.\n\nZebrafish 10 dpf Optic Tectum Synapses. Image collected on a JOEL 1230 at 80 kV using a Gatan 967 slow-scan, cooled CCD camera at 80,000X. 70 nm thick section. \n\nMicrowave processing, osmium tetroxoxide/osmid procedure for enhancing membranes, and copper lead en bloc staining.\nProcedure for specimen preparation available at http://www.stanford.edu/~redhair/JoAnn_Buchanan."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.stanford.edu/~redhair/JoAnn_Buchanan/Zebrafish_Optic_Tectum.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Buchanan, JoAnn (Stanford University School of Medicine)"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "ZFA:ZFA:0000445"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL6230",
+            "ARK": "ark:/b7295/w9cil6230",
+            "Title": "Buchanan, JoAnn (Stanford University School of Medicine) (2010) CIL:6230, Danio rerio, CNS neuron (sensu Vertebrata). CIL. Dataset"
+        }
+    }
+}

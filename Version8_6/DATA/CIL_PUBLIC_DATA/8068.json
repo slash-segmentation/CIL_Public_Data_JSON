@@ -1,0 +1,128 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "8068.flv",
+                    "Size": 3622385
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "8068.jpg",
+                    "Size": 59310
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "8068.zip",
+                    "Size": 5869692
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "3124",
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "Golgi stack",
+                        "onto_id": "GO:0005795"
+                    },
+                    {
+                        "onto_name": "endoplasmic reticulum",
+                        "onto_id": "GO:0005783"
+                    },
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "dense core granule",
+                        "onto_id": "GO:0031045"
+                    },
+                    {
+                        "onto_name": "clathrin-coated vesicle",
+                        "onto_id": "GO:0030136"
+                    },
+                    {
+                        "onto_name": "ribosome",
+                        "onto_id": "GO:0005840"
+                    },
+                    {
+                        "onto_name": "endocytic vesicle",
+                        "onto_id": "GO:0030139"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 500,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 28.23
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 600,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 28.23
+                            }
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "traced and modeled with IMOD"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "ANIMATIONS"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This animation shows the seven cisternae of the Golgi Complex (named C1-C7 in the cis-to-trans direction) are colored light blue (C1), pink (C2), rose (C3), green (C4), dark blue (C5), amber (C6) and red (C7). When the model is broken down to display subsets of the Golgi cisternae, one can see that they vary considerably in size and that many are reticular. The extent to which adjacent cisternae adhere to one another varies as well. For example, C6 has pulled away slightly from C5 and is extremely reticular. Also, a large tubule extends from C6 to a region distal to the Golgi stack. None of the vesicles or tubules on C6 are clathrin coated. The trans-most cisterna (C7) differs from the previous six cisternae in that it is more 'solid' (less reticular) and all vesicles and tubules budding from it are coated with clathrin. Within the reconstructed volume, 2,119 small (approximately 52 nm) transport vesicles are present near the Golgi stack. These vesicles appear in the model as white spheres. Most of the vesicles are tethered to each other or to a Golgi cisterna. Significantly, these data show that vesicular traffic occurs in all regions along the Golgi ribbon. Analysis of the model showed that there is more membrane in this collection of transport vesicles than in any one cisterna in the stack. Dense core granules, which contain insulin, are modeled in bright blue. None of the dense core granules were directly associated with the Golgi in this region. Although this is a regulated secretory cell, it was not stimulated to synthesize and secrete insulin prior to fixation. Additional cytoplasmic components appear in the final frames of this movie. These include the endoplasmic reticulum (yellow), mitochondria (green) endocytic compartments (purple) and clathrin-bearing post-Golgi compartments (red). Ribosomes are modeled in gold and microtubules are bright-green. The centriole pair (microtubule organizing center) was located just outside of the reconstructed region. Even though the Golgi region appears 'crowded' in the complete model, 66% of the volume represents cytoplasmic matrix, in that it lies outside the boundaries of the modeled structures. The data demonstrates that the Golgi structure is highly variable and complex. Its structure and the nature of its interactions with other organelles changes significantly within relatively small areas of the cytoplasm.  Reconstruction were individually traced and modeled with tools in the IMOD software package.  Related to Fig 1 from Traffic. 2004;5:338-345."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Brad J. Marsh",
+                        "Kathryn E. Howell",
+                        "J. Richard McIntosh"
+                    ],
+                    "PUBMED": [
+                        "15086783"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "animation",
+                        "onto_id": "FBbi:00000267"
+                    },
+                    {
+                        "onto_name": "computer graphic",
+                        "onto_id": "FBbi:00000224"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL8068",
+            "ARK": "ark:/b7295/w9cil8068",
+            "Title": "Brad J. Marsh, Kathryn E. Howell, J. Richard McIntosh (2011) CIL:8068. CIL. Dataset"
+        }
+    }
+}

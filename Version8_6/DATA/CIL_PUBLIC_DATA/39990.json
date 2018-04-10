@@ -1,0 +1,127 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39990.tif",
+                    "Size": 1500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39990.jpg",
+                    "Size": 135509
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    }
+                ],
+                "GROUP_ID": "11955",
+                "IMAGINGMODE": {
+                    "onto_name": "multi-photon microscopy",
+                    "onto_id": "FBbi:00000255"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "vibratome-sectioned tissue",
+                    "onto_id": "FBbi:00000030"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Transgenic adult female mouse overexpressing alpha-synuclein [548 (f) transgenic from D-line] was anesthetized with nembutal, and perfused with  4% paraformaldehyde + 0.1% glutaraldehyde, followed by 1 hr. postfixation in 4% paraformaldehyde.  Tissue was sectioned on a vibratome at a thickness of 80\u00b5m.  Following rinses in phosphate buffer (PBS), sections were blocked (PBS with 3% NGS;1% fish gel, 0.1% Triton X-1000; 1% BSA) for 1 hour, followed by rinses in working buffer (1:10 blocking buffer: PBS).  Primary antibody was diluted in working buffer (anti-alpha-SYN; Host = Rabbit used at 1:500), and tissue was covered with aluminum foil and incubated on a shaker in cold room overnight.  Tissue was washed with working buffer and incubated in secondary antibody (goat anti-rabbit AlexaFluor 568, 1:50) covered with foil, on cold room shaker, 48 hrs.  After rinses, 1:100 Hoescht 33342 was used to stain nuclei (30 min).  After rinsing in PBS, sections were mounted on slides and coverslipped using Vectashield.  Sections were imaged using a BioRad RTS 2000MP Multiphoton, with a Nikon Plan Fluor 60X, NA 1.4 objective."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 480
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 568",
+                        "onto_id": "FBbi:00000442"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "CNS neuron (sensu Vertebrata)",
+                    "onto_id": "CL:0000117"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Image mosaic of a section through anterior hippocampus showing localization of alpha synuclein (green) in a transgenic mouse overexpressing alpha synuclein.  Section was counterstained with a nuclear stain (blue) to reveal locations of cell somata.  This mosaic image has been downsampled from the raw data image, which can be accessed using the link provided to the Cell Centered Database.  For more information regarding this project, see: Price DL, Chow SK, MacLean NAB, Hakozaki H, Peltier S, Martone ME, Ellisman MH (2006) High-Resolution Large-Scale Mosaic Imaging using Multiphoton Microscopy to Characterize Transgenic Mouse Models of Human Neurological Disorders. Neuroinformatics. 2006;4(1):65-80."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 35",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=35"
+                        }
+                    ],
+                    "Contributors": [
+                        "D. Price",
+                        "M.H. Ellisman",
+                        "M. Martone",
+                        "G.A. Johnson",
+                        "E. Masliah"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39990",
+            "ARK": "ark:/b7295/w9cil39990",
+            "Title": "D. Price, M.H. Ellisman, M. Martone, G.A. Johnson, E. Masliah (2012) CIL:39990, Mus musculus, CNS neuron (sensu Vertebrata). CIL. Dataset"
+        }
+    }
+}

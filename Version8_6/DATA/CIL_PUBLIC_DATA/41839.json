@@ -1,0 +1,136 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41839.zip",
+                    "Size": 88742402
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41839.tif",
+                    "Size": 88900000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41839.jpg",
+                    "Size": 3705398
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "Rheinberg illumination",
+                    "onto_id": "FBbi:00000293"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "parasite infection"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "differences in amount of elastic light scattering",
+                        "onto_id": "FBbi:00000600"
+                    },
+                    {
+                        "onto_name": "absorption of illumination",
+                        "onto_id": "FBbi:00000308"
+                    },
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "Prosthogonimus macrorchis"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "elastic scattering of photons",
+                        "onto_id": "FBbi:00000587"
+                    },
+                    {
+                        "onto_name": "absorption of illumination",
+                        "onto_id": "FBbi:00000308"
+                    }
+                ],
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4637
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 6377
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "free_text": "Rheinberg filters"
+                    },
+                    {
+                        "onto_name": "fuchsin",
+                        "onto_id": "FBbi:00000039"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Prosthogonimus macrorchis, a flatworm poultry parasite, imaged with Rheinberg illumination. Honorable Mention, 2010 Olympus BioScapes Digital Imaging Competition\u00ae.\nProsthogonimus macrorchis has a complex life cycle involving water snails and dragonflies. The specimen was stained with fuchsin and photographed with Rheinberg illumination.  Length is 10 mm.  See the following website for a description of Rheinberg illumination http://micro.magnet.fsu.edu/primer/techniques/rheinberg.html"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Penkridge, Staffordshire, UK"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2010 Olympus BioScapes Digital Imaging  Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2010/hm53.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Spike Walker",
+                        "2010 Olympus BioScapes Digital Imaging  Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41839",
+            "ARK": "ark:/b7295/w9cil41839",
+            "Title": "Spike Walker, 2010 Olympus BioScapes Digital Imaging  Competition\u00ae (2012) CIL:41839, Prosthogonimus macrorchis. CIL. Dataset"
+        }
+    }
+}

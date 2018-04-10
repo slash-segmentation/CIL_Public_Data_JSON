@@ -1,0 +1,105 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40123.tif",
+                    "Size": 500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40123.jpg",
+                    "Size": 61034
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Caulobacter crescentus NA1000",
+                    "onto_id": "NCBITaxon:565050"
+                },
+                "PREPARATION": [
+                    {
+                        "onto_id": "FBbi:00000621"
+                    },
+                    {
+                        "onto_name": "acrolein fixed tissue",
+                        "onto_id": "FBbi:00000005"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Caulobacter crescentus (strain Snc04)were induced for 1 hour at 30 degrees, labeled for 2 hours at 30 degrees (in presence of 1.8 micromolar ReAsH-EDT2); post fixed with _0.01%_ Acrolein and 2.5% of Glut. in 0.01M Sodium cacodylate buffer; subjected to high pressure freezing and freeze substitution by using Epoxy resin as fixative: 20% of the complete Araldite/Epon formulation in acetone. Infiltration and embedding in 100% of resin complex.  0.5um sections were cut and collected on gold grids. Sections were post stained with 4% of Osmium followed by Sato lead and finally 10nm was applied on both sides of sections.  Single tilt tomograms were obtained using a  JEOL 4000, and spanned -52 - 66\u00b0 at 2\u00b0 intervals."
+                },
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000623"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y"
+                        }
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The zero degree tilt view of the raw data acquired from an IVEM of a Caulobacter crescentus sample, strain Snc04.  This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 3998",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?mpid=3998&event=displayAll"
+                        }
+                    ],
+                    "Contributors": [
+                        "Lucy Shapiro",
+                        "Harley McAdams"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40123",
+            "ARK": "ark:/b7295/w9cil40123",
+            "Title": "Lucy Shapiro, Harley McAdams (2012) CIL:40123, Caulobacter crescentus NA1000. CIL. Dataset"
+        }
+    }
+}

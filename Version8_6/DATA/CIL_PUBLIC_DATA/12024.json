@@ -1,0 +1,149 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12024.tif",
+                    "Size": 31700000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12024.jpg",
+                    "Size": 34060
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12024.zip",
+                    "Size": 31620633
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "3780",
+                "IMAGINGMODE": {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "spindle",
+                        "onto_id": "GO:0005819"
+                    },
+                    {
+                        "onto_name": "nuclear chromosome",
+                        "onto_id": "GO:0000228"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "male meiosis chromosome segregation",
+                    "onto_id": "GO:0007060"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "free_text": "differences in refractive index"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Nephrotoma",
+                        "onto_id": "NCBITaxon:46210"
+                    },
+                    {
+                        "free_text": "Nephrotoma suturalis"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "UV/visible/IR photons",
+                    "onto_id": "FBbi:00000378"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 678,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 87
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 518,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 87
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "179",
+                            "value": 120
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Movie of meiosis I (diakinesis through telophase)in primary spermatocytes of the crane-fly Nephrotoma suturalis that have been experimentally flattened. Flattening prevents completion of cytokinesis.\nTime-lapse DIC microscopy using a Nikon \nMicrophot SA, equipped for liquid crystal polarized light microscopy \n(LC-PolScope, CRi, Woburn Massachusetts) 60x/1.4 PlanApo oil immersion objective, 1.4 NA oil imm. condenser, with 2.0x zoom lens. Images captured every 2 min for 179 min using a QImaging Retigo EXi CCD camera.  A movie of the time series  is included in this grouped set."
+                },
+                "CELLTYPE": {
+                    "onto_name": "primary spermatocyte",
+                    "onto_id": "CL:0000656"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "LaFountain JR, et al. (2004) Mol Cell Biol 15, 5724-5732"
+                    ],
+                    "Contributors": [
+                        "James R. LaFountain",
+                        "Rudolf Oldenbourg"
+                    ],
+                    "PUBMED": [
+                        "15469981"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12024",
+            "ARK": "ark:/b7295/w9cil12024",
+            "Title": "James R. LaFountain, Rudolf Oldenbourg (2011) CIL:12024, Nephrotoma, Nephrotoma suturalis, primary spermatocyte. CIL. Dataset"
+        }
+    }
+}

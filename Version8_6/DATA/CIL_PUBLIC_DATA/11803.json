@@ -1,0 +1,185 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11803.zip",
+                    "Size": 4964480
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "11803.flv",
+                    "Size": 792483
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11803.jpg",
+                    "Size": 44991
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "10025",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "single-spot confocal microscopy",
+                        "onto_id": "FBbi:00000252"
+                    },
+                    {
+                        "onto_name": "differential interference contrast microscopy",
+                        "onto_id": "FBbi:00000245"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "gastrulation",
+                        "onto_id": "GO:0007369"
+                    },
+                    {
+                        "onto_name": "convergent extension",
+                        "onto_id": "GO:0060026"
+                    },
+                    {
+                        "free_text": "epiboly"
+                    },
+                    {
+                        "onto_name": "notochord formation",
+                        "onto_id": "GO:0014028"
+                    },
+                    {
+                        "onto_name": "embryo development",
+                        "onto_id": "GO:0009790"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "boundaries between regions with different refractive index",
+                        "onto_id": "FBbi:00000599"
+                    },
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    }
+                ],
+                "ZEBRAFISH_ANATOMY": [
+                    {
+                        "onto_name": "blastoderm",
+                        "onto_id": "ZFA:0001176"
+                    },
+                    {
+                        "onto_name": "Blastula:Sphere",
+                        "onto_id": "ZFS:0000014"
+                    },
+                    {
+                        "onto_name": "somite 1",
+                        "onto_id": "ZFA:0000072"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "optical path length gradient",
+                        "onto_id": "FBbi:00000312"
+                    },
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 361
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 622
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "maximum projection"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "CELLTYPE": {
+                    "onto_name": "yolk cell",
+                    "onto_id": "CL:0000428"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Timelapse of dorsal yolk syncytial layer (YSL) nuclei and blastoderm morphogenesis from sphere stage (late blastula) to 1 somite stage. Top panel shows Nomarski movie of blastoderm morphogenesis including epiboly, gastrulation, convergence and extension, and notocord formation. Bottom panel show a confocal projection view of YSL nuclear movements including nuclear divisions, epiboly movements, and convergence and extension. Notice how some YSL nuclei that are located at the dorsal margin extend along the entire dorsal axis.  Sphere is approximately 700 microns in diameter.  Video made available through Mark Cooper and Zebrafish The Living Laboratory."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Zebrafish The Living Laboratory"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "fishscope",
+                            "Href": "http://depts.washington.edu/fishscop/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Leonard A. D'Amico",
+                        "Mark S. Cooper"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "ZFA:ZFA:0001176"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFS:0000014"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFA:0000072"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11803",
+            "ARK": "ark:/b7295/w9cil11803",
+            "Title": "Leonard A. D'Amico, Mark S. Cooper (2011) CIL:11803, Danio rerio, yolk cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "40624_orig.jpg",
+                    "Size": 87127
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "40624.zip",
+                    "Size": 87265
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40624.jpg",
+                    "Size": 125069
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40624.tif",
+                    "Size": 1300000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "free_text": "dehydrated"
+                    },
+                    {
+                        "onto_name": "chemically fixed tissue",
+                        "onto_id": "FBbi:00000002"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "substrate-dependent cell migration",
+                        "onto_id": "GO:0006929"
+                    },
+                    {
+                        "onto_name": "cell adhesion",
+                        "onto_id": "GO:0007155"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image collected on a FEI Inspect Family SEM with the following parameters: Magnification: 5,000x, Voltage: 2 kV, Detector: SE, Spot: 2.5 nA, and Working Distance: 12.4 mm."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 670
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 617
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph of breast cancer cells that have aggregated."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:3459"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Sciences Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/Breast-Cancer-Cell-2086.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Wadah Mahmoud"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "breast carcinoma",
+                        "onto_id": "DOID:3459"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40624",
+            "ARK": "ark:/b7295/w9cil40624",
+            "Title": "Wadah Mahmoud (2012) CIL:40624, Homo sapiens. CIL. Dataset"
+        }
+    }
+}

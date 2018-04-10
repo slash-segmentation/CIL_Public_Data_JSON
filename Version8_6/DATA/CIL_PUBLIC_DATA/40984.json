@@ -1,0 +1,144 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40984.jpg",
+                    "Size": 1042404
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40984.tif",
+                    "Size": 6600000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "40984.zip",
+                    "Size": 6679498
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "GROUP_ID": "14602",
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "neuron projection",
+                    "onto_id": "GO:0043005"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "neuron projection morphogenesis",
+                    "onto_id": "GO:0048812"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "MOUSE_GROSS_ANATOMY": [
+                    {
+                        "free_text": "brain stem"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1737
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1258
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Yellow fluorescent proteins from Aequorea",
+                        "onto_id": "FBbi:00000439"
+                    },
+                    {
+                        "onto_name": "Cyan fluorescent proteins from Aequorea",
+                        "onto_id": "FBbi:00000436"
+                    },
+                    {
+                        "onto_name": "Red fluorescent proteins from Anthozoa",
+                        "onto_id": "FBbi:00000483"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "neuron",
+                    "onto_id": "CL:0000540"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Montage image of a brain stem from a Brainbow transgenic mouse. In Brainbow mice, neurons randomly choose combinations of red, yellow and cyan fluorescent proteins, so that they each glow a particular color. This provides a way to distinguish neighboring neurons and visualize brain circuits. These are large caliber axons of the auditory pathway.  First Prize, 2007 Olympus BioScapes Digital Imaging Competition.\n\n\nFor additional details see:  Livet J, Weissman TA, Kang H, Draft RW, Lu J, Bennis RA, Sanes JR, Lichtman JW.\nNature. 2007 Nov 1;450(7166):56-62."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Jeff Lichtman Laboratory, Harvard University Cambridge, MA, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2007 Olympus BioScapes Digital Imaging Competition",
+                            "Href": "http://www.olympusbioscapes.com/gallery/2007/1.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Jean Livet",
+                        "2007 Olympus BioScapes Digital Imaging Competition"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EMAP:brain stem"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40984",
+            "ARK": "ark:/b7295/w9cil40984",
+            "Title": "Jean Livet, 2007 Olympus BioScapes Digital Imaging Competition (2012) CIL:40984, Mus musculus, neuron. CIL. Dataset"
+        }
+    }
+}

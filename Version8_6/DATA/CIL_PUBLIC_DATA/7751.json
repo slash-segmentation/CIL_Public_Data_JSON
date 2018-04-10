@@ -1,0 +1,158 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7751.zip",
+                    "Size": 14094122
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7751.jpg",
+                    "Size": 2428156
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "7751.tif",
+                    "Size": 14100000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "centriole",
+                        "onto_id": "GO:0005814"
+                    },
+                    {
+                        "onto_name": "centrosome",
+                        "onto_id": "GO:0005813"
+                    },
+                    {
+                        "onto_name": "microtubule",
+                        "onto_id": "GO:0005874"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cricetulus griseus",
+                    "onto_id": "NCBITaxon:10029"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4500,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.649
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3126,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.649
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Centrioles multiply exactly once in preparation for cell division.In this remarkably rare image, four centrioles are seen in one electron micrograph of a thin section cut from a Chinese hamster fibroblast grown in tissue culture. The two centrioles that appear circular are the 'mother' centrioles, in the sense that they are older, while the two in longitudinal section, which appear rectangular, are 'daughters.' They were initially formed only hours earlier as this cell began the S-phase of its cell cycle, and they are not yet fully mature. We can tell that the centrioles in longitudinal section are the daughters because they lack the appendages that would be apparent in longitudinal sections of mother centrioles. We don't see them on the mother centrioles that are in cross section because the appendages are out of the plane of section. The mother centrioles bind 'pericentriolar material', which initiates the growth of microtubules. As the cell enters mitosis, the two pairs of centrioles will separate, so one mother and one daughter centriole will be situated at each pole of the growing mitotic spindle. Thus, each daughter cell will inherit two centrioles, each of which can help organize the formation of a daughter centriole during the subsequent S-phase, so the cycle can continue.\n\nChinese hamster fibroblasts were cultured in McCoy's medium supplemented with 20% fetal calf serum. They were rinsed with phosphate buffer then fixed for one hour with 1% OsO4 in the same buffer. They were then stained with uranyl acetate, dehydrated in an ethanol series, embedded in epoxy resin, sectioned, and imaged with an electron microscope operating at 60 KeV.\n\nThis image originally appeared in: McGill M, Highfield DP, Monahan TM, Brinkley BR. Effects of nucleic acid specific dyes on centrioles of mammalian cells. J Ultrastruct Res. 1976;57:43-53.  Image generously made available by William Brinkley (Baylor). Original resource provided by Keith R Porter Archives (University of Maryland Baltimore County, Baltimore, MD). This image was created by Manley McGill in 1976 while he was a member of the laboratory of William Brinkley at The University of Texas Medical Branch, Galveston. Dr. Brinkley (currently at Baylor College of Medicine) has dedicated this publication to the memory of his former student."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "primary cell line cell",
+                        "onto_id": "CL:0000001"
+                    },
+                    {
+                        "onto_name": "fibroblast",
+                        "onto_id": "CL:0000057"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Keith R Porter Archives (University of Maryland Baltimore County, Baltimore, MD)"
+                    ],
+                    "PUBLISHED": [
+                        "Journal of Ultrastructure Research Volume 57, Issue 1, October 1976, Pages 43-53"
+                    ],
+                    "Contributors": [
+                        "Manley Mcgill",
+                        "D.P. Highfield",
+                        "T.M. Monahan",
+                        "B.R. Brinkley"
+                    ],
+                    "PUBMED": [
+                        "978782"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7751",
+            "ARK": "ark:/b7295/w9cil7751",
+            "Title": "Manley Mcgill, D.P. Highfield, T.M. Monahan, B.R. Brinkley (2010) CIL:7751, Cricetulus griseus, primary cell line cell, fibroblast. CIL. Dataset"
+        }
+    }
+}

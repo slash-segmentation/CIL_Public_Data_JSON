@@ -1,0 +1,220 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13872.zip",
+                    "Size": 252528
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13872.jpg",
+                    "Size": 17507
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13872.tif",
+                    "Size": 300000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "ethanol fixed tissue",
+                        "onto_id": "FBbi:00000006"
+                    }
+                ],
+                "GROUP_ID": "9034",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "widefield illumination",
+                        "onto_id": "FBbi:00000277"
+                    },
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "differential interference contrast microscopy",
+                        "onto_id": "FBbi:00000245"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cytoskeleton",
+                        "onto_id": "GO:0005856"
+                    },
+                    {
+                        "onto_name": "spindle pole body",
+                        "onto_id": "GO:0005816"
+                    },
+                    {
+                        "onto_name": "cytoplasm",
+                        "onto_id": "GO:0005737"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "regulation of exit from mitosis",
+                        "onto_id": "GO:0007096"
+                    },
+                    {
+                        "onto_name": "small GTPase mediated signal transduction",
+                        "onto_id": "GO:0007264"
+                    },
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    },
+                    {
+                        "onto_name": "cell division",
+                        "onto_id": "GO:0051301"
+                    },
+                    {
+                        "onto_name": "cell cycle",
+                        "onto_id": "GO:0007049"
+                    },
+                    {
+                        "onto_name": "mitotic cell cycle spindle orientation checkpoint",
+                        "onto_id": "GO:0031578"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "boundaries between regions with different refractive index",
+                        "onto_id": "FBbi:00000599"
+                    }
+                ],
+                "CELLLINE": {
+                    "free_text": "W303"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae",
+                    "onto_id": "NCBITaxon:4932"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "optical path length gradient",
+                        "onto_id": "FBbi:00000312"
+                    }
+                ],
+                "TECHNICALDETAILS": {
+                    "free_text": "Cells (MATa tem1::GAL-UPL-TEM1-TRP1 bfa1::HIS3 pRS316::eGFP-TEM1-CAAX) were fixed in 2.5% formaldehyde for 10 min, washed twice, and resuspended in 0.1 M potassium phosphate buffer, pH 6.4. Cells were then fixed for 10 min in 80% ethanol and resuspended in 1 mg/ml DAPI. Imaging was performed at 25C using a Leica DM6000 microscope equipped with a 100x/1.40 NA oil immersion objective lens, A4, L5, and TX2 filters, and a digital CCD camera (DFC350, Leica). Pictures were processed with LAS AF (Leica) and ImageJ software."
+                },
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "GTPase activity",
+                        "onto_id": "GO:0003924"
+                    },
+                    {
+                        "onto_name": "nucleotide binding",
+                        "onto_id": "GO:0000166"
+                    },
+                    {
+                        "onto_name": "protein binding",
+                        "onto_id": "GO:0005515"
+                    },
+                    {
+                        "onto_name": "GTPase activator activity",
+                        "onto_id": "GO:0005096"
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 249,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0642
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 249,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0642
+                            }
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Tem1-CAAX (green) is targeted away from spindle pole bodies in bfa1\u0394 cells. The CAAX motif from Ras2 targets proteins to the cytoplasmic side of the membrane. tem1\u0394::GAL-UPL-TEM1 cells expressing eGFP-TEM1-CAAX from a CEN plasmid were grown on 2% raffinose/2% galactose and transferred to 2% glucose medium prior to image capture. A differential interference contrast (DIC) image is also shown (hidden). The tem1\u0394::GAL1-UPL-TEM1 strain allows for the rapid, conditional depletion of Tem1. UPL, which stands for ubiquitin-proline-LacI, acts as a destabilizing module that permits rapid degradation of appended proteins. Image is Fig 7A, bottom panels, in J Cell Biol. (2011) 192: 599-614. Images in Fig 7 include CIL #13888, 13872, 13813, 13889, 13874."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/4053/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. (2011) 192: 599-614."
+                    ],
+                    "Contributors": [
+                        "Mauricio Valerio-Santiago",
+                        "Fernando Monje-Casas"
+                    ],
+                    "PUBMED": [
+                        "21321099"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13872",
+            "ARK": "ark:/b7295/w9cil13872",
+            "Title": "Mauricio Valerio-Santiago, Fernando Monje-Casas (2011) CIL:13872, Saccharomyces cerevisiae. CIL. Dataset"
+        }
+    }
+}

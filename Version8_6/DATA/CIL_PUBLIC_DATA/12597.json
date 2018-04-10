@@ -1,0 +1,165 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12597.zip",
+                    "Size": 1027836
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12597.tif",
+                    "Size": 4300000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12597.jpg",
+                    "Size": 1217870
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "12597_orig.jpg",
+                    "Size": 1027698
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "critical_point dried specimen",
+                        "onto_id": "FBbi:00000581"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell",
+                        "onto_id": "GO:0005623"
+                    },
+                    {
+                        "onto_name": "cell surface",
+                        "onto_id": "GO:0009986"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "cytokinesis after mitosis",
+                    "onto_id": "GO:0000281"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2674,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.056
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1587,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.056
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    },
+                    {
+                        "onto_name": "montage",
+                        "onto_id": "FBbi:00000261"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph montage of cultured HeLa cells. This image is a montage of six overlapping fields of view, each photographed at 2,231x with a 17.8mm working distance and an accelerating voltage of 12.5kV. The cells were grown to confluence on Thermanox\u00ae coverslips and fixed with glutaraldehyde and osmium tetroxide, then critical point dried. These cells were imaged using an FEI Quanta 200 scanning electron microscope. Rounded, non-adherent cells are most likely mitotic, and the two adjacent, spherical cells near the lower left corner have almost completed cytokinesis. Scale bar = 10\u00b5m."
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Mount Holyoke College"
+                    ],
+                    "Contributors": [
+                        "Anna Baccei",
+                        "Marian Rice"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "montage",
+                        "onto_id": "FBbi:00000261"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12597",
+            "ARK": "ark:/b7295/w9cil12597",
+            "Title": "Anna Baccei, Marian Rice (2011) CIL:12597, Homo sapiens, epithelial cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "7725.tif",
+                    "Size": 10600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7725.jpg",
+                    "Size": 2515520
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7725.zip",
+                    "Size": 10594238
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    },
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cilium",
+                    "onto_id": "GO:0005929"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rana pipiens",
+                    "onto_id": "NCBITaxon:8404"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4000,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.22
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2644,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.22
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "CYT-165_3_Plate7Fig27_1200dpi.tif\t Electron micrograph of a thin section cut from the epithelium of the pharynx of frog, Rana pipiens. Structure of frog cilia in cross section\tJ Richard McIntosh (Univ Colorado, Boulder)\t \n   This electron micrograph is an example of the earliest successful and informative work done using the electron microscope to image thin sections cut from embedded tissues. The Rockefeller Institute in New York City was the site of important early work with this instrument, and Keith Porter?\u00c7\u00d6s lab was one of the best practitioners of the skills and methods needed to prepare such samples and take such images. Don Fawcett did some beautiful early work as a student in this lab, then went on to establish his own important group at Harvard Medical school. The image shown here was remarkable for its time in showing details in the cross section of cilia, including the fact that its component fibers appeared to have a hollow core. This is the first description of 'microtubules,' which were later recognizes as ubiquitous components of the eukaryotic cytoskeleton and were studied intensely by Porter and his students.\t \n   Small blocks (1 to 2 mm on a side) were cut from the tissue and immersed in 1% OsO4, buffered with veronal acetate, pH 7.5, and fixed for 4 hr. They were then rinsed in water and dehydrated in a series with increasing concentrations of ethanol and embedded in n-butyl methacrylate. Sections were cut on a new design of microtome, invented by Porter and Blum. Slices that ranged in thickness from 50 to 100nm were examined on an RCA model EMU electron microscope and imaged on glass plates at magnifications that ranged from 500 to 10,000x.\t\n   Image originally appeared in:<br>Fawcett DW, Porter, KR. Fine structure of ciliated epithelia. J Morph. 1954;94:221-281."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Don W. Fawcett",
+                        "Keith R. Porter"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7725",
+            "ARK": "ark:/b7295/w9cil7725",
+            "Title": "Don W. Fawcett, Keith R. Porter (2010) CIL:7725, Rana pipiens, epithelial cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,133 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "44651.jpg",
+                    "Size": 16844
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "44651.tif",
+                    "Size": 300000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cytoskeleton",
+                        "onto_id": "GO:0005856"
+                    },
+                    {
+                        "onto_name": "proteasome complex",
+                        "onto_id": "GO:0000502"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "spermatogenesis",
+                    "onto_id": "GO:0007283"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Actin was detected using Alexa 546 phalloidin and proteasomes with transgeneic GFP-alpha6T, a proteosome subunit.  Maturing sperm cells in the testis were fixed with formaldehyde, stained, and observed using confocal microscopy with a 40x 1.2 NA objective lens.  The image is a projection of a z-stack with step size 1.2 micrometers."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 320
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 298
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 546",
+                        "onto_id": "FBbi:00000441"
+                    },
+                    {
+                        "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                        "onto_id": "FBbi:00000056"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "spermatid",
+                    "onto_id": "CL:0000018"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "During the differentiation of sperm most cellular proteins and organelles are degraded as they are no longer needed. Actin filaments in the cell help to collect and move cytoplasmic material in maturing sperm, and a cellular chopping machine called the proteasome degrades proteins into amino acids. Shown is a confocal microscopy image of a Drosophila spermatid stained for nuclei (blue), actin filaments (red), and proteasomes (green).  A recent study uncovered a role for ADP-ribosylation by tankyrase in the assembly and activity of proteasomes.  The image depicting this critical stage of sperm differentiation was selected by the NIGMS for inclusion in the May 2013 issue of Biomedical Beat, a monthly compendium of noteworthy NIGMS-supported research. See also Cho-Park PF and Steller, H 2013. Proteasome regulation by ADP-ribosylation. Cell 153:614-627."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        " Strang Laboratory of Apoptosis and Cancer Biology, Howard Hughes Medical Institute, The Rockefeller University, 1230 York Avenue, New York, NY 10021, USA."
+                    ],
+                    "Contributors": [
+                        "Hermann Steller",
+                        "Sigi Benjamin-Hong",
+                        "John M Belote"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL44651",
+            "ARK": "ark:/b7295/w9cil44651",
+            "Title": "Hermann Steller, Sigi Benjamin-Hong, John M Belote (2013) CIL:44651, Drosophila melanogaster, spermatid. CIL. Dataset"
+        }
+    }
+}

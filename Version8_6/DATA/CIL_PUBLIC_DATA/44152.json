@@ -1,0 +1,168 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "44152.tif",
+                    "Size": 2700000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "44152.jpg",
+                    "Size": 263363
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "14302",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "confocal microscopy",
+                        "onto_id": "FBbi:00000251"
+                    },
+                    {
+                        "onto_name": "multi-photon microscopy",
+                        "onto_id": "FBbi:00000255"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cytoplasm",
+                        "onto_id": "GO:0005737"
+                    },
+                    {
+                        "free_text": "collagen fiber"
+                    },
+                    {
+                        "free_text": "elastin fiber"
+                    },
+                    {
+                        "free_text": "reticulin fiber"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "clonal expansion of progenitor cells"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Imaging was performed using a Leica TCS SP5-AOBS 5-channel confocal/two-photon system equipped with multiline Argon diode 561 nm, HeNe 594 nm and HeNe 633 nm as well as TiSaph two-photon laser. Images were recorded with a 25x 0.95 NA water dipping objective lens, and 5 micrometer z-spacing and processed using Imaris software (Bitplane). \nSee also: Malide D, Metais J-Y, and Dunbar CE. (2012). Dynamic clonal analysis of murine hematopoietic stem and progenitor cells marked by 5 fluorescent proteins using confocal and multiphoton microscopy. Blood. Dec 20;120(26):e105-16."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 939
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 952
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "CeruleanFP",
+                        "onto_id": "FBbi:00000468"
+                    },
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "VenusFP",
+                        "onto_id": "FBbi:00000477"
+                    },
+                    {
+                        "onto_name": "tdTomatoFP",
+                        "onto_id": "FBbi:00000518"
+                    },
+                    {
+                        "onto_name": "mCherryFP",
+                        "onto_id": "FBbi:00000525"
+                    },
+                    {
+                        "free_text": "second harmonic generation - SHG"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epidermal cell",
+                        "onto_id": "CL:0000362"
+                    },
+                    {
+                        "onto_name": "endodermal cell",
+                        "onto_id": "CL:0000223"
+                    },
+                    {
+                        "free_text": "hair follicle"
+                    },
+                    {
+                        "onto_name": "muscle cell",
+                        "onto_id": "CL:0000187"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The picture represents a 3D-reconstruction (using Imaris software) of confocal/multiphoton images collected through the thickness (100 micrometers) of the live skin from a bone-marrow transplanted mouse. Cells marked by five fluorescent proteins: Cerulean (cyan), EGFP (green), Venus (yellow), tdTomato (purple), mCherry (red) appear interspersed along reticulin and collagen fibers (second harmonic generation-SHG, white) at 4 months post-transplant. See also Malide et al.  (2012)  Dynamic clonal analysis of murine hematopoietic stem and progenitor cells marked by 5 fluorescent proteins using confocal and multiphoton microscopy. Blood. Dec 20;120(26):e105-16.\n\nThis image is grouped with two others obtained in a similar fashion."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "National Institutes of Health, Bethesda MD"
+                    ],
+                    "Contributors": [
+                        "Daniela Malide",
+                        "Jean-Yves Metais",
+                        "Cynthia Dunbar"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL44152",
+            "ARK": "ark:/b7295/w9cil44152",
+            "Title": "Daniela Malide, Jean-Yves Metais, Cynthia Dunbar (2013) CIL:44152, Mus musculus, epidermal cell, endodermal cell, muscle cell, hair follicle. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,108 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41119.jpg",
+                    "Size": 2028065
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41119.tif",
+                    "Size": 54100000
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Fungia",
+                    "onto_id": "NCBITaxon:46712"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "IMAGINGMODE": [
+                    {
+                        "free_text": "reflected illumination"
+                    },
+                    {
+                        "free_text": "epifluorescence without barrier filter"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "acrosphere"
+                    },
+                    {
+                        "free_text": "tenacle"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4826
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3729
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Solitary coral, Fungia sp. The tentacle tips, called acrospheres, are visibly enhanced using a technique developed for doing epfluorescence without a barrierfilter.  Third Prize, 2010 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "NOAA NOS NCCOS Center for Coastal Environmental Health & Biomolecular Research",
+                        "Fort Johnson Marine Lab, Charleston, SC, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2010 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2010/3.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "James Nicholson",
+                        "2010 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41119",
+            "ARK": "ark:/b7295/w9cil41119",
+            "Title": "James Nicholson, 2010 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41119, Fungia. CIL. Dataset"
+        }
+    }
+}

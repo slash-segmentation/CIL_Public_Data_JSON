@@ -1,0 +1,109 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40655.tif",
+                    "Size": 1100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40655.jpg",
+                    "Size": 145797
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Botryotinia sphaerosperma",
+                    "onto_id": "NCBITaxon:278947"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image collected on a FEI instrument: XL SEM Family using Magnification: 2347x, Voltage: 5keV, Detector: SE, Spot: 2.0 nA, and Working Distance: 15.1 mm."
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 670
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 525
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph of Botrytis sp. (a mold) on the skin of a Pinot noir grape. Botrytis sp is grey-mold called nobel rot on wine grapes."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "onto_name": "fungal spore",
+                        "onto_id": "CL:0002369"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Science Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/Botrytis-cinerea-2365.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Ken Tiekotter"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40655",
+            "ARK": "ark:/b7295/w9cil40655",
+            "Title": "Ken Tiekotter (2012) CIL:40655, Botryotinia sphaerosperma, epithelial cell, fungal spore. CIL. Dataset"
+        }
+    }
+}

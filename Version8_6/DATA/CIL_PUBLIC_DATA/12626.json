@@ -1,0 +1,121 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12626.tif",
+                    "Size": 4400000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12626.zip",
+                    "Size": 4371468
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12626.jpg",
+                    "Size": 189032
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "7833",
+                "IMAGINGMODE": {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell",
+                    "onto_id": "GO:0005623"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "stem cell proliferation",
+                    "onto_id": "GO:0072089"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1392
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1040
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Human embryonic stem cell colony. This phase contrast image shows a human embryonic stem cell colony growing on Matrigel, a substrate that supports attachment of hESC. The Matrigel forms a thin coating under the cells and is not directly visible in this image. This is a live cell preparation that was imaged using a Nikon inverted Eclipse microscope.\nNotes"
+                },
+                "CELLTYPE": {
+                    "onto_name": "stem cell",
+                    "onto_id": "CL:0000034"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Stem Cell Center University of California, Riverside"
+                    ],
+                    "Contributors": [
+                        "Sabrina Lin",
+                        "Prue Talbot"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12626",
+            "ARK": "ark:/b7295/w9cil12626",
+            "Title": "Sabrina Lin, Prue Talbot (2011) CIL:12626, Homo sapiens, stem cell. CIL. Dataset"
+        }
+    }
+}

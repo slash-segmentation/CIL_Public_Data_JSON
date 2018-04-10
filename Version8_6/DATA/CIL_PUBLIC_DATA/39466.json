@@ -1,0 +1,131 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39466.tif",
+                    "Size": 1000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39466.jpg",
+                    "Size": 76752
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39466.zip",
+                    "Size": 88203
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39466_orig.jpg",
+                    "Size": 88065
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "12754",
+                "IMAGINGMODE": {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "embryo development",
+                    "onto_id": "GO:0009790"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Ascidiacea",
+                    "onto_id": "NCBITaxon:7713"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0008314 Ascidian embryo.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 550
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "embryonic cell",
+                    "onto_id": "CL:0002321"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Early ascidian (sea squirt) embryos visualized by differential interface contrast (DIC) microscopy. Ascidians are used as a model for developmental research. Their simple embryonic development is rapid and can be easily manipulated. In addition, each embryo contains only a few cells therefore complex cellular processes can be studied while remaining part of an intact embryo. The embryos are also transparent, which is ideal for fluorescent microscopy thus allowing scientists to visualize different developmental stages.  A higher magnification image is available as CIL 39471."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University of Cambridge"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Vincent Pasque"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39466",
+            "ARK": "ark:/b7295/w9cil39466",
+            "Title": "Vincent Pasque (2012) CIL:39466, Ascidiacea, embryonic cell. CIL. Dataset"
+        }
+    }
+}

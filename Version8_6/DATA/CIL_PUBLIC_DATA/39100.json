@@ -1,0 +1,142 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39100.jpg",
+                    "Size": 124730
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39100_orig.jpg",
+                    "Size": 212147
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39100.zip",
+                    "Size": 212285
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39100.tif",
+                    "Size": 1300000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "modes of light microscopy",
+                    "onto_id": "FBbi:00000345"
+                },
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "free_text": "follicle"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "antral ovarian follicle growth",
+                        "onto_id": "GO:0001547"
+                    },
+                    {
+                        "onto_name": "mature follicle stage",
+                        "onto_id": "GO:0048166"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007266 Oocyte in follicle.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 736
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "oocyte",
+                        "onto_id": "CL:0000023"
+                    },
+                    {
+                        "onto_name": "follicle cell",
+                        "onto_id": "CL:0000477"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "An oocyte in a mature follicle. During the menstral cycle in females the ovary produces oocytes, which develop in follicles. As the follicle matures it increases in size, different cell types are recruited to the developing follicle to support the ooctye prior to ovulation. This follicle would also be called an antral follicle due to the large cavity (antral space)."
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EHDAA:follicle"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Kings College London"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Ivor Mason"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39100",
+            "ARK": "ark:/b7295/w9cil39100",
+            "Title": "Ivor Mason (2012) CIL:39100, oocyte, follicle cell. CIL. Dataset"
+        }
+    }
+}

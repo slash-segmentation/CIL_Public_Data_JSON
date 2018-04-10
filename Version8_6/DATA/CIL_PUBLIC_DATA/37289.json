@@ -1,0 +1,128 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "37289.tif",
+                    "Size": 59800000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37289.zip",
+                    "Size": 59718540
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37289.jpg",
+                    "Size": 4985306
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "9569",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "nuclear fibrils"
+                    },
+                    {
+                        "free_text": "chondroid"
+                    },
+                    {
+                        "onto_name": "ribosome",
+                        "onto_id": "GO:0005840"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Streptococcus pneumoniae",
+                    "onto_id": "NCBITaxon:1313"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original magnificaiton X10,000."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 6000
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4976
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                "CELLTYPE": {
+                    "free_text": "bacteria"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A transmission electron micrograph of a diplococcus (renamed Streptococcus in 1974) pneumoniae bacteria.  A striking feature of these bacteria is an intra-cytoplasmic membrane system which appears to be an extension of septa in dividing bacteria. Image is related to Figure 3 in  J. Cell. Biol. 22:453-467, 1964.  Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."
+                },
+                "ATTRIBUTION": {
+                    "DATE": [
+                        "02/02/1964"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "George E. Palade EM Slide Collection",
+                            "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeBacC"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        " J. Cell. Biol. 22:453-467, 1964.",
+                        "14203390"
+                    ],
+                    "Contributors": [
+                        "James D. Jamieson"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37289",
+            "ARK": "ark:/b7295/w9cil37289",
+            "Title": "James D. Jamieson (2011) CIL:37289, Streptococcus pneumoniae, bacteria. CIL. Dataset"
+        }
+    }
+}

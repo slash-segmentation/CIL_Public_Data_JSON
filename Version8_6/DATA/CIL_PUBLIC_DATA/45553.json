@@ -1,0 +1,128 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "45553.jpg",
+                    "Size": 97167
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "45553.tif",
+                    "Size": 1500000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "filopodium",
+                    "onto_id": "GO:0030175"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "viral infectious cycle",
+                    "onto_id": "GO:0019058"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 873
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 566
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "phalloidin",
+                        "onto_id": "FBbi:00000100"
+                    },
+                    {
+                        "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                        "onto_id": "FBbi:00000056"
+                    },
+                    {
+                        "onto_name": "TagGFP",
+                        "onto_id": "FBbi:00000503"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "dendritic cell",
+                    "onto_id": "CL:0000451"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Imaging an HIV infected dendritic cell reveals numerous viral particles at the tips of filopodia. Actin-based membrane extensions from the dendritic cell are phallodin stained (red). HIV particles (white) decorate the filopodial terminal ends.  To label viral particles, a construct containing eGFP at the C-terminus of HIV matrix was expressed.  The nucleus of the cell is stained with DAPI and is represented in cyan."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:526"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "The Kirby Institute, University of New South Wales"
+                    ],
+                    "Contributors": [
+                        "Stuart Turville"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "Human immunodeficiency virus infectious disease",
+                        "onto_id": "DOID:526"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL45553",
+            "ARK": "ark:/b7295/w9cil45553",
+            "Title": "Stuart Turville (2013) CIL:45553, Homo sapiens, dendritic cell. CIL. Dataset"
+        }
+    }
+}

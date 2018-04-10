@@ -1,0 +1,230 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "25901.tif",
+                    "Size": 28800000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "25901.zip",
+                    "Size": 28765722
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "25901.jpg",
+                    "Size": 4870458
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "11100",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell cortex",
+                        "onto_id": "GO:0005938"
+                    },
+                    {
+                        "onto_name": "dense fibrillar component",
+                        "onto_id": "GO:0001651"
+                    },
+                    {
+                        "onto_name": "microtubule",
+                        "onto_id": "GO:0005874"
+                    },
+                    {
+                        "onto_name": "plasma membrane",
+                        "onto_id": "GO:0005886"
+                    },
+                    {
+                        "onto_name": "cortical microtubule",
+                        "onto_id": "GO:0055028"
+                    },
+                    {
+                        "free_text": "cortical membranes"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cortical cytoskeleton organization",
+                        "onto_id": "GO:0030865"
+                    },
+                    {
+                        "onto_name": "fibril organization",
+                        "onto_id": "GO:0043206"
+                    },
+                    {
+                        "onto_name": "microtubule cytoskeleton organization",
+                        "onto_id": "GO:0000226"
+                    },
+                    {
+                        "onto_name": "cortical microtubule organization",
+                        "onto_id": "GO:0043622"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "uncultured scuticociliate",
+                        "onto_id": "NCBITaxon:300671"
+                    },
+                    {
+                        "free_text": "Conchophthirus curtus"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3700,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.67
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3748,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.67
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This section of Conchophthirus is at the edge of the cortex showing the striated fibers and microtubules that attach to ciliated basal bodies. In particular, enlarged glancing longitudinal views of both the striated fibers and microtubules reveal features of their organization. This particular micrograph of the group shows the relationship between a striated fiber and microtubules with a basal body. The negative magnification is 30,000X. The raw film was scanned with an Epson Perfection V750 Pro. This image is best used for quantitative analysis. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 65nm thickness."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Gregory Antipa (San Francisco State University)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL25901",
+            "ARK": "ark:/b7295/w9cil25901",
+            "Title": "Gregory Antipa (San Francisco State University) (2011) CIL:25901, uncultured scuticociliate, Conchophthirus curtus, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

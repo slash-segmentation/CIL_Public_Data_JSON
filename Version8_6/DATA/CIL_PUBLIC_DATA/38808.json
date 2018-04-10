@@ -1,0 +1,121 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38808.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38808.jpg",
+                    "Size": 191455
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38808.zip",
+                    "Size": 235917
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38808_orig.jpg",
+                    "Size": 235779
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Dytiscus marginalis",
+                    "onto_id": "NCBITaxon:398601"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "retardance",
+                    "onto_id": "FBbi:00000313"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image B0007757.  2011 Wellcome Image Award winner. Light microscopy Sept 2010 Collection: Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "polarization microscopy",
+                        "onto_id": "FBbi:00000248"
+                    },
+                    {
+                        "onto_name": "Rheinberg illumination",
+                        "onto_id": "FBbi:00000293"
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 560
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This polarized photomicrograph shows the rows of suckers on the foreleg of a male Dytiscus marginalis, commonly known as the great diving beetle - the largest freshwater beetle in the UK. It has a large streamlined body that is dark brown in color, with a yellow abdomen and yellow legs. Great diving beetles spend the majority of their time underwater hunting for food, feeding on other insects, tadpoles and small fish. They also mate underwater, and to aid this, the males have developed plate-like proximal tarsal joints on their front legs, which are covered in suckers. These suckers allow the male to hold onto a female during mating. This image shows a portion of such a joint, detailing part of one of the two larger suckers and five rows of small ones. The vibrant colors were achieved by passing light through colored filters onto the specimen, a technique known as Rheinberg illumination."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Spike Walker"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mating",
+                    "onto_id": "GO:0007618"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "intrinsic birefringence",
+                    "onto_id": "FBbi:00000594"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38808",
+            "ARK": "ark:/b7295/w9cil38808",
+            "Title": "Spike Walker (2011) CIL:38808, Dytiscus marginalis. CIL. Dataset"
+        }
+    }
+}

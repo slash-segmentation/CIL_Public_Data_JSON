@@ -1,0 +1,182 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "10533.tif",
+                    "Size": 58800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "10533.jpg",
+                    "Size": 123452
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "10533.zip",
+                    "Size": 58738141
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "7515",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "differential interference contrast microscopy",
+                        "onto_id": "FBbi:00000245"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cortical microtubule",
+                    "onto_id": "GO:0055028"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "regulation of cell shape",
+                        "onto_id": "GO:0008360"
+                    },
+                    {
+                        "onto_name": "microtubule cytoskeleton organization",
+                        "onto_id": "GO:0000226"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "boundaries between regions with different refractive index",
+                        "onto_id": "FBbi:00000599"
+                    }
+                ],
+                "CELLLINE": {
+                    "free_text": "Toxoplasma gondii RH stable cell line"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Toxoplasma gondii RH",
+                    "onto_id": "NCBITaxon:383379"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "optical path length gradient",
+                        "onto_id": "FBbi:00000312"
+                    }
+                ],
+                "MOLECULARFUNCTION": {
+                    "onto_name": "structural constituent of cytoskeleton",
+                    "onto_id": "GO:0005200"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0711
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0711
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 14,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.25
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A monolayer of human foreskin fibroblast cells was infected with Toxoplasma gondii expressing EGFP-tagged Tgbeta3-tubulin. Images overlaid with DIC. Images acquired using API DeltaVision on an Olympus IX70 inverted microscope. Objective: Olympus 60X water immersion, 1.2 NA. Filters: GFP, ex 450-490 em 500-540. Captured with CoolSnapHQ/ICX285. 3D stack is raw data corresponding to deconvolved stack: CIL# 10534.\n\nUnpublished image that is similar to images published in PMID: 16518471. See publication for other experimental details."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "PATHOLOGICALPROCESS": [
+                    {
+                        "onto_id": "DOID:DOID:9965"
+                    },
+                    {
+                        "onto_id": "IDO:IDO:0000038"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "John Murray (University of Pennsylvania)",
+                        "Ke Hu (Indiana University, Bloomington)"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "toxoplasmosis",
+                        "onto_id": "DOID:9965"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "charge coupled device (CCD)",
+                        "onto_id": "FBbi:00000294"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL10533",
+            "ARK": "ark:/b7295/w9cil10533",
+            "Title": "John Murray (University of Pennsylvania), Ke Hu (Indiana University, Bloomington) (2011) CIL:10533, Toxoplasma gondii RH. CIL. Dataset"
+        }
+    }
+}

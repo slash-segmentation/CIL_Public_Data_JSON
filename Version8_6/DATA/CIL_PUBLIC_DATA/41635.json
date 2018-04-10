@@ -1,0 +1,111 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41635.tif",
+                    "Size": 9100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41635.jpg",
+                    "Size": 474418
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41635.zip",
+                    "Size": 3983606
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Craterium minutum",
+                    "onto_id": "NCBITaxon:289942"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2000
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1506
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "free_text": "sporangium"
+                },
+                "CELLTYPE": {
+                    "free_text": "spore"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Fluorescent image of the sporangium, an enclosure in which spores are formed, of the slime mold Craterium minutum.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Mining University - Technical University of Ostrava Ostrava, Czech Republic"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011  Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm37.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Dalibor Mat\u00fdsek",
+                        "2011  Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "plant-type spore development",
+                    "onto_id": "GO:0048236"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41635",
+            "ARK": "ark:/b7295/w9cil41635",
+            "Title": "Dalibor Mat\u00fdsek, 2011  Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41635, Craterium minutum, spore. CIL. Dataset"
+        }
+    }
+}

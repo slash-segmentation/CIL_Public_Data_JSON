@@ -1,0 +1,79 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12430.jpg",
+                    "Size": 38878
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "12430.flv",
+                    "Size": 2471816
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12430.zip",
+                    "Size": 2642048
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "3762",
+                "MOLECULARFUNCTION": {
+                    "onto_name": "sodium-transporting ATP synthase activity, rotational mechanism",
+                    "onto_id": "GO:0046932"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "mitochondrial proton-transporting ATP synthase complex",
+                    "onto_id": "GO:0005753"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The F1F0 ATP synthase is a large protein complex that catalyzes the formation of ATP from ADP and inorganic phosphate using a proton gradient as a source of energy.  In eukaryotes, the F1F0 ATP synthase is found in the inner mitochondrial membrane of the mitochondria and the thylakoid membrane of chloroplasts, and is the primary source of ATP in nearly all organisms.\n\nATP synthase is a multisubunit complex composed of a membrane-embedded F0 portion and a catalytic F1 portion that protrudes above the membrane.  The F1 portion is made up of a hexamer of alternating alpha and beta subunits arranged around a core gamma subunit.  The F0 portion also consists of several different subunit types, named a, b and c.  The c-subunit forms a ring which is in close contact with the gamma subunit of F1.\n\nAs protons move through the F0 portion, the c-ring rotates, causing the rotation of the gamma subunit within the alpha/beta hexamer.  This in turn causes the three nucleotide binding sites in F1 to cycle through different conformations, ultimately leading to the synthesis of ATP.\n\nThis animation illustrates the three conformations that are induced in the alpha and beta subunits by the movement of gamma."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Medical Research Council, Mitochondrial Biology Unit"
+                    ],
+                    "URLs": [
+                        {
+                            "Href": "http://www.mrc-mbu.cam.ac.uk/research/atp-synthase/molecular-animations-atp-synthase"
+                        }
+                    ],
+                    "Contributors": [
+                        "Said Sannuga"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mitochondrial ATP synthesis coupled proton transport",
+                    "onto_id": "GO:0042776"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "animation",
+                    "onto_id": "FBbi:00000267"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12430",
+            "ARK": "ark:/b7295/w9cil12430",
+            "Title": "Said Sannuga (2011) CIL:12430. CIL. Dataset"
+        }
+    }
+}

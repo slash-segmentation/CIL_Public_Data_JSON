@@ -1,0 +1,139 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41920.zip",
+                    "Size": 3183222
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41920.jpg",
+                    "Size": 307390
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41920.tif",
+                    "Size": 3200000
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "synaptic terminal"
+                    },
+                    {
+                        "onto_name": "neuron projection membrane",
+                        "onto_id": "GO:0032589"
+                    },
+                    {
+                        "onto_name": "neuronal cell body",
+                        "onto_id": "GO:0043025"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "synaptic connexion organization"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "MOUSE_GROSS_ANATOMY": [
+                    {
+                        "onto_name": "TS25,cerebellum",
+                        "onto_id": "EMAP:10376"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024
+                        }
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "Purkinje cell",
+                        "onto_id": "CL:0000121"
+                    },
+                    {
+                        "free_text": "olivary axon"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal image of synaptic connexions in the mouse olivo-cerebellar system.  Purkinje cells (immunofluorescence, blue), olivary axons (anterograde tracing, yellow) and synaptic terminals (immunofluorescence, red) are shown, revealing the highly speci\ufb01c organization of neuronal connexions in the mouse cerebellum.  Honorable Mention, 2009 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EMAP:EMAP:10376"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University College London, MRC Lab for Molecular Cell Biology London, UK"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2009 Olympus  BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2009/hm25.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Mathieu Letellier",
+                        "2009 Olympus  BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41920",
+            "ARK": "ark:/b7295/w9cil41920",
+            "Title": "Mathieu Letellier, 2009 Olympus  BioScapes Digital Imaging Competition\u00ae (2012) CIL:41920, Mus musculus, Purkinje cell, olivary axon. CIL. Dataset"
+        }
+    }
+}

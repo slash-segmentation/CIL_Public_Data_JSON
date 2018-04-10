@@ -1,0 +1,121 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41644.zip",
+                    "Size": 12591972
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41644.jpg",
+                    "Size": 1872045
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41644.tif",
+                    "Size": 12600000
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "histamine"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "histamine secretion involved in inflammatory response",
+                    "onto_id": "GO:0002441"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2048
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2048
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "CELLTYPE": {
+                    "onto_name": "mast cell",
+                    "onto_id": "CL:0000097"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of a mast cell in human eye with conjunctivitis. This image shows a single mast cell invading conjunctival tissue in response to an inflammatory agent or pathogen.  The mast cell contains vesicles of histamine (red dots).  Mast cells are among the first cells of the immune system to react to the presence of an invading pathogen and they facilitate the movement of leukocytes (white blood cells) and other immune cells toward the site of infection. The image is composed of 42 stacked sections.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:11184"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "The Schepens Eye Research Institute, Boston, MA, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm47.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Donald Pottle",
+                        "2011 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "acute conjunctivitis",
+                        "onto_id": "DOID:11184"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41644",
+            "ARK": "ark:/b7295/w9cil41644",
+            "Title": "Donald Pottle, 2011 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41644, Homo sapiens, mast cell. CIL. Dataset"
+        }
+    }
+}

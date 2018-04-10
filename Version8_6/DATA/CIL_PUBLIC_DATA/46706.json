@@ -1,0 +1,81 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "46706.tif",
+                    "Size": 6900000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "46706.jpg",
+                    "Size": 907179
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Prefixation in cold glutaraldehyde, acid phosphatase reaction with cerium, post fixation in OsO4."
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "peroxisome",
+                        "onto_id": "GO:0005777"
+                    },
+                    {
+                        "onto_name": "lysosome",
+                        "onto_id": "GO:0005764"
+                    },
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "parenchymal cell",
+                    "onto_id": "CL:0000668"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Normal morphology of two peroxisomes (marked P) in a human liver parenchymal cell. They are contiguous with a narrow endoplasmic reticulum cisterna; this relationship is frequent. The image also shows a large dark lysosome with a membrane, contrasted with cerium by acid phosphatase activity. Several mitochondria are seen, and in the cytosol many glycogen rosettes typical for liver of a fed person; and a few fat droplets (no membrane). Marker = 0.5 \u00b5m."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Frank Roels"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "regulation of phosphatase activity",
+                    "onto_id": "GO:0010921"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_sa"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL46706",
+            "ARK": "ark:/b7295/w9cil46706",
+            "Title": "Frank Roels (2014) CIL:46706, Homo sapiens, parenchymal cell. CIL. Dataset"
+        }
+    }
+}

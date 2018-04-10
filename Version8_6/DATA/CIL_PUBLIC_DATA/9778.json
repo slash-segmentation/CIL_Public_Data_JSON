@@ -1,0 +1,77 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "9778.flv",
+                    "Size": 1480585
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9778.jpg",
+                    "Size": 31527
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9778.zip",
+                    "Size": 5210236
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Eukaryota",
+                    "onto_id": "NCBITaxon:2759"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "ubiquitin-specific protease activity",
+                    "onto_id": "GO:0004843"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The proteasome is a large, highly conserved protein complex whose main function is to enzymatically degrade target proteins. The eukaryotic proteasome houses six protease sites that are located deep within the barrel-shaped 20S core particle. Each core particle is built from two outer rings formed from seven alpha subunits, and two inner rings formed from seven beta subunits. The N-termini of the alpha subunit rings on either end of the core particle form a gate which can open to allow passage of target proteins into the proteasome core.\n\nThis animation shows the structure of the eukaryotic proteasome.  The lid structure is approximated from cryo-EM studies, and the core particle and regulatory particle were created using crystal structure data."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "https://iwasa.hms.harvard.edu/project_pages/proteasome/proteasome.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Janet Iwasa",
+                        "Alfred Goldberg",
+                        "David Smith"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "proteasome assembly",
+                    "onto_id": "GO:0043248"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "animation",
+                    "onto_id": "FBbi:00000267"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9778",
+            "ARK": "ark:/b7295/w9cil9778",
+            "Title": "Janet Iwasa, Alfred Goldberg, David Smith (2010) CIL:9778, Eukaryota. CIL. Dataset"
+        }
+    }
+}

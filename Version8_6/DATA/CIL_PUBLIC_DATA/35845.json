@@ -1,0 +1,188 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "35845.tif",
+                    "Size": 64100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35845.jpg",
+                    "Size": 40361
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35845.zip",
+                    "Size": 64794763
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "10611",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "phase contrast microscopy",
+                        "onto_id": "FBbi:00000247"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "CDC15 Protein"
+                    },
+                    {
+                        "onto_name": "cellular bud neck",
+                        "onto_id": "GO:0005935"
+                    },
+                    {
+                        "onto_name": "spindle pole body",
+                        "onto_id": "GO:0005816"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cytokinesis",
+                        "onto_id": "GO:0000910"
+                    },
+                    {
+                        "onto_name": "regulation of exit from mitosis",
+                        "onto_id": "GO:0007096"
+                    },
+                    {
+                        "onto_name": "protein phosphorylation",
+                        "onto_id": "GO:0006468"
+                    },
+                    {
+                        "onto_name": "meiotic anaphase II",
+                        "onto_id": "GO:0007138"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "differences in amount of elastic light scattering",
+                        "onto_id": "FBbi:00000600"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae",
+                    "onto_id": "NCBITaxon:4932"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "The images were acquired using a 60x 1.42 NA objective lens on Delta Vision system equipped with CoolSNAP_HQ2 / HQ2-ICX285.  Please read the microscopy section of the referenced paper for details before image analysis."
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "elastic scattering of photons",
+                        "onto_id": "FBbi:00000587"
+                    }
+                ],
+                "MOLECULARFUNCTION": {
+                    "onto_name": "protein kinase activity",
+                    "onto_id": "GO:0004672"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 213.4
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 213.4
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "61",
+                            "value": 300
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "visualization of contiguous regions",
+                        "onto_id": "FBbi:00000396"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A time lapse experiment of Saccharomyces cerevisiae expressing GFP tagged Cdc15, a protein kinase involves in cytokinesis.  These phase and GFPimages are part of an image group containing CIL 35840-35859. Note that there are additional groups of images of other cell cycle regulator proteins by the same authors available in the Library."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "PLoS One. 2011;6(10):e26272. Epub 2011 Oct 26."
+                    ],
+                    "Contributors": [
+                        "David Ball",
+                        "Jean Peccoud"
+                    ],
+                    "PUBMED": [
+                        "22046265"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": true,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35845",
+            "ARK": "ark:/b7295/w9cil35845",
+            "Title": "David Ball, Jean Peccoud (2011) CIL:35845, Saccharomyces cerevisiae. CIL. Dataset"
+        }
+    }
+}

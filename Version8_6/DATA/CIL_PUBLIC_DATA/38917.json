@@ -1,0 +1,152 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38917.zip",
+                    "Size": 95652
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38917_orig.jpg",
+                    "Size": 95514
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38917.jpg",
+                    "Size": 78822
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38917.tif",
+                    "Size": 1000000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "actin cytoskeleton",
+                        "onto_id": "GO:0015629"
+                    },
+                    {
+                        "free_text": "plectin"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "cell migration",
+                    "onto_id": "GO:0016477"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0006844 Confocal micrograph 2005 Collection: Medical Photographic Library  Wellcome Images.  Image copyrighted.  Please see details at http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 550
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "free_text": "colon cancer cell"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of cultured colon cancer cells showing the nuclei stained with DAPI in blue, the actin cytoskeleton in red and plectin (isoform 1k) in green. Plectin interacts with cytoskeletal actin, affecting its behaviour. This subtype of plectin promotes the migration of cells and may affect metastasis."
+                },
+                "PATHOLOGICALPROCESS": [
+                    {
+                        "onto_id": "DOID:DOID:10155"
+                    },
+                    {
+                        "onto_id": "DOID:DOID:12189"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Lorna McInroy"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "intestinal cancer",
+                        "onto_id": "DOID:10155"
+                    },
+                    {
+                        "onto_name": "metastatic tumor to the colon",
+                        "onto_id": "DOID:12189"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "free_text": "recorded image"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38917",
+            "ARK": "ark:/b7295/w9cil38917",
+            "Title": "CIL (2011) CIL:38917, colon cancer cell. CIL. Dataset"
+        }
+    }
+}

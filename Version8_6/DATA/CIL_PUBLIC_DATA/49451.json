@@ -1,0 +1,181 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "High-resolution montage of a sagittal section through the cerebellar cortex of an adult male mouse, triple labeled for Nuclei (Hoescht stain, blue), RI\u03b2 (cy3, red) and RII\u03b2 (Alexa 488, green). This image is a maximum projection of the Z-stack through the tissue, and has been downsampled from the raw data image, which can be accessed using the link provided to the Cell Image Library."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Mouse brain was perfused with 4% paraformaldehyde, sectioned through the hippocampus in the coronal plane on a vibratome (100 \u00b5m). The section was immunostained with RI\u03b2 and RII\u03b2 primary antibodies. Secondary antibodies: Alexa Fluor 488 Donkey anti rabbit (green) and CY3 Donkey anti sheep (red). Images were acquired with a FluoView 1000 (Olympus Center Valley, PA,USA) using 60X objective and a high-precision motorized stage to collect the large scale mosaics. The specimen was excited sequentially with a laser at two different wavelengths: 488nm and 561nm. The boundaries (in x, y, and z) of the tissue section were defined using the Multi-Area Time Lapse function of ASW 1.7c microscope operating-software provided by Olympus (Olympus, Center Valley, PA, USA). The software automatically generates a list of 3D stage positions covering the volume of interest, which are computed using the dimensions of a single image in microns, degree of overlap between adjacent images and z-step size. Overlap between two adjacent images (x-y) was 10% and the z-step was ~0.5 mm/section; there is no overlap in z. image normalization was performed using ImageJ.\n\nReconstruction Data File\nMontage of mouse cerebellar cortex tripled labeled for Hoescht stain (blue), PKA RI\u03b2 regulatory subunit (red), and PKA RII\u03b2 regulatory subunit (green).\nReconstruction Data Files, mosaic reconstructed with 10% overlap; image normalization performed using imageJ."
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cerebellum development",
+                        "onto_id": "GO:0021549"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "Purkinje cell",
+                        "onto_id": "CL:0000121"
+                    },
+                    {
+                        "free_text": "Central nervous system"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell body",
+                        "onto_id": "GO:0044297"
+                    },
+                    {
+                        "onto_name": "neuronal cell body",
+                        "onto_id": "GO:0043025"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Mus musculus",
+                        "onto_id": "NCBITaxon:10090"
+                    },
+                    {
+                        "free_text": "C57BL/6"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "confocal microscopy",
+                        "onto_id": "FBbi:00000251"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    }
+                ],
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "onto_name": "vibratome-sectioned tissue",
+                        "onto_id": "FBbi:00000030"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "free_text": "difference in adsorption"
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Hoechst 33342",
+                        "onto_id": "FBbi:00000052"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Ronit Ilouz",
+                        "Varda Lev-Ram",
+                        "Eric Bushong",
+                        "Travis Stiles",
+                        "Dinorah Friedmann-Morvinski",
+                        "Christopher Douglas",
+                        "Geoffrey Goldberg",
+                        "Mark Ellisman",
+                        "Susan Taylor"
+                    ],
+                    "OTHER": [
+                        "project_20403"
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": "7586"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": "7537"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": "7537"
+                        }
+                    }
+                ]
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_path": "49451.tif",
+                    "Size": 171800000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_path": "49451.jpg",
+                    "Size": 11509726,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_path": "49451.zip",
+                    "Size": 176949278,
+                    "File_type": "Zip"
+                },
+                {
+                    "Mime_type": "image/tiff",
+                    "File_path": "49451_orig.tif",
+                    "Size": 176949140,
+                    "File_type": "OME_tif"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": false,
+            "Still_image": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL49451",
+            "ARK": "ark:/b7295/w9cil49451",
+            "Title": "Ronit Ilouz, Varda Lev-Ram, Eric Bushong, Travis Stiles, Dinorah Friedmann-Morvinski, Christopher Douglas, Geoffrey Goldberg, Mark Ellisman, Susan Taylor (2017) CIL:49451, Mus musculus, C57BL/6, Purkinje cell, Central nervous system. CIL. Dataset"
+        }
+    }
+}

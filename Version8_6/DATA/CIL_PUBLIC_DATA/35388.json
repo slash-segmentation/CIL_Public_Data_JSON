@@ -1,0 +1,129 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35388.jpg",
+                    "Size": 6200330
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35388.zip",
+                    "Size": 43762872
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "35388.tif",
+                    "Size": 41300000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "chemically fixed tissue",
+                        "onto_id": "FBbi:00000002"
+                    },
+                    {
+                        "free_text": "paraformaldehyde fixation"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    }
+                ],
+                "GROUP_ID": "11163",
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000622"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "polytene chromosome",
+                    "onto_id": "GO:0005700"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "chromosome organization",
+                    "onto_id": "GO:0051276"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Salivary glands were dissected, fixed with paraformaldehyde, post-fixed with osmium tetroxide, and embedded in plastic. 4 micron sections were cut, stained with aqueous uranyl magnesium acetate, and observed with the Wisconsin HVEM at 1 MeV. See Ris, H 1981 Stereoscopic Electron Microscopy of chromosomes. Meth Cell Biol 22:77-96; Ris, H 1978 Preparation of chromatin and chromosomes for electron microscopy. Meth Cell Biol 18:229-246"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3690,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.5
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "High Voltage (1MeV) TEM image of a 'thick' section of polytene chromosome from salivary gland of 3rd instar larva of Drosophila melanogaster showing the band-interband organization. This image was captured with a specimen tilt of 56 degrees. Grouped with it is an image of the same region taken at a tilt angle of 45 degrees, providing an oblique stereo view of the structure."
+                },
+                "CELLTYPE": {
+                    "free_text": "salivary gland"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Hans Ris, University of Wisconsin, Madison, WI"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35388",
+            "ARK": "ark:/b7295/w9cil35388",
+            "Title": "Hans Ris, University of Wisconsin, Madison, WI (2011) CIL:35388, Drosophila melanogaster, salivary gland. CIL. Dataset"
+        }
+    }
+}

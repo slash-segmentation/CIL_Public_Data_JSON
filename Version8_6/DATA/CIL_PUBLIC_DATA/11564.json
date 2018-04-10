@@ -1,0 +1,198 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "11564.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11564.zip",
+                    "Size": 1381960
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11564.jpg",
+                    "Size": 498405
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "9577",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "centriole",
+                        "onto_id": "GO:0005814"
+                    },
+                    {
+                        "onto_name": "pericentriolar material",
+                        "onto_id": "GO:0000242"
+                    },
+                    {
+                        "onto_name": "microtubule",
+                        "onto_id": "GO:0005874"
+                    },
+                    {
+                        "free_text": "centriole satellites"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "centriole satellites"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Cavia porcellus",
+                        "onto_id": "NCBITaxon:10141"
+                    },
+                    {
+                        "free_text": "ascites tumor cell"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 914
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1260
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print from negative scanned for Photoshop."
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Figs. 309 & 310 from Don Fawcett's Chapter 12 (Centrioles). The plane of a thin section only rarely happens to coincide with the long axis of both members of a pair of centrioles. It is more common for one to be cut longitudinally and the other transversely, as in the accompanying micrographs. In both of these examples, the centrioles are oriented at right angles even though they are some distance apart.\nThe pair of centrioles in the upper micrograph on the facing page is closely associated with the Golgi apparatus and occupies a concavity in the nucleus. This is a common relationship in the hemopoietic cell line and in other cell types as well.\nThe lower figure illustrates the special character of the pericentriolar cytoplasm which often contains numerous satellites. The labeled microtubules end in one of the satellites. A copy of the chapter is available on the ASCB's BioEDUCATE website."
+                },
+                "CELLTYPE": {
+                    "free_text": "ascites tumor cell"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "ISBN 0721635849",
+                        "J. Cell Biol. 23:265-275, 1964"
+                    ],
+                    "Contributors": [
+                        "Don W. Fawcett",
+                        "Guy de The"
+                    ],
+                    "PUBMED": [
+                        "14222814"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11564",
+            "ARK": "ark:/b7295/w9cil11564",
+            "Title": "Don W. Fawcett, Guy de The (2011) CIL:11564, Cavia porcellus, ascites tumor cell, ascites tumor cell. CIL. Dataset"
+        }
+    }
+}

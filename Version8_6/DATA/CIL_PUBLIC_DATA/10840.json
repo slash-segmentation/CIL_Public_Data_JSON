@@ -1,0 +1,142 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "10840.zip",
+                    "Size": 1382544
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "10840.jpg",
+                    "Size": 425677
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "10840.tif",
+                    "Size": 1200000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "crosslinking-fixative fixed tissue",
+                        "onto_id": "FBbi:00000008"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    }
+                ],
+                "GROUP_ID": "5170",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    },
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "lysosome",
+                        "onto_id": "GO:0005764"
+                    },
+                    {
+                        "onto_name": "primary lysosome",
+                        "onto_id": "GO:0005766"
+                    },
+                    {
+                        "onto_name": "secondary lysosome",
+                        "onto_id": "GO:0005767"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "autophagy",
+                    "onto_id": "GO:0006914"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Phodopus",
+                    "onto_id": "NCBITaxon:10043"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 908
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1304
+                        }
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "hepatocyte",
+                    "onto_id": "CL:0000182"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Figures 264 (upper) and 265 (lower) from Chapter 8 (Lysosomes) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.  Lysosomes apparent in thin sections from liver tissue of hamster treated with phenobarbitol.  Primary lysosomes have dense homogeneous content, but the majority of the membrane-bounded dense bodies in the accompanying figures are secondary lysosomes.  A PDF copy of the accompanying chapter is available on the ASCB\u2019s BioEDUCATE website."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "ISBN 0721635849"
+                    ],
+                    "Contributors": [
+                        "Don W. Fawcett"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL10840",
+            "ARK": "ark:/b7295/w9cil10840",
+            "Title": "Don W. Fawcett (2011) CIL:10840, Phodopus, hepatocyte. CIL. Dataset"
+        }
+    }
+}

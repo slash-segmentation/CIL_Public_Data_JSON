@@ -1,0 +1,115 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "201.tif",
+                    "Size": 1300000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "201.jpg",
+                    "Size": 56774
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "201_orig.jpg",
+                    "Size": 58205
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "201.zip",
+                    "Size": 58335
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "11169",
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nuclear chromosome",
+                        "onto_id": "GO:0000228"
+                    },
+                    {
+                        "onto_name": "spindle",
+                        "onto_id": "GO:0005819"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Haemanthus katharinae",
+                    "onto_id": "NCBITaxon:39969"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See: De Mey J, Lambert AM, Bajer AS, Moeremans M, De Brabander M. Visualization of microtubules in interphase and mitotic plant cells of Haemanthus endosperm with the immuno-gold staining method. Proc Natl Acad Sci U S A. 1982 79:1898-902."
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 768
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 524
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Lily mitosis. A light microscope image of a cell from the endosperm of an African globe lily Haemanthus (Scadoxus) katherinae. This is one frame of a sequence that shows all phases of mitosis. The lily is considered a good organism for studying cell division because its endosperm has a liquid phase and chromosomes are thick and easier to see than human ones. Staining shows microtubules in red and chromosomes in blue.\nThis image showing an interphase cell is the 1st of a grouped series that spans mitosis."
+                },
+                "CELLTYPE": {
+                    "free_text": "endosperm"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Andrew S. Bajer, University of Oregon, Eugene, OR"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL201",
+            "ARK": "ark:/b7295/w9cil201",
+            "Title": "Andrew S. Bajer, University of Oregon, Eugene, OR (2011) CIL:201, Haemanthus katharinae, endosperm. CIL. Dataset"
+        }
+    }
+}

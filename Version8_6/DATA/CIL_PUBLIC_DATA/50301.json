@@ -1,0 +1,118 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of an alveolar macrophage which contains E2, a fluorocarbon. This macrophage is from a mouse which liquid breathed that fluorocarbon for 3 hours and was allowed to recover for 17 days. White areas are remnants of E2."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Stain 1: 1% osmium tetroxide<br/>\nEmbed: EPON 812<br/>\nSection: 50-100<br/>\nOrgan: lung<br/>\nTissue: peripheral lung<br/>"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "alveolar macrophage",
+                        "onto_id": "CL:0000583"
+                    },
+                    {
+                        "onto_name": "Golgi cell",
+                        "onto_id": "CL:0000119"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "nucleolus",
+                        "onto_id": "GO:0005730"
+                    },
+                    {
+                        "free_text": "nuclear pores"
+                    },
+                    {
+                        "free_text": "mitochondria"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Mus musculus",
+                        "onto_id": "NCBITaxon:10090"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "free_text": "transmission electron microscopy 60kv"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "free_text": "pseudocolored electron micrograph"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "free_text": "Glutaraldehyde and paraformaldehyde in phosphate buffer"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Marian Miller"
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": "2947"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": "2954"
+                        }
+                    }
+                ]
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_path": "50301.jpg",
+                    "Size": 1907554,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_path": "50301.tif",
+                    "Size": 34900000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_path": "50301.zip",
+                    "Size": 13031831,
+                    "File_type": "Zip"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": false,
+            "Still_image": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL50301",
+            "ARK": "ark:/b7295/w9cil50301",
+            "Title": "Marian Miller (2018) CIL:50301, Mus musculus, alveolar macrophage, Golgi cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13715.zip",
+                    "Size": 529254
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13715.tif",
+                    "Size": 600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13715.jpg",
+                    "Size": 73537
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "7051",
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "mitochondrial inner membrane",
+                        "onto_id": "GO:0005743"
+                    },
+                    {
+                        "onto_name": "mitochondrial outer membrane",
+                        "onto_id": "GO:0005741"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "protein phosphorylation",
+                        "onto_id": "GO:0006468"
+                    },
+                    {
+                        "onto_name": "intracellular protein kinase cascade",
+                        "onto_id": "GO:0007243"
+                    },
+                    {
+                        "onto_name": "response to stress",
+                        "onto_id": "GO:0006950"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "compartmentalization of stain or label",
+                        "onto_id": "FBbi:00000604"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "protein serine/threonine kinase activity",
+                        "onto_id": "GO:0004674"
+                    },
+                    {
+                        "onto_name": "ATP binding",
+                        "onto_id": "GO:0005524"
+                    },
+                    {
+                        "onto_name": "magnesium ion binding",
+                        "onto_id": "GO:0000287"
+                    },
+                    {
+                        "onto_name": "ubiquitin protein ligase binding",
+                        "onto_id": "GO:0031625"
+                    },
+                    {
+                        "onto_name": "calcium-dependent protein kinase activity",
+                        "onto_id": "GO:0010857"
+                    },
+                    {
+                        "onto_name": "C3HC4-type RING finger domain binding",
+                        "onto_id": "GO:0055131"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.279
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.279
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EYFP",
+                        "onto_id": "FBbi:00000084"
+                    },
+                    {
+                        "onto_name": "probe for mitochondria",
+                        "onto_id": "FBbi:00000411"
+                    },
+                    {
+                        "onto_name": "CMX rosamine (Mitotracker Red)",
+                        "onto_id": "FBbi:00000054"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "brightness and contrast adjusted"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "PINK1-YFP R98F (green) is found localized to mitochondria (red) in the absence of the mitochondrial depolarizing agent CCCP (carbonyl cyanide-m-chlorophenyl hydrazone). The R98F mutation in PINK1-YFP partially inhibits proteolytic cleavage. HeLa cells expressing PINK1-YFP R98F were stained with 10nM MitoTracker Red for 30 min to see mitochondrial morphology and then treated with DMSO for 3 hours. Cells were imaged using an inverted microscope (LSM510 Meta; Carl Zeiss, Inc.) with a 63\u00d7 1.4 NA oil differential interference contrast Plan Apo objective. Image contrast and brightness were adjusted in the accompanying image browser (LSM; Carl Zeiss, Inc.). This image corresponds to Fig 3d, R98F/DMSO bottom panels in J Cell Biol. 191: 933-942, 2010. Images in Fig3d include CIL#s 13713, 13714, 13715, 13716."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "free_text": "cervical carcinoma"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/3404/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. 191: 933-942, 2010."
+                    ],
+                    "Contributors": [
+                        "Seok Min Jin",
+                        "Michael Lazarou",
+                        "Chunxin Wang",
+                        "Lesley A. Kane",
+                        "Derek P. Narendra",
+                        "Richard J. Youle"
+                    ],
+                    "PUBMED": [
+                        "21115803"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13715",
+            "ARK": "ark:/b7295/w9cil13715",
+            "Title": "Seok Min Jin, Michael Lazarou, Chunxin Wang, Lesley A. Kane, Derek P. Narendra, Richard J. Youle (2011) CIL:13715, Homo sapiens, epithelial cell, cervical carcinoma. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35456.jpg",
+                    "Size": 0
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35456.zip",
+                    "Size": 23897190
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "35456.tif",
+                    "Size": 24000000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    }
+                ],
+                "GROUP_ID": "10153",
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000622"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    },
+                    {
+                        "onto_name": "chromosome organization",
+                        "onto_id": "GO:0051276"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "CELLLINE": {
+                    "free_text": "CHO"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cricetulus griseus",
+                    "onto_id": "NCBITaxon:10029"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Metaphase arrested cells were swollen in 0.07 M KCl, fixed with 10% paraformaldehyde, post-fixed with OsO4, dehydrated, embedded in plastic, and 0.25 micron sections obtained.  Sections were observed with the Wisconsin HVEM operated at 1 MeV, and micrographs taken at three tilt angles.  See Ris, H (1981) Stereoscopic electron microscopy of chromosomes. Meth Cell Biol 22:77-96; Ris, H (1978) Preparation of chromatin and chromosomes for electron microscopy. Meth Cell Biol 18:229-246."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4218,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2832,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Chinese Hamster Ovary (CHO) cells were metaphase-arrested with colcemid, exposed to hypotonic salt to swell the cells and chromosomes, fixed, embedded in plastic, and sections observed by high voltage electron microscopy (HVEM).  The chromatid pair seen in the image was recorded at a specimen tilt angle of 40 degrees. Grouped with this image are tilts of 30 and 50 degrees, providing oblique stereo views of the chromatids."
+                },
+                "CELLTYPE": {
+                    "free_text": "ovary"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Hans Ris"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35456",
+            "ARK": "ark:/b7295/w9cil35456",
+            "Title": "Hans Ris (2011) CIL:35456, Cricetulus griseus, ovary. CIL. Dataset"
+        }
+    }
+}

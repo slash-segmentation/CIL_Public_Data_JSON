@@ -1,0 +1,155 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "16221.jpg",
+                    "Size": 4291541
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "16221.tif",
+                    "Size": 27800000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "16221.zip",
+                    "Size": 13586044
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    }
+                ],
+                "GROUP_ID": "8227",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "tight junction",
+                    "onto_id": "GO:0005923"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "tight junction assembly",
+                    "onto_id": "GO:0070830"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "CELLLINE": {
+                    "onto_name": "MDCK-II",
+                    "onto_id": "MCC:0000321"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Canis lupus familiaris",
+                    "onto_id": "NCBITaxon:9615"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "MDCK cells, grown to confluence on 24C  \u2014 40 mm coverslips, were rinsed briefly in PBS followed by fixation with 2.5% glutaraldehyde in 0.1M sodium cacodylate buffer, pH 7.4, for 20 min at room temperature. After removal of the fixed MDCK cell monolayers with a razor blade, cells were pelleted and rinsed three times for 10 min in cacodylate buffer. Freeze fracture replication was performed as described previously (Rahner et al., 1996). Briefly, cell pellets were cryoprotected with 25% glycerol in cacodylate buffer. Specimens were mounted on double replica gold specimen supports, rapidly frozen at \u2212210C in subcooled liquid N2 (nitrogen slush) and transferred to a vacuum chamber (BFA 400D, Bal-Tec AG, Balzers, Lichtenstein).  After fracturing at \u2212100C, specimens were shadowed with 2 nm platinum/ carbon at an angle of 45 degrees and replicated with 20 nm carbon at 90 degrees. After thawing, replicas were cleaned with 50% chromic-sulfuric acid overnight, washed 6 times in double distilled water, and mounted on hexagonal 200 mesh copper grids. Replicas were examined and electron micrographs recorded on a Philips CM10 electron microscope. Figure 8 in Mol Biol Cell (2006). 18:721-731."
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "protein binding",
+                    "onto_id": "GO:0005515"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y"
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "free_text": "platinum shadow"
+                    },
+                    {
+                        "free_text": "carbon shadow"
+                    },
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Cell expressing delta U6 ZO-1 constructs show novel freeze fracture strands extending onto the lateral membrane. Stable MDCK cell lines were fixed and analyzed by freeze fracture electron microscopy. Cell lines expressing delta-U6 (C) or ZNG (aa 1-806) (E and F) show bizarre collections of tight junction fibrils that extend from the orthotopic junctional strands or that can be free-floating on the lateral surface (G), which were not present in cells transfected with vector alone (A), ZNU6 (aa 1-888) (D), or in delta U6-transfected cells grown in the presence of DOX (B). Replicas A\u2013F were imaged at 38,000x magnification and replica G at 21,000x magnification. Bar, 500 nm."
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.molbiolcell.org/cgi/reprint/18/3/721"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "Mol Biol Cell (2006). 18:721-731."
+                    ],
+                    "Contributors": [
+                        "Alan S. Fanning",
+                        "Brent P. Little",
+                        "Christopher Rahner",
+                        "Darkhan Utepbergenov",
+                        "Zenta Walther",
+                        "James M. Anderson"
+                    ],
+                    "PUBMED": [
+                        "17182847"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL16221",
+            "ARK": "ark:/b7295/w9cil16221",
+            "Title": "Alan S. Fanning, Brent P. Little, Christopher Rahner, Darkhan Utepbergenov, Zenta Walther, James M. Anderson (2011) CIL:16221, Canis lupus familiaris, epithelial cell. CIL. Dataset"
+        }
+    }
+}

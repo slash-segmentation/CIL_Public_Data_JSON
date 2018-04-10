@@ -1,0 +1,130 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38928.jpg",
+                    "Size": 131662
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38928_orig.jpg",
+                    "Size": 240724
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38928.zip",
+                    "Size": 240862
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38928.tif",
+                    "Size": 1400000
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "modes of light microscopy",
+                    "onto_id": "FBbi:00000345"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "sieve plate"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "xylem and phloem pattern formation",
+                    "onto_id": "GO:0010051"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in intrinsic optical density",
+                    "onto_id": "FBbi:00000602"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cucurbita",
+                    "onto_id": "NCBITaxon:3660"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0006199 Vascular bundles in a marrow stem.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "plant cell",
+                        "onto_id": "CL:0000610"
+                    },
+                    {
+                        "free_text": "xylem"
+                    },
+                    {
+                        "free_text": "phloem"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Unlike humans and animals, plants use separate systems to transport food and water - the heavily reinforced xylem for transporting water and the phloem system, with its own built in filters (sieve plates) for food. In this longitudinal section of part of a marrow (Cucurbita) stem, the red bands show the reinforcing structures in the xylem, and the lighter brown vertical bands across the vessels at the top of the image show the sieve plates arranged at intervals along the phloem."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Spike Walker"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38928",
+            "ARK": "ark:/b7295/w9cil38928",
+            "Title": "Spike Walker (2011) CIL:38928, Cucurbita, plant cell, xylem, phloem. CIL. Dataset"
+        }
+    }
+}

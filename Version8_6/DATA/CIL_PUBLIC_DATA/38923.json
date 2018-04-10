@@ -1,0 +1,120 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38923.zip",
+                    "Size": 173078
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38923.jpg",
+                    "Size": 140549
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38923.tif",
+                    "Size": 1100000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38923_orig.jpg",
+                    "Size": 172940
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "mucous globule"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mucus secretion",
+                    "onto_id": "GO:0070254"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0006124 Goblet cell.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 589
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "CELLTYPE": {
+                    "free_text": "globlet cell"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Colorized transmission electron micrograph of goblet cells packed full of mucous globules (blue).  The cells release the globules to provide lubrication and protection to the inner surfaces of the intestine and the respiratory system among others. The mucous globules are condensed inside the goblet cell but expand hugely once they are released, absorbing water within 20 milliseconds. This rapid release occurs in response to lots of different stimuli and allows the mucous to work instantly. The horizontal field width of the sample is 17.3 micrometers."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University of Edinburgh"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38923",
+            "ARK": "ark:/b7295/w9cil38923",
+            "Title": "CIL (2012) CIL:38923, globlet cell. CIL. Dataset"
+        }
+    }
+}

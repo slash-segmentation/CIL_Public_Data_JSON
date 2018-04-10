@@ -1,0 +1,180 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36670.tif",
+                    "Size": 5600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36670.jpg",
+                    "Size": 2201384
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36670.zip",
+                    "Size": 11316690
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "plasma membrane",
+                        "onto_id": "GO:0005886"
+                    },
+                    {
+                        "onto_name": "trichocyst",
+                        "onto_id": "GO:0055039"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "plasma membrane organization",
+                    "onto_id": "GO:0007009"
+                },
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "isolated subcellular component",
+                        "onto_id": "FBbi:00000579"
+                    }
+                ],
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium multimicronucleatum",
+                    "onto_id": "NCBITaxon:44030"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "elastic scattering of electrons",
+                        "onto_id": "FBbi:00000586"
+                    },
+                    {
+                        "onto_name": "electron density",
+                        "onto_id": "FBbi:00000315"
+                    },
+                    {
+                        "onto_name": "elevation",
+                        "onto_id": "FBbi:00000320"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2196
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2526
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print of negative scanned for Photoshop"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "In a conventional freeze fracture view the membrane around the trichocyst tip is decorated with striations and IMPs. These decorations are found at the site where the trichocyst tip is associated with the alveolar membrane in the septum. Pores in the septum connect alveoli and organized IMPs at the base of the cilium indicate an association of the ciliary membrane with the proximal ends of the 9 doublets of the cilium and with the transition zone between the basal body and cilium. TEM taken on 9/27/78 by R. Allen with Hitachi HU11A operating at 75kV. Neg. 14,750X. Bar = 0.25\u00b5m."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36670",
+            "ARK": "ark:/b7295/w9cil36670",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:36670, Paramecium multimicronucleatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

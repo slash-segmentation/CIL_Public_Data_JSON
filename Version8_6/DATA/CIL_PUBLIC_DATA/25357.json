@@ -1,0 +1,121 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "25357.jpg",
+                    "Size": 524161
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "25357.zip",
+                    "Size": 694559
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "25357_orig.jpg",
+                    "Size": 694421
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "25357.tif",
+                    "Size": 8000000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "critical_point dried specimen",
+                        "onto_id": "FBbi:00000581"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Hydra viridis",
+                    "onto_id": "NCBITaxon:6082"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "secondary electron generation",
+                    "onto_id": "FBbi:00000580"
+                },
+                "GROUP_ID": "6672",
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1748
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4565
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph showing tentacles on the head of a Hydra viridis. Epithelial cells located at the base of the tentacle are in a flat, contracted state. Cell distal to the head of the H. viridis are rounded in their relaxed state. Specimens were fixed in Aldehyde-osmium fixative 0.75% glutaraldehyde, 0.75% formaldehyde and 1.0% OsO4 prepared in 0.05M sodium cacodylate buffer. Fixative was buffered to pH 7.4-7.5. H. viridis were critical point dried and sputter coated with gold. Images were taken on a FEI Quanta 200 ESEM scanning electron micrograph. This sample was photographed as a montage at a magnification of 529x and an accelerating voltage of 15kV with a 11.1 mm working distance."
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Marian Rice",
+                        "Allison Miller"
+                    ]
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL25357",
+            "ARK": "ark:/b7295/w9cil25357",
+            "Title": "Marian Rice, Allison Miller (2011) CIL:25357, Hydra viridis, epithelial cell. CIL. Dataset"
+        }
+    }
+}

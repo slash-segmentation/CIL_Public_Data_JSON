@@ -1,0 +1,223 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13741.jpg",
+                    "Size": 59745
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13741.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13741.zip",
+                    "Size": 791912
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "GROUP_ID": "8382",
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "P granule",
+                    "onto_id": "GO:0043186"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "smoothened signaling pathway",
+                        "onto_id": "GO:0007224"
+                    },
+                    {
+                        "onto_name": "cell adhesion",
+                        "onto_id": "GO:0007155"
+                    },
+                    {
+                        "onto_name": "germ-line cyst formation",
+                        "onto_id": "GO:0048134"
+                    },
+                    {
+                        "onto_name": "germarium-derived egg chamber formation",
+                        "onto_id": "GO:0007293"
+                    },
+                    {
+                        "onto_name": "positive regulation of translation",
+                        "onto_id": "GO:0045727"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Fly ovaries were dissected and fixed as described previously (O\u2019Reilly et al., 2008). Primary antibodies were 1:50 rat-antiBoi (Hartman et al. 2010) 1:2,000 rabbit anti-Vasa (Hay et al., 1990); Secondary antibodies used were Cy3 and Cy5 conjugated to species-specific secondary antibodies (Jackson ImmunoResearch Laboratories, Inc.). Samples were mounted in Vectashield mounting medium. Images were collected at room temperature (22C) using 40\u00d7 (1.25 NA) or 63\u00d7 (1.4 NA) oil immersion lenses (Leica) on an upright microscope (DM 5000; Leica) coupled to a confocal laser scanner (TCS SP5; Leica). LAS AF SP5 software (Leica) was used for data acquisition. Images representing individual channels of single confocal slices from the center of each germarium were exported as TIFF files, and images were converted to figures using Photoshop software (Adobe)."
+                },
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "protein binding",
+                        "onto_id": "GO:0005515"
+                    },
+                    {
+                        "onto_name": "mRNA 3'-UTR binding",
+                        "onto_id": "GO:0003730"
+                    },
+                    {
+                        "onto_name": "RNA binding",
+                        "onto_id": "GO:0003723"
+                    },
+                    {
+                        "onto_name": "ATP-dependent helicase activity",
+                        "onto_id": "GO:0008026"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.2342
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.2342
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 1,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.042
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Cy3",
+                        "onto_id": "FBbi:00000449"
+                    },
+                    {
+                        "onto_name": "Cy5",
+                        "onto_id": "FBbi:00000450"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Boi (red) localizes predominantly to apical cells in Drosophila wild-type germaria but not in germaria with UAS-boi[RNAi] expression (CIL#13742). Germ cells are identified using anti-Vasa (blue). Image is Fig 2D in J Cell Biol. 2010. 191: 943-952.  Other images in Fig 2 include CIL# 13738, 13739, 13740, 13741, 13742)."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "germ line cell",
+                        "onto_id": "CL:0000039"
+                    },
+                    {
+                        "onto_name": "follicle cell",
+                        "onto_id": "CL:0000477"
+                    },
+                    {
+                        "onto_name": "germ line stem cell",
+                        "onto_id": "CL:0000014"
+                    },
+                    {
+                        "onto_name": "follicle stem cell",
+                        "onto_id": "CL:0000441"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/3512"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. 2010. 191: 943-952."
+                    ],
+                    "Contributors": [
+                        "Tiffiney R. Hartman",
+                        "Daniel Zinshteyn",
+                        "Heather K. Schofield",
+                        "Emmanuelle Nicolas",
+                        "Ami Okada",
+                        "Alana M. O'Reilly"
+                    ],
+                    "PUBMED": [
+                        "21098113"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13741",
+            "ARK": "ark:/b7295/w9cil13741",
+            "Title": "Tiffiney R. Hartman, Daniel Zinshteyn, Heather K. Schofield, Emmanuelle Nicolas, Ami Okada, Alana M. O'Reilly (2011) CIL:13741, Drosophila melanogaster, germ line cell, follicle cell, germ line stem cell, follicle stem cell. CIL. Dataset"
+        }
+    }
+}

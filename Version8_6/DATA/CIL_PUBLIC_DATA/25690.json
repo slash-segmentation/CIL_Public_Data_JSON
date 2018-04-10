@@ -1,0 +1,246 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "25690.jpg",
+                    "Size": 9376256
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "25690.zip",
+                    "Size": 62069894
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "25690.tif",
+                    "Size": 62200000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "11110",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "symbiont-containing vacuole",
+                        "onto_id": "GO:0020003"
+                    },
+                    {
+                        "free_text": "zoochlorellae"
+                    },
+                    {
+                        "onto_name": "oral apparatus",
+                        "onto_id": "GO:0031912"
+                    },
+                    {
+                        "onto_name": "cortical cytoskeleton",
+                        "onto_id": "GO:0030863"
+                    },
+                    {
+                        "onto_name": "cytoplasm",
+                        "onto_id": "GO:0005737"
+                    },
+                    {
+                        "onto_name": "cilium axoneme",
+                        "onto_id": "GO:0035085"
+                    },
+                    {
+                        "onto_name": "microtubule basal body",
+                        "onto_id": "GO:0005932"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "response to symbiont",
+                        "onto_id": "GO:0009608"
+                    },
+                    {
+                        "onto_name": "oral apparatus organization",
+                        "onto_id": "GO:0032122"
+                    },
+                    {
+                        "onto_name": "cytoplasm organization",
+                        "onto_id": "GO:0007028"
+                    },
+                    {
+                        "free_text": "eukaryotic photosynthetic symbiont"
+                    },
+                    {
+                        "onto_name": "ciliary or flagellar motility",
+                        "onto_id": "GO:0001539"
+                    },
+                    {
+                        "onto_name": "cortical cytoskeleton organization",
+                        "onto_id": "GO:0030865"
+                    },
+                    {
+                        "onto_name": "microtubule basal body organization",
+                        "onto_id": "GO:0032053"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Trichodina",
+                        "onto_id": "NCBITaxon:197893"
+                    },
+                    {
+                        "onto_name": "Chlorella",
+                        "onto_id": "NCBITaxon:3071"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 6042,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.7
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 5136,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.7
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A view of the entry to the oral apparatus of the green Trichodina that lives on the surface of a freshwater snail collected in central Illinois. In this view the haplokinety and the polykinety of the oral apparatus is cut transversely and an endosymbiotic zoochlorellae are evident. In the case of the haplokinety, there is a gradual view of cross-sections from the axoneme of the cilium through the transition zone to the upper part of the basal body. The haplokinety is distinguished by a single row of ciliated basal bodies and the adjacent outer polykinety is composed of three rows of ciliated basal bodies. The cortical underpinning of the oral cortex is evident. TEM taken by G. Antipa in 1968 with a Hitachi HU11A operating at 75kV. The negative magnification is 7,500X. The raw film was scanned with an Epson Perfection V750 Pro. This image is best used for quantitative analysis. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 65nm thickness."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Gregory Antipa (San Francisco State University)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL25690",
+            "ARK": "ark:/b7295/w9cil25690",
+            "Title": "Gregory Antipa (San Francisco State University) (2011) CIL:25690, Trichodina, Chlorella, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

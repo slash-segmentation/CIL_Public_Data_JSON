@@ -1,0 +1,220 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9917.zip",
+                    "Size": 20883550
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "9917.tif",
+                    "Size": 10500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9917.jpg",
+                    "Size": 2921730
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    }
+                ],
+                "GROUP_ID": "10165",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "macronucleus",
+                        "onto_id": "GO:0031039"
+                    },
+                    {
+                        "onto_name": "extracellular region",
+                        "onto_id": "GO:0005576"
+                    },
+                    {
+                        "onto_name": "extracellular space",
+                        "onto_id": "GO:0005615"
+                    },
+                    {
+                        "onto_name": "microtubule basal body",
+                        "onto_id": "GO:0005932"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cell adhesion",
+                        "onto_id": "GO:0007155"
+                    },
+                    {
+                        "onto_name": "heterochromatin organization",
+                        "onto_id": "GO:0070828"
+                    },
+                    {
+                        "onto_name": "chromosome organization",
+                        "onto_id": "GO:0051276"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "CELLLINE": {
+                    "free_text": "Cambridge Culture Collection, Cambridge, England, # LB1657/1"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Opercularia [NCBITaxon:168247]",
+                        "onto_id": "NCBITaxon:168247"
+                    },
+                    {
+                        "free_text": "Opercularia coarctata"
+                    }
+                ],
+                "TECHNICALDETAILS": {
+                    "free_text": "TEM taken on 6/10/69 by R. Allen with Philips 300 operating at 60kV. Neg. 11,800X. Bar = 1.0\u00b5m. A print of the negative was scanned and processed in Photoshop. This image is best used for qualitative analysis. A high resolution image (CIL:7333) is available for quantitative analysis. \n\nStandard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness.\n\nAdditional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "cell adhesion molecule binding",
+                    "onto_id": "GO:0050839"
+                },
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2904
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3608
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print of negative scanned for photoshop"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Image of the scopula, the stalk forming region at the aboral end of the cell body of Opercularia coarctata. A group of basal bodies each gives rise to a modified cilium that gives rise to a cylinder of striated fibrous 'straws' that occupy the lumen of the non-contractile stalk. This image shows a basal body of the trochal region, the end of the empty nascent food vacuole tube that is surrounded by lamellar microtubules that arise from the cytopharynx, the macronucleus, myonemes, and a perioral kinetid."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Richard Allen"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9917",
+            "ARK": "ark:/b7295/w9cil9917",
+            "Title": "Richard Allen (2010) CIL:9917, Opercularia [NCBITaxon:168247], Opercularia coarctata, cell by organism, eukaryotic cell, Eukryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

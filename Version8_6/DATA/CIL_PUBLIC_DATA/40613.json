@@ -1,0 +1,101 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40613.jpg",
+                    "Size": 146458
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40613.tif",
+                    "Size": 3000000
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Bacillariophyta",
+                    "onto_id": "NCBITaxon:2836"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image collected on a FEI Quanta Family SEM with the following parameters:  Magnification: 7000 x, Vacuum: 5.5 -5tprr, Voltage: 20 kv, Detector: ETD, and Working Distance: 15 mm."
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 943
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "free_text": "frustule"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph of a diatom frustule.  The frustule is the hard and porous cell wall or external layer of diatoms."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Science Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/Diatom-frustule-2329.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Ekaterina Nikitina"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "frustule organization"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40613",
+            "ARK": "ark:/b7295/w9cil40613",
+            "Title": "Ekaterina Nikitina (2012) CIL:40613, Bacillariophyta. CIL. Dataset"
+        }
+    }
+}

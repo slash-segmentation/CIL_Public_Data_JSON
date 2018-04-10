@@ -1,0 +1,158 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "15801.flv",
+                    "Size": 491135
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "15801.zip",
+                    "Size": 4296832
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "15801.jpg",
+                    "Size": 33350
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "11236",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "free_text": "histone"
+                    },
+                    {
+                        "free_text": "ensconsin"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    },
+                    {
+                        "onto_name": "prophase",
+                        "onto_id": "GO:0051324"
+                    },
+                    {
+                        "onto_name": "mitotic metaphase",
+                        "onto_id": "GO:0000089"
+                    },
+                    {
+                        "onto_name": "mitotic anaphase",
+                        "onto_id": "GO:0000090"
+                    },
+                    {
+                        "onto_name": "mitotic telophase",
+                        "onto_id": "GO:0000093"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "Embryo",
+                    "onto_id": "FMA:69068"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Dendraster excentricus",
+                    "onto_id": "NCBITaxon:273752"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 640,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.25
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 640,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.25
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "85",
+                            "value": 20
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Sand dollar embryos expressing GFP-H2B going thru stages of mitosis.  Video is animated with the cursor indicating the stages of mitosis and the morphological characteristics of the stage during the time course of the video."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "George Von Dassow"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL15801",
+            "ARK": "ark:/b7295/w9cil15801",
+            "Title": "George Von Dassow (2011) CIL:15801, Dendraster excentricus. CIL. Dataset"
+        }
+    }
+}

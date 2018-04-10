@@ -1,0 +1,151 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38962.zip",
+                    "Size": 112287
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38962.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38962_orig.jpg",
+                    "Size": 112149
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38962.jpg",
+                    "Size": 56372
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "neurofilament",
+                        "onto_id": "GO:0005883"
+                    },
+                    {
+                        "free_text": "S100"
+                    },
+                    {
+                        "free_text": "dystrophin related protein"
+                    }
+                ],
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "onto_name": "sciatic nerve",
+                        "onto_id": "EHDAA:5659"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "sciatic nerve fiber organization"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "teased fibers"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0003732 Sciatic nerve fibres.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 689
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "neuron",
+                    "onto_id": "CL:0000540"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of teased sciatic nerve fibers.  The fibers are triple labelled for neurofilament (blue), S100 (red) and dystrophin-related protein (DRP2) (green). The S100 protein is expressed in the Schwann cells of the peripheral nervous system and in astroglial cells of the central nervous system. DRP2 is thought to be involved in membrane-cytoskeleton interactions at sites of membrane specialization and intercellular contact in various tissues. Disruption of these protein complexes are thought to be a cause of Charcot-Marie-Tooth disease. This is an inherited disease that leads to muscle-wasting."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:10595"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Peter Brophy"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EHDAA:EHDAA:5659"
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "Charcot-Marie-Tooth disease",
+                        "onto_id": "DOID:10595"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38962",
+            "ARK": "ark:/b7295/w9cil38962",
+            "Title": "Peter Brophy (2012) CIL:38962, neuron. CIL. Dataset"
+        }
+    }
+}

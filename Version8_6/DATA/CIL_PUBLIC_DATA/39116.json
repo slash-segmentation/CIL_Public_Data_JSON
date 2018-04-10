@@ -1,0 +1,136 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39116.jpg",
+                    "Size": 91555
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39116.tif",
+                    "Size": 500000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39116.zip",
+                    "Size": 419928
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                "GROUP_ID": "9897",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "chloroplast",
+                        "onto_id": "GO:0009507"
+                    },
+                    {
+                        "onto_name": "plastid thylakoid",
+                        "onto_id": "GO:0031976"
+                    },
+                    {
+                        "onto_name": "photosystem II",
+                        "onto_id": "GO:0009523"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "C4 photosynthesis",
+                    "onto_id": "GO:0009760"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "isolated subcellular component",
+                    "onto_id": "FBbi:00000579"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Hordeum vulgare subsp. vulgare",
+                    "onto_id": "NCBITaxon:112509"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Wildtype and mutant plants were were grown under a 16-hr day regime, harvested at 3 weeks, and chloroplasts isolated. For freeze fracture, isolated chloroplasts were made 30% in glycerol, plunge frozen, and cleaved, etched, and shadowed in a Balzers freeze-fracture unit. Replicas were examined with a Philips 300 transmission EM and images recorded on film.  See Fig 13 in KR Miller et al. 1976 J. Cell Biol 71, 624-638."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 666
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 630
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                "CELLTYPE": {
+                    "free_text": "leaf"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "High magnification freeze-fracture image of a chloroplast from barley (Hordeum vulgare)showing the occasional repeating array of tetrameric particles. Other images in this group show the more typical distribution of particles on cleaved thylakoid faces."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "KR Miller, GJ Miller, KR McIntyre 1976 The light-harvesting chlrophyll-protein complex of photosystem II"
+                    ],
+                    "Contributors": [
+                        "Kenneth R Miller",
+                        "Gayle J Miller",
+                        "Katherine R McIntyre"
+                    ],
+                    "PUBMED": [
+                        "993264"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39116",
+            "ARK": "ark:/b7295/w9cil39116",
+            "Title": "Kenneth R Miller, Gayle J Miller, Katherine R McIntyre (2011) CIL:39116, Hordeum vulgare subsp. vulgare, leaf. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,159 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38976.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38976_orig.jpg",
+                    "Size": 318710
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38976.zip",
+                    "Size": 318848
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38976.jpg",
+                    "Size": 171521
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "free_text": "endometrium"
+                    },
+                    {
+                        "free_text": "bilaminar disc"
+                    },
+                    {
+                        "onto_name": "epiblast",
+                        "onto_id": "EHDAA:42"
+                    },
+                    {
+                        "free_text": "hypoblast"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "embryo implantation",
+                    "onto_id": "GO:0007566"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0003308 6 day old human embryo implanting.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 770
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph of a  6 day old human embryo beginning to implant into the lining of the uterus (endometrium). As implantation progresses, the inner cell mass begins to form into the bilaminar disc. The two layers are called the epiblast and the hypoblast. An embryo that has been in culture for up to 14 days will remain at this stage of development. Such cultured embryos remain alive but do not progress as they would in the womb."
+                },
+                "CELLTYPE": {
+                    "onto_name": "embryonic gland hemocyte",
+                    "onto_id": "CL:0000736"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Yorgos Nikas"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "EHDAA:endometrium"
+                    },
+                    {
+                        "onto_id": "EHDAA:bilaminar disc"
+                    },
+                    {
+                        "onto_id": "EHDAA:EHDAA:42"
+                    },
+                    {
+                        "onto_id": "EHDAA:hypoblast"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38976",
+            "ARK": "ark:/b7295/w9cil38976",
+            "Title": "Yorgos Nikas (2012) CIL:38976, Homo sapiens, embryonic gland hemocyte. CIL. Dataset"
+        }
+    }
+}

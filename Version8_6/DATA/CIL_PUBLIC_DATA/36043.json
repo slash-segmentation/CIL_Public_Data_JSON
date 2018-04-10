@@ -1,0 +1,149 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36043.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36043.jpg",
+                    "Size": 252884
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36043.zip",
+                    "Size": 921012
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "GROUP_ID": "9915",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "differential interference contrast microscopy",
+                        "onto_id": "FBbi:00000245"
+                    },
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "microtubule",
+                        "onto_id": "GO:0005874"
+                    },
+                    {
+                        "onto_name": "pigment granule",
+                        "onto_id": "GO:0048770"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "microtubule-based transport",
+                    "onto_id": "GO:0010970"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "boundaries between regions with different refractive index",
+                        "onto_id": "FBbi:00000599"
+                    },
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Pterophyllum scalare",
+                    "onto_id": "NCBITaxon:74131"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "optical path length gradient",
+                        "onto_id": "FBbi:00000312"
+                    },
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 861
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1301
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "CELLTYPE": {
+                    "onto_name": "pigment cell (sensu Vertebrata)",
+                    "onto_id": "CL:0000342"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Figures 404 (upper panels A, B), 405 (middle) and 406 (lower) from Chapter 16 (Cytoplasmic matrix and cytoskeleton) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.  Microtubules and pigment granule transport.  Upper panels compare dispersed (A) vs. aggregated (B) pigment granule observed using interference microscopy in living fish melanophores.  Arrows in B show that the outer boundary of the cell remains unchanged. Middle panel shows radially oriented microtubules in a melanophore with dispersed pigment, revealed by antibody staining of tubulin with FITC-conjugated secondary.  In cells with aggregated pigment, the radial disposition remains unchanged, although in the region of concentrated pigments, only a few fibers can be observed (lower panel).  Figures from Schliwa, Osborn and Weber, J. Cell Biol. 76:229-236, 1978 (PMID:338618). A PDF copy of the accompanying chapter is available on the ASCB\u2019s BioEDUCATE website."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "ISBN 0721635849"
+                    ],
+                    "Contributors": [
+                        "Don W. Fawcett",
+                        "Manfred Schliwa; Mary Osborn; Klaus Weber"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36043",
+            "ARK": "ark:/b7295/w9cil36043",
+            "Title": "Don W. Fawcett, Manfred Schliwa; Mary Osborn; Klaus Weber (2011) CIL:36043, Pterophyllum scalare, pigment cell (sensu Vertebrata). CIL. Dataset"
+        }
+    }
+}

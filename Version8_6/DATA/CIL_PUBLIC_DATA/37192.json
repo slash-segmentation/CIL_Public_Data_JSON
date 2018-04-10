@@ -1,0 +1,126 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37192.jpg",
+                    "Size": 5446425
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "37192.tif",
+                    "Size": 65000000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37192.zip",
+                    "Size": 64941248
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                "GROUP_ID": "10000",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "mitochondrial crista",
+                        "onto_id": "GO:0030061"
+                    },
+                    {
+                        "onto_name": "lipid particle",
+                        "onto_id": "GO:0005811"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cavia porcellus",
+                    "onto_id": "NCBITaxon:10141"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "References:\nPalade, G.E. 1952.  J. Exp. Med. 95:285-298.\nPalade, G.E. 1952. Anat. Rec. 114:427-451.\nSabatini, D.D, K. Bensch and R.J. Barrnett. 1963. J. Cell. Bio. 17:19-58. \nOriginal 3.25 in. x 4 in. lantern slides were scanned at 600dpi."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 6000
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 5411
+                        }
+                    }
+                ],
+                "CELLTYPE": {
+                    "free_text": "pancreatic cell"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of mitochondria and lipid droplets from guinea pig pancreas. The use of osmium tetroxide as a fixative for electron microscopy was first described by Dr. Palade at the Rockefeller. Another major advance in fixation for electron microscopy was done at Yale by David Sabatini who described the use of glutaraldehyde which not only preserved ultrastructure, but enzymatic activities which opened up the possibility of EM localization of enzymatic function in cells. Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."
+                },
+                "ATTRIBUTION": {
+                    "DATE": [
+                        "04/17/1958"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "George E. Palade EM slide collection",
+                            "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeMitoB"
+                        }
+                    ],
+                    "Contributors": [
+                        "George E. Palade"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37192",
+            "ARK": "ark:/b7295/w9cil37192",
+            "Title": "George E. Palade (2011) CIL:37192, Cavia porcellus, pancreatic cell. CIL. Dataset"
+        }
+    }
+}

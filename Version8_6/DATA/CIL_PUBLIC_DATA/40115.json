@@ -1,0 +1,114 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40115.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40115.jpg",
+                    "Size": 106849
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    }
+                ],
+                "GROUP_ID": "12305",
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000623"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell body",
+                    "onto_id": "GO:0044297"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Fixation: The media was removed and saved. Then, cell pellets were fixed in 2% glutaraldehyde in 100 mM cacodylate buffer for 30 minutes on ice. The fixed pellet was resuspended in media and centrifuged again. Cells were loaded into the 100 mm well of a type A brass planchette (Ted Pella, Inc. Redding, CA) and fast frozen in the Bal-Tec HPM010 (Bal-Tec, Liechtenstein).\n\nFreeze substitution: After freezing, samples (2) and (3) were placed into a Leica EM AFS Freeze substitution (FS) machine (Leica Microsystems, Bannockburn, IL) and incubated at -90 deg C for 24 hours in 0.1 percent tannic acid in acetone. Samples were washed three times with cold acetone (cooled to -90 degrees C) over 5 minutes, and placed in 1 percent OsO4 and 0.1% UA in cold acetone for 72 hours and held at -90 degrees C. After slowly warming to room temperature at 5 degrees C per hour, the specimens were rinsed in pure acetone three times (10 min. at room temperature). Infiltration and embedding in Durcupan resin was subsequently performed at room temperature.Images were acquired using a JEOL4000EX IVEM, magnification: 30000.0; accelerating voltage: 80.0 keV."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512
+                        }
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "onto_name": "embryonic cell",
+                    "onto_id": "CL:0002321"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Electron micrograph of cultured Drosophila Dl1 cells infected with flock house virus, prepared using chemical fixation and high pressure freezing followed by freeze substitution. This cell was prepared as part of an experiment to investigate different protocols for high pressure freezing. This image has been downsampled from the raw data image which can be accessed using the link provided to the Cell Centered Database."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 3939",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3939"
+                        }
+                    ],
+                    "Contributors": [
+                        "Mark Ellisman",
+                        "Gina Sosinsky",
+                        "Ying Jones"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40115",
+            "ARK": "ark:/b7295/w9cil40115",
+            "Title": "Mark Ellisman, Gina Sosinsky, Ying Jones (2012) CIL:40115, Drosophila melanogaster, embryonic cell. CIL. Dataset"
+        }
+    }
+}

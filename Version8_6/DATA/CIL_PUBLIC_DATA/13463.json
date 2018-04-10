@@ -1,0 +1,170 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13463.tif",
+                    "Size": 900000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13463.jpg",
+                    "Size": 8679
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13463.zip",
+                    "Size": 842190
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "6596",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "Golgi apparatus",
+                        "onto_id": "GO:0005794"
+                    },
+                    {
+                        "onto_name": "integral to membrane",
+                        "onto_id": "GO:0016021"
+                    },
+                    {
+                        "onto_name": "vacuolar lumen",
+                        "onto_id": "GO:0005775"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cell wall mannoprotein biosynthetic process",
+                        "onto_id": "GO:0000032"
+                    },
+                    {
+                        "onto_name": "protein glycosylation",
+                        "onto_id": "GO:0006486"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae S288c",
+                    "onto_id": "NCBITaxon:559292"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "alpha-1,2-mannosyltransferase activity",
+                    "onto_id": "GO:0000026"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 264,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0663
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 264,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0663
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 6,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.4
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "constrained iterative deconvolution",
+                    "onto_id": "FBbi:00000360"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Kre2-GFP is not efficiently maintained in the Golgi apparatus when Pik1-mediated PtdIns4P synthesis ceases, implicating Pik1 signaling in retrograde trafficking of Golgi residents. In this image, Kre2-GFP is expressed in the isogenic control strain for the pik1-83 mutant, shifted to restrictive temperature of 37C for 1h. Cells grown in liquid medium were mounted in growth medium and 3D image stacks were collected at 0.4-\u00b5m z increments on a DeltaVision workstation (Applied Precision) based on an inverted microscope (IX-70; Olympus) using a 100\u00d7 NA 1.4 oil immersion lens. Images were captured at 23C with a 12-bit CCD camera (CoolSnap HQ; Photometrics) and deconvolved using the iterative-constrained algorithm (Agard, 1984) and the measured point spread function. One image from the approximate center of z stack is shown in Fig4D 37C PIK1 panel in J Cell Biol. 187: 967-975. 2009. Images in Fig 4D include CIL#s 13460, 13461, 13462, 13463, 13464, 13465, 13466, 13467."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/1851/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. 187: 967-975. 2009"
+                    ],
+                    "Contributors": [
+                        "Christopher S. Wood",
+                        "Karl R. Schmitz",
+                        "Nicholas J. Bessman",
+                        "Thanuja Gangi Setty",
+                        "Kathryn M. Ferguson",
+                        "Christopher G. Burd"
+                    ],
+                    "PUBMED": [
+                        "20026658"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13463",
+            "ARK": "ark:/b7295/w9cil13463",
+            "Title": "Christopher S. Wood, Karl R. Schmitz, Nicholas J. Bessman, Thanuja Gangi Setty, Kathryn M. Ferguson, Christopher G. Burd (2011) CIL:13463, Saccharomyces cerevisiae S288c. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,144 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38965_orig.jpg",
+                    "Size": 238354
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38965.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38965.zip",
+                    "Size": 238492
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38965.jpg",
+                    "Size": 110707
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "neuronal cell body",
+                        "onto_id": "GO:0043025"
+                    },
+                    {
+                        "onto_name": "neuron projection",
+                        "onto_id": "GO:0043005"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "dorsal root ganglion morphogenesis"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0003822 Pain and touch sensory fibers in DRG.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 556
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "sensory neuron",
+                        "onto_id": "CL:0000101"
+                    },
+                    {
+                        "onto_name": "peptidergic neuron",
+                        "onto_id": "CL:0000110"
+                    },
+                    {
+                        "free_text": "myelinated A fibers"
+                    },
+                    {
+                        "free_text": "non-peptidergic pain neurons"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Section through a neonatal dorsal root ganglion (DRG) showing the cell bodies of different populations of sensory nerves. The myelinated A fibers that detect tactile sensations are shown in red. The peptidergic neurons that detect pain and mediate neurogenic inflammation via the release of certain peptides both at the painful site and in the spinal cord are shown in green. The non-peptidergic pain neurons are shown in blue. Bundles of nerve fibers can also be seen within the ganglion."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Simon Beggs"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38965",
+            "ARK": "ark:/b7295/w9cil38965",
+            "Title": "Simon Beggs (2012) CIL:38965, sensory neuron, peptidergic neuron, myelinated A fibers, non-peptidergic pain neurons. CIL. Dataset"
+        }
+    }
+}

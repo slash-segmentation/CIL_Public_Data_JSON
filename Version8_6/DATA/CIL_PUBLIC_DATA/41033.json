@@ -1,0 +1,133 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41033.zip",
+                    "Size": 15140714
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41033.tif",
+                    "Size": 15200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41033.jpg",
+                    "Size": 1662893
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "unfixed tissue",
+                    "onto_id": "FBbi:00000014"
+                },
+                "GROUP_ID": "11761",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "ribosome",
+                    "onto_id": "GO:0005840"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "protein sythesis"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "isolated subcellular component",
+                    "onto_id": "FBbi:00000579"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus rattus",
+                    "onto_id": "NCBITaxon:10117"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Samples were placed on carbon coated collodion films, negatively stained with aqueous uranyl acetate, and examined with a Philips 300 TEM.\n\nSee also Plate IX in: N. Yoshiaki et al. 1971. Structure of liver ribosomes studied by negative staining. J Mol Biol 60:303-323"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3039
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2490
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "CELLTYPE": {
+                    "onto_name": "hepatocyte",
+                    "onto_id": "CL:0000182"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Gallery of transmission electron micrographs of ribosomes purified from a rat liver homogenate by sucrose gradient centrifugation, and negatively stained with uranyl acetate. The 3 columns at left illustrate lateral views with arrows denoting the junctions between large and small subunits.  The 4 columns at right illustrate 'frontal' views, with the notch demarcating the junctions between large and small subunits."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "George E. Palade EM Slide Collection",
+                            "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?p=about&c=palade"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "N. Yoshiaki et al. 1971. Structure of liver ribosomes studied by negative staining. J Mol Biol 60:303-323"
+                    ],
+                    "Contributors": [
+                        "Yoshiaki Nonomura",
+                        "Gunter Blobel",
+                        "David Sabatini",
+                        "George E. Palade"
+                    ],
+                    "PUBMED": [
+                        "4106575"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41033",
+            "ARK": "ark:/b7295/w9cil41033",
+            "Title": "Yoshiaki Nonomura, Gunter Blobel, David Sabatini, George E. Palade (2012) CIL:41033, Rattus rattus, hepatocyte. CIL. Dataset"
+        }
+    }
+}

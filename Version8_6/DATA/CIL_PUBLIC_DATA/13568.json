@@ -1,0 +1,242 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13568.jpg",
+                    "Size": 81545
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13568.tif",
+                    "Size": 8500000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "GROUP_ID": "6490",
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "Golgi-associated vesicle",
+                        "onto_id": "GO:0005798"
+                    },
+                    {
+                        "onto_name": "COPI vesicle coat",
+                        "onto_id": "GO:0030126"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "integral to membrane",
+                        "onto_id": "GO:0016021"
+                    },
+                    {
+                        "onto_name": "Golgi cisterna membrane",
+                        "onto_id": "GO:0032580"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "retrograde vesicle-mediated transport, Golgi to ER",
+                        "onto_id": "GO:0006890"
+                    },
+                    {
+                        "onto_name": "protein O-linked glycosylation via serine",
+                        "onto_id": "GO:0018242"
+                    },
+                    {
+                        "onto_name": "protein O-linked glycosylation via threonine",
+                        "onto_id": "GO:0018243"
+                    },
+                    {
+                        "onto_name": "COPI coating of Golgi vesicle",
+                        "onto_id": "GO:0048205"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "compartmentalization of stain or label",
+                        "onto_id": "FBbi:00000604"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "manganese ion binding",
+                        "onto_id": "GO:0030145"
+                    },
+                    {
+                        "onto_name": "polypeptide N-acetylgalactosaminyltransferase activity",
+                        "onto_id": "GO:0004653"
+                    },
+                    {
+                        "onto_name": "N-acetylgalactosamine binding",
+                        "onto_id": "GO:0046871"
+                    },
+                    {
+                        "onto_name": "structural molecule activity",
+                        "onto_id": "GO:0005198"
+                    },
+                    {
+                        "onto_name": "protein binding",
+                        "onto_id": "GO:0005515"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.062
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.062
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 1,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 11.03
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Alexa Fluor 647",
+                        "onto_id": "FBbi:00000447"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 594",
+                        "onto_id": "FBbi:00000444"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Helix pomatia agglutinin",
+                        "onto_id": "FBbi:00000429"
+                    },
+                    {
+                        "free_text": "Hoechst"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "GalNac-T1 (green) is in dispersed punctate structures that stain positive for COP-I beta1 (red) after EGF treatment of HeLa cells for 4h. These data suggest that GalNAc-Ts are being redistributed from the Golgi apparatus to the ER by a process that requires COP-I vesicles. Helix Pomatia Lectin (HPL) binds various glycans but the Tn antigen in particular. The Tn antigen refers to terminal \u03b1-linked N-acetyl galactosamine residues (GalNAc) linked to Ser or Thr residues. HeLa cells were serum starved overnight in DME (noFBS) and then treated with human recombinant EGF (100 ng/ml; Sigma-Aldrich) for 4h. Cells were fixed for 10 min (4% paraformaldehyde) and permeabilized (0.2% Triton X-100). Primary antibody staining followed the manufacturer\u2019s instructions. Cells were subsequently stained for 15\u201330 min with secondary Alexa Fluor\u2013conjugated antibodies (Alexa 488 for anti-GalNac-T1, Alexa 594 for anti-COP-I beta1). Hoechst (blue) and Alexa 647-conjugated-HPL were added during secondary antibody incubations. Cells were mounted onto glass slides using FluorSave (Merck) and imaged at room temperature using an inverted FluoView confocal microscope (model IX81; Olympus) with fluorescence excitation at 488 nm, 561 nm, and 633 nm and either a 60x objective (U Plan Super Apochromatic [UPLSAPO]; NA 1.35) or 100x objective (UPLSAPO; NA 1.40) using Immersol oil. Microscope coupled with a CCD camera (model FVII). Images were acquired and processed using Olympus FV10-ASW software. Image corresponds to Fig 6D, in J Cell Biol. 189: 843-858. 2010. Images in Fig 6 include CIL#s 13563, 13564, 13565, 13566, 13567, 13568, 13569, 13570."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "free_text": "cervical carcinoma"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/2860/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. 189: 843-858. 2010."
+                    ],
+                    "Contributors": [
+                        "David J. Gill",
+                        "Joanne Chia",
+                        "Jamie Senewiratne",
+                        "Frederic Bard"
+                    ],
+                    "PUBMED": [
+                        "PMID: 20498016"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13568",
+            "ARK": "ark:/b7295/w9cil13568",
+            "Title": "David J. Gill, Joanne Chia, Jamie Senewiratne, Frederic Bard (2011) CIL:13568, Homo sapiens, epithelial cell, cervical carcinoma. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,145 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "43851.tif",
+                    "Size": 2200000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "43851_orig.jpg",
+                    "Size": 127772
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "43851.zip",
+                    "Size": 127910
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "43851.jpg",
+                    "Size": 93547
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "tissue in wax embedment",
+                        "onto_id": "FBbi:00000019"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "intermediate filament",
+                        "onto_id": "GO:0005882"
+                    },
+                    {
+                        "onto_name": "cell-cell junction",
+                        "onto_id": "GO:0005911"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "lactation",
+                    "onto_id": "GO:0007595"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Mammary gland tissue from wildtype P17.5 mice was fixed in formaldehyde, embedded in wax, and sections immunostained for vimentin (red), beta-catenin (green), and DNA (DAPI, blue). Images were recorded using a Leica confocal microscope. \nSee also: Chakrabarti et al. 2012. Elf5 inhibits the epithelial-mesenchymal transition in mammary gland development and breast cancer metastasis by transcriptionally repressing Snail2. Nat Cell Biol 14:1212-1222."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 848
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 848
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                    "onto_id": "FBbi:00000056"
+                },
+                "CELLTYPE": {
+                    "onto_name": "mammary epithelial cell",
+                    "onto_id": "CL:0002327"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The image shows a section of a developing wildtype mouse mammary gland immunostained for vimentin (red), beta-catenin (green) and DNA (blue). This is an example of a control image for experiments demonstrating the functions of the Elf5 protein.  See: Chakrabarti et al. 2012. Elf5 inhibits the epithelial-mesenchymal transition in mammary gland development and breast cancer metastasis by transcriptionally repressing Snail2. Nat Cell Biol 14:1212-1222."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "NIGMS Biomedical Beat",
+                            "Href": "http://publications.nigms.nih.gov/biobeat/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Rumela Chakrabarti",
+                        "Satrajit  Sinha",
+                        "Yibin Kang"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL43851",
+            "ARK": "ark:/b7295/w9cil43851",
+            "Title": "Rumela Chakrabarti, Satrajit  Sinha, Yibin Kang (2012) CIL:43851, Mus musculus, mammary epithelial cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,210 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "9859.tif",
+                    "Size": 5000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9859.jpg",
+                    "Size": 926937
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9859.zip",
+                    "Size": 9929194
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in vitreous ice embedment",
+                        "onto_id": "FBbi:00000089"
+                    },
+                    {
+                        "onto_name": "microtome-sectioned tissue",
+                        "onto_id": "FBbi:00000029"
+                    },
+                    {
+                        "free_text": "monoclonal antibody"
+                    }
+                ],
+                "GROUP_ID": "4099",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "macronucleus",
+                        "onto_id": "GO:0031039"
+                    },
+                    {
+                        "onto_name": "nuclear envelope",
+                        "onto_id": "GO:0005635"
+                    },
+                    {
+                        "onto_name": "nuclear microtubule",
+                        "onto_id": "GO:0005880"
+                    },
+                    {
+                        "onto_name": "cytoplasm",
+                        "onto_id": "GO:0005737"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "nuclear division",
+                        "onto_id": "GO:0000280"
+                    },
+                    {
+                        "onto_name": "macronucleus organization",
+                        "onto_id": "GO:0032124"
+                    },
+                    {
+                        "onto_name": "microtubule-based process",
+                        "onto_id": "GO:0007017"
+                    },
+                    {
+                        "onto_name": "microtubule-based movement",
+                        "onto_id": "GO:0007018"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "intrinsic mass distribution",
+                        "onto_id": "FBbi:00000607"
+                    },
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium tetraurelia",
+                    "onto_id": "NCBITaxon:5888"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2304
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2148
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "gold",
+                        "onto_id": "FBbi:00000202"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print from negative scanned for Photoshop."
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The macronucleus contains microtubules that lie inside a seemingly intact nuclear envelope. Microtubules orient along the axis of macronuclear elongation in the form of small bundles. The section is immunogold labeled with anti-b-tubulin. TEM taken on 7/5/96 by R. Allen with Zeiss 10A operating at 80kV. Neg. 12,000X. Bar = 0.5 \u00b5m. Cells were lightly fixed with 0.25% glutaraldehyde and infiltrated with 2.3M sucrose before being frozen in liquid nitrogen and thin sectioned at a temperature of \u2013100\u00b0C at approximately 75nm thickness. Frozen sections from these preparations were then thawed, washed, and exposed to a monoclonal primary antibody that was raised in mice or rabbit/goat and to colloidal gold-complexed goat-anti-mouse/rabbit secondary antibodies. Further details of preparation are detailed in Methods Cell Biol. 2010;96:143-73. The negative was printed to paper and the image was scanned to Photoshop. This digitized image is available for qualitative analysis. An unprocessed, high resolution version of this image (CIL:1310) is in the library and available for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9859",
+            "ARK": "ark:/b7295/w9cil9859",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:9859, Paramecium tetraurelia, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "47513.zip",
+                    "Size": 156835968
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "47513.flv",
+                    "Size": 1264271
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "47513.jpg",
+                    "Size": 243983
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "16605",
+                "IMAGINGMODE": {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "immune cell recruitment"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "intact cells-in vivo imaging"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Staphylococcus aureus",
+                    "onto_id": "NCBITaxon:1280"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Mice were anesthetized with ketamine/xylazine, and then subcutaneous tissue on a dorsal flap was exteriorized.  GFP labelled S. aureus beads were inserted.  Antibodies were injected into the vasculature to label neutrophils (red) and endothelial cells (blue)"
+                },
+                "MOLECULARFUNCTION": {
+                    "free_text": "blocking of integrin \u03b14"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 512
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 512
+                            }
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "Converted from volocity to .avi"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Visualization of neutrophil recruitment in capillaries proximal to S. aureus beads. (Figure 3 - A4 block)"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "neutrophil",
+                        "onto_id": "CL:0000775"
+                    },
+                    {
+                        "onto_name": "endothelial cell",
+                        "onto_id": "CL:0000115"
+                    }
+                ],
+                "PATHOLOGICALPROCESS": {
+                    "free_text": ":Control of Infection of S. aureus (insertion of sterile agarose beads)  Imaging Methods spinning disk confocal microscopy+dissection of mouse sub cutaneous tissue"
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": ":mouse (C57 Black 6)"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Mark Harding"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL47513",
+            "ARK": "ark:/b7295/w9cil47513",
+            "Title": "Mark Harding (2014) CIL:47513, Staphylococcus aureus, neutrophil, endothelial cell. CIL. Dataset"
+        }
+    }
+}

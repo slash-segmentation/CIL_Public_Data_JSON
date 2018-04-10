@@ -1,0 +1,183 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "7654.flv",
+                    "Size": 2418231
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7654.jpg",
+                    "Size": 26980
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7654.zip",
+                    "Size": 141308028
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "GROUP_ID": "3680",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "single-spot confocal microscopy",
+                        "onto_id": "FBbi:00000252"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "phagocytic vesicle",
+                        "onto_id": "GO:0045335"
+                    },
+                    {
+                        "onto_name": "food vacuole",
+                        "onto_id": "GO:0020020"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "digestion",
+                        "onto_id": "GO:0007586"
+                    },
+                    {
+                        "onto_name": "cellular response to food",
+                        "onto_id": "GO:0071240"
+                    },
+                    {
+                        "free_text": "ingestion"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLLINE": {
+                    "free_text": "Dictyostelium discoideum strain AX2\u2013214"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Dictyostelium discoideum",
+                    "onto_id": "NCBITaxon:44689"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 352,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 446,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.1
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "value": 0.13
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "PA-GFP",
+                    "onto_id": "FBbi:00000544"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A movie of phagocytosis of bacteria by Dictyostelium discoideum amoebae. These Dictyostelium cells are expressing GFP-2FYVE, which binds to phosphatidylinositol 3-phosphate [PI(3)P], and mRFP-LimEdelta, which binds to actin filaments. The bacteria are E. coli that had been incubated with an inhibitor of cytokinesis, producing elongated forms. Phosphoinositides help to confer specific identities to compartments along the endocytic pathway. PI(3)P identifies early endosomes. It associates with phagosomes ~1 minute after uptake and persists as acidification occurs and digestion begins. Note that the long bacteria do not bind the green PI(3)P marker until after they have been fully internalized. The changing morphology of the long bacteria within the labeled phagosomes reveals the action of digestive enzymes. Three successive time series of 100 frames were collected in a single focal plane using a Zeiss LSM510 confocal microscope with a 63x DIC objective lens. The frames are separated by 3.94 seconds. There was a space of 6 seconds between the first two time series and a space of 9 seconds between the second and third time series. The scaling (pixel size) was 0.10 x 0.10 microns. The images were exported as TIFs using Zeiss LSM 5 Image Examiner and saved both as a TIF stack (available at CIL:7653) and as an AVI movie using NIH ImageJ. The movie spans 20 minutes; it plays at 7.5 fps, 30 times actual speed. For related experiments and further details, see Clarke et al., PLoS ONE 5, e8585 (2010)."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "onto_name": "amoeboid cell",
+                        "onto_id": "CL:0000732"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Clarke et al., PLoS ONE 5:e8585 (2010)"
+                    ],
+                    "Contributors": [
+                        "Margaret Clarke",
+                        "Lucinda Maddera"
+                    ],
+                    "PUBMED": [
+                        "20052281"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "free_text": "fluoresence quenching"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7654",
+            "ARK": "ark:/b7295/w9cil7654",
+            "Title": "Margaret Clarke, Lucinda Maddera (2010) CIL:7654, Dictyostelium discoideum, cell by organism, eukaryotic cell, amoeboid cell, Eukaryotic Protist. CIL. Dataset"
+        }
+    }
+}

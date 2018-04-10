@@ -1,0 +1,121 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11968.zip",
+                    "Size": 7929984
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "11968.flv",
+                    "Size": 987274
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11968.jpg",
+                    "Size": 45937
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "polarization microscopy",
+                    "onto_id": "FBbi:00000248"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "axostyle"
+                    },
+                    {
+                        "onto_name": "microtubule",
+                        "onto_id": "GO:0005874"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "motility"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "form birefringence",
+                    "onto_id": "FBbi:00000593"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "uncultured Pyrsonympha sp.",
+                    "onto_id": "NCBITaxon:210204"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "retardance",
+                    "onto_id": "FBbi:00000313"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See: G.M. Langford and S. Inoue 1979. Motility of the microtubular axostyle in Pyrsonympha. J. Cell Biol 80:521-538."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 704
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 480
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The movie shows the rhythmic movement of the termite flagellate Pyrsonympha, a symbiont that lives in the hindgut. The motile structure is a complex of ~2,000 aligned microtubules, the axostyle which is highly birefringent and hence readily seen with polarizing microscopy. The movement is thought to be brought about by an ordered wave-like sliding between adjacent microtubules."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "S. Inoue 2008 Collected Works of Shinya Inoue. World Scientific Publishing Company, Singapore, Hackensack, NJ, USA"
+                    ],
+                    "Contributors": [
+                        "Shinya Inoue"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11968",
+            "ARK": "ark:/b7295/w9cil11968",
+            "Title": "Shinya Inoue (2011) CIL:11968, uncultured Pyrsonympha sp.. CIL. Dataset"
+        }
+    }
+}

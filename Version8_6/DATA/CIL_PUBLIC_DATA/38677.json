@@ -1,0 +1,127 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38677.tif",
+                    "Size": 26900000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38677.jpg",
+                    "Size": 543130
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38677.zip",
+                    "Size": 26800682
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "polarization microscopy",
+                    "onto_id": "FBbi:00000248"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "spindle",
+                    "onto_id": "GO:0005819"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "mitosis",
+                    "onto_id": "GO:0007067"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "form birefringence",
+                    "onto_id": "FBbi:00000593"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Pectinaria gouldii",
+                    "onto_id": "NCBITaxon:260746"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "retardance",
+                    "onto_id": "FBbi:00000313"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See: S. Inoue and S. Sato (1067) Cell motility by labile association of molecules. J Gen Physiol 50:259-292"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4068
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2196
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This sequence taken with the polarizing microscope in 1967 shows the reversible enhancement of spindle volume and birefringence by heavy water in arrested metaphase oocyte of Pectinaria gouldi (ice cream cone worm). In heavy water (45% D2O, middle panel) the spindles get much larger as more tubulin is incorporated into microtubules. This work was conducted before the discovery of how to assemble microtubules in vitro in the early 1970s."
+                },
+                "CELLTYPE": {
+                    "onto_name": "oocyte",
+                    "onto_id": "CL:0000023"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "S. Inoue and S. Sato (1067) Cell motility by labile association of molecules. J Gen Physiol 50:259-292",
+                        "S. Inoue 2008 Collected Works of Shinya Inoue. World Scientific Publishing Company, Singapore, Hackensack, NJ, USA"
+                    ],
+                    "Contributors": [
+                        "S. Inoue",
+                        "S. Sato"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38677",
+            "ARK": "ark:/b7295/w9cil38677",
+            "Title": "S. Inoue, S. Sato (2011) CIL:38677, Pectinaria gouldii, oocyte. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,116 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "37150.tif",
+                    "Size": 52100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37150.jpg",
+                    "Size": 3794127
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37150.zip",
+                    "Size": 52016144
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "free_text": "cell fractionation"
+                },
+                "GROUP_ID": "11069",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cavia porcellus",
+                    "onto_id": "NCBITaxon:10141"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original Magnification: x6,000."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 6000
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4334
+                        }
+                    }
+                ],
+                "CELLTYPE": {
+                    "free_text": "liver cell"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of a the nuclear fraction of a cell fractionation from a guinea pig liver. Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."
+                },
+                "ATTRIBUTION": {
+                    "DATE": [
+                        "07/18/1962"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "George E. Palade EM Slide Collection",
+                            "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeFxE"
+                        }
+                    ],
+                    "Contributors": [
+                        "R. Maggio",
+                        "George E. Palade"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37150",
+            "ARK": "ark:/b7295/w9cil37150",
+            "Title": "R. Maggio, George E. Palade (2011) CIL:37150, Cavia porcellus, liver cell. CIL. Dataset"
+        }
+    }
+}

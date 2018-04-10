@@ -1,0 +1,143 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41631.jpg",
+                    "Size": 985792
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41631.zip",
+                    "Size": 11673618
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41631.tif",
+                    "Size": 11700000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                "CELLLINE": {
+                    "onto_name": "NIH/3T3",
+                    "onto_id": "MCC:0000362"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1976
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1966
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "CeruleanFP",
+                        "onto_id": "FBbi:00000468"
+                    },
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "VenusFP",
+                        "onto_id": "FBbi:00000477"
+                    },
+                    {
+                        "onto_name": "tdTomatoFP",
+                        "onto_id": "FBbi:00000518"
+                    },
+                    {
+                        "onto_name": "mCherryFP",
+                        "onto_id": "FBbi:00000525"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of NIH-3T3 cells co-transduced with 5 fluorescent proteins.  The cells were marked by co-transduction with Lentiviral Gene Ontology (LeGO) vectors expressing Cerulean (cyan), EGFP (green), Venus (yellow), tdTomato (magenta) or mCherry (red) fluorescent proteins to provide combinatorial colors for cell lineage tracing.  These are cytosolic-untargeted FPs (just to mark the cells).  The image was collected on live cells with a Leica SP5 confocal system.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "National Institutes of Health, Bethesda, MD, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm33.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Daniela Malide",
+                        "2011 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41631",
+            "ARK": "ark:/b7295/w9cil41631",
+            "Title": "Daniela Malide, 2011 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41631, Mus musculus, fibroblast. CIL. Dataset"
+        }
+    }
+}

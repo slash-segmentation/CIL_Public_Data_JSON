@@ -1,0 +1,133 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38807.tif",
+                    "Size": 1300000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38807.jpg",
+                    "Size": 104081
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38807.zip",
+                    "Size": 106538
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38807_orig.jpg",
+                    "Size": 106400
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in intrinsic optical density",
+                    "onto_id": "FBbi:00000602"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Capnocytophaga",
+                        "onto_id": "NCBITaxon:1016"
+                    },
+                    {
+                        "onto_name": "Aggregatibacter",
+                        "onto_id": "NCBITaxon:416916"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image B0007678.  2011 Wellcome Image Award winner. Light microscopy Collection: Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 736
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This color-enhanced photomicrograph shows different species of bacteria that cause dental plaque - a colorless film that forms on teeth caused by the growth of bacterial colonies. Plaque develops naturally, and in most cases can be easily removed with regular brushing. However, if left it can harden and cause dental calculus (tartar), which is difficult to remove and if not treated can result in tooth decay. This image shows different species of oral bacterial colonies, including Capnocytophaga and Aggregatibacter, growing on an agar plate. A sample of plaque was removed from a periodontal pocket of a patient with gum disease. The periodontal pocket is the region between the tooth surface and the periodontium (gum). The bacterial colonies were left to grow in culture on an agar plate so they could be studied more closely. Lighting the agar plate from below shows the detail and differences between the structure (morphology) of the colonies present. The original image was colorless so a color was added post-imaging to emphasize the colony morphology and identify the different species of bacteria present"
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:3388"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Derren Ready"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "periodontal disease",
+                        "onto_id": "DOID:3388"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38807",
+            "ARK": "ark:/b7295/w9cil38807",
+            "Title": "Derren Ready (2011) CIL:38807, Capnocytophaga, Aggregatibacter. CIL. Dataset"
+        }
+    }
+}

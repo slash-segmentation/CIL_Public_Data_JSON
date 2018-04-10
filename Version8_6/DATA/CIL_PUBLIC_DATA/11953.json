@@ -1,0 +1,121 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11953.zip",
+                    "Size": 84226176
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "11953.flv",
+                    "Size": 3716430
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11953.jpg",
+                    "Size": 74947
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "polarization microscopy",
+                    "onto_id": "FBbi:00000248"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "spindle",
+                    "onto_id": "GO:0005819"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "mitosis"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "form birefringence",
+                    "onto_id": "FBbi:00000593"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Haemanthus katharinae",
+                    "onto_id": "NCBITaxon:39969"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "retardance",
+                    "onto_id": "FBbi:00000313"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See: S. Inoue and A. Bajer (1961) Birefringence in endosperm mitosis. Chromosoma 12:48-63."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 720
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 480
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The time lapse movie shows several sequences of mitosis in the liquid endosperm of the African Blood Lily Haemanthus katherinae imaged by polarizing microscopy. Birefringent microtubules are attached to each pair of chromatids at metaphase and, in the last sequences that include early telophase, birefringence is confimed to the forming  phragmoplast (cell plate)."
+                },
+                "CELLTYPE": {
+                    "free_text": "endosperm"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "S. Inoue 2008 Collected Works of Shinya Inoue. World Scientific Publishing Company, Singapore, Hackensack, NJ, USA"
+                    ],
+                    "Contributors": [
+                        "Shinya Inoue",
+                        "Andrew  Bajer",
+                        "Jean Mole Bajer"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11953",
+            "ARK": "ark:/b7295/w9cil11953",
+            "Title": "Shinya Inoue, Andrew  Bajer, Jean Mole Bajer (2011) CIL:11953, Haemanthus katharinae, endosperm. CIL. Dataset"
+        }
+    }
+}

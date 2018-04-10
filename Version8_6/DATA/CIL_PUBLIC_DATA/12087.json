@@ -1,0 +1,171 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12087.zip",
+                    "Size": 9805952
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12087.jpg",
+                    "Size": 38640
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "12087.flv",
+                    "Size": 287862
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "3418",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "phase contrast microscopy",
+                        "onto_id": "FBbi:00000247"
+                    },
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "VASP"
+                    },
+                    {
+                        "onto_name": "lamellipodium",
+                        "onto_id": "GO:0030027"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "differences in amount of elastic light scattering",
+                        "onto_id": "FBbi:00000600"
+                    },
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Hypsophrys nicaraguensis",
+                    "onto_id": "NCBITaxon:131240"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "elastic scattering of photons",
+                        "onto_id": "FBbi:00000587"
+                    },
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 652,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.118
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 327,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.118
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "value": 0.25
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "visualization of contiguous regions",
+                        "onto_id": "FBbi:00000396"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "CELLTYPE": {
+                    "free_text": "keratocyte"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Nascent Lamellipodia Emerge with Rough Edges and Rapidly Acquire a Smooth Morphology. A glass micropipette, acting as a barrier, was lowered into the path of movement of a migrating, coherent keratocyte overexpressing EGFP-VASP (an indicator of polymerizing actin). When the keratocyte reaches the barrier, the lamellipodium temporarily stops protruding forward, while EGFP-VASP becomes displaced from the edge of the region in contact with the barrier. When the micropipette barrier is removed (between 0:57 and 1:00), the leading edge of the lamellipodium immediately resumes protrusion and appears rough with several protruding microregions enriched in EGFP-VASP. Only 18 s after removal of the barrier, the keratocyte\u2019s original shape and uniform EGFP-VASP localization at the leading edge are restored. Time \u00bc min:s. Scale bar 25 micron.  Corresponds to video S2 in PLos Biology 5:2035-2052, 2007."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "PLos Biology 5:2035-2052, 2007."
+                    ],
+                    "Contributors": [
+                        "Catherine I. Lacayo",
+                        "Zachary Pincus",
+                        "Martijn M. VanDuijn",
+                        "Cyrus A. Wilson",
+                        "Daniel A. Fletcher",
+                        "Frank B. Gertler",
+                        "Alex Mogilner",
+                        "Julie Theriot"
+                    ],
+                    "PUBMED": [
+                        "17760506"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12087",
+            "ARK": "ark:/b7295/w9cil12087",
+            "Title": "Catherine I. Lacayo, Zachary Pincus, Martijn M. VanDuijn, Cyrus A. Wilson, Daniel A. Fletcher, Frank B. Gertler, Alex Mogilner, Julie Theriot (2011) CIL:12087, Hypsophrys nicaraguensis, keratocyte. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40609.jpg",
+                    "Size": 165650
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40609.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "40609_orig.jpg",
+                    "Size": 158291
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "40609.zip",
+                    "Size": 158429
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "vacuole",
+                        "onto_id": "GO:0005773"
+                    },
+                    {
+                        "onto_name": "ribosome",
+                        "onto_id": "GO:0005840"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "organelle organization",
+                    "onto_id": "GO:0006996"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae",
+                    "onto_id": "NCBITaxon:4932"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image collected on a FEI Titan Krios."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 670
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 583
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "surface rendering"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A 5 nm tomographic slice from a vitreous section of a Saccharomyces cerevisiae cell. (M) is a Mitochondrion and (V) a vacuole. Scale bar, 100 nm. Upper Panel: A high-resolution density map of the averaged 80S ribosome constructed using the ribosomes seen in the background image. Lower Panel: A select area from the 80S ribosome Macromolecular Atlas displaying a putative polyribosome cluster"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Netherlands Cancer Institute",
+                        "Centro Nacional de Biotecnologia-Consejo Superior de Investigaciones Cientificas"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Science Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/80s-ribosome-5986.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Jason Pierson",
+                        "Jose Jesus Fernandez",
+                        "Matthijn Vos",
+                        "Jose L. Carrascosa",
+                        "Peter J. Peters"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "computer graphic",
+                        "onto_id": "FBbi:00000224"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40609",
+            "ARK": "ark:/b7295/w9cil40609",
+            "Title": "Jason Pierson, Jose Jesus Fernandez, Matthijn Vos, Jose L. Carrascosa, Peter J. Peters (2012) CIL:40609, Saccharomyces cerevisiae. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "30549.jpg",
+                    "Size": 24528
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "30549.tif",
+                    "Size": 62300000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "30549.zip",
+                    "Size": 62242584
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "GROUP_ID": "8124",
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "actin filament",
+                        "onto_id": "GO:0005884"
+                    },
+                    {
+                        "onto_name": "cell",
+                        "onto_id": "GO:0005623"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "trans-endothelial migration"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": [
+                    {
+                        "free_text": "HUVEC"
+                    },
+                    {
+                        "free_text": "THP-1"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.8789
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.8779
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 79,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 2.5886
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "intracellular filling",
+                        "onto_id": "FBbi:00000088"
+                    },
+                    {
+                        "onto_name": "phalloidin",
+                        "onto_id": "FBbi:00000100"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 633",
+                        "onto_id": "FBbi:00000446"
+                    },
+                    {
+                        "free_text": "CellTracker Green"
+                    },
+                    {
+                        "free_text": "CellTracker Orange"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "free_text": "3D volume rendering"
+                    },
+                    {
+                        "free_text": "gamma correction"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "TNF-alpha stimulated p110alpha or control siRNA transfected HUVECs previously labelled with celltracker orange dye were grown on collagen matrices in transwell chambers. Celltracker green-labelled THP-1 cells were added to HUVECs, and TEM allowed to proceed toward an MCP-1 gradient in the lower chamber, for either 10 or 60 minutes before fixation. Fixed samples were stained with AlexaFluor 633-conjugated phalloidin to visualize F-actin (grey) and z-stacks collected. Three dimensional reconstructions were produced using Volocity software. A small gamma correction was applied to the red channel in order to visualise weak cell tracker staining at the edges of cell, which are difficult to distinguish upon 3D rendering.  Transwells were fixed by immersion in 3.7% (wt/vol) paraformaldehyde before being processed for immunofluorescence microscopy. Images were acquired at room temperature using a confocal microscope (LSM 510 META; Carl Zeiss, Inc.) with three single photomultiplier tube confocal detectors mounted on an inverted microscope (AxioObserver Z1; Carl Zeiss, Inc.) at a magnification of 40 with an oil immersion objective (EC Plan-Neofluar 40\u00d7 NA 1.30 oil differential interference contrast M27). z sections were acquired at 200-nm intervals by confocal microscopy.  Corresponds to Figure 5 from J Cell Biol. 2010 Mar 22;188(6):863-76."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "blood vessel endothelial cell",
+                        "onto_id": "CL:0000071"
+                    },
+                    {
+                        "free_text": "monocytic leukemia cell"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Biol. 2010 Mar 22;188(6):863-76."
+                    ],
+                    "Contributors": [
+                        "Robert J. Cain",
+                        "Bart Vanhaesebroeck",
+                        "Anne J. Ridley"
+                    ],
+                    "PUBMED": [
+                        "20308428"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL30549",
+            "ARK": "ark:/b7295/w9cil30549",
+            "Title": "Robert J. Cain, Bart Vanhaesebroeck, Anne J. Ridley (2011) CIL:30549, Homo sapiens, blood vessel endothelial cell, monocytic leukemia cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,118 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39465.tif",
+                    "Size": 1000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39465.jpg",
+                    "Size": 119933
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39465.zip",
+                    "Size": 121093
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39465_orig.jpg",
+                    "Size": 120955
+                }
+            ],
+            "CORE": {
+                "TECHNICALDETAILS": {
+                    "free_text": "B0005750 HIV particles budding from a lymphocyte .  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 522
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Colorized transmission electron micrograph of human immunodeficiency virus (HIV) particles (blue) budding from the surface of a T cell (a type of lymphocyte).The viruses replicate inside the cell with the different components gathering at the cell membrane to be assembled into new virus particles."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "lymphocyte",
+                        "onto_id": "CL:0000542"
+                    },
+                    {
+                        "free_text": "human immunodeficiency virus"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "R. Dourmashkin"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "HIV budding from lymphocyte"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39465",
+            "ARK": "ark:/b7295/w9cil39465",
+            "Title": "R. Dourmashkin (2012) CIL:39465, lymphocyte, human immunodeficiency virus. CIL. Dataset"
+        }
+    }
+}

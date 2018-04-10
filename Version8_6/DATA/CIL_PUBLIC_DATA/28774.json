@@ -1,0 +1,175 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "28774.flv",
+                    "Size": 750388
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "28774.zip",
+                    "Size": 3178624
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "28774.jpg",
+                    "Size": 44003
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "11164",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "spinning disk confocal microscopy",
+                        "onto_id": "FBbi:00000253"
+                    },
+                    {
+                        "onto_name": "differential interference contrast microscopy",
+                        "onto_id": "FBbi:00000245"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nuclear chromosome",
+                        "onto_id": "GO:0000228"
+                    },
+                    {
+                        "free_text": "gamma tubulin"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    },
+                    {
+                        "onto_name": "mitotic chromosome condensation",
+                        "onto_id": "GO:0007076"
+                    },
+                    {
+                        "onto_name": "mitotic nuclear envelope disassembly",
+                        "onto_id": "GO:0007077"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "boundaries between regions with different refractive index",
+                        "onto_id": "FBbi:00000599"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Caenorhabditis elegans",
+                    "onto_id": "NCBITaxon:6239"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "optical path length gradient",
+                        "onto_id": "FBbi:00000312"
+                    }
+                ],
+                "TECHNICALDETAILS": {
+                    "free_text": "Images were acquired via a spinning disk confocal microscope (CSU10; McBain Instruments) mounted on an inverted microscope (TE2000e; Nikon). Strain TH32 coexpressing GFP-histone H2b and GFP\u2013\u03b3-tubulin was imaged using a 60\u00d7 1.4 NA plan Apo objective with 1.5\u00d7 auxiliary magnification and a cooled CCD camera (Orca ER; Hamamatsu) binning 2 \u00d7 2.  Strain OD31 expressing GFP\u2013KNL-2 was imaged in the same manner without the 1.5\u00d7 auxiliary magnification."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 750
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 251
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "96",
+                            "value": 10
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "visualization of contiguous regions",
+                        "onto_id": "FBbi:00000396"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Spinning disk confocal time-lapse imaging of the first mitosis in a C. elegans embryo expressing GFP-histone and GFP-\u03b3-tubulin (strain TH32).  After finishing meiosis (not depicted), the female pronucleus migrates toward the male pronucleus (right side of the image, which is the embryo posterior), the chromosomes condense, and, after nuclear envelope breakdown, congress to the metaphase plate. Anaphase segregation of the chromosomes results in two equivalent nuclei. The video is \u223c16 min long, and the frame is \u223c30 \u00b5m top to bottom. DIC is shown on the left, and GFP is shown on the right. Images were acquired at 10-s intervals, and corresponding data are shown in Fig. 1 A from J Cell Biol. 2007 Mar 12;176(6):757-63. Epub 2007 Mar 5."
+                },
+                "CELLTYPE": {
+                    "free_text": "embryo"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Biol. 2007 Mar 12;176(6):757-63. Epub 2007 Mar 5."
+                    ],
+                    "Contributors": [
+                        "Paul S. Maddox",
+                        "Francie Hyndman",
+                        "Joost Monen",
+                        "Karen Oegema",
+                        "Arshad Desai"
+                    ],
+                    "PUBMED": [
+                        "17339379"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL28774",
+            "ARK": "ark:/b7295/w9cil28774",
+            "Title": "Paul S. Maddox, Francie Hyndman, Joost Monen, Karen Oegema, Arshad Desai (2011) CIL:28774, Caenorhabditis elegans, embryo. CIL. Dataset"
+        }
+    }
+}

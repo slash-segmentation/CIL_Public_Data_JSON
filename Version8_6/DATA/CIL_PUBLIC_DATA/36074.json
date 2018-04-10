@@ -1,0 +1,141 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36074.tif",
+                    "Size": 1100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36074.jpg",
+                    "Size": 243167
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36074.zip",
+                    "Size": 913560
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "crosslinking-fixative fixed tissue",
+                        "onto_id": "FBbi:00000008"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "GROUP_ID": "9915",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "actin filament bundle",
+                        "onto_id": "GO:0032432"
+                    },
+                    {
+                        "onto_name": "stress fiber",
+                        "onto_id": "GO:0001725"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "actin cytoskeleton organization",
+                    "onto_id": "GO:0030036"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "tropomyosin binding",
+                    "onto_id": "GO:0005523"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 888
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1230
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A human skin fibroblast in vitro stained by indirect immunofluorescence with an antibody to tropomyosin. The pattern of tropomyosin staining corresponds with stress fibers and the distribution of polymerized actin.  Image from Elias Lazarides, J. Cell Biol. 65:549-61, 1975, PMID: 1094020. Figure 444 from Chapter 16 (Cytoplasmic matrix and cytoskeleton) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.  A PDF copy of the accompanying chapter is available on the ASCB\u2019s BioEDUCATE website."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "ISBN 0721635849"
+                    ],
+                    "Contributors": [
+                        "Don W. Fawcett",
+                        "Elias Lazarides"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36074",
+            "ARK": "ark:/b7295/w9cil36074",
+            "Title": "Don W. Fawcett, Elias Lazarides (2011) CIL:36074, Homo sapiens, fibroblast. CIL. Dataset"
+        }
+    }
+}

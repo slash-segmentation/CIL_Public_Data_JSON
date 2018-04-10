@@ -1,0 +1,126 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "25327.jpg",
+                    "Size": 4734152
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "25327.tif",
+                    "Size": 20700000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "25327.zip",
+                    "Size": 20796992
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "GROUP_ID": "6833",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "polytene chromosome",
+                    "onto_id": "GO:0005700"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3862,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2665,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "free_text": "Salivary gland"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Salivary glands from 3rd instar larvae of Drosophila melanogaster were dissected, fixed with formalin and stained with uranyl acetate, embedded in epoxy resin, and 0.5 micrometer sections prepared (see Ris H, 1981 Stereoscopic Electron Microscopy of Chromosomes, Meth Cell Biol 22:77-96). Grids were observed using the Madison High Voltage Electron Microscope at 1 MeV. \n\nImage shows a series of bands and interbands in a polytene chromosome. This image was taken with a tilt angle of 55 degrees. The accompanying grouped image, taken at 45 degrees forms a stereo pair, providing an oblique 3D view of the chromosome."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Hans Ris"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL25327",
+            "ARK": "ark:/b7295/w9cil25327",
+            "Title": "Hans Ris (2011) CIL:25327, Drosophila melanogaster, Salivary gland. CIL. Dataset"
+        }
+    }
+}

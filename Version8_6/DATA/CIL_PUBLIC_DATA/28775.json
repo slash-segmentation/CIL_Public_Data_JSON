@@ -1,0 +1,176 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "28775.flv",
+                    "Size": 602519
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "28775.zip",
+                    "Size": 1491072
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "28775.jpg",
+                    "Size": 25419
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "11164",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "spinning disk confocal microscopy",
+                        "onto_id": "FBbi:00000253"
+                    },
+                    {
+                        "onto_name": "differential interference contrast microscopy",
+                        "onto_id": "FBbi:00000245"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "CENP-A"
+                    },
+                    {
+                        "onto_name": "nuclear chromosome",
+                        "onto_id": "GO:0000228"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    },
+                    {
+                        "onto_name": "metaphase",
+                        "onto_id": "GO:0051323"
+                    },
+                    {
+                        "onto_name": "anaphase",
+                        "onto_id": "GO:0051322"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "boundaries between regions with different refractive index",
+                        "onto_id": "FBbi:00000599"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "optical path length gradient",
+                        "onto_id": "FBbi:00000312"
+                    }
+                ],
+                "TECHNICALDETAILS": {
+                    "free_text": "Images were acquired via a spinning disk confocal microscope (CSU10; McBain Instruments) mounted on an inverted microscope (TE2000e; Nikon). Strain TH32 coexpressing GFP-histone H2b and GFP\u2013\u03b3-tubulin was imaged using a 60\u00d7 1.4 NA plan Apo objective with 1.5\u00d7 auxiliary magnification and a cooled CCD camera (Orca ER; Hamamatsu) binning 2 \u00d7 2.  Strain OD31 expressing GFP\u2013KNL-2 was imaged in the same manner without the 1.5\u00d7 auxiliary magnification."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 377
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 304
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "83",
+                            "value": 10
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EYFP",
+                        "onto_id": "FBbi:00000084"
+                    },
+                    {
+                        "onto_name": "visualization of contiguous regions",
+                        "onto_id": "FBbi:00000396"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Spinning disk confocal time-lapse imaging of mitosis in asynchronous HeLa cells transfected with control, nontargeting siRNA oligonucleotides, or siRNA oligonucleotides targeting HsKNL2. Top, nontargeting siRNA oligonucleotides; bottom, siRNA oligonucleotides targeting HsKNL2. DIC is shown on the left, and YFP-CENP-A is shown on the right. The control cell on the left begins in metaphase and, over the course of the video, completes mitosis successfully. Paired YFP-CENP-A loci oscillate during metaphase and then segregate to opposite poles during anaphase. In the HsKNL2 knockdown cells, YFP-CENP-A is not seen to localize at any point during the video. Two cells begin in metaphase and leave mitosis during the video. The DIC channel shows that chromosomes do not oscillate as seen in controls and, during anaphase, segregate with aberrant poleward movement in the cell on the left and nominal poleward movement in the cell on the right. The video is \u223c75 min long, and the frame is \u223c40 \u00b5m top to bottom. Images were acquired at 60-s intervals)."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Biol. 2007 Mar 12;176(6):757-63. Epub 2007 Mar 5."
+                    ],
+                    "Contributors": [
+                        "Paul S. Maddox",
+                        "Francie Hyndman",
+                        "Joost Monen",
+                        "Karen Oegema",
+                        "Arshad Desai"
+                    ],
+                    "PUBMED": [
+                        "17339379"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL28775",
+            "ARK": "ark:/b7295/w9cil28775",
+            "Title": "Paul S. Maddox, Francie Hyndman, Joost Monen, Karen Oegema, Arshad Desai (2011) CIL:28775, Homo sapiens. CIL. Dataset"
+        }
+    }
+}

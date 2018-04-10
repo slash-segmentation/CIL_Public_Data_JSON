@@ -1,0 +1,125 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38944.zip",
+                    "Size": 87561
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38944.tif",
+                    "Size": 1000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38944.jpg",
+                    "Size": 73189
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38944_orig.jpg",
+                    "Size": 87423
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "histamine granules"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "histamine transport",
+                    "onto_id": "GO:0051608"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0004150 Mast cell showing histamine granules.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 522
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "CELLTYPE": {
+                    "onto_name": "mast cell",
+                    "onto_id": "CL:0000097"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Colorized transmission electron microscope image of a mast cell full of histamine granules (pink). Histamine is released as part of an allergic reaction. The diameter of the cell is approx. 8.4 micrometers."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:allergic reaction"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University of Edinburgh"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "free_text": "allergic reaction"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38944",
+            "ARK": "ark:/b7295/w9cil38944",
+            "Title": "CIL (2011) CIL:38944, mast cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39377.tif",
+                    "Size": 8400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39377.jpg",
+                    "Size": 2075573
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39377.zip",
+                    "Size": 6099132
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39377_orig.jpg",
+                    "Size": 6098994
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "free_text": "ethanol dehydration"
+                    },
+                    {
+                        "onto_name": "critical_point dried specimen",
+                        "onto_id": "FBbi:00000581"
+                    }
+                ],
+                "GROUP_ID": "10789",
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "anther interior"
+                    },
+                    {
+                        "onto_name": "pollen wall",
+                        "onto_id": "GO:0043667"
+                    }
+                ],
+                "PLANT_GROWTH": [
+                    {
+                        "onto_name": "D locules established",
+                        "onto_id": "PO:0001026"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "anther morphogenesis",
+                    "onto_id": "GO:0048654"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Amorphophallus titanum",
+                    "onto_id": "NCBITaxon:175755"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Images collected on a FEI XL-30 FEG ESEM.  Sample preparation protocol is available on the Dartmouth EM Facility web site at http://remf.dartmouth.edu:8080/EM-Wiki/36."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3232
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2570
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "visualization of contiguous regions",
+                        "onto_id": "FBbi:00000396"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "gold",
+                        "onto_id": "FBbi:00000202"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph of an Amorphophallus titanum anther.  This longitudinal section shows the locule (cavity where the pollen is located).  This image is part of a group that includes CIL: 39377- 39384."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Dartmouth University EM Facility",
+                            "Href": "http://remf.dartmouth.edu/Amorphophallus%20titanum%20SEM/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Louisa Howard"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "PO:PO:0001026"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39377",
+            "ARK": "ark:/b7295/w9cil39377",
+            "Title": "Louisa Howard (2012) CIL:39377, Amorphophallus titanum. CIL. Dataset"
+        }
+    }
+}

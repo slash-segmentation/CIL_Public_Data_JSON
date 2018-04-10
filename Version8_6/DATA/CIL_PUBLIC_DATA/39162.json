@@ -1,0 +1,83 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39162.tif",
+                    "Size": 42500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39162.jpg",
+                    "Size": 3474477
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "mouse"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Experiment #5\t\tDAT KO mouse \t\t\t\t  04/22/03\n\n\nDescription:  Photoconverted dye-filled striatal medium spiny \nneurons for EM\n\nAnimal Info:\tID#\t\twt3\t\twt4\n\t\t     Weight: \t34g\t\t32g\t\n\t\t     DOB: \t\t9/30/02\t9/30/02\nProtocol\n\n1. Perfusion (at Duke) \nNembutal; 4% paraformaldehyde + 0.1% gluteraldehyde\n\n2. Sectioned on Vibratome (at NCMIR)\n\tThickness = 100 microns\n\tStore in 1X PBS in fridge\n\n3.\tFill cells with Lucifer yellow\n4.\tStore slices with filled cells in 4% para in fridge\n\n5.\tWash 6x with PBS 1X (on ice)\n\n6.  When ready to begin photoconversion, turn on the chiller in \nconfocal room.  Set at ~4?C.  The refrigerator unit should be set \nat TEMP < 45?C.  Switch ON.  Stage needs around 20 minutes to \ncome to temperature.  Pull unit out into hallway (to avoid \nincrease in temperature).\n\n6.\tPlace slices in 2% glut/PBS on ice for 15 minutes\n\n0.8 ml 25% gluteraldehyde\n2 ml 5x PBS\n6.2\tml ddH20\n\n7.\tBriefly wash slices in PBS\n8.\tPlace slices in PBS/glycine for a few minutes\n\n38 mg glycine\n10 ml 1x PBS\n\n9.\tFollow instructions for Photoconversion of Lucifer Yellow-\nfilled cells\n10.  After photoconversion, remove DAB solution and wash slice 3x \n10 minutes in generous volumes of PBS on ice.  Must remove all \nDAB before beginning osmification.\n\n\n\n\nMicrowaving protocol for osmication, dehydration, and embedding \nof photoconverted slices\n\n*\tPrepare Resin mix and let it sit covered and undisturbed \nuntil needed (instructions by fume hood in embedding area).\n\n*\tRinse slices with a generous amount of cold 1X PBS on ice \nfor ~ 10 min.\n\n*\tTurn on circulating bath (over 20?C, ~ RT):  water bath \n(left hand side) will fill.  \n\n*\tInsert temperature probe\n\n*\tFill other T-beaker with water\n\n*\tSet temperature to 35?C\n\n*\tOpen new bottle of 100% ethanol and prepare following \ndilutions:\n\n90% ethanol\n70% ethanol\n50% ethanol\n\n*\tMake up osmium solution under fume hood and chill on ice\n\n*\t1% osmium tetroxide in PBS on ice.\n\n2.0 ml PBS 5X\nthen 5.5 2x distilled H2O\n2.5 ml Osmium 4%\n\n*\tRinse w/ 2x distilled H2O ? 3 x 5min\n\n*\tWarm up microwave for 2 minutes on high\n\n*\tLabel tubes & place in rack on ice\n\n*\tFill tubes with osmium solution (w/ meniscus at 0.5)\n\n*\tUsing glass hooks, transfer slices to tubes\n\n*\tRemove temperature probe & set temp above 50?C.\n\n*\tPut rack w. tubes in for 40 sec at full power\n\n*\tChange rear water load in T-beaker\n\n*\tChange osmium solution on ice and microwave for another 40 \nseconds at full power\n\n*\tRinse samples for 2 minutes in distilled water on benchtop \n(at RT)\n\n*\tInsert petri bath with H2O under rack\n\n*\tDehydration steps (2 x 40 seconds per step; all @ 35?C)\n\n\n1st\n2nd\n50% EtOH\n\n\n70% EtOH\n\n\n90% EtOH\n\n\n100% EtOH\n\n\n100% Acetone\n\n\n\n\n*\tAll of the dehydration steps should be carried out in \nmicrocentrifuge tubes filled with 600 ml of solution.  \nTemperature probe should be in petri dish and set for 35.  \nChange water in rear water load when warm to touch.\n\n*\tChange from water to acetone in petri bath under rack ? \ncheck acetone bath level every 3 minutes\n\n*\tInfiltration steps (both @ 50?C):\n \nWith a 50/50 mixture of resin and acetone:\n\n\n1 x 15 \nmin\n1:1 Resin:acetone\n\n* Check rear water load at \n7.5 minutes\n\nSwitch to 100% resin for 3 x 10 minutes:\n\n\n1st\n2nd\n3rd\n100% Resin\n\n\n\n*Periodically check rear water \nload\n\n*\tFlat embed samples between mould release slides and place \nin embedding oven under vacuum."
+                },
+                "GROUP_ID": "10069",
+                "IMAGINGMODE": {
+                    "free_text": "Single tilt"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.022
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.022
+                            }
+                        }
+                    }
+                ],
+                "CELLTYPE": {
+                    "free_text": "medium spiny neuron"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Maximum intensity project of a tomographic reconstruction of a spiny dendrite from a 4 ?m thick section throuh medium spiny neuron of mouse caudateputamen"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Diana Price"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39162",
+            "ARK": "ark:/b7295/w9cil39162",
+            "Title": "Diana Price (2011) CIL:39162, mouse, medium spiny neuron. CIL. Dataset"
+        }
+    }
+}

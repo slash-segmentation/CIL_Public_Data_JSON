@@ -1,0 +1,175 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13475.tif",
+                    "Size": 12600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13475.jpg",
+                    "Size": 584640
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13475.zip",
+                    "Size": 12599812
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "GROUP_ID": "6022",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "confocal microscopy",
+                        "onto_id": "FBbi:00000251"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "endosome",
+                    "onto_id": "GO:0005768"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "receptor-mediated endocytosis",
+                        "onto_id": "GO:0006898"
+                    },
+                    {
+                        "onto_name": "endosome to lysosome transport",
+                        "onto_id": "GO:0008333"
+                    },
+                    {
+                        "onto_name": "endosome transport",
+                        "onto_id": "GO:0016197"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "free_text": "ema[1]"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "zinc ion binding",
+                    "onto_id": "GO:0008270"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2048
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2048
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "Cy3",
+                        "onto_id": "FBbi:00000449"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The endosomal compartment is enlarged in the ema[1] mutant. Colocalization between DVGLUT (red) aggregates and the endosomal ESCRT protein Hrs (green, also known as Vps27) in motoneuron cell bodies of the ventral nerve cord of the ema[1] mutant. Wandering third instar larvae were dissected in ice-cold PBS and fixed with Bouin\u2019s solution for 5 min. Blocking and antibody incubation were performed in PBS containing 0.1% Triton X-100. anti-DVGLUT (Daniels et al., 2004) antibody was used at 1:10,000; anti-HRS-FL (Lloyd et al., 2002) was used at 1:1000. Secondary antibodies (Alexa 488-/Cy3-conjugated) were used at 1:1000. After staining, specimens were equilibrated in 70% glycerol in PBS and mounted with VectaShield (Vector Laboratories). Confocal images were acquired with a confocal microscope (model C1; Nikon) and accompanying EZ-C1 software using argon (excitation at 488 nm) and HeNe (excitation at 543 and 633 nm) lasers and a 60x Plan-Apochromat NA 1.4 objective (Nikon) at room temperature. Samples for each experiment were processed using the same confocal gain setting. Image corresponds to Figure 2A, bottom 3 panels in Kim et al.  J Cell Biol. 188: 717-734. 2010."
+                },
+                "CELLTYPE": {
+                    "onto_name": "motor neuron",
+                    "onto_id": "CL:0000100"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/2252/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. 188: 717-734. 2010"
+                    ],
+                    "Contributors": [
+                        "Sungsu Kim",
+                        "Yogesh P. Wairkar",
+                        "Richard W. Daniels",
+                        "Aaron DiAntonio"
+                    ],
+                    "PUBMED": [
+                        "PMID: 20194640"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "photomultiplier tube (PMT)",
+                        "onto_id": "FBbi:00000295"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13475",
+            "ARK": "ark:/b7295/w9cil13475",
+            "Title": "Sungsu Kim, Yogesh P. Wairkar, Richard W. Daniels, Aaron DiAntonio (2011) CIL:13475, Drosophila melanogaster, motor neuron. CIL. Dataset"
+        }
+    }
+}

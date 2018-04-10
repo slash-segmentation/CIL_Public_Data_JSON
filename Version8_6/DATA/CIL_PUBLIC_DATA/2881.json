@@ -1,0 +1,235 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "2881.tif",
+                    "Size": 42100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "2881.jpg",
+                    "Size": 8307768
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "2881.zip",
+                    "Size": 42229024
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "GROUP_ID": "3227",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "rough endoplasmic reticulum membrane",
+                        "onto_id": "GO:0030867"
+                    },
+                    {
+                        "onto_name": "smooth endoplasmic reticulum",
+                        "onto_id": "GO:0005790"
+                    },
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "peroxisome",
+                        "onto_id": "GO:0005777"
+                    },
+                    {
+                        "onto_name": "plasma membrane",
+                        "onto_id": "GO:0005886"
+                    },
+                    {
+                        "free_text": "alveoli"
+                    },
+                    {
+                        "onto_name": "symbiont-containing vacuole",
+                        "onto_id": "GO:0020003"
+                    },
+                    {
+                        "free_text": "bacterial symbionts"
+                    },
+                    {
+                        "free_text": "extrusomes"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "regulation of cellular metabolic process",
+                        "onto_id": "GO:0031323"
+                    },
+                    {
+                        "free_text": "mitochondrial activity"
+                    },
+                    {
+                        "onto_name": "detection of symbiotic bacterium",
+                        "onto_id": "GO:0009604"
+                    },
+                    {
+                        "free_text": "protein synthesis"
+                    },
+                    {
+                        "onto_name": "detection of symbiont",
+                        "onto_id": "GO:0009602"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "CELLLINE": {
+                    "free_text": "Cambridge Culture Collection, Cambridge, England, catalog # LB1656/1"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Coleps hirtus",
+                    "onto_id": "NCBITaxon:60000"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "MOLECULARFUNCTION": {
+                    "free_text": "cytoplasmic activity"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 5582,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3764,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "stain with broad specificity",
+                        "onto_id": "FBbi:00000415"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "High resolution image of typical cytoplasm of Coleps hirtus. The cytosol contains rough ER, mitochondria with tubular cristae, peroxisomes, early endosomes, and bacterial endosymbionts. Small and large extrusomes are also present. The bacteria are contained in vacuoles bearing ribosomes on their cytosolic side. Elements of the outer cortex: alveoli, plasma membrane, inner alveolar membrane, outer alveolar membrane are evident as well as the Golgi complex. Standard glutaraldehyde fixation followed by osmium tetroxide, dehydrated in alcohol and embedded in an epoxy resin. Microtome sections prepared at approximately 75nm thickness. TEM taken on 5/23/69 by R. Allen with Philips 300 operating at 60kV. Neg. 14,800X. The raw film was scanned with a Nikon Coolscan 9000ED. This high resolution image is suitable for quantitative analysis\n\nAdditional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Richard Allen"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL2881",
+            "ARK": "ark:/b7295/w9cil2881",
+            "Title": "Richard Allen (2010) CIL:2881, Coleps hirtus, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

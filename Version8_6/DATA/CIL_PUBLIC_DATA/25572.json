@@ -1,0 +1,176 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "25572.jpg",
+                    "Size": 30071
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "25572.zip",
+                    "Size": 426112
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "25572.flv",
+                    "Size": 1022783
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "unfixed tissue",
+                    "onto_id": "FBbi:00000014"
+                },
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "time lapse microscopy",
+                        "onto_id": "FBbi:00000249"
+                    },
+                    {
+                        "onto_name": "phase contrast microscopy",
+                        "onto_id": "FBbi:00000247"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "reproduction",
+                        "onto_id": "GO:0000003"
+                    },
+                    {
+                        "onto_name": "cell division",
+                        "onto_id": "GO:0051301"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "differences in amount of elastic light scattering",
+                        "onto_id": "FBbi:00000600"
+                    },
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Bacillus subtilis",
+                    "onto_id": "NCBITaxon:1423"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "elastic scattering of photons",
+                        "onto_id": "FBbi:00000587"
+                    },
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    }
+                ],
+                "TECHNICALDETAILS": {
+                    "free_text": "The microscope chamber slide was incubated in a temperature-controlled Cube and Box incubation system (Life Imaging Services) automated microscope (Zeiss 200M) at 30\u00b0C Images were obtained with a CoolSNAP HQ (Princeton Instruments) at a magnification of either 63X or 100X at eight minute intervals.  To prevent phototoxicity, the excitation light (480-500 nm for 0.1 s for GFP) was limited to 32% of the output of a 100-W Hg-vapor lamp by neutral density filters. Emission wavelengths for GFP were 509-547 nm."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1104
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1292
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "25200",
+                            "value": 480
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "visualization of contiguous regions",
+                        "onto_id": "FBbi:00000396"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Time-lapse movies with microscopy by phase contrast (left) and fluorescence (right) taken at 8 minute intervals of typical microcolonies of the strains IIA-gfp/DrapA (top: PspoIIA-gfp, DrapA) and IIA-gfp/Xrap (bottom: PspoIIA-gfp, amyE::Pxyl-rap60) of Bacillus subtilis.  The two populations were grown simultaneously in neighboring wells to assure equivalent environmental conditions for comparing growth.  The cells begin to express GFP (Green Fluorescent Protein), as seen on the right, at approximately 6 hours.\n\nThis image corresponds to supplemental movie 9 from PNAS 105(11), 4393-4398, 2008."
+                },
+                "CELLTYPE": {
+                    "onto_name": "prokaryotic cell",
+                    "onto_id": "CL:0000520"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Published article",
+                            "Href": "http://intl.pnas.org/content/105/11/4393.full.pdf+html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "PNAS 105(11), 4393-4398, 2008."
+                    ],
+                    "Contributors": [
+                        "Jan-Willem Veening",
+                        "Eric J. Stewart",
+                        "Thomas W. Berngruber",
+                        "Fran\u00e7ois Taddei",
+                        "Oscar P. Kuipers",
+                        "Leendert W. Hamoen"
+                    ],
+                    "PUBMED": [
+                        "18326026"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL25572",
+            "ARK": "ark:/b7295/w9cil25572",
+            "Title": "Jan-Willem Veening, Eric J. Stewart, Thomas W. Berngruber, Fran\u00e7ois Taddei, Oscar P. Kuipers, Leendert W. Hamoen (2011) CIL:25572, Bacillus subtilis, prokaryotic cell. CIL. Dataset"
+        }
+    }
+}

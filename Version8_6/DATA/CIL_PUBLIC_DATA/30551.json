@@ -1,0 +1,178 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "30551.jpg",
+                    "Size": 8962
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "30551.tif",
+                    "Size": 4300000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "30551.zip",
+                    "Size": 4229249
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "GROUP_ID": "10842",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "heterochromatin",
+                        "onto_id": "GO:0000792"
+                    },
+                    {
+                        "onto_name": "nuclear chromatin",
+                        "onto_id": "GO:0000790"
+                    },
+                    {
+                        "free_text": "transgene"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "nucleus organization",
+                        "onto_id": "GO:0006997"
+                    },
+                    {
+                        "onto_name": "chromatin organization",
+                        "onto_id": "GO:0006325"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "distribution of a specific nucleic acid sequence",
+                        "onto_id": "FBbi:00000596"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Formaldehyde fixed cells were imaged using an IMT-2 Olympus fluorescence microscope with 60x 1.4 NA objective lens. Z-series were recorded, and the slices processed by iterative constrained deconvolution.  xy pixel dimensions are 0.067 microns, z spacing is 0.2 microns and number of z-slices 14. \nSee also: P Sinclair et al. 2010 Dynamic plasticity of large scale chromatin structure revealed by self-assembly of engineered chromosome regions. J Cell Biol 109:761-776."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 218,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.067
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 230,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.067
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 14,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.2
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "constrained iterative deconvolution",
+                    "onto_id": "FBbi:00000360"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "z-series image of mouse ES cells with a multi-copy alpha-globin BAC insertion.  H3K9me3 (blue) marks the heterochromatic core which largely colocalizes with combined FISH signal from the lac operator repeats and BAC vector backbone (green).  In contrast the BAC FISH signal (red) is more peripheral."
+                },
+                "CELLTYPE": {
+                    "onto_name": "embryonic stem cell",
+                    "onto_id": "CL:0002322"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Journal of Cell Biology",
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/3072/6734/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "P Sinclair et al. 2010 Dynamic plasticity of large scale chromatin structure revealed by self-assembly of engineered chromosome regions. J Cell Biol 109:761-776"
+                    ],
+                    "Contributors": [
+                        "Paul Sinclair",
+                        "Qian Bian",
+                        "Matt Plutz",
+                        "Edith Heard",
+                        "Andrew Belmont"
+                    ],
+                    "PUBMED": [
+                        "20819934"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL30551",
+            "ARK": "ark:/b7295/w9cil30551",
+            "Title": "Paul Sinclair, Qian Bian, Matt Plutz, Edith Heard, Andrew Belmont (2012) CIL:30551, Mus musculus, embryonic stem cell. CIL. Dataset"
+        }
+    }
+}

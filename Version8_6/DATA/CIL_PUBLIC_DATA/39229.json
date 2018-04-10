@@ -1,0 +1,120 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "39229.flv",
+                    "Size": 13200439
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39229.jpg",
+                    "Size": 25360
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39229.zip",
+                    "Size": 32075904
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "10170",
+                "IMAGINGMODE": {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "spermatogenesis",
+                    "onto_id": "GO:0007283"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Psophus stridulus",
+                    "onto_id": "NCBITaxon:433472"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "The movie was originally recorded on 35mm film, and later transferred to CD format.  The text at the beginning of the movie translates approximately as follows:\n  Meiosis II, telophase and the early spermatid spermatid stage. \n \nSee also:\nMichel, K. (1941): Die Darstellung von Chromosomen mittels des Phasenkontrastverfahrens. Die Naturwissenschaften 29, 61-62 \nMichel, K. (1958): Die Reifeteilungen (Meiose) bei der Spermatogenese der Schnarrheuschrecke (Psophus stridulus l.) Institut f\u00fcr den Wissenschaftlichen Film, G\u00f6ttingen"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 720
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "CELLTYPE": {
+                    "onto_name": "spermatocyte",
+                    "onto_id": "CL:0000017"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Time lapse movie of meiosis II in spermatocytes of the Locust Psophus stridulus showing telophase and the early spermatid stage.\n  This is a historic movie made in the early 40s by Kurt Michel of the Zeiss company in Jena using Zernike's newly invented phase contrast microscope. \nDespite its early date, the movie and the others in the group remain some of the clearest examples of chromosome behavior during meiosis."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Kurt Michel",
+                        "Heinz Gundlach"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39229",
+            "ARK": "ark:/b7295/w9cil39229",
+            "Title": "Kurt Michel, Heinz Gundlach (2011) CIL:39229, Psophus stridulus, spermatocyte. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,165 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35618.zip",
+                    "Size": 2271352
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35618.jpg",
+                    "Size": 271541
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "35618.tif",
+                    "Size": 2300000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "actin filament",
+                        "onto_id": "GO:0005884"
+                    },
+                    {
+                        "free_text": "myosin light chain"
+                    },
+                    {
+                        "free_text": "alpha catenin"
+                    },
+                    {
+                        "onto_name": "adherens junction",
+                        "onto_id": "GO:0005912"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "phosphorylation of myosin light chain"
+                    },
+                    {
+                        "free_text": "calcium stimulation"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "The specimen was fixed with labelled with 4% paraformaldehyde and labeled with AlexaFluor488 phalloidin, rabbit anti alpha-catenin primary antibodies and Cy5 anti-rabbit secondary antibodies, mouse anti Phospho-MLC Ser18/Thr19 antibodies (Cell Signaling technologies) and mouse anti cy2 secondary antibodies. Images were acquired on a Zeiss LSM510 inverted microscope using a 63x 1.4 Numeric aperture oil immersion objective."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 740,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.143
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1023,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.143
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "phalloidin",
+                        "onto_id": "FBbi:00000100"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "Cy2",
+                        "onto_id": "FBbi:00000448"
+                    },
+                    {
+                        "onto_name": "Cy5",
+                        "onto_id": "FBbi:00000450"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The relationship between the actin cytoskeleton (blue), adherens junctions (green) and phospho-Myosin Light Chain (MLC) (red) after 30 minutes of calcium stimulation."
+                },
+                "CELLTYPE": {
+                    "onto_name": "keratinocyte",
+                    "onto_id": "CL:0000312"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Queen Mary University London",
+                        "Advanced Light Microscopy Facility"
+                    ],
+                    "Contributors": [
+                        "Ann Wheeler"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35618",
+            "ARK": "ark:/b7295/w9cil35618",
+            "Title": "Ann Wheeler (2011) CIL:35618, Homo sapiens, keratinocyte. CIL. Dataset"
+        }
+    }
+}

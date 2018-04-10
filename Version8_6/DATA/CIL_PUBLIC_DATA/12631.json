@@ -1,0 +1,136 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12631.zip",
+                    "Size": 1532859
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12631.tif",
+                    "Size": 5800000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "12631_orig.jpg",
+                    "Size": 1532721
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12631.jpg",
+                    "Size": 510612
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "onto_name": "testis",
+                        "onto_id": "EHDAA:8146"
+                    },
+                    {
+                        "free_text": "seminiferous_tubules"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "non-specific protein affinity",
+                    "onto_id": "FBbi:00000460"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1600
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1200
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "hematoxylin",
+                        "onto_id": "FBbi:00000041"
+                    },
+                    {
+                        "onto_name": "eosin",
+                        "onto_id": "FBbi:00000037"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This cross section shows a human fetal testis. Numerous seminiferous tubules appear within a lobe of the testis. It has not been treated with an antibody but is autofluorescent and therefore appears bright green. The image was made from a commercially fixed and section slide that was stained with hematoxylin and eosin and imaged with a Nikon Eclipse inverted microscope"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Prue Talbot"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "EHDAA:EHDAA:8146"
+                    },
+                    {
+                        "onto_id": "EHDAA:seminiferous_tubules"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12631",
+            "ARK": "ark:/b7295/w9cil12631",
+            "Title": "Prue Talbot (2011) CIL:12631, Homo sapiens. CIL. Dataset"
+        }
+    }
+}

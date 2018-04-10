@@ -1,0 +1,234 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "High-resolution, large-scale mosaic image for a full coronal mouse tissue showing global views of different brain regions, as well as cellular and subcellular details, identified distinct localization of PKA RI\u03b2 and RII\u03b2 regulatory subunits. \nTriple labeled for Nuclei (Hoescht stain, blue), RI\u03b2 (cy3, red) and RII\u03b2 (Alexa 488, green). This image is a maximum projection of the Z-stack through the tissue, and has been downsampled from the raw data image, which can be accessed using the link provided to the Cell Image Library."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Mouse brain was perfused with 4% paraformaldehyde, sectioned through the hippocampus in the coronal plane on a vibratome (100 \u00b5m). The section was immunostained with RI\u03b2 and RII\u03b2 primary antibodies. Secondary antibodies: Alexa Fluor 488 Donkey anti rabbit (green) and CY3 Donkey anti sheep (red). Images were acquired with a FluoView 1000 (Olympus Center Valley, PA,USA) using 20X objective and a high-precision motorized stage to collect the large scale mosaics. The specimen was excited sequentially with a laser at two different wavelengths: 488nm and 561nm. The boundaries (in x, y, and z) of the tissue section were defined using the Multi-Area Time Lapse function of ASW 1.7c microscope operating-software provided by Olympus (Olympus, Center Valley, PA, USA). The software automatically generates a list of 3D stage positions covering the volume of interest, which are computed using the dimensions of a single image in microns, degree of overlap between adjacent images and z-step size. Individual image tiles were 1024 \u00d7 1024 with a pixel dimension of 0.62 \u03bcm; overlap between two adjacent images (x-y) was 10% and the z-step was ~0.5 mm/section; there is no overlap in z. image normalization was performed using ImageJ.\n\nReconstruction Data File\nMontage of a mouse coronal section triple labeled for Hoescht stain (blue), PKA RI\u03b2 regulatory subunit (red), and PKA RII\u03b2 regulatory subunit (green).\nReconstruction Data Files, mosaic reconstructed with 10% overlap; image normalization performed using imageJ."
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cerebellar cortex development",
+                        "onto_id": "GO:0021695"
+                    },
+                    {
+                        "onto_name": "hippocampus development",
+                        "onto_id": "GO:0021766"
+                    },
+                    {
+                        "onto_name": "dentate gyrus development",
+                        "onto_id": "GO:0021542"
+                    },
+                    {
+                        "free_text": "reuniens thalamic nuleus"
+                    },
+                    {
+                        "free_text": "caudate putament"
+                    },
+                    {
+                        "free_text": "Rhomboid thalamic nucleus"
+                    },
+                    {
+                        "free_text": "Reticular thalamic nucleus"
+                    },
+                    {
+                        "free_text": "Arculate nucleus"
+                    },
+                    {
+                        "free_text": "Piriform cortex"
+                    },
+                    {
+                        "free_text": "Dorsal endopiriform nucleus"
+                    },
+                    {
+                        "free_text": "Subincertal nucleus"
+                    },
+                    {
+                        "free_text": "Retrosplenial granular cortex"
+                    },
+                    {
+                        "free_text": "Medial habenular nuclear"
+                    },
+                    {
+                        "free_text": "Retrosplenial granular"
+                    },
+                    {
+                        "free_text": "Mossy fibers"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "free_text": "central nervous system"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell body",
+                        "onto_id": "GO:0044297"
+                    },
+                    {
+                        "onto_name": "neuronal cell body membrane",
+                        "onto_id": "GO:0032809"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Mus musculus",
+                        "onto_id": "NCBITaxon:10090"
+                    },
+                    {
+                        "free_text": "C57BL/6"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "confocal microscopy",
+                        "onto_id": "FBbi:00000251"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    }
+                ],
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "onto_name": "vibratome-sectioned tissue",
+                        "onto_id": "FBbi:00000030"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Hoechst 33342",
+                        "onto_id": "FBbi:00000052"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Ronit Ilouz",
+                        "Varda Lev-Ram",
+                        "Eric Bushong",
+                        "Travis Stiles",
+                        "Dinorah Friedmann-Morvinski",
+                        "Christopher Douglas",
+                        "Geoffrey Goldberg",
+                        "Mark Ellisman",
+                        "Susan Taylor"
+                    ],
+                    "OTHER": [
+                        "project_20403"
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Pixel_size": {
+                                "value": "0.67",
+                                "unit": "microns"
+                            },
+                            "Image_size": "2869"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Pixel_size": {
+                                "value": "0.67",
+                                "unit": "microns"
+                            },
+                            "Image_size": "3338"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Pixel_size": {
+                                "value": "0.67",
+                                "unit": "microns"
+                            },
+                            "Image_size": "3338"
+                        }
+                    }
+                ]
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_path": "49453.tif",
+                    "Size": 28800000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_path": "49453.jpg",
+                    "Size": 2600028,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_path": "49453.zip",
+                    "Size": 28754062,
+                    "File_type": "Zip"
+                },
+                {
+                    "Mime_type": "image/tiff",
+                    "File_path": "49453_orig.tif",
+                    "Size": 28753924,
+                    "File_type": "OME_tif"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": false,
+            "Still_image": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL49453",
+            "ARK": "ark:/b7295/w9cil49453",
+            "Title": "Ronit Ilouz, Varda Lev-Ram, Eric Bushong, Travis Stiles, Dinorah Friedmann-Morvinski, Christopher Douglas, Geoffrey Goldberg, Mark Ellisman, Susan Taylor (2017) CIL:49453, Mus musculus, C57BL/6, central nervous system. CIL. Dataset"
+        }
+    }
+}

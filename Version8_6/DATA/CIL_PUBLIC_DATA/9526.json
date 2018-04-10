@@ -1,0 +1,169 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "9526.tif",
+                    "Size": 45800000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9526.zip",
+                    "Size": 45670350
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9526.jpg",
+                    "Size": 6592598
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    }
+                ],
+                "GROUP_ID": "11363",
+                "IMAGINGMODE": [
+                    {
+                        "onto_id": "FBbi:00000622"
+                    },
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "chloroplast",
+                        "onto_id": "GO:0009507"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "microtubule-based flagellum part",
+                        "onto_id": "GO:0044442"
+                    },
+                    {
+                        "onto_name": "microtubule basal body",
+                        "onto_id": "GO:0005932"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "photosynthesis, light harvesting",
+                        "onto_id": "GO:0009765"
+                    },
+                    {
+                        "onto_name": "organelle organization",
+                        "onto_id": "GO:0006996"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "CELLLINE": {
+                    "free_text": "strain in culture"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Chlamydomonas reinhardtii",
+                    "onto_id": "NCBITaxon:3055"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "250 nm 'thick' epon section imaged with a high voltage JEM-1000 TEM at 1000KV."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4862,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.5
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4696,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.5
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Appriximately longitudinal section of the unicellular alga Chlamydomonas reinhardtii showing one of the paired flagella, and the spherical nucleus surrounded by the single cup-shaped chloroplasts containing storage granules."
+                },
+                "CELLTYPE": {
+                    "onto_name": "plant cell",
+                    "onto_id": "CL:0000610"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Mary Morphew",
+                        "J. Richard McIntosh"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9526",
+            "ARK": "ark:/b7295/w9cil9526",
+            "Title": "Mary Morphew, J. Richard McIntosh (2010) CIL:9526, Chlamydomonas reinhardtii, plant cell. CIL. Dataset"
+        }
+    }
+}

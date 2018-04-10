@@ -1,0 +1,181 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "21727.zip",
+                    "Size": 10824802
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "21727.tif",
+                    "Size": 5400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "21727.jpg",
+                    "Size": 2117986
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                "GROUP_ID": "6995",
+                "IMAGINGMODE": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "contractile vacuole",
+                        "onto_id": "GO:0000331"
+                    },
+                    {
+                        "onto_name": "contractile vacuolar membrane",
+                        "onto_id": "GO:0031164"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "contractile vacuole organization",
+                    "onto_id": "GO:0033298"
+                },
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "isolated subcellular component",
+                        "onto_id": "FBbi:00000579"
+                    }
+                ],
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium multimicronucleatum",
+                    "onto_id": "NCBITaxon:44030"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "elastic scattering of electrons",
+                        "onto_id": "FBbi:00000586"
+                    },
+                    {
+                        "onto_name": "electron density",
+                        "onto_id": "FBbi:00000315"
+                    },
+                    {
+                        "onto_name": "elevation",
+                        "onto_id": "FBbi:00000320"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2135
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2484
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print of negative scanned for Photoshop"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Quick-freeze deep-etch of the P-face of the contractile vacuole. This face has many IMPs that are presumably transmembrane proteins many of which have been pulled free of the leaflet. There are also pits in this leaflet which represent the IMPs that remain with the opposite leaflet. Although we have found no mechano-sensitive or voltage-gated channels in the CVC (Sugino et al., J. Exp. Biol. 208:3957-3969, 2005) it is clear that proton pumps are present in the decorated tubules and that protons are exchanged for other ions such as calcium, potassium and sodium as these ions can accumulate in the CV against a concentration gradient from the cytosol. Some of the IMPs may function as ion exchange channels. What caused the large holes is not known. The texture of the luminal contents  resembles the CV content and indicates the membrane is indeed that of the contractile vacuole. TEM taken on 5/27/92 by R. Allen with Zeiss 10A operating at 80kV. Neg. 31,500X. Bar = 0.2\u00b5m. The raw film was scanned with an Epson Perfection V750 Pro. This image is best used for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/).A print of the negative was scanned and processed in Photoshop. This image is best used for qualitative analysis. A high resolution image (CIL:13128) is available for quantitative analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL21727",
+            "ARK": "ark:/b7295/w9cil21727",
+            "Title": "Richard Allen (University of Hawaii) (2011) CIL:21727, Paramecium multimicronucleatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

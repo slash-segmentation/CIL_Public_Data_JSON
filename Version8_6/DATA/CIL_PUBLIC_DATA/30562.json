@@ -1,0 +1,153 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "30562.zip",
+                    "Size": 42723101
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "30562.tif",
+                    "Size": 42800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "30562.jpg",
+                    "Size": 61926
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "8578",
+                "IMAGINGMODE": {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "spindle microtubule",
+                        "onto_id": "GO:0005876"
+                    },
+                    {
+                        "onto_name": "kinesin complex",
+                        "onto_id": "GO:0005871"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "regulation of mitotic prometaphase",
+                        "onto_id": "GO:0035415"
+                    },
+                    {
+                        "onto_name": "regulation of microtubule-based process",
+                        "onto_id": "GO:0032886"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Embryos expressing GFP-KLP61F were collected at 25\u00b0C for 1 h, matured for 40 min, dechorionated, placed on heptane glue and covered with halocarbon oil.  Images from this image group were acquired with an inverted IX-70 Olympus with Ultra-View spinning disk confocal head (PerkinElmer) and acquired with an oil immersion objective (UPlan-Apochromat 100x N.A. 1.35, or Plan-Apochromat 60x NA 1.4).  For these experiments, z-stacks were acquired with an Orca II CCD camera (Hamamatsu Photonics) at intervals of 0.1-0.2 \u00b5m, using exposure times of 300-600ms.  For further information see J. Cell Biol. 188(1):49-68."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 672
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 62
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "Green fluorescent proteins from Aequorea",
+                    "onto_id": "FBbi:00000437"
+                },
+                "CELLTYPE": {
+                    "onto_name": "early embryonic cell",
+                    "onto_id": "CL:0000007"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A confocal Z-stack from a transgenic Drosophila expressing the kinesin-5 motor KLP61F-GFP embryo  during prometaphase phase 1.  KOP61-F is required to prevent prometaphase spindle collapse driven by the kinesin-14 Ncd. This image is original data contributing to Fig. 1 \"Prometaphase spindle dynamics in Drosophila embryos: steady-state and elongation phase\" from Civelekoglu-Scholey et al.(2010) Prometaphase spindle maintenance by an antagonistic motor-dependent force balance made robust by a disassembling lamin-B envelope, J. Cell Biol. 188(1):49-68."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "jcb-dataviewer",
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/1802/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. 2010 Jan 11;188(1):49-68."
+                    ],
+                    "Contributors": [
+                        "Gul Civelekoglu-Scholey",
+                        "Li Tao",
+                        "Ingrid Brust-Mascher",
+                        "Roy Wollman",
+                        "Jonathan M. Scholey"
+                    ],
+                    "PUBMED": [
+                        "PMID:20065089"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL30562",
+            "ARK": "ark:/b7295/w9cil30562",
+            "Title": "Gul Civelekoglu-Scholey, Li Tao, Ingrid Brust-Mascher, Roy Wollman, Jonathan M. Scholey (2011) CIL:30562, Drosophila melanogaster, early embryonic cell. CIL. Dataset"
+        }
+    }
+}

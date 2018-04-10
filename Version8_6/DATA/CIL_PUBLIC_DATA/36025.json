@@ -1,0 +1,159 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "36025.tif",
+                    "Size": 700000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "36025.zip",
+                    "Size": 615348
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "36025.jpg",
+                    "Size": 43631
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "confocal microscopy",
+                        "onto_id": "FBbi:00000251"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "chromatin organization",
+                        "onto_id": "GO:0006325"
+                    },
+                    {
+                        "onto_name": "chromosome organization",
+                        "onto_id": "GO:0051276"
+                    },
+                    {
+                        "onto_name": "nucleus organization",
+                        "onto_id": "GO:0006997"
+                    }
+                ],
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific nucleic acid sequence",
+                    "onto_id": "FBbi:00000596"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Gorilla",
+                        "onto_id": "NCBITaxon:9592"
+                    },
+                    {
+                        "onto_name": "Homo sapiens",
+                        "onto_id": "NCBITaxon:9606"
+                    },
+                    {
+                        "onto_name": "Callithrix jacchus",
+                        "onto_id": "NCBITaxon:9483"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Epstein-Barr virus-transformed lymphoblastoid cells were fixed in paraformaldehyde, processed for FISH and z-series recorded with a Zeiss LSM 410 confocal microscope."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 519
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 395
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Fluorescence in situ hybridization (FISH) of chromosome spreads and interphase nuclei of lymphoblastoid cell of higher primates using probes specific to individual chromosomes. The figure illustrates the concept of chromosome territories with individual chromosomes occupying distinct spatial territories during interphase. Top row identifies chromosomes 16 (red) and 20 (green) in gorilla (a) and human (b).  d shows selected z-slices of a marmoset interphase nucleus revealing the territories occupied by chromosome 18(red) and 19 (green).  DNA is shown in blue."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "free_text": "lymphoblastoid"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "chromosome territory",
+                            "Href": "www.pnas.org/cgi/doi/10.1073/pnas.072618599"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "H. Tanabe et al. 2002 Proc Natl Acad Sci 99:4424-4429"
+                    ],
+                    "Contributors": [
+                        "Hideyuki Tanabe",
+                        "Stefan Muller",
+                        "Michaela Neusser",
+                        "Johann von Hase",
+                        "Enzo Calcagno",
+                        "Marion Cremer",
+                        "Irina Solovei",
+                        "Christoph Cremer",
+                        "Thomas Cremer"
+                    ],
+                    "PUBMED": [
+                        "11930003"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL36025",
+            "ARK": "ark:/b7295/w9cil36025",
+            "Title": "Hideyuki Tanabe, Stefan Muller, Michaela Neusser, Johann von Hase, Enzo Calcagno, Marion Cremer, Irina Solovei, Christoph Cremer, Thomas Cremer (2011) CIL:36025, Gorilla, Homo sapiens, Callithrix jacchus, lymphoblastoid. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,146 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12016.jpg",
+                    "Size": 35606
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "12016.flv",
+                    "Size": 426609
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12016.zip",
+                    "Size": 2912384
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "3422",
+                "IMAGINGMODE": {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "actin cytoskeleton",
+                    "onto_id": "GO:0015629"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "negative regulation of phosphatase activity",
+                    "onto_id": "GO:0010923"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Hypsophrys nicaraguensis",
+                    "onto_id": "NCBITaxon:131240"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 384,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.549
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 384,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.549
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "value": 5
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "contrast, brightness, image combine"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Local application of calyculin A (phosphatase inhibitor) can stimulate motility initiation. Phase-contrast time-lapse video of a stationary keratocyte exposed to a local application of calyculin A. Red pseudocolor indicates the calyculin A flow from the micropipette (positioned in the bottom left corner). The keratocyte polarized and initiated motility away from the source of calyculin A. 50x real time (frames were collected at 5-s intervals and are displayed at 10 frames/s). Cells were imaged in culture media (Leibovitz's L-15 medium without phenol red supplemented with 14.2 mM Hepes, pH 7.4, 10% FBS, and 1% antibiotic-antimycotic). Corresponds to Fig. 6 C and video 7 in  JCB 178:1207-1221, 2007."
+                },
+                "CELLTYPE": {
+                    "free_text": "keratocyte"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        " JCB 178:1207-1221, 2007"
+                    ],
+                    "Contributors": [
+                        "Patricia T. Yam",
+                        "Cyrus A. Wilson",
+                        "Lin Ji",
+                        "Benedict Hebert",
+                        "Erin L. Barnhar",
+                        "Natalie A. Dye",
+                        "Paul W. Wiseman",
+                        "Gaudenz Danuser",
+                        "Julie Theriot"
+                    ],
+                    "PUBMED": [
+                        "17893245"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12016",
+            "ARK": "ark:/b7295/w9cil12016",
+            "Title": "Patricia T. Yam, Cyrus A. Wilson, Lin Ji, Benedict Hebert, Erin L. Barnhar, Natalie A. Dye, Paul W. Wiseman, Gaudenz Danuser, Julie Theriot (2011) CIL:12016, Hypsophrys nicaraguensis, keratocyte. CIL. Dataset"
+        }
+    }
+}

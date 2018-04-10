@@ -1,0 +1,169 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39385.tif",
+                    "Size": 186400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39385.jpg",
+                    "Size": 12476473
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39385.zip",
+                    "Size": 30550946
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39385_orig.jpg",
+                    "Size": 30550808
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "free_text": "ethanol dehydration"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "cell surface",
+                        "onto_id": "GO:0009986"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "cellular extravasation",
+                    "onto_id": "GO:0045123"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "MOUSE_GROSS_ANATOMY": [
+                    {
+                        "free_text": "vascular sinus"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "mus muscula"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Instrument: JEOL 100CX TEM  Please see http://www.dartmouth.edu/~emlab/manuals/sempreps/index.html for details on specimen preparation."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 9191
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 6752
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrscope image of a thin section cut through an area of bone marrow area near the cartilage/bone interface in a mouse kneecap. Image shows small opening in the thin endotheliun of the vascular sinus wall, where a blood cell is crossing the thin vascular sinus wall and into the sinus lumen."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "endothelial cell",
+                        "onto_id": "CL:0000115"
+                    },
+                    {
+                        "onto_name": "blood cell",
+                        "onto_id": "CL:0000081"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Dartmouth College Electron Microscopy Facility",
+                            "Href": "http://remf.dartmouth.edu/Bone_marrow_TEM_mega/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Louisa Howard"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EMAP:vascular sinus"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39385",
+            "ARK": "ark:/b7295/w9cil39385",
+            "Title": "Louisa Howard (2012) CIL:39385, mus muscula, endothelial cell, blood cell. CIL. Dataset"
+        }
+    }
+}

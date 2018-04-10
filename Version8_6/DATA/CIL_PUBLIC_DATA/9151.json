@@ -1,0 +1,145 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "9151.tif",
+                    "Size": 4700000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9151.jpg",
+                    "Size": 1556322
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9151.zip",
+                    "Size": 4098146
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "free_text": "pre synaptic terminal"
+                    },
+                    {
+                        "onto_name": "dendrite",
+                        "onto_id": "GO:0030425"
+                    },
+                    {
+                        "free_text": "PSD-95"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "protein localization to synapse",
+                    "onto_id": "GO:0035418"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "MOUSE_GROSS_ANATOMY": [
+                    {
+                        "free_text": "hippocampus"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2380
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1964
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "gold",
+                        "onto_id": "FBbi:00000202"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "interneuron",
+                    "onto_id": "CL:0000099"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph using immuno-gold labeling to show the location of PSD-95 in 3 glutamatergic synapses on an interneuron dendrite from the CA1 stratum radiatum of the hippocampus of an adult male rat (postnatal day 37). PSD-95 is labeled with a new rabbit monoclonal antibody (Cell Signaling Technology, Inc. - cat. #3450) and 10 nm immunogold (Ted Pella, GFAR). pre=presynaptic terminal, mit=mitochondrion, scale bar is 100 nm"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "NIDCD/NIH"
+                    ],
+                    "Contributors": [
+                        "Ronald S. Petralia"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EMAP:hippocampus"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9151",
+            "ARK": "ark:/b7295/w9cil9151",
+            "Title": "Ronald S. Petralia (2012) CIL:9151, Rattus, interneuron. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,113 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41933.jpg",
+                    "Size": 222430
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41933.tif",
+                    "Size": 2500000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "free_text": "orientation independent differential interference contrast microscopy"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                "CELLLINE": {
+                    "free_text": "HEI-193"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1161
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 707
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "CELLTYPE": {
+                    "free_text": "NF2 schwannoma"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Immortalized human schwannoma HEI-193 cells (House Ear Institute) from a Neurofibromatosis Type 2 (NF2) patient (Hung et al., 1993) imaged with orientation independent differential interference contrast microscopy. These phase images were taken with a 100 x objective (0.3 NA). Scale bar = 10 microns"
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:3196"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Shanta Messerli",
+                        "Michael Shribak"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "cellular schwannoma",
+                        "onto_id": "DOID:3196"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41933",
+            "ARK": "ark:/b7295/w9cil41933",
+            "Title": "Shanta Messerli, Michael Shribak (2012) CIL:41933, Homo sapiens, NF2 schwannoma. CIL. Dataset"
+        }
+    }
+}

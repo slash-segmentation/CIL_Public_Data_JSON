@@ -1,0 +1,161 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39063.zip",
+                    "Size": 219403
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39063_orig.jpg",
+                    "Size": 219265
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39063.jpg",
+                    "Size": 117462
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39063.tif",
+                    "Size": 1400000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "fibrillar collagen",
+                    "onto_id": "GO:0005583"
+                },
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "free_text": "sweat gland"
+                    },
+                    {
+                        "onto_name": "excretory component",
+                        "onto_id": "EHDAA:8103"
+                    },
+                    {
+                        "onto_name": "skin",
+                        "onto_id": "EHDAA:6530"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "sweat gland organization"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007566 Primate sweat glands.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 561
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "hematoxylin",
+                        "onto_id": "FBbi:00000041"
+                    },
+                    {
+                        "onto_name": "eosin",
+                        "onto_id": "FBbi:00000037"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "fat cell",
+                        "onto_id": "CL:0000136"
+                    },
+                    {
+                        "free_text": "myosecretory cells"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Light micrograph of a 'semithin' section (1.5 \u00b5m thick) of the dermis layer of skin from a monkey. The upper left side shows an area of (empty) fat cells surrounded by collagen fibers. The lower right side contains six sections of a coiled sweat gland and three excretory ducts. The columnar cells forming the wall of the sweat gland secrete the solutes, these are interdispersed with myosecretory cells (triangular red shapes particularly visible in gland at far right) that can contract to squeeze the secretion out of the lumen of the gland into the excretory duct. The section was stained with haematoxylin and eosin (H+E), which is a common histological stain added to tissue sections to distinguish cells."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Spike Walker"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "EHDAA:sweat gland"
+                    },
+                    {
+                        "onto_id": "EHDAA:EHDAA:8103"
+                    },
+                    {
+                        "onto_id": "EHDAA:EHDAA:6530"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39063",
+            "ARK": "ark:/b7295/w9cil39063",
+            "Title": "Spike Walker (2012) CIL:39063, fat cell, myosecretory cells. CIL. Dataset"
+        }
+    }
+}

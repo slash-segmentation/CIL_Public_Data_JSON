@@ -1,0 +1,164 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "10061.tif",
+                    "Size": 3600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "10061.jpg",
+                    "Size": 194892
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "10061.zip",
+                    "Size": 3604226
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "methanol fixed tissue",
+                    "onto_id": "FBbi:00000007"
+                },
+                "GROUP_ID": "8084",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell-cell junction",
+                        "onto_id": "GO:0005911"
+                    },
+                    {
+                        "onto_name": "microtubule basal body",
+                        "onto_id": "GO:0005932"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "free_text": "acetylated tubulin"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "lung ciliated cell differentiation",
+                    "onto_id": "GO:0061141"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "detergent permeabilized",
+                    "onto_id": "FBbi:00000262"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific nucleic acid sequence",
+                    "onto_id": "FBbi:00000596"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1171,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.094
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1017,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.094
+                            }
+                        }
+                    },
+                    {
+                        "Wavelength": {
+                            "unit": "nanometers",
+                            "value": "350, 488, 594, 633",
+                            "note": "4"
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                        "onto_id": "FBbi:00000056"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 594",
+                        "onto_id": "FBbi:00000444"
+                    },
+                    {
+                        "onto_name": "Cy5",
+                        "onto_id": "FBbi:00000450"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Mouse tracheal epithelia cells (MTEC) were grown at air-liquid interface to induce differentiation, centriole amplification and ciliogenesis. Cells were fixed with ice-cold methanol for 10 min. Samples were stained with antibodies against acetylated tubulin to mark cilia (red), the centriolar protein Cep120 to mark basal bodies (green), and anti-ZO-1 to mark the cell-cell junctions (light blue). Secondary antibodies were Alexa 594 for acetylated tubulin, Alexa 488 for Cep120, and Cy5 for Zo-1.  Nuclei were stained using DAPI (blue). Images were captured using Openlab 4.0.4 software controlling an Axiovert 200M microscope (Carl Zeiss, Inc.) with a 100X 1.4 NA objective."
+                },
+                "CELLTYPE": {
+                    "onto_name": "tracheal epithelial cell",
+                    "onto_id": "CL:0000307"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Moe Mahjoub",
+                        "Tim Stearns"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL10061",
+            "ARK": "ark:/b7295/w9cil10061",
+            "Title": "Moe Mahjoub, Tim Stearns (2010) CIL:10061, Mus musculus, tracheal epithelial cell. CIL. Dataset"
+        }
+    }
+}

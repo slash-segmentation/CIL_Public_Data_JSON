@@ -1,0 +1,99 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of a portion of a type II alveolar cell from an aged guinea pig showing unusual protein within the RER."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Species: cobaya<br/>\nGender: male<br/>\nWeight: 250-500g<br/>\nSubspecies or gene: Hartley white short hair air and vitamin C lung type II cell intracisternal bodies, ribosomes, lamellar bodies<br/>\nOrgan: mid ventral right lobe lung<br/>\nTissue: lung<br/>\nComponent: unusual proteins, probably surfactant proteins within the RER<br/>\nGrouped: intracisternal protein<br/>\nAccelerating voltage: 60kv<br/>\nStain 1: 1% osmium tetroxide<br/>\nStain 2: lead citrate and uranyl acetate<br/>\nEmbed: Spurr's resin or epon 812<br/>\nSection: 50-100 nm thick<br/>\n\n"
+                },
+                "CELLTYPE": [
+                    {
+                        "free_text": "alveolar type II cell"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Cavia",
+                        "onto_id": "NCBITaxon:10140"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "free_text": "micrograph"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "free_text": "Glutaraldehyde and paraformaldehyde in phosphate buffer"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Marian Miller",
+                        "Brooks Adams"
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": "4000"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": "4517"
+                        }
+                    }
+                ]
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_path": "50302.jpg",
+                    "Size": 2921904,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_path": "50302.tif",
+                    "Size": 71800000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_path": "50302.zip",
+                    "Size": 22586579,
+                    "File_type": "Zip"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": false,
+            "Still_image": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL50302",
+            "ARK": "ark:/b7295/w9cil50302",
+            "Title": "Marian Miller, Brooks Adams (2018) CIL:50302, Cavia, alveolar type II cell. CIL. Dataset"
+        }
+    }
+}

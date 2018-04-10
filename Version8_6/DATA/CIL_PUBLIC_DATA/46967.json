@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "46967.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "46967_orig.jpg",
+                    "Size": 264487
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "46967.zip",
+                    "Size": 264625
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "46967.jpg",
+                    "Size": 100013
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    }
+                ],
+                "GROUP_ID": "16853",
+                "IMAGINGMODE": {
+                    "onto_name": "multi-photon microscopy",
+                    "onto_id": "FBbi:00000255"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "vibratome-sectioned tissue",
+                    "onto_id": "FBbi:00000030"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "A wildtype adult male mouse (C57BL/6 * DBA/2, 291 days) was anesthetized with nembutal, and perfused with 4% paraformaldehyde + 0.1% glutaraldehyde, followed by 1 hr. postfixation in 4% paraformaldehyde. Tissue was sectioned on a vibratome at a thickness of 80\u00b5m. Following rinses in phosphate buffer (PBS), sections were blocked (PBS with 3% NGS;1% fish gel, 0.1% Triton X-1000; 1% BSA) for 1 hour, followed by rinses in working buffer (1:10 blocking buffer: PBS). Primary antibody was diluted in working buffer (anti-alpha-SYN; Host = Rabbit used at 1:500), and tissue was covered with aluminum foil and incubated on a shaker in cold room overnight. Tissue was washed with working buffer and incubated in secondary antibody. Hoescht 33342 was used to stain nuclei (30 min). After rinsing in PBS, sections were mounted on slides and coverslipped using Gelvatol. Sections were imaged using a BioRad RTS 2000MP Multiphoton, with a 60X, NA 1.4 objective. Final multi-panel montage is a projection through 5 z planes."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.237
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 480,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.237
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "Hoechst 33342",
+                        "onto_id": "FBbi:00000052"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "CNS neuron (sensu Nematoda and Protostomia)",
+                    "onto_id": "CL:0000028"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Large scale brain mosaic through level of cerebellar vermis of a wild type mouse labeled for alpha synuclein (green) and a nuclear stain (blue). This mosaic image has been downsampled from the raw data image, which can be accessed using the link provided to the Cell Centered Database. For more information regarding this project, see: Price DL, Chow SK, MacLean NAB, Hakozaki H, Peltier S, Martone ME, Ellisman MH (2006) High-Resolution Large-Scale Mosaic Imaging using Multiphoton Microscopy to Characterize Transgenic Mouse Models of Human Neurological Disorders. Neuroinformatics. 2006;4(1):65-80."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 3996",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?mpid=3996&count=y&event=displaySum"
+                        }
+                    ],
+                    "Contributors": [
+                        "D.L. Price",
+                        "M.H. Ellisman",
+                        "M. Martone",
+                        "G.A. Johnson",
+                        "E. Masliah"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL46967",
+            "ARK": "ark:/b7295/w9cil46967",
+            "Title": "D.L. Price, M.H. Ellisman, M. Martone, G.A. Johnson, E. Masliah (2014) CIL:46967, Mus musculus, CNS neuron (sensu Nematoda and Protostomia). CIL. Dataset"
+        }
+    }
+}

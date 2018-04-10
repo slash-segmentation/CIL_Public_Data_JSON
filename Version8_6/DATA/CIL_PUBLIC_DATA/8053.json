@@ -1,0 +1,185 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "8053.jpg",
+                    "Size": 11338
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "8053.flv",
+                    "Size": 587112
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "8053.zip",
+                    "Size": 843900
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "11197",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "time lapse microscopy",
+                        "onto_id": "FBbi:00000249"
+                    },
+                    {
+                        "onto_name": "widefield illumination",
+                        "onto_id": "FBbi:00000277"
+                    },
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "kinetochore",
+                        "onto_id": "GO:0000776"
+                    },
+                    {
+                        "onto_name": "spindle pole centrosome",
+                        "onto_id": "GO:0031616"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "metaphase plate congression",
+                    "onto_id": "GO:0051310"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "HeLa",
+                    "onto_id": "MCC:0000219"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "This HeLa cell was analyzed by time-lapse microscopy 48 hours after DNA transfection and 30 hours after transfection with Kif18A siRNA (GCCAAUUCUUCGUAGUUUU). Prior to filming the cell was switched to CO2-independent media (Life Technologies). The cell were imaged with a Deltavision RT system (Applied Precision) equipped with a CCD camera, 60X 1.42 NA lens (Olympus) and a 37C environmental chamber (Applied Precision). Z-stacks containing five focal planes with 0.5 microns spacing were acquired at intervals of 2 seconds. Images were deconvolved and projected as a 2-D image stack using Softworx software (Applied Precision). The movie was cropped, bleach corrected, and contrast adjusted using Image J. Display rate is 25 frames per second. Original resource created on created on August 18, 2007.Original resource: 54.6 Mb Deltavision image stack."
+                },
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "attachment of spindle microtubules to chromosome",
+                        "onto_id": "GO:0051313"
+                    },
+                    {
+                        "onto_name": "mitotic spindle organization",
+                        "onto_id": "GO:0007052"
+                    },
+                    {
+                        "onto_name": "centromeric DNA binding",
+                        "onto_id": "GO:0019237"
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "VenusFP",
+                        "onto_id": "FBbi:00000477"
+                    },
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 328
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 278
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "150",
+                            "value": 6
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "3D-deconvolution",
+                    "onto_id": "FBbi:00000357"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This HeLa cell is expressing two fluorescent proteins, including EGFP-CENP-B, a fluorescent protein that marks kinetochores (seen as paired dots oriented parallel to the x-axis and attached to opposite spindle poles), and Venus-centrin, which marks the centrosomes (seen as single dots near the left and right edges of the movie) and was depleted of the mitotic kinesin, Kif18A. In control cells at this stage in mitosis, sister kinetochore pairs typically undergo oscillatory movements around the equator of the spindle. In this cell depleted of Kif18A, however, kinetochores are still bioriented and undergo oscillatory movements but fail to align at the spindle equator.  Depletion of Kif18A leads to a two-fold increase in oscillation amplitude (from 1.2 microns to 2.3 microns). The increased oscillation amplitude can be explained by both a decrease in the rate of directional switches and an increase in the velocity of movement. As kinetochore movements are highly coordinated with the dynamics of kinetochore microtubules, we hypothesize that Kif18A may control kinetochore movements by regulating kinetochore microtubule dynamics. Note that the centrin dots are approximately 19 microns apart at the start of the movie.  This movie is part of a group that captured first place at the 2007 ASCB Celldance contest."
+                },
+                "CELLTYPE": [
+                    {
+                        "free_text": "cervical cancer"
+                    },
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Dev Cell. Feb;14(2):252-62. (2008)"
+                    ],
+                    "Contributors": [
+                        "Jason Stumpff",
+                        "George von Dassow",
+                        "Michael Wagenbach",
+                        "Charles Asbury",
+                        "Linda Wordeman"
+                    ],
+                    "PUBMED": [
+                        "18267093"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL8053",
+            "ARK": "ark:/b7295/w9cil8053",
+            "Title": "Jason Stumpff, George von Dassow, Michael Wagenbach, Charles Asbury, Linda Wordeman (2011) CIL:8053, Homo sapiens, epithelial cell, cervical cancer. CIL. Dataset"
+        }
+    }
+}

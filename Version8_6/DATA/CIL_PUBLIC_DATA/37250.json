@@ -1,0 +1,153 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37250.zip",
+                    "Size": 59527698
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "37250.tif",
+                    "Size": 59600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37250.jpg",
+                    "Size": 4908761
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "chemically fixed tissue",
+                        "onto_id": "FBbi:00000002"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    }
+                ],
+                "GROUP_ID": "11393",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "chloroplast",
+                        "onto_id": "GO:0009507"
+                    },
+                    {
+                        "free_text": "photoreceptor"
+                    },
+                    {
+                        "free_text": "eyespot"
+                    },
+                    {
+                        "onto_name": "carotenoid vesicle",
+                        "onto_id": "GO:0043702"
+                    },
+                    {
+                        "onto_name": "pigment granule",
+                        "onto_id": "GO:0048770"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "organelle organization",
+                        "onto_id": "GO:0006996"
+                    },
+                    {
+                        "onto_name": "phototaxis",
+                        "onto_id": "GO:0042331"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Chlamydomonas",
+                    "onto_id": "NCBITaxon:3052"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Original 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original magnification 43,000."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 6000
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4960
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "An electron micrograph of a potion of a cell of the unicellular alga Chlamydomonas reinhardii illustrating the eye spot, an organelle found inside the chloroplast that is composed of red carotenoid pigments and photoreceptive proteins and functions in phototaxis.  Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."
+                },
+                "ATTRIBUTION": {
+                    "DATE": [
+                        "11/05/1964"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "George E. Palade EM Slide Collection",
+                            "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeUniBA"
+                        }
+                    ],
+                    "Contributors": [
+                        "I. Ohad"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37250",
+            "ARK": "ark:/b7295/w9cil37250",
+            "Title": "I. Ohad (2012) CIL:37250, Chlamydomonas. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,123 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41544.tif",
+                    "Size": 15200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41544.zip",
+                    "Size": 15168278
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41544.jpg",
+                    "Size": 937747
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "hyaline layer",
+                    "onto_id": "GO:0033166"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/HistologyIcon512.jpg\" width=\"96\" height=\"96\"/>"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4000
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1264
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "hematoxylin",
+                        "onto_id": "FBbi:00000041"
+                    },
+                    {
+                        "onto_name": "eosin",
+                        "onto_id": "FBbi:00000037"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "ciliated epithelial cell",
+                    "onto_id": "CL:0000067"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Histology sample illustrating the pseudostratified, ciliated columnar epithelium of the trachea. Note that the basement membrane underlying this particular epithelium is especially prominent.  This image is slide 40 in the University of Michigan Histology and Virtual Learning Resource.  A more detailed description can be found by following the indicated url link http://histology.med.umich.edu/medical/connective-tissue."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "slide 40"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "University of Michigan Histology and Virtual Learning Resource",
+                            "Href": "http://histology.med.umich.edu/medical/connective-tissue"
+                        }
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41544",
+            "ARK": "ark:/b7295/w9cil41544",
+            "Title": "CIL (2012) CIL:41544, Homo sapiens, ciliated epithelial cell. CIL. Dataset"
+        }
+    }
+}

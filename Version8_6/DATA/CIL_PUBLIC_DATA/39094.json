@@ -1,0 +1,154 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39094.jpg",
+                    "Size": 112007
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39094.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39094.zip",
+                    "Size": 199684
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39094_orig.jpg",
+                    "Size": 199546
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "modes of light microscopy",
+                    "onto_id": "FBbi:00000345"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "keratin filament",
+                    "onto_id": "GO:0045095"
+                },
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "free_text": "hair shaft"
+                    },
+                    {
+                        "free_text": "erector pili muscle"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007314 Cross section of hair follicle.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 782
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "hematoxylin",
+                        "onto_id": "FBbi:00000041"
+                    },
+                    {
+                        "onto_name": "eosin",
+                        "onto_id": "FBbi:00000037"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "muscle cell",
+                        "onto_id": "CL:0000187"
+                    },
+                    {
+                        "onto_name": "hair follicle cell",
+                        "onto_id": "CL:0002559"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Light micrograph showing a cross section through a hair follicle. The hair shaft is made up of hard dead protein called keratin, which is observed in the center. This is surrounded by skin cells that have been packed together to form the hair follcle. The follicle is surrounded by two layers of cells including erector pili muscle, which causes the hair to stand on 'end'."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Kings College London"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Ivor Mason"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "EHDAA:hair shaft"
+                    },
+                    {
+                        "onto_id": "EHDAA:erector pili muscle"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39094",
+            "ARK": "ark:/b7295/w9cil39094",
+            "Title": "Ivor Mason (2012) CIL:39094, muscle cell, hair follicle cell. CIL. Dataset"
+        }
+    }
+}

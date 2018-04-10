@@ -1,0 +1,161 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "12600_orig.jpg",
+                    "Size": 202156
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12600.tif",
+                    "Size": 1000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12600.jpg",
+                    "Size": 196979
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12600.zip",
+                    "Size": 202294
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "critical_point dried specimen",
+                        "onto_id": "FBbi:00000581"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell",
+                        "onto_id": "GO:0005623"
+                    },
+                    {
+                        "onto_name": "cell surface",
+                        "onto_id": "GO:0009986"
+                    },
+                    {
+                        "onto_name": "lamellipodium",
+                        "onto_id": "GO:0030027"
+                    },
+                    {
+                        "free_text": "retraction fiber"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "migration"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.01
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 882,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.01
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron micrograph of a migratory mouse bone-marrow-derived fibroblast. This cell was found amidst a colony of NPC (Niemann-Pick Disease type C) mutant mouse mesenchymal stem cells isolated from the bone marrow. This sample was photographed at a magnification of 1,198x and an accelerating voltage of 10kV with a 12.7mm working distance. The cells were grown to confluence on Thermanox\u00ae coverslips and fixed with glutaraldehyde and osmium tetroxide, then critical point dried. This coverslip was imaged using an FEI Quanta 200 scanning electron microscope. Note the large lamellipodium and the long retraction fiber extending from the trailing edge of the cell. Scale bar = 10\u00b5m."
+                },
+                "CELLTYPE": {
+                    "free_text": "bone-marrow-derived fibroblast"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": ":882"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Mount Holyoke College"
+                    ],
+                    "Contributors": [
+                        "Anna Baccei",
+                        "Lamis Jarvinen",
+                        "Marian Rice"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": ":1024"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12600",
+            "ARK": "ark:/b7295/w9cil12600",
+            "Title": "Anna Baccei, Lamis Jarvinen, Marian Rice (2011) CIL:12600, Mus musculus, bone-marrow-derived fibroblast. CIL. Dataset"
+        }
+    }
+}

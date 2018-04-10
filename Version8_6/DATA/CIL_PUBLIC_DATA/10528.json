@@ -1,0 +1,154 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "10528.tif",
+                    "Size": 6400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "10528.jpg",
+                    "Size": 24755
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "10528.zip",
+                    "Size": 6300436
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "5578",
+                "IMAGINGMODE": {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                "CELLLINE": {
+                    "free_text": "toxoplasma gondii"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Toxoplasma gondii",
+                    "onto_id": "NCBITaxon:5811"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0711
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.0711
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 12,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.3
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "DIC image corresponding to image 10526 (raw) and image 10527 (deconvolved) of Toxoplama gondii stably expressing beta II tubulin. Image was collected with a 60X water immersion objective, 1.2 N.A. and detected with a Cool Snap HQ/ICX285 camera.  DIC image was collected after fluorescent images."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "PATHOLOGICALPROCESS": [
+                    {
+                        "onto_id": "DOID:DOID:9965"
+                    },
+                    {
+                        "onto_id": "IDO:IDO:0000038"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "John Murray",
+                        "Ke Hu"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "toxoplasmosis",
+                        "onto_id": "DOID:9965"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "charge coupled device (CCD)",
+                        "onto_id": "FBbi:00000294"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL10528",
+            "ARK": "ark:/b7295/w9cil10528",
+            "Title": "John Murray, Ke Hu (2011) CIL:10528, Toxoplasma gondii. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,202 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "26728.jpg",
+                    "Size": 2162262
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "26728.tif",
+                    "Size": 5800000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "26728.zip",
+                    "Size": 11738894
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                "GROUP_ID": "11651",
+                "IMAGINGMODE": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cytoplasm",
+                        "onto_id": "GO:0005737"
+                    },
+                    {
+                        "onto_name": "early endosome",
+                        "onto_id": "GO:0005769"
+                    },
+                    {
+                        "onto_name": "clathrin coat of endocytic vesicle",
+                        "onto_id": "GO:0030128"
+                    },
+                    {
+                        "onto_name": "coated pit",
+                        "onto_id": "GO:0005905"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "endosome organization",
+                        "onto_id": "GO:0007032"
+                    },
+                    {
+                        "onto_name": "cytoplasm organization",
+                        "onto_id": "GO:0007028"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "isolated subcellular component",
+                        "onto_id": "FBbi:00000579"
+                    }
+                ],
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Paramecium multimicronucleatum",
+                    "onto_id": "NCBITaxon:44030"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "elastic scattering of electrons",
+                        "onto_id": "FBbi:00000586"
+                    },
+                    {
+                        "onto_name": "electron density",
+                        "onto_id": "FBbi:00000315"
+                    },
+                    {
+                        "onto_name": "elevation",
+                        "onto_id": "FBbi:00000320"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2694
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2136
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "freeze_fracture/freeze_etch",
+                        "onto_id": "FBbi:00000419"
+                    },
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "film",
+                        "onto_id": "FBbi:00000303"
+                    },
+                    {
+                        "free_text": "Print of negative scanned for Photoshop"
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cell by organism",
+                        "onto_id": "CL:0000004"
+                    },
+                    {
+                        "onto_name": "eukaryotic cell",
+                        "onto_id": "CL:0000255"
+                    },
+                    {
+                        "free_text": "Eukaryotic Protist"
+                    },
+                    {
+                        "free_text": "Ciliated Protist"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Higher resolution of the area that shows the clathrin-coated cage near the peniculus and clathrin coated preendosomal and partially coated preendosomal vesicles. Early endosomes like the preendosomal vesicles have smooth E-fracture faces with few IMPs. TEM taken on 7/19/88 by C. Schroeder with Zeiss 10A operating at 80kV. Neg. 31,500X. Bar = 0.2\u00b5m. Adapted with permission from J. Cell Sci. A print of the negative was scanned and processed in Photoshop. This image is best used for qualitative analysis. A high resolution image (CIL:12637) is also available for spatial analysis. Additional information available at (http://www5.pbrc.hawaii.edu/allen/)."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J. Cell Sci. 101:449-461, 1992"
+                    ],
+                    "Contributors": [
+                        "Richard Allen (University of Hawaii)",
+                        "C. Schroeder"
+                    ],
+                    "PUBMED": [
+                        "1629255"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL26728",
+            "ARK": "ark:/b7295/w9cil26728",
+            "Title": "Richard Allen (University of Hawaii), C. Schroeder (2011) CIL:26728, Paramecium multimicronucleatum, cell by organism, eukaryotic cell, Eukaryotic Protist, Ciliated Protist. CIL. Dataset"
+        }
+    }
+}

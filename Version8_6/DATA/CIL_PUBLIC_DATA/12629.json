@@ -1,0 +1,123 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12629.tif",
+                    "Size": 5800000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "12629_orig.jpg",
+                    "Size": 1180380
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12629.zip",
+                    "Size": 1180518
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12629.jpg",
+                    "Size": 1166728
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "microtubule",
+                    "onto_id": "GO:0005874"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Images were deconvolved using Nikon Elements software."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1600
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1200
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "deconvolution"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Thick microtubule bundles are organized around the periphery of each stem cell in human embryonic stem cell colonies. Human embryonic fibroblasts were grown on a layer of mouse embryonic fibroblasts which provide nutrients and help maintain pluripotency of the colonies. The sample has been labeled with an antibody to tubulin  using standard protocols for immunolabeling."
+                },
+                "CELLTYPE": {
+                    "onto_name": "embryonic stem cell",
+                    "onto_id": "CL:0002322"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "UCR Stem Cell Center"
+                    ],
+                    "Contributors": [
+                        "Sabrina Lin"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12629",
+            "ARK": "ark:/b7295/w9cil12629",
+            "Title": "Sabrina Lin (2011) CIL:12629, Homo sapiens, embryonic stem cell. CIL. Dataset"
+        }
+    }
+}

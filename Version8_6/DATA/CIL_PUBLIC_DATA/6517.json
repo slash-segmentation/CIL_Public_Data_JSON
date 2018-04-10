@@ -1,0 +1,181 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "6517.tif",
+                    "Size": 1100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "6517.jpg",
+                    "Size": 507585
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "6517.zip",
+                    "Size": 2281726
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "heat fixed tissue",
+                        "onto_id": "FBbi:00000609"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "GROUP_ID": "1769",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "retina layer formation",
+                    "onto_id": "GO:0010842"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "ZEBRAFISH_ANATOMY": [
+                    {
+                        "onto_name": "retina",
+                        "onto_id": "ZFA:0000152"
+                    },
+                    {
+                        "onto_name": "retinal outer nuclear layer",
+                        "onto_id": "ZFA:0001464"
+                    },
+                    {
+                        "onto_name": "retinal outer plexiform layer",
+                        "onto_id": "ZFA:0001330"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.032
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.032
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    },
+                    {
+                        "onto_name": "copper salt",
+                        "onto_id": "FBbi:00000610"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "Outer plexiform layer of retina",
+                        "onto_id": "FMA:58685"
+                    },
+                    {
+                        "onto_name": "Outer nuclear layer of retina",
+                        "onto_id": "FMA:58684"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This study of the zebrafish eye is a series of four images taken at increasing magnifications.  The first image is the SEM block face of the zebrafish eye.  This is followed by this image, the second image, which is a higher magnification TEM image of the plexiform layer and the outer nuclear layer of the zebrafish retina.  The third image is a 15,000X TEM image of the bipolar and horizontal cells interdigitating in the OPL layer of the zebrafish retina. The fourth image in the series is a higher magnification (60,000X) of the dense synaptic bar and synaptic vesicles.  \n\nTEM image of larval zebrafish retina showing outer nuclear layer (ONL) and outer plexiform layer (OPL). Image collected on a JOEL 1230 at 80 kV using a Gatan 967 slow-scan, cooled CCD camera. 70 nm thick section.  \n\nMicrowave processing, osmium tetroxoxide/osmid procedure for enhancing membranes, and copper lead en bloc staining.\nProcedure for specimen preparation available at http://www.stanford.edu/~redhair/JoAnn_Buchanan."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.stanford.edu/~redhair/JoAnn_Buchanan/Zebrafish_Retina.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "JoAnn Buchanan (Stanford)"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "ZFA:ZFA:0000152"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFA:0001464"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFA:0001330"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL6517",
+            "ARK": "ark:/b7295/w9cil6517",
+            "Title": "JoAnn Buchanan (Stanford) (2010) CIL:6517, Danio rerio, Outer plexiform layer of retina, Outer nuclear layer of retina. CIL. Dataset"
+        }
+    }
+}

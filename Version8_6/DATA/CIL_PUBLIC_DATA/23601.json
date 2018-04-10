@@ -1,0 +1,172 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "23601.flv",
+                    "Size": 194142
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "23601.jpg",
+                    "Size": 3051
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "23601.zip",
+                    "Size": 262272
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "9244",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "spinning disk confocal microscopy",
+                        "onto_id": "FBbi:00000253"
+                    },
+                    {
+                        "onto_name": "time lapse microscopy",
+                        "onto_id": "FBbi:00000249"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "spindle pole body",
+                        "onto_id": "GO:0005816"
+                    },
+                    {
+                        "onto_name": "cytoplasmic microtubule",
+                        "onto_id": "GO:0005881"
+                    },
+                    {
+                        "onto_name": "outer plaque of spindle pole body",
+                        "onto_id": "GO:0005824"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "microtubule-based movement",
+                        "onto_id": "GO:0007018"
+                    },
+                    {
+                        "onto_name": "mitotic spindle organization",
+                        "onto_id": "GO:0007052"
+                    },
+                    {
+                        "onto_name": "cell division",
+                        "onto_id": "GO:0051301"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "free_text": "cnm67delta"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae S288c",
+                    "onto_id": "NCBITaxon:559292"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "S. cerevisiae (MATalpha cnm67delta::TRP1 ura3-52 lys2-801 leu2-delta1::GFP-TUB1::LEU2 his3-delta200 trp1-delta63) expressing GFP-tubulin (GFP-TUB1) were grown to midlog phase and mounted on agarose pads for microscopy. Images were captured on an Olympus Bmax-60F microscope equipped with a 1.35NA 100\u00d7 UPlanApo objective, spinning disc Confocal Scanner Unit (CSU10), Picarro Cyan laser (488 nm), and a Stanford Photonics XR-Mega10 ICCD camera, by using QED software (Media Cybernetics). Image analysis was performed by using ImageJ. Timelapse images were captured at 10-s intervals for 15 min and each image in the movie represents a composite of 9 planes separated by 500 nm."
+                },
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "GTPase activity",
+                        "onto_id": "GO:0003924"
+                    },
+                    {
+                        "onto_name": "structural constituent of cytoskeleton",
+                        "onto_id": "GO:0005200"
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 129
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 132
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "30",
+                            "value": 10
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "each frame is a composite of 9 planes"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Free microtubule sliding in cnm67delta mutant cells.  Movie plays at 50x real time and is movie S11. Compare with movie S12 (CIL# 23602). Data analysis for movies S11 and S12 in Figure S4B of Proc Natl Acad Sci. 2009. 106: 5147-5152."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Proc Natl Acad Sci. 2009. 106: 5147-5152."
+                    ],
+                    "Contributors": [
+                        "Jeffrey K. Moore",
+                        "David Sept",
+                        "John A. Cooper"
+                    ],
+                    "PUBMED": [
+                        "19279216"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL23601",
+            "ARK": "ark:/b7295/w9cil23601",
+            "Title": "Jeffrey K. Moore, David Sept, John A. Cooper (2011) CIL:23601, Saccharomyces cerevisiae S288c. CIL. Dataset"
+        }
+    }
+}

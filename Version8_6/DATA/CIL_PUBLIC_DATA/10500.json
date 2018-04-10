@@ -1,0 +1,180 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "10500.tif",
+                    "Size": 700000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "10500.zip",
+                    "Size": 679536
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "10500.jpg",
+                    "Size": 1583
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "5582",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "inner membrane complex",
+                        "onto_id": "GO:0070258"
+                    },
+                    {
+                        "onto_name": "centriole",
+                        "onto_id": "GO:0005814"
+                    },
+                    {
+                        "onto_name": "polar ring of apical complex",
+                        "onto_id": "GO:0020031"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "regulation of cell shape",
+                        "onto_id": "GO:0008360"
+                    },
+                    {
+                        "onto_name": "cell division",
+                        "onto_id": "GO:0051301"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "free_text": "Toxoplasma gondii RH stable cell line"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Toxoplasma gondii RH",
+                    "onto_id": "NCBITaxon:383379"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 128,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.1326
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 128,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.1326
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 10,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.3
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "mCherryFP",
+                        "onto_id": "FBbi:00000525"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "3D-deconvolution",
+                    "onto_id": "FBbi:00000357"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A monolayer of human foreskin fibroblast cells was infected with Toxoplasma gondii expressing EGFP-tagged TgCentrin2 and mCherry-tagged TgIMC1 (innermembrane complex scaffold protein). Images acquired using API DeltaVision on a Olympus IX70 inverted microscope. Objective: Olympus 100X oil immersion, 1.35 NA. Filters: EGFP, ex 450-490 em 500-540, mCherry, ex 555-592 em 600-665. Dichromatic mirror: Chroma 89021. Captured with CoolSnapHQ/ICX285. 3D Deconvolved stack corresponds to raw data stack: CIL# 10499.\nUnpublished image that is similar to images published in PMID: 16518471. See publication for other experimental details."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements;intensitiesquantitation"
+                },
+                "PATHOLOGICALPROCESS": [
+                    {
+                        "onto_id": "DOID:DOID:9965"
+                    },
+                    {
+                        "onto_id": "IDO:IDO:0000038"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "John Murray (University of Pennsylvania)",
+                        "Ke Hu (Indiana University, Bloomington)"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "toxoplasmosis",
+                        "onto_id": "DOID:9965"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "charge coupled device (CCD)",
+                        "onto_id": "FBbi:00000294"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL10500",
+            "ARK": "ark:/b7295/w9cil10500",
+            "Title": "John Murray (University of Pennsylvania), Ke Hu (Indiana University, Bloomington) (2011) CIL:10500, Toxoplasma gondii RH. CIL. Dataset"
+        }
+    }
+}

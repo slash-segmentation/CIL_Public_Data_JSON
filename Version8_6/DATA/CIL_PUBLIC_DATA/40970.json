@@ -1,0 +1,115 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40970.tif",
+                    "Size": 28600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40970.jpg",
+                    "Size": 2683697
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "oviposition",
+                    "onto_id": "GO:0018991"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in intrinsic optical density",
+                    "onto_id": "FBbi:00000602"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Pentatomoidea",
+                    "onto_id": "NCBITaxon:33358"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3571
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2665
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "CELLTYPE": {
+                    "onto_name": "egg",
+                    "onto_id": "CL:0000025"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Brightfield image of stink bug eggs.  Stink bugs are agricultural pests that exist  throughout the world and emit a characteristic foul-smelling odor when disturbed. Eggs are laid in clusters (averaging 36 eggs) primarily on leaves and stems but also on pods. Nymphs hatch from these eggs and pass through five instars before becoming adults. Approximately 5 weeks elapse between hatching and adult emergence. Sixth Prize, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Athens, Greece"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus  BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/6.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Haris Antonopoulos",
+                        "2011 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40970",
+            "ARK": "ark:/b7295/w9cil40970",
+            "Title": "Haris Antonopoulos, 2011 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:40970, Pentatomoidea, egg. CIL. Dataset"
+        }
+    }
+}

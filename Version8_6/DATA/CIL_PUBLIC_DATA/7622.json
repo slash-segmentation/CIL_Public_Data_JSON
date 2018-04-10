@@ -1,0 +1,191 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "7622.tif",
+                    "Size": 59000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7622.jpg",
+                    "Size": 4564559
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7622.zip",
+                    "Size": 58838802
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                "GROUP_ID": "10226",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    },
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "zonula adherens",
+                        "onto_id": "GO:0005915"
+                    },
+                    {
+                        "onto_name": "occluding junction",
+                        "onto_id": "GO:0070160"
+                    },
+                    {
+                        "onto_name": "clathrin-coated endocytic vesicle",
+                        "onto_id": "GO:0045334"
+                    },
+                    {
+                        "onto_name": "lysosome",
+                        "onto_id": "GO:0005764"
+                    },
+                    {
+                        "onto_name": "endosome",
+                        "onto_id": "GO:0005768"
+                    },
+                    {
+                        "onto_name": "brush border membrane",
+                        "onto_id": "GO:0031526"
+                    },
+                    {
+                        "onto_name": "microvillus",
+                        "onto_id": "GO:0005902"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    },
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus rattus",
+                    "onto_id": "NCBITaxon:10117"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "In this experiment, hemoglobin was used\nas a mass tracer. The rat received two injections, each of 1 gm of 2 X crystallized bovine hemoglobin in ~5 ml saline, administered intraperitoneally, the first at 24 and the last at 16 hours before collecting kidney specimens. Fixative was perfused into the aorta of the rat (2% osmium tetroxide buffered at pH 7.6 with acetate-veronal). Tissue blocks were stained by placing them for 30 minutes in 1 per cent phosphotungstic acid in absolute ethanol prior to infiltration and were embedded in Epon. Thin sections were stained with lead hydroxide. Micrograph was taken at original magnification of 50,000 X with a Siemens Elmiskop I, operating at 60 or 80 kv, with a double condenser, and a 50 \u00b5 objective aperture. Digitization process: conversion from a 1200 dpi tiff, 3832 x 3260 pixels. Original image created on June 11, 1962. Original resource provided as a 3.25 x 4 inch lantern slide. Research conducted at The Rockefeller Institute of Medical Research (New York, NY)."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4800,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 21.1667
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4084,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 21.1667
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "free_text": "phosphotungstic acid"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "digitized lantern slide"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Portion of a proximal convoluted tubule from a rat kidney with experimental hemoglobinuria. A mass of dense hemoglobin completely fills the tubule lumen and outlines the microvilli of the brush border. The penetration of hemoglobin along the intercellular spaces is blocked at the level of the tight junctions (also known as zonula occludens) and does not appear in the adherens junctions (also known as zonula adherens) or in the distended intercellular spaces below the level of the shallow tight junctions. Hemoglobin also has been internalized via large clathrin coated vesicles and appears in endosomes and lysosomes.First demonstration that the tight junction acts as a barrier preventing passage of proteins along the intercellular spaces by forming a seal between adjacent cells. First demonstration of the shallow nature of the tight junctions between epithelial cells in the proximal tubule. Identical labeled image available as CIL# 7623. Image published as Figure 24 in Farquhar and Palade, 1963."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "free_text": "rat kidney proximal tubule epithelial cell"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Farquhar and Palade. 1963",
+                            "Href": "http://www.jcb.org/cgi/reprint/17/2/375.pdf"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol 17: 375-412. 1963"
+                    ],
+                    "Contributors": [
+                        "Marilyn G. Farquhar (University of California, San Diego, CA)",
+                        "George E. Palade (University of California, San Diego, CA)"
+                    ],
+                    "PUBMED": [
+                        "13944428"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7622",
+            "ARK": "ark:/b7295/w9cil7622",
+            "Title": "Marilyn G. Farquhar (University of California, San Diego, CA), George E. Palade (University of California, San Diego, CA) (2011) CIL:7622, Rattus rattus, epithelial cell, rat kidney proximal tubule epithelial cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,78 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "46704.jpg",
+                    "Size": 271599
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "46704.tif",
+                    "Size": 3300000
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Electron microscopy, immmunocytochemistry on ultra thin section of LRWhite block, after 24 h fixation in buffered formal-calcium, followed by 1h 0.1% glutaraldehyde."
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "peroxisome",
+                        "onto_id": "GO:0005777"
+                    },
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "parenchymal cell",
+                    "onto_id": "CL:0000668"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Five peroxisomes in a liver parenchymal cell are labeled with gold particles for alanine glyoxylate aminotransferase. Several mitochondria are also shown that are unlabeled. Open spaces contained glycogen that was dissolved."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Marc Espeel",
+                        "Frank Roels"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "regulation of transferase activity",
+                    "onto_id": "GO:0051338"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL46704",
+            "ARK": "ark:/b7295/w9cil46704",
+            "Title": "Marc Espeel, Frank Roels (2014) CIL:46704, Homo sapiens, parenchymal cell. CIL. Dataset"
+        }
+    }
+}

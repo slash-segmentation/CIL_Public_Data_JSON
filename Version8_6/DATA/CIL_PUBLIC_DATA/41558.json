@@ -1,0 +1,126 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "41558_orig.jpg",
+                    "Size": 4915922
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41558.zip",
+                    "Size": 4916060
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41558.jpg",
+                    "Size": 1259039
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41558.tif",
+                    "Size": 29000000
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "bright-field microscopy",
+                        "onto_id": "FBbi:00000243"
+                    },
+                    {
+                        "free_text": "epi-illumination"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "polyp stage of life-cycle"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in intrinsic optical density",
+                    "onto_id": "FBbi:00000602"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Hydriomena",
+                    "onto_id": "NCBITaxon:104458"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3384
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2848
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "assembly of image stack"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Hydroid collected from kelp sample captured using epi-illumination and an image stack. Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Pembrokeshire, Wales, United Kingdom"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm7.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Mike Crutchley",
+                        "2011 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41558",
+            "ARK": "ark:/b7295/w9cil41558",
+            "Title": "Mike Crutchley, 2011 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41558, Hydriomena. CIL. Dataset"
+        }
+    }
+}

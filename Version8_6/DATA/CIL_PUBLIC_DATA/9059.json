@@ -1,0 +1,145 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9059.jpg",
+                    "Size": 76061
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9059.zip",
+                    "Size": 110022897
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "9059.tif",
+                    "Size": 110200000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "3782",
+                "IMAGINGMODE": {
+                    "onto_name": "polarization microscopy",
+                    "onto_id": "FBbi:00000248"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "spindle",
+                        "onto_id": "GO:0005819"
+                    },
+                    {
+                        "onto_name": "nuclear chromosome",
+                        "onto_id": "GO:0000228"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "spindle assembly involved in male meiosis II",
+                    "onto_id": "GO:0007055"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "intrinsic birefringence",
+                    "onto_id": "FBbi:00000594"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "Nephrotoma suturalis"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "UV/visible/IR photons",
+                    "onto_id": "FBbi:00000378"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 640,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 87
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 480,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 87
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "358",
+                            "value": 30
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "free_text": "relative retardation (retardance) measurement"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "5-frame algorithm"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The events of meiosis II in a living insect spermatocyte beginning at the completion of prophase II through the comletion of cytokinesis. Testes from the Crane fly Nephrotoma suturalis were observed with time-lapse polarization using a Nikon Microphot SA, equipped for liquid crystal polarized light microscopy (LC-PolScope, CRi, Woburn Massachusetts) 60x/1.4 PlanApo oil immersion objective, 1.4 NA oil imm. condenser, with 1.5x zoom lens. Image acquisition and processing Camera: Images captured every 30 sec over 3 hr by a Dage-MTI C300 video camera with Scion AG-5 frame grabber. A movie prepared from this stack of images is included in this grouped set."
+                },
+                "CELLTYPE": {
+                    "onto_name": "spermatocyte",
+                    "onto_id": "CL:0000017"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Rudolf Oldenbourg",
+                        "James R. LaFountain"
+                    ],
+                    "PUBMED": [
+                        "15385630",
+                        "12790452"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "free_text": "Processed image based on 5 recorded images"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9059",
+            "ARK": "ark:/b7295/w9cil9059",
+            "Title": "Rudolf Oldenbourg, James R. LaFountain (2010) CIL:9059, Nephrotoma suturalis, spermatocyte. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "238.zip",
+                    "Size": 574551
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "238_orig.jpg",
+                    "Size": 574421
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "238.tif",
+                    "Size": 5700000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "238.jpg",
+                    "Size": 340077
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "8976",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "cdc2"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "free_text": "differences in protein conformation"
+                },
+                "CELLLINE": {
+                    "free_text": "MEF"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See P. Nalbant et al 2004. Activation of endogenous Cdc42 visualized in living cells. Science 305:1615-1619."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1739
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1084
+                        }
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The image depicts a live neutrophil cell showing the level of activation of the signaling protein Cdc42, a member of the Rho family of small guanosine triphosphatase (GTPase) proteins which regulates multiple cell functions, including motility, proliferation, apoptosis, and cell morphology. Here, the fluorescence level is related to protein conformational changes and interactions, with warmer colors indicating higher levels of activation. Cdc42 appears to be activated at cell protrusions."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "NIGMS Image Gallery",
+                            "Href": "http://images.nigms.nih.gov/index.cfm?event=viewDetail&imageID=2453"
+                        }
+                    ],
+                    "Contributors": [
+                        "Klaus Hahn"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL238",
+            "ARK": "ark:/b7295/w9cil238",
+            "Title": "Klaus Hahn (2011) CIL:238, Mus musculus, fibroblast. CIL. Dataset"
+        }
+    }
+}

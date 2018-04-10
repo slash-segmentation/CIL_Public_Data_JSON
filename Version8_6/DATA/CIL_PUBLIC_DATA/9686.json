@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9686.zip",
+                    "Size": 21490016
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "9686.tif",
+                    "Size": 21400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9686.jpg",
+                    "Size": 482661
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "methanol fixed tissue",
+                    "onto_id": "FBbi:00000007"
+                },
+                "GROUP_ID": "7118",
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "spindle microtubule",
+                        "onto_id": "GO:0005876"
+                    },
+                    {
+                        "onto_name": "condensed chromosome",
+                        "onto_id": "GO:0000793"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "meiotic metaphase II",
+                    "onto_id": "GO:0007137"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Xenopus laevis",
+                    "onto_id": "NCBITaxon:8355"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3264,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.4341
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3264,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.4341
+                            }
+                        }
+                    },
+                    {
+                        "Wavelength": {
+                            "unit": "microns",
+                            "value": "488, 633"
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "YO-PRO-1",
+                        "onto_id": "FBbi:00000068"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 647",
+                        "onto_id": "FBbi:00000447"
+                    },
+                    {
+                        "onto_name": "labeled primary antibody",
+                        "onto_id": "FBbi:00000130"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Frog (Xenopus laevis) egg arrested in metaphase of mitosis. Note the tiny metaphase spindle on the top left of the egg. \n\nEggs were fixed in 90% MeOH; 10% (H20 500mM EGTA) and stained for DNA with YoPro1 (green) and tubulin (red) with antibody B-5-1-2 directly labeled with Alexa 647.  A single z slice was collected with a Zeiss LSM 710 using a 10 X 0.3NA objective.  Lasers were 488 (DNA stain) and 633 (Tubulin stain)."
+                },
+                "CELLTYPE": {
+                    "onto_id": "CL:0000254"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Martin Wuehr",
+                        "Timothy J. Mitchison"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9686",
+            "ARK": "ark:/b7295/w9cil9686",
+            "Title": "Martin Wuehr, Timothy J. Mitchison (2010) CIL:9686, Xenopus laevis. CIL. Dataset"
+        }
+    }
+}

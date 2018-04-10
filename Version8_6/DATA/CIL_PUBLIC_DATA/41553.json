@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41553.tif",
+                    "Size": 89800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41553.jpg",
+                    "Size": 9510410
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "41553_orig.jpg",
+                    "Size": 9815052
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41553.zip",
+                    "Size": 9815190
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "induction of apoptosis",
+                        "onto_id": "GO:0006917"
+                    },
+                    {
+                        "onto_name": "cellular response to nutrient levels",
+                        "onto_id": "GO:0031669"
+                    },
+                    {
+                        "free_text": "acid hydolysis"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                "CELLLINE": {
+                    "onto_name": "L1210",
+                    "onto_id": "MCC:0000277"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 6753
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4427
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "free_text": "scanned"
+                    },
+                    {
+                        "free_text": "enlarged"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Phase contrast image of serum arrested mouse L-1210 cells engaged in spontaneous apoptosis (programmed cell death) after nutrient depletion and acid hydrolysis. The image was taken at 40X, scanned, and then enlarged.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "CELLTYPE": {
+                    "free_text": "lymphocytic leukemia"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        " Jamestown, OH, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm1.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Frank Abernathy",
+                        "2011 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41553",
+            "ARK": "ark:/b7295/w9cil41553",
+            "Title": "Frank Abernathy, 2011 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41553, Mus musculus, lymphocytic leukemia. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,158 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41735.tif",
+                    "Size": 2500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41735.jpg",
+                    "Size": 163761
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41735.zip",
+                    "Size": 245323
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "confocal microscopy",
+                        "onto_id": "FBbi:00000251"
+                    },
+                    {
+                        "onto_name": "phase contrast microscopy",
+                        "onto_id": "FBbi:00000247"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "free_text": "epidermal growth factor"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "chemotaxis",
+                    "onto_id": "GO:0006935"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "differences in amount of elastic light scattering",
+                        "onto_id": "FBbi:00000600"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "MDA-MB-231",
+                    "onto_id": "MCC:0000313"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "elastic scattering of photons",
+                        "onto_id": "FBbi:00000587"
+                    }
+                ],
+                "TECHNICALDETAILS": {
+                    "free_text": "0008497.  2011 Collection: Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://images.wellcome.ac.uk/indexplus/page/Prices.html"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1476
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 550
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This confocal and phase contrast image depicts the chemotactic behaviour of MDA-MB-231 breast cancer cells. The nuclei are labelled blue and the mitochondria are labelled red.  The cells are squeezed into micro-scale channels to study large numbers of single cells migrating with varying concentrations of epidermal growth factor (EGF, shown in green) at the leading and trailing edge of the cell. The individual channels are 12 microns wide.  Wellcome Image Award 2012."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:0050671"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Koch Institute for Integrative Cancer Research, MIT"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/indexplus/image/B0008497.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Salil Dasai",
+                        "Sangeeta Bhatia",
+                        "Mehmet Toner",
+                        "Daniel Irimia"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_id": "DOID:0050671"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41735",
+            "ARK": "ark:/b7295/w9cil41735",
+            "Title": "Salil Dasai, Sangeeta Bhatia, Mehmet Toner, Daniel Irimia (2012) CIL:41735, Homo sapiens. CIL. Dataset"
+        }
+    }
+}

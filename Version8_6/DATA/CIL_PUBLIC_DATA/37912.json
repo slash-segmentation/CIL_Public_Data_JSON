@@ -1,0 +1,206 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "37912.tif",
+                    "Size": 135500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37912.jpg",
+                    "Size": 118834
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37912.zip",
+                    "Size": 135429115
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    }
+                ],
+                "GROUP_ID": "9650",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "single-spot confocal microscopy",
+                        "onto_id": "FBbi:00000252"
+                    },
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cortical actin cytoskeleton",
+                        "onto_id": "GO:0030864"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "apoptotic process",
+                        "onto_id": "GO:0006915"
+                    },
+                    {
+                        "onto_name": "actomyosin structure organization",
+                        "onto_id": "GO:0031032"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "compartmentalization of stain or label",
+                        "onto_id": "FBbi:00000604"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "HBE1",
+                    "onto_id": "MCC:0000177"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Cultured HBE monolayers were treated with 10 \u00b5M JTE-013 for 10 min. To induce apoptosis, monolayers were exposed to 1,200 \u00b5J/cm2 UV254 irradiation in a UV series II (Spectroline) and incubated for 2 h before fixation. Cells were fixed with 4% formaldehyde in PBS, permeabilized with 0.5% Triton, blocked and incubated with primary antibody for 1 h (50 \u00b5g/ml anti-S1P mAb (LPath Inc.)). Secondary antibody was Alexa Fluor 488 goat anti\u2013mouse IgG. Actin was detected with Alexa Fluor 568\u2013phalloidin (Invitrogen). DNA was detected with 5 \u00b5M DRAQ5 (Axxora). Confocal micrographs were obtained using a microscope (TCS SP5; Leica) with a 63x oil lens  with an electron-multiplied cooled CCD camera 1,000 x 1,000, 8 x 8 mm2 driven by the IQ software (Andor Technologies). ImageJ was used to stack confocal sections into Z series that were then color combined and reconstructed into 3D image using MetaMorph (GE Healthcare). All images were processed further using ImageJ, Photoshop (Adobe), Illustrator (Adobe), and Quicktime Pro (Quicktime) software. This Z-series corresponds to Fig 4E from J Cell Biol. 2011. 193(4): 667-676"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "protein binding",
+                    "onto_id": "GO:0005515"
+                },
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Alexa Fluor 488",
+                        "onto_id": "FBbi:00000440"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 568",
+                        "onto_id": "FBbi:00000442"
+                    },
+                    {
+                        "free_text": "DRAQ5"
+                    },
+                    {
+                        "onto_name": "phalloidin",
+                        "onto_id": "FBbi:00000100"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 43
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Apoptotic cells produce and transmit the bioactive lipid sphingosine-1-phosphate (S1P) during extrusion. In this confocal Z-series, an antagonist to the S1P receptor, S1P2, was used to plock signaling. High levels of S1P accumulate in the dying, unextruded cells but not in surrounding cells. The nucleus is in blue, the actin-myosin ring at the basolateral surface is in red and S1P is in green."
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/3451/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. 2011. 193(4): 667-676"
+                    ],
+                    "Contributors": [
+                        "Yapeng Gu",
+                        "Tetyana Forostyan",
+                        "Roger Sabbadini",
+                        "Jody Rosenblatt"
+                    ],
+                    "PUBMED": [
+                        "21555463"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": true,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37912",
+            "ARK": "ark:/b7295/w9cil37912",
+            "Title": "Yapeng Gu, Tetyana Forostyan, Roger Sabbadini, Jody Rosenblatt (2011) CIL:37912, Homo sapiens, epithelial cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,163 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37408.jpg",
+                    "Size": 28294
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "37408.flv",
+                    "Size": 1704703
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37408.zip",
+                    "Size": 3420288
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "9332",
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "anatomical structure morphogenesis",
+                    "onto_id": "GO:0009653"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                "ZEBRAFISH_ANATOMY": [
+                    {
+                        "onto_name": "tail bud",
+                        "onto_id": "ZFA:0000077"
+                    },
+                    {
+                        "onto_name": "axial hypoblast",
+                        "onto_id": "ZFA:0001378"
+                    },
+                    {
+                        "onto_name": "mesoderm",
+                        "onto_id": "ZFA:0000041"
+                    },
+                    {
+                        "free_text": "somatic furrows"
+                    },
+                    {
+                        "onto_name": "neuroectoderm",
+                        "onto_id": "ZFA:0001120"
+                    }
+                ],
+                "CELLLINE": {
+                    "onto_name": "Embryonic cell",
+                    "onto_id": "FMA:82840"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 320
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 240
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Zebrafish embryo at tailbud stage The sequence begins at the level of the axial hypoblast. The hypoblast has separated into paraxial and axial mesoderm. The axial mesoderm (chorda mesoderm) is the presumptive notochord. Chorda mesodermal cells intercalate in a medial-lateral fashion to form the notochord. The paraxial mesoderm become furrowed into pre-somitic segments. Additional somitic furrows form during the sequence. In the right hand portion of the image, cells in the neuroectoderm migrate towards the embryonic midline. These cells eventually are incorporated into the hindbrain rudiment.\nThis video made available by Mark Cooper thru Zebrafish - The Living Laboratory.  The videos in this group can also be found in the Developmental Landmarks page of the Fishscope web site."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Zebrafish - The Living Laboratory"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Fishscope",
+                            "Href": "http://depts.washington.edu/fishscop/Boss/pages/movie_pages/landmarks/landmarks.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Mark Cooper"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "ZFA:ZFA:0000077"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFA:0001378"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFA:0000041"
+                    },
+                    {
+                        "onto_id": "ZFA:somatic furrows"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFA:0001120"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37408",
+            "ARK": "ark:/b7295/w9cil37408",
+            "Title": "Mark Cooper (2011) CIL:37408, Danio rerio. CIL. Dataset"
+        }
+    }
+}

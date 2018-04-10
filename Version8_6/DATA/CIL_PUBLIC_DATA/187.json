@@ -1,0 +1,129 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "187.jpg",
+                    "Size": 1258576
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "187_orig.jpg",
+                    "Size": 2779653
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "187.tif",
+                    "Size": 38500000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "187.zip",
+                    "Size": 2779783
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "ethanol fixed tissue",
+                        "onto_id": "FBbi:00000006"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "cytoplasm"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "spermatogenesis",
+                    "onto_id": "GO:0007283"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See E. Arama et al. 2003 Caspase activity and a specific cytochrome C are required for sperm differentiation in Drosophila. Dev. Cell 4:687-697."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 3200
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4000
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "Tetramethyl rhodamine (TRITC)",
+                    "onto_id": "FBbi:00000454"
+                },
+                "CELLTYPE": {
+                    "onto_name": "spermatid",
+                    "onto_id": "CL:0000018"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The image shows a developing Drosophila spermatid immunostained for caspase activity (green). TRITC-phalloidin is used to label actin (red).  Caspase is required in spermiogenesis for the elimination of unwanted organelles and cytoplasm via apoptosis."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Hermann Steller"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL187",
+            "ARK": "ark:/b7295/w9cil187",
+            "Title": "Hermann Steller (2011) CIL:187, Drosophila melanogaster, spermatid. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,92 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "47952.zip",
+                    "Size": 5921694
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "47952.tif",
+                    "Size": 2900000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "47952.jpg",
+                    "Size": 1496582
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": {
+                    "free_text": "electron micrograph"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Testes from 15-day-old Sprague-Dawley rats (Sasco, Omaha Neb.) were dissociated in 0.1% trypsin and plated in NCTC-135 in Petri dishes containing cover slips. Cells on cover slips were fixed in 2.5% glutaraldehyde, 1% osmium tetroxide, stained en bloc with uranyl acetate, dehydrated and embedded in Araldite. Sections were taken parallel to the cover slip, stained with uranyl acetate and lead citrate and examined with a Philips 300 transmission electron microscope. Images were captured on film, printed onto photographic paper, digitized with a scanner and processed with Photoshop (Adobe)."
+                },
+                "GROUP_ID": "17253",
+                "IMAGINGMODE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1529
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1880
+                        }
+                    }
+                ],
+                "CELLTYPE": {
+                    "free_text": "testis cell"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This electron micrograph shows rat testis cells in primary culture. One cell has a primary cilium, which is poking into the adjacent cell. The plasma membrane of the second cell surrounds the cilium and has formed a coated pit directly across from the tip of the cilium. The basal body and tip of the cilium are shown at a higher magnification in accompanying micrographs."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Trends in Cell Biology",
+                            "Href": "http://www.sciencedirect.com/science/article/pii/S0962892414002190"
+                        }
+                    ],
+                    "Contributors": [
+                        "Dennis Diener"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL47952",
+            "ARK": "ark:/b7295/w9cil47952",
+            "Title": "Dennis Diener (2015) CIL:47952, Rattus, testis cell. CIL. Dataset"
+        }
+    }
+}

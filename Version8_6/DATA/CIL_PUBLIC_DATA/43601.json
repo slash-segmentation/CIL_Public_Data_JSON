@@ -1,0 +1,126 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "43601.tif",
+                    "Size": 12100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "43601.jpg",
+                    "Size": 1418967
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "tissue in wax embedment",
+                        "onto_id": "FBbi:00000019"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "immune response to tumor cell",
+                    "onto_id": "GO:0002418"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Stained sections were recorded with a CCD camera mounted on a Nikon Eclipse 80i light microscope using a 40x objective lens."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2296
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1744
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "hematoxylin",
+                        "onto_id": "FBbi:00000041"
+                    },
+                    {
+                        "onto_name": "eosin",
+                        "onto_id": "FBbi:00000037"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "lymphocyte",
+                    "onto_id": "CL:0000542"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Shown is a hematoxylin and eosin stained section through a plasmablastic lymphoma of the oral cavity in an HIV-positive adult male. There is a diffuse proliferation of large neoplastic cells most of which resemble B immunoblasts, plasmablasts or atypical plasma cells."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:526"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Gabriel Caponetti"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "Human immunodeficiency virus infectious disease",
+                        "onto_id": "DOID:526"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL43601",
+            "ARK": "ark:/b7295/w9cil43601",
+            "Title": "Gabriel Caponetti (2013) CIL:43601, Homo sapiens, lymphocyte. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,169 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12590.zip",
+                    "Size": 758442
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12590.jpg",
+                    "Size": 252112
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12590.tif",
+                    "Size": 800000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    }
+                ],
+                "GROUP_ID": "9976",
+                "IMAGINGMODE": {
+                    "onto_name": "illumination by electrons",
+                    "onto_id": "FBbi:00000273"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "pore complex",
+                        "onto_id": "GO:0046930"
+                    },
+                    {
+                        "onto_name": "plant-type cell wall",
+                        "onto_id": "GO:0009505"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "pathogenesis",
+                    "onto_id": "GO:0009405"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Spiroplasma kunkelii",
+                        "onto_id": "NCBITaxon:47834"
+                    },
+                    {
+                        "onto_name": "Zea mays",
+                        "onto_id": "NCBITaxon:4577"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Detailed methods: Tissue was processed for TEM by fixation in glutaraldehyde and osmium tetroxide, embedded in Spurr's medium. Thin sections were stained with uranyl acetate and lead citrate, and examined by a Philips-201 TEM (non-digital camera). Gold particles used in immunolabeling CSS were 10nm. Negatives were scanned later to generate these electronic files."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 958,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.226
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 765,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.226
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "gold",
+                        "onto_id": "FBbi:00000202"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Immuno-gold labeling of corn stunt spiroplasma (CSS, Spiroplasma kunkelii, Class Mollicutes) in sieve elements and other phloem cells of infected maize root tissue. In this image, CSS appears to be crossing a sieve pore in the phloem sieve plate. CIL:19128, from the same image group, is a labeled version of this image.  CSS is a wall-less procaryote that causes corn stunt disease and is biologically transmitted by some leafhopper species, e.g. Dalbulus maidis and D. gelbus (Hemiptera, Cicadellidae). Spiroplasma cells are limited by a unit membrane with no cell wall. They can be quasi-spherical, pleiomorphic or maintain a filamentous/spiral form. CSS multiplies in both plant and insect hosts and is transmitted with salivary secretions during feeding of the vector on new host plants. Related images by the same contributors are available in the Library."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "plant cell",
+                        "onto_id": "CL:0000610"
+                    },
+                    {
+                        "onto_id": "CL:0000399"
+                    },
+                    {
+                        "onto_name": "prokaryotic cell",
+                        "onto_id": "CL:0000520"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "El-Desouky Ammar",
+                        "Saskia A. Hogenhout"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12590",
+            "ARK": "ark:/b7295/w9cil12590",
+            "Title": "El-Desouky Ammar, Saskia A. Hogenhout (2011) CIL:12590, Spiroplasma kunkelii, Zea mays, plant cell, prokaryotic cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,124 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41912.tif",
+                    "Size": 24000000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41912.zip",
+                    "Size": 10028777
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "41912_orig.jpg",
+                    "Size": 10028639
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41912.jpg",
+                    "Size": 1908507
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Arabidopsis thaliana",
+                    "onto_id": "NCBITaxon:3702"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2930
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2732
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "free_text": "stomata"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "parenchymal cell",
+                        "onto_id": "CL:0000668"
+                    },
+                    {
+                        "onto_name": "epidermal cell",
+                        "onto_id": "CL:0000362"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Confocal micrograph of Arabidopsis thaliana (thale cress) seedling leaf with stomata (yellow mouth-like structures) and parenchyma cells. Confocal microscopy. Honorable Mention, 2009 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "University of Cambridge, Plant  Science Department, Cambridge, UK"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2009  Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2009/hm10.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Fern\u00e1n Federici",
+                        "2009  Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "respiratory gaseous exchange",
+                    "onto_id": "GO:0007585"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41912",
+            "ARK": "ark:/b7295/w9cil41912",
+            "Title": "Fern\u00e1n Federici, 2009  Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41912, Arabidopsis thaliana, parenchymal cell, epidermal cell. CIL. Dataset"
+        }
+    }
+}

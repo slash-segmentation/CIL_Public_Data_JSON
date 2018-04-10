@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9069.jpg",
+                    "Size": 94971
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "9069.tif",
+                    "Size": 1100000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9069.zip",
+                    "Size": 1149148
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "GROUP_ID": "3974",
+                "IMAGINGMODE": {
+                    "onto_name": "single-spot confocal microscopy",
+                    "onto_id": "FBbi:00000252"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "mitochondrial outer membrane",
+                        "onto_id": "GO:0005741"
+                    },
+                    {
+                        "free_text": "dynamin like protein"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "G1/S transition of mitotic cell cycle",
+                    "onto_id": "GO:0000082"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "Saos-2",
+                    "onto_id": "MCC:0000449"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.29
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.29
+                            }
+                        }
+                    },
+                    {
+                        "Wavelength": {
+                            "unit": "nanometers",
+                            "value": "488, 543"
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "onto_name": "unprocessed raw data",
+                        "onto_id": "FBbi:00000582"
+                    },
+                    {
+                        "free_text": "color combine"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Saos2 cell line immunostained with Tom20 (mitochondrial outer membrane protein, green) and DLP1 (dynamin like protein, red) antibody.  Cell population synchronized at G1-S transition of the cell cycle.  This Saos2 cell line was serum starved (0.1%) for 3 days and released in FCCP (10 mM) ) for 16 hours. The image is a single 3 micron confocal section collected on a Zeiss LSM 510 with the following parameters:  Green: Ex: 488 nm laser, Em: Band Pass 500-550nm, Red: 543 nm laser, Em: Long pass 560 nm."
+                },
+                "CELLTYPE": {
+                    "free_text": "osteosarcoma"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Kasturi Mitra"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9069",
+            "ARK": "ark:/b7295/w9cil9069",
+            "Title": "Kasturi Mitra (2011) CIL:9069, Homo sapiens, osteosarcoma. CIL. Dataset"
+        }
+    }
+}

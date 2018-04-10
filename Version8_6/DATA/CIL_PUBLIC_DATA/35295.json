@@ -1,0 +1,135 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35295.jpg",
+                    "Size": 71431
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35295.zip",
+                    "Size": 713950
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "35295.tif",
+                    "Size": 800000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "8805",
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "plant-type vacuole lumen",
+                        "onto_id": "GO:0000330"
+                    },
+                    {
+                        "onto_name": "endoplasmic reticulum",
+                        "onto_id": "GO:0005783"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "pollen tube growth",
+                    "onto_id": "GO:0009860"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Lilium formosanum",
+                    "onto_id": "NCBITaxon:63788"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Living lily pollen tubes were labeled and then imaged with a Zeiss 510 meta confocal microscope using a 63x 1.4 NA objective lens. Green and red signals from a central plane through the tube were merged to generate the image.\nSee Lovy-Wheeler et al. 2007 Cell Motil Cytoskel 64:217-321."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 983
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 242
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "free_text": "carboxy-DCFDA"
+                    },
+                    {
+                        "onto_name": "Tetramethyl rhodamine (TRITC)",
+                        "onto_id": "FBbi:00000454"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "merged confocal slices"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Living Lilium pollen tube labeled with carboxy-dichlorofluorofluorescein (green) to mark the vacuole and cytochalasin D TMR to mark endoplasmic reticulum (red) imaged using laser scanning focal microscopy. Shown is a central 1.0 micron thick  x-y slice. The growing tip is devoid of both organelles. Other images in the group reveal the distributions of additional cytoplasmic components."
+                },
+                "CELLTYPE": {
+                    "free_text": "pollen tube"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Alenka Lovy-Wheeler",
+                        "Luis Cardenas",
+                        "Joseph Kunkel",
+                        "Peter K Hepler"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "photomultiplier tube (PMT)",
+                    "onto_id": "FBbi:00000295"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35295",
+            "ARK": "ark:/b7295/w9cil35295",
+            "Title": "Alenka Lovy-Wheeler, Luis Cardenas, Joseph Kunkel, Peter K Hepler (2011) CIL:35295, Lilium formosanum, pollen tube. CIL. Dataset"
+        }
+    }
+}

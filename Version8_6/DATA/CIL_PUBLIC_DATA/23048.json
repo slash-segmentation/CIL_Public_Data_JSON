@@ -1,0 +1,160 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "23048.tif",
+                    "Size": 13200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "23048.zip",
+                    "Size": 13123154
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "23048.jpg",
+                    "Size": 4162434
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "free_text": "tannic acid"
+                    },
+                    {
+                        "onto_name": "critical_point dried specimen",
+                        "onto_id": "FBbi:00000581"
+                    }
+                ],
+                "GROUP_ID": "8924",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "tyr-tubulin"
+                    },
+                    {
+                        "onto_name": "microtubule",
+                        "onto_id": "GO:0005874"
+                    },
+                    {
+                        "free_text": "plectin"
+                    },
+                    {
+                        "onto_name": "intermediate filament",
+                        "onto_id": "GO:0005882"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "gelsolin treatment"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "platinum replica"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "CELLLINE": {
+                    "free_text": "REF-52"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4241
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3090
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "shadowing and plating",
+                        "onto_id": "FBbi:00000398"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "free_text": "immunogold"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Association of plectin with MTs. Electron microscopy\nof gelsolin-treated REF-52 cells after immunogold (10 nm) labeling for Tyr-tubulin. Plectin forms bridges between microtubules (MTs) and intermediate filaments (IFs). MTs composed predominantly of Tyr-tubulin  interact with IFs via plectin. Electron microscopy of cytoskeletons was performed as described (Svitkina et al., 1995). Briefly, cells on coverslips were lysed as for light microscopy, treated, with recombinant gelsolin NHz-terminal domain, fixed with glutaraldehyde, tannic acid and uranyl acetate, critical point dried, and coated with platinum and carbon.  Image corresponds to Fig 5b from J Cell Biol. 1996 Nov;135(4):991-1007."
+                },
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Biol. 1996 Nov;135(4):991-1007"
+                    ],
+                    "Contributors": [
+                        "Tatyana M. Svitkina",
+                        "Alexander B. Verkhovsky,",
+                        "Gary G. Borisy"
+                    ],
+                    "PUBMED": [
+                        "8922382"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL23048",
+            "ARK": "ark:/b7295/w9cil23048",
+            "Title": "Tatyana M. Svitkina, Alexander B. Verkhovsky,, Gary G. Borisy (2011) CIL:23048, Rattus, fibroblast. CIL. Dataset"
+        }
+    }
+}

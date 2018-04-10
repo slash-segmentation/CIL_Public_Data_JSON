@@ -1,0 +1,166 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13471.tif",
+                    "Size": 1300000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13471.jpg",
+                    "Size": 330371
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13471.zip",
+                    "Size": 1217442
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "GROUP_ID": "6022",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "early endosome",
+                        "onto_id": "GO:0005769"
+                    },
+                    {
+                        "onto_name": "late endosome",
+                        "onto_id": "GO:0005770"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "endocytosis",
+                    "onto_id": "GO:0006897"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1184
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;intensitiesquantitation"
+                },
+                "CELLTYPE": {
+                    "onto_name": "garland cell",
+                    "onto_id": "CL:0000486"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of Drosophila nephrocyte garland cell. Wild-type garland cells display extensive tubulo-vesicular and vacuolar profiles of endosomal compartments, including electron-lucent alpha vacuoles akin to early endosomes in the cell cortex, and electron-dense beta vacuoles that represent late endosomes more centrally.  The largest vacuoles in wild type are 2 microns in diameter and all vacuoles contain a single aggregate of electron-dense granular material that appears to be attached to the limiting membrane. Samples for TEM were fixed for 1 h at 4\u00b0C in 2% paraformaldehyde, 2% glutaraldehyde, and 1% tannic acid in 0.1 M cacodylic acid buffer, pH 7.2. Then, the samples were postfixed in 1% OsO4 in 0.1 M cacodylic acid buffer, pH 7.2, for 1 h at room temperature, stained en bloc with 1% uranyl acetate, dehydrated in a grade series of ethanol and propylene oxide, and embedded in epon resin (Electron Microscopy Sciences). Blocks were sectioned in an ultramicrotome (RMC Products) at \u223c70-nm thickness with a Delaware Diamond knife and post-stained for 1 h in Reynolds lead citrate and uranyl acetate. Electron micrographs were taken on a transmission electron microscope (H-7500; Hitachi) using an AMT camera system. Mag: 15000x. Image corresponds to Figure 2C, left WT panel in Kim et al.  J Cell Biol. 188: 717-734. 2010. This is a high magnification view of the region in CIL# 13470."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://jcb-dataviewer.rupress.org/jcb/browse/2252/"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "J Cell Biol. 188: 717-734. 2010"
+                    ],
+                    "Contributors": [
+                        "Sungsu Kim",
+                        "Yogesh P. Wairkar",
+                        "Richard W. Daniels",
+                        "Aaron DiAntonio"
+                    ],
+                    "PUBMED": [
+                        "PMID: 20194640"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "charge coupled device (CCD)",
+                        "onto_id": "FBbi:00000294"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13471",
+            "ARK": "ark:/b7295/w9cil13471",
+            "Title": "Sungsu Kim, Yogesh P. Wairkar, Richard W. Daniels, Aaron DiAntonio (2011) CIL:13471, Drosophila melanogaster, garland cell. CIL. Dataset"
+        }
+    }
+}

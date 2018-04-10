@@ -1,0 +1,200 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "24045.flv",
+                    "Size": 695699
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "24045.jpg",
+                    "Size": 21702
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "24045.zip",
+                    "Size": 1810560
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "8580",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "phase contrast microscopy",
+                        "onto_id": "FBbi:00000247"
+                    },
+                    {
+                        "onto_name": "time lapse microscopy",
+                        "onto_id": "FBbi:00000249"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "intracellular",
+                    "onto_id": "GO:0005622"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "response to electrical stimulus",
+                        "onto_id": "GO:0051602"
+                    },
+                    {
+                        "onto_name": "ameboidal cell migration",
+                        "onto_id": "GO:0001667"
+                    },
+                    {
+                        "onto_name": "regulation of small GTPase mediated signal transduction",
+                        "onto_id": "GO:0051056"
+                    },
+                    {
+                        "onto_name": "regulation of chemotaxis",
+                        "onto_id": "GO:0050920"
+                    },
+                    {
+                        "onto_name": "protein phosphorylation",
+                        "onto_id": "GO:0006468"
+                    },
+                    {
+                        "onto_name": "cell-substrate adhesion",
+                        "onto_id": "GO:0031589"
+                    },
+                    {
+                        "onto_name": "phosphatidylinositol-mediated signaling",
+                        "onto_id": "GO:0048015"
+                    },
+                    {
+                        "onto_name": "phosphatidylinositol phosphorylation",
+                        "onto_id": "GO:0046854"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                "CELLLINE": {
+                    "free_text": "AX3-gbpC-null"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Dictyostelium discoideum AX2",
+                    "onto_id": "NCBITaxon:366501"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Starved cells were suspended in buffer containing 10 mM Na/K PO4, 2 mM MgSO4, and 0.2 mM CaCl2, (pH 6.5) and 4 mM caffeine to inhibit adenylyl cyclase activity (which also reduced cell\u2013cell interactions). A chamber was constructed to allow application of a direct-current electric field (Sato et al. 2007. BioSystems). The cells in the chamber were observed with an Olympus IX-71 inverted microscope with phase contrast optics. Cell behavior was recorded with a cooled CCD camera (MicroMax; Princeton Instruments) and software (MetaMorph; Molecular Devices)."
+                },
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "guanyl-nucleotide exchange factor activity",
+                        "onto_id": "GO:0005085"
+                    },
+                    {
+                        "onto_name": "protein kinase activity",
+                        "onto_id": "GO:0004672"
+                    },
+                    {
+                        "onto_name": "ATP binding",
+                        "onto_id": "GO:0005524"
+                    },
+                    {
+                        "onto_name": "cGMP binding",
+                        "onto_id": "GO:0030553"
+                    },
+                    {
+                        "onto_name": "inositol or phosphatidylinositol kinase activity",
+                        "onto_id": "GO:0004428"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 452
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 240
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "242",
+                            "value": 5
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Starved Dictyostelium cells lacking cGMP-binding protein C (gbpC-; no guanylyl cyclase activity) and in medium supplemented with 60 \u00b5M LY294002 (a PI3K inhibitor) and 1\u00b5M cAMP migrate toward the anode (right). A direct-current electric field of 10 Vpcm was applied and the cells were observed for 20 min at 5-sec intervals.  (Scale bar, 50 \u00b5m.) In contrast, cathode-directed migration is strongly attenuated in wild-type cells in the same medium. Compare with wild-type control video (CIL# 24043) and other mutants lacking guanylyl cyclase activity (CIL#24044 and 24046). Videos are supporting information in Proc Natl Acad Sci (2009). 106: 6667-6672."
+                },
+                "CELLTYPE": {
+                    "onto_name": "amoeboid cell",
+                    "onto_id": "CL:0000732"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Proc Natl Acad Sci (2009). 106: 6667-6672."
+                    ],
+                    "Contributors": [
+                        "Masayuki J. Sato",
+                        "Hidekazu Kuwayama",
+                        "Wouter N. van Egmond",
+                        "Airi L. K. Takayama",
+                        "Hiroaki Takagi",
+                        "Peter J. M. van Haastert",
+                        "Toshio Yanagida",
+                        "Masahiro Ueda"
+                    ],
+                    "PUBMED": [
+                        "19346484"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL24045",
+            "ARK": "ark:/b7295/w9cil24045",
+            "Title": "Masayuki J. Sato, Hidekazu Kuwayama, Wouter N. van Egmond, Airi L. K. Takayama, Hiroaki Takagi, Peter J. M. van Haastert, Toshio Yanagida, Masahiro Ueda (2011) CIL:24045, Dictyostelium discoideum AX2, amoeboid cell. CIL. Dataset"
+        }
+    }
+}

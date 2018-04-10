@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7591.jpg",
+                    "Size": 4229451
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "7591.tif",
+                    "Size": 60900000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7591.zip",
+                    "Size": 60755342
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "osmium tetroxide fixed tissue",
+                    "onto_id": "FBbi:00000012"
+                },
+                "GROUP_ID": "10222",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    },
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "glycogen granule",
+                    "onto_id": "GO:0042587"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "glycogen biosynthetic process",
+                    "onto_id": "GO:0005978"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    },
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "multicellular organismal polysaccharide metabolic process",
+                    "onto_id": "GO:0044263"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4800,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.817
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4217,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.817
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "detection of electrons",
+                    "onto_id": "FBbi:00000375"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This section of liver from newborn rat shows glycogen  deposits that are especially abundant in rat liver at this developmental stage. Deposits of glycogen, the storage form of glucose, are abundant in rat liver cells especially in regions rich in smooth endoplasmic reticulum. The glycogen deposits consist of rosettes of alpha particles representing aggregates of individual beta particles. Mitochondria and a single peroxisome are interspersed in this area located near the sinusoidal membrane of the hepatocyte. A crystalline core of urate oxidase is present within the peroxisome. Also visible is the cell membrane. Images from this study were the first electron microscopic description of glycogen deposits.   This image is part of a set of two;  both images are identical, but on one of the twins, organelles are labeled by name. \n\nSmall blocks of liver tissue were fixed in 2% glutaraldehyde in 0.1 M phosphate buffer, pH 7.4 for 3 hours at 0 degrees C and postfixed in 1% osmium tetroxide in the same buffer for 15 hours at 0 degrees C. The tissue was dehydrated and embedded in Epon. Sections were stained for 1 minute with alkaline lead citrate for 5 minutes.\n\nDallner G, Siekevitz P, Palade GE. Biogenesis of the endoplasmic reticulum membranes. J Cell Biol. 1966;30:73-96. (This micrograph is from this study. Although the image does not appear in the published paper, it is similar to Fig. 2.) \n\nOriginal resource, created on January 4, 1963, was provided as a 3.25 x 4 inch lantern slide by George E. Palade; original is in the Palade Collection, University of California, San Diego.  Digitization process: Lantern slide scanned at 1200 dpi in TIFF format, labeled in Photoshop then reduced to 600 dpi TIFF file (3500 x 3075 pixels) prior to conversion to JPEG2000 format."
+                },
+                "CELLTYPE": {
+                    "onto_name": "hepatocyte",
+                    "onto_id": "CL:0000182"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "George E. Palade"
+                    ],
+                    "PUBMED": [
+                        "4381698"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7591",
+            "ARK": "ark:/b7295/w9cil7591",
+            "Title": "George E. Palade (2011) CIL:7591, Rattus, hepatocyte. CIL. Dataset"
+        }
+    }
+}

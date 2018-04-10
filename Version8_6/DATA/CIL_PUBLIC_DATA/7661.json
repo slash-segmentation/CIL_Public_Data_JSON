@@ -1,0 +1,182 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7661.zip",
+                    "Size": 6365308
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7661.jpg",
+                    "Size": 63753
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "7661.flv",
+                    "Size": 5191341
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    }
+                ],
+                "GROUP_ID": "2884",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "free_text": "tomogram"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "rod spherule",
+                        "onto_id": "GO:0044317"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "CELLLINE": [
+                    {
+                        "onto_name": "Cone pedicle",
+                        "onto_id": "FMA:62242"
+                    },
+                    {
+                        "onto_name": "Mitochondrial crista",
+                        "onto_id": "FMA:66971"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 448,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.19
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 500,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.19
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 2.2
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "free_text": "Xvoxtrace"
+                    },
+                    {
+                        "free_text": "Amira"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Movie comprised of 5 sequential clips showing the three-dimensional details of cone pedicle mitochondria generated using electron tomography. Pedicles averaged five medium-sized mitochondria clustered far from the active zones.\nClip 1: A rapid sequence through 171 2.2 nm-thick slices of the tomographic volume of a cone pedicle shown in the upper portion and sitting on a rod spherule. \nClip2: Segmentation of the largest mitochondrion overlaid on the volume. All 177 cristae of various colors are shown inside the outer membrane made translucent to visualize the cristae. \nClip3: Rotation of the side view of the segmented volume. About 15% of the volume is occupied by cristae. \nClip4: Rotation showing only 10 cristae to emphasize the variety in shapes and sizes. Most of the cristae are tubular. However, some cristae possess lamellar compartments. \nClip5: Rotation of the side view of the inner membrane of the segmented volume displayed with left lighting. Crista junction openings are invariably narrow and rather uniform in diameter. Two of the crista junction openings are labeled for reference. \n\nMitochondria in spherules and pedicles differ markedly in their number, cellular location, volume, cristae surface area and volume, and crista junction diameter indicating that ATP demand and mitochondrial ATP production are greater in pedicles than spherules.  The term 'crista junction' was first used in 1997 by Perkins, et al. The term describes the narrow, tubular cristae openings to the intermembrane space observed previously by Carmen Mannella and afterwards by numerous researchers that changed the paradigm of cristae architecture.\tCrista junctions have been found in all healthy mitochondria that have been examined to date. They have been studied in numerous species, including mammals, birds and lower eukaryotes, such as yeast and neurospora crassa. A number of perturbations, e.g. osmotic swelling, blocking protein import into mitochondria, or certain disease models, have been shown to eliminate crista junctions. Functionally, crista junctions play a role in the release of cytochrome c from mitochondria during apoptosis. In addition, it has been proposed that they regulate the distribution of proteins, lipids and soluble metabolites between mitochondrial subcompartments. \n\nElectron tomography on a 400 kV electron microscope was used to generate the pedicle volumes. The program Analyze allowed for volume visualization. Volume segmentation was performed using Xvoxtrace. The movie was created with Amira."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Guy A. Perkins",
+                        "Patrick H. Poquiz",
+                        "Mark H. Ellisman",
+                        "Donald A. Fox"
+                    ],
+                    "PUBMED": [
+                        "16120425",
+                        "12540825",
+                        "17653034",
+                        "9441927",
+                        "18620004",
+                        "12632036"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "portrayed image",
+                        "onto_id": "FBbi:00000266"
+                    },
+                    {
+                        "onto_name": "computer graphic",
+                        "onto_id": "FBbi:00000224"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7661",
+            "ARK": "ark:/b7295/w9cil7661",
+            "Title": "Guy A. Perkins, Patrick H. Poquiz, Mark H. Ellisman, Donald A. Fox (2010) CIL:7661, Mus musculus. CIL. Dataset"
+        }
+    }
+}

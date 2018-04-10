@@ -1,0 +1,160 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41577.zip",
+                    "Size": 22849930
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41577.tif",
+                    "Size": 22900000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41577.jpg",
+                    "Size": 4779809
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    }
+                ],
+                "GROUP_ID": "12002",
+                "IMAGINGMODE": {
+                    "onto_id": "FBbi:00000622"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nuclear chromosome",
+                        "onto_id": "GO:0000228"
+                    },
+                    {
+                        "onto_name": "kinetochore",
+                        "onto_id": "GO:0000776"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "chromosome organization",
+                        "onto_id": "GO:0051276"
+                    },
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    },
+                    {
+                        "onto_name": "mitotic metaphase",
+                        "onto_id": "GO:0000089"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "CELLLINE": {
+                    "free_text": "CHO"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cricetulus griseus",
+                    "onto_id": "NCBITaxon:10029"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "CHO cells at metaphase were treated with 50% D2O, fixed with glutaraldehyde, embedded in epoxy resin and 0.5 micrometer 'thick' sections stained with uranyl acetate and lead citrate for HVEM observation.\nSee also:\nH. Ris 1981 Stereoscopic electron microscopy of chromosomes. Meth Cell Biol 22:77-96\nH. Ris 1978 Preparation of chromatin and chromosomes for electron microscopy. Meth Cell Biol 18:220-246."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2713,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 4210,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "High voltage (1MeV) transmission electron microscopy image of a 0.5 micrometer section through a Chinese hamster ovary cell at metaphase showing a chromatid pair, with kinetochores at the centromere. The image was taken with a specimen tilt of 73 degrees and is one of a group of 5 tilts from 73 degrees to 33 degrees at 10 degree intervals. Pairs of images provide oblique stereo views of the chromosome."
+                },
+                "CELLTYPE": {
+                    "onto_name": "epithelial cell",
+                    "onto_id": "CL:0000066"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "DATE": [
+                        "07/02/1977"
+                    ],
+                    "Contributors": [
+                        "Hans Ris"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41577",
+            "ARK": "ark:/b7295/w9cil41577",
+            "Title": "Hans Ris (2012) CIL:41577, Cricetulus griseus, epithelial cell. CIL. Dataset"
+        }
+    }
+}

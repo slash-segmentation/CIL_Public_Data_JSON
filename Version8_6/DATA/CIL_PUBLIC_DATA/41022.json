@@ -1,0 +1,127 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41022.tif",
+                    "Size": 9500000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41022.jpg",
+                    "Size": 790551
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41022.zip",
+                    "Size": 5596022
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "neuron projection",
+                    "onto_id": "GO:0043005"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2048
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1536
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Yellow fluorescent proteins from Aequorea",
+                        "onto_id": "FBbi:00000439"
+                    },
+                    {
+                        "onto_name": "Cyan fluorescent proteins from Aequorea",
+                        "onto_id": "FBbi:00000436"
+                    },
+                    {
+                        "onto_name": "Red fluorescent proteins from Anthozoa",
+                        "onto_id": "FBbi:00000483"
+                    }
+                ],
+                "CELLTYPE": {
+                    "onto_name": "sensory neuron",
+                    "onto_id": "CL:0000101"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Sensory axons (long, slender nerve fibers) covering the tail of a 3- day-old larval zebrafish. This \"Brainbow\" image was collected using confocal microscopy. In the Brainbow technique (Nature, 2007), cells randomly choose combinations of red, yellow and cyan fluorescent proteins, so that they each glow a particular color. This provides a way to distinguish neighboring cells of the nervous system and follow their pathways.  Seventh Prize, 2009 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Harvard University, Cambridge, MA, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2009 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2009/7.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Albert Pan",
+                        "2009 Olympus BioScapes Digital Imaging Competition"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41022",
+            "ARK": "ark:/b7295/w9cil41022",
+            "Title": "Albert Pan, 2009 Olympus BioScapes Digital Imaging Competition (2012) CIL:41022, Danio rerio, sensory neuron. CIL. Dataset"
+        }
+    }
+}

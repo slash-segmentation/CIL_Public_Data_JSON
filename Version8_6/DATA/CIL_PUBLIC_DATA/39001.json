@@ -1,0 +1,142 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39001.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39001_orig.jpg",
+                    "Size": 130270
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39001.zip",
+                    "Size": 130408
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39001.jpg",
+                    "Size": 60164
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "neuron projection",
+                        "onto_id": "GO:0043005"
+                    },
+                    {
+                        "onto_name": "neuronal cell body",
+                        "onto_id": "GO:0043025"
+                    },
+                    {
+                        "onto_name": "extracellular matrix",
+                        "onto_id": "GO:0031012"
+                    },
+                    {
+                        "free_text": "Growth Associated Protein (GAP) 43"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "negative chemotaxis",
+                    "onto_id": "GO:0050919"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of epitope",
+                        "onto_id": "FBbi:00000592"
+                    },
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    }
+                ],
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0001893 Chemorepulsion of DRG sensory neuron.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 772
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "sensory neuron",
+                    "onto_id": "CL:0000101"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Sensory neuron from an adult dorsal root ganglion immunostained for Growth Associated Protein (GAP43) shown in red. Neurites are growing in between stripes containing the EphrinA5 protein (green). When the cell processes come into contact with this protein they are repelled and therefore grow along between the stripes. The effects of the Ephrin molecules are mediated through a family of tyrosine kinase receptors and are important in providing repulsive signals during the development of the nervous system"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Isabella Gavazzi"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39001",
+            "ARK": "ark:/b7295/w9cil39001",
+            "Title": "Isabella Gavazzi (2011) CIL:39001, sensory neuron. CIL. Dataset"
+        }
+    }
+}

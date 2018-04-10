@@ -1,0 +1,131 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "170.jpg",
+                    "Size": 24443
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "170.tif",
+                    "Size": 500000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "170_orig.jpg",
+                    "Size": 67867
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "170.zip",
+                    "Size": 67997
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "free_text": "Chromosome spread"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nuclear chromosome",
+                    "onto_id": "GO:0000228"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "chromosome translocation"
+                    },
+                    {
+                        "onto_name": "mitotic metaphase",
+                        "onto_id": "GO:0000089"
+                    }
+                ],
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific nucleic acid sequence",
+                    "onto_id": "FBbi:00000596"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 395
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 351
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "free_text": "Multicolor FISH"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Example of human chromosome labeling and identification using multi-color fluorescence in situ hybridization (FISH) with probes specific for the DNA of individual chromosomes.  Using this chromosome paining technique, each chromosome can be given a unique color.  Shown are chromosomes from a patient with Werner Syndrome in which a genetic abnormality is seen in the central maroon-colored chromosome with a segment translocated from another chromosome - seen as the gold tip."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:5688"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "BioMedical Beat",
+                            "Href": "http://publications.nigms.nih.gov/biobeat/gallery/ColorChromo.htm"
+                        }
+                    ],
+                    "Contributors": [
+                        "Anna Jauch"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "Werner syndrome",
+                        "onto_id": "DOID:5688"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL170",
+            "ARK": "ark:/b7295/w9cil170",
+            "Title": "Anna Jauch (2011) CIL:170, Homo sapiens. CIL. Dataset"
+        }
+    }
+}

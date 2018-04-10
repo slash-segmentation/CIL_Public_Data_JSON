@@ -1,0 +1,146 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39064.jpg",
+                    "Size": 204158
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39064.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39064.zip",
+                    "Size": 385572
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39064_orig.jpg",
+                    "Size": 385434
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "modes of light microscopy",
+                    "onto_id": "FBbi:00000345"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "fibrillar collagen",
+                    "onto_id": "GO:0005583"
+                },
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "free_text": "dermis"
+                    },
+                    {
+                        "free_text": "sebaceus glands"
+                    },
+                    {
+                        "free_text": "adipose tissue"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "free_text": "scalp dermis organization"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007564 Scalp.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 560
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "hair follicle cell",
+                        "onto_id": "CL:0002559"
+                    },
+                    {
+                        "onto_name": "sweat secreting cell",
+                        "onto_id": "CL:0000318"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Light micrograph of a section cut through the dermis of the scalp. The dermis is the lower (or innermost) layer of the that makes up the skin; the other layer is the epidermis. The dermis contains hair follicles, sweat glands, sebaceous glands, blood vessels and lymph vessels. The section is cut tangentially in a plane +/- parallel to the skin surface. Hair follicles (blue and bright red circles) are seen in transverse sections on the left hand side, sebaceous glands are shown as pink masses ,and groups of sweat ducts are seen as patches of small dark blue circles, all of which are embedded in a matrix of blue collagen fibers. The right hand side is dominated by adipose tissue (fat), as white spaces among which are scattered hair follicles and groups of sweat glands."
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "EHDAA:dermis"
+                    },
+                    {
+                        "onto_id": "EHDAA:sebaceus glands"
+                    },
+                    {
+                        "onto_id": "EHDAA:adipose tissue"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Spike Walker"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39064",
+            "ARK": "ark:/b7295/w9cil39064",
+            "Title": "Spike Walker (2012) CIL:39064, hair follicle cell, sweat secreting cell. CIL. Dataset"
+        }
+    }
+}

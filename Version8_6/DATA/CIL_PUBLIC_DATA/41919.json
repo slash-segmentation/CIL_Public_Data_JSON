@@ -1,0 +1,110 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41919.zip",
+                    "Size": 13100682
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41919.tif",
+                    "Size": 13200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41919.jpg",
+                    "Size": 1742878
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "triceratops"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "retardance",
+                    "onto_id": "FBbi:00000313"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "polarized light illumination",
+                    "onto_id": "FBbi:00000350"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2560
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1704
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Polarized light micrograph of Triceratops dinosaur parietal (skull) bone.  Honorable Mention, 2009 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "CELLTYPE": {
+                    "free_text": "bone"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Montana State University,  Museum of the Rockies, Bozeman, MT, USA"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2009 Olympus BioScapes Digital Imaging Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2009/hm23.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Ellen-Th\u00e9r\u00e8se Lamm",
+                        "2009 Olympus BioScapes Digital Imaging Competition\u00ae"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "bone organization"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "intrinsic birefringence",
+                    "onto_id": "FBbi:00000594"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41919",
+            "ARK": "ark:/b7295/w9cil41919",
+            "Title": "Ellen-Th\u00e9r\u00e8se Lamm, 2009 Olympus BioScapes Digital Imaging Competition\u00ae (2012) CIL:41919, triceratops, bone. CIL. Dataset"
+        }
+    }
+}

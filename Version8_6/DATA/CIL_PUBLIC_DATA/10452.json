@@ -1,0 +1,138 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "10452.jpg",
+                    "Size": 657889
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "10452.tif",
+                    "Size": 3300000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "10452.zip",
+                    "Size": 3219468
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "cryofixed tissue",
+                        "onto_id": "FBbi:00000013"
+                    },
+                    {
+                        "free_text": "freeze substitution"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    }
+                ],
+                "GROUP_ID": "15002",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae YJM789",
+                    "onto_id": "NCBITaxon:307796"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1938,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 2
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1661,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 2
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "uranyl salt",
+                        "onto_id": "FBbi:00000569"
+                    },
+                    {
+                        "onto_name": "lead salt",
+                        "onto_id": "FBbi:00000570"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "contrast-enhancing methods",
+                    "onto_id": "FBbi:00000271"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "60 nm thick section of whole cell of budding yeast prepared by high-pressure freezing, freeze-substitution in acetone containing 1% glutaraldehyde and 0.1% uranyl acetate, and embedding in Lowicryl HM20 resin. Sections were stained with uranyl acetate and lead citrate, imaged with a Tecnai 12 TEM operated at 120 kV, and recoded with a Gatan Ultrascan 1000 CCD. Contrast was digitally adjusted."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Christopher Buser"
+                    ],
+                    "PUBMED": [
+                        "20946827"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL10452",
+            "ARK": "ark:/b7295/w9cil10452",
+            "Title": "Christopher Buser (2010) CIL:10452, Saccharomyces cerevisiae YJM789. CIL. Dataset"
+        }
+    }
+}

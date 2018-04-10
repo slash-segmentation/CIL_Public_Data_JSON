@@ -1,0 +1,135 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38906_orig.jpg",
+                    "Size": 93572
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38906.tif",
+                    "Size": 1100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38906.jpg",
+                    "Size": 90820
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38906.zip",
+                    "Size": 93710
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "tight junction",
+                    "onto_id": "GO:0005923"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "tight junction disassembly"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Escherichia coli",
+                    "onto_id": "NCBITaxon:562"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0006873  Confocal micrograph 2007 Collection: Medical Photographic Library.  Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 424
+                        }
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "intestinal epithelial cell",
+                    "onto_id": "CL:0002563"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This pair of confocal micrographs demonstrates how a disease-causing strain of E. coli bacteria brings about diarrhoea by breaking down the waterproof barriers between the cells. The bacteria are seen as small red dots attached to the surface of intestinal cells making tiny pedestals out of one of the cell's own proteins (bright green). Once attached, the bacteria send signals into the cells, causing the tight junctions (blue) between the cells to break down. Water is then able to seep out between the cells into the intestine, leading to diarrhoea. The image on the left shows an early stage in the process where the tight junctions are still intact and show as continuous blue lines between the cells. The image on the right is taken later in the process, once the tight junctions have broken down. Their remnants appear as blue dots."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:13250"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "S. Schuller"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "diarrhea",
+                        "onto_id": "DOID:13250"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38906",
+            "ARK": "ark:/b7295/w9cil38906",
+            "Title": "S. Schuller (2011) CIL:38906, Escherichia coli, intestinal epithelial cell. CIL. Dataset"
+        }
+    }
+}

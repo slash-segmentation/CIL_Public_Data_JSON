@@ -1,0 +1,119 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40011.tif",
+                    "Size": 800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40011.jpg",
+                    "Size": 145129
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "immunological synapse",
+                    "onto_id": "GO:0001772"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "CTLs at 13-16 days after stimulation were labelled overnight in the presence of 1-2mg/ml HRP added directly to the growth medium to load the lytic granules then washed 3 times by pelleting and resuspending in RPMI to remove free HRP and serum and the final pellet resuspended at 5x10^6 cells/ml. CTL were mixed 1:1 with targets. 1mug/ml PHA or anti-CD3 (UCHT-1) was added for conjugation of human CTL. Conjugates were left in suspension at RT for 5 min then plated in individual wells of 4-well plastic tissue culture plates (Nunc) and transferred to 37\u00b0C for a further 30-60 min. Samples were fixed and processed for DAB-cytochemistry, post-fixed with reduced osmium and EPON embedded. semi-thick were stained with lead citrate and coated with 10nm fiducial gold markers for tomograhpic reconstruction.  A tilt series of images was obtained using an FEI Tecnai F30 with a Gatan flip-flop holder, spanning -68 to 68\u00b0 at 1\u00b0 intervals."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 500
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 500
+                        }
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "cytotoxic T cell",
+                        "onto_id": "CL:0000910"
+                    },
+                    {
+                        "onto_name": "lymphocyte",
+                        "onto_id": "CL:0000542"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Tomogram of the immunological synapse between a cytotoxic T lymphocyte (CTL, top) and a target cell (bottom). The microtubule organization centre (MTOC) is polarized to the cell-cell contact site. The electron-dense lytic granules are transported along the microtubules to the synaptic cleft. Here they probably fuse with the membrane and excrete the cytotoxic proteins that trigger the death of the target cell."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "CCDB 3632",
+                            "Href": "http://ccdb.ucsd.edu/sand/main?event=displayAll&mpid=3632"
+                        }
+                    ],
+                    "Contributors": [
+                        "Stephen Fuller",
+                        " Endre Majorovits"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40011",
+            "ARK": "ark:/b7295/w9cil40011",
+            "Title": "Stephen Fuller,  Endre Majorovits (2012) CIL:40011, Homo sapiens, cytotoxic T cell, lymphocyte. CIL. Dataset"
+        }
+    }
+}

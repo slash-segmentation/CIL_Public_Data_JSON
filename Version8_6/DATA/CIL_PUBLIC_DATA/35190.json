@@ -1,0 +1,128 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35190.zip",
+                    "Size": 8552576
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35190.jpg",
+                    "Size": 42174
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "35190.flv",
+                    "Size": 1992688
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell",
+                    "onto_id": "GO:0005623"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "leukocyte rolling"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "boundaries between regions with different refractive index",
+                    "onto_id": "FBbi:00000599"
+                },
+                "ZEBRAFISH_ANATOMY": [
+                    {
+                        "onto_name": "caudal vein",
+                        "onto_id": "ZFA:0000180"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "optical path length gradient",
+                    "onto_id": "FBbi:00000312"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 372
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 324
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "leukocyte",
+                    "onto_id": "CL:0000738"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Rolling of leukocytes on the walls of the caudal vein in a larval zebrafish; real time. As in adult mammals, such rolling occurs only in veins, not in arteries.  Video made available by Mark Cooper thru The Zebrafish A Living Laboratory."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Pasteur Institute, Paris, France",
+                        "Zebrafish The Living Laboratory"
+                    ],
+                    "Contributors": [
+                        "Philippe Herbomel"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "ZFA:ZFA:0000180"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35190",
+            "ARK": "ark:/b7295/w9cil35190",
+            "Title": "Philippe Herbomel (2011) CIL:35190, Danio rerio, leukocyte. CIL. Dataset"
+        }
+    }
+}

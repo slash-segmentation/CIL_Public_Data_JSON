@@ -1,0 +1,186 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "13407.tif",
+                    "Size": 13100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13407.jpg",
+                    "Size": 3144
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13407.zip",
+                    "Size": 13012866
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "GROUP_ID": "5791",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "single-spot confocal microscopy",
+                        "onto_id": "FBbi:00000252"
+                    },
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "nuclear chromatin",
+                        "onto_id": "GO:0000790"
+                    },
+                    {
+                        "onto_name": "nuclear heterochromatin",
+                        "onto_id": "GO:0005720"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "DNA repair",
+                    "onto_id": "GO:0006281"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 381,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 70
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 328,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 70
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Image_size": 20,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 200
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    },
+                    {
+                        "onto_name": "4',6-diamidino-2-phenylindole (DAPI)",
+                        "onto_id": "FBbi:00000056"
+                    },
+                    {
+                        "onto_name": "Alexa Fluor 546",
+                        "onto_id": "FBbi:00000441"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "linear methods",
+                    "onto_id": "FBbi:00000354"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Distribution of phosphorylated H2AX occurs preferentially in open chromatin. Wildtype mouse embryo fibroblasts were treated with the histone deacetylase inhibitor trichostatinA 8 hours before being incubated with the radiomimetic drug neocarzinostatin (NCS) for 1hour prior to being fixed and immunolabeled against the phosphorylated form of histone H2AX and co-stained with DAPI. MEFs were grown on glass coverslips and treated with 10 ng/ml NCS for 1 h or with 1 \u03bcM TSA for 8 h and were treated with 10 ng/ml NCS for an additional hour before being fixed in 2% freshly prepared PFA in PBS for 5 min at room temperature. Cells were immunolabeled using monoclonal antiphospho-H2AX antibody (clone JBW301; 1:1,000; Upstate Biotechnology) and goat anti\u2013mouse AlexaFluor546 secondary antibody (Invitrogen). The cells were labeled for 30 min in PBS containing 100 nM DAPI, rinsed with PBS, and mounted on glass microscope slides in glycerol-based mounting media containing N-propyl gallate antifade (Sigma-Aldrich). A stack of confocal optical slices was captured through the depth of the nucleus (Z-axis) using a 63x Plan-Apochromat (N.A. 1.4) objective lens, an optical slice thickness of 800nm, a Z-step size of 200nm, and X-Y pixel size of 70nm. Individual optical slices were background subtracted and contrast adjusted only by stretching the histogram in a linear manner consistently for the different fluorescence channels.\nImage corresponds to Fig 6B, right panel in Kim et al. J Cell Biol. 178: 209-218. 2007."
+                },
+                "CELLTYPE": {
+                    "onto_name": "fibroblast",
+                    "onto_id": "CL:0000057"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Biol. 178: 209-218. 2007."
+                    ],
+                    "Contributors": [
+                        "Jung-Ae Kim",
+                        "Michael Kruhlak",
+                        "Farokh Dotiwala",
+                        "Andre Nussenzweig",
+                        "James E. Haber"
+                    ],
+                    "PUBMED": [
+                        "17635934"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "photomultiplier tube (PMT)",
+                        "onto_id": "FBbi:00000295"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13407",
+            "ARK": "ark:/b7295/w9cil13407",
+            "Title": "Jung-Ae Kim, Michael Kruhlak, Farokh Dotiwala, Andre Nussenzweig, James E. Haber (2011) CIL:13407, Mus musculus, fibroblast. CIL. Dataset"
+        }
+    }
+}

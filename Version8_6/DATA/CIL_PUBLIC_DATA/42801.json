@@ -1,0 +1,134 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "42801.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "42801.jpg",
+                    "Size": 78865
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "42801.zip",
+                    "Size": 114339
+                }
+            ],
+            "CORE": {
+                "GROUP_ID": "13151",
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell surface",
+                        "onto_id": "GO:0009986"
+                    },
+                    {
+                        "onto_name": "ruffle membrane",
+                        "onto_id": "GO:0032587"
+                    },
+                    {
+                        "onto_name": "filopodium",
+                        "onto_id": "GO:0030175"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0008540 Lung cancer cell.  Wellcome Images Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://images.wellcome.ac.uk/indexplus/page/Prices.html"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 689
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "CELLTYPE": {
+                    "free_text": "lung cancer"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Colorized scanning electron micrograph of a cell cultured lung cancer cell.  This image is part of an image group, CIL 42801-42803, showing several colorized scanning electron micrographs of cell cultured lung cancer cells."
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:1324"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "LRI, CRUK"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/indexplus/result.html?*sform=wellcome-images&_IXACTION_=query&%24%3Dtoday=&_IXFIRST_=1&%3Did_ref=B0008540&_IXSPFX_=templates/t&_IXFPFX_=templates/t&_IXMAXHITS_=1"
+                        }
+                    ],
+                    "Contributors": [
+                        "Anne Weston"
+                    ]
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "lung cancer",
+                        "onto_id": "DOID:1324"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL42801",
+            "ARK": "ark:/b7295/w9cil42801",
+            "Title": "Anne Weston (2012) CIL:42801, lung cancer. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,147 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "22706.zip",
+                    "Size": 3317888
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "22706.jpg",
+                    "Size": 14257
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "22706.flv",
+                    "Size": 1278263
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "free_text": "in vitro reconstitution"
+                },
+                "GROUP_ID": "7961",
+                "IMAGINGMODE": {
+                    "free_text": "TIRF"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "microtubule",
+                        "onto_id": "GO:0005874"
+                    },
+                    {
+                        "onto_name": "microtubule plus end",
+                        "onto_id": "GO:0035371"
+                    },
+                    {
+                        "free_text": "CLIP-170(H2)"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "microtubule polymerization or depolymerization",
+                    "onto_id": "GO:0031109"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "cell free"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 345,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.033
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 145,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.033
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "194",
+                            "value": 0.1
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Rhodamine",
+                        "onto_id": "FBbi:00000452"
+                    },
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Lattice diffusion of CLIP-170(H2)\u2013GFP protein (a carboxyl truncation of the plus end microtubule tracking protein CLIP-170). The movie shows pseudocolored overlaid images of rhodamine-labeled microtubules (red) and GFP-tagged CLIP-170(H2) protein (green). In the absence of EB1, CLIP-170(H2) binds along the length of the microtubule lattice and exhibits diffusive movement (blue arrowhead). (Scale bar, 2 micron.)\n\nMicrotubule dynamics were visualized at 22 \u00b0C using a TIRF microscope \ufb01tted on an inverted microscope (Nikon TE-2000U). The laser light intensities used for imaging were kept low, so that the photobleaching rates were slow compared with the dwell times. Images were captured with a backilluminated electron-multiplying CCD camera (Cascade-512B, Photometrics) using time-lapse capture at burst mode at 10 frames per second for the analysis of +TIP dynamics at the single-molecule resolution.  Movie corresponds to video S2 from Proc Natl Acad Sci U S A. 2009 Jan 13;106(2):492-7. Epub 2009 Jan 6."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Proc Natl Acad Sci U S A. 2009 Jan 13;106(2):492-7. Epub 2009 Jan 6."
+                    ],
+                    "Contributors": [
+                        "Ram Dixit",
+                        "Brian Barnet",
+                        "Jacob E. Lazaru",
+                        "Mariko Tokit",
+                        "Yale E. Goldman",
+                        "Erika L. F. Holzbaur"
+                    ],
+                    "PUBMED": [
+                        "18227130"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL22706",
+            "ARK": "ark:/b7295/w9cil22706",
+            "Title": "Ram Dixit, Brian Barnet, Jacob E. Lazaru, Mariko Tokit, Yale E. Goldman, Erika L. F. Holzbaur (2011) CIL:22706. CIL. Dataset"
+        }
+    }
+}

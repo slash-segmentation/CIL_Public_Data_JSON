@@ -1,0 +1,113 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "48603.jpg",
+                    "Size": 2545175
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "48603.zip",
+                    "Size": 54293554
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "48603.tif",
+                    "Size": 54400000
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Preparation: Glutaraldehyde and paraformaldehyde in phosphate buffer<br/>\nStain2: Toluidine blue<br/>\nEmbed: Spurr's resin<br/>\nSection: 1 micron<br/>\nMagnification: 100 x oil<br/>\nSpecies: musculus (mixed 129SvJ and Black Swiss)<br/>\nAge: 61 days<br/>\nSubspecies or gene: gastric, H,K, aATPase alpha -/-<br/>\nOrgan: stomach<br/>\nTissue: gastric mucosa, greater curvature<br/>"
+                },
+                "GROUP_ID": "18205",
+                "IMAGINGMODE": {
+                    "onto_name": "modes of light microscopy",
+                    "onto_id": "FBbi:00000345"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "secretory granules"
+                    },
+                    {
+                        "free_text": "mitochondria"
+                    },
+                    {
+                        "free_text": "nuclei"
+                    },
+                    {
+                        "free_text": "nucleoli"
+                    },
+                    {
+                        "free_text": "lumens of the gastric glands"
+                    },
+                    {
+                        "free_text": "parietal cell canaliculi"
+                    },
+                    {
+                        "free_text": "vacuoles"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4800
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3700
+                        }
+                    }
+                ],
+                "CELLTYPE": [
+                    {
+                        "onto_name": "parietal cell",
+                        "onto_id": "CL:0000162"
+                    },
+                    {
+                        "free_text": "zymogen"
+                    },
+                    {
+                        "free_text": "mucus"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Light micrograph, toluidine blue staining"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "free_text": "micrograph"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL48603",
+            "ARK": "ark:/b7295/w9cil48603",
+            "Title": "CIL (2016) CIL:48603, Mus musculus, parietal cell, zymogen, mucus. CIL. Dataset"
+        }
+    }
+}

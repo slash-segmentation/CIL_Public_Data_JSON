@@ -1,0 +1,139 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "41649.tif",
+                    "Size": 44600000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "41649.zip",
+                    "Size": 44527442
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "41649.jpg",
+                    "Size": 3030186
+                }
+            ],
+            "CORE": {
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "<img src=\"http://www.cellimagelibrary.org/bioscapeslogo.png\" width=\"150\" height=\"56\">"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4724
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3140
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "actin cytoskeleton",
+                        "onto_id": "GO:0015629"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    },
+                    {
+                        "onto_name": "neuron projection",
+                        "onto_id": "GO:0043005"
+                    },
+                    {
+                        "onto_name": "neuronal cell body",
+                        "onto_id": "GO:0043025"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "glial cell",
+                        "onto_id": "CL:0000125"
+                    },
+                    {
+                        "onto_name": "neuron",
+                        "onto_id": "CL:0000540"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Fluorescence image of a neuronal culture created by stitching together six images collected at 40x \nmagnification.  Honorable Mention, 2011 Olympus BioScapes Digital Imaging Competition\u00ae."
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Freie University Berlin, Institute for Chemistry and Biochemistry Berlin, Germany"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "2011 Olympus BioScapes Digital Imaging  Competition\u00ae",
+                            "Href": "http://www.olympusbioscapes.com/staticgallery/2011/hm52.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Jan Schmoranzer",
+                        "2011 Olympus BioScapes Digital Imaging  Competition\u00ae"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "montage",
+                        "onto_id": "FBbi:00000261"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL41649",
+            "ARK": "ark:/b7295/w9cil41649",
+            "Title": "Jan Schmoranzer, 2011 Olympus BioScapes Digital Imaging  Competition\u00ae (2012) CIL:41649, glial cell, neuron. CIL. Dataset"
+        }
+    }
+}

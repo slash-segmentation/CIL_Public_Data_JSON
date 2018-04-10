@@ -1,0 +1,157 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11923.jpg",
+                    "Size": 409666
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "11923.tif",
+                    "Size": 10300000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11923.zip",
+                    "Size": 10187475
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "chemically fixed tissue",
+                    "onto_id": "FBbi:00000002"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "clathrin coat of trans-Golgi network vesicle",
+                        "onto_id": "GO:0030130"
+                    },
+                    {
+                        "onto_name": "Golgi trans cisterna",
+                        "onto_id": "GO:0000138"
+                    },
+                    {
+                        "onto_name": "Golgi apparatus",
+                        "onto_id": "GO:0005794"
+                    },
+                    {
+                        "onto_name": "N-methyl-D-aspartate selective glutamate receptor complex",
+                        "onto_id": "GO:0017146"
+                    },
+                    {
+                        "onto_name": "alpha-amino-3-hydroxy-5-methyl-4-isoxazolepropionic acid selective glutamate receptor complex",
+                        "onto_id": "GO:0032281"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    },
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus",
+                    "onto_id": "NCBITaxon:10114"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1298,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.47
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1308,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.47
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "gold",
+                    "onto_id": "FBbi:00000202"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": [
+                    {
+                        "free_text": "neuron soma"
+                    },
+                    {
+                        "free_text": "CA1 stratum pyramidale of the hippocampus"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "NMDA receptors (NMDARs) can exit the Golgi/TGN via clathrin-coated vesicles. Double-labeling using rabbit polyclonal antibodies to AMPA receptors (AMPARs) (combination of 3 antibodies: GluR1, GluR2, GluR2/3) and 10 nm immunogold, and mouse monoclonal antibodies to the NMDAR subunit NR1 (3 antibodies) and 5 nm immunogold, in a section of a neuron soma in the CA1 stratum pyramidale of the hippocampus from a P10 rat. In these studies, identification of 5 nm gold particles, where unclear, was confirmed by detailed examination and photography at higher magnifications. In the second image in the series, the micrograph is repeated and major structures are highlighted in color (green for membranous structures and clathrin coats; red for AMPAR-10 nm gold; blue for NR1-5 nm gold). Note that AMPA and NMDA receptor labeling is localized mainly separately in both the Golgi apparatus and trans-Golgi network (TGN), and NR1 is found alone in several clathrin-coated vesicles (CCVs) budding off of the TGN.  Image is Fig1 from Wenthold, R.J., R.A. Al-Hallaq, C.C. Swanwick, and R.S. Petralia (2008) Molecular properties and cell biology of the NMDA receptor. In Structural and Functional Organization of the Synapse (J.W. Hell and M.E. Ehlers, eds.). Springer, NY, pp. 317-367."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Ronald S Petralia"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "graphic illustration",
+                        "onto_id": "FBbi:00000223"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11923",
+            "ARK": "ark:/b7295/w9cil11923",
+            "Title": "Ronald S Petralia (2011) CIL:11923, Rattus, neuron soma, CA1 stratum pyramidale of the hippocampus. CIL. Dataset"
+        }
+    }
+}

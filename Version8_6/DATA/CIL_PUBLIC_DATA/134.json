@@ -1,0 +1,123 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "134.tif",
+                    "Size": 600000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "134_orig.jpg",
+                    "Size": 68909
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "134.zip",
+                    "Size": 69039
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "134.jpg",
+                    "Size": 31789
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "basement membrane",
+                    "onto_id": "GO:0005604"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "cell migration"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Caenorhabditis elegans",
+                    "onto_id": "NCBITaxon:6239"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Anchor cells were labeled with mCherry and laminin with GFP.\nImages were acquired using a Zeiss AxioImager A1 microscope with a 100X Plan-\nAPOCHROMAT objective and a Zeiss AxioCam MRm CCD camera, controlled by Zeiss Axiovision software (Zeiss Microimaging Inc., Thornwood, NJ).\nSee JW Zeill et al 2009. Nat Cell Biol. 11:183\u2013189."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 695
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 271
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "Green fluorescent proteins from Aequorea",
+                        "onto_id": "FBbi:00000437"
+                    },
+                    {
+                        "onto_name": "mCherryFP",
+                        "onto_id": "FBbi:00000525"
+                    }
+                ],
+                "CELLTYPE": {
+                    "free_text": "anchor cell"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The image shows an anchor cell (red) in the developing female reproductive system of C. elegans pushing through the basement membrane (green) that surrounds it. This type of invasion is also often seen during cancer metastasis."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "NIGMS BioMedical Beat",
+                            "Href": "http://images.nigms.nih.gov/index.cfm?event=viewDetail&imageID=2707"
+                        }
+                    ],
+                    "Contributors": [
+                        "Eliot Hagedorn"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "charge coupled device (CCD)",
+                    "onto_id": "FBbi:00000294"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL134",
+            "ARK": "ark:/b7295/w9cil134",
+            "Title": "Eliot Hagedorn (2011) CIL:134, Caenorhabditis elegans, anchor cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,114 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39092_orig.jpg",
+                    "Size": 188370
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39092.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39092.jpg",
+                    "Size": 89767
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39092.zip",
+                    "Size": 188508
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "B0007320 Egg and sperm Wellcome Image Award Winner 2009 Light microscopy.  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "CELLULARCOMPONENT": {
+                    "free_text": "zona pellucida"
+                },
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "egg",
+                        "onto_id": "CL:0000025"
+                    },
+                    {
+                        "onto_name": "sperm",
+                        "onto_id": "CL:0000019"
+                    },
+                    {
+                        "onto_name": "cumulus cell",
+                        "onto_id": "CL:0000711"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Light micrograph of human ovum (egg) and sperm. The ovum is much larger than the sperm and is surrounded by protective cumulus cells around the outside surface (yellow). The membrane surrounding the ovum (brown) is the zona pellucida. The head of the sperm carries special enzymes to dissolve the zona pellucida, which is required in order to fertilise the egg. This image was taken from a failed human IVF procedure. IVF is a widely used technique that allows infertile couples to have their own children by taking egg cells from the mother and fertilising with sperm cells from the father externally to the body, before implanting the resultant embryo back into the womb."
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "fertilization",
+                    "onto_id": "GO:0009566"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Spike Walker"
+                    ]
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39092",
+            "ARK": "ark:/b7295/w9cil39092",
+            "Title": "Spike Walker (2011) CIL:39092, Homo sapiens, egg, sperm, cumulus cell. CIL. Dataset"
+        }
+    }
+}

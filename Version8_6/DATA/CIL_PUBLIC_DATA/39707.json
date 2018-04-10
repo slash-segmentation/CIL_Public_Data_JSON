@@ -1,0 +1,134 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39707.tif",
+                    "Size": 17300000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39707.jpg",
+                    "Size": 1325229
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "tissue in plastic embedment",
+                        "onto_id": "FBbi:00000016"
+                    }
+                ],
+                "GROUP_ID": "11310",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "vacuole",
+                        "onto_id": "GO:0005773"
+                    },
+                    {
+                        "onto_name": "nucleus",
+                        "onto_id": "GO:0005634"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "sertraline treatment"
+                    },
+                    {
+                        "onto_name": "vacuole organization",
+                        "onto_id": "GO:0007033"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae",
+                    "onto_id": "NCBITaxon:4932"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "BY4716 is an auxotrophic haploid laboratory strain of the budding yeast Saccharomyces cerevisiae. Its genotype is lys2\u0394, mating type alpha and it is derived from S288c.  Sections were embedded in LR white resin, mounted on carbon-coated nickel grids and imaged with LEO 912AB at 80kV and 6,300X.  All cells in this batch were grown in liquid rich media (YPD pH6.5) at 30\u02daC with aerated shaking, and cultures were sampled in mid-logarithmic phase.  This image is part of a group of untreated cells and cells exposed to 60\u00b5M antidepressant sertraline (Zoloft\u00ae) for 45 minutes."
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2334
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2458
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of an unbudded yeast cell treated with 60\u00b5M sertraline. Two autophagosomes containing membranous material are visible. Two vacuoles of mixed electron density are also present."
+                },
+                "CELLTYPE": {
+                    "free_text": "BY4716"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Princeton EM Core Facility"
+                    ],
+                    "Contributors": [
+                        "Ethan Perlstein",
+                        "Daniel Korostyshevsky"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39707",
+            "ARK": "ark:/b7295/w9cil39707",
+            "Title": "Ethan Perlstein, Daniel Korostyshevsky (2012) CIL:39707, Saccharomyces cerevisiae, BY4716. CIL. Dataset"
+        }
+    }
+}

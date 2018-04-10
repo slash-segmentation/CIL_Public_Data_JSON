@@ -1,0 +1,141 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "8060.flv",
+                    "Size": 1846427
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "8060.zip",
+                    "Size": 2912380
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "8060.jpg",
+                    "Size": 20057
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "1564",
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "Golgi apparatus part",
+                    "onto_id": "GO:0044431"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "secretion",
+                    "onto_id": "GO:0046903"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "CELLLINE": {
+                    "onto_name": "NRK-52E",
+                    "onto_id": "MCC:0000366"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Rattus norvegicus",
+                    "onto_id": "NCBITaxon:10116"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 288,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 147
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 296,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 147
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "value": 120
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "fluorescent protein tag",
+                        "onto_id": "FBbi:00000405"
+                    },
+                    {
+                        "onto_name": "Green fluorescent proteins from Aequorea",
+                        "onto_id": "FBbi:00000437"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "non-linear methods",
+                    "onto_id": "FBbi:00000355"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Traffic Jam: The Dynamic Behavior of a Golgi Matrix Protein\t\n\nThis video shows an NRK cell stably expressing the Golgi matrix protein GRASP55-GFP. The Golgi apparatus in mammalian cells is made up of stacked cisternae organized in a ribbonlike structure within a ribosome-free Golgi matrix. The matrix is composed of coiled-coil proteins, many of which were first identified as autoantigens and termed Golgins. Golgi matrix proteins were thought to be stably associated with the matrix once synthesized, but increasing evidence suggests they are dynamic. By means of high-speed live-cell imaging the video shows the highly dynamic behavior of GRASP55-GFP-containing tubulo/vesicular structures moving in anterograde and retrograde fashion between ER exit sites and the Golgi apparatus.\t\n\nNRK cells stably expressing GRASP55-GFP and plated on 35-mm glass-bottom culture dishes (MatTek), were maintained in phenol red-free buffered medium at 37C by using an ASI 400 Air Stream stage Incubator (Nevtek, Burnsville, VA). Time-lapse fluorescence images were acquired with an Ultraview Confocal Scanner (Perkin Elmer-Cetus, Norwalk, CT) in a Nikon Eclipse TE2000-S inverted microscope (Nikon, Melville, NY) equipped with a PlanApo 100x oil immersion objective (NA 1.40; Nikon), and a 12-bit charge-coupled device (CCD) camera, ORCA (Hamamatsu, Bridgewater, NJ). Image capture and data acquisition were performed using Ultraview LCI software (Perkin Elmer-Cetus). Images were acquired in binning 2 x 2 modes at approximately 0.25-s intervals, during approximately 120 s. Sequence images were exported as single TIFF files, and processed with ImageJ 1.36b (Rasband, 1997, 2007; http://rsb.info.nih.gov/ij/).\t\n\nMarra P et al. The GM130 and GRASP65 Golgi proteins cycle through and define a subdomain of the intermediate compartment. Nat Cell Biol [serial online]. 2001;3:1101-1113. \n\nMardones GA, Snyder CM, Howell KE. Cis-Golgi matrix proteins move directly to endoplasmic reticulum exit sites by association with tubules. Mol Biol Cell [serial online]. 2006;17:525-38."
+                },
+                "CELLTYPE": {
+                    "onto_name": "permanent cell line cell",
+                    "onto_id": "CL:0000002"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Mardones, Gonzalo A."
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "confocal microscopy",
+                    "onto_id": "FBbi:00000251"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL8060",
+            "ARK": "ark:/b7295/w9cil8060",
+            "Title": "Mardones, Gonzalo A. (2010) CIL:8060, Rattus norvegicus, permanent cell line cell. CIL. Dataset"
+        }
+    }
+}

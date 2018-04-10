@@ -1,0 +1,154 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11368.jpg",
+                    "Size": 396644
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "11368.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11368.zip",
+                    "Size": 1394680
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "crosslinking-fixative fixed tissue",
+                        "onto_id": "FBbi:00000008"
+                    },
+                    {
+                        "onto_name": "embedded tissue",
+                        "onto_id": "FBbi:00000015"
+                    }
+                ],
+                "GROUP_ID": "12454",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "illumination by electrons",
+                        "onto_id": "FBbi:00000273"
+                    },
+                    {
+                        "onto_name": "detection of electrons",
+                        "onto_id": "FBbi:00000375"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "Golgi apparatus",
+                        "onto_id": "GO:0005794"
+                    },
+                    {
+                        "onto_name": "Golgi stack",
+                        "onto_id": "GO:0005795"
+                    },
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "endoplasmic reticulum",
+                        "onto_id": "GO:0005783"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "post-translational protein modification",
+                        "onto_id": "GO:0043687"
+                    },
+                    {
+                        "onto_name": "carbohydrate biosynthetic process",
+                        "onto_id": "GO:0016051"
+                    },
+                    {
+                        "onto_name": "protein glycosylation",
+                        "onto_id": "GO:0006486"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "microtome-sectioned tissue",
+                    "onto_id": "FBbi:00000029"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "stain with broad specificity",
+                    "onto_id": "FBbi:00000415"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 896
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1304
+                        }
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "onto_name": "secretory cell",
+                    "onto_id": "CL:0000151"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Figures 203 (upper panel, cell from Brunner's gland) and 204 (lower panel, alga) from Chapter 6 (Golgi Apparatus) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.  Transitional zone vesicles en route to the Golgi apparatus.  In the upper panel, a ribosome-free region of the cistern of the endoplasmic reticulum is immediately below the mitochondrion, and numerous intermediate vesicles appear between the ER and the Golgi complex in a cell of Brunner's gland. Image by Daniel Friend. In the lower panel of an algal cell, vesicles can be seen budding from the perinuclear cistern. Lower panel from Massalski and Leedale (1969) Br. Phycol. J. 4:159-80, reprinted with permission. A PDF copy of the accompanying chapter is available on the ASCB\u2019s BioEDUCATE website."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.html"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "ISBN 0721635849"
+                    ],
+                    "Contributors": [
+                        "Daniel Friend",
+                        "A. Massalski",
+                        "G.F. Leedale"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11368",
+            "ARK": "ark:/b7295/w9cil11368",
+            "Title": "Daniel Friend, A. Massalski, G.F. Leedale (2011) CIL:11368, secretory cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,98 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "CORE": {
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of a ferret alveolar type II cell has rough endoplasmic reticulum, RER, lamellar bodies, LB, cytoplasm, nucleus, mitochondria, M, basement membrane, grey line, telomerase indicated with DNA icon and oval, alveolar space, white."
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Age: young adult<br/>\nOrgan: mid ventral right lobe lung<br/>\nTissue: mid ventral right lobe lung<br/>\nVoltage: 60kv<br/>\nStain 1: 1% somium tetroxide<br/>\nStain 2: lead citrate and uranyl acetate<br/>\nEmbed: EPON 812<br/>\nSection: 50-100<br/>"
+                },
+                "CELLTYPE": [
+                    {
+                        "free_text": "alveolar type II cell"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": [
+                    {
+                        "onto_name": "Mustela putorius",
+                        "onto_id": "NCBITaxon:9668"
+                    }
+                ],
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    }
+                ],
+                "ITEMTYPE": [
+                    {
+                        "free_text": "pseudocolored transmission electron micrograph"
+                    }
+                ],
+                "PREPARATION": [
+                    {
+                        "free_text": "Modified Karnovskys"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Marian Miller"
+                    ]
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": "5048"
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": "5698"
+                        }
+                    }
+                ]
+            },
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_path": "50304.jpg",
+                    "Size": 3278484,
+                    "File_type": "Jpeg"
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_path": "50304.tif",
+                    "Size": 80100000,
+                    "File_type": "OME_tif"
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_path": "50304.zip",
+                    "Size": 27930019,
+                    "File_type": "Zip"
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Z_stack": false,
+            "Video": false,
+            "Still_image": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL50304",
+            "ARK": "ark:/b7295/w9cil50304",
+            "Title": "Marian Miller (2018) CIL:50304, Mustela putorius, alveolar type II cell. CIL. Dataset"
+        }
+    }
+}

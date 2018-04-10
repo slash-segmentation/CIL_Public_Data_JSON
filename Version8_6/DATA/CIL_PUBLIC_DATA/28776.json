@@ -1,0 +1,146 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "28776.flv",
+                    "Size": 932534
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "28776.jpg",
+                    "Size": 22003
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "28776.zip",
+                    "Size": 2637952
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "11164",
+                "IMAGINGMODE": {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nuclear chromosome",
+                        "onto_id": "GO:0000228"
+                    },
+                    {
+                        "free_text": "gamma tubulin"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "free_text": "CeCENP-A depletion"
+                    },
+                    {
+                        "onto_name": "mitosis",
+                        "onto_id": "GO:0007067"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Caenorhabditis elegans",
+                    "onto_id": "NCBITaxon:6239"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Images were acquired via a spinning disk confocal microscope (CSU10; McBain Instruments) mounted on an inverted microscope (TE2000e; Nikon). Strain TH32 coexpressing GFP-histone H2b and GFP\u2013\u03b3-tubulin was imaged using a 60\u00d7 1.4 NA plan Apo objective with 1.5\u00d7 auxiliary magnification and a cooled CCD camera (Orca ER; Hamamatsu) binning 2 \u00d7 2.  Strain OD31 expressing GFP\u2013KNL-2 was imaged in the same manner without the 1.5\u00d7 auxiliary magnification."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 425
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 250
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "118",
+                            "value": 10
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Spinning disk confocal time-lapse imaging of the first mitosis in a C. elegans embryo that has been depleted of CeCENP-A by RNAi. GFP-histone and GFP-\u03b3-tubulin were imaged (strain TH32). Pronuclear migration is normal, but chromosome condensation is disrupted. Chromosomes fail to form a proper metaphase plate, and the spindle poles move away from the chromatin masses prematurely. Anaphase segregation fails, and chromatin masses are left in the middle of the cell. The video is \u223c19 min long, and the frame is \u223c33 \u00b5m top to bottom. Images were acquired at 10-s intervals, and corresponding data are shown in Fig. 1A in J Cell Biol. 2007 Mar 12;176(6):757-63. Epub 2007 Mar 5."
+                },
+                "CELLTYPE": {
+                    "free_text": "embryo"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "J Cell Biol. 2007 Mar 12;176(6):757-63. Epub 2007 Mar 5."
+                    ],
+                    "Contributors": [
+                        "Paul S. Maddox",
+                        "Francie Hyndman",
+                        "Joost Monen",
+                        "Karen Oegema",
+                        "Arshad Desai"
+                    ],
+                    "PUBMED": [
+                        "17339379"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL28776",
+            "ARK": "ark:/b7295/w9cil28776",
+            "Title": "Paul S. Maddox, Francie Hyndman, Joost Monen, Karen Oegema, Arshad Desai (2011) CIL:28776, Caenorhabditis elegans, embryo. CIL. Dataset"
+        }
+    }
+}

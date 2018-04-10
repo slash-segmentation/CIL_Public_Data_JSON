@@ -1,0 +1,76 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "47808.zip",
+                    "Size": 1380693
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "47808.tif",
+                    "Size": 1800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "47808.jpg",
+                    "Size": 367417
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "catalase activity",
+                    "onto_id": "GO:0004096"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "peroxisome",
+                    "onto_id": "GO:0005777"
+                },
+                "CELLTYPE": {
+                    "onto_name": "duct epithelial cell",
+                    "onto_id": "CL:0000068"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Human duodenal epithelium. Peroxisomes are stained with DAB at pH 10.5 by their catalase activity and postosmicated. 0.5 \u00b5m plastic section were visualized using electron microscopy at low magnification. Image shows thin worm like peroxisomes. Three large dark round structures are lysosomes. Brush border microvilli are well seen.\n\nMore details in Roels et al:  http://gut.bmj.com/content/32/8/858.long"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Frank Roels",
+                        "Marina Pauwels",
+                        "Peter Van der Spek"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL47808",
+            "ARK": "ark:/b7295/w9cil47808",
+            "Title": "Frank Roels, Marina Pauwels, Peter Van der Spek (2014) CIL:47808, Homo sapiens, duct epithelial cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,167 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "39787_orig.jpg",
+                    "Size": 96159
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "39787.tif",
+                    "Size": 1000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "39787.jpg",
+                    "Size": 91271
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "39787.zip",
+                    "Size": 96297
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "free_text": "ethanol dehydration"
+                    },
+                    {
+                        "onto_name": "critical_point dried specimen",
+                        "onto_id": "FBbi:00000581"
+                    }
+                ],
+                "GROUP_ID": "10724",
+                "IMAGINGMODE": {
+                    "onto_name": "scanning electron microscopy (SEM)",
+                    "onto_id": "FBbi:00000257"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "filopodium",
+                        "onto_id": "GO:0030175"
+                    },
+                    {
+                        "onto_name": "cell surface",
+                        "onto_id": "GO:0009986"
+                    },
+                    {
+                        "onto_name": "extracellular space",
+                        "onto_id": "GO:0005615"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "embryonic morphogenesis",
+                        "onto_id": "GO:0048598"
+                    },
+                    {
+                        "onto_name": "cell migration",
+                        "onto_id": "GO:0016477"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Lytechinus pictus",
+                    "onto_id": "NCBITaxon:7653"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Images taken on a  JEOL 35C SEM.  \nProcessing protocol:\n1. 2% GTA in 75% MBL SW or FilteredSW \nFSW - fix for 1.5hrs. RT.\n2. Rinse with 0.1M NaCacodylate buffer pH 7.4\n3. 0.5% OSO4 in .075M NaCacodylate buffer pH 7.4 - 30' in the cold\n4. Rinse in 0.1M NaCacodylate buffer ph 7.4\n5. Dehydrate thru ETOH: 30%, 50%, 70%, 95% for 5 min each\n6. 100% - 3 changes - 15' each\n7. Critical Point Dry\n8. Stick embryos down onto silver paint. Gently crack open with glass needle (pipette drawn out to a fine point).\n9. Sputter coat with AuPd."
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 640
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 480
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "gold",
+                        "onto_id": "FBbi:00000202"
+                    },
+                    {
+                        "onto_name": "visualization of contiguous regions",
+                        "onto_id": "FBbi:00000396"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide",
+                        "onto_id": "FBbi:00000571"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Scanning electron microscope image of Strongylocentrotus drobachiensus [sea urchin] at the gastrula stage. Embryo was split open to reveal the blastocoel cavity. There are several migrating mesenchyme cells, with a variety of filopodial shapes.  This image is part of a group of SEM images of sea urchin embryos at various stages of development.  The group is available as CIL:39782-39791."
+                },
+                "CELLTYPE": {
+                    "onto_name": "mesenchymal cell",
+                    "onto_id": "CL:0000134"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Dartmouth EM Facility",
+                            "Href": "http://remf.dartmouth.edu/images/SeaUrchinSEM/source/6.html"
+                        }
+                    ],
+                    "Contributors": [
+                        "Louisa Howard"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL39787",
+            "ARK": "ark:/b7295/w9cil39787",
+            "Title": "Louisa Howard (2012) CIL:39787, Lytechinus pictus, mesenchymal cell. CIL. Dataset"
+        }
+    }
+}

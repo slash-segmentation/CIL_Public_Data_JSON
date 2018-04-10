@@ -1,0 +1,119 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40592.tif",
+                    "Size": 1300000
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "40592_orig.jpg",
+                    "Size": 57498
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "40592.zip",
+                    "Size": 57636
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40592.jpg",
+                    "Size": 80991
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "back-scattered_electron imaging",
+                    "onto_id": "FBbi:00000373"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell surface",
+                    "onto_id": "GO:0009986"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "induction of bacterial agglutination",
+                    "onto_id": "GO:0043152"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Salmonella",
+                    "onto_id": "NCBITaxon:590"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "The image was collected on FEI instrument: Nova NanoSEM Family using the following parameters:  Magnification: 80,000x, Horizontal Field Width: 3.73\u03bcm, Voltage: 1 kV, Detector: VcD, Spot: 2 nA, and Working Distance: 5.9 mm."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 670
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 617
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This scanning electron micrograph of salmonella bacteria, was made possible by using low kV to visualize the surface detail of the bacteria.  The image was taken with the VcD (backscatter detector), using beam decelleration."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Sciences Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/Salmonella-Bacteria-2485.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Miranda Waldron"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40592",
+            "ARK": "ark:/b7295/w9cil40592",
+            "Title": "Miranda Waldron (2012) CIL:40592, Salmonella. CIL. Dataset"
+        }
+    }
+}

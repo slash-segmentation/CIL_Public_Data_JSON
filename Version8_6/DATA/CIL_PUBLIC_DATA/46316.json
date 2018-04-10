@@ -1,0 +1,142 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "46316.tif",
+                    "Size": 600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "46316.jpg",
+                    "Size": 27793
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Gustafsdottir et al. (doi:10.1371/journal.pone.0080999) have developed a multiplex cytological profiling assay that \"paints the cell\" with as many fluorescent markers as possible without compromising our ability to extract rich, quantitative profiles in high throughput. The assay detects seven major cellular components. In a pilot screen of bioactive compounds, the assay detected a range of cellular phenotypes and it clustered compounds with similar annotated protein targets or chemical structure based on cytological profiles. The results demonstrate that the assay captures subtle patterns in the combination of morphological labels, thereby detecting the effects of chemical compounds even though their targets are not stained directly. This image-based assay provides an unbiased approach to characterize compound- and disease-associated cell states to support future probe discovery.\n\nUsing the cell-painting assay, the Broad Institute has assembled a reference dataset of profiles for U2OS osteosarcoma cells treated with ~30,000 compounds. The compound collection includes DOS-derived compounds (20,000), as well as chemically diverse MLI compounds with biologically diverse performance identified through analysis of PubChem (10,000), and known bioactive compounds to serve as landmarks (2,500). The DOS compounds consist of structurally diverse and stereochemically rich compounds with structures distinct from the current MLSMR. The compound collection also includes 267 distinct compounds nominated by MLPCN Centers from projects for which the Centers would like to identify new chemical series with similar activities.\n\nThe experiment consists of 413 microtiter plates. Each plate has 384 wells. Each well has 9 fields of view. Each field was imaged in five channels (detection wavelengths), and each channel is stored as a separate, grayscale 16-bit TIFF image file."
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell",
+                    "onto_id": "GO:0005623"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Plate 26569 - Phenotypic profiling attempts to summarize multiparametric, feature-based analysis of cellular phenotypes of each sample so that similarities between profiles reflect similarities between samples. This image set provides a basis for testing image-based profiling methods wrt. to their ability to distinguish the effects of small molecules.\n\nImages\nThe images are of U2OS cells treated with each of 1600 known bioactive compounds and labeled with six labels that characterize seven organelles (the .cell-painting. assay).\n\nThis pilot experiment consists of 20 plates. Each plate has 384 wells and each well has 9 fields of view for a total of 69,120 fields of view. Each field was imaged in five channels (detection wavelengths), and each channel is stored as a separate, grayscale image file, so there are 345,600 image files in 16-bit TIFF format."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Broad Institute",
+                            "Href": "http://www.broadinstitute.org/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Sigrun Gustafsdottir",
+                        "Vebjorn Ljosa",
+                        "Katherine Sokolnicki",
+                        "Joshua Bittker",
+                        "Nicole Bodycombe",
+                        "Mark Bray",
+                        "Vlado Dancik",
+                        "Tom Hasaka",
+                        "Suk Hon",
+                        "Melissa Kemp",
+                        "Kejie Li",
+                        "Deepika Walpita",
+                        "Mathias Wawer",
+                        "Todd Golub",
+                        "Stuart Schreiber",
+                        "Paul Clemons",
+                        "Anne Carpenter",
+                        "Alykhan Shamji"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "response to chemical stimulus",
+                    "onto_id": "GO:0042221"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "CELLLINE": {
+                    "onto_name": "U-2 OS",
+                    "onto_id": "MCC:0000468"
+                },
+                "CHEMICAL_COMPOUNDS": [
+                    "BRD-K08075306",
+                    "BRD-K20152345",
+                    "BRD-K27403344",
+                    "BRD-K33337505",
+                    "BRD-K33979639",
+                    "BRD-K34495942",
+                    "BRD-K39341253",
+                    "BRD-K49933702",
+                    "BRD-K54901885",
+                    "BRD-K69236751",
+                    "BRD-K81665719",
+                    "BRD-K86324038",
+                    "BRD-K89838866"
+                ]
+            },
+            "Alternative_image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "26569-ERSyto.zip",
+                    "URL_postfix": "/broad_data/plate_26569/26569-ERSyto.zip",
+                    "Size": 42917267
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "26569-ERSytoBleed.zip",
+                    "URL_postfix": "/broad_data/plate_26569/26569-ERSytoBleed.zip",
+                    "Size": 40568939
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "26569-Hoechst.zip",
+                    "URL_postfix": "/broad_data/plate_26569/26569-Hoechst.zip",
+                    "Size": 38302302
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "26569-Mito.zip",
+                    "URL_postfix": "/broad_data/plate_26569/26569-Mito.zip",
+                    "Size": 46387042
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "26569-Ph_golgi.zip",
+                    "URL_postfix": "/broad_data/plate_26569/26569-Ph_golgi.zip",
+                    "Size": 43956591
+                }
+            ]
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL46316",
+            "ARK": "ark:/b7295/w9cil46316",
+            "Title": "Sigrun Gustafsdottir, Vebjorn Ljosa, Katherine Sokolnicki, Joshua Bittker, Nicole Bodycombe, Mark Bray, Vlado Dancik, Tom Hasaka, Suk Hon, Melissa Kemp, Kejie Li, Deepika Walpita, Mathias Wawer, Todd Golub, Stuart Schreiber, Paul Clemons, Anne Carpenter, Alykhan Shamji (2014) CIL:46316, Homo sapiens. CIL. Dataset"
+        }
+    }
+}

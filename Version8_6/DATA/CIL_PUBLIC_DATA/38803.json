@@ -1,0 +1,151 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38803.tif",
+                    "Size": 1400000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38803.jpg",
+                    "Size": 118738
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38803.zip",
+                    "Size": 136075
+                },
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38803_orig.jpg",
+                    "Size": 135937
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "gene expression",
+                        "onto_id": "GO:0010467"
+                    },
+                    {
+                        "onto_name": "cell differentiation",
+                        "onto_id": "GO:0030154"
+                    }
+                ],
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "ZEBRAFISH_ANATOMY": [
+                    {
+                        "onto_name": "eye",
+                        "onto_id": "ZFA:0000107"
+                    },
+                    {
+                        "onto_name": "retina",
+                        "onto_id": "ZFA:0000152"
+                    },
+                    {
+                        "onto_name": "lens",
+                        "onto_id": "ZFA:0000035"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image B0007780, 2011 Wellcome Image Award winner.  Copyrighted work available under Creative Commons by-nc-nd 2.0 UK: England & Wales, see http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 769
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "label conjugated to probe",
+                    "onto_id": "FBbi:00000128"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "retinal progenitor cell",
+                        "onto_id": "CL:0002672"
+                    },
+                    {
+                        "free_text": "retinal neurons"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This photomicrograph shows the retina from the eye of a three-day-old zebrafish.  The retina is viewed here from the front, as if the viewer is looking directly into the eye of the fish. This image is of the whole eye, created by reflecting half the image to represent the naturally occurring symmetry. It was created using a double in situ hybridization - a staining technique that identifies spatial expression of gene products. Using this technique, different structures can be identified by staining for genes known to be found in specific tissues. Retinal stem cells start to differentiate to become functional retinal neurons that are responsible for sending visual signals to the brain. Undifferentiated stem cells are shown in red, whereas the cells that have started to differentiate are shown in purple and are located at the periphery of the retina. The central yellow region is the lens. 2011 Wellcome Image Award winn"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "Wellcome Images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Steve Wilson"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": [
+                    {
+                        "onto_id": "ZFA:ZFA:0000107"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFA:0000152"
+                    },
+                    {
+                        "onto_id": "ZFA:ZFA:0000035"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38803",
+            "ARK": "ark:/b7295/w9cil38803",
+            "Title": "Steve Wilson (2011) CIL:38803, Danio rerio, retinal progenitor cell, retinal neurons. CIL. Dataset"
+        }
+    }
+}

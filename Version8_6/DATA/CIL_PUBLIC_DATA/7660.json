@@ -1,0 +1,182 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "7660.jpg",
+                    "Size": 65404
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "7660.flv",
+                    "Size": 5168622
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "7660.zip",
+                    "Size": 6389884
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    },
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    }
+                ],
+                "GROUP_ID": "2884",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "transmission electron microscopy (TEM)",
+                        "onto_id": "FBbi:00000258"
+                    },
+                    {
+                        "free_text": "tomogram"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "mitochondrion",
+                        "onto_id": "GO:0005739"
+                    },
+                    {
+                        "onto_name": "rod spherule",
+                        "onto_id": "GO:0044317"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "CELLLINE": [
+                    {
+                        "onto_name": "Cone pedicle",
+                        "onto_id": "FMA:62242"
+                    },
+                    {
+                        "onto_name": "Mitochondrial crista",
+                        "onto_id": "FMA:66971"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 448,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.19
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 500,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 0.19
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Z",
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 2.2
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "lead salt",
+                    "onto_id": "FBbi:00000570"
+                },
+                "PROCESSINGHISTORY": [
+                    {
+                        "free_text": "Xvoxtrace"
+                    },
+                    {
+                        "free_text": "Amira"
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Movie showing 5 clips of the three-dimensional details of rod spherule mitochondria generated using electron tomography. Spherules have one large ovoid mitochondrion located near the active zone. \nClip1: A rapid sequence through 149 2.2 nm-thick slices of the tomographic volume of a rod spherule that shows two side-by-side spherules each with a large mitochondrion having many cristae.\nClip2: Segmentation of the left-hand mitochondrion overlaid on the volume. All 204 cristae of various colors are shown inside the outer membrane made translucent to visualize the cristae.\nClip3: Rotation of the side view of the segmented volume. More than 30% of the volume is occupied by cristae.\nClip4: Rotation showing only 9 cristae to emphasize the variety in shapes and sizes. Most of the cristae are tubular. However, some cristae possess lamellar compartments.\nClip5: Rotation of the side view of the inner membrane of the segmented volume displayed with left lighting. Crista junction openings are invariably narrow and rather uniform in diameter. Two of the crista junction openings are labeled for reference.\n\nMitochondria in spherules and pedicles differ markedly in their number, cellular location, volume, cristae surface area and volume, and crista junction diameter indicating that ATP demand and mitochondrial ATP production are greater in pedicles than spherules. Electron tomography on a 400 kV electron microscope was used to generate the spherule volumes. The program Analyze allowed for volume visualization. Volume segmentation was performed using Xvoxtrace. The movie was created with Amira."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Guy A. Perkins",
+                        "Patrick H. Poquiz",
+                        "Mark H. Ellisman",
+                        "Donald A. Fox"
+                    ],
+                    "PUBMED": [
+                        "16120425",
+                        "12540825",
+                        "17653034",
+                        "9441927",
+                        "18620004",
+                        "12632036"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "portrayed image",
+                        "onto_id": "FBbi:00000266"
+                    },
+                    {
+                        "onto_name": "computer graphic",
+                        "onto_id": "FBbi:00000224"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL7660",
+            "ARK": "ark:/b7295/w9cil7660",
+            "Title": "Guy A. Perkins, Patrick H. Poquiz, Mark H. Ellisman, Donald A. Fox (2010) CIL:7660, Mus musculus. CIL. Dataset"
+        }
+    }
+}

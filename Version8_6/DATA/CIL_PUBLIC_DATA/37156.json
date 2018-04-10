@@ -1,0 +1,110 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37156.jpg",
+                    "Size": 4674861
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "37156.tif",
+                    "Size": 63300000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37156.zip",
+                    "Size": 63189650
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "free_text": "cell fractionation"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cavia porcellus",
+                    "onto_id": "NCBITaxon:10141"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "The authors took advantage of the fact that rats gavage-fed a large bolus of ethanol were observed to have their Golgi cisternae loaded with LDL particles. Since LDL partlcles are lighter than most other intracellular organelles, following homognenization of ethanol-fed rats, the Golgi fractions \"floated\" to the top of denser sucrose gradients during centrifugation. This allowed investigators to analyze the membrane properties of \"pure\" Golgi fractions and set the stage for development of fusion assays that led to an understanding of factors regulating the specificity of membrane fusion - the SNARE hypothesis.  An additional technical reference is Ehrenreich et al 1973 JCB 59:45-72.\nOriginal 3.25 in. x 4 in. lantern slides were scanned at 600dpi.  Original Magnification: x13,750."
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "GROUP_ID": "11069",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 6000
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 5265
+                        }
+                    }
+                ],
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of a cell fractionation of golgi bottom fraction. Image made available by James D. Jamieson and the Department of Cell Biology, Yale University School of Medicine."
+                },
+                "ATTRIBUTION": {
+                    "DATE": [
+                        "02/01/1969"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "George E. Palade EM Slide Collection",
+                            "Href": "http://cushing.med.yale.edu/gsdl/cgi-bin/library?c=palade&a=d&d=DpaladeFxI"
+                        }
+                    ],
+                    "Contributors": [
+                        "John Bergeron",
+                        "George E. Palade",
+                        "Philip Siekevitz"
+                    ]
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37156",
+            "ARK": "ark:/b7295/w9cil37156",
+            "Title": "John Bergeron, George E. Palade, Philip Siekevitz (2011) CIL:37156, Cavia porcellus. CIL. Dataset"
+        }
+    }
+}

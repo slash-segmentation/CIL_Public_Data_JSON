@@ -1,0 +1,107 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "40654.jpg",
+                    "Size": 66726
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "40654.tif",
+                    "Size": 1100000
+                }
+            ],
+            "CORE": {
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae",
+                    "onto_id": "NCBITaxon:4932"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering",
+                    "onto_id": "FBbi:00000310"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Image collected on FEI instrument: XL SEM Family, using Magnification: 7500x, Voltage: 5keV, Detector: TLD, Spot: 4.0 nA, and Working Distance: 5.4 mm."
+                },
+                "IMAGINGMODE": {
+                    "free_text": "cryo-SEM"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 670
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 503
+                        }
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "cell surface",
+                        "onto_id": "GO:0009986"
+                    },
+                    {
+                        "onto_name": "cytoplasm",
+                        "onto_id": "GO:0005737"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "colorized"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Colorized cryo-SEM image of yeast.  Yeast exterior shown in pink and interior shown in yellow."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "FEI Life Science Images",
+                            "Href": "http://www.fei.com/resources/image-gallery/yeast-1180.aspx"
+                        }
+                    ],
+                    "Contributors": [
+                        "Bryony James"
+                    ]
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "cytoplasm organization",
+                    "onto_id": "GO:0007028"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL40654",
+            "ARK": "ark:/b7295/w9cil40654",
+            "Title": "Bryony James (2012) CIL:40654, Saccharomyces cerevisiae. CIL. Dataset"
+        }
+    }
+}

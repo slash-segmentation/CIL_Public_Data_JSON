@@ -1,0 +1,150 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "25776.jpg",
+                    "Size": 76292
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "25776.zip",
+                    "Size": 7172224
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "25776.flv",
+                    "Size": 584902
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "8682",
+                "IMAGINGMODE": {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "convergent extension involved in axis elongation",
+                    "onto_id": "GO:0060028"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Platynereis dumerilii",
+                    "onto_id": "NCBITaxon:6359"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "To label cellular outlines, embryos were incubated for 15 min in 5 \u03bcM BODIPY564/570 coupled to propionic acid (Invitrogen, Carlsbad, CA) in natural seawater, then rinsed twice in natural seawater and mounted in a 1:1 mixture of natural seawater and 7.5% MgCl2 to prevent muscular contractions. Time-lapse recordings were performed with a PerkinElmer (Wellesley, MA) Ultraview RS System (spinning disk confocal). Embryos were kept during recordings (12 frames per hour) at a constant temperature of 25C or 26C in natural seawater between slide and coverslip separated by two layers of adhesive tape and silicone paste. The chamber was sealed with mineral oil (Sigma, St. Louis, MO)."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 672
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "61",
+                            "value": 300
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "probe for lipid",
+                        "onto_id": "FBbi:00000112"
+                    },
+                    {
+                        "free_text": "BODIPY 564/570"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "neurecto-epithelial cell",
+                    "onto_id": "CL:0000710"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Polarized cell rearrangement in the Platynereis neuroectoderm visualized by time-lapse imaging. This time-lapse movie shows convergent extension by mediolateral cell intercalation of the ventral neuroectoderm of Platynereis between 53 and 58 hours post fertilization at 25C. The movie covers a period of 300 min in 61 frames and is Movie 1 in supporting information for Proc Natl Acad Sci (2007) 104: 2727-2732."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;intensitiesquantitation"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "Proc Natl Acad Sci (2007) 104: 2727-2732."
+                    ],
+                    "Contributors": [
+                        "Patrick R. H. Steinmetz",
+                        "Fabiola Zelada-Gonz\u00e1les",
+                        "Carola Burgtorf",
+                        "Joachim Wittbrodt",
+                        "Detlev Arendt"
+                    ],
+                    "PUBMED": [
+                        "17301244"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": ":Polychaete development"
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "time lapse microscopy",
+                        "onto_id": "FBbi:00000249"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL25776",
+            "ARK": "ark:/b7295/w9cil25776",
+            "Title": "Patrick R. H. Steinmetz, Fabiola Zelada-Gonz\u00e1les, Carola Burgtorf, Joachim Wittbrodt, Detlev Arendt (2011) CIL:25776, Platynereis dumerilii, neurecto-epithelial cell. CIL. Dataset"
+        }
+    }
+}

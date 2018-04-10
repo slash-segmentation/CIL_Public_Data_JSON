@@ -1,0 +1,143 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "44153.tif",
+                    "Size": 3000000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "44153.jpg",
+                    "Size": 364644
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "14302",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "confocal microscopy",
+                        "onto_id": "FBbi:00000251"
+                    },
+                    {
+                        "onto_name": "multi-photon microscopy",
+                        "onto_id": "FBbi:00000255"
+                    }
+                ],
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cytoplasm",
+                    "onto_id": "GO:0005737"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "clonal expansion of progenitor cells"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "compartmentalization of stain or label",
+                    "onto_id": "FBbi:00000604"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Imaging was performed using a Leica TCS SP5-AOBS 5-channel confocal/two photon system equipped with multiline Argon, diode 561 nm, HeNe 594 nm and HeNe 633 nm as well as TiSaph two photon laser. Images were recorded with a 25x 0.95 NA water dipping objective lens, and 5 micrometer z-spacing and processed using Imaris (Bitplane). \nSee also: Malide D, Metais J-Y, and Dunbar CE. (2012). Dynamic clonal analysis of murine hematopoietic stem and progenitor cells marked by 5 fluorescent proteins using confocal and multiphoton microscopy. Blood. Dec 20;120(26):e105-16."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 954
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1020
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "CeruleanFP",
+                        "onto_id": "FBbi:00000468"
+                    },
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "VenusFP",
+                        "onto_id": "FBbi:00000477"
+                    },
+                    {
+                        "onto_name": "tdTomatoFP",
+                        "onto_id": "FBbi:00000518"
+                    },
+                    {
+                        "onto_name": "mCherryFP",
+                        "onto_id": "FBbi:00000525"
+                    },
+                    {
+                        "free_text": "second harmonic generation SHG"
+                    }
+                ],
+                "CELLTYPE": {
+                    "free_text": "lymph node"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The picture represents a 3D-reconstruction (using Imaris software) of confocal/multiphoton (Leica SP5) images collected through the thickness (100 micrometers) of a live lymph node from a bone-marrow transplanted mouse. Cells marked by five fluorescent proteins: Cerulean (cyan), EGFP (green), Venus (yellow), tdTomato (purple), mCherry (red) appear surrounded by collagen matrix (second harmonic generation-SHG, white) at 4 months post-transplant. \nSee also Malide et al. (2012)  Dynamic clonal analysis of murine hematopoietic stem and progenitor cells marked by 5 fluorescent proteins using confocal and multiphoton microscopy. Blood. Dec 20;120(26):e105-16.\n\nThis is one of three grouped images obtained using the same imaging strategy."
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "National Institutes of Heath, Bethesda, MD"
+                    ],
+                    "Contributors": [
+                        "Daniela Malide",
+                        "Jean-Yves Metais",
+                        "Cynthia Dunbar"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL44153",
+            "ARK": "ark:/b7295/w9cil44153",
+            "Title": "Daniela Malide, Jean-Yves Metais, Cynthia Dunbar (2013) CIL:44153, Mus musculus, lymph node. CIL. Dataset"
+        }
+    }
+}

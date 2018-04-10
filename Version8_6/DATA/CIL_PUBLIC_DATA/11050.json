@@ -1,0 +1,155 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11050.jpg",
+                    "Size": 373847
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "11050.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11050.zip",
+                    "Size": 1362866
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "freeze_fracture/freeze_etch",
+                    "onto_id": "FBbi:00000419"
+                },
+                "GROUP_ID": "11075",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nuclear envelope",
+                        "onto_id": "GO:0005635"
+                    },
+                    {
+                        "onto_name": "nuclear pore",
+                        "onto_id": "GO:0005643"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "nucleus organization",
+                        "onto_id": "GO:0006997"
+                    },
+                    {
+                        "onto_name": "nuclear transport",
+                        "onto_id": "GO:0051169"
+                    },
+                    {
+                        "onto_name": "nuclear pore organization",
+                        "onto_id": "GO:0006999"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "replica of fracture surface"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in deposition of metal shadow",
+                    "onto_id": "FBbi:00000601"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Cavia porcellus",
+                    "onto_id": "NCBITaxon:10141"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See: Fawcett and Chemes (1979) Tissue Cell 11:147-162"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 914
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1272
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "shadowing and plating",
+                    "onto_id": "FBbi:00000398"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "Image extracted from .pdf file of 'The Cell'"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Transmission electron micrograph of surface of nuclear envelope of guinea pig spermatocyte prepared by the Freeze-fracture technique shows the unusual clustering of nuclear pores in these cells.  From Fawcett and Chemes (1979) Tissue Cell 11:147-162, and reprinted with permission as Figure 150 from Chapter 4 (Nucleus) of 'The Cell, 2nd Ed.' by Don W. Fawcett M.D.  A PDF copy of the accompanying chapter is available on the ASCB's BioEDUCATE website."
+                },
+                "CELLTYPE": {
+                    "onto_name": "spermatocyte",
+                    "onto_id": "CL:0000017"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "ASCB BioEDUCATE Program",
+                            "Href": "http://www.ascb.org/bioeducate/FawcettTheCell.htm"
+                        },
+                        {
+                            "Label": "Tissue and Cell",
+                            "Href": "http://www.sciencedirect.com/science/article/pii/0040816679900156"
+                        }
+                    ],
+                    "PUBLISHED": [
+                        "ISBN 0721635849",
+                        "from: Don W. Fawcett M.D  \u2018The Cell\u2019 2nd edition, W.B. Saunders  Chapter 4 (Nucleus)"
+                    ],
+                    "Contributors": [
+                        "Don W. Fawcett",
+                        "Hector E. Chemes"
+                    ],
+                    "PUBMED": [
+                        "451991"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11050",
+            "ARK": "ark:/b7295/w9cil11050",
+            "Title": "Don W. Fawcett, Hector E. Chemes (2011) CIL:11050, Cavia porcellus, spermatocyte. CIL. Dataset"
+        }
+    }
+}

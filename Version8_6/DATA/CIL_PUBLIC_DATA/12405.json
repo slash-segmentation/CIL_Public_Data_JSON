@@ -1,0 +1,134 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "12405.zip",
+                    "Size": 18655254
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "12405.jpg",
+                    "Size": 1404095
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "12405.tif",
+                    "Size": 14500000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "glutaraldehyde fixed tissue",
+                        "onto_id": "FBbi:00000011"
+                    },
+                    {
+                        "onto_name": "osmium tetroxide fixed tissue",
+                        "onto_id": "FBbi:00000012"
+                    },
+                    {
+                        "onto_name": "tissue in epoxy resin embedment",
+                        "onto_id": "FBbi:00000018"
+                    }
+                ],
+                "GROUP_ID": "3664",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "promastigote form"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "sectioned tissue",
+                    "onto_id": "FBbi:00000026"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "CELLLINE": {
+                    "free_text": "WHO strain MNYC/BZ/62/M379"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Leishmania mexicana",
+                    "onto_id": "NCBITaxon:5665"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "electron density",
+                    "onto_id": "FBbi:00000315"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2177,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.952
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3303,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1.952
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "osmium tetroxide",
+                    "onto_id": "FBbi:00000571"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Longitudinal section through a Leishmania promastigote cell.\nLeishmania mexicana promastigote forms (WHO strain MNYC/BZ/62/M379) were grown in M199 culture medium. Cells were fixed with glutaraldehyde, post-fixed with osmium tetroxide, dehydrated in ethanol and embedded in epoxy resin. Thin sections (~90 nm) were viewed on a Philips Technai 12 transmission electron microscope operating at 80 kV. Magnification 13000X."
+                },
+                "CELLTYPE": {
+                    "free_text": "parasite"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Eva Gluenz"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_id": "Bbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL12405",
+            "ARK": "ark:/b7295/w9cil12405",
+            "Title": "Eva Gluenz (2011) CIL:12405, Leishmania mexicana, parasite. CIL. Dataset"
+        }
+    }
+}

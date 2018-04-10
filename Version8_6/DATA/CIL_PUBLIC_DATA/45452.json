@@ -1,0 +1,118 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "45452.tif",
+                    "Size": 121800000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "45452.jpg",
+                    "Size": 508124
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "45452.zip",
+                    "Size": 121654537
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "free_text": "living tissue"
+                },
+                "GROUP_ID": "17052",
+                "IMAGINGMODE": {
+                    "free_text": "differential interference contrast microscopy"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "cell migration"
+                },
+                "SOURCEOFCONTRAST": {
+                    "free_text": "boundaries between regions with different refractive index"
+                },
+                "CELLLINE": {
+                    "free_text": "DA3"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "free_text": "optical path length gradient"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "DA3 cells expressing the fluorescent protein mCherry were grown to 90% confluence in wells of 2 cm diameter in DMEM supplemented with 10% heat-inactivated FCS (Gibco-BRL) and treated with the Met inhibitor PHA665752 (2.5 \u00b5M) for 2 hrs. A scratch was generated using a 200 \u00b5l tip, and the cells were incubated and subjected to time lapse confocal laser scanning microscopy (CLSM-510, Zeiss, Germany) for approximately 26 hrs, with images taken at 14.5 min intervals. The position of each scratch was predefined, and a macro that repetitively positions the microscope on each point was executed. The acquired differential interference contrast (DIC) channel of the time-lapse sequence (shown here) was used for the multi-cellular analysis."
+                },
+                "MOLECULARFUNCTION": {
+                    "free_text": "wound healing"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 1.24
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 1024,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 1.24
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "free_text": "visualization of contiguous regions"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Wound Healing Assay Time series DIC images of mouse DA3 cells, derived from the mouse mammary adenocarcinoma cell line D1-DMBA-3, induced in BALB/C mice by dimethylbenzanthracene were grown to 90% confluence. A scratch approximately 300um wide was made in the cell monolayer, and images were recorded every 14.5 min for 26 hr. This time series image, obtained with PHA (c-Met inhibitor) treatment, is part of a group of 4 time series images (CIL:45451 to CIL:45454)."
+                },
+                "CELLTYPE": {
+                    "free_text": "mammary adenocarcinoma"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Assaf Zaritsky"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_cc_by"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": true,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL45452",
+            "ARK": "ark:/b7295/w9cil45452",
+            "Title": "Assaf Zaritsky (2013) CIL:45452, Mus musculus, mammary adenocarcinoma. CIL. Dataset"
+        }
+    }
+}

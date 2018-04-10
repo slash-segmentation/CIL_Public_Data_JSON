@@ -1,0 +1,157 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "13160.flv",
+                    "Size": 283057
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "13160.zip",
+                    "Size": 209024
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "13160.jpg",
+                    "Size": 42731
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "9565",
+                "IMAGINGMODE": {
+                    "onto_name": "phase contrast microscopy",
+                    "onto_id": "FBbi:00000247"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell",
+                    "onto_id": "GO:0005623"
+                },
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "cell migration",
+                        "onto_id": "GO:0016477"
+                    },
+                    {
+                        "onto_name": "substrate-dependent cell migration, cell attachment to substrate",
+                        "onto_id": "GO:0006931"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in amount of elastic light scattering",
+                    "onto_id": "FBbi:00000600"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of photons",
+                    "onto_id": "FBbi:00000587"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Following gluteraldehyde quenching, ECM proteins were absorbed onto the PVA surface.  Videos were recorded on a Axiovert 135TV (Carl Zeiss, Inc.) with a charge-coupled device camera (ORCA II ER; Hamamatsu Photonics). MetaMorph imaging software was used to acquire images and control all hardware. A custom environmental chamber (Lucite) enclosed both time-lapse and TIRF microscopes and maintained cells at 37\u00b0C with 10% CO2.  Images were collected every 4 min and shown at 15 frames per second."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 900,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.45
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 300,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.45
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "value": 240
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "visualization of contiguous regions",
+                    "onto_id": "FBbi:00000396"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "custom-made smoothing, sharpening, and convolution filters using MetaMorph software"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Topographical regulation of keratinocyte migration. 2D, 3D, and 1D fibrillar migration of human epidermal keratinocytes. 2D matrices were constructed by uniform coating with extracellular matrix (ECM).  3D surfaces were constructed according to Science. 294: 1708\u20131712 (2001).  1D surfaces were made by using a 2 photon confocal microscope to pattern a polyvinyl alchohol (PVA) coated coverslip. Movie is video 4 from JCB 2009, 184:481-490"
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "keratinocyte",
+                        "onto_id": "CL:0000312"
+                    },
+                    {
+                        "onto_name": "epidermal cell",
+                        "onto_id": "CL:0000362"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "JCB 2009, 184:481-490"
+                    ],
+                    "Contributors": [
+                        "Andrew D. Doyle",
+                        "Francis W. Wang",
+                        "Kazue Matsumoto",
+                        "Kenneth M. Yamada"
+                    ],
+                    "PUBMED": [
+                        "19221195"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL13160",
+            "ARK": "ark:/b7295/w9cil13160",
+            "Title": "Andrew D. Doyle, Francis W. Wang, Kazue Matsumoto, Kenneth M. Yamada (2011) CIL:13160, Homo sapiens, keratinocyte, epidermal cell. CIL. Dataset"
+        }
+    }
+}

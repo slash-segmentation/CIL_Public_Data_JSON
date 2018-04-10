@@ -1,0 +1,178 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "34864.tif",
+                    "Size": 37700000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "34864.jpg",
+                    "Size": 1758268
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "34864.zip",
+                    "Size": 37627550
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "formaldehyde fixed tissue",
+                    "onto_id": "FBbi:00000010"
+                },
+                "GROUP_ID": "8591",
+                "IMAGINGMODE": {
+                    "onto_name": "bright-field microscopy",
+                    "onto_id": "FBbi:00000243"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "nucleus",
+                    "onto_id": "GO:0005634"
+                },
+                "HUMAN_DEV_ANATOMY": [
+                    {
+                        "onto_name": "gall bladder",
+                        "onto_id": "EHDAA:8062"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "leukocyte chemotaxis involved in inflammatory response",
+                        "onto_id": "GO:0002232"
+                    },
+                    {
+                        "onto_name": "acute inflammatory response",
+                        "onto_id": "GO:0002526"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": [
+                    {
+                        "onto_name": "chemically fixed tissue",
+                        "onto_id": "FBbi:00000002"
+                    },
+                    {
+                        "onto_name": "sectioned tissue",
+                        "onto_id": "FBbi:00000026"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "compartmentalization of stain or label",
+                        "onto_id": "FBbi:00000604"
+                    },
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "absorption of illumination",
+                    "onto_id": "FBbi:00000308"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Tissue was prepared by standard histological methods for pathology.  Biopsy was fixed, cut, and stained with hematolylin and eosin.  Images were collected using an Olympus BX51 scope, DP71 camera, and a 40x objective. Spatial scale is approximate based on known size of cell nuclei."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4080,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.9
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 3072,
+                            "Pixel_size": {
+                                "unit": "microns",
+                                "value": 0.9
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "hematoxylin",
+                        "onto_id": "FBbi:00000041"
+                    },
+                    {
+                        "onto_name": "eosin",
+                        "onto_id": "FBbi:00000037"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "free_text": "Color Balance Adjusted"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Gallbladder wall of a human patient with gallstones.  The  duct (clear zone at center) is lined by highly polarized epithelial cells with dark nuclei at the base.  At the top of the picture, below the epithelial layer, there is a large volume of foamy macrophages laden with cholesterol.  The patient subsequently underwent gall bladder removal surgery."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "epithelial cell",
+                        "onto_id": "CL:0000066"
+                    },
+                    {
+                        "onto_name": "foam cell",
+                        "onto_id": "CL:0000891"
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED;spatialmeasurements"
+                },
+                "PATHOLOGICALPROCESS": {
+                    "onto_id": "DOID:DOID:0000000"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "William Karkow"
+                    ]
+                },
+                "SPECIESTAXASPECIFIC": {
+                    "onto_id": "EHDAA:EHDAA:8062"
+                },
+                "HUMAN_DISEASE": [
+                    {
+                        "onto_name": "gallbladder disease",
+                        "onto_id": "DOID:0000000"
+                    }
+                ],
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL34864",
+            "ARK": "ark:/b7295/w9cil34864",
+            "Title": "William Karkow (2011) CIL:34864, Homo sapiens, epithelial cell, foam cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,141 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "814.zip",
+                    "Size": 15505530
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "814.tif",
+                    "Size": 15600000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "814.jpg",
+                    "Size": 541691
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "onto_name": "glycerol permeabilized",
+                        "onto_id": "FBbi:00000129"
+                    },
+                    {
+                        "onto_name": "detergent permeabilized",
+                        "onto_id": "FBbi:00000262"
+                    },
+                    {
+                        "onto_name": "primary antibody plus labeled secondary antibody",
+                        "onto_id": "FBbi:00000156"
+                    }
+                ],
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "mitochondrion",
+                    "onto_id": "GO:0005739"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "apoptotic mitochondrial changes",
+                    "onto_id": "GO:0008637"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "free_text": "local accumulation of fluorescent probe"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Homo sapiens",
+                    "onto_id": "NCBITaxon:9606"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "MOLECULARFUNCTION": {
+                    "onto_name": "ATP biosynthetic process",
+                    "onto_id": "GO:0006754"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 2560,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 32.69
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 2016,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 32.69
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "Rhodamine",
+                    "onto_id": "FBbi:00000452"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "CELLTYPE": {
+                    "onto_name": "permanent cell line cell",
+                    "onto_id": "CL:0000002"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "This culture of HeLa cells was grown, fixed and labeled directly on 35-mm plastic petri dishes (not on cover slips).  To preserve the 3D structure of cells, cultures were fixed in formaldehyde vapors at room temperature over 20 min.  Fixation was performed as follows: medium was completely aspirated, a 50ul drop of 37% formaldehyde was placed on the lid of the dish and covered with the dish of cells, bottom up. After fixation  dishes were carefully filled with 1ml of 50% glycerol in PBS and dishes were stored at -20 C until staining. \n\nBefore staining, cells were incubated with blocking solution (5% fetal calf serum, PBS, 0.2% triton x-100, 25 min room temp.), then treated with primary antibody, which was mouse anti-Cytochrome C from BD Pharmigen (cat.# 556433) diluted 1:100 in blocking solution, 1h room temp.  After standard washing (PBS 3-4 times, 5 min each), secondary antibody (donkey monovalent Fab-fragment anti-mouse IgG conjugated with Rhodamine Red-X from Jackson ImmunoResearch laboratories, concentration 2.5ug/ml) was applied.\n\nImages were captured on a Zeiss Axioplan-2.  Objective - 63x oil immersion/NA 1.25. Magnifying lens (optovar) was 1.5. Digital camera \u2013 Hamamatsu ORCA-ER. Program \u2013 AxioVision 3.5.1. Illumination-mercury bulb HBP50.  Filter set \u2013 standard for Rhodamine/Cy3/Alexa 564 \u2013 excitation 530-585 and emission LP 615.  Mounting medium-VectaShield."
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Gleiberman, Anatoli"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "microscopy",
+                    "onto_id": "FBbi:00000241"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL814",
+            "ARK": "ark:/b7295/w9cil814",
+            "Title": "Gleiberman, Anatoli (2010) CIL:814, Homo sapiens, permanent cell line cell. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,132 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "24972.tif",
+                    "Size": 64400000
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "24972.zip",
+                    "Size": 64326834
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "24972.jpg",
+                    "Size": 5240775
+                }
+            ],
+            "CORE": {
+                "PREPARATION": [
+                    {
+                        "onto_name": "formaldehyde fixed tissue",
+                        "onto_id": "FBbi:00000010"
+                    },
+                    {
+                        "free_text": "acetic acid treatment"
+                    }
+                ],
+                "GROUP_ID": "11171",
+                "IMAGINGMODE": {
+                    "onto_name": "transmission electron microscopy (TEM)",
+                    "onto_id": "FBbi:00000258"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "polytene chromosome",
+                    "onto_id": "GO:0005700"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "chromosome organization",
+                    "onto_id": "GO:0051276"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "free_text": "squashed preparation"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "differences in adsorption or binding of stain",
+                    "onto_id": "FBbi:00000598"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila melanogaster",
+                    "onto_id": "NCBITaxon:7227"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "elastic scattering of electrons",
+                    "onto_id": "FBbi:00000586"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "Fat body cells from 3rd instar larvae of Drosophila melanogaster were dissected, fixed with formalin-acetic acid containing 0.1% Triton-X 100, and squashed on a glass slide. After freezing in liquid nitrogen, the cover slips removed, and the slide thawed and stained with 1% uranyl acetate, rinsed in 50% ethanol, dehydrated and transferred to amyl acetate, and covered with 2% parlodion in amyl acetate. Selected areas of the parlodion film were transferred to formvar coated EM grids, and the parlodion removed by immersion in amyl acetate (see Ris H, 1981 Stereoscopic Electron Microscopy of Chromosomes, Meth Cell Biol 22:77-96). Grids were observed using the Madison High Voltage Electron Microscope at 1 MeV."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 6700,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 4800,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 1
+                            }
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "uranyl salt",
+                    "onto_id": "FBbi:00000569"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "High Voltage TEM image showing the series of bands and interbands characteristic of a polytene chromosome. This image of a whole mount preparation of a fat body cell polytene chromosome from Drosophila melanogaster was taken with a tilt angle of 55 degrees. The accompanying grouped image, taken at 45 degrees forms a stereo pair, providing an oblique 3D view of the chromosome."
+                },
+                "CELLTYPE": {
+                    "onto_name": "fat body cell",
+                    "onto_id": "CL:0000565"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Hans Ris"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "film",
+                    "onto_id": "FBbi:00000303"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL24972",
+            "ARK": "ark:/b7295/w9cil24972",
+            "Title": "Hans Ris (2011) CIL:24972, Drosophila melanogaster, fat body cell. CIL. Dataset"
+        }
+    }
+}

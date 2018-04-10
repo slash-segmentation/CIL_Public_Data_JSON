@@ -1,0 +1,163 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "38963_orig.jpg",
+                    "Size": 54062
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "38963.zip",
+                    "Size": 54200
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "38963.jpg",
+                    "Size": 47025
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "38963.tif",
+                    "Size": 800000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "free_text": "in situ hybridization"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "differential interference contrast microscopy",
+                    "onto_id": "FBbi:00000245"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "oskar mRNA"
+                    },
+                    {
+                        "free_text": "bicoid mRNA"
+                    },
+                    {
+                        "free_text": "gurken mRNA"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "intracellular mRNA localization",
+                        "onto_id": "GO:0008298"
+                    },
+                    {
+                        "free_text": "embryo polarity"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "optical path length gradient",
+                        "onto_id": "FBbi:00000312"
+                    },
+                    {
+                        "onto_name": "absorption of illumination",
+                        "onto_id": "FBbi:00000308"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Drosophila",
+                    "onto_id": "NCBITaxon:7215"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    },
+                    {
+                        "onto_name": "boundaries between regions with different refractive index",
+                        "onto_id": "FBbi:00000599"
+                    }
+                ],
+                "TECHNICALDETAILS": {
+                    "free_text": "B0003778 Drosophila embryo polarity .  Wellcome Images available under the following creative commons usage http://creativecommons.org/licenses/by-nc-nd/2.0/uk/"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 438
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 576
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "primary antibody plus labeled secondary antibody",
+                    "onto_id": "FBbi:00000156"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "unprocessed"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "In situ hybridizations showing the localization of bicoid (top), oskar (middle) and gurken (bottom) mRNAs in the stage 10 Drosophila egg chambers.  These localizations define the anterior- posterior and dorsal-ventral axes of the embryo. The egg chambers consists of 15 nurse cells and a large oocyte (right), which is surrounded by a layer of somatic follical cells. Bicoid mRNA localises to anterior of the oocyte, directing where head and thorax of embryo develop. Posterior localisation of oskar mRNA directs formation of the pole plasm that contains the abdominal and germline determinants. Gurken is translated on the dorsal side, producing a signalling molecule that causes adjacent follical cells to define the embryo's dorsal-ventral axis."
+                },
+                "CELLTYPE": [
+                    {
+                        "onto_name": "invertebrate nurse cell",
+                        "onto_id": "CL:0000026"
+                    },
+                    {
+                        "onto_name": "oocyte",
+                        "onto_id": "CL:0000023"
+                    },
+                    {
+                        "onto_name": "follicle cell",
+                        "onto_id": "CL:0000477"
+                    }
+                ],
+                "ATTRIBUTION": {
+                    "OTHER": [
+                        "Daniel St. Johnston"
+                    ],
+                    "URLs": [
+                        {
+                            "Label": "wellcome images",
+                            "Href": "http://images.wellcome.ac.uk/"
+                        }
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_nd"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL38963",
+            "ARK": "ark:/b7295/w9cil38963",
+            "Title": "CIL (2012) CIL:38963, Drosophila, invertebrate nurse cell, oocyte, follicle cell. CIL. Dataset"
+        }
+    }
+}

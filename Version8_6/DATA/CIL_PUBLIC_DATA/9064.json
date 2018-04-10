@@ -1,0 +1,143 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "9064.jpg",
+                    "Size": 109013
+                },
+                {
+                    "Mime_type": "video/x-flv",
+                    "File_type": "Flv",
+                    "File_path": "9064.flv",
+                    "Size": 1471068
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "9064.zip",
+                    "Size": 16425084
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "3782",
+                "IMAGINGMODE": {
+                    "onto_name": "polarization microscopy",
+                    "onto_id": "FBbi:00000248"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cytoskeleton",
+                    "onto_id": "GO:0005856"
+                },
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "spindle assembly involved in male meiosis I",
+                    "onto_id": "GO:0007054"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "intrinsic birefringence",
+                    "onto_id": "FBbi:00000594"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "free_text": "Nephrotoma suturalis"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "UV/visible/IR photons",
+                    "onto_id": "FBbi:00000378"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 678,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 87
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 518,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 87
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "105",
+                            "value": 60
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "free_text": "relative retardation (retardance) measurement"
+                },
+                "PROCESSINGHISTORY": {
+                    "free_text": "5-frame algorithm"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The events of meiosis I in a living insect spermatocyte beginning at metaphase with bivalents at the spindle equator, followed by anaphase onset, chromosome segregation and the start of cytokinesis. Testes from the Crane fly Nephrotoma suturalis were observed with time-lapse polarization using a Nikon Microphot SA, equipped for liquid crystal polarized light microscopy (LC-PolScope, CRi, Woburn Massachusetts) 60x/1.4 PlanApo oil immersion objective, 1.4 NA oil imm. condenser, with 1.5x zoom lens. Image acquisition and processing Camera: Images captured every 60 sec over 105 min by a QImaging Retigo EXi CCD camera. Raw images were processed using a 5-frame algorithm (Shribak and Oldenbourg, 2003). Movie images represent computed retardance as gray values ranging from 0 nm retardance (black) to 2 nm retardance or higher (white)."
+                },
+                "CELLTYPE": {
+                    "onto_name": "spermatocyte",
+                    "onto_id": "CL:0000017"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Rudolf Oldenbourg",
+                        "James R. LaFountain"
+                    ],
+                    "PUBMED": [
+                        "15385630",
+                        "12790452"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": [
+                    {
+                        "onto_name": "recorded image",
+                        "onto_id": "FBbi:00000265"
+                    },
+                    {
+                        "onto_name": "charge coupled device (CCD)",
+                        "onto_id": "FBbi:00000294"
+                    },
+                    {
+                        "free_text": "Processed image based on 5 recorded images"
+                    }
+                ]
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": true
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL9064",
+            "ARK": "ark:/b7295/w9cil9064",
+            "Title": "Rudolf Oldenbourg, James R. LaFountain (2010) CIL:9064, Nephrotoma suturalis, spermatocyte. CIL. Dataset"
+        }
+    }
+}

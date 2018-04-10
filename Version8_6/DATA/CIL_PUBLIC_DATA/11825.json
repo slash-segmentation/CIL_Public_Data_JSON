@@ -1,0 +1,149 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg",
+                    "File_type": "Jpeg",
+                    "File_path": "11825_orig.jpg",
+                    "Size": 387079
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "11825.tif",
+                    "Size": 900000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "11825.jpg",
+                    "Size": 177153
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "11825.zip",
+                    "Size": 387217
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "10026",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "differential interference contrast microscopy",
+                        "onto_id": "FBbi:00000245"
+                    },
+                    {
+                        "onto_name": "single-spot confocal microscopy",
+                        "onto_id": "FBbi:00000252"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "anterior/posterior axis specification",
+                    "onto_id": "GO:0009948"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "boundaries between regions with different refractive index",
+                        "onto_id": "FBbi:00000599"
+                    },
+                    {
+                        "onto_name": "differences in adsorption or binding of stain",
+                        "onto_id": "FBbi:00000598"
+                    }
+                ],
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Danio rerio",
+                    "onto_id": "NCBITaxon:7955"
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "optical path length gradient",
+                        "onto_id": "FBbi:00000312"
+                    },
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 934
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 410
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "SYTOX Green",
+                    "onto_id": "FBbi:00000048"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;intensitiesquantitation"
+                },
+                "CELLTYPE": {
+                    "onto_name": "yolk cell",
+                    "onto_id": "CL:0000428"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Visualization of yolk syncytial layer (YSL) nuclei in living zebrafish embryos.  Sytox Green, a membrane-impermiant vital nuclear stain, was injected into the yold cell of late blastula (sphere stage) embryos.  At 36 hrs of development, the zebrafish yolk cell displays a prominent anterior-posterior (A, P) axis, with brightly displayed fluorescent nuclei distributed through its entire cortex."
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Href": "http://depts.washington.edu/fishscop/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Leonard A. D'Amico",
+                        "Mark S. Cooper"
+                    ],
+                    "PUBMED": [
+                        "11748830"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "attribution_nc_sa"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL11825",
+            "ARK": "ark:/b7295/w9cil11825",
+            "Title": "Leonard A. D'Amico, Mark S. Cooper (2011) CIL:11825, Danio rerio, yolk cell. CIL. Dataset"
+        }
+    }
+}

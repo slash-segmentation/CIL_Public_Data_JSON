@@ -1,0 +1,221 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "35663.tif",
+                    "Size": 64100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "35663.jpg",
+                    "Size": 28811
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "35663.zip",
+                    "Size": 64794784
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "onto_name": "living tissue",
+                    "onto_id": "FBbi:00000025"
+                },
+                "GROUP_ID": "10612",
+                "IMAGINGMODE": [
+                    {
+                        "onto_name": "fluorescence microscopy",
+                        "onto_id": "FBbi:00000246"
+                    },
+                    {
+                        "onto_name": "phase contrast microscopy",
+                        "onto_id": "FBbi:00000247"
+                    }
+                ],
+                "CELLULARCOMPONENT": [
+                    {
+                        "free_text": "CDC6 Protein"
+                    },
+                    {
+                        "onto_name": "pre-replicative complex",
+                        "onto_id": "GO:0005656"
+                    },
+                    {
+                        "onto_name": "DNA replication preinitiation complex",
+                        "onto_id": "GO:0031261"
+                    }
+                ],
+                "BIOLOGICALPROCESS": [
+                    {
+                        "onto_name": "G1/S transition of mitotic cell cycle",
+                        "onto_id": "GO:0000082"
+                    },
+                    {
+                        "onto_name": "pre-replicative complex assembly",
+                        "onto_id": "GO:0006267"
+                    },
+                    {
+                        "onto_name": "regulation of chromatin silencing at telomere",
+                        "onto_id": "GO:0031938"
+                    },
+                    {
+                        "onto_name": "regulation of DNA-dependent DNA replication initiation",
+                        "onto_id": "GO:0030174"
+                    },
+                    {
+                        "onto_name": "mannoprotein catabolic process",
+                        "onto_id": "GO:0006058"
+                    }
+                ],
+                "SOURCEOFCONTRAST": [
+                    {
+                        "onto_name": "distribution of a specific protein",
+                        "onto_id": "FBbi:00000597"
+                    },
+                    {
+                        "onto_name": "differences in amount of elastic light scattering",
+                        "onto_id": "FBbi:00000600"
+                    }
+                ],
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "dispersed cells in vitro",
+                    "onto_id": "FBbi:00000611"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Saccharomyces cerevisiae",
+                    "onto_id": "NCBITaxon:4932"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "The images were acquired using a 60x 1.42 NA objective lens on Delta Vision system equipped with CoolSNAP_HQ2 / HQ2-ICX285.  Please see the microscopy section in the referenced manuscript for details for image analysis."
+                },
+                "PARAMETERIMAGED": [
+                    {
+                        "onto_name": "fluorescence emission",
+                        "onto_id": "FBbi:00000316"
+                    },
+                    {
+                        "onto_name": "elastic scattering of photons",
+                        "onto_id": "FBbi:00000587"
+                    }
+                ],
+                "MOLECULARFUNCTION": [
+                    {
+                        "onto_name": "ATP binding",
+                        "onto_id": "GO:0005524"
+                    },
+                    {
+                        "free_text": "ATPase activity"
+                    },
+                    {
+                        "onto_name": "chromatin binding",
+                        "onto_id": "GO:0003682"
+                    },
+                    {
+                        "onto_name": "DNA replication origin binding",
+                        "onto_id": "GO:0003688"
+                    },
+                    {
+                        "onto_name": "GTP binding",
+                        "onto_id": "GO:0005525"
+                    },
+                    {
+                        "onto_name": "GTPase activity",
+                        "onto_id": "GO:0003924"
+                    },
+                    {
+                        "onto_name": "protein binding",
+                        "onto_id": "GO:0005515"
+                    }
+                ],
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 213.4
+                            }
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 512,
+                            "Pixel_size": {
+                                "unit": "nanometers",
+                                "value": 213.4
+                            }
+                        }
+                    },
+                    {
+                        "Time": {
+                            "unit": "seconds",
+                            "frame": "61",
+                            "value": 300
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": [
+                    {
+                        "onto_name": "EGFP",
+                        "onto_id": "FBbi:00000082"
+                    },
+                    {
+                        "onto_name": "visualization of contiguous regions",
+                        "onto_id": "FBbi:00000396"
+                    }
+                ],
+                "PROCESSINGHISTORY": {
+                    "onto_name": "unprocessed raw data",
+                    "onto_id": "FBbi:00000582"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "A time lapse experiment of Saccharomyces cerevisiae expressing GFP tagged Cdc6.  Cdc 6 is an essential ATP-binding protein required for DNA replication, component of the pre-replicative complex (pre-RC) which requires ORC to associate with chromatin and is in turn required for Mcm2-7p DNA association; homologous to S. pombe Cdc18p.  These phase, gfp images are part of an image group that ranges from CIL:35660-35679.  Note that there are additional groups showing time series of other cell cycle regulation proteins by the same authors in the Library."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "PLoS One. 2011;6(10):e26272. Epub 2011 Oct 26."
+                    ],
+                    "Contributors": [
+                        "David Ball",
+                        "Jean Peccoud"
+                    ],
+                    "PUBMED": [
+                        "22046265"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": true,
+            "Still_image": false,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL35663",
+            "ARK": "ark:/b7295/w9cil35663",
+            "Title": "David Ball, Jean Peccoud (2011) CIL:35663, Saccharomyces cerevisiae. CIL. Dataset"
+        }
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "37083.tif",
+                    "Size": 1200000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "37083.jpg",
+                    "Size": 42162
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "37083.zip",
+                    "Size": 1179679
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "CELLULARCOMPONENT": [
+                    {
+                        "onto_name": "nuclear chromosome",
+                        "onto_id": "GO:0000228"
+                    },
+                    {
+                        "onto_name": "synaptonemal complex",
+                        "onto_id": "GO:0000795"
+                    }
+                ],
+                "BIOLOGICALPROCESS": {
+                    "onto_name": "male meiosis",
+                    "onto_id": "GO:0007140"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Mus musculus",
+                    "onto_id": "NCBITaxon:10090"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "TECHNICALDETAILS": {
+                    "free_text": "See: ML Watson et al. (1998) Proc Natl Acad Sci 95:14361-14366."
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 627
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "Y",
+                            "Image_size": 627
+                        }
+                    }
+                ],
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "onto_name": "spermatocyte",
+                    "onto_id": "CL:0000017"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "The image shows a mouse spermatocyte in meiosis immuno-labeled for two components, SYCP3 (red) and SYCP1 green) of the synaptonemal complex. The red and green signals have been offset to facilitate visualization of the coincidence of staining in all except the sex chromosomes (arrow)."
+                },
+                "ATTRIBUTION": {
+                    "PUBLISHED": [
+                        "ML Watson et al. (1998) Proc Natl Acad Sci 95:14361-14366"
+                    ],
+                    "Contributors": [
+                        "Mark Watson",
+                        "Anmdrew Zinn",
+                        "Norimitsu Inoue",
+                        "Karl Hess",
+                        "John Cobb",
+                        "Mary Ann Handel",
+                        "Ruth Halaban",
+                        "Clark Duchene",
+                        "George Albright"
+                    ],
+                    "PUBMED": [
+                        "9826705"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "copyright"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL37083",
+            "ARK": "ark:/b7295/w9cil37083",
+            "Title": "Mark Watson, Anmdrew Zinn, Norimitsu Inoue, Karl Hess, John Cobb, Mary Ann Handel, Ruth Halaban, Clark Duchene, George Albright (2011) CIL:37083, Mus musculus, spermatocyte. CIL. Dataset"
+        }
+    }
+}

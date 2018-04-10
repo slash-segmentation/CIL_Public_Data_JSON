@@ -1,0 +1,112 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "218.tif",
+                    "Size": 100000
+                },
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "218.jpg",
+                    "Size": 7430
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "218.zip",
+                    "Size": 13732
+                }
+            ],
+            "CORE": {
+                "IMAGINGMODE": {
+                    "onto_name": "fluorescence microscopy",
+                    "onto_id": "FBbi:00000246"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "water uptake"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of epitope",
+                    "onto_id": "FBbi:00000592"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Arabidopsis thaliana",
+                    "onto_id": "NCBITaxon:3702"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "DIMENSION": [
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 120
+                        }
+                    },
+                    {
+                        "Space": {
+                            "axis": "X",
+                            "Image_size": 114
+                        }
+                    }
+                ],
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "PROCESSED"
+                },
+                "CELLTYPE": {
+                    "free_text": "root tip"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "At the root tips of the mustard plant Arabidopsis thaliana (cell walls shown in red), two proteins work together to control the uptake of water and nutrients. When the cell division-promoting protein 'SHORTROOT' (SHR) moves from the center of the tip outward, it triggers the production of another protein (blue) that confines 'Short-root' to the nutrient-filtering endodermis. See Fig 3C in H Cui et al. 2007 Science 316, 421-425"
+                },
+                "ATTRIBUTION": {
+                    "URLs": [
+                        {
+                            "Label": "BioMedical Beat",
+                            "Href": "http://publications.nigms.nih.gov/biobeat/07-05-16/"
+                        }
+                    ],
+                    "Contributors": [
+                        "Hongchang Cui",
+                        "Philip Benfey"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL218",
+            "ARK": "ark:/b7295/w9cil218",
+            "Title": "Hongchang Cui, Philip Benfey (2011) CIL:218, Arabidopsis thaliana, root tip. CIL. Dataset"
+        }
+    }
+}

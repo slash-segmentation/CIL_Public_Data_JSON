@@ -1,0 +1,103 @@
+{
+    "CIL_CCDB": {
+        "Status": {
+            "Deleted": false,
+            "Is_public": true
+        },
+        "CIL": {
+            "Image_files": [
+                {
+                    "Mime_type": "image/jpeg; charset=utf-8",
+                    "File_type": "Jpeg",
+                    "File_path": "26252.jpg",
+                    "Size": 102219
+                },
+                {
+                    "Mime_type": "application/zip",
+                    "File_type": "Zip",
+                    "File_path": "26252.zip",
+                    "Size": 8777758
+                },
+                {
+                    "Mime_type": "image/tif",
+                    "File_type": "OME_tif",
+                    "File_path": "26252.tif",
+                    "Size": 3000000
+                }
+            ],
+            "CORE": {
+                "PREPARATION": {
+                    "free_text": "in vivo electroporation"
+                },
+                "IMAGINGMODE": {
+                    "onto_name": "spinning disk confocal microscopy",
+                    "onto_id": "FBbi:00000253"
+                },
+                "CELLULARCOMPONENT": {
+                    "onto_name": "cell",
+                    "onto_id": "GO:0005623"
+                },
+                "BIOLOGICALPROCESS": {
+                    "free_text": "localization in CNS"
+                },
+                "RELATIONTOINTACTCELL": {
+                    "onto_name": "whole mounted tissue",
+                    "onto_id": "FBbi:00000024"
+                },
+                "SOURCEOFCONTRAST": {
+                    "onto_name": "distribution of a specific protein",
+                    "onto_id": "FBbi:00000597"
+                },
+                "NCBIORGANISMALCLASSIFICATION": {
+                    "onto_name": "Xenopus laevis",
+                    "onto_id": "NCBITaxon:8355"
+                },
+                "PARAMETERIMAGED": {
+                    "onto_name": "fluorescence emission",
+                    "onto_id": "FBbi:00000316"
+                },
+                "VISUALIZATIONMETHODS": {
+                    "onto_name": "EGFP",
+                    "onto_id": "FBbi:00000082"
+                },
+                "PROCESSINGHISTORY": {
+                    "onto_name": "montage",
+                    "onto_id": "FBbi:00000261"
+                },
+                "DATAQUALIFICATION": {
+                    "free_text": "RAW;spatialmeasurements"
+                },
+                "IMAGEDESCRIPTION": {
+                    "free_text": "Radial glial cell from right tectal lobe of Xenopus laevis tadpole CNS, stage 47. This radial glial cell expresses eGFP. It was transfected ~60 hours earlier with in vivo electroporation of plasmid DNA encoding eGFP. Spinning disk confocal microscope (Ultraview system, Perkin Elmer): Yokagowa CSU-X1 spinning disk confocal head mounted on an Olympus BX61WIF microscope with a 60X 1.1 NA objective (LUMFLN 60XW) and an EMCCD camera (Hamamatsu, c9100-50). A 488 nm laser was used with a 547(55) nm filter. Volocity (Improvision/Perkin-Elmer) was the acquisition software. This glial cell was too large to capture in one stack, therefore 2 separate Z-stacks were acquired that overlapped partially. Each stack was projected (max intensity) using ImageJ. The resulting .tifs were aligned and merged in Photoshop.  1 pixel = 0.344 micron."
+                },
+                "CELLTYPE": {
+                    "onto_name": "radial glial cell",
+                    "onto_id": "CL:0000681"
+                },
+                "ATTRIBUTION": {
+                    "Contributors": [
+                        "Jennifer Bestman"
+                    ]
+                },
+                "TERMSANDCONDITIONS": {
+                    "free_text": "public_domain"
+                },
+                "ITEMTYPE": {
+                    "onto_name": "recorded image",
+                    "onto_id": "FBbi:00000265"
+                }
+            }
+        },
+        "Data_type": {
+            "Time_series": false,
+            "Still_image": true,
+            "Z_stack": false,
+            "Video": false
+        },
+        "Citation": {
+            "DOI": "doi:10.7295/W9CIL26252",
+            "ARK": "ark:/b7295/w9cil26252",
+            "Title": "Jennifer Bestman (2011) CIL:26252, Xenopus laevis, radial glial cell. CIL. Dataset"
+        }
+    }
+}
