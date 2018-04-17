@@ -10,18 +10,18 @@ https://github.com/slash-segmentation/CIL_Public_Data_JSON/tree/master/Version8_
 ##### How to download our data
 Let's take CIL_10725 as an example.
 
-If $json->CIL_CCDB->Data_type->Video is set to be TRUE, then you can download the following files:
+If $json->CIL_CCDB->Data_type->Video is set to be TRUE, then you can download the following files using the `https://cildata.crbs.ucsd.edu/media/videos/` prefix:
 ```
 https://cildata.crbs.ucsd.edu/media/videos/10725/10725.jpg
 https://cildata.crbs.ucsd.edu/media/videos/10725/10725.flv
 https://cildata.crbs.ucsd.edu/media/videos/10725/10725.zip
 ```
 
-Otherwise, download the following files instead:
+Otherwise, download the following files instead using the `https://cildata.crbs.ucsd.edu/media/images/` prefix:
 ```
-https://cildata.crbs.ucsd.edu/media/images/13007/13007.jpg
-https://cildata.crbs.ucsd.edu/media/images/13007/13007.tif
-https://cildata.crbs.ucsd.edu/media/images/13007/13007.zip
+https://cildata.crbs.ucsd.edu/media/images/10725/10725.jpg
+https://cildata.crbs.ucsd.edu/media/images/10725/10725.tif
+https://cildata.crbs.ucsd.edu/media/images/10725/10725.zip
 ```
 
 There are alternative or supplemental files. You should check whether
